@@ -1,0 +1,1810 @@
+{
+  "task": "Task-Iris-TenMoves-042-20261017-184330",
+  "reports": [
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-185907-033202-author_moves.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "Role": "十招动作/FCS作者",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "f87cf3a00839b6564eda551a5d519249750972566f22f62d7d60e7330b7a1d5f",
+      "Changes": "追加源坐锤四脉冲、三次纯武器连招；原八招时序/数值/索引保持",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "51bd70c5fdf000ca6bfdc25284d12aad4f6096dbf5cf59e59669a0ed24f55457",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-185907-016118\\edit-185907-017120\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-185907-016118\\edit-185907-021723\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-185907-046929-fire_burst.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+      "Role": "全力末击独立范围",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "325b2565a1f58165365021facf4537dbff15c43b7ab3fe96a0a90ac30f1c855e",
+      "Changes": "用已有单位半径覆盖校准，R90保持；原fire_blast保留给小点火",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "d368d3437c94953d382694ef7b4e0973669471d1794a239b12637abc91a48b38",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-185907-016118\\edit-185907-036410\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-185907-016118\\edit-185907-038927\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-185907-063517-author_effects.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+      "Role": "新效果资源作者",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "6f62882ee74e8e8197105503fb558cef1f1c571389262e3fe362ef1c7acd0514",
+      "Changes": "全力末击独立full_blast；电脉仅原beam.nif五层/mIdle，不复制重建环与电弧",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "d6e2aecd088a381511870acbd418877cdbb135a724a936ed2966394dbe7c2ec8",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-185907-016118\\edit-185907-049165\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-185907-016118\\edit-185907-052508\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-185907-073022-IrisCombat.cpp.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "十招事件与视觉消费者",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "c343e9ee82d39551112b639ea5f28293d67d93549dd9fb3e213945f00a4700c1",
+      "Changes": "招式扩展、源炮击与纯武器连招；四次球R25/前20、无新钩子；全力视觉独立",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "3e30e5b1f96eccc44a74ed23f27f166e1c40a45986a796b2463e6656ea9c2f5d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-185907-016118\\edit-185907-067518\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-185907-016118\\edit-185907-069019\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8/CRLF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-185907-079531-IrisArsenal.cpp.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "042配套身份",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "14c38320969fb3b5ea856cf2fcd216c56d3358e537f15b12d1678d14aca5c65c",
+      "Changes": "十招/20FX/12曲线必须配套042 DLL，拒绝旧产物",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "72f8718dc68f0e19e787cbf563a8d30ddc759869fb780df2237e02fa518a23dc",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-185907-016118\\edit-185907-074021\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-185907-016118\\edit-185907-075554\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "encoding": "UTF-8/CRLF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-185907-084533-IrisArsenal.rc.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Role": "042配套身份",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "17c99d17598e7004214ec521cdf6c4b7472964d06fbace97535c3aa456dfb7cb",
+      "Changes": "十招/20FX/12曲线必须配套042 DLL，拒绝旧产物",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7f7d63c8dde4daa2a4976c7fe8f57661b8ee1441a80c732d1401afc6483630e2",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-185907-016118\\edit-185907-080531\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-185907-016118\\edit-185907-082533\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-185907-095051-stage_package.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Role": "042配套身份",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "f435135ddf14f1274b06221f2cce93482b568f61eac16525c7588679ae87a0d1",
+      "Changes": "十招/20FX/12曲线必须配套042 DLL，拒绝旧产物",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "82eadfb57c83b00e7b882f080faf1507f0c12bd5209d5427127ecc4f84560e9f",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-185907-016118\\edit-185907-086532\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-185907-016118\\edit-185907-088532\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-185907-101559-IrisArsenal.ini.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+      "Role": "十招配置默认值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a69c93ab9ea71a5639aa4f86838cf5e37118af04a74c55e82b2e7f880d298a25",
+      "Changes": "新增权重默认1，旧值保持",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "3360492b6bd23925decc323d015ddf3749873cbf259245d6fc9a48fc4714c9c0",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-185907-016118\\edit-185907-097053\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-185907-016118\\edit-185907-098555\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-185907-107559-IrisPackage.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "半包保护",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "b83a2d0f64d3b4f386206968879b7c46e372c946bc6f2f12003704d787740d6b",
+      "Changes": "本轮新合同拒绝旧DLL混装",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "aa30c5ae1e7e8a97c86f07534410a378b8074bdd99674d3fe8f28327db55329c",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-185907-016118\\edit-185907-102560\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-185907-016118\\edit-185907-104559\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190017-801063-muzzle_detail.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py",
+      "Role": "原枪口动态细节独立作者",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "读取原尺寸控制和角速度，附加源字段；不新增美术层或全局Shader布局",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "66d456881347599fe110faf4ff523ced85197a21826ab8da6199aa86da9ac6c6",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190017-815565-drill_particles.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+      "Role": "枪口专用顶点/材质路由",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "812d47fcb4650627c6dbf519795acb75efc0bbfdf7414b4cd6de58492259acaf",
+      "Changes": "新详情仅影响muzzle标记附件；其他粒子材质和48字节布局不变",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "602ab92082ac87ecaaeb1610000d3db020be4ee149b7347eb760f2f12c51ea8e",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190017-797153\\edit-190017-803065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190017-797153\\edit-190017-806875\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190017-827680-fire_burst.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+      "Role": "源枪口生命周期作者",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "d368d3437c94953d382694ef7b4e0973669471d1794a239b12637abc91a48b38",
+      "Changes": "五个原层/20触发/容量仍保持，补真实细尺寸曲线与逐粒自转，记录未实现Drag边界",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "baa6dfa2a2f73bb79ddebeedbf87c2515e58b836dc6f5e9f44ada46442806990",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190017-797153\\edit-190017-817146\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190017-797153\\edit-190017-820668\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190017-842837-author_effects.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+      "Role": "枪口程序声明与源码生成",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "d6e2aecd088a381511870acbd418877cdbb135a724a936ed2966394dbe7c2ec8",
+      "Changes": "仅新枪口顶点程序消费52字节UV3/17点/角速度，原透明度和帧图集共用",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "4406debe5aedd1df78ba32413932f61644f9154e7d3795337d24a9d906e5f460",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190017-797153\\edit-190017-828668\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190017-797153\\edit-190017-832795\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190127-557525-author_effects.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+      "Role": "枪口程序声明完整性",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "4406debe5aedd1df78ba32413932f61644f9154e7d3795337d24a9d906e5f460",
+      "Changes": "补上新IrisMuzzleVP声明，匹配52字节顶点程序；无新材质美术",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7474552dc17e53d0328c1d1e0ca071ec1c8ac4398fc4b832d386960741105a97",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-542409\\edit-190127-543537\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-542409\\edit-190127-547014\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190127-718707-IrisPackage.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "组包状态",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "aa30c5ae1e7e8a97c86f07534410a378b8074bdd99674d3fe8f28327db55329c",
+      "Changes": "资源重建时撤销旧ready",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "f0bec5128339daed6f07e18f74309f5fd7633ff5d0267bd2432bbd603feba80a",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190127-711199\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190127-714198\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190127-727710-IrisArsenal.ini.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+      "Role": "运行入口恢复",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a69c93ab9ea71a5639aa4f86838cf5e37118af04a74c55e82b2e7f880d298a25",
+      "Changes": "从package外模板恢复注册/默认配置/元数据",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "3360492b6bd23925decc323d015ddf3749873cbf259245d6fc9a48fc4714c9c0",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190127-720710\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190127-723711\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190129-791436-drill.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv",
+      "Role": "动作/部件/查询合同",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "947097cf9bab1996afd5e525005b776bd5abc792ed3ad67ff1bbb62976726c53",
+      "Changes": "八段轴向胶囊保守包络从实体顶点拟合；排除四张装饰光学面，当前不伤害",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "8e04365340e4194503fb00e28c8655f53b87f9d321a105610305f7a610f21912",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190129-785176\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190129-787229\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190129-879965-iris.material.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material",
+      "Role": "源材质适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "84ed6e05543534658d6a5ce3cc2ef4794fbd6ace3ba335e712278bc2df006efa",
+      "Changes": "实际diffuse/glow、源发光颜色、UV与alpha；不沿用艾芙尼尔绿色",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "42034ab72acba932c956f23821849bfcf5517f1c4b07baa40f11a25145121371",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190129-874748\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190129-877460\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190154-380055-iris_action_electro_cannon_male.skeleton.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_male.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "b5fce92d8d8294d596ba0b3d417c4a523c40b5e361dd4725dbfd0acb96204964",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190154-385531-iris_electro_cannon_weapon_proof_male.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_electro_cannon_weapon_proof_male.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "a257868575526b8b51c2884848d8a85716fc975d3afca736f600ea79d8f085fc",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190154-614841-iris_action_electro_cannon_female.skeleton.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_female.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "bcd1ffa341c2f4678a2b60963528ad347a5428d437c078d9a9c8d69a28e18677",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190154-616840-iris_electro_cannon_weapon_proof_female.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_electro_cannon_weapon_proof_female.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "bc8178d5c5ea560af6998941bf95176bd4fdf912178d87f8af27cadc48b0e550",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190155-840247-iris_action_hammer_combo_male.skeleton.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_hammer_combo_male.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "ca36dc2e33182f3cb1398d9eab6ac32031449a4df12aa1770f817c4dc5275194",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190155-842847-iris_hammer_combo_weapon_proof_male.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_hammer_combo_weapon_proof_male.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "02a99ad2bfafc4d15099f1c753dcfd44f77bf2e2047ae1cb39426a9736d58a0e",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190155-987855-iris_action_hammer_combo_female.skeleton.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_hammer_combo_female.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "1b64eec17567e225f70a9a8713b503187ee229a527a2cdcd7806b349d6221751",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190155-989963-iris_hammer_combo_weapon_proof_female.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_hammer_combo_weapon_proof_female.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "27f1a37c1d4545c2e7ed6cba8b03ce53e0aae3ad9572b249c6b6bf6a664caf02",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190156-009759-IrisArsenal.mod.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+      "Role": "八招隔离FCS记录",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a0e7b1e65574f6d752e669649b1a3221c1d19695928e5d26d428a9cdaf367443",
+      "Changes": "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "a3f4dc1222a5378f0c5ff4a1a4658792a08f57ac1f53ecd34b427912ddd6463f",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190156-002735\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190156-007238\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190156-042679-eight-moves.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+      "Role": "八招源身份/时序/重定向合同",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "876b108210a7f90de120814058f0687d19deb8806b4e7fe079c679a96fd78661",
+      "Changes": "源HKX时间统一映射；火神20发、脉冲3发、地震4震、钻头11脉冲加炮弹",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "bdcf4c331dce5df49da4dfbf1959e6747bfa4093d0fdcf5a9cf356867afeeaff",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190156-032425\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190156-036667\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190156-054653-effect_cues.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_cues.csv",
+      "Role": "源视觉触发时间流",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "89f38684958ca1febfd35b791e474479112bd7f3a7e12e1ae9b2bf0c706cc0d3",
+      "Changes": "源尾焰/枪体/清理/点火/charge3提示独立时钟，不新增伤害",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "1ae9b2ac50bd2fc68f8bc71d01f4d95b69d5eb85fb12fcd6dedb9c552398e072",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190156-046679\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_cues.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190156-050363\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_cues.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190156-064858-moves.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+      "Role": "八招运行时事件流",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "84a6a5e871ff7d6cd05d9a8e6801d13d916565e4e8c884d062687e6bfd5ea837",
+      "Changes": "编号/帧长/事件类型/倍率/半径；与身体FCS时间共同消费，严格8招和事件数",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "a8f2cc73ab27674c9eba0938eb2c6dbe7d4d971c9589540d5cbe71db240c4b63",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190156-057735\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190156-061806\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190217-086215-fire-full-042.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-full-042.json",
+      "Role": "原火焰引用证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "FullBust_End到原FireWave七发射点与六片曲面；不是通用火球",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "c3655f3843581efd5a5b0ce59465febf349152151e4fa154d4a9bf9281752df9",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190217-101228-iris_fx_full_blast.mesh.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_full_blast.mesh",
+      "Role": "原资源效果网格",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "c9145369267bf5e13be52740e0785103bc6465ef1237d6a065aee1c001aa7326",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190217-471476-iris_fx_electro_burst.mesh.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_burst.mesh",
+      "Role": "八招源特效网格",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "1a481bbd7330efbfb350d3e7bf9d6a7e06b1c5f44404af520e4d9be1682fe90e",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190217-952632-muzzle-fire-042.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\muzzle-fire-042.json",
+      "Role": "枪口引用/有限容量证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "原NAM1和ADDN09，和飞弹/准星资源、医疗完全分开",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "f9e4c18f1b8b2bb76c59aa779f8239188b1435fc4b184f96e0075658ae3b5d9c",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190217-963150-iris_fx_muzzle_fire.mesh.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle_fire.mesh",
+      "Role": "原资源效果网格",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "b1825b5f56a5d942b88806652047b8167407c8f4efe21e9202aa2a830370f60a",
+      "Changes": "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "618e8d92bb56deea3f551ba9b911df4338ddbfef0c1a5b450678797147ffd3f8",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190217-955634\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle_fire.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190217-960149\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle_fire.mesh"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190229-210155-iris_eight.hlsl.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+      "Role": "八招源光学适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "5d956242ea205747c1a30387335bfc35566ebad18041df9efeac144de7744f82",
+      "Changes": "源RGBA/梯度/UV流动/自发光，实例游戏时钟；不编译着色器",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "9a30099189f37ce6070879c8c9720d407bb6811100ecd274c529af58ce358094",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190229-204126\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190229-207131\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190229-218734-iris_eight.program.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "八招GPU程序声明",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "2e39fd11e0697ead6997a83e0e3b482fbfb89b7415e4b5258af864bd7bf410b8",
+      "Changes": "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "ef7fc582c5f5a70c7baa4df262d82e51f487a0795ed322b8da3dcc26dd8689fd",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190229-212010\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190229-215731\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190229-321232-iris_eight.material.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+      "Role": "八招源材质",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "37fcd1d69c265392cefc65003223023834a3cc4ac0008ea466e12fa4d69f12b7",
+      "Changes": "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "38084ce7a1fb1dd49e2b3c637fe71d0f4d233d5187f7312cd0e55c1def5145c4",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190229-315201\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190229-319228\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190229-328911-iris_eight.program.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "真实轨迹程序",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "ef7fc582c5f5a70c7baa4df262d82e51f487a0795ed322b8da3dcc26dd8689fd",
+      "Changes": "沿用源火色梯度与实际历史alpha，不新增伤害",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190229-323232\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190229-326244\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190229-337427-iris_eight.program.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "平面准星程序",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+      "Changes": "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "bf8ab4fb235393c6622425dcccfd1aaa8ace7190f6a54980f37ed4cda84b9514",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190229-330933\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190229-334247\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190229-350840-eight-effects.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+      "Role": "八招特效来源与差异",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a63e548ef294fa3adcad38371bb5e7a46c770b64c5f9e68432496faf9f7418e4",
+      "Changes": "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "ee018ea6b9bc42034d901be8a23ed4f0966057822bd7a6ce764ef45910d6fc29",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190229-345310\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190229-347319\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190229-452659-effect_curves.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+      "Role": "分层源光学时间流",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "4ef6f926e93d0841eb9c7973010c22981a6ae77a6f3fa9d6109c6651214e9a97",
+      "Changes": "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "65810c4b269c033ba53325d647ee5afcdba1443d675efe778db020b4462895d5",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190229-433062\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190229-439071\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190229-462959-effects.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+      "Role": "运行时显式子材质绑定",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "4641ce1ac80df9301d424e476c265933cec204e3f7e5ae801b2b3b99c135f98a",
+      "Changes": "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "4e4d09ddfeb54f1e4f69b7d1bb8b815053e9576eeec948ccef1ced17ddc431a4",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190229-455427\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190229-458701\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190230-868650-drill.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv",
+      "Role": "运行时绑定文本",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "8e04365340e4194503fb00e28c8655f53b87f9d321a105610305f7a610f21912",
+      "Changes": "只替换19层绑定名；头、时间、几何及八胶囊数值不变，现有v2消费者可读",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "947097cf9bab1996afd5e525005b776bd5abc792ed3ad67ff1bbb62976726c53",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190230-860025\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190230-865253\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "需整包带新program/material/shader/PNG"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190230-878174-iris.material.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material",
+      "Role": "旧材质兼容纹理引用",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "42034ab72acba932c956f23821849bfcf5517f1c4b07baa40f11a25145121371",
+      "Changes": "只将钻头旧能量材质纹理引用改为同像素PNG；普通武器材质/参数保持",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "84ed6e05543534658d6a5ce3cc2ef4794fbd6ace3ba335e712278bc2df006efa",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190127-709175\\edit-190230-871261\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190127-709175\\edit-190230-873501\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "运行时钻头实际使用独立新材质"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-286931-IrisCombat.cpp.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "电脉原枪口附着",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "3e30e5b1f96eccc44a74ed23f27f166e1c40a45986a796b2463e6656ea9c2f5d",
+      "Changes": "原beam局部轨道附着与现有源枪口统一位置；球心仍由演员前20独立定义，不随目标改向",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "b0d7315f46d32ffd0b43330fed01826b1a4d173d28016142595ecafa1a2dc50d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-280930\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-283932\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8/CRLF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-299836-verify_moves.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "75cbaf6fa607a090c14d4e839f49565682e9bdbef775b37c21efda22b8ce21b7",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "f9e1f38d6ab106d562864157ff9e8c1d5c426bae205b5e025d2d8357edf0ced8",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-288841\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-291935\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-314215-test_animation_references.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_animation_references.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "08b45460fd340aab783180aa425e4dae72a4eb03f1f551d6ae6954e648b7aaa2",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "38042fc155fc22e129cd217c842e69e88a5d9b0c0cf5b7de6a1b242f4950db96",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-301983\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_animation_references.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-303969\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_animation_references.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-324798-test_drill_037.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "c4ba79f4dc44277cdc6d5cd7b20c3b9e521f318272b9ed67762e4a6c9c032a64",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "cf0ff63e329d955c0f05a120f8ceae88a6b4a285539e21a3e958c516480667f2",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-315657\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-317659\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-334130-test_fx_timeline.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "5fd6787af4bae2b47f8dbd770f19b2b1bc31c2b96ed492e4acdb73e28ec506a6",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "0b21c559762d28d736cef6bd07f7c621d7b102fc17ae0a813ab4e5d67216a85b",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-326147\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-328251\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-345074-test_vulcan_contract.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "67d8885c0045b17ca26db4d2b31d1b8e2cd7a754b1fb76177f15ffee89a41272",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7bf9b15b72621c651083a37b40072752227de142c6c7c384e8e34537027830ba",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-336120\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-337657\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-356859-test_ranged_contract.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "6680a704d49a4c2c9b6da7378ba6a8f6c9d61b1a7ae3a9f685a85c29a42cca4d",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "a3bad0a662123d3613fbb4923a5587bc78c3e777189244f86828d965286ccbee",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-346074\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-349857\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-367364-test_drill_r120.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_r120.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "7f5f6d19c4ea9359511866ef1c9096d64bcd14e9c4e9266e8980d856d8eb0df5",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "c617d785403e49e7a21fd13487ce4449ec8e48baddb9ffe33b80006bf5cc55a4",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-358859\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_r120.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-361364\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_r120.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-379852-test_source_fire040.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "1c025bb23d351ceda9ae465b57d162629af81ac0f737b4545749276a84ce478a",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "bb66af969be6c454dbaa2a613e691bf0207e98d12b6ecf6e0e90cdce2b2d983d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-369869\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-372870\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-392245-test_cannon_quake.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "9f93295a3ddc91dd6601ae521abecc0cf88a2bd1b0fac7fef276d8361faaf284",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "e5a3107b8ba722771a79dd160e6e979a10a8ee976b99f1e00bf76cede9a02135",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-381851\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-384852\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-408148-test_combat_036.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+      "Role": "十招跨层回归适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "74b41afaf3c97d7458de959f1d1b0a27764e2d9c0d4ef018079fcc273c306207",
+      "Changes": "更新十招/20FX/12曲线和新枪口布局；原伤害/故障/生命周期案例保留",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "8ee6d0a077fcc89f9130c73f7a8bfc855d38c44b6a7375a770670c276f66abf1",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-394651\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-397642\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190323-419694-test_drill_visibility.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py",
+      "Role": "真实顶点回读工具",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "ce5ada360bc4680ccdd937fb4999598f3f3fe9100fd421c60eb13dbfaca984a2",
+      "Changes": "同时检查48旧布局与52枪口布局，保留原声称的声明/数据一致验证",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "5c20f0ab7109295e10942c61e69270e460d1a6d7ab973ce301024e93229c6d39",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190323-279227\\edit-190323-410171\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190323-279227\\edit-190323-413172\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190514-378646-author_effects.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+      "Role": "电脉源短光束适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "7474552dc17e53d0328c1d1e0ca071ec1c8ac4398fc4b832d386960741105a97",
+      "Changes": "保留原径向/五层/材质，只纵向归一，长度由前20/R25的最远平面限制；不让近战光束显示119远",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "fbc3187d259b11f30191fee773692a0e4c6e8e15437cdeb7989822265f4a006c",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-361241\\edit-190514-363241\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-361241\\edit-190514-366563\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190514-386974-IrisCombat.cpp.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "电脉可见长度/命中坐标一致",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "b0d7315f46d32ffd0b43330fed01826b1a4d173d28016142595ecafa1a2dc50d",
+      "Changes": "当前源枪口到用户球最远前平面的距离驱动光束；原横截面、起手朝向保持，未改医疗/物理球",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "6748b845b43ff589803202a81bdce3d88dc460b4f46cc8d95dcab8aee6f6df30",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-361241\\edit-190514-381646\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-361241\\edit-190514-383474\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8/CRLF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190514-395918-test_vulcan_contract.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+      "Role": "新增球形特效与普通连招回归",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "7bf9b15b72621c651083a37b40072752227de142c6c7c384e8e34537027830ba",
+      "Changes": "新增电脉物理事件破格挡/闪避，普通连招仍保留；全力新的显示路由",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "6f8f61ef8a87f69e7ec51b374e51675bbfb1e250b0998109491f37e081f20c53",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-361241\\edit-190514-387917\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-361241\\edit-190514-389919\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190514-405923-test_combat_036.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+      "Role": "新增球形特效与普通连招回归",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "8ee6d0a077fcc89f9130c73f7a8bfc855d38c44b6a7375a770670c276f66abf1",
+      "Changes": "新增电脉物理事件破格挡/闪避，普通连招仍保留；全力新的显示路由",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "f08ce7003ff946f43223331552d050f1af3ca8c35830295cfb15ff8c822f13cf",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-361241\\edit-190514-396918\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-361241\\edit-190514-398920\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190535-524840-iris_fx_electro_burst.mesh.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_burst.mesh",
+      "Role": "八招源特效网格",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "1a481bbd7330efbfb350d3e7bf9d6a7e06b1c5f44404af520e4d9be1682fe90e",
+      "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "0666208acd1785034757dd3d6c3152acec37576ff1590430c8bc5be3d4ad172a",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-714980\\edit-190535-508347\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_burst.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-714980\\edit-190535-518842\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_burst.mesh"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190546-094639-iris_eight.program.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "八招GPU程序声明",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "bf8ab4fb235393c6622425dcccfd1aaa8ace7190f6a54980f37ed4cda84b9514",
+      "Changes": "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "ef7fc582c5f5a70c7baa4df262d82e51f487a0795ed322b8da3dcc26dd8689fd",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-714980\\edit-190546-084638\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-714980\\edit-190546-089647\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190546-217185-iris_eight.program.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "真实轨迹程序",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "ef7fc582c5f5a70c7baa4df262d82e51f487a0795ed322b8da3dcc26dd8689fd",
+      "Changes": "沿用源火色梯度与实际历史alpha，不新增伤害",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-714980\\edit-190546-208270\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-714980\\edit-190546-212528\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190546-225052-iris_eight.program.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "平面准星程序",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+      "Changes": "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "bf8ab4fb235393c6622425dcccfd1aaa8ace7190f6a54980f37ed4cda84b9514",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-714980\\edit-190546-218599\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-714980\\edit-190546-222049\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190546-238290-eight-effects.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+      "Role": "八招特效来源与差异",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "ee018ea6b9bc42034d901be8a23ed4f0966057822bd7a6ce764ef45910d6fc29",
+      "Changes": "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "d5fb53905d55d65c0ab986c7facc93bb7a1f16178614778becd6d263f0153707",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-714980\\edit-190546-232361\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-714980\\edit-190546-235283\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190546-339611-effect_curves.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+      "Role": "分层源光学时间流",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "65810c4b269c033ba53325d647ee5afcdba1443d675efe778db020b4462895d5",
+      "Changes": "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "9e45a1672fb6e8e1dc6f34e17099ed907bb260358516d2a614bcb89a0f856f4f",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-714980\\edit-190546-318241\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-714980\\edit-190546-326241\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190546-349660-effects.csv.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+      "Role": "运行时显式子材质绑定",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "4e4d09ddfeb54f1e4f69b7d1bb8b815053e9576eeec948ccef1ced17ddc431a4",
+      "Changes": "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "346e59a180f930a5045d4ad0dbd002f6a6211d6ef84b75e0548e1f027da6e897",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190514-714980\\edit-190546-342657\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190514-714980\\edit-190546-345669\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190614-698439-muzzle_detail.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py",
+      "Role": "枪口程序参数合同",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "66d456881347599fe110faf4ff523ced85197a21826ab8da6199aa86da9ac6c6",
+      "Changes": "删除新程序已不消费的5点参数绑定；保留旧48字节路径不受影响",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "ec563a9957ab8818c069cd681d091fb87eab4b53f0c4bb68dc9a54037c6ff027",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190614-688865\\edit-190614-690120\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190614-688865\\edit-190614-692439\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190645-617617-iris_eight.hlsl.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+      "Role": "八招源光学适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "9a30099189f37ce6070879c8c9720d407bb6811100ecd274c529af58ce358094",
+      "Changes": "源RGBA/梯度/UV流动/自发光，实例游戏时钟；不编译着色器",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "50d9454b32c8a287dc64a05c0a175f621b31c2e0da62122f2064dcdde57d66e7",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190615-004796\\edit-190645-609381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190615-004796\\edit-190645-613614\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190645-624862-iris_eight.program.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "八招GPU程序声明",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "bf8ab4fb235393c6622425dcccfd1aaa8ace7190f6a54980f37ed4cda84b9514",
+      "Changes": "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "ef7fc582c5f5a70c7baa4df262d82e51f487a0795ed322b8da3dcc26dd8689fd",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190615-004796\\edit-190645-618617\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190615-004796\\edit-190645-620861\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190645-712675-iris_eight.material.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+      "Role": "八招源材质",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "38084ce7a1fb1dd49e2b3c637fe71d0f4d233d5187f7312cd0e55c1def5145c4",
+      "Changes": "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "5808adcb98f537c840b164d6ef05bb6a322e74fb0106a52503505ec5f2b25b66",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190615-004796\\edit-190645-705673\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190615-004796\\edit-190645-709675\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190645-719163-iris_eight.program.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "真实轨迹程序",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "ef7fc582c5f5a70c7baa4df262d82e51f487a0795ed322b8da3dcc26dd8689fd",
+      "Changes": "沿用源火色梯度与实际历史alpha，不新增伤害",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190615-004796\\edit-190645-713675\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190615-004796\\edit-190645-716114\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190645-725621-iris_eight.program.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "平面准星程序",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+      "Changes": "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "bf8ab4fb235393c6622425dcccfd1aaa8ace7190f6a54980f37ed4cda84b9514",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190615-004796\\edit-190645-720121\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190615-004796\\edit-190645-722197\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190755-528599-test_ten_moves042.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ten_moves042.py",
+      "Role": "十招新增行为/实际产物回归",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "真实source→事件→52字节缓冲→材质/曲线→有限球作业；原八招逐值比较，不冒充运行时",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "4e50264b147de330b9df4adb5a5721b8f990577d0003db079093dd12cebb1c7b",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190755-543330-verify_moves.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Role": "十招验收入口",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "f9e1f38d6ab106d562864157ff9e8c1d5c426bae205b5e025d2d8357edf0ced8",
+      "Changes": "加入新源动作/球形判定/纯武器/火焰覆盖/枪口声明的实际资源验证",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "34f268c887ef258ec00b6bf06793a98f0240c88582232680d23030205cd359a8",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190755-523369\\edit-190755-531599\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190755-523369\\edit-190755-534328\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190844-588345-test_drill_037.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+      "Role": "分层材质回归合同",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "cf0ff63e329d955c0f05a120f8ceae88a6b4a285539e21a3e958c516480667f2",
+      "Changes": "原五枪口层独立程序、追加全力两材质；仍严格检查全部15粒子材质及共享FP",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7d96bcd30a02e73b1d2ea4a4e82bd56e916bf08d32a557be3009e61926337a05",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190844-576686\\edit-190844-578174\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190844-576686\\edit-190844-580508\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-190911-592595-test_drill_visibility.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py",
+      "Role": "分层Tint参数验收",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "5c20f0ab7109295e10942c61e69270e460d1a6d7ab973ce301024e93229c6d39",
+      "Changes": "新full_blast两层增加15套粒子Tint；保留原两层相机卡验证",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7653cc32449ce5945ee7a8735e93c61f57f3bda6e6e047f087f858861b3defd2",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-190911-581624\\edit-190911-582641\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-190911-581624\\edit-190911-585632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191006-818503-test_combat_036.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+      "Role": "12条曲线生产消费对照",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "f08ce7003ff946f43223331552d050f1af3ca8c35830295cfb15ff8c822f13cf",
+      "Changes": "更新本轮实际12曲线，继续从实际C++解析常量交叉校验",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "c522e75be66bd6cd6975d19077da82599703828dd1875456027cc8931a9e10db",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-191006-805005\\edit-191006-806031\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-191006-805005\\edit-191006-809636\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191147-246233-test_range_metal041.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_range_metal041.py",
+      "Role": "保留041范围校准回归",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "6430236bfb0428884a52a21904475f0e47ac824b42e262e8c5f39bd7de6e5635",
+      "Changes": "全力新增独立路由；继续核对翻滚、蓝相、源灰金属均未退化",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "b1ff8f8dfb23944d02af5698fe7dd972f73ff20d0f57d3a1e4c11139a397d272",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-191147-235278\\edit-191147-236278\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_range_metal041.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-191147-235278\\edit-191147-239280\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_range_metal041.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191202-434015-validation-0.4.2.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.2.json",
+      "Role": "八招非编译验收证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "16份真实骨架/握点、源事件、18个特效网格、源纹理、FCS、查询接口和语法树",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "89b08ed9d9bea9817862c43d740d7282497ebf186bec455e8f805ff3105da370",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "未编译、未游戏测试，不能据此宣布最终完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191348-077910-IrisArsenal.cpp.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "042诊断身份",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "72f8718dc68f0e19e787cbf563a8d30ddc759869fb780df2237e02fa518a23dc",
+      "Changes": "日志反映真实十招和当前源火浪路径，不把旧039通用火球信息写成当前证据",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7dc8c3a679022149182c97e45bc722570055186fd888858ce81e295c3d11068d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-191348-068385\\edit-191348-070384\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-191348-068385\\edit-191348-072920\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "encoding": "UTF-8/CRLF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191348-086236-IrisCombat.cpp.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "042诊断身份",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "6748b845b43ff589803202a81bdce3d88dc460b4f46cc8d95dcab8aee6f6df30",
+      "Changes": "日志反映真实十招和当前源火浪路径，不把旧039通用火球信息写成当前证据",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "3c5ac6013e20a9788298cf8f814e51c6c02458442b4eb1d0de1dc26ab02d7b07",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-191348-068385\\edit-191348-080104\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-191348-068385\\edit-191348-083015\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8/CRLF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191348-099599-verify_moves.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Role": "验收记录计数",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "34f268c887ef258ec00b6bf06793a98f0240c88582232680d23030205cd359a8",
+      "Changes": "同步实际20份男女动作/20特效记录，保留未编译和未实机边界",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "5264e0ef74468f6688194162d68fadf1e56e7f19ce09efa78baf763de9ac8e69",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-191348-068385\\edit-191348-087238\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-191348-068385\\edit-191348-090495\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191348-102102-ten-moves-042-authorization.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\ten-moves-042-authorization.json",
+      "Role": "本轮明确范围及选择记录",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "记录当前四点请求、三次纯武器确认和制作默认值",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7a1cc26b751111d07c2fdc6b398a406d1488d1024e1c1c92d37d700c0f9b407c",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191403-864687-validation-0.4.2.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.2.json",
+      "Role": "八招非编译验收证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "89b08ed9d9bea9817862c43d740d7282497ebf186bec455e8f805ff3105da370",
+      "Changes": "20份真实骨架/握点、源事件、20个特效网格、源纹理、FCS、查询接口和语法树",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "b1f6292aa3abec0edead8fd7cc791311739e364efb0822cf551e29d43dcee0cd",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-191348-340015\\edit-191403-858264\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.2.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-191348-340015\\edit-191403-860578\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.2.json"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "未编译、未游戏测试，不能据此宣布最终完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191746-112331-IrisPackage.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "042待编译完整资产清单",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "f0bec5128339daed6f07e18f74309f5fd7633ff5d0267bd2432bbd603feba80a",
+      "Changes": "记录新合同/实际资产哈希和ready=false；旧DLL拒绝，未部署",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "a11826bed07fee70edba0ded56cdfae96391a80e80f5b4249d870823ae5b7681",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-191745-698179\\edit-191746-104582\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-191745-698179\\edit-191746-107128\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191746-123144-stage_package.py.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Role": "正式组包合同",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "82eadfb57c83b00e7b882f080faf1507f0c12bd5209d5427127ecc4f84560e9f",
+      "Changes": "配套042用户DLL组包时记录52字节枪口布局；不代编译或部署",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "80eb87f5e31e679ab0849dfab7c9083c51a89a1ff22c1a81f82cc0ed753863f1",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-191745-698179\\edit-191746-113679\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-191745-698179\\edit-191746-116727\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191746-160504-ten-moves-042-evidence.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\ten-moves-042-evidence.json",
+      "Role": "新十招源链及验收证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "保存原SPEL886/MGEF884/PROJ885、代码/资产测试和实际游戏041未改",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "2ea4acd061f77950c8a8d1c7a1b991d7d8693d28f0bef4c149e33eb72bb10571",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191746-163430-ten-moves-042.md.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\ten-moves-042.md",
+      "Role": "完整源证据和改动说明",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "列出新招式默认值、纯武器确认、源枪口适配、范围和未实机边界",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "6d5cbe003ac1a21a084ece5fdcbba29e91708df07252868e85d4db5a624c1adc",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191746-170737-STATE.md.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "Role": "当前状态",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "33bea179c1749f35dd23e1bd4de30c57af770392a610252004a90bd012176794",
+      "Changes": "042十招待编译、游戏041实际身份与边界；保留全部历史",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "e3d9a546cd7093333e8175a4134139f2a99a56e63b71e167ba0cbbaf11ed93ed",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-191745-698179\\edit-191746-165494\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-191745-698179\\edit-191746-167741\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-191939-997175-ten-moves-042-notes-report.json.json",
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\ten-moves-042-notes-report.json",
+      "Role": "经验追加逐文件报告",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "双备份/编码保持/不改历史",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "f994059f7955a24170eb7ff5cea074d05018bc0eace329be1a5dcffc423aabcd",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成"
+    }
+  ],
+  "external_note_report": {
+    "File": "E:\\AIWorkSpace\\_notes\\code-notes.md",
+    "Role": "共用经验日志追加",
+    "Code location": "末尾042条目",
+    "Before": "9d5da06d7c37766674de3260a1438d69e64f8b36b727586ed69eb10d724e1f9f",
+    "Changes": "记录原枪口遗漏动态、独立火焰范围、新两招源事件和十招索引边界",
+    "Reasons": "本轮用户四点修改与三次纯武器确认",
+    "After": "0af98e4a6ad4e12e4bfd4fb254ab184fd41da7df81779a51fed820e190260dca",
+    "Impact": "只追加经验，不改历史或其他项目",
+    "Validation": "原字节前缀保持/严格UTF-8/新增中文乱码检查",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\Iris042Notes-20261017-191939-991054\\E\\AIWorkSpace\\_notes\\code-notes.md",
+        "E:\\AIWorkSpace\\_backups\\Iris042Notes-20261017-191939-991054\\E\\AIWorkSpace\\_notes\\code-notes.md"
+      ],
+      "encoding": "UTF-8/CRLF"
+    },
+    "Unresolved": "用户编译和实机验收"
+  },
+  "compilation": "not run",
+  "deployment": "not run",
+  "validation": "完整非编译、十招跨层/实际产物和11同步脚本测试通过；实际GPU/FPS待用户"
+}

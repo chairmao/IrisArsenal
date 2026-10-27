@@ -1,0 +1,220 @@
+{
+  "version": "0.4.2",
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-TenMoves-042-20261017-184330",
+  "contract": "IRIS_EIGHT_042",
+  "source_frames": [
+    "hammer-source.jpg",
+    "electro-source.jpg",
+    "electro-opening.jpg",
+    "muzzle-source.jpg",
+    "source-cannon-poses.jpg"
+  ],
+  "source_cannon_chain": {
+    "0x886": {
+      "type": "SPEL",
+      "fields": [
+        [
+          "EDID",
+          "beam"
+        ],
+        [
+          "OBND",
+          "000000000000000000000000"
+        ],
+        [
+          "FULL",
+          "6265616d00"
+        ],
+        [
+          "ETYP",
+          "423f0100"
+        ],
+        [
+          "DESC",
+          "00"
+        ],
+        [
+          "SPIT",
+          "000000000000000000000000000000000100000002000000000000000000000000000000"
+        ],
+        [
+          "EFID",
+          "84080004"
+        ],
+        [
+          "EFIT",
+          "0000803f0000000000000000"
+        ],
+        [
+          "EFID",
+          "14080004"
+        ],
+        [
+          "EFIT",
+          "0000a040000000003c000000"
+        ]
+      ]
+    },
+    "0x884": {
+      "type": "MGEF",
+      "fields": [
+        [
+          "EDID",
+          "beam"
+        ],
+        [
+          "FULL",
+          "6265616d00"
+        ],
+        [
+          "MDOB",
+          "72db0900"
+        ],
+        [
+          "KSIZ",
+          "01000000"
+        ],
+        [
+          "KWDA",
+          "3c0e0002"
+        ],
+        [
+          "DATA",
+          "051820100000000000000000ffffffffffffffff00000000aa2d03000000803f9947070000000000000000000000000000000000000000000000000000000000000000001800000085080004a00b00020100000002000000fffffffff50b0200954707009847070000000000000000000000803f000000000000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        [
+          "DNAM",
+          "00"
+        ],
+        [
+          "CTDA",
+          "0000000000000000c501000000000000000000000000000000000000ffffffff"
+        ],
+        [
+          "CTDA",
+          "0000000000000000470000004ec80500000000000000000000000000ffffffff"
+        ]
+      ]
+    },
+    "0x885": {
+      "type": "PROJ",
+      "fields": [
+        [
+          "EDID",
+          "beam"
+        ],
+        [
+          "OBND",
+          "000000000000000000000000"
+        ],
+        [
+          "MODL",
+          "SW\\Iris\\beam.nif"
+        ],
+        [
+          "MODT",
+          "020000000000000000000000"
+        ],
+        [
+          "DATA",
+          "02000100000000000080a24400002f449b47070000000000000000000000000000000000a00b000200000000000000000000004100002041000000000000000000000000cdcc1c410000f041000000000000803e0000000000000000"
+        ],
+        [
+          "NAM1",
+          ""
+        ],
+        [
+          "VNAM",
+          "01000000"
+        ]
+      ]
+    }
+  },
+  "checks": {
+    "source_events": {
+      "electro": [
+        1.7999999523162842,
+        2.049999952316284,
+        2.299999952316284,
+        2.5999999046325684
+      ],
+      "hammer": [
+        0.3333199918270111,
+        0.6333079934120178,
+        1.1999579906463622
+      ]
+    },
+    "electro_sphere": {
+      "forward": 20,
+      "radius": 25,
+      "events": 4,
+      "multiplier_each": 1,
+      "collision": "existing native sphere queue"
+    },
+    "hammer": {
+      "weapon_hits": 3,
+      "unarmed_events": 0,
+      "special_damage": false,
+      "effects": false,
+      "block_dodge": "native"
+    },
+    "full_blast": {
+      "scale": 3.2029651020738217,
+      "world_radius95": [
+        102.69954907541451,
+        98.94540757303875,
+        91.65056633282818,
+        102.74116528205326,
+        91.60964007320827,
+        99.09757309083811,
+        89.99999809901821,
+        98.3848140151012,
+        96.01305946600684,
+        97.37993310521489,
+        102.3140783345052,
+        97.96543159253584
+      ],
+      "physical_radius": 90
+    },
+    "muzzle": {
+      "layers": 5,
+      "triggers": 20,
+      "stride": 52,
+      "size_samples": 17,
+      "rotating_source_layers": 3,
+      "particles": [
+        393,
+        240,
+        79,
+        120,
+        78
+      ],
+      "Drag_turbulence": "not implemented"
+    },
+    "old_eight_specs_unchanged": true,
+    "hooks": 17,
+    "compiled": false,
+    "game_tested": false,
+    "GPU_verified": false
+  },
+  "update_tests": 11,
+  "game": {
+    "actual_version": "0.4.1",
+    "files_checked": 125,
+    "mismatches": [],
+    "modified_by_this_task": false
+  },
+  "old_DLL_gate": "DLL与当前资源合同不一致，请重新编译 Release|x64 / v100",
+  "compile": {
+    "C++": false,
+    "HLSL": false,
+    "link": false
+  },
+  "game_tested": false,
+  "FPS_measured": false,
+  "remaining": [
+    "GPU着色器编译/视觉与性能待用户实机",
+    "完整Skyrim NiPSys Drag/受控湍流和3D随机旋转轴未执行",
+    "电脉沿既有源坐锤姿势导出，与当前远程drive的源片段相同；本轮保留旧drive，新增独立近战球事件；不能称两者姿势已重新区分"
+  ]
+}

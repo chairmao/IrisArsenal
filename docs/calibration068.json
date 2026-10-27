@@ -1,0 +1,313 @@
+{
+  "clock_scope": [
+    "roll_blast",
+    "drill_blast",
+    "full_blast",
+    "vulcan_impact_blast",
+    "pulse_blast"
+  ],
+  "clock_exclusions": [
+    "shock",
+    "electro_area",
+    "beam",
+    "projectile_flight",
+    "attached_visuals"
+  ],
+  "contract": "IRIS_BURST_CALIBRATION_068",
+  "alpha": "FadeOutPercent is fade-start, not duration",
+  "detached_clock": "game_seconds rate=1; spawn timing still native animation",
+  "scope": [
+    "roll_blast",
+    "drill_blast",
+    "full_blast"
+  ],
+  "particle_sort": "unchanged birth-order; no shared IndexData or cross-thread GPU mutation added",
+  "subtex_limit": "原图集仍按归一寿命取帧；源SubTex随机起帧/精确播放速率尚未移植，不伪称完整NiPSys",
+  "cases": {
+    "roll_blast": {
+      "source": [
+        {
+          "layer": 6,
+          "source": "FireBallExp01.nif",
+          "system": "pFireBall",
+          "sizes": 24,
+          "rotation": {
+            "speed": 0.3490658700466156,
+            "variation": 0.3490658700466156,
+            "angle": -3.1415927410125732,
+            "angle_variation": 3.1415927410125732,
+            "random_sign": 1,
+            "random_axis": 1,
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "subtex_unimplemented": [
+            0.0,
+            32.0,
+            31.0,
+            0.0,
+            0.0,
+            45.0,
+            0.0
+          ]
+        },
+        {
+          "layer": 7,
+          "source": "FireBallExp01.nif",
+          "system": "pSmallSparks",
+          "sizes": 120,
+          "rotation": null,
+          "subtex_unimplemented": null
+        },
+        {
+          "layer": 10,
+          "source": "FireBallExp01.nif",
+          "system": "pFireBall",
+          "sizes": 24,
+          "rotation": {
+            "speed": 0.3490658700466156,
+            "variation": 0.3490658700466156,
+            "angle": -3.1415927410125732,
+            "angle_variation": 3.1415927410125732,
+            "random_sign": 1,
+            "random_axis": 1,
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "subtex_unimplemented": [
+            0.0,
+            32.0,
+            31.0,
+            0.0,
+            0.0,
+            45.0,
+            0.0
+          ]
+        },
+        {
+          "layer": 11,
+          "source": "FireBallExp01.nif",
+          "system": "pSmallSparks",
+          "sizes": 120,
+          "rotation": null,
+          "subtex_unimplemented": null
+        }
+      ],
+      "before": {
+        "age": 0.20851676779133932,
+        "radius95_by_view": [
+          1.0759332143983502,
+          0.9624128864394693,
+          1.1646349886550191,
+          1.1512268502301901,
+          1.132613816590169,
+          1.1517093373597838,
+          1.1873050432971657,
+          1.1698159288037984,
+          1.1149097577220657,
+          1.1330724235478153,
+          0.962267323818463,
+          1.0929417217748671
+        ],
+        "visible_area_proxy": 1026.0901338494834
+      },
+      "uniform_fire_scale": 1.0392122596783255,
+      "after_radius95": [
+        1.1181229869978737,
+        1.0001512704603006,
+        1.2103029582606235,
+        1.196369056430077,
+        1.177026163681562,
+        1.1968704629702878,
+        1.2338619569723197,
+        1.2156870547798946,
+        1.1586278886597623,
+        1.1775027536543219,
+        1.0,
+        1.1357984363823794
+      ],
+      "radius": 24,
+      "duration": 2.5
+    },
+    "drill_blast": {
+      "source": [
+        {
+          "layer": 26,
+          "source": "MPSFireWaveFlames.nif",
+          "system": "FlamesTall03",
+          "sizes": 83,
+          "rotation": {
+            "speed": 0.0,
+            "variation": 0.0,
+            "angle": -6.2831854820251465,
+            "angle_variation": 1.2566369771957397,
+            "random_sign": 1,
+            "random_axis": 1,
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "subtex_unimplemented": [
+            0.0,
+            31.0,
+            31.0,
+            0.0,
+            0.0,
+            52.0,
+            2.0
+          ]
+        },
+        {
+          "layer": 27,
+          "source": "MPSFireWaveFlames.nif",
+          "system": "Sparks",
+          "sizes": 140,
+          "rotation": {
+            "speed": 0.0,
+            "variation": 0.0,
+            "angle": -6.2831854820251465,
+            "angle_variation": 1.2566369771957397,
+            "random_sign": 1,
+            "random_axis": 1,
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "subtex_unimplemented": null
+        }
+      ],
+      "before": {
+        "age": 0.7581434277977264,
+        "radius95_by_view": [
+          1.1210653995461004,
+          1.091275097953128,
+          1.0076411745960405,
+          1.1185338712861195,
+          1.013622868141431,
+          1.0776768804427945,
+          0.9934530105846366,
+          1.085896485005181,
+          1.0406798838544116,
+          1.0770255924568102,
+          1.118717712035675,
+          1.0690125565081134
+        ],
+        "visible_area_proxy": 1509.4198201868574
+      },
+      "uniform_fire_scale": 1.006590134959187,
+      "after_radius95": [
+        1.128453371827184,
+        1.0984667481262391,
+        1.0142816659270621,
+        1.1259051604543169,
+        1.0203027796402013,
+        1.0847789165273083,
+        1.0,
+        1.093052689393072,
+        1.0475381047383232,
+        1.0841233364655989,
+        1.1260902127392232,
+        1.0760574935285674
+      ],
+      "radius": 120,
+      "duration": 1.260760194
+    },
+    "full_blast": {
+      "source": [
+        {
+          "layer": 10,
+          "source": "MPSFireWaveFlames.nif",
+          "system": "FlamesTall03",
+          "sizes": 83,
+          "rotation": {
+            "speed": 0.0,
+            "variation": 0.0,
+            "angle": -6.2831854820251465,
+            "angle_variation": 1.2566369771957397,
+            "random_sign": 1,
+            "random_axis": 1,
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "subtex_unimplemented": [
+            0.0,
+            31.0,
+            31.0,
+            0.0,
+            0.0,
+            52.0,
+            2.0
+          ]
+        },
+        {
+          "layer": 11,
+          "source": "MPSFireWaveFlames.nif",
+          "system": "Sparks",
+          "sizes": 140,
+          "rotation": {
+            "speed": 0.0,
+            "variation": 0.0,
+            "angle": -6.2831854820251465,
+            "angle_variation": 1.2566369771957397,
+            "random_sign": 1,
+            "random_axis": 1,
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "subtex_unimplemented": null
+        }
+      ],
+      "before": {
+        "age": 0.19343458710397993,
+        "radius95_by_view": [
+          1.1006119170569233,
+          1.073015726123238,
+          0.993606832089738,
+          1.1027377845775994,
+          0.9962926582786937,
+          1.0615425339218387,
+          0.9766286113859302,
+          1.0685776283073511,
+          1.0243569911961283,
+          1.059002197122258,
+          1.1018217406240436,
+          1.0562102940024864
+        ],
+        "visible_area_proxy": 1470.2518864394704
+      },
+      "uniform_fire_scale": 1.023930681880089,
+      "after_radius95": [
+        1.1269503107174474,
+        1.098693724117426,
+        1.0173845211023607,
+        1.12912705169748,
+        1.0201346209434294,
+        1.086945970603306,
+        1.0,
+        1.0941494195945545,
+        1.048870552484088,
+        1.0843448418119062,
+        1.1281890861874835,
+        1.0814861265467353
+      ],
+      "radius": 90,
+      "duration": 2.5
+    }
+  }
+}

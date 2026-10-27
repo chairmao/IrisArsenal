@@ -1,0 +1,22 @@
+IrisArsenal：资源来源与致谢
+
+1. 武器、动作及移植特效参考
+本项目使用用户提供的Skyrim动作模组soulworker_Iris与其相关源资源，按演示和实际文件进行适配。
+演示：https://www.bilibili.com/video/BV1u14y1U74k/
+源素材在本地还涉及Skyrim原版及Elden Rim资源链；不能把这些素材统一声明为本项目原创或CC0。
+原素材的权利归其各自作者／权利人。当前本地素材未附齐公开再分发授权；此来源清单不构成授权证明。
+
+2. 光流纹理
+BeamVFXAssets / Alexander123
+https://opengameart.org/content/fire-texture-laser-texture-for-unity
+CC0 1.0 Universal：https://creativecommons.org/publicdomain/zero/1.0/
+Laser1.png、FlamesTexture.png；纹理像素与Kenshi/Ogre几何和UV适配说明见CREDITS-drive059.txt。
+
+3. 插件基础
+RE_Kenshi / KenshiLib：BFrizzleFoShizzle及各自贡献者。
+https://github.com/BFrizzleFoShizzle/RE_Kenshi
+本包不附带RE_Kenshi、KenshiLib或PhysX运行库；请由其官方渠道安装。
+
+4. 封面
+使用imagegen根据源演示中的锤枪参考生成的宣传插画；不是实机截图，不代表逐像素模型或特效效果。
+该说明不改变游戏、原模组及其他第三方素材的权利归属。

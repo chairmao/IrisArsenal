@@ -1,0 +1,206 @@
+{
+  "contract": "IRIS_EIGHT_039",
+  "time": "2026-10-17T15:07:52.973767+08:00",
+  "game": {
+    "version": "0.3.8",
+    "asset_revision": "038-R120",
+    "files_checked": 119,
+    "hash_mismatches": [],
+    "dll_sha256": "de4cf1604b612467bd45330090a62e9c0e19096753685f54ddb8c6751993d706",
+    "not_modified": true
+  },
+  "dll_gate": {
+    "old_dll_rejected": true,
+    "reason": "DLL与当前资源合同不一致，请重新编译 Release|x64 / v100"
+  },
+  "source_and_model_checks": {
+    "recorded_regression": {
+      "source_log": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\logs\\IrisArsenal-20261017-141534-122-288.log",
+      "source_sha256": "1f78b15d7789e5742a119f978ce45f9e37f3ec8754c545a7fb871a7773792f3f",
+      "game_pid": 288,
+      "game_creation": "2026-10-17T14:15:02.93017+08:00",
+      "version": "0.3.8",
+      "cases": [
+        {
+          "cast": 14,
+          "time": "2026-10-17 14:19:27.273",
+          "replayed_events": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "replayed_clips": [
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364
+          ],
+          "damage_applied": 2
+        },
+        {
+          "cast": 16,
+          "time": "2026-10-17 14:19:37.929",
+          "replayed_events": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "replayed_clips": [
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086
+          ],
+          "damage_applied": 2
+        }
+      ]
+    },
+    "cycle_models": {
+      "fire_roll": {
+        "events": 2,
+        "old_model_replayed": 4,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "spiral": {
+        "events": 3,
+        "old_model_replayed": 6,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "earthquake": {
+        "events": 4,
+        "old_model_replayed": 8,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "drill": {
+        "events": 12,
+        "old_model_replayed": 24,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "full_burst": {
+        "events": 3,
+        "old_model_replayed": 6,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "vulcan": {
+        "events": 20,
+        "old_model_replayed": 40,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "pulse": {
+        "events": 3,
+        "old_model_replayed": 6,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "drive": {
+        "events": 4,
+        "old_model_replayed": 8,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      }
+    },
+    "fire_source": "Skyrim FireballExp01.nif",
+    "fire_quality": [
+      {
+        "name": "pFireBall",
+        "particles": 72,
+        "grid": [
+          8,
+          4,
+          32
+        ],
+        "texture_pixels": [
+          2048,
+          1024
+        ],
+        "pixels_per_frame": [
+          256,
+          256
+        ],
+        "max_halfsize": 0.18000000000000002,
+        "alpha_multiplier": 0.48
+      },
+      {
+        "name": "pSmallSparks",
+        "particles": 120,
+        "grid": [
+          2,
+          2,
+          4
+        ],
+        "texture_pixels": [
+          64,
+          64
+        ],
+        "pixels_per_frame": [
+          32,
+          32
+        ],
+        "max_halfsize": 0.0009693976428147964,
+        "alpha_multiplier": 0.65
+      }
+    ],
+    "curved_mesh_rank": 3,
+    "shared_fire_materials": true,
+    "giant_fire_cards_removed": 49,
+    "blue_alpha_reduced": true,
+    "effect_submeshes": {
+      "drill_before": 12,
+      "drill_after": 8,
+      "roll_before": 6,
+      "roll_after": 3
+    },
+    "damage_radius": 120,
+    "damage_events": 1,
+    "Cxx_or_GPU_compiled": false,
+    "game_tested": false,
+    "FPS_verified": false
+  },
+  "update_script_tests_passed": 11,
+  "compiled": false,
+  "game_tested": false,
+  "FPS_measured": false,
+  "source_video": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-039-20261017-142916\\contact.jpg",
+  "source_material_search": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-039-20261017-142916\\candidate-analysis.json",
+  "source_log_snapshot": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-039-20261017-142916\\observed-038.log"
+}

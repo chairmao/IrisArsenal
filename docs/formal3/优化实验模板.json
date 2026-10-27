@@ -1,0 +1,47 @@
+{
+  "template_name": "有依据的性能改动准入表",
+  "problem": "TODO",
+  "before_call_chain": "TODO",
+  "after_call_chain": "TODO",
+  "evidence_files": [],
+  "cost_model": {
+    "existing_work": "TODO",
+    "removed_work": "TODO",
+    "added_construction_maintenance": "TODO",
+    "added_query_filter_dedup_dispatch": "TODO",
+    "if_approximate_rho": "TODO effective_region_not_nominal",
+    "request_model": "compare Tapprox(rho*N)+overhead vs Texact(N)",
+    "medical_cost": "record_separately"
+  },
+  "semantic_invariants": [
+    "same_damage_events",
+    "stable_identity",
+    "original_friendly_and_active_target_policy",
+    "native_medical_per_hit",
+    "clock_pause_reset",
+    "no_new_engine_thread_or_global_lock"
+  ],
+  "proof": {
+    "source": "TODO public_algorithm/API_explicit/math/original_flow",
+    "conditions": "TODO",
+    "normal_inputs_covered": "TODO",
+    "counterexamples_checked": []
+  },
+  "AB": {
+    "DLL_hashes": [],
+    "INI_hashes": [],
+    "active_seconds": [],
+    "casts_events": [],
+    "projectiles_queries_candidates_unique_targets": [],
+    "medical_inqueued_applied_rejected": [],
+    "amputation_and_logging_flags": [],
+    "stage_ms_and_wait_P95_P99_max": []
+  },
+  "decision": {
+    "predefined_benefit_threshold": "TODO",
+    "light_load_regression_limit": "TODO",
+    "accepted": false,
+    "rollback": "TODO",
+    "unverified": []
+  }
+}

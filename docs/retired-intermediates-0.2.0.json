@@ -1,0 +1,110 @@
+[
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fire_roll_male.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fire_roll_male.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fire_roll_male.skeleton"
+    ],
+    "sha256": "a4022ad9a1b3805d25b3b1029371ef099b8c727a08b9dacd1c3e84f130925684",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fire_roll_female.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fire_roll_female.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fire_roll_female.skeleton"
+    ],
+    "sha256": "9db7582b4a1e93ea1483678ab2fd3390f452c44906552f086dfa21340b5a500f",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_spiral_male.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_spiral_male.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_spiral_male.skeleton"
+    ],
+    "sha256": "9f7efb7085bcc3259273b3a5d6f6cc0830c2b2883bbf489c3abfcb5875b8d052",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_spiral_female.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_spiral_female.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_spiral_female.skeleton"
+    ],
+    "sha256": "f6e8926a2e372b153d5ff0f95c367df2c62928df1978c97010b48d197777d671",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_male.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_male.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_male.skeleton"
+    ],
+    "sha256": "47704a00330e2aed49205da8cd8bf2c2df2051950a2ed00a73840dc8aa278784",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_female.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_female.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_female.skeleton"
+    ],
+    "sha256": "be2eb5257a674c4d9d61dd9e713567d6a6ba022715387dc489e2af5e9e547c83",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_full_burst_male.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_full_burst_male.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_full_burst_male.skeleton"
+    ],
+    "sha256": "301b1d2e0d49b6fc4fe654b3a838a2e8db836d1b1d824e8b0caceb32d7454bfc",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_full_burst_female.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_full_burst_female.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_full_burst_female.skeleton"
+    ],
+    "sha256": "cdf24259c50264ef9ae51a9239830be3497d48c5fddf3a64827a5ff6727ceecb",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_male.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_male.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_male.skeleton"
+    ],
+    "sha256": "f5adf3b8e7e4e6d4d59d4b7fcb262dd68adef3dfcc00f26e088e2d30a270fcc6",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_female.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_female.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_female.skeleton"
+    ],
+    "sha256": "f76facfd45b3cd67b0c752afc7e965fc4cf8aedfa7e7378f7d4fb980fd26018a",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_pulse_male.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_pulse_male.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_pulse_male.skeleton"
+    ],
+    "sha256": "53e1df55ee6c4a5440f9f8d95febe0b46ac3d43562599a96943ece256804b2c9",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  },
+  {
+    "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_pulse_female.skeleton",
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_pulse_female.skeleton",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-retire-20261016-024024-038001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_pulse_female.skeleton"
+    ],
+    "sha256": "b2c379e774f53ccd692b0db51fa08f318f31e509cb141e51db97804b1e196c33",
+    "reason": "本轮中间未引用骨架；最终统一iris_action_前缀，旧闭环保留"
+  }
+]

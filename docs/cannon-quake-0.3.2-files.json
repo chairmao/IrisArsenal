@@ -1,0 +1,1117 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+    "Role": "032合同与编译边界",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "ed3a1aa7948fc580c28671278432706dbac9e866dd857454fdf7b63c20c53c33",
+    "Changes": [
+      "运行版本/资源合同032，组包拒绝旧DLL，新增柱体头纳入产物新鲜度"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "e8d8bd20694603f54a86ac24a8add43f1a7364518fd93203bbfe8879dcf6fac6",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225308-816913\\edit-225308-827349\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225308-816913\\edit-225308-828349\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+    "Role": "032合同与编译边界",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "74ecf05a5c748c92f16aeed4b77d4879f4da4937025e764b5127ef56443e4dc3",
+    "Changes": [
+      "运行版本/资源合同032，组包拒绝旧DLL，新增柱体头纳入产物新鲜度"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "412a77ce0e9f09e5339710e891fe769f9e488071ebdf6294137ba198c6fbb21c",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225308-816913\\edit-225308-832588\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225308-816913\\edit-225308-833595\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+    "Role": "现有v100工程",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "21ba4711095e641c0fc020ee8c6a460aabc1893d109cda1de4935dbda17fdc25",
+    "Changes": [
+      "纯几何柱体头纳入同一工程，仍四个C++单元、不增加SDK链接库"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "c8b2927572d421e9a48bdbd22afe7d4ed0af7d400b312d5a3c3e264f050489d4",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225308-816913\\edit-225308-845478\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225308-816913\\edit-225308-846480\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+    "Role": "有界查询性能诊断",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "12009354d9bcbff543594c7b2fe8ff7832c3eb346fc54873117bc1553c67b3c4",
+    "Changes": [
+      "极致迁入三招原生远程池，R9×360平端柱体；源地震有限烟尘、同帧完整球事实缓存、计数诊断；不改变事件倍率/数量",
+      "只统计有实际工作安全Tick，idle不伪造成查询帧"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "b25fbbfa5e3e5e2a2f6c22b19c2d7efeba2e3373081587850c0b937bc4997857",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225308-816913\\edit-225308-818892\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225308-816913\\edit-225308-821172\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "Role": "当前状态与用户入口",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "922118b66e40c2c02abf6311f090d1904e4705f3346973aab1e71a2bce38556e",
+    "Changes": [
+      "置顶032当前合同与编译部署边界，历史031及以前不改写"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "94da8ba9600040cae631ea62230ebd3849d547b7f348a6b4d137b711a7c26200",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-230712-648036\\edit-230713-193364\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-230712-648036\\edit-230713-194580\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "Role": "当前状态与用户入口",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "5dcef34f633a485902ef795e60121181ce6f4067752cd703ed9bb58a6100030d",
+    "Changes": [
+      "置顶032当前合同与编译部署边界，历史031及以前不改写"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "8eb2bc4b4fda0d91cdb6a9b457795233a550fdde747d2440a4fa441c489a4ae5",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-230712-648036\\edit-230713-199312\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-230712-648036\\edit-230713-201345\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\cannon-quake-0.3.2.md",
+    "Role": "032设计/证据/限制说明",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "五招参数、平端柱体、地震真实源链、Ephnel适用优化、静态证据与待编译实机边界"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "b858eb4f8bb66cb0239d5a62941ef6f87de0bb4e03517406517ea5d2c6da0899",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+    "Role": "032交付身份",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "e66a228b5b3d91dc1235210985627a189d3b4da4662f3dd1e9cb92a23dfee615",
+    "Changes": [
+      "源码032与实际游戏030分开，记录静态通过/未编译/未部署"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "34e6cb41ae4cda888419c8b6ca3ad37a442ca6a87fcc22fcd52b8fee59c42bb3",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-230712-648036\\edit-230713-204687\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-230712-648036\\edit-230713-206815\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+    "Role": "八招特效来源与差异",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "e285c76da4ee3bf4171dd8f64bcdf555660d08620c1ca69f46ca89bab506c5ea",
+    "Changes": [
+      "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "b3eeb02c0bafcddb718ca7d2db82365607f28b597bf67199710cd417fec60f03",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225018-573830\\edit-225027-292492\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225018-573830\\edit-225027-293502\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+    "Role": "五招源数据合同",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "b73d9d6518ad2557cce0396daa05f6b3ba68ede7429ea69280f67dd006386911",
+    "Changes": [
+      "路由/权重/极致距离半径配套；保留原骨架/帧/四脉冲及倍率"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "66a9fb86ffa4e885665d4c036461783b3774090b4dc6c4e21be9af41a2891c5f",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225448-117722\\edit-225448-149964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225448-117722\\edit-225448-152527\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\package-gate-0.3.2.json",
+    "Role": "实际组包门验证",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "真正执行组包静态检查，现有旧030DLL被032标记拒绝，package未伪造ready"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "5624e770a9cddd05f83c7973aa93280e0919d2538e96c5ab19ad0697382a4711",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\quake-chain.json",
+    "Role": "地震真实资源链只读证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "按源Payload→SPEL→MGEF→EXPL读本机Skyrim.esm，不凭资源相似命名替代"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "d4fb5abbeaf965ee1a515023ab165571b3021867c842829634c1bb473136b94c",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\quake-source.json",
+    "Role": "地震源粒子证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "原生巨人践踏EXPL NIF两层发射器、源数据与图集、逐粒子参数及明确适配范围"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "d8b690af39f854f86f61db8b1f0730d67f49644aa5a13597715336a4cd3c32dc",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\safety-0.3.2.json",
+    "Role": "外部文件与环境边界验收",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "游戏mod96文件和滚5Iris376文件逐字节哈希保持；仅新增工作区局部依赖"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "8c0de75173474d86f759d436a586a131546ab663f4a91527b616020109717698",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.3.2.json",
+    "Role": "八招非编译验收证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "a5644ba7843c957e6dba7033a07ed30fc34787db4a549bbf477e5ae0c006e511",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\native\\FiniteCylinder.h",
+    "Role": "圆柱真实凸形体几何",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "球体平端圆柱解析距离；其余真实胶囊/盒/凸顶点走有界GJK，未知返回未完成"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "a5cf50ed74a443c1963d807c6209be828b4bc8d1968a6385d9a242aa93ad87c9",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp",
+    "Role": "官方PhysX查询与窄相位",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "82e9d0cfee027666438753b2069fa612cf31701b84022b92cb4a028f0cb989c8",
+    "Changes": [
+      "球形AOE按身份去重；柱体走原生ALL_HITS墙阻挡+OBB批量候选，真实球/胶囊/盒/凸形体窄相位，R9平端而非胶囊圆头；坏批次全退无部分伤害",
+      "柱轴double归一化；每批候选诊断与墙前扫掠调用数分开，完整成功后才输出"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "5dcc33b8eb868a125ae9043f557a193a17116ff1eb2131f11e4ccc874172abfe",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-223356-666172\\edit-223356-679357\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-223356-666172\\edit-223356-680357\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h",
+    "Role": "原生查询值接口",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "de829186f606f57b801f7a44f710f9620a1de25086f3a77c817f28cb0ec6e1e8",
+    "Changes": [
+      "增加有限柱体入口、墙前长度返回和窄相位错误码；保持旧球/扫掠接口不变"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "b8516829b381076b732adc05335c490c1780b63349635cbaa6a5b8d108b9b73c",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-223356-666172\\edit-223356-671651\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-223356-666172\\edit-223356-673664\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+    "Role": "源光炮与地震资源作者",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "d3197ea7fdf937f8761bf8f7dad9c6b77cb7483ef20fd5905837e5e83bb94fd3",
+    "Changes": [
+      "源五层光炮归一化为r<=1,z0..1以匹配R9柱体；地震改源尘土两层，原图集与源时间参数，不编译"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "70a6852073fb136af30fc238d8c15513588be50a3cfb3dbdd431c8a2da942137",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-224304-058238\\edit-224304-060882\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-224304-058238\\edit-224304-063086\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+    "Role": "五招参数生产者",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "59c19438e4ee5b7ff2ae76e49fd7c64803854c83b3032dd1a93f2396152135c2",
+    "Changes": [
+      "极致0～360/R9迁入远程，启用地震；源事件时序和身体资产不变"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "4461620b3f8948702348c6ad1a110ab861b896856c9d6bacdc46bd30a95b07a0",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225448-117722\\edit-225448-119026\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225448-117722\\edit-225448-123539\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_quake.py",
+    "Role": "地震源烟尘作者",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "使用真正crGiantStomp尘土NIF两层发射器/图集，积分源birth曲线、源面法线与颜色寿命，有限粒子网格+相机朝向Shader，无新Ogre工厂/健康事件"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "b675782f48f5608062b3bfe63d700baf8417ed55510c3b0382c8d91af2c42f3e",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_bsa.py",
+    "Role": "SSE关联LZ4档案读取",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "9cf37aabe7978d421350031c468ec70c511a825775cd6817fd67965ace559f02",
+    "Changes": [
+      "关联帧由工作区固定lz44.4.5解码并校验完整长度，不改全局Python和游戏档案"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "afebbc4be8745877a1b3700d79f6786807da9b86e58a47715ef07ec3513b1c9a",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225018-307187\\edit-225018-308429\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_bsa.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225018-307187\\edit-225018-310484\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_bsa.py"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_bsa.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_bsa.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+    "Role": "完整032资产组包合同",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "7919b6cb5e2b2be3b62cf59cfe113310cb0440eb79e79ff4e2e56fa465dd6a69",
+    "Changes": [
+      "运行版本/资源合同032，组包拒绝旧DLL，新增柱体头纳入产物新鲜度",
+      "新地震profile纳入ready包资产合同，旧DLL依旧拒绝"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "5eb2661850799e5eb028ed3011394a37125ea1f40a5d367445306e13d259691c",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225308-816913\\edit-225308-836632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225308-816913\\edit-225308-838694\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+    "Role": "032独立源资源与边界检查",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "解析平端反例/真序列化归一柱体/粒子参数和保守边界/原生API/完整球缓存合同；不编译"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "d0732da8a02ae43ad7355913a9d11817125b7ab90e815fd4a89f9f4e7eb72d79",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+    "Role": "源光学曲线回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "f5203462f5611d83ad27b80f88011f9381c2bdf9a810388869969e43d6672f53",
+    "Changes": [
+      "三远程0～360/五权重，物理成功后更新光炮快照；旧分层曲线和着色器绑定继续验收"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "1462a564132f37c0a3669a1ebe949fd9031bec2108ec5370886d6dc2087664f6",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225618-055105\\edit-225618-107675\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225618-055105\\edit-225618-110873\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+    "Role": "大世界瞄准与预热回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "3bbaa4db79a7db3662b2ec46ec4814e98ca85eda85995f773744b69ef885a01a",
+    "Changes": [
+      "增加地震资源真实贴图估算，保留世界瞄准和球体半径旧回归"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "921eb02332b8a0a3c9d425de97b726de559ed003b8309342f9a3ea077dc9b09e",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225618-055105\\edit-225618-082862\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225618-055105\\edit-225618-085581\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+    "Role": "三招原生远程路由回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "1d098dc86ac40c3836316cf7d0af0c9f6f9900b48515f8efb54a421f1e52e443",
+    "Changes": [
+      "极致从近战两加权分支排除，原生能力/许可/装填时钟完整边界继续校验"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "0156dfc8205448fc0830064b9c0453f3681a76f90fe595362d03251e80f985d3",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225618-055105\\edit-225618-094164\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225618-055105\\edit-225618-097508\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+    "Role": "火神旧行为回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "6caca61a904715961314d0f423917172ff84c2ba73a4a146e1f93ab2964ee457",
+    "Changes": [
+      "五招权重配套；保留火神球/护甲/防御边界，新增粒子走专项而非普通材质假字段"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "f3b7eab3614d1ad812a335b937ffc2e96b2ccc269def5f526c234909edafb339",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225618-055105\\edit-225618-071622\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225618-055105\\edit-225618-073827\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+    "Role": "032完整回归报告",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "a25ed20afd417757645fc2b19fe819e43ed02b6cbe3a5636e3ee23abeb7eb31e",
+    "Changes": [
+      "加入柱体头语法/地震粒子保守包围与独立专项，验证写入新032报告保留历史",
+      "修正新增头的Path类型；报告032合同，明确C++柱体未运行风险"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "344dc2a876d811dfae6390c38eab58a43888eb26a985720c3d3d6a946b5c3ff6",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225618-055105\\edit-225618-118902\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225618-055105\\edit-225618-121987\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "五招测试配置",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "63324ace78df74547eda2ab4bac795cc6b4ccf6b02a7f40f1660345b2acc4c2d",
+    "Changes": [
+      "远程三招/近战两招权重1，其余0；间隔1与并发限制保持"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "ee931584f7cf25b5eaeec750dbc626e0047fce4f713d1c62ffeee8df5e3f515d",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225448-117722\\edit-225448-407520\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225448-117722\\edit-225448-408937\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+    "Role": "八招隔离FCS记录",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "4dc6a7b63f696dae1e217851b0a4a906604d4ea25616efc1bd5ff26070a619a6",
+    "Changes": [
+      "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "2ed2c638506041ed40ba473ac179bc9df318512d5f6c2d8ad2c386c0926287c3",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225448-117722\\edit-225448-392701\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225448-117722\\edit-225448-396173\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "Role": "未就绪032包清单",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "b1a68d7f30fd9a56315894cc7054716fa4c9c96ba390eea05d6ae558b6225896",
+    "Changes": [
+      "所有新资产哈希登记，明确旧030 DLL不可部署，不虚报可运行"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "3ec430508f02e12695e104ad38e3a58fcb8b806739d659a1f94bcdeeac5ffaab",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-230712-648036\\edit-230713-298118\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-230712-648036\\edit-230713-300320\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+    "Role": "运行时显式子材质绑定",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "26ecb77e50e4d7829cc2392992dfad0a849012cb813d268383c2390c2a08d1e2",
+    "Changes": [
+      "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "9cf54fbf1759e26977dd67ef2d51e92744ce4476af3fcf95c8634fd01b5e6c20",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225018-573830\\edit-225027-314577\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225018-573830\\edit-225027-316091\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+    "Role": "分层源光学时间流",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "664469fe7cc320aeadaf90e3867e49c60da7f463d11416539713b4068d47dcb7",
+    "Changes": [
+      "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "04945f03ed8d155a16865d82a50b5a639e11e628c104d7f0aae7d22340825733",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225018-573830\\edit-225027-305822\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225018-573830\\edit-225027-307962\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+    "Role": "八招源光学适配",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "bc15b4b32ab721d125b1190b100d61d6a251cf1c324fbefdcf4c4201fc74a96c",
+    "Changes": [
+      "源RGBA/梯度/UV流动/自发光，实例游戏时钟；不编译着色器"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "69b171a93f5dc22c88f5a7bd7ba6039c31a863a56d0cdff41aea50925bfebf58",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225018-573830\\edit-225027-176266\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225018-573830\\edit-225027-178547\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+    "Role": "八招源材质",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "8664a5a9b7cb60072c7842cc0d48060c72749697ad4d4e805be02016879e79c0",
+    "Changes": [
+      "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "a9d3c92e453ba33632949445b0b9930342972e52903226ebe674dd35bd700df0",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225018-573830\\edit-225027-268360\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225018-573830\\edit-225027-270406\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+    "Role": "源尘土GPU程序",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+    "Changes": [
+      "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "真实相机朝向、8x8/4x4单格图集、年龄和原烟色；不使用ParticleSystem工厂、不编译"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "7995615e79d289bd9c6b5b32730898512bab453f0b5d0d857a8ff6a30afc2ecb",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220521-047219\\edit-220529-462686\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220521-047219\\edit-220529-472012\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "1a481bbd7330efbfb350d3e7bf9d6a7e06b1c5f44404af520e4d9be1682fe90e",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "ba2e94cbbeaf797e638e541a0731b274a9b9b37180b39054c2ca43a3ef0ed8ee",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225018-573830\\edit-225024-970733\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225018-573830\\edit-225024-976376\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_caeff36705fc186b.png",
+    "Role": "源贴图同像素PNG",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "1d252af904ad194e916eed9a4c7dfa437be37a27196fff66d212e4b1ee61352f",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_e7856251c0429967.png",
+    "Role": "源贴图同像素PNG",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "c1cf80db20c10aa01676dafec0e81112a95e317de48596bfb0ae592f3d3753f6",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+    "Role": "源地震烟尘两层",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "8557a50cef77f9795b5eeef94e563f82c2118afeb5eb85ffee1bfcb4bc351d24",
+    "Changes": [
+      "真实发射面/法线速度/出生曲线和两套图集；GPU有限粒子，无橙色光环替代"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "37f872bcd61baf4b733d6974bfa74a837c7bc7001142d787b448657b752cd039",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225018-573830\\edit-225023-742785\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225018-573830\\edit-225023-746902\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+    "Role": "运行事件流",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "da472533d59abfbd18f991d3bf9ad7fc2416fcdff3c4a8dd87297295eb9d99a3",
+    "Changes": [
+      "仅极致R9/0～360，事件时间和数量保持"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "52c6090ef1e99092ae92ea52ba4ab78f92d19d14aa2b3f90090eeb2610093d15",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-225448-117722\\edit-225448-400181\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-225448-117722\\edit-225448-402545\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+      ],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-032-20261016-230909-811381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\quake_profile.csv",
+    "Role": "源烟尘寿命包络",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "与Shader烘焙粒子同一个最大年龄/空间边界，独立后效不跟随动作强制清空"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "233f8837043a04124ced08532795972453114614e6c85ade6e169db744ab7ba3",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\FXdustBurstTiny.nif",
+    "Role": "地震真实源NIF缓存",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始时不存在",
+    "Changes": [
+      "从本机原版BSA同字节提取；源IrisExplosion4→Skyrim crGiantStomp→crGiantStompExplosion，不修改原档案"
+    ],
+    "Reasons": "本轮三远程/两近战、R9圆柱光炮与真实源地震及适用Ephnel AOE优化；证据见cannon-quake-0.3.2.md/quake-chain.json",
+    "After": "fb408040c8ec2da80f170d742645497748f9a983e8e8dc8b897e9396a43d56d0",
+    "Impact": "仅项目源码/作者工具/资产/文档；032未编译与部署，实际游戏030不变",
+    "Validation": "validation-0.3.2.json + safety-0.3.2.json；语法树/真实序列化/源纹理与字段/独立边界标准，通过；C++/HLSL/游戏未执行",
+    "Safety": {
+      "initial_backups": [],
+      "intermediate_backups": "docs/change-reports中逐次完整记录",
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；R9新窄相位与GPU程序/密集敌人FPS、地震观感、暂停变速/读档实机待验"
+  }
+]

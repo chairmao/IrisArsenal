@@ -1,0 +1,685 @@
+# 056逐文件变更报告
+
+任务证据：`D:\CodexWorkSpace\Sessions\20261002-235652-kenshi-crash-407794f2\Task-Iris-BatchQueries056-20261018-234000-5fb6e1`。既有文件先双备份，UTF-8及原换行保持。报告共31个文件；报告清单自身的即时报告在任务file-reports中。
+
+## E:\KenshiProject\2.Projects\IrisArsenal\native\NativeMultiContact.h
+
+**Role**: 056对照有效性
+
+**Code location**: BatchDiagnostic
+
+**Before**: {"behavior": "每条静态胶囊分别进入场景；没有同步多路径精确检查接口。", "sha256": "077f9701e1ff1a28e32068db17bbc7c40f3d138b7571be80e170665d0675896b"}
+
+**Changes**: ["追加有界多路径纯值接口和独立批量失败原因；旧查询签名与容量保持", "增加本次真正精确检查的四类形体位图，纯值字段不属于引擎ABI"]
+
+**Reasons**: ["055运行胶囊缓存零命中，重复场景广相仍占主要查询时间；保留原精确查询回退", "空查询没有验证过NxShape精确接口；新类型须首次对照"]
+
+**After**: {"sha256": "b67142d1ee4c5be25e9b14de909a508fb2fe610efa5d0f7651dffa4644dc62bb", "behavior": "增加本次真正精确检查的四类形体位图，纯值字段不属于引擎ABI"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234550-852179\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234550-855360\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001111-720568\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001111-722570\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h"], "encoding": "utf-8", "line_ending": "'\\r\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\native\NativeMultiContact.cpp
+
+**Role**: 056对照有效性
+
+**Code location**: OverlapCapsules / CapsuleCandidate
+
+**Before**: {"behavior": "每条静态胶囊分别进入场景；没有同步多路径精确检查接口。", "sha256": "fd0a2910e47ec416c58047af233828d905387cdcd4656574bdb9505161791f27"}
+
+**Changes**: ["一次保守AABB广相、原胶囊逐形体精确检查；512候选/1024检查保险，整批失败不消费；不改原查询和SDK版本门", "保守逐路径AABB先剔除；每形体只取一次包围，1024限制改为实际潜在精确检查数", "只在实际调用精确检查时记录形体类型位图，无新API或指针生命周期"]
+
+**Reasons**: ["055运行胶囊缓存零命中，重复场景广相仍占主要查询时间；保留原精确查询回退", "宽联合AABB会包含刀路间空白，不能无条件N×M形体检查；包围只剔除，不承担命中", "不能将联合AABB空白处的候选算作精确形体已经覆盖"]
+
+**After**: {"sha256": "6d9dacf9d208e03be48b291a282adeb61e18eebddbd9ac524b3bac1a74237ab8", "behavior": "只在实际调用精确检查时记录形体类型位图，无新API或指针生命周期"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234550-863885\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234550-867205\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235023-564427\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235023-568002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001111-729829\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001111-731832\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp"], "encoding": "utf-8", "line_ending": "'\\r\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\IrisCombat.cpp
+
+**Role**: 056运行校验覆盖
+
+**Code location**: TryCapsuleBatch / Clear
+
+**Before**: {"behavior": "055胶囊缓存真实零命中；逐路径重复广相，慢受击只有聚合阶段统计。", "sha256": "d8029fe63e4141875113ce02cecc125e5b1962c7dbbc1bc917abe6bcfde2e567"}
+
+**Changes**: ["移除零命中胶囊缓存；仅合批连续原刀路；首8批/每256批对照原结果，失败就地回退，查询含回退仍≤64；逐次慢医疗值日志", "对照不匹配单独限频，避免8次成功暖机耗尽告警额度", "预留旧完整一轮路径工作；合批对照/回退仅花额外余量，无余量原路执行", "队列等待按出队时刻记录，分离计算到原生调用前开销；新增失败种类变化记录", "记录对照/回退额外的真实场景调用数", "空批次不增长验证进度；新实际形体类型强制对照；原清理/不匹配重置类型位图"]
+
+**Reasons**: ["减少场景广相和反复身份读取，保持原逻辑服务上限、形状、事件与2.5ms/32 FIFO", "后续新逻辑异常必须留直接证据，不能只依赖初始成功日志", "避免验证开销挤走旧本帧刀路而改变运动目标采样时间，保留64上限和既有服务顺序", "慢原生阶段不能混称排队延迟；暖机成功不能耗尽后续新失败证据", "节省次数必须扣除验证开销，不能以少计查询掩盖成本", "防空场景虚假通过，让首次真实角色形体仍消费原查询结果"]
+
+**After**: {"sha256": "012ab598e727b7cc66c0dae710b1eb17aad84852bb7aa2d680f5255cbfb19f26", "behavior": "空批次不增长验证进度；新实际形体类型强制对照；原清理/不匹配重置类型位图"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234736-608336\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234736-610483\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235023-573632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235023-574618\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235215-830571\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235215-831561\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000305-483020\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000305-485527\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-103670\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-104676\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001111-738865\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001111-740869\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"], "encoding": "utf-8", "line_ending": "'\\r\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\IrisDiagnostics.h
+
+**Role**: 056真实额外开销/回归
+
+**Code location**: Counter与完整旧索引保持
+
+**Before**: {"behavior": "原固定统计没有新批量、回退、额外验证成本和慢调用计数。", "sha256": "1bb6d74f01893f936558e7223cc910efe461eaebc0d15e1b5afc6b490a09bdbe"}
+
+**Changes**: ["保留旧通道/计数索引，追加批量查询、对照耗时、回退/候选/精确检查和慢受击计数", "追加原服务预算无余量计数；旧索引保持", "追加实际验证开销计数；历史前37索引不变"]
+
+**Reasons**: ["区分原生长尾和批量实际工作；防旧055 DLL冒充新工作版", "便于区分合批未使用的原因，不把未启用假称优化已经生效", "新计数不能打乱原日志解析，完整长度与消费者对应"]
+
+**After**: {"sha256": "1214fafed942c95b1e2ad116245c15541d28b7106c0cb59629ad59c180f26454", "behavior": "追加实际验证开销计数；历史前37索引不变"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-081322\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-082804\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235215-837079\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235215-839553\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-111490\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-113489\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h"], "encoding": "utf-8", "line_ending": "'\\r\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\IrisDiagnostics.cpp
+
+**Role**: 056真实额外开销/回归
+
+**Code location**: Counter与完整旧索引保持
+
+**Before**: {"behavior": "原固定统计没有新批量、回退、额外验证成本和慢调用计数。", "sha256": "af5f5ca06ac30917f6e9ebd7839a65425f437f7aef3dfe14a8cbc863a0d5f64b"}
+
+**Changes**: ["追加日志标签和056运行身份；日志I/O、时钟、原索引及关闭开销边界保持", "追加原服务预算无余量计数；旧索引保持", "追加实际验证开销计数；历史前37索引不变"]
+
+**Reasons**: ["区分原生长尾和批量实际工作；防旧055 DLL冒充新工作版", "便于区分合批未使用的原因，不把未启用假称优化已经生效", "新计数不能打乱原日志解析，完整长度与消费者对应"]
+
+**After**: {"sha256": "76d1012b8a2cdc86bc135c492e35205b4fbe245dfc5fb1d261c0b1c943d0a4c1", "behavior": "追加实际验证开销计数；历史前37索引不变"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-089664\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-091664\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235215-843069\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235215-844074\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-118906\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-120907\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"], "encoding": "utf-8", "line_ending": "'\\r\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\IrisArsenal.cpp
+
+**Role**: 编译版本身份
+
+**Code location**: 056参数、统计或版本合同
+
+**Before**: {"behavior": "原实现没有本轮同步合批/对照或慢受击证据，或文件尚不存在。", "sha256": "6ffb006f989491d8127ce1b2558c335a303db83c5ba39ad84f7c36075ee46f3c"}
+
+**Changes**: ["只推进工作版为0.4.13，Hook及资源ABI均不变；用户编译后才成为实际产物"]
+
+**Reasons**: ["区分原生长尾和批量实际工作；防旧055 DLL冒充新工作版"]
+
+**After**: {"sha256": "09c7bb68436f7ad5854f6aac03b8e4507d127497cd6cd06215cc67555f1c342c", "behavior": "只推进工作版为0.4.13，Hook及资源ABI均不变；用户编译后才成为实际产物"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-096855\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-099331\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"], "encoding": "utf-8", "line_ending": "'\\r\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\IrisArsenal.rc
+
+**Role**: 编译版本身份
+
+**Code location**: 056参数、统计或版本合同
+
+**Before**: {"behavior": "版本/合同只认识055，不能隔离本轮未编译优化与现有产物。", "sha256": "5d04d1de22b2c064cc688c802d6f022a9f6a5d5f14127e9d4fa4f4ab8b4a030d"}
+
+**Changes**: ["只推进工作版为0.4.13，Hook及资源ABI均不变；用户编译后才成为实际产物"]
+
+**Reasons**: ["区分原生长尾和批量实际工作；防旧055 DLL冒充新工作版"]
+
+**After**: {"sha256": "e77ab10d92fa16f495248def1a76cda31a07ec9279ed32d0c44a281f5fdf7347", "behavior": "只推进工作版为0.4.13，Hook及资源ABI均不变；用户编译后才成为实际产物"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-104331\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-105847\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\distribution\IrisArsenal.ini
+
+**Role**: 启动配置
+
+**Code location**: 056参数、统计或版本合同
+
+**Before**: {"behavior": "原有配置无合批回退开关及慢原生受击阈值。", "sha256": "417763fdb5b41b6bb8b724a190896ddc796e137e8ab73f7199a322898c9fd121"}
+
+**Changes**: ["新增可关闭合批与慢原生受击阈值，所有伤害/范围/权重/医疗预算值保持"]
+
+**Reasons**: ["区分原生长尾和批量实际工作；防旧055 DLL冒充新工作版"]
+
+**After**: {"sha256": "74ef041bbdfb335f837f5624468f2e30972e8d5b7deb2968e681b43d9f0284a0", "behavior": "新增可关闭合批与慢原生受击阈值，所有伤害/范围/权重/医疗预算值保持"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-108849\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-110863\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\package\IrisArsenal\IrisArsenal.ini
+
+**Role**: 启动配置
+
+**Code location**: 056参数、统计或版本合同
+
+**Before**: {"behavior": "原有配置无合批回退开关及慢原生受击阈值。", "sha256": "417763fdb5b41b6bb8b724a190896ddc796e137e8ab73f7199a322898c9fd121"}
+
+**Changes**: ["新增可关闭合批与慢原生受击阈值，所有伤害/范围/权重/医疗预算值保持"]
+
+**Reasons**: ["区分原生长尾和批量实际工作；防旧055 DLL冒充新工作版"]
+
+**After**: {"sha256": "74ef041bbdfb335f837f5624468f2e30972e8d5b7deb2968e681b43d9f0284a0", "behavior": "新增可关闭合批与慢原生受击阈值，所有伤害/范围/权重/医疗预算值保持"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-115462\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-117694\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\stage_package.py
+
+**Role**: 部署前合同门
+
+**Code location**: 056参数、统计或版本合同
+
+**Before**: {"behavior": "版本/合同只认识055，不能隔离本轮未编译优化与现有产物。", "sha256": "40fefe1ebec53c820ed1d6222ec8611ed31edfffe01b1875172ec0267854d684"}
+
+**Changes**: ["新合同/版本与源码时间门同时拒绝旧DLL；不执行本脚本，不组包或部署旧产物"]
+
+**Reasons**: ["区分原生长尾和批量实际工作；防旧055 DLL冒充新工作版"]
+
+**After**: {"sha256": "1c9a5cffa099856295e7696dde324e86690e88915903cdbdc6d5dda6f7bdacfe", "behavior": "新合同/版本与源码时间门同时拒绝旧DLL；不执行本脚本，不组包或部署旧产物"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-122693\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-125367\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\package\IrisArsenal\IrisPackage.json
+
+**Role**: 工作包状态
+
+**Code location**: 056参数、统计或版本合同
+
+**Before**: {"behavior": "原实现没有本轮同步合批/对照或慢受击证据，或文件尚不存在。", "sha256": "6fa537597b15fb9c8cad0735e0cde0e2788f7af0916a2db9970b99dc04587b8e"}
+
+**Changes**: ["仅标记未编译并更新INI摘要；保留现有DLL字节与真实身份"]
+
+**Reasons**: ["区分原生长尾和批量实际工作；防旧055 DLL冒充新工作版"]
+
+**After**: {"sha256": "f8e71bf6b24bc04e728944d7ff0c615cce6fa497c3ff98905456f2e905c22519", "behavior": "仅标记未编译并更新INI摘要；保留现有DLL字节与真实身份"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-132750\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-234851-136272\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\historical047.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原实现没有本轮同步合批/对照或慢受击证据，或文件尚不存在。", "sha256": "bfd7002f51528ecfc966484d6853d90b56355926f0844dddd9abc2ee6b6c8035"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "3c006d51df9f9cf6a11ae2a64c89897a069a85bf7dd71239263744fdde24da69", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-714966\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-717919\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_balance046.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "dd6a6331b31f15bde019e05d1d3f9a3d704fafa8e4fd0556debe30e99a76cc8e"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "d515f0f7c713bd4fe647386229403dfb18bafdff536136b2825ff8077c1486b0", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-736092\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-739294\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_cannon_quake.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "6170259501210be4af5c398e9a5a518ca224a5980f8245cf9b4afa300b7e709a"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "4efa8926cd97e49fd65b548517c5b5c867a6e1b1472c07ef8fb7207aa6f7d668", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-749405\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-752390\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_collision_damage055.py
+
+**Role**: 056真实额外开销/回归
+
+**Code location**: Counter与完整旧索引保持
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "0dce8e06b6b5004167a3e707e644aafeefed70a30cbbdf941997e4cbbb7ca92c"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链", "追加实际验证开销计数；历史前37索引不变"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异", "新计数不能打乱原日志解析，完整长度与消费者对应"]
+
+**After**: {"sha256": "321617764fb5c2f5604cd57eff089d500fcbcb8bf6f4068880ae1e9ed24af284", "behavior": "追加实际验证开销计数；历史前37索引不变"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-762628\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_collision_damage055.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-765801\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_collision_damage055.py", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-137230\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_collision_damage055.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-140273\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_collision_damage055.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_combat_035.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "ec3aa9ce0684e402777793d3ced3f993a974a2408f3a5b841f68579e625246ab"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "7b6bf41e60bc3d1519bc0c4354f0d718fad8a8bfb3c3c3fd767825f0002add62", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-779725\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_035.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-782725\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_035.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_combat_036.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "c8f15c7d80793b6bc9c34e8dcc438923ea1153e94ce741a15435a6ef2096746e"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "7e1028682f4c79c1cd92fefaa17c30d837940a0f0a57ea41de415479c20782f1", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-793619\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-798193\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_melee_reaction044.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "9bbc8e4b85b72d5eae10b1d78b8c2733eddd1c051b20bb53d20a03e77a4c73a8"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "13dea1d041e277b495eaa580d449f3fa835547a961aa2d266daf445de6d5b1ec", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-813824\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-817359\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_move_parameters045.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "30aa88382050c568918d6fd200a5d52d00efa9657517f6951ea02c3eb7eea706"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "5a5bdbf6751cd7e72f6e846ef2278ec96e9f858e569dbc3b93de80112cc3209d", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-827283\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-830291\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_physx_compat054.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "945f6277fe8286e7dbb740c9861a838e5c36ae70bcd9e8ca1abb11e7a3529000"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "e649405b6e633005fa128d042d54bcdb4fb95483f8c4e8e6b86f690f7a5a8189", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-841792\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_physx_compat054.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-844054\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_physx_compat054.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_queue_balance053.py
+
+**Role**: 056真实额外开销/回归
+
+**Code location**: Counter与完整旧索引保持
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "76caeec182f53ef2b08d27e59d9327d5daa50d491902f99db755efd17f1f4813"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链", "追加实际验证开销计数；历史前37索引不变"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异", "新计数不能打乱原日志解析，完整长度与消费者对应"]
+
+**After**: {"sha256": "2028cd72c1a9129554a13c10d676e35872880d8d7f63b9bb8bd9f89f6b6b3419", "behavior": "追加实际验证开销计数；历史前37索引不变"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-897235\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_queue_balance053.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-900548\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_queue_balance053.py", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-124907\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_queue_balance053.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000611-127420\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_queue_balance053.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_release047.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "bc58b8dd410e181b8e0ae386f46317193d287599bce254bf5abda2c199eec10b"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "30fe97b39efde3988be8ed0fd48b7a3b9057a9a2daa3448a6613b4424cdf9fbe", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-910897\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-913909\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_surface050.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "0e10eb34d80a9ac31cf85a46d3b2cb15886bfa35effaafff24a39d70d613becb"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "3ef2eaa979102117328ad567aeafbd082255b89f05213ab66feae79d55752a41", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-926669\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-930214\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\verify_moves.py
+
+**Role**: 非编译历史回归
+
+**Code location**: 056明确合法差异
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "a93c792ca2e450b3b835918bf2ddee7f49c4c99f8b483c9202669a3cca77bec9"}
+
+**Changes**: ["推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"]
+
+**Reasons**: ["不删除原命中/防御/资产验证；仅接纳本轮具体授权差异"]
+
+**After**: {"sha256": "194b555f17b2262082509a4dcdda2d3a3e5595dbe73769c36de1977d2677d63f", "behavior": "推进当前合同、保留旧索引/不变量，追加056专项与精确摘要链"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-941035\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235425-943760\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 仅脚本/语法验证，C++未编译，PhysX未执行
+
+## E:\KenshiProject\2.Projects\IrisArsenal\tools\test_capsule_batch056.py
+
+**Role**: 056验收元数据
+
+**Code location**: runtime_shadow
+
+**Before**: {"behavior": "原回归锁定055版本和逐路径实现，须保留行为合同并接纳056精确授权差异。", "sha256": "new"}
+
+**Changes**: ["新增解析形体、完整身份、容量/失败和原轮服务对照；冻结医疗和原几何函数", "准确定位命名空间Clear而非Visual重载，保持断言严格", "加入随机实际非空命中计数；增加对照不一致/未适配模式；逐字段验证完整身份和独立事件", "增加空批次、新形体类型、周期和清理模型及源码门检查", "更新机器可读实际对照策略"]
+
+**Reasons**: ["验证批量仅替换事实取得，不改变原事件和服务时刻", "首次验证发现同名函数提取到Visual::Clear，修正验证定位", "避免随机空场景通过或仅比哈希；明确诊断等待采用出队时刻", "验证运行校验不会被无命中场景提前耗尽", "与最终运行逻辑一致"]
+
+**After**: {"sha256": "632a3e5cd1adf7396b47e9b61b3a4b5ecad8989d610b73c7870765448d14e2b8", "behavior": "更新机器可读实际对照策略"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235944-768117\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-235944-771786\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000446-710188\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000446-713714\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001111-746767\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001111-749272\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001254-063117\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001254-065648\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 非编译验证
+
+## E:\KenshiProject\2.Projects\IrisArsenal\docs\capsule-batch-056-baseline.json
+
+**Role**: 056行为基线
+
+**Code location**: 原几何/医疗/资源摘要
+
+**Before**: {"behavior": "原实现没有本轮同步合批/对照或慢受击证据，或文件尚不存在。", "sha256": "new"}
+
+**Changes**: ["保留优化前准确输入与完整原生伤害语义摘要"]
+
+**Reasons**: ["后续验收不能将新逻辑自身当作唯一正确规格"]
+
+**After**: {"sha256": "803f9a10d028a6fd615a632816c48f504fc49a0b8bd2351b34b96178a6e98cb1", "behavior": "保留优化前准确输入与完整原生伤害语义摘要"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": [], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 旧0.4.12实机；新源码未编译
+
+## E:\KenshiProject\2.Projects\IrisArsenal\docs\authorized-delta-056.json
+
+**Role**: 056精确差异链
+
+**Code location**: before→after
+
+**Before**: {"behavior": "原实现没有本轮同步合批/对照或慢受击证据，或文件尚不存在。", "sha256": "new"}
+
+**Changes**: ["登记每个既有文件和变化函数的精确摘要；保留所有未授权旧保护", "登记每个既有文件和变化函数的精确摘要；保留所有未授权旧保护", "登记每个既有文件和变化函数的精确摘要；保留所有未授权旧保护"]
+
+**Reasons**: ["让历史静态回归接受本次具体改动而不删除断言", "让历史静态回归接受本次具体改动而不删除断言", "让历史静态回归接受本次具体改动而不删除断言"]
+
+**After**: {"sha256": "50ccd356b39d2b66dfa90bcfee657e7ea1bbd0e04615b2e891ea1f79df9cce22", "behavior": "登记每个既有文件和变化函数的精确摘要；保留所有未授权旧保护"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000306-769699\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-056.json", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000306-772048\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-056.json", "D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000912-689110\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-056.json", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000912-691636\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-056.json"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: 语义由独立模型/原函数不变量验证；未编译
+
+## E:\KenshiProject\2.Projects\IrisArsenal\docs\capsule-batch-056.md
+
+**Role**: 056安全说明
+
+**Code location**: 运行对照边界
+
+**Before**: {"behavior": "原实现没有本轮同步合批/对照或慢受击证据，或文件尚不存在。", "sha256": "new"}
+
+**Changes**: ["记录真实行为、安全合同、验证边界与配置回退", "明确空场景/新形体对照规则"]
+
+**Reasons**: ["供用户review，不以模型或旧DLL冒充新性能", "文档必须与最终代码一致，不夸大空查询验证"]
+
+**After**: {"sha256": "c37e275dc77b3e43503e631dd75e4d70f2f48404ded9cdfc83ff02458d8c7212", "behavior": "明确空场景/新形体对照规则"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001254-053046\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\capsule-batch-056.md", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-001254-055997\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\capsule-batch-056.md"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\KenshiProject\2.Projects\IrisArsenal\STATE.md
+
+**Role**: 项目交接状态
+
+**Code location**: 056当前状态与055真实身份
+
+**Before**: {"behavior": "历史顶部仍称055未编译，与用户已部署0.4.12的证据不一致。", "sha256": "89710163fd817dd36342c2192916f90871e3d0d62024fafeccfa4055f8016772"}
+
+**Changes**: ["区分当前已部署055与未编译056，列出边界/验证/编译步骤"]
+
+**Reasons**: ["避免将旧状态当作当前运行证据"]
+
+**After**: {"sha256": "09a51e4de1a33b928bae4983825ce5e09f50181858aae98a33393f9709e4018a", "behavior": "区分当前已部署055与未编译056，列出边界/验证/编译步骤"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000911-467887\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000911-470396\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## E:\AIWorkSpace\_notes\code-notes.md
+
+**Role**: 追加经验日志
+
+**Code location**: 056更新条目
+
+**Before**: {"behavior": "原实现没有本轮同步合批/对照或慢受击证据，或文件尚不存在。", "sha256": "ace6af45e52c7fc392a9b1d24b059a4fd32382d74057144d4a50ecc180fcba04"}
+
+**Changes**: ["只追加真实运行身份纠正与本轮设计/验证边界"]
+
+**Reasons**: ["防止复用过期状态或把模型当实机"]
+
+**After**: {"sha256": "c7e196b6746f706ae6d0185766f68757d967f84f6abbe13be54e1294182cd1cb", "behavior": "只追加真实运行身份纠正与本轮设计/验证边界"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000911-476416\\E\\AIWorkSpace\\_notes\\code-notes.md", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000911-478409\\E\\AIWorkSpace\\_notes\\code-notes.md"], "encoding": "utf-8", "line_ending": "'\\r\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS
+
+## D:\CodexWorkSpace\ExperienceNotes\Kenshi-Combat-Animation-Porting-Playbook.md
+
+**Role**: 追加可复用经验
+
+**Code location**: 056补充
+
+**Before**: {"behavior": "原实现没有本轮同步合批/对照或慢受击证据，或文件尚不存在。", "sha256": "9c3ab2da1a74a5719b9491d06ff77a1698f2005d014a0f779afba01e5e707aff"}
+
+**Changes**: ["记录同步批量、原服务帧、纯值身份与额外验证成本的边界"]
+
+**Reasons**: ["后续项目复用已验证的约束，未实机的结论明确标注"]
+
+**After**: {"sha256": "d1c8ab2570a66894120ea4d060bef09aa9600587be2be8948a5e8ff1ccd2d8d7", "behavior": "记录同步批量、原服务帧、纯值身份与额外验证成本的边界"}
+
+**Impact**: 仅本轮056优化工作树；不改游戏目录，不编译
+
+**Validation**: 本轮完整非编译验收/289解析场景/16250调度对照/10份语法树/22更新IO沙盒；真正MSVC/PhysX/FPS未执行
+
+**Safety**: {"backups": ["D:\\CodexBackups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000911-483540\\D\\CodexWorkSpace\\ExperienceNotes\\Kenshi-Combat-Animation-Porting-Playbook.md", "E:\\AIWorkSpace\\_backups\\Iris-BatchQueries056-20261018-234000-5fb6e1\\edit-000911-485540\\D\\CodexWorkSpace\\ExperienceNotes\\Kenshi-Combat-Animation-Porting-Playbook.md"], "encoding": "utf-8", "line_ending": "'\\n'", "mojibake_check": "pass"}
+
+**Unresolved**: C++未编译；未运行游戏或测量FPS

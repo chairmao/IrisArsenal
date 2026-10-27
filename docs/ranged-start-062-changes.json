@@ -1,0 +1,400 @@
+{
+  "contract": "IRIS_RANGED_GATE_062",
+  "per_file_per_write": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+      "Role": "仅配置说明中的版本号，所有配置值保持",
+      "Code location": "distribution/IrisArsenal.ini",
+      "Before": "f35960859e1c52e8c205538f5b52647c77f79a4bc906fa46383d06897ffb8aa3",
+      "Changes": "仅配置说明中的版本号，所有配置值保持",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "e7671ce79df08655855e128045eabec9317e7da889be2d040fde571b583633b0",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "062源码版本0.4.19和运行身份；尚不修改任何DLL",
+      "Code location": "IrisArsenal.cpp",
+      "Before": "0c0987789da1e2b86f2bc9235deb57dc537ff3139cf752335bf6e9b8880bef56",
+      "Changes": "062源码版本0.4.19和运行身份；尚不修改任何DLL",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "6434902080b37532837bede7a7e0cad86e2c123b672913b2a2aef614d2cdd517",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Role": "062源码版本0.4.19和运行身份；尚不修改任何DLL",
+      "Code location": "IrisArsenal.rc",
+      "Before": "e7ba3260a6c2e1d326595db403b25fa391c35eff319fa288850134545226d0ec",
+      "Changes": "062源码版本0.4.19和运行身份；尚不修改任何DLL",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "6057c851efe9125e86d97db8ef1cc576018137dd6f17fdef011bbce0781815d8",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "安全窗口消费原生许可携带招式，重查资格/范围/容量而不依赖旧目标相等",
+      "Code location": "IrisCombat.cpp",
+      "Before": "a47641f52825cea66b8a325f61a4012421b580bc909e7ee10bbef47261c157d8",
+      "Changes": "安全窗口消费原生许可携带招式，重查资格/范围/容量而不依赖旧目标相等",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "6e85fc38331a798e7a391d35d538ab2a424a54c7200625ba27caffe1738d6914",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+      "Role": "062源码版本0.4.19和运行身份；尚不修改任何DLL",
+      "Code location": "IrisDiagnostics.cpp",
+      "Before": "6e32483985741c8c9c89ea6266ddc59919e93cf3d2a4a795cf7776bf4fb0af05",
+      "Changes": "062源码版本0.4.19和运行身份；尚不修改任何DLL",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "d9691479af276d29920150628adab25a0c3461391df95515b008595ac38435f4",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+      "Role": "撤销缓存目标开火门；许可记录发布招式；增加原生动画阶段就绪诊断",
+      "Code location": "IrisRanged.cpp",
+      "Before": "33569bad8a06133b419b4d2cb841347b4f468c9869e409be58d60af4e612649f",
+      "Changes": "撤销缓存目标开火门；许可记录发布招式；增加原生动画阶段就绪诊断",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "35357907a2af0b72bba5f31ccf630d717b56192d06a1aaaa638de7a2ef923ba6",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+      "Role": "远程许可值合同：发布招式编号并通过请求原样传递",
+      "Code location": "IrisRanged.h",
+      "Before": "ffb90fd7bd1304cc1b664177d979e386cd6d2660e6fa7aeb9dc56606d5ce7161",
+      "Changes": "远程许可值合同：发布招式编号并通过请求原样传递",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "e7e0bdd136e11b3fe326dc6a39b39997f3b037c2ccd6a76f39085a1544f6ae73",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+      "Role": "仅配置说明中的版本号，所有配置值保持",
+      "Code location": "package/IrisArsenal/IrisArsenal.ini",
+      "Before": "448ef515b8950350b2d5390faf66ca2024e5dd78c37529352cc9935d352e0dc5",
+      "Changes": "仅配置说明中的版本号，所有配置值保持",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "58e475503bec928d8faa06bf7b667078f27035ef06674bc537766bdf61b3eddf",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "如实标记待编译，不改旧0.4.18 DLL版本/摘要",
+      "Code location": "package/IrisArsenal/IrisPackage.json",
+      "Before": "7ee4c963f78ea760a47b079ad71da70bd21f6e5e7ecc24a9d67cc8ef8ea819af",
+      "Changes": "如实标记待编译，不改旧0.4.18 DLL版本/摘要",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "e4c5ac4e7909744b321bf83fbf324cdb7504c3e533c716d6eb0367b5bfb7c03d",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Role": "轻量组包检查062真实构件身份；不改日常复制流程",
+      "Code location": "tools/stage_package.py",
+      "Before": "d8473e9667470f61632edacc8dba547b3dd1f22bd9969ef724e891b13bdb4d5b",
+      "Changes": "轻量组包检查062真实构件身份；不改日常复制流程",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "364e5fc825ea518faf7f0a5d7f2f0340a1dc7bb7e1ba37b7db0b5c8f4ace3df6",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Role": "修正062说明，明确不再增加招式快照步骤",
+      "Code location": "IrisArsenal.rc",
+      "Before": "6057c851efe9125e86d97db8ef1cc576018137dd6f17fdef011bbce0781815d8",
+      "Changes": "修正062说明，明确不再增加招式快照步骤",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "48db85e87e2da9ece7b029b5ff28dc6f7db88bb13afae436b8e027aeeac405b5",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392-RestoreNative\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392-RestoreNative\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "撤销提前选招/身份预约，恢复原生许可之后选招；仅发射时按实际速度生成瞄准值",
+      "Code location": "IrisCombat.cpp",
+      "Before": "6e85fc38331a798e7a391d35d538ab2a424a54c7200625ba27caffe1738d6914",
+      "Changes": "撤销提前选招/身份预约，恢复原生许可之后选招；仅发射时按实际速度生成瞄准值",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "4b398455ba36b9e142acee9ac755b05392b013c9dfef304636909e5afa9443fe",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392-RestoreNative\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392-RestoreNative\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+      "Role": "恢复原生起手参数/评分/就绪/许可合同；移除预选和附加招式快照；仅Emit局部计算预测",
+      "Code location": "IrisRanged.cpp",
+      "Before": "35357907a2af0b72bba5f31ccf630d717b56192d06a1aaaa638de7a2ef923ba6",
+      "Changes": "恢复原生起手参数/评分/就绪/许可合同；移除预选和附加招式快照；仅Emit局部计算预测",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "4ef5ed0939f5c5ef92a0a90b267d6c59380621bc1fa366cdee4e452eb444c9c4",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392-RestoreNative\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392-RestoreNative\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+      "Role": "恢复原发布/许可接口，去掉附加招式快照；发射瞄准显式传速度",
+      "Code location": "IrisRanged.h",
+      "Before": "e7e0bdd136e11b3fe326dc6a39b39997f3b037c2ccd6a76f39085a1544f6ae73",
+      "Changes": "恢复原发布/许可接口，去掉附加招式快照；发射瞄准显式传速度",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "6bda1a9cf99ac5c2e6dbe2a30b372da745f86b91302668b60a983ecdec26e5b0",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392-RestoreNative\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392-RestoreNative\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\ranged-start-062.md",
+      "Role": "解释越界设计、原生顺序、最终撤销方案、证据与验证边界",
+      "Code location": "docs/ranged-start-062.md",
+      "Before": "new",
+      "Changes": "解释越界设计、原生顺序、最终撤销方案、证据与验证边界",
+      "Reasons": "062恢复原许可顺序、保留可复核证据",
+      "After": "b81a6b845cbe20a1d04f49170b4929a3b858b1eb7be81e776c1127fb963a6cf0",
+      "Impact": "文档，不编译不部署",
+      "Validation": "UTF-8/LF/中文回读",
+      "Safety": {
+        "backup": "新文件",
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC及游戏待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-ranged-start-062.json",
+      "Role": "062实际执行的8项非编译检查与10文件语法结果",
+      "Code location": "docs/validation-ranged-start-062.json",
+      "Before": "new",
+      "Changes": "062实际执行的8项非编译检查与10文件语法结果",
+      "Reasons": "062恢复原许可顺序、保留可复核证据",
+      "After": "11b5b239882847888474bdf01628a8d2369b8c6086c40589bb04b3b5620d0b41",
+      "Impact": "文档，不编译不部署",
+      "Validation": "UTF-8/LF/中文回读",
+      "Safety": {
+        "backup": "新文件",
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC及游戏待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "更正源码版本注释，明确不再提前选招",
+      "Code location": "IrisCombat.cpp",
+      "Before": "4b398455ba36b9e142acee9ac755b05392b013c9dfef304636909e5afa9443fe",
+      "Changes": "更正源码版本注释，明确不再提前选招",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "f1a3d156745fe691e42f31851417e3258299cb88dfe4796cf457905d3819ff68",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392-Finalize\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392-Finalize\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+      "Role": "修正瞄准合同注释，区分原生起手与实际Emit",
+      "Code location": "IrisRanged.h",
+      "Before": "6bda1a9cf99ac5c2e6dbe2a30b372da745f86b91302668b60a983ecdec26e5b0",
+      "Changes": "修正瞄准合同注释，区分原生起手与实际Emit",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "c846b660fd23451e0c9f6fee9678bf94e2d19574af84244392cc5eb8e38ab52e",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392-Finalize\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392-Finalize\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\r\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+      "Role": "追加062真实状态，明确撤销061额外步骤且仍待用户编译",
+      "Code location": "README.md",
+      "Before": "a94c67635d1caebccb9273436563519477dacbbe84a977a5135dda5713124003",
+      "Changes": "追加062真实状态，明确撤销061额外步骤且仍待用户编译",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "831c226d46a4120a1ed6f074482198a1af8082732ee127154e5a14a98d9c4296",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392-Finalize\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392-Finalize\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "Role": "追加062真实状态，明确撤销061额外步骤且仍待用户编译",
+      "Code location": "STATE.md",
+      "Before": "78064e8ec8f41c82eb342d319e4fd49efc7ae470f9de060c62ac3319795067ca",
+      "Changes": "追加062真实状态，明确撤销061额外步骤且仍待用户编译",
+      "Reasons": "061新运行无远程请求；原生会在animationUpdate之前重新选敌，额外缓存目标门可阻断起手，许可需传递已发布招式身份",
+      "After": "a47c952b526692009e348a71e5b890962429774025f4f5b68d36881037de8aec",
+      "Impact": "保持061伤害资格和实际弹道、地形射线/角色半径；不新增Hook或线程",
+      "Validation": "写前双备份；UTF-8/BOM/原换行回读及中文检查，专项另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-RangedGate062-20261020-202431-650392-Finalize\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-RangedGate062-20261020-202431-650392-Finalize\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+        ],
+        "encoding": "UTF-8",
+        "newline": "'\\n'"
+      },
+      "Unresolved": "未编译、未部署、游戏恢复待验证"
+    }
+  ],
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-RangedGate062-20261020-202431-650392"
+}

@@ -1,0 +1,66 @@
+{
+  "version": "0.4.6",
+  "code_contract": "IRIS_RANGED_DEFENCE_TEST_046",
+  "full_static_validation": "docs/validation-0.4.6.json",
+  "balance": {
+    "player_table_values_checked": true,
+    "damage_coefficients": 58,
+    "melee_distance_pairs": 7,
+    "weights": [
+      4,
+      4,
+      2,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      4
+    ],
+    "ranged_defence_overrides": [
+      false,
+      false,
+      false
+    ],
+    "result_policy_model_cases": 140,
+    "raw_block_miss_results_preserved": true,
+    "unchanged_source_functions": 14,
+    "geometry_changed": false,
+    "cpp_compiled": false,
+    "game_tested": false
+  },
+  "configuration_parser": {
+    "damage_coefficients": 58,
+    "melee_distance_pairs": 7,
+    "ranged_damage_coefficients": 27,
+    "user_balance_profile": "0.4.6",
+    "all_ranged_extra_defence_gates": false,
+    "source_asset_geometry_preserved": true,
+    "win32_ini_and_CRT_boundary_cases": 13,
+    "independent_protection_model_cases": 400,
+    "distance_inheritance_model_cases": 48,
+    "geometry_and_asset_hashes_locked": true,
+    "cpp_compiled": false,
+    "plugin_executed": false,
+    "game_tested": false
+  },
+  "sync_tests_passed": 12,
+  "game_changed_files": [
+    "IrisArsenal.ini"
+  ],
+  "game_DLL_and_assets_unchanged": true,
+  "game_existing_unspecified_config_values_preserved": true,
+  "package_changed_files": [
+    "IrisArsenal.ini",
+    "IrisPackage.json"
+  ],
+  "cpp_compiled": false,
+  "DLL_deployed": false,
+  "game_tested": false,
+  "verification_limit": "原生返回值保留由静态/模型检查确认；是否在游戏被格挡仍待用户实测",
+  "backups": [
+    "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041",
+    "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041"
+  ]
+}

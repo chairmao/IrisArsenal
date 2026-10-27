@@ -1,0 +1,17 @@
+{
+  "game_mod_files_unchanged": 106,
+  "source_Iris_files_unchanged": 376,
+  "game_DLL": {
+    "version": "0.3.3",
+    "contract": "IRIS_EIGHT_033",
+    "DLL_sha256": "8b476443acd9e150b0aaa61a78dd1d567470770c13852479a01510d351ab38d7",
+    "DLL_bytes": 513024,
+    "log": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\logs\\IrisArsenal-20261017-020937-744-32620.log",
+    "start": "2026-10-17 02:09:37.776 [IrisArsenal 0.3.3] eight_config contract=IRIS_EIGHT_033 fire_roll=2 spiral=3 earthquake=4 drill=12 full_burst=3 vulcan=20 pulse=3 drive=4 public_FCS_chance=0; native_damage_and_armour=1",
+    "shutdown": "2026-10-17 02:27:23.840 [IrisArsenal 0.3.3] eight_clear reason=renderer_shutdown"
+  },
+  "compiled": false,
+  "deployed": false,
+  "new_dependencies": false,
+  "baseline": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-Optics-034-20261017-023224\\baseline.json"
+}

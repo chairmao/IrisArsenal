@@ -1,0 +1,546 @@
+{
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-MeleeReaction-044-20261017-223621-064978",
+  "files": {
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp": {
+      "sha256": "3bc09befbd24f7cd68e475df8d63dc8a6149fed645dd09fef78a3644c0c7d9b9",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "Role": "插件入口/SDK绑定/版本",
+          "Code location": "MeleeStumbleTarget; Log",
+          "Before": "043仅钻天破受击反应门",
+          "Changes": "原_startStumble地址绑定更名六招门，版本日志0.4.4",
+          "Reasons": "用户要求六招免疫小大踉跄；入口及调用约定原样",
+          "After": "3bc09befbd24f7cd68e475df8d63dc8a6149fed645dd09fef78a3644c0c7d9b9",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "CRLF",
+            "old_sha256": "4ef0d0e4e870c04a28f80ba44d76c60262d7b617a9227b1a5ae0db8545a497f0"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp": {
+      "sha256": "63650fe4dfe0fa28672a60956acbc5ec8eefcecdc8b320b733b8ebb59660583e",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "Role": "战斗受击反应/动作窗口/日志",
+          "Code location": "ProtectedMeleeMove; MeleeStumbleHook; InstallDefenceGate; End",
+          "Before": "钻天破独有大小反应保护，另外五招仍会被受击反应取消",
+          "Changes": "六招共用已核验原生窗口；有限任意强度反应跳过，_getHit(false)恰好一次；普通三连击/远程放行；分招诊断和收尾计数",
+          "Reasons": "原生医疗先于反应；只扩展已有同一入口，不改变HP、伤害或播放原理",
+          "After": "63650fe4dfe0fa28672a60956acbc5ec8eefcecdc8b320b733b8ebb59660583e",
+          "Impact": "钩子仍18；死亡/昏迷/倒地/加载/失效放行；原倍率、事件、资产和根移动保持",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "CRLF",
+            "old_sha256": "3395ad10af03e8f455d2e92a3cba23f613998f2a3654c0e224a41a89bf5dd805"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h": {
+      "sha256": "287afc842fa133e5a6d7282f0ba3456522a8a02cfe8d1e879c48dca6c257ac5e",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+          "Role": "战斗模块接口说明",
+          "Code location": "InstallDefenceGate注释",
+          "Before": "043明确不扩展踉跄",
+          "Changes": "更新为六招大小受击反应保护及四招排除项",
+          "Reasons": "与本次明确授权范围一致，不改接口签名",
+          "After": "287afc842fa133e5a6d7282f0ba3456522a8a02cfe8d1e879c48dca6c257ac5e",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "CRLF",
+            "old_sha256": "02461b2123679460a1c52e50b2195dda166cb027f4c032185c4d76452f14e1d0"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc": {
+      "sha256": "322981757266c462cf11ef4eb34fbb8c39ce1dcaf03fcc8a825705003d342fe7",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "Role": "DLL版本资源",
+          "Code location": "FileVersion/ProductVersion",
+          "Before": "0.4.3",
+          "Changes": "0.4.4",
+          "Reasons": "区分仅格挡保护与六招完整受击反应保护",
+          "After": "322981757266c462cf11ef4eb34fbb8c39ce1dcaf03fcc8a825705003d342fe7",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "26312e3e4c43747d81b5675bb7c9a9bb6620d5e88e7f2bf4521a775891ce75c3"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py": {
+      "sha256": "ecd14a8e1be5f7ec66c8235b781519fdcd694081b662e6e6ee0ac9d119901ca8",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "Role": "编译后组包门",
+          "Code location": "BUILD_CONTRACT; manifest",
+          "Before": "新包只需043格挡保护代码标记",
+          "Changes": "强制044受击保护标记，版本0.4.4",
+          "Reasons": "新代码同资产格式，防止旧043 DLL被当作六招受击免疫",
+          "After": "ecd14a8e1be5f7ec66c8235b781519fdcd694081b662e6e6ee0ac9d119901ca8",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "d9e031405f875ab41277a4ec1634ef76c95280e357cf0d415d2b812e5cbfa41a"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py": {
+      "sha256": "b3a68b65218db6b0b3b69aebdd2f6ea870b079f049da6d799c10f22e851aca93",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "Role": "完整非编译验证入口",
+          "Code location": "044专项/新报告路径",
+          "Before": "当前验证为043",
+          "Changes": "接入044专项并新写validation-0.4.4.json",
+          "Reasons": "新范围需验证；不覆写历史043报告",
+          "After": "b3a68b65218db6b0b3b69aebdd2f6ea870b079f049da6d799c10f22e851aca93",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "2da05825aaf9f9297a551bf7fcbcf3e4ae83bac5e1c560e1ebe833953e2b9785"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py": {
+      "sha256": "30f2092853abd01ca9c4957a61891a74666edee3e94dcc402f596310f5d20ac6",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+          "Role": "原格挡功能回归",
+          "Code location": "共用窗口/允许的044反应差异/旧DLL门",
+          "Before": "43测试把drill门视为不改区域",
+          "Changes": "改为共用窗口；仅放行本轮授权的两旧门替换和收尾计数，其他函数基线保留",
+          "Reasons": "044扩展反应范围，不应把明确授权差异冒称043回归；新专项负责其正确性",
+          "After": "f7305983e4d547a9635d56ab62aa928679feabb4630ae92f69bb18e83e73079d",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "7ca95b0fe67746f6b2efc0fede6d72082cd15501d67db72387254172e00d8f9c"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+          "Role": "格挡功能及组包回归",
+          "Code location": "旧资源快照的DLL排除",
+          "Before": "原资源快照把旧DLL也视为不变资产",
+          "Changes": "资源/FCS继续逐字节检查，DLL交给代码合同门而非旧哈希",
+          "Reasons": "用户随后编译或第二次更新时DLL必然改变；否则会让正确新DLL无法组包",
+          "After": "30f2092853abd01ca9c4957a61891a74666edee3e94dcc402f596310f5d20ac6",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978-asset-test-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978-asset-test-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "f7305983e4d547a9635d56ab62aa928679feabb4630ae92f69bb18e83e73079d"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_035.py": {
+      "sha256": "ad295582bd68e1cae4aa40d1369b9e1fc3710d77066ab8ccdca686319ad2fc0d",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_035.py",
+          "Role": "既有医疗/受击回归",
+          "Code location": "旧drill保护断言",
+          "Before": "只接受drill索引3与旧门名称",
+          "Changes": "改验六招共用窗口和单次_getHit(false)/原函数放行",
+          "Reasons": "反应范围是本轮要求；保持原医疗/查询/资源其他断言",
+          "After": "60c98a297ddf63b77bb2ab3c45d8c96d8a2fc7a34ca2e4413416edb0f5dce696",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_035.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_035.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "1884deacb87efc0599975e2c68f76af9a2c10c55166dcf70b486d8f2f63921e3"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_035.py",
+          "Role": "原伤害回归测试",
+          "Code location": "反应门禁止调用检查",
+          "Before": "把中文注释中的addWound说明误当真实调用",
+          "Changes": "先去除行注释再检查禁止调用；禁止列表原样",
+          "Reasons": "保留解释原生医疗顺序的必要中文注释，避免词匹配假阳性",
+          "After": "ad295582bd68e1cae4aa40d1369b9e1fc3710d77066ab8ccdca686319ad2fc0d",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978-comment-check\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_035.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978-comment-check\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_035.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "60c98a297ddf63b77bb2ab3c45d8c96d8a2fc7a34ca2e4413416edb0f5dce696"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py": {
+      "sha256": "3cf3cd838766a5efa43d7c40ed088c5fca01294345458373f7290f56d5f620a3",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "Role": "既有医疗/受击回归",
+          "Code location": "旧drill保护断言",
+          "Before": "只接受drill索引3与旧门名称",
+          "Changes": "改验六招共用窗口和单次_getHit(false)/原函数放行",
+          "Reasons": "反应范围是本轮要求；保持原医疗/查询/资源其他断言",
+          "After": "93ddf2978106245d53248c69778ceb3154b1ae5f5f2a912f9e431b1dfe91f8e4",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "c522e75be66bd6cd6975d19077da82599703828dd1875456027cc8931a9e10db"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "Role": "原伤害回归测试",
+          "Code location": "反应门禁止调用检查",
+          "Before": "把中文注释中的addWound说明误当真实调用",
+          "Changes": "先去除行注释再检查禁止调用；禁止列表原样",
+          "Reasons": "保留解释原生医疗顺序的必要中文注释，避免词匹配假阳性",
+          "After": "3cf3cd838766a5efa43d7c40ed088c5fca01294345458373f7290f56d5f620a3",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978-comment-check\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978-comment-check\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "93ddf2978106245d53248c69778ceb3154b1ae5f5f2a912f9e431b1dfe91f8e4"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json": {
+      "sha256": "9ad4d4504aca72804340604eebc7f6c1f4dfe6ecd4a1b6305bc718b7939536bf",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "Role": "待编译包状态",
+          "Code location": "version/ready/code_contract",
+          "Before": "043未编译状态",
+          "Changes": "044 ready=false，资源042保持",
+          "Reasons": "未生成新DLL，不得声称免疫已部署",
+          "After": "9ad4d4504aca72804340604eebc7f6c1f4dfe6ecd4a1b6305bc718b7939536bf",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "1dfccbc0eb70a07d98a37731f69f74e301ccd92561d412bf046f13280513df20"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\melee-reaction-044-evidence.json": {
+      "sha256": "e2bef098071a4da75799ef90d304088a7d1485b18d9916ec69231c138e4eb70c",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\melee-reaction-044-evidence.json",
+          "Role": "本轮源/受击路径证据",
+          "Code location": "六招范围、原函数/窗口摘要、资产、离线原生调用链",
+          "Before": "不存在",
+          "Changes": "记录同一反应入口和不变的医疗、格挡、移动、倍率与资产基线",
+          "Reasons": "为新保护边界及无关功能隔离提供证据；DLL不计入资产哈希",
+          "After": "e2bef098071a4da75799ef90d304088a7d1485b18d9916ec69231c138e4eb70c",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": null
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py": {
+      "sha256": "a2ec76d104f03b212a54716d8b7fb12c919577f7701c2506fcebb74e377c1971",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "Role": "六招受击反应专项回归",
+          "Code location": "verify_reaction044",
+          "Before": "不存在",
+          "Changes": "检查六招同窗/所有有限强度、近战弩弹模型、退出边界、单次记账、资源隔离及18钩子",
+          "Reasons": "防止只改名称未扩大范围、漏大踉跄、重复医疗或保护延长到后效",
+          "After": "a2ec76d104f03b212a54716d8b7fb12c919577f7701c2506fcebb74e377c1971",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": null
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\melee-reaction-044-validation.json": {
+      "sha256": "cf733b2e5d1c4f909eaab51e56e510982022ca66b435a1334fe696966a8316c2",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\melee-reaction-044-validation.json",
+          "Role": "本轮受击反应验证汇总",
+          "Code location": "模型/回归/隔离/未编译状态",
+          "Before": "不存在",
+          "Changes": "记录980流水组合、75失效边界、11同步测试、原医疗/资产/实际游戏未改",
+          "Reasons": "模型、语法、真实库符号与实际游戏运行必须分开报告",
+          "After": "cf733b2e5d1c4f909eaab51e56e510982022ca66b435a1334fe696966a8316c2",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": null
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\melee-reaction-044.md": {
+      "sha256": "ead934926b2028677e3dc373b34803170a3396616fe671aaabe63a52871dde20",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\melee-reaction-044.md",
+          "Role": "本轮设计与待测说明",
+          "Code location": "六招范围/原生链/窗口/日志/编译步骤",
+          "Before": "不存在",
+          "Changes": "说明全部有限强度反应保护、仍正常受伤与失效退出、保持18钩子及实机待验证",
+          "Reasons": "不将普通受击免疫误述为免伤或死亡后绝对演出锁",
+          "After": "ead934926b2028677e3dc373b34803170a3396616fe671aaabe63a52871dde20",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": null
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md": {
+      "sha256": "93afd4187b98e02acdc8523c6c24e93a692b2df447729206c75636e6620f39d7",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "Role": "项目当前状态/Owner",
+          "Code location": "新增044条目",
+          "Before": "当前043不扩展踉跄",
+          "Changes": "追加044六招反应保护、验证与编译部署状态，历史原样保留",
+          "Reasons": "后续接续必须知道043受击规则已被本次用户要求更新",
+          "After": "93afd4187b98e02acdc8523c6c24e93a692b2df447729206c75636e6620f39d7",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "e491422391dd4ffc7dc20c43a60fdc19e11855559c2c33b264916270883680d2"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md": {
+      "sha256": "6805fe85ba78bd1c79d4a8c82f3d045499d0d28646853180fe8196d142580b25",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "Role": "用户入口",
+          "Code location": "新增044说明",
+          "Before": "顶部043",
+          "Changes": "说明044范围、原生健康边界与用户编译/更新步骤",
+          "Reasons": "避免用户将源代码完成误认为游戏DLL已更新",
+          "After": "6805fe85ba78bd1c79d4a8c82f3d045499d0d28646853180fe8196d142580b25",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-MeleeReaction-044-20261017-223621-064978\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "38acac5b9c4d3d853efda6c1e5515d4fb62de8adde3e56dafeefab7f2e3e8d64"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    },
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.4.json": {
+      "sha256": "a3763267c156afbf370bdb24ba5f4c472152cc48fa32e8aeb1bfaaccd4b7e578",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "LF",
+      "individual_reports": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.4.json",
+          "Role": "八招非编译验收证据",
+          "Code location": "新增独立单元/生成区域",
+          "Before": "不存在",
+          "Changes": "20份真实骨架/握点、源事件、20个特效网格、源纹理、FCS、查询接口和语法树",
+          "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+          "After": "a3763267c156afbf370bdb24ba5f4c472152cc48fa32e8aeb1bfaaccd4b7e578",
+          "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+          "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未编译、未游戏测试，不能据此宣布最终完成",
+          "Final validation": "完整非编译回归、980受击流水/75失效边界、043格挡440模型回归、11同步脚本测试通过；C++及实机待用户验收"
+        }
+      ]
+    }
+  },
+  "compile": "not run by policy",
+  "game_writes": false
+}

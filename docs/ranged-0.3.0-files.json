@@ -1,0 +1,427 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+    "Role": "主插件原生绑定与生命周期",
+    "Code location": "RangedAddress / Accepting / Clear / startPlugin",
+    "Before": "b8379b7fadeef35ab1fd4152a4631dff68b8e15062d02dc555000878c820326f",
+    "Changes": [
+      "八个远程边界均以SDK成员指针绑定；世界清理先退役适配器；0.3.0/030区分新路由，其他主钩子不变"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "a060c413234b573a0a28d72133c964249de3cb4750bccda73d28cf1d86c4a611",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204255-171830\\edit-204255-176839\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204255-171830\\edit-204255-179164\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+    "Role": "DLL版本资源",
+    "Code location": "VERSIONINFO",
+    "Before": "1934dbb6479d0f07a696a5ad35376c913fc57f46f31cd4b26ad1eacdc35d57fc",
+    "Changes": [
+      "升级0.3.0，区分原生远程适配新功能"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "ca53cfc6ea048640738cbc2483cafbf468fc2d715665150e9a63c6636e4d3fc8",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204255-171830\\edit-204255-209017\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204255-171830\\edit-204255-210017\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+    "Role": "真实VS工程编译输入",
+    "Code location": "ClCompile / ClInclude",
+    "Before": "1cf21fd4914b704e394a331ad576934924d642bf0253873fdda2aa4ed5d107c4",
+    "Changes": [
+      "新增独立IrisRanged.cpp/.h，v100/Release x64/GL/LTCG保持"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "21ba4711095e641c0fc020ee8c6a460aabc1893d109cda1de4935dbda17fdc25",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204255-171830\\edit-204255-204968\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204255-171830\\edit-204255-205981\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+    "Role": "动画资源失效收尾",
+    "Code location": "Actor / Target / Observe / Choose / PickRanged / Tick / End",
+    "Before": "9dc2a5823b1c3485200f4f774eedb3a5c84b1ee909c7f6e6677e6ef7d0a4a5b5",
+    "Changes": [
+      "火神与脉冲退出近战池；只消费原生远程射击许可；FCS播同一身体/持械动作，原生攻速、真实枪口、结束间隔与后效保持",
+      "等待原生淡入而非零权重立即取消；最多2游戏秒且暂停冻结；片段回卷不自动重开；仅已有适配器扫描远程附件",
+      "FCS射程单独用于能力准备；真实武器附件未出现时不开放射击，不使用角色脚底代替发射口",
+      "首16次记录未起播的角色/招式/游戏秒/原因，防止等待淡入失败表现为无声卡住",
+      "已经进行的远程动作若FCS动画暂不可用则按同一结束口退场，避免永久占用忙碌状态"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "66c52b6fda478b103d3c2a4bc0d27e26dbb87e0f9f7e672afffe72ee1ecccde5",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204255-171830\\edit-204255-192483\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204255-171830\\edit-204255-194549\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+    "Role": "远程能力预备接口",
+    "Code location": "HasRangedMoves / RangedRange / Observe",
+    "Before": "3577db5b2db6da35d3bce6c67581de672eceb3411fc820db00685df17a7fc467",
+    "Changes": [
+      "安全阶段观察同一角色；暴露两招是否启用，不把动作/FCS信息读进AI线程",
+      "提供已启用两招的FCS最大射程；尚未拔出武器时也能先进入原生远程AI"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "db87b275e50133de6ba187145f74966057bcae1b515782eae1a6a99cebacf9fe",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204255-171830\\edit-204255-186600\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204255-171830\\edit-204255-188127\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+    "Role": "未拔枪时原生视线初值",
+    "Code location": "HybridGun / Equipped / Eligible / hooks / Prepare / Publish / Finish / Reset",
+    "Before": "不存在",
+    "Changes": [
+      "同库存锤枪连接GunClass/AI/视线/装填；无假弩/假弹药；整套20/3发动作后原生2单位间隔；八个限定钩子和延后清理",
+      "缓存安全阶段的动作可用性；原生动画回调不得绕过资源/距离/并发/暂停判断自行恢复开火许可",
+      "退役即关闭许可；安全阶段移出容器后析构；不重复结束已退出的原生远程；配置仅清独占数据的ammo引用",
+      "从实际装备槽发现同一锤枪，先发布能力，再由原生drawWeapon使用物品真实槽名拔枪；资源/附件/范围/并发就绪后才给发射许可",
+      "收尾立即通过原生reloadCheck建立2单位间隔；模式切换前也完成交接，不维护自制时间或每弹计时",
+      "还原原生弩双臂/站姿要求，义肢由原生判断；角色动画/属性无效时不进入原生收尾函数",
+      "标准销毁入口同时清理Native Tracer；没有自建弹药/弩弦实体，不只改active标志",
+      "每安全帧先关闭旧发射许可，避免源资源缺失沿用旧状态；部分挂钩失败时不解引用空原链",
+      "普通NPC/枪先识别真实装备或独占gunData，不争用自有容器锁；范围判断复制数值后释放锁再走原生查询",
+      "先确认角色存活句柄再读stats；原生队形/敌我/模式检查放在自有容器锁外，只锁定本枪状态快照和请求写入",
+      "活动上限8且活动加待安全析构总计上限16，队列长期未清时等待，不按切换次数无界增长",
+      "能力对象创建即使用真实角色坐标，发射许可仍关闭；真实附件出现后发布实际枪口，避免原生走位查询误用世界零点"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "ba2927b5ed0096a8112810968f4a75f6a9d8802f74736ce2a8ba14bfde7da8c4",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/CRLF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+    "Role": "原生远程适配接口",
+    "Code location": "Binding / 安全阶段交接API",
+    "Before": "不存在",
+    "Changes": [
+      "声明八个限定入口和安全阶段/稳定句柄交接，不改变物品/FCS类型",
+      "查询是否已有能力对象，避免普通近战演员也扫描远程枪口"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "b2bb9ec6198a48aa512abf477b9675d30a714511e50fa0f26db6796ce978da52",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/CRLF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "Role": "最新用户入口说明",
+    "Code location": "030说明/配置/交付元数据",
+    "Before": "b2988467c187a0fa3d9084b3b377357e7a3e6699f926c55f9c6ae4a68db51d08",
+    "Changes": [
+      "030使用步骤、整套间隔、单物品和未编译边界置前，保留历史说明"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "b74e9355327287ed9a6f4d0821c4dc678d0b07e139e72b3df3ae8268bb4c3ca1",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-211157-732573\\edit-211157-843803\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-211157-732573\\edit-211157-845535\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "Role": "项目当前状态与Owner",
+    "Code location": "030说明/配置/交付元数据",
+    "Before": "aa2fe256f3fba8d88376b08c79a07c87c6e2fa5fbe322e908ea346f25c488ee1",
+    "Changes": [
+      "实装022与030待编译明确分开；记录同武器远程路由、真实间隔及当前六近战关闭"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "0de0ffd1ebf809ea1afde9bedc6809817ff01cd2de4527da9dece00536150e49",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-211157-732573\\edit-211157-838839\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-211157-732573\\edit-211157-839861\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+    "Role": "当前030交付状态",
+    "Code location": "030说明/配置/交付元数据",
+    "Before": "31d2e8aefd573aa340652988a309ac5861288628c43bcfbf1406cb33c2c48ce0",
+    "Changes": [
+      "以真实022 DLL为基线，记录新原生远程030未编译/部署和所需用户目标，不沿用旧验收结论"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "743c801cdce661ba92d88d43e7d6ceb5b3c436b6d4cff5888e2f9338e147d6b9",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-211157-732573\\edit-211157-850529\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-211157-732573\\edit-211157-851540\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+    "Role": "八招路由与资源合同",
+    "Code location": "030说明/配置/交付元数据",
+    "Before": "f501cfb62bd0b8aef62c222535848a3afa67fb3985420e85c80b2cf8b65eb8fd",
+    "Changes": [
+      "仅火神/脉冲由远程系统启动，其他六招近战；相同物品/倍率/范围/源资产保持"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "8dea44c593e7a4a14f57db019b3c140f21cf7eee642696a9e33423045598b2be",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204809-793539\\edit-204809-848914\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204809-793539\\edit-204809-851018\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\ranged-0.3.0.md",
+    "Role": "原生远程设计说明",
+    "Code location": "030说明/配置/交付元数据",
+    "Before": "不存在",
+    "Changes": [
+      "说明代码职责与8个必要适配边界、2单位整套间隔、无弹药、暂停/换模/清理、原生证据及未编译实机限制",
+      "补明活动与待析构合计16的实际资源上界"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "8217e18a852fde2a1707a2a85abbc7f378d318f5adca8cded80d9a631fd1173e",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.3.0.json",
+    "Role": "八招非编译验收证据",
+    "Code location": "030说明/配置/交付元数据",
+    "Before": "不存在",
+    "Changes": [
+      "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "769af9f03ed6b1592fbf01c6016d77a35006530dbc68c6e811c9b9c4708d8dce",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "用户配置说明",
+    "Code location": "030说明/配置/交付元数据",
+    "Before": "8e8ad9f934436c891a20c06d41b03b8d1855bfb32ba92b297e6a879b6deb9339",
+    "Changes": [
+      "解释游戏远程开关和整套动作间隔；不增第二件武器、不增加额外开关；保持当前测试两招权重"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "a7ae67623f7d84307a7fa91f082262ebf5848be82fd3b95713a35fa3443509a8",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204809-793539\\edit-204809-856884\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204809-793539\\edit-204809-858973\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "Role": "030待用户编译的完整包状态",
+    "Code location": "030说明/配置/交付元数据",
+    "Before": "d9310f90e32ba4fd5f4b9a63e3f2a4292fa65ca0f3f03983debcb85e4b89b51b",
+    "Changes": [
+      "记录真实旧DLL022；新的同武器远程桥必须030编译后再组包，不部署混合版本"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "679cf8298251aa6b923c21a05a636c114bef1e49fb598bc1c56c7ff31eca13e1",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-211157-732573\\edit-211157-830009\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-211157-732573\\edit-211157-832095\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+    "Role": "动作数据/说明生产者",
+    "Code location": "FCS说明及030路由元数据",
+    "Before": "5fb621fe889bf8f3b2973b46641f83d8484bce47aa9cf591c23b15c574131224",
+    "Changes": [
+      "030隔离旧DLL；实际第四C++单元加入语法/输入/源码时间检查；保留022瞄准/材质验收，不重复运行同一验收",
+      "重做资产也保留同武器远近路由合同和原生2单位间隔，源动作/伤害/距离不变"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "c0de4f5a5ce0f0c1ffaafc81241effc7c18801985a50c0b5cc362ac05c82880b",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204809-793539\\edit-204809-821184\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204809-793539\\edit-204809-824002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+    "Role": "原生远程030工程/合同/验收",
+    "Code location": "main",
+    "Before": "9f424a918d32dd36eb8edad58fe1906af5467be56d89fb6a31e1b11f7b9b8a66",
+    "Changes": [
+      "030隔离旧DLL；实际第四C++单元加入语法/输入/源码时间检查；保留022瞄准/材质验收，不重复运行同一验收"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "3ee6dffb8ef612774ec7eb07b9bf50cc5373ef089661e57df43ff56dd648ee2a",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204809-793539\\edit-204809-794534\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204809-793539\\edit-204809-798322\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+    "Role": "原生视线初值验收",
+    "Code location": "verify_ranged",
+    "Before": "不存在",
+    "Changes": [
+      "核对16钩子限定与原生转发、装备发现/拔枪、射击许可、整套20/3发、原生2单位计时、无墙钟/假弩/双伤害和本机SDK符号",
+      "核对部分安装空链回退、每帧许可重建和原生Tracer销毁入口",
+      "补核活动/退役合计16上限和原生双臂条件",
+      "核对未拔枪状态使用真实角色位置且实际发射仍必须附件就绪"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "924654b783e4e65650d32299d136dcc1ff9d3f52dfe16fd2a8f676e0342b8512",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+    "Role": "原生远程030工程/合同/验收",
+    "Code location": "main / syntax_check",
+    "Before": "b43c739ce4d263771bd79fa1733db4ef76bc064eb67444a3b91bb317e2a4271c",
+    "Changes": [
+      "030隔离旧DLL；实际第四C++单元加入语法/输入/源码时间检查；保留022瞄准/材质验收，不重复运行同一验收"
+    ],
+    "Reasons": "用户要求同一件锤枪仅远程模式启用火神/脉冲，走原生远程流程，无弹药，以原生装填单位2.0作为整套动作间隔",
+    "After": "983843d9b7655223e5238164aa580863ab73e4c51930d81b359abc77dc306946",
+    "Impact": "限定IrisArsenal项目；新增8个本枪能力钩子，其他角色原链转发；原倍率/范围/资源和存档物品保持；030未编译/部署",
+    "Validation": "validation-0.3.0.json：16实际动画引用/4编译输入/7语法树/源事件/022瞄准与材质回归/远程入口与计时/SDK符号通过；旧022 DLL组包拒绝；UTF8/BOM/换行与中文检查通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-204809-793539\\edit-204809-806897\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-204809-793539\\edit-204809-809711\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_check": "已有文件改前双外部原字节备份，新文件无需旧版备份"
+    },
+    "Unresolved": "MSVC类型/链接、完整原生GOAP/拔枪/姿态/视线、2单位实际计时与暂停变速、切换/读档和原生Tracer释放尚待实机"
+  }
+]

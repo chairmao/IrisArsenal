@@ -1,0 +1,66 @@
+{
+  "root:native/NativeMultiContact.cpp": {
+    "before": "174a680828a7676931e2202e5a392d20f74e0f9cafba910d30e632c23098ad76",
+    "after": "3682e7dc3d8ad45e65110a1902e1e913b3d5e1db1cf4d97d69fc8a3f6a48163e"
+  },
+  "root:IrisArsenal.cpp": {
+    "before": "0d84211db1f86dbfd29ee944d2f8f42410e3115fc43ce5b08ce36dffadb29ea5",
+    "after": "c84cb460d6190306289962fce2d1ec015e9b2dff4363a464b9b6ab7254b36ba7"
+  },
+  "root:IrisDiagnostics.cpp": {
+    "before": "52fecb4a17833c9a21a65e6827194dacfdae1f0af22f451301a908589e7ef9d5",
+    "after": "ef2892c47739a53f9a2a36bc71419996071913472af2d300c50c8a00a88318c6"
+  },
+  "root:IrisArsenal.rc": {
+    "before": "41f310bdbf992055c25af8ec1c066cffd9d94b09ea24bb7b8a2915d11c353ec2",
+    "after": "58e87602a887772f284ace3cf5a2cee42a3f2adc51cb3552d1bf31d5adb913c2"
+  },
+  "root:distribution/IrisArsenal.ini": {
+    "before": "9afba9ffed4d6ef1655b4a32caf018f0202f6098202b809cd403db51e9d0f8fe",
+    "after": "cd5335d03f1fc4b77ce0feda46db43369084d489948f0f058b5c5cb95ff0ac75"
+  },
+  "root:package/IrisArsenal/IrisArsenal.ini": {
+    "before": "9afba9ffed4d6ef1655b4a32caf018f0202f6098202b809cd403db51e9d0f8fe",
+    "after": "cd5335d03f1fc4b77ce0feda46db43369084d489948f0f058b5c5cb95ff0ac75"
+  },
+  "root:package/IrisArsenal/IrisPackage.json": {
+    "before": "34e1d9611e5b4f60e6b3ab6c18f982a3915b3fec975ae6e63c6075899c8df8d2",
+    "after": "042682668bf5faf6d38515414fe10824d6fb89be4e671988ac03884985b0ba49"
+  },
+  "root:tools/stage_package.py": {
+    "before": "cb26e667672d91a1c4df5ef4fc35b5490e3c98840422ec5d06019b492fc8c16d",
+    "after": "223cf0b0f38f01bbb7e196035469568c675d0feffec89cfe63307e5139c35b19"
+  },
+  "root:tools/historical047.py": {
+    "before": "967938a21e00dc35f0fddf4f1ed8da2e680c89c53f25e7536106cd55f6192227",
+    "after": "5ec433e7643f5e619053d8dd321f763515f08410eb13441bc348499123b73a08"
+  },
+  "root:tools/test_balance046.py": {
+    "before": "53188aff04b5500f9c6121197b62cbfbbcd4984f8cb53fdc85a48b0355357043",
+    "after": "b6fa5892c7947bcf68fec161afd19c57045b612835bc3a89efee30b22615ee63"
+  },
+  "root:tools/test_move_parameters045.py": {
+    "before": "c2092dff72b1eebc363486739493a235bb912ae705a20e896e5cb7d9d065869b",
+    "after": "a3f0bce47efbeda661339ae97d9ef89b08c6f008f1506eab14cbe43d6e40316b"
+  },
+  "root:tools/test_melee_reaction044.py": {
+    "before": "f391ac554e607e695db1f4792052db127770c204d6d4c3852ef36fd2c0e23aff",
+    "after": "7f1d3ca12dc9215e5cff80beb3565ef4f2aa1ca56e099eb7d54d8822813d120f"
+  },
+  "root:tools/test_release047.py": {
+    "before": "cfb99784d1adb3ded1670ed7a6301448c4d9bb626e597af7b63fc2f018043240",
+    "after": "b1fbb0011ee30aab06f9d1066f657910a81d36e5a1321204a060c38c00098aa9"
+  },
+  "root:tools/test_surface050.py": {
+    "before": "10bdf2221eac93508bf2b1cd1b2e5b5e8753a2b909a722e894aca15d5525e5db",
+    "after": "92ea3983c897af05a09ec1b6b989e5b8a5c062028994f44bba67aacc909a14e2"
+  },
+  "root:tools/test_queue_balance053.py": {
+    "before": "e3e3a3fbc5d5cf340dc0aabd783d2b5e014daf496ee56c9c8627f8e64acfaa33",
+    "after": "bb5b628e0db640385991659c90175a2a9770c483aadd8f2081a4c64ce49b9bd7"
+  },
+  "root:tools/verify_moves.py": {
+    "before": "21e41d046e27f47a8198ecebef58053ddd0cd3769ca1d593a40fb669d00d8357",
+    "after": "cb27f240a5311c9d32f4c503dc175dd2ee17a092f5b02e23a68cff2f75a81283"
+  }
+}

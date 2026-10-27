@@ -1,0 +1,21 @@
+{
+  "revision": "052",
+  "files": [
+    "assets/iris_fx_heavy.mesh",
+    "assets/iris_fx_16aa266c9f57169a.png",
+    "assets/iris_fx_41f4a27f3ea0b675.png",
+    "assets/iris_fx_4c9ac19e454dbc9c.png",
+    "assets/iris_fx_61ad787574472755.png",
+    "assets/iris_fx_858421333546ea10.png",
+    "assets/iris_fx_9f9d669a1492ab09.png"
+  ],
+  "before_sha256": {
+    "assets/iris_fx_16aa266c9f57169a.png": "74c2e3611bf8fd52aeaf25cc42325f12b62aa64ddd9f64ead0043373aa97aa30",
+    "assets/iris_fx_41f4a27f3ea0b675.png": "c3e777bd6589e087925a42482de6d0ff79f259221879b5eeccc30ba18d0e304a",
+    "assets/iris_fx_4c9ac19e454dbc9c.png": "c05c3ddadf7ee41701ade38e0af9165237385b3941607a18977e78b394f2316e",
+    "assets/iris_fx_61ad787574472755.png": "35fe5f3da89e6eabd457bcc1b25185a10c83572d63028945577d328d7a5b64c9",
+    "assets/iris_fx_858421333546ea10.png": "b1462757bbcbe17e5a38e8d530418fef13b54599f846b6312bb94b6eb6a5e074",
+    "assets/iris_fx_9f9d669a1492ab09.png": "271586f7bafab84b30af006b8cacd577c9c1330349b51a33a80aa9815ddd8e9a",
+    "assets/iris_fx_heavy.mesh": "83029dc33a02950ceb9ba58802aa54b5498ff61009a40811b2677ea230a9ba33"
+  }
+}

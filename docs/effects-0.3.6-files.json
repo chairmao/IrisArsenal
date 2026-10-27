@@ -1,0 +1,1961 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+    "Role": "036交付身份",
+    "Code location": [
+      {
+        "before_line": 3,
+        "after_line": 3
+      },
+      {
+        "before_line": 17,
+        "after_line": 17
+      },
+      {
+        "before_line": 21,
+        "after_line": 21
+      },
+      {
+        "before_line": 28,
+        "after_line": 28
+      },
+      {
+        "before_line": 30,
+        "after_line": 30
+      }
+    ],
+    "Before": {
+      "sha256": "ec9d6e32c16c3d4a98d7d4c451ee6f84e10020038ec2ec7f9aba843bf9f22da5",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "036源码未编译，与实际已运行的035二进制分开"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "54dd81b14771965b095d79edcf018f0628b0ecc3ef7b669ad6e9811659129643",
+      "behavior": "036源码未编译，与实际已运行的035二进制分开"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104722-725658\\edit-104722-765965\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104722-725658\\edit-104722-768682\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\effects-0.3.6-evidence.json",
+    "Role": "036直接证据与来源",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "不存在",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "035真实运行/原源折射壳/火焰高度/提示时钟/八招素材引用，区分原生结果和HP实测"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "25431108545e014ba143d3b31a38a1964c67e7ed573ab99cd64eccd53e292444",
+      "behavior": "035真实运行/原源折射壳/火焰高度/提示时钟/八招素材引用，区分原生结果和HP实测"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\effects-0.3.6.md",
+    "Role": "036可审查交付与八招对照",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "不存在",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "逐条说明七项目标、源折射语义、伤害资格配置、重武器与已完成/缺失特效细节"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "b6491438b3eeddfd81f358b3dcf91ecfaf264e400bb40c3104989e8b764e4de4",
+      "behavior": "逐条说明七项目标、源折射语义、伤害资格配置、重武器与已完成/缺失特效细节"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+    "Role": "八招特效来源与差异",
+    "Code location": [
+      {
+        "before_line": 43,
+        "after_line": 43
+      },
+      {
+        "before_line": 72,
+        "after_line": 72
+      },
+      {
+        "before_line": 99,
+        "after_line": 99
+      },
+      {
+        "before_line": 129,
+        "after_line": 129
+      },
+      {
+        "before_line": 138,
+        "after_line": 138
+      },
+      {
+        "before_line": 145,
+        "after_line": 145
+      },
+      {
+        "before_line": 150,
+        "after_line": 150
+      },
+      {
+        "before_line": 155,
+        "after_line": 155
+      },
+      {
+        "before_line": 158,
+        "after_line": 158
+      },
+      {
+        "before_line": 185,
+        "after_line": 185
+      },
+      {
+        "before_line": 211,
+        "after_line": 211
+      },
+      {
+        "before_line": 242,
+        "after_line": 242
+      },
+      {
+        "before_line": 270,
+        "after_line": 270
+      },
+      {
+        "before_line": 298,
+        "after_line": 298
+      },
+      {
+        "before_line": 326,
+        "after_line": 326
+      },
+      {
+        "before_line": 336,
+        "after_line": 395
+      },
+      {
+        "before_line": 342,
+        "after_line": 402
+      },
+      {
+        "before_line": 345,
+        "after_line": 406
+      },
+      {
+        "before_line": 346,
+        "after_line": 415
+      },
+      {
+        "before_line": 357,
+        "after_line": 425
+      },
+      {
+        "before_line": 362,
+        "after_line": 430
+      },
+      {
+        "before_line": 367,
+        "after_line": 435
+      },
+      {
+        "before_line": 718,
+        "after_line": 786
+      },
+      {
+        "before_line": 788,
+        "after_line": 863
+      },
+      {
+        "before_line": 1124,
+        "after_line": 1206
+      },
+      {
+        "before_line": 1187,
+        "after_line": 1556
+      },
+      {
+        "before_line": 2114,
+        "after_line": 2385
+      },
+      {
+        "before_line": 2132,
+        "after_line": 2403
+      },
+      {
+        "before_line": 2161,
+        "after_line": 2432
+      },
+      {
+        "before_line": 3137,
+        "after_line": 3408
+      },
+      {
+        "before_line": 3155,
+        "after_line": 3426
+      },
+      {
+        "before_line": 3157,
+        "after_line": 3428
+      },
+      {
+        "before_line": 3212,
+        "after_line": 3440
+      },
+      {
+        "before_line": 3229,
+        "after_line": 3692
+      },
+      {
+        "before_line": 3280,
+        "after_line": 3747
+      },
+      {
+        "before_line": 3292,
+        "after_line": 4093
+      },
+      {
+        "before_line": 3303,
+        "after_line": 4104
+      },
+      {
+        "before_line": 3320,
+        "after_line": 4129
+      },
+      {
+        "before_line": 3324,
+        "after_line": 4133
+      },
+      {
+        "before_line": 3329,
+        "after_line": 4138
+      },
+      {
+        "before_line": 3337,
+        "after_line": 4146
+      },
+      {
+        "before_line": 3340,
+        "after_line": 4150
+      },
+      {
+        "before_line": 3344,
+        "after_line": 4156
+      },
+      {
+        "before_line": 3348,
+        "after_line": 4162
+      },
+      {
+        "before_line": 3352,
+        "after_line": 4168
+      },
+      {
+        "before_line": 3356,
+        "after_line": 4174
+      },
+      {
+        "before_line": 3360,
+        "after_line": 4180
+      },
+      {
+        "before_line": 3432,
+        "after_line": 4254
+      },
+      {
+        "before_line": 3435,
+        "after_line": 4348
+      },
+      {
+        "before_line": 3438,
+        "after_line": 4351
+      },
+      {
+        "before_line": 3443,
+        "after_line": 4356
+      },
+      {
+        "before_line": 3453,
+        "after_line": 4366
+      },
+      {
+        "before_line": 3459,
+        "after_line": 4373
+      }
+    ],
+    "Before": {
+      "sha256": "7a2d91ed6f4091087bf5267485828e804afc07b9c599d309d1547c2e29ca7585",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "70378869cd0202aee5038a2b38df857a4a08678005bcfbee7a75a67907290d0a",
+      "behavior": "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104103-250166\\edit-104119-505002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104103-250166\\edit-104119-507002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+    "Role": "八招源身份/时序/重定向合同",
+    "Code location": [
+      {
+        "before_line": 2,
+        "after_line": 2
+      }
+    ],
+    "Before": {
+      "sha256": "f0b366ab9d69866def66f6762d543b24f5e6933719a8985d525c9410b1228132",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "源HKX时间统一映射；火神20发、脉冲3发、地震4震、钻头11脉冲加炮弹"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "5034d36ade216e5462b4f6bf3acf9c2840681fdae15170ccb3c955f91fa26a8d",
+      "behavior": "源HKX时间统一映射；火神20发、脉冲3发、地震4震、钻头11脉冲加炮弹"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104112-542086\\edit-104128-553724\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104112-542086\\edit-104128-556723\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\package-gate-0.3.6.json",
+    "Role": "036旧DLL门禁验证",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "不存在",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "实际完整检查后拒绝035 DLL，未写游戏或二进制"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "cb2e7fa8e58c4304b3e141893e28811dcfee92dca932af7cfa49060309430549",
+      "behavior": "实际完整检查后拒绝035 DLL，未写游戏或二进制"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.3.6.json",
+    "Role": "八招非编译验收证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "不存在",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "3d47349af7549748f859c57d6ffd51817fe48ab1098f3ff5b1e6e93946da9916",
+      "behavior": "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+    "Role": "插件日志/SDK入口",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 56,
+        "after_line": 56
+      },
+      {
+        "before_line": 82,
+        "after_line": 82
+      }
+    ],
+    "Before": {
+      "sha256": "b829e7bfc0aef1912787f33520c9962eef91411763df69523115a897e3dd9e41",
+      "behavior": "035合同"
+    },
+    "Changes": [
+      "主日志/合同更新036，仍通过SDK地址式挂钩"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "e86452359ba929eaa40ec0abaf7426f5502373e3211932bfbb79856a8941e5bb",
+      "behavior": "036合同，其原生安全阶段/SDK地址机制不变"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-103906-777502\\edit-103906-791180\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-103906-777502\\edit-103906-792566\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+    "Role": "036实际消费者/作者",
+    "Code location": [
+      {
+        "before_line": 4,
+        "after_line": 4
+      },
+      {
+        "before_line": 16,
+        "after_line": 16
+      },
+      {
+        "before_line": 18,
+        "after_line": 18
+      }
+    ],
+    "Before": {
+      "sha256": "cb7cbb7afed51303f0db081a50ef278c16485575785a4cedc1a93b48ab6c404a",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "036版本与整包门禁同步；旧035不能配新资源"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "30dc51af604e1bb1d2cd23e9cadef5c550f93e94c112b41017330a40470f9656",
+      "behavior": "036版本与整包门禁同步；旧035不能配新资源"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-103906-777502\\edit-103906-843980\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-103906-777502\\edit-103906-846414\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+    "Role": "八招实际运行消费者",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 55,
+        "after_line": 55
+      },
+      {
+        "before_line": 58,
+        "after_line": 58
+      },
+      {
+        "before_line": 63,
+        "after_line": 65
+      },
+      {
+        "before_line": 107,
+        "after_line": 109
+      },
+      {
+        "before_line": 150,
+        "after_line": 152
+      },
+      {
+        "before_line": 166,
+        "after_line": 168
+      },
+      {
+        "before_line": 213,
+        "after_line": 218
+      },
+      {
+        "before_line": 216,
+        "after_line": 221
+      },
+      {
+        "before_line": 227,
+        "after_line": 232
+      },
+      {
+        "before_line": 237,
+        "after_line": 247
+      },
+      {
+        "before_line": 240,
+        "after_line": 257
+      },
+      {
+        "before_line": 242,
+        "after_line": 259
+      },
+      {
+        "before_line": 244,
+        "after_line": 261
+      },
+      {
+        "before_line": 330,
+        "after_line": 347
+      },
+      {
+        "before_line": 366,
+        "after_line": 383
+      },
+      {
+        "before_line": 456,
+        "after_line": 473
+      },
+      {
+        "before_line": 457,
+        "after_line": 477
+      },
+      {
+        "before_line": 486,
+        "after_line": 514
+      },
+      {
+        "before_line": 531,
+        "after_line": 559
+      },
+      {
+        "before_line": 611,
+        "after_line": 639
+      },
+      {
+        "before_line": 618,
+        "after_line": 646
+      },
+      {
+        "before_line": 659,
+        "after_line": 687
+      },
+      {
+        "before_line": 681,
+        "after_line": 709
+      },
+      {
+        "before_line": 685,
+        "after_line": 713
+      },
+      {
+        "before_line": 687,
+        "after_line": 716
+      },
+      {
+        "before_line": 689,
+        "after_line": 718
+      },
+      {
+        "before_line": 692,
+        "after_line": 722
+      }
+    ],
+    "Before": {
+      "sha256": "8f638ed13402cc5c23b12f1f9d8cc0a6ab3f5d9077f64364680e9e191b3b4bb6",
+      "behavior": "035只有火神破防、未配置昏迷门；尾焰用整段动作时钟"
+    },
+    "Changes": [
+      "036：三招破防/闪避；isEnemy与可配置昏迷双门；源触发局部时钟、点火和charge3层、独立翻滚爆炸；保持伤害倍率/几何",
+      "启动清理只影响其前出生的视觉，不屏蔽后出生charge3；有源尾焰时不提前用健康帧假触发；原生早退不重放医疗或关闭插件",
+      "严格解析0/1字符串，避免非数字默认为0；点火评论与源同帧触发一致"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "a3277b2d598dc5d329894666a099ffae9791b76ba440338c24b6fa2c5a91ea0e",
+      "behavior": "三招扩展单次物理防御门；isEnemy/昏迷双门；源提示时钟；新增火焰/charge3附件和清理"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-103906-777502\\edit-103906-781719\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-103906-777502\\edit-103906-782718\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+    "Role": "模块声明",
+    "Code location": [
+      {
+        "before_line": 7,
+        "after_line": 7
+      }
+    ],
+    "Before": {
+      "sha256": "83cda3682698cd150571a0eefe41641790b3509f845482284ce0acb584d8b1c1",
+      "behavior": "注释仅列火神防御门"
+    },
+    "Changes": [
+      "接口注释匹配新增三招的单次原生防御范围"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "ff042c94aecd9079c73089c42e018c19d69bd63437e4262f2535a65b54f19c4a",
+      "behavior": "声明注释覆盖本次新增三招范围"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-103906-777502\\edit-103906-799568\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-103906-777502\\edit-103906-801567\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_cues.csv",
+    "Role": "源视觉触发时间流",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "不存在",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "源尾焰/枪体/清理/点火/charge3提示独立时钟，不新增伤害"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "6e9f3d4767dd99edd1d89b4a9a981a76c82dcefd51bd6df2d0ba848e200b6dec",
+      "behavior": "源尾焰/枪体/清理/点火/charge3提示独立时钟，不新增伤害"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+    "Role": "分层源光学时间流",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 4,
+        "after_line": 4
+      },
+      {
+        "before_line": 125,
+        "after_line": 125
+      },
+      {
+        "before_line": 488,
+        "after_line": 488
+      },
+      {
+        "before_line": 609,
+        "after_line": 609
+      },
+      {
+        "before_line": 1465,
+        "after_line": 1465
+      },
+      {
+        "before_line": 1540,
+        "after_line": 2400
+      },
+      {
+        "before_line": 1613,
+        "after_line": 2473
+      },
+      {
+        "before_line": 1689,
+        "after_line": 2549
+      },
+      {
+        "before_line": 1762,
+        "after_line": 2622
+      },
+      {
+        "before_line": 1981,
+        "after_line": 2841
+      },
+      {
+        "before_line": 2054,
+        "after_line": 2914
+      }
+    ],
+    "Before": {
+      "sha256": "0d680261fd83ade8dcdd2377faaf9c0fad9a848c3f17a566fe6bafc0acb3edf5",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "86182e2d0bd077ef50114cac7c33948bdb1326bac7d49eb2bfb9802d90b78b38",
+      "behavior": "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104103-250166\\edit-104119-545002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104103-250166\\edit-104119-548002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+    "Role": "运行时显式子材质绑定",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 38,
+        "after_line": 38
+      },
+      {
+        "before_line": 41,
+        "after_line": 41
+      },
+      {
+        "before_line": 72,
+        "after_line": 72
+      }
+    ],
+    "Before": {
+      "sha256": "9a23f50c66c425145ec83c01ff3e1639b8d1162c7fc67a91a9d32822b9e99862",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "98a96e6866e4914cbba0d06fe57039cb5ba6188835dff115d978dfaa32e6f6cf",
+      "behavior": "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104103-250166\\edit-104119-579079\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104103-250166\\edit-104119-581083\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+    "Role": "八招源材质",
+    "Code location": [
+      {
+        "before_line": 451,
+        "after_line": 451
+      },
+      {
+        "before_line": 471,
+        "after_line": 471
+      },
+      {
+        "before_line": 475,
+        "after_line": 475
+      },
+      {
+        "before_line": 1071,
+        "after_line": 1071
+      },
+      {
+        "before_line": 1093,
+        "after_line": 1093
+      },
+      {
+        "before_line": 1101,
+        "after_line": 1101
+      },
+      {
+        "before_line": 1122,
+        "after_line": 1242
+      },
+      {
+        "before_line": 1131,
+        "after_line": 1251
+      },
+      {
+        "before_line": 1152,
+        "after_line": 1272
+      },
+      {
+        "before_line": 1157,
+        "after_line": 1277
+      }
+    ],
+    "Before": {
+      "sha256": "c93b99bdc5629f17ae004f14731e67acf3f30730fbabee4ab50ef5ae0e874653",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "faed4d7476437fac700b780af9114c1961b0e80c61bfaabead25073c03979655",
+      "behavior": "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104103-250166\\edit-104119-477991\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104103-250166\\edit-104119-480993\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_charge_halo.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "不存在",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "68d52068c26554b972ae64a59d56a4be1cb6342f1495a89e8456515f550fdced",
+      "behavior": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+    "Role": "036透明钻天破终结",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "336ea614cba8b53d27c98ac81fc7f9fbf0f0c942fa6ebffb9b40c1249287b443",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "删除折射实体GeoSphere；2透明气浪+6源火焰，每组尺度独立、火焰升腾，不让大球壳挤小火焰"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "55df16699ff8b74814abcf5774ba5234c9ea9c97da355e9d468f5316a3868f5a",
+      "behavior": "删除折射实体GeoSphere；2透明气浪+6源火焰，每组尺度独立、火焰升腾，不让大球壳挤小火焰"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104103-250166\\edit-104119-338602\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104103-250166\\edit-104119-343083\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "不存在",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "be0e563d72386016832cd89633af6fa35c3da52edd0ce42c4e8893c539f65a63",
+      "behavior": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "1ae44f057374064e1e218dc74ec0cb587717c8e0777b535dedae458ec5eea43d",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "be0e563d72386016832cd89633af6fa35c3da52edd0ce42c4e8893c539f65a63",
+      "behavior": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104103-250166\\edit-104110-647024\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104103-250166\\edit-104110-649030\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "用户配置",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 18,
+        "after_line": 18
+      }
+    ],
+    "Before": {
+      "sha256": "4a23ffcc8ab9609e99ae7a2559d301d32b92a069f038b50a957ea3a3fe38fe3b",
+      "behavior": "无昏迷选项"
+    },
+    "Changes": [
+      "新增DamageUnconsciousTargets默认1；其余权重/间隔/伤害设置保持"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "f94bdd513b08edbc463d1c19ee439e88dd70961a2aebae85eef15e788eaaf089",
+      "behavior": "DamageUnconsciousTargets=1默认允许，0排除；其他值不变"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-103906-777502\\edit-103906-836994\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-103906-777502\\edit-103906-838980\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+    "Role": "八招隔离FCS记录",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "f1bcef680d2f1f229bc054b40d51505418468663fadd2868ce0a30564bcb2507",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "ed62bd960a629605e17104fa081285b671b801584c63222a9859e42518f6926a",
+      "behavior": "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104112-542086\\edit-104128-531762\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104112-542086\\edit-104128-534762\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "Role": "036未编译包门禁",
+    "Code location": [
+      {
+        "before_line": 2,
+        "after_line": 2
+      },
+      {
+        "before_line": 7,
+        "after_line": 10
+      },
+      {
+        "before_line": 9,
+        "after_line": 12
+      },
+      {
+        "before_line": 15,
+        "after_line": 19
+      },
+      {
+        "before_line": 57,
+        "after_line": 62
+      },
+      {
+        "before_line": 87,
+        "after_line": 92
+      },
+      {
+        "before_line": 90,
+        "after_line": 96
+      },
+      {
+        "before_line": 95,
+        "after_line": 101
+      },
+      {
+        "before_line": 101,
+        "after_line": 108
+      },
+      {
+        "before_line": 117,
+        "after_line": 124
+      }
+    ],
+    "Before": {
+      "sha256": "547b5d352b084bb6b9cfaa240caadaf0c77bf6f2a33388b7175a5cd84195fab8",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "真实保留035 DLL；036用户编译成功且核对全资源后才能ready=true"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "19dea37557ed2ef24e88b62c5e3bc84244bca18f65c90ab9e618b69af6d4d76e",
+      "behavior": "真实保留035 DLL；036用户编译成功且核对全资源后才能ready=true"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104722-725658\\edit-104722-892086\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104722-725658\\edit-104722-895360\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "Role": "036当前交接状态",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      }
+    ],
+    "Before": {
+      "sha256": "41669d7f9282d10c8a02f303198cbc4edf6b0035897d4a54d615ef5c6ecbc277",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "新增准确036待编译、实际035已运行与七点变更；保留历史和Owner Codex"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "916013c3b483e254d98beb4aaf4a13afecf8632b3ffd3f4f7d9fe58706344132",
+      "behavior": "新增准确036待编译、实际035已运行与七点变更；保留历史和Owner Codex"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104722-725658\\edit-104722-748772\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104722-725658\\edit-104722-751153\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "Role": "036当前交接状态",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      }
+    ],
+    "Before": {
+      "sha256": "f1e00b581c1465c5092a22ea1f4fc439bb0e58a28082e06917544840e2287965",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "新增准确036待编译、实际035已运行与七点变更；保留历史和Owner Codex"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "cb3e3ef401e4d94b47c8a027144bbafdc8e831ab3731fea96cd35b4ecd5e88b7",
+      "behavior": "新增准确036待编译、实际035已运行与七点变更；保留历史和Owner Codex"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104722-725658\\edit-104722-755469\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104722-725658\\edit-104722-757125\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+    "Role": "源特效作者",
+    "Code location": [
+      {
+        "before_line": 17,
+        "after_line": 17
+      },
+      {
+        "before_line": 186,
+        "after_line": 187
+      },
+      {
+        "before_line": 195,
+        "after_line": 196
+      },
+      {
+        "before_line": 205,
+        "after_line": 207
+      },
+      {
+        "before_line": 208,
+        "after_line": 210
+      },
+      {
+        "before_line": 218,
+        "after_line": 220
+      },
+      {
+        "before_line": 253,
+        "after_line": 255
+      }
+    ],
+    "Before": {
+      "sha256": "33f1264d044065d59055f22453a5d6f7e1f2178f7780705075ef47bed133cb03",
+      "behavior": "13资产/5曲线"
+    },
+    "Changes": [
+      "新增翻滚完整火焰与全力爆发真实charge3层；7曲线/15资产；保留其他招式几何与源贴图"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "e682525f88c2e6e75fb8ff5d8a759422a8c500e4a5291c47b0e8024a49d9a68c",
+      "behavior": "15资产/7曲线；火焰翻滚与charge3独立，其他真实源资产保持"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104036-321603\\edit-104036-358075\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104036-321603\\edit-104036-364075\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+    "Role": "源动作/FCS/提示作者",
+    "Code location": [
+      {
+        "before_line": 273,
+        "after_line": 273
+      },
+      {
+        "before_line": 275,
+        "after_line": 278
+      },
+      {
+        "before_line": 288,
+        "after_line": 292
+      },
+      {
+        "before_line": 295,
+        "after_line": 299
+      },
+      {
+        "before_line": 298,
+        "after_line": 302
+      }
+    ],
+    "Before": {
+      "sha256": "ec529529e278e7cee1f8ed782d2285e4d284d445a66882058d8ae6b81533c5f7",
+      "behavior": "长柄刀类别，无独立源视觉提示文件"
+    },
+    "Changes": [
+      "武器与私有技巧统一重武器，035身体/倍率/距离保持；导出真实源视觉时间036"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "ad97b29264304cc965877db0f6f4c37fc85567601d28d382660fb95342b38470",
+      "behavior": "重武器分类与8技巧、真实15条视觉提示；身体/健康事件不变"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-103906-777502\\edit-103906-806456\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-103906-777502\\edit-103906-810027\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_prototype.py",
+    "Role": "旧闭环资产作者",
+    "Code location": [
+      {
+        "before_line": 241,
+        "after_line": 241
+      },
+      {
+        "before_line": 246,
+        "after_line": 248
+      }
+    ],
+    "Before": {
+      "sha256": "e2304d1c8d9c5541e163466ace751212ab65121c1f54d45c6a7f71af7b30f550",
+      "behavior": "重建会回到长柄刀"
+    },
+    "Changes": [
+      "原型作者也使用SKILL_HEAVY，防止以后重新准备最小闭环重置武器类别"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "d15e04e8aad980a672e35af3cb77cc2778c897f94fab4fabba71a9892a3c98ab",
+      "behavior": "同正式项目保持重武器类型"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-103906-777502\\edit-103906-820885\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_prototype.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-103906-777502\\edit-103906-824164\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_prototype.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_prototype.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_prototype.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py",
+    "Role": "源终结作者",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 6,
+        "after_line": 6
+      },
+      {
+        "before_line": 8,
+        "after_line": 30
+      },
+      {
+        "before_line": 12,
+        "after_line": 32
+      },
+      {
+        "before_line": 23,
+        "after_line": 46
+      },
+      {
+        "before_line": 25,
+        "after_line": 48
+      },
+      {
+        "before_line": 27,
+        "after_line": 50
+      },
+      {
+        "before_line": 54,
+        "after_line": 56
+      },
+      {
+        "before_line": 57,
+        "after_line": 61
+      },
+      {
+        "before_line": 59,
+        "after_line": 63
+      }
+    ],
+    "Before": {
+      "sha256": "fd37c7679f72eb739b0539b9ed2bcc4e675dbc6ed293b3f0bd5b8481eefc6602",
+      "behavior": "9层包含one-zero折射实体球壳，火焰被整体尺度挤小"
+    },
+    "Changes": [
+      "修正Refraction实体误绘，真实8层透明/纹理遮罩/竖向火焰，更新保守动态包围"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "94e196d1c9a79b9dd11e3926fd72757c7261d228bc69c9bdace0babbcc9ad8d0",
+      "behavior": "2透明气浪+6火焰独立尺度；不假冒完整ALS原效果"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104036-321603\\edit-104036-346328\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104036-321603\\edit-104036-349330\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_optics.py",
+    "Role": "折射/辉光分类",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "不存在",
+      "behavior": "本轮不存在"
+    },
+    "Changes": [
+      "以实际源Refraction标志排除误绘实体；火焰Glow使用源库羽化遮罩，保留原源文件"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "05953265b352bc702b92e9d4dc98cbc3b971b8e194db9fdbbeeee281335e184b",
+      "behavior": "排除不能渲染的Refraction实体壳，火焰辉光使用同源羽化遮罩"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_optics.py",
+    "Role": "源几何/曲线空间作者",
+    "Code location": [
+      {
+        "before_line": 14,
+        "after_line": 14
+      },
+      {
+        "before_line": 22,
+        "after_line": 23
+      },
+      {
+        "before_line": 26,
+        "after_line": 30
+      }
+    ],
+    "Before": {
+      "sha256": "939a474ad57375dc7c37906be613f1e8217ef7f831dfff0452adbf4ab62fbad5",
+      "behavior": "火焰Y随大XZ包围尺度被压低"
+    },
+    "Changes": [
+      "地震/翻滚火焰独立竖向展开，LowerFlame最高0.72倍AOE半径；水平半径与伤害不改"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "db3579c71f241067a0594b2ad5fef5923e9a89e928e8a80965ee2e7b57107d83",
+      "behavior": "独立Y校准，XZ与伤害半径不变，保留源UV/时间"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104036-321603\\edit-104036-331640\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_optics.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104036-321603\\edit-104036-336850\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_optics.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_optics.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_optics.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+    "Role": "036完整包合同",
+    "Code location": [
+      {
+        "before_line": 12,
+        "after_line": 12
+      },
+      {
+        "before_line": 17,
+        "after_line": 17
+      }
+    ],
+    "Before": {
+      "sha256": "e85821a25c177b7e2b2dfdaee681761de5e49071dd3ac0d2736cb3637a8a08a9",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "036版本与整包门禁同步；旧035不能配新资源",
+      "源视觉提示流纳入正式资产合同，不能用户编译后遗漏这份必需文件"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "93d4e8c3d1ef961dc84b8aef80a8df3005d5814d9629a8cca86bc7893a8b89a2",
+      "behavior": "036版本与整包门禁同步；旧035不能配新资源 / 源视觉提示流纳入正式资产合同，不能用户编译后遗漏这份必需文件"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-103906-777502\\edit-103906-849315\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-103906-777502\\edit-103906-851395\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+    "Role": "036非编译回归",
+    "Code location": [
+      {
+        "before_line": 41,
+        "after_line": 41
+      }
+    ],
+    "Before": {
+      "sha256": "2f19e0cb9ff6a571bca03fcd3c88515b0db1405114d934c99a45e30255948751",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "地震原4秒寿命不改，允许独立翻滚完整火焰曲线"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "2c7d0d47d96ad370e3cb4e5a8ab32965ee7930943f65a2f4d2e8290befb47109",
+      "behavior": "地震原4秒寿命不改，允许独立翻滚完整火焰曲线"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104352-770141\\edit-104352-855848\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104352-770141\\edit-104352-858849\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+    "Role": "036独立回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": {
+      "sha256": "不存在",
+      "behavior": "本轮不存在"
+    },
+    "Changes": [
+      "保留035故障/预算/光刃真实姿态验证，新增敌我/昏迷双门、重武器FCS、提示时钟、透明爆裂和实际火焰高度",
+      "默认1、非法字符串拒绝与0/1门两处匹配实际C++读取"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "ccab7ec5f5864cefc47240b0cb2165af830562ee9e3ed331f101a6deab52d447",
+      "behavior": "继承故障/预算/实际姿态反例并验证敌我/昏迷/FCS重武器/源提示/透明/火焰高度"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+    "Role": "036非编译回归",
+    "Code location": [
+      {
+        "before_line": 11,
+        "after_line": 11
+      },
+      {
+        "before_line": 14,
+        "after_line": 14
+      },
+      {
+        "before_line": 39,
+        "after_line": 39
+      }
+    ],
+    "Before": {
+      "sha256": "bca1582b8c6edbdb4b6418171778fe5f36adc8e0015e4e6391d5dd826dbd0a32",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "逐个核对实际7条时间流、动态边界与5层charge3真实源网格"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "0fc4b622711620bb08092c74808d4fe1923397d49a05bd0e8410afae84a30e22",
+      "behavior": "逐个核对实际7条时间流、动态边界与5层charge3真实源网格"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104352-770141\\edit-104352-842380\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104352-770141\\edit-104352-845382\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+    "Role": "036非编译回归",
+    "Code location": [
+      {
+        "before_line": 43,
+        "after_line": 43
+      },
+      {
+        "before_line": 63,
+        "after_line": 63
+      }
+    ],
+    "Before": {
+      "sha256": "ef7cd27afa3979c672454217011bcd11a006485f45c61c80cf26532038701675",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "新独立火焰和charge3纳入实际预热/纹理预算，保留源瞄准和友军阻挡语义"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "f6ce062d7af41346dbbdee6be608645d93037f2eaa9f6ee33b1aaed2ec22fc82",
+      "behavior": "新独立火焰和charge3纳入实际预热/纹理预算，保留源瞄准和友军阻挡语义"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104352-770141\\edit-104352-827630\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104352-770141\\edit-104352-830631\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+    "Role": "036非编译回归",
+    "Code location": [
+      {
+        "before_line": 58,
+        "after_line": 58
+      }
+    ],
+    "Before": {
+      "sha256": "9fff2381a1edf57b0bc548a755717f87001faca486f20521fdbbc782066bcfda",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "只升级新包合同；远程8适配钩子与原生间隔路径不变"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "887f0812618ff2627bbf9dabb36d644df44853fdd59a963a608cda70d7e3f705",
+      "behavior": "只升级新包合同；远程8适配钩子与原生间隔路径不变"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104352-770141\\edit-104352-813630\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104352-770141\\edit-104352-816630\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+    "Role": "036非编译回归",
+    "Code location": [
+      {
+        "before_line": 21,
+        "after_line": 21
+      },
+      {
+        "before_line": 72,
+        "after_line": 72
+      },
+      {
+        "before_line": 89,
+        "after_line": 89
+      }
+    ],
+    "Before": {
+      "sha256": "9c786148dcc0755806cfd82506b93f719ca8083c75a75380aab758c7a86f4e23",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "保留火神球体/材质/原生单次TLS，明确用户新增三招可破防"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "9525f05dfe1d541fe9843bbc19675639caa5200d499ce9030be3c66805d1808e",
+      "behavior": "保留火神球体/材质/原生单次TLS，明确用户新增三招可破防"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-104352-770141\\edit-104352-796143\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-104352-770141\\edit-104352-800630\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+    "Role": "036非编译回归",
+    "Code location": [
+      {
+        "before_line": 82,
+        "after_line": 82
+      },
+      {
+        "before_line": 103,
+        "after_line": 103
+      },
+      {
+        "before_line": 142,
+        "after_line": 142
+      },
+      {
+        "before_line": 144,
+        "after_line": 144
+      },
+      {
+        "before_line": 146,
+        "after_line": 146
+      },
+      {
+        "before_line": 148,
+        "after_line": 148
+      },
+      {
+        "before_line": 150,
+        "after_line": 150
+      },
+      {
+        "before_line": 152,
+        "after_line": 152
+      },
+      {
+        "before_line": 159,
+        "after_line": 159
+      }
+    ],
+    "Before": {
+      "sha256": "7bcbce7bdc653d03caf5fa0b177f6be19fb1c3992075fd3d0d4f4dae0e5c0de7",
+      "behavior": "035基线或本轮不存在"
+    },
+    "Changes": [
+      "036版本与整包门禁同步；旧035不能配新资源",
+      "036资产15/曲线7/源提示、三招防御/昏迷与重武器新断言接入；原其他检查保持"
+    ],
+    "Reasons": "用户本轮7项明确要求；源视频32抽帧/真实HKX提示/NIF Refraction位与035错误实体混合见effects-0.3.6-evidence.json",
+    "After": {
+      "sha256": "54b6462c7c04adc960da911be32ff793b1504ab91e5f8fd4aeedd07cd569f0db",
+      "behavior": "036版本与整包门禁同步；旧035不能配新资源 / 036资产15/曲线7/源提示、三招防御/昏迷与重武器新断言接入；原其他检查保持"
+    },
+    "Impact": "只在IrisArsenal036项目；需新DLL+15类资产/7时间流/源提示整包；不变更伤害倍率/距离/速度/预算/其他mod",
+    "Validation": "validation-0.3.6.json：16实际身体、真实源提示与消费、动态顶点高度/范围、终结全透明、FCS重武器、敌我/昏迷双门、035故障/预算/姿态回归、SDK/语法树；旧035 DLL门禁拒绝",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-103906-777502\\edit-103906-857653\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-103906-777502\\edit-103906-860660\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-036-20261017-104958-524835\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ]
+    },
+    "Unresolved": "未编译/未实机；原ALSExp/ALSshockExp缺失，EXDrill2蒙皮及完整NiPSys/程序闪电等未全部移植，详见逐招对照"
+  }
+]

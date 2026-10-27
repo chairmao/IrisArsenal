@@ -1,0 +1,14 @@
+{
+  "source_skeleton": "E:/skyrimspecialedition/mods/XP32 Maximum Skeleton Special Extended/meshes/actors/character/character assets/skeleton.hkx",
+  "actual_bone": "Weapon",
+  "lock_translation": true,
+  "reference_translation": [
+    0.173932999,
+    -1.86601305,
+    6.161540985
+  ],
+  "raw_drive_track_max_world_units": 58.918,
+  "applied": "reference translation for locked bones; raw rotation retained; free COM/root retain translation",
+  "public_reference": "https://github.com/BadDogSkyrim/BethesdaLibrary/blob/main/docs/file-formats/animations.md#animation-skeleton-hkaskeleton",
+  "status": "源位约束实查；Skyrim运行时实际图层与Kenshi最终观感仍未实机"
+}

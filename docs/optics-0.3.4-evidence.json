@@ -1,0 +1,376 @@
+{
+  "runtime_before_changes": {
+    "version": "0.3.3",
+    "contract": "IRIS_EIGHT_033",
+    "DLL_sha256": "8b476443acd9e150b0aaa61a78dd1d567470770c13852479a01510d351ab38d7",
+    "DLL_bytes": 513024,
+    "log": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\logs\\IrisArsenal-20261017-020937-744-32620.log",
+    "start": "2026-10-17 02:09:37.776 [IrisArsenal 0.3.3] eight_config contract=IRIS_EIGHT_033 fire_roll=2 spiral=3 earthquake=4 drill=12 full_burst=3 vulcan=20 pulse=3 drive=4 public_FCS_chance=0; native_damage_and_armour=1",
+    "shutdown": "2026-10-17 02:27:23.840 [IrisArsenal 0.3.3] eight_clear reason=renderer_shutdown"
+  },
+  "source_video": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-Optics-034-20261017-023224\\source-contact.jpg",
+  "source_frames": [
+    157.4,
+    158.5,
+    159,
+    159.25,
+    159.5,
+    159.8,
+    160.2,
+    160.8,
+    215.2,
+    215.5,
+    216,
+    216.3,
+    65.5,
+    66.2,
+    67,
+    67.5,
+    92.6,
+    93.2
+  ],
+  "before_geometry": [
+    {
+      "t": 0,
+      "head": [
+        -2.9719146163085797,
+        -1.9114157429321397,
+        1.2171114472036577
+      ],
+      "foot_y": 0.9512391928389266,
+      "head_above_foot": -2.862654935771066,
+      "grip": [
+        -2.7479897999231158,
+        5.96157022167694,
+        -2.5334872557582235
+      ],
+      "axis": [
+        -0.05700308746447541,
+        -0.9702081717418036,
+        0.23547199621404438
+      ]
+    },
+    {
+      "t": 0.5,
+      "head": [
+        2.2509526116937173,
+        8.66737970537679,
+        -1.6556966549301801
+      ],
+      "foot_y": 1.1150393179876046,
+      "head_above_foot": 7.552340387389186,
+      "grip": [
+        2.699197934237422,
+        16.60695515173649,
+        -5.242231083040187
+      ],
+      "axis": [
+        -0.07800391366435083,
+        -0.9735949052691144,
+        0.21454200119643607
+      ]
+    },
+    {
+      "t": 0.85,
+      "head": [
+        -2.481069931495967,
+        6.651669109906334,
+        7.487493712768864
+      ],
+      "foot_y": 1.1477083575231761,
+      "head_above_foot": 5.503960752383158,
+      "grip": [
+        -4.249969992241485,
+        14.53194065865388,
+        4.190018660572182
+      ],
+      "axis": [
+        0.11363928748583565,
+        -0.9725747154035262,
+        0.20294010310883684
+      ]
+    },
+    {
+      "t": 1,
+      "head": [
+        -2.286082314032014,
+        6.383853273580691,
+        7.4920022369424295
+      ],
+      "foot_y": 1.1403930403779223,
+      "head_above_foot": 5.243460233202768,
+      "grip": [
+        -4.0869278087510725,
+        14.25441097385223,
+        4.188627479295235
+      ],
+      "axis": [
+        0.11747704291167055,
+        -0.9719547188214703,
+        0.20372295595452986
+      ]
+    },
+    {
+      "t": 1.15,
+      "head": [
+        -1.7972594007907237,
+        7.847671452902026,
+        6.316539943240254
+      ],
+      "foot_y": 1.631826893986756,
+      "head_above_foot": 6.21584455891527,
+      "grip": [
+        -3.5168427120038976,
+        15.753820396459984,
+        3.0551182224933218
+      ],
+      "axis": [
+        0.1067098434996219,
+        -0.9741866092499696,
+        0.19893119150289112
+      ]
+    },
+    {
+      "t": 1.4,
+      "head": [
+        -2.556083995565955,
+        6.771987409600545,
+        7.014835843396294
+      ],
+      "foot_y": 1.1853668388809901,
+      "head_above_foot": 5.586620570719555,
+      "grip": [
+        -4.2072684886591984,
+        14.654268265677155,
+        3.6615910605252813
+      ],
+      "axis": [
+        0.09752075398870885,
+        -0.9726857203606516,
+        0.21064692000429414
+      ]
+    },
+    {
+      "t": 1.65,
+      "head": [
+        -2.0345226189100627,
+        7.70413507141623,
+        6.171487001928989
+      ],
+      "foot_y": 1.5315091890408716,
+      "head_above_foot": 6.172625882375359,
+      "grip": [
+        -3.7675003322961595,
+        15.611592804283868,
+        2.9203453884042228
+      ],
+      "axis": [
+        0.10842473510452058,
+        -0.974261804790532,
+        0.19763113206476401
+      ]
+    },
+    {
+      "t": 1.85,
+      "head": [
+        -2.485948526924153,
+        6.850515502413921,
+        5.870121814637489
+      ],
+      "foot_y": 1.1895091326335328,
+      "head_above_foot": 5.661006369780388,
+      "grip": [
+        -4.234810324734024,
+        14.743798112211445,
+        2.5931393582592324
+      ],
+      "axis": [
+        0.11089173843473565,
+        -0.9733866874430092,
+        0.20055348876314144
+      ]
+    },
+    {
+      "t": 2.17,
+      "head": [
+        -2.0143817179303833,
+        7.7157988857288915,
+        6.184749670827562
+      ],
+      "foot_y": 1.5388570675812812,
+      "head_above_foot": 6.17694181814761,
+      "grip": [
+        -3.748227388423551,
+        15.62322631535457,
+        2.933997587774605
+      ],
+      "axis": [
+        0.10847657613830783,
+        -0.974259959115016,
+        0.19761168625895073
+      ]
+    },
+    {
+      "t": 2.7,
+      "head": [
+        -2.0731187616979088,
+        7.682269214334362,
+        6.14750410854996
+      ],
+      "foot_y": 1.518871085184185,
+      "head_above_foot": 6.163398129150177,
+      "grip": [
+        -3.8032368179052107,
+        15.58952928737864,
+        2.894360502095563
+      ],
+      "axis": [
+        0.10815033461425858,
+        -0.9742503745980168,
+        0.19783746807732
+      ]
+    },
+    {
+      "t": 3.1,
+      "head": [
+        -2.57584749051194,
+        6.6077579205222445,
+        6.48237806696638
+      ],
+      "foot_y": 1.1441134279976413,
+      "head_above_foot": 5.463644492524603,
+      "grip": [
+        -4.3347649192939,
+        14.4888716517697,
+        3.1815779261005304
+      ],
+      "axis": [
+        0.11222862121278401,
+        -0.9726335922561287,
+        0.20344223095248298
+      ]
+    }
+  ],
+  "after_serialized_hammer": {
+    "male": [
+      {
+        "time": 1.0,
+        "hammer_muzzle_above_foot": 0.6000013932102597,
+        "hammer": [
+          -2.3311261890142956,
+          1.7438474066878848,
+          7.1049148881279
+        ],
+        "foot_y": 1.1438460134776252
+      },
+      {
+        "time": 1.4366599959135056,
+        "hammer_muzzle_above_foot": 0.6000000860217605,
+        "hammer": [
+          -2.333785002655566,
+          1.7321109355056947,
+          7.096711076291443
+        ],
+        "foot_y": 1.1321108494839343
+      },
+      {
+        "time": 1.9566599959135056,
+        "hammer_muzzle_above_foot": 0.6000003458997019,
+        "hammer": [
+          -2.3214479214574695,
+          1.733469539790912,
+          7.099901459827542
+        ],
+        "foot_y": 1.13346919389121
+      },
+      {
+        "time": 2.4766599959135056,
+        "hammer_muzzle_above_foot": 0.5999999776472675,
+        "hammer": [
+          -2.325681156377973,
+          1.7331299850727095,
+          7.0992065577153145
+        ],
+        "foot_y": 1.133130007425442
+      }
+    ],
+    "female": [
+      {
+        "time": 1.0,
+        "hammer_muzzle_above_foot": 0.6000012920281326,
+        "hammer": [
+          -2.286082545467063,
+          1.740394332406055,
+          7.492003025147827
+        ],
+        "foot_y": 1.1403930403779223
+      },
+      {
+        "time": 1.4366599959135056,
+        "hammer_muzzle_above_foot": 0.6000002821938457,
+        "hammer": [
+          -2.2895130463671824,
+          1.7286580246231775,
+          7.484614499871326
+        ],
+        "foot_y": 1.1286577424293318
+      },
+      {
+        "time": 1.9566599959135056,
+        "hammer_muzzle_above_foot": 0.5999992673197561,
+        "hammer": [
+          -2.2771308823080165,
+          1.7300152856332298,
+          7.4869177870403565
+        ],
+        "foot_y": 1.1300160183134738
+      },
+      {
+        "time": 2.4766599959135056,
+        "hammer_muzzle_above_foot": 0.6000002026113282,
+        "hammer": [
+          -2.2813782071493867,
+          1.729677207189165,
+          7.486415648592137
+        ],
+        "foot_y": 1.1296770045778368
+      }
+    ]
+  },
+  "source_disc_normal_after_standard_Skyrim_basis": "Y; runtime assumes +Z, corrected all three meshes by +90deg around X",
+  "aim": {
+    "code": "IrisCombat.cpp::Target shared by kind6/7",
+    "both": "native current target Bip01 Spine2, fallback Pelvis/Head, world coordinates unchanged",
+    "first_pulse_spawn": "2026-10-17 02:12:25.153 [IrisArsenal 0.3.3] projectile_spawn cast=2 move=6 event=0 origin=-16329.1,178.281,29299.1 aim=-16277.8,195.391,29415.8 direction=0.398644,0.133104,0.907395 target=2:450073248 target_root=-16278,182.846,29415.7 raw_bone=-16277.8,195.391,29415.8 aim_source=Bip01 Spine2 aim_distance=128.551 sphere_radius=4.5 visual_radius=27.5246 blast_radius=36 asset=shell",
+    "first_vulcan_spawn": "2026-10-17 02:13:06.094 [IrisArsenal 0.3.3] projectile_spawn cast=11 move=5 event=0 origin=-17742.1,464.524,29940.5 aim=-16282.6,195.578,29412.3 direction=0.926506,-0.170729,-0.335319 target=1:1143554688 target_root=-16281.6,182.234,29412.4 raw_bone=-16282.6,195.578,29412.3 aim_source=Bip01 Spine2 aim_distance=1575.27 sphere_radius=4.5 visual_radius=4.5 blast_radius=4.5 asset=bullet",
+    "first_vulcan_impact": "2026-10-17 02:13:06.238 [IrisArsenal 0.3.3] projectile_impact cast=11 move=5 event=1 contact=1 fraction=0.072792 point=-17716.1,459.053,29930.9 sphere_radius=4.5",
+    "these_samples_have_different_positions": true,
+    "same_position_terrain_failure_proven": false,
+    "new_diagnostics": [
+      "blocker_type",
+      "blocker stable hand",
+      "world_geometry",
+      "ignored_friendly_shapes",
+      "shared_world_bone_aim"
+    ],
+    "terrain_collision_retained": true
+  },
+  "native_friend_filter": {
+    "SDK": "KenshiLib Include/kenshi/Character.h:626 virtual isAlly(Character*, bool)",
+    "world_shapes_or_global_groups_modified": false,
+    "projectiles": "skip player/ally before selecting nearest remaining contact",
+    "beam": "existing world blocker sweep already skips all characters; health still enemy-only",
+    "pre_shot_native_LOS_and_permission": "unchanged"
+  },
+  "optical_identity": {
+    "source": "six source quake layers and five source beam layers retained",
+    "reference_reconstructions": [
+      "muzzle blue ion from source159.8s",
+      "8 gold torus rings +4 electric strands from user reference image"
+    ],
+    "original_NiPSys_or_procedural_lightning_executed": false
+  },
+  "compiled": false,
+  "deployed": false,
+  "new_visuals_game_tested": false
+}

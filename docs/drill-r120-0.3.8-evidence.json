@@ -1,0 +1,232 @@
+{
+  "time": "2026-10-17T14:08:13.326461+08:00",
+  "request": {
+    "center": "opened_wing_symmetry_midpoint",
+    "radius": 120,
+    "no_projectile": true,
+    "visible_volume_coverage": true
+  },
+  "proof": {
+    "contract": "IRIS_EIGHT_038",
+    "radius": 120,
+    "damage_events": 1,
+    "damage_multiplier": 5,
+    "instant": true,
+    "projectile": false,
+    "wing_geometry_center_samples": 115,
+    "wing_center_max_error": 5.157473561044902e-07,
+    "firing_center_relative_weapon": [
+      1.7761124591683946,
+      3.008456907884456,
+      4.881118639352055
+    ],
+    "center_space": "完整源翼片几何中心中点，乘当帧武器矩阵加浮动世界原点，发射时快照",
+    "source_particles": 151,
+    "coverage_particles": 98,
+    "total_particles": 249,
+    "extra_draw_calls": 2,
+    "ring_visible_radius": 119.99999768109875,
+    "coverage_models": [
+      {
+        "age": 0.22,
+        "views": 12,
+        "points_per_view": 960,
+        "coverage": [
+          {
+            "view": 0,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9480894625212566,
+            "p10": 0.9681384521539951
+          },
+          {
+            "view": 1,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9356258696421698,
+            "p10": 0.9675674366580058
+          },
+          {
+            "view": 2,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9430920556975606,
+            "p10": 0.9683512963815071
+          },
+          {
+            "view": 3,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9346219491689535,
+            "p10": 0.9676476289816779
+          },
+          {
+            "view": 4,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9428915337967323,
+            "p10": 0.9690969978861063
+          },
+          {
+            "view": 5,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9465031702309173,
+            "p10": 0.9693718629234954
+          },
+          {
+            "view": 6,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9479800412243713,
+            "p10": 0.9684888580192083
+          },
+          {
+            "view": 7,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9364740857588175,
+            "p10": 0.9686938215203575
+          },
+          {
+            "view": 8,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9426552905844721,
+            "p10": 0.97049142139503
+          },
+          {
+            "view": 9,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9428424938300927,
+            "p10": 0.967597389493881
+          },
+          {
+            "view": 10,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9344776758937773,
+            "p10": 0.96829332195439
+          },
+          {
+            "view": 11,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9511550638175958,
+            "p10": 0.9695037124308463
+          }
+        ],
+        "limitations": "正交alpha布局模型，未模拟实际GPU、深度遮挡或透视"
+      },
+      {
+        "age": 1.12,
+        "views": 12,
+        "points_per_view": 960,
+        "coverage": [
+          {
+            "view": 0,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9828198935505068,
+            "p10": 0.9975001523119933
+          },
+          {
+            "view": 1,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9742790389111358,
+            "p10": 0.9975319415249695
+          },
+          {
+            "view": 2,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9729420300141557,
+            "p10": 0.9979429041263824
+          },
+          {
+            "view": 3,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9874149988181407,
+            "p10": 0.9977691893417511
+          },
+          {
+            "view": 4,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9672416978482631,
+            "p10": 0.9978870276952813
+          },
+          {
+            "view": 5,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9906960664727793,
+            "p10": 0.9985240685194927
+          },
+          {
+            "view": 6,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9796626785953879,
+            "p10": 0.9978900653376842
+          },
+          {
+            "view": 7,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9736417938052514,
+            "p10": 0.9969912772966841
+          },
+          {
+            "view": 8,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9730684724151581,
+            "p10": 0.9978290055312757
+          },
+          {
+            "view": 9,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9805856683444595,
+            "p10": 0.9973762030954003
+          },
+          {
+            "view": 10,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9926301235115738,
+            "p10": 0.998902347063813
+          },
+          {
+            "view": 11,
+            "fraction_above_0_1": 1.0,
+            "minimum": 0.9866507102784979,
+            "p10": 0.9960673078384463
+          }
+        ],
+        "limitations": "正交alpha布局模型，未模拟实际GPU、深度遮挡或透视"
+      }
+    ],
+    "Cxx_or_HLSL_compiled": false,
+    "game_verified": false
+  },
+  "validation": "docs/validation-0.3.8.json",
+  "update_tests": {
+    "passed": 11,
+    "compiled": false
+  },
+  "delivery": {
+    "dll_gate": {
+      "old_dll_rejected": true,
+      "reason": "DLL与当前资源合同不一致，请重新编译 Release|x64 / v100"
+    },
+    "installed_version": "0.3.7",
+    "installed_asset_revision": "037-v2",
+    "installed_files_checked": 118,
+    "installed_hash_mismatches": [],
+    "dlls": [
+      {
+        "path": "E:\\KenshiProject\\2.Projects\\bin\\Release\\IrisArsenal.dll",
+        "bytes": 561664,
+        "sha256": "4a930733c0f96c41a16bdf16102fa1b629df665484b115986ecd9c4ecd07b410"
+      },
+      {
+        "path": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.dll",
+        "bytes": 561664,
+        "sha256": "4a930733c0f96c41a16bdf16102fa1b629df665484b115986ecd9c4ecd07b410"
+      },
+      {
+        "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.dll",
+        "bytes": 561664,
+        "sha256": "4a930733c0f96c41a16bdf16102fa1b629df665484b115986ecd9c4ecd07b410"
+      }
+    ]
+  },
+  "compilation": "not run by project and Skill policy",
+  "game_tested": false,
+  "backups": [
+    "D:/CodexBackups/Iris-R120-20261017-134835",
+    "E:/AIWorkSpace/_backups/Iris-R120-20261017-134835"
+  ]
+}

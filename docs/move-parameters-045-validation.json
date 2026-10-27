@@ -1,0 +1,48 @@
+{
+  "version": "0.4.5",
+  "code_contract": "IRIS_MOVE_PARAMETERS_045",
+  "full_noncompiling_validation": "docs/validation-0.4.5.json",
+  "configuration": {
+    "damage_coefficients": 58,
+    "melee_distance_pairs": 7,
+    "ranged_damage_coefficients": 27,
+    "melee_default_behavior_preserved": true,
+    "vulcan_extra_defence_gate": false,
+    "pulse_drive_bridge_unchanged": true,
+    "win32_ini_and_CRT_boundary_cases": 13,
+    "independent_protection_model_cases": 400,
+    "distance_inheritance_model_cases": 48,
+    "geometry_and_asset_hashes_locked": true,
+    "cpp_compiled": false,
+    "plugin_executed": false,
+    "game_tested": false
+  },
+  "sync_tests": {
+    "passed": 12,
+    "real_game_written": false,
+    "personal_values_preserved": [
+      "zero damage",
+      "per-event multipliers",
+      "private attack distances",
+      "zero move weight",
+      "disabled incoming immunity"
+    ],
+    "rollback_encoding_and_process_guard": true
+  },
+  "game_files_unchanged": 136,
+  "package_only_changed": [
+    "IrisArsenal.ini",
+    "IrisPackage.json"
+  ],
+  "new_cpp_hooks": 0,
+  "fire_vulcan_extra_defence_context_removed": true,
+  "health_entry_still_native_melee_bridge": true,
+  "migrated_to_iShotYou": false,
+  "compiled": false,
+  "deployed": false,
+  "runtime_tested": false,
+  "backup_roots": [
+    "D:\\CodexBackups\\IrisArsenal-Parameters-045-20261017-225838-980431",
+    "E:\\AIWorkSpace\\_backups\\IrisArsenal-Parameters-045-20261017-225838-980431"
+  ]
+}

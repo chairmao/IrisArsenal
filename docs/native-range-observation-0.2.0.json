@@ -1,0 +1,11 @@
+{
+  "exe_sha256": "504b362cde850d56afb1cea6f5b7b0ee014d9dd7b47e188599d91c804502cd3e",
+  "choose_body": "0x887160",
+  "choose_thunk": "0x47811",
+  "caller": "0x2b46c1",
+  "observation": "调用chooseAttack之后检查返回值；NULL分支进入原生movement调用，插件可以在原生选择点返回私有技巧。传入range由原生预处理，不能简单当角色中心距离。",
+  "boundary": "不是保证任意距离必定起手；原生AI/槽位/目标/朝向仍生效。没有把离线RVA写入插件。 PE异常目录只确认当前代码片段范围，不称整个函数边界。",
+  "runtime_tested": false,
+  "exception_region_begin": "0x2b459d",
+  "exception_region_end": "0x2b46d6"
+}

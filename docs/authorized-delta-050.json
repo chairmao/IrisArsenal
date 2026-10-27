@@ -1,0 +1,32 @@
+{
+  "package:assets/iris_action_drive_male.skeleton": {
+    "before": "f1a6fb93f43b0532693ee75dacb3db3366c2eb06d5baec4fa8581ba334d51ea5",
+    "after": "573b9c955ab9bd8cd030550986f048c033ccc46d7dd9fc5fce144f992fa8f0f6",
+    "reason": "050真实下臀/锤体顶面接触，原点对齐不再是验收条件"
+  },
+  "package:assets/iris_action_drive_female.skeleton": {
+    "before": "3455b068bbd73d7b94c00a4de84b81bd18211bd87e66c140eeeacccd425dca41",
+    "after": "a2b310a5ade3d513f042523f6f94d19340b3525f18b7eb7718b952232a700253",
+    "reason": "050真实下臀/锤体顶面接触，原点对齐不再是验收条件"
+  },
+  "package:assets/iris_action_electro_cannon_male.skeleton": {
+    "before": "673e04a76de40031c5f10ec87fa4caaf1cd45a3c1fa886de2c987f285b1fdc90",
+    "after": "2ed6f259a34faf91ffb98c3a32fc8a2d22aec07fbb16acd6c4cf297e3a6c61c0",
+    "reason": "050真实下臀/锤体顶面接触，原点对齐不再是验收条件"
+  },
+  "package:assets/iris_action_electro_cannon_female.skeleton": {
+    "before": "4345d765d3762ec7791112b5f7e268f21606d91f1200a460cb58fd4b37c9cccc",
+    "after": "18e43e739551d2731914445bf7a97235e9c28cbe3a8087006a81f0e6ebc413a6",
+    "reason": "050真实下臀/锤体顶面接触，原点对齐不再是验收条件"
+  },
+  "function:Emit": {
+    "before": "92f94457d4b56c4afff6975429a91679ceae070e5f3a7d44fb652787ddfb2faa",
+    "after": "761a2dda3d2c485e3b684555be037d882e55fa5cc275460d0f056cc96c2150c3",
+    "reason": "050只将电脉visual/physical共同中心提高到实际枪口，并登记启动合同"
+  },
+  "function:Configure": {
+    "before": "2d76fb763e43fbc765d85c7ad162a4557a58565c28be242efd3f1ea11079bd4c",
+    "after": "bb25a6d0cc58b3df526ce1e09f7c5c397c1da67200d8761761e93c14b897e75c",
+    "reason": "050只将电脉visual/physical共同中心提高到实际枪口，并登记启动合同"
+  }
+}

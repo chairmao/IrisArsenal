@@ -1,0 +1,518 @@
+{
+  "contract": "IRIS_COMBAT_POLICY_061",
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-NativeCombat061-20261020-194253-5474",
+  "originals": [
+    "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-originals\\E\\KenshiProject\\2.Projects\\IrisArsenal",
+    "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-originals\\E\\KenshiProject\\2.Projects\\IrisArsenal"
+  ],
+  "per_file_per_write": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+      "Role": "战斗资格共享接口",
+      "Code location": "IrisCombat.h",
+      "Before": "f266119b7a8446522f4840cc20f9442844fb921ce0c1d1e060a1bb15212e40ab",
+      "Changes": "近远程适配和接触/医疗消费者共用只读原生资格接口，提供拒绝原因",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "63928e727c21ba14ca842e19492706ef685ddad50b26e0bf2a83f94b6495ecca",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-194517-187627\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-194517-187627\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+      "Role": "远程发布与瞄准合同",
+      "Code location": "IrisRanged.h",
+      "Before": "0d162c86ee6e55e615823b682507c9fc9dd3bd6279a40679dac74edd52f81d85",
+      "Changes": "发布实际游戏秒弹速/即时标志；快照附带所用模型供逐发验证",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "ffb90fd7bd1304cc1b664177d979e386cd6d2660e6fa7aeb9dc56606d5ce7161",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-194517-202609\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-194517-202609\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+      "Role": "原生Gun适配与瞄准模型",
+      "Code location": "IrisRanged.cpp",
+      "Before": "b2f15a88c7d05e8ae5dce7730062dfc8380f06daaa11ba783b2c8f8ca44a833a",
+      "Changes": "许可前接收已选招式有效弹速；原生getAimPos重算弹体预判、光炮同源即时身体点；完整事件日志；无新Hook/线程/PhysX调用",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "d29009af27b905f440d287c7e3ecb98c1cbaa2931709381ec0d19be523ed321d",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-194517-217422\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-194517-217422\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "十招碰撞/发射/原生医疗消费者",
+      "Code location": "IrisCombat.cpp",
+      "Before": "99a58c7c493459bd5ab1292b34459836987fb1b71275e7b4ae1f7d4c2ff41366",
+      "Changes": "共用原生四项受伤资格；远程过滤不可伤害角色；原生许可前稳定选招/匹配速度；FCS实际射程与无碰撞自然到期；直接接触身份进入爆炸set；取消逐事件日志总条数限制",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "de4f7bd0f1045bf614fc8523c74ddbf22824e490ab27de67ead59c3161755d71",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-194856-294677\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-194856-294677\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "插件主入口/安全阶段诊断",
+      "Code location": "IrisArsenal.cpp",
+      "Before": "878ad5cbf20c049678ae90da0495715d5904d929631bc0183d6231a348e8206f",
+      "Changes": "撤销绑定/资源/等待/原型查询诊断的前N条上限；安全更新分支不变",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "479e568a5d63fc55a2ade30b7e813e011504a885e214c84fdd937d7912d7a50f",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-494142\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-494142\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+      "Role": "长期审计和日志写入",
+      "Code location": "IrisDiagnostics.cpp",
+      "Before": "49e5f11f386f13eee6612bc280d4c891f13dfde94beb06770ba222bd14628e49",
+      "Changes": "修正运行身份0.4.18/061；明确事件不限行；慢帧与写入失败提示无累计限额；保留64KiB失败缓冲及日志配置开关",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "6e32483985741c8c9c89ea6266ddc59919e93cf3d2a4a795cf7776bf4fb0af05",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-504160\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-504160\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "队列与筛选诊断",
+      "Code location": "IrisCombat.cpp",
+      "Before": "de4f7bd0f1045bf614fc8523c74ddbf22824e490ab27de67ead59c3161755d71",
+      "Changes": "取消压力日志每秒门；兼容保留旧enemies字段，同时明确eligible_targets和实际新资格策略",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "e0bfc605aefb0bab23785a8fb8a6c29593b8f3b24e22651d9f9c8998cea7f456",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-514094\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-514094\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+      "Role": "远程运行合同诊断",
+      "Code location": "IrisRanged.cpp",
+      "Before": "d29009af27b905f440d287c7e3ecb98c1cbaa2931709381ec0d19be523ed321d",
+      "Changes": "修正身体点/速度匹配原生瞄准的实际来源文字",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "f66c28a1dce907f499cac1a4c8ed7dbd61953de239068579170cf6de280be771",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-522251\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-522251\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Role": "DLL版本资源",
+      "Code location": "IrisArsenal.rc",
+      "Before": "d1474321cf593f90a9a91fc77a13627f9231456938d7894a1445048f67c3ee9b",
+      "Changes": "源码版本0.4.18；不伪造编译、部署或正式版快照身份",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "e7ba3260a6c2e1d326595db403b25fa391c35eff319fa288850134545226d0ec",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-530497\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-530497\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+        ],
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+      "Role": "待部署配置",
+      "Code location": "package/IrisArsenal/IrisArsenal.ini",
+      "Before": "74ef041bbdfb335f837f5624468f2e30972e8d5b7deb2968e681b43d9f0284a0",
+      "Changes": "撤销与用户新原生昏迷规则冲突的旧开关，说明完整日志；既有权重/倍率/预算不变",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "f36400dd4441b0c7f85e52f4f455e8b213db9f69c45b888657df1e19e71ee0f8",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-536628\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-536628\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Role": "轻量更新构件身份",
+      "Code location": "tools/stage_package.py",
+      "Before": "f1f1ad287c929d5f61d5bbd9092ee5fac14d8394e84ba247dd535aed15acb254",
+      "Changes": "新增061合同，拒绝旧060 DLL；日常Update不重建/不编译/不运行历史源码摘要检查",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "d8473e9667470f61632edacc8dba547b3dd1f22bd9969ef724e891b13bdb4d5b",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-547887\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-547887\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+        ],
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "待编译包状态",
+      "Code location": "package/IrisArsenal/IrisPackage.json",
+      "Before": "dbe4ddf75d5a708defca2ef583e809fb8db5fb395f612c4ecd74919e2cef777e",
+      "Changes": "保留旧DLL真实版本/摘要，将包标为尚未就绪，待新DLL组包时更新正式身份和配置摘要",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "63668a49e2086aa33c864934bd43d3b48490d18c76587f7db69d303d601c876b",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-568272\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195103-568272\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "选招预约生命周期复核",
+      "Code location": "IrisCombat.cpp",
+      "Before": "e0bfc605aefb0bab23785a8fb8a6c29593b8f3b24e22651d9f9c8998cea7f456",
+      "Changes": "修正空闲End不能清掉已发布招式；增加每次选定模型日志；保留正常收尾/切换撤销",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "bb9939d5ef2eba243c30cd7439b783ed9103f074d31c5dd0b0c53e08965f455b",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195401-774233\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195401-774233\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+      "Role": "运动模型诊断",
+      "Code location": "IrisRanged.cpp",
+      "Before": "f66c28a1dce907f499cac1a4c8ed7dbd61953de239068579170cf6de280be771",
+      "Changes": "即时光炮的日志速度为0并显式instant=1；状态变化日志记录原生Gun参数",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "33569bad8a06133b419b4d2cb841347b4f468c9869e409be58d60af4e612649f",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-195401-785493\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-195401-785493\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "预约并发与诊断复核",
+      "Code location": "IrisCombat.cpp",
+      "Before": "bb9939d5ef2eba243c30cd7439b783ed9103f074d31c5dd0b0c53e08965f455b",
+      "Changes": "许可消费仍检查并发上限；护甲前伤害在原生入口前快照；更新筛选/日志注释",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "768efcda3ffd7e62e36f164c5e0acd087db9de410d717acb117b7670a66c12f4",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-200214-501747\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-200214-501747\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "注释修正",
+      "Code location": "IrisArsenal.cpp",
+      "Before": "479e568a5d63fc55a2ade30b7e813e011504a885e214c84fdd937d7912d7a50f",
+      "Changes": "去除已删除首次N条门的过期注释",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "0c0987789da1e2b86f2bc9235deb57dc537ff3139cf752335bf6e9b8880bef56",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-200214-514230\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-200214-514230\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+      "Role": "可部署及重建默认配置",
+      "Code location": "package/IrisArsenal/IrisArsenal.ini",
+      "Before": "f36400dd4441b0c7f85e52f4f455e8b213db9f69c45b888657df1e19e71ee0f8",
+      "Changes": "删除已退役昏迷覆盖项、同步无限明细说明，不改变其余参数",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "448ef515b8950350b2d5390faf66ca2024e5dd78c37529352cc9935d352e0dc5",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-200214-525262\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-200214-525262\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+      "Role": "可部署及重建默认配置",
+      "Code location": "distribution/IrisArsenal.ini",
+      "Before": "74ef041bbdfb335f837f5624468f2e30972e8d5b7deb2968e681b43d9f0284a0",
+      "Changes": "删除已退役昏迷覆盖项、同步无限明细说明，不改变其余参数",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "f35960859e1c52e8c205538f5b52647c77f79a4bc906fa46383d06897ffb8aa3",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-200214-536444\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-200214-536444\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\native-combat-061-baseline.json",
+      "Role": "061修改前运行资源、保护函数及原生几何接口摘要",
+      "Code location": "docs/native-combat-061-baseline.json",
+      "Before": "new",
+      "Changes": "061修改前运行资源、保护函数及原生几何接口摘要",
+      "Reasons": "061专项非编译验证和真实边界证据",
+      "After": "f29f83bec1ff3be6338801b30f8613ae85f60a6040734bfa1fe43ac227ba6a7f",
+      "Impact": "不接入日常Update，不编译不部署",
+      "Validation": "UTF-8/LF、回读/中文检查；执行结果另记",
+      "Safety": {
+        "backup": "新文件，无旧内容",
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "不代替MSVC或游戏执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_native_combat061.py",
+      "Role": "061专项12项非编译回归：源条件/角色筛选/直接身份/射程/预约/日志与原生几何保护",
+      "Code location": "tools/test_native_combat061.py",
+      "Before": "new",
+      "Changes": "061专项12项非编译回归：源条件/角色筛选/直接身份/射程/预约/日志与原生几何保护",
+      "Reasons": "061专项非编译验证和真实边界证据",
+      "After": "c34d123070d97bb823e5377961d3282c4cedc9be81911eb740746449c9577de2",
+      "Impact": "不接入日常Update，不编译不部署",
+      "Validation": "UTF-8/LF、回读/中文检查；执行结果另记",
+      "Safety": {
+        "backup": "新文件，无旧内容",
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "不代替MSVC或游戏执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_native_combat061.py",
+      "Role": "061几何保护验证对齐",
+      "Code location": "tools/test_native_combat061.py",
+      "Before": "c34d123070d97bb823e5377961d3282c4cedc9be81911eb740746449c9577de2",
+      "Changes": "保留旧Contacts摘要，仅精确排除授权删除的首次16条日志门；不改变几何断言",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "768caa3a77d7bd99aca5041e522f882d6f32c778dbd9f4f7c02245ed49ac7b8a",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-200940-617762\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_native_combat061.py",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-200940-617762\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_native_combat061.py"
+        ],
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "完整拒绝原因",
+      "Code location": "IrisCombat.cpp",
+      "Before": "768efcda3ffd7e62e36f164c5e0acd087db9de410d717acb117b7670a66c12f4",
+      "Changes": "攻击者属性对象暂缺时诊断单独说明，不将eligible误报为拒绝原因",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "a47641f52825cea66b8a325f61a4012421b580bc909e7ee10bbef47261c157d8",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-200940-695902\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-200940-695902\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "newline": "CRLF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-native-combat-061.json",
+      "Role": "061实际执行的12项专项/10文件语法检查与验证边界",
+      "Code location": "docs/validation-native-combat-061.json",
+      "Before": "new",
+      "Changes": "061实际执行的12项专项/10文件语法检查与验证边界",
+      "Reasons": "本任务061交付与实际验证证据",
+      "After": "075cb65044af4de2c7a0c878daa074ef6645490102da2c6cc504c6f93edd0957",
+      "Impact": "文档/证据，不编译、不部署",
+      "Validation": "UTF-8/LF回读与中文检查",
+      "Safety": {
+        "backup": "新文件无旧内容",
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "编译和游戏验证待用户执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\native-combat-061.md",
+      "Role": "061修复/调用链/原生证据/实际验证与剩余边界",
+      "Code location": "docs/native-combat-061.md",
+      "Before": "new",
+      "Changes": "061修复/调用链/原生证据/实际验证与剩余边界",
+      "Reasons": "本任务061交付与实际验证证据",
+      "After": "17d8f17f3d96b2fdf6b7bb5ef7cd1c24333548786a7c7e6d041f3a118f6abd11",
+      "Impact": "文档/证据，不编译、不部署",
+      "Validation": "UTF-8/LF回读与中文检查",
+      "Safety": {
+        "backup": "新文件无旧内容",
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "编译和游戏验证待用户执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "Role": "项目当前状态与使用入口",
+      "Code location": "STATE.md",
+      "Before": "ca044c4427a4bb4b1f2bb54761b8767fdff99a365e64e6e89267540d036cc99c",
+      "Changes": "新增061待用户编译的真实状态，保留旧记录并明确当前060 DLL与新源码区别",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "78064e8ec8f41c82eb342d319e4fd49efc7ae470f9de060c62ac3319795067ca",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-201415-309238\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-201415-309238\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+        ],
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+      "Role": "项目当前状态与使用入口",
+      "Code location": "README.md",
+      "Before": "1919085d42a7385ac7a325558f79c27a0f17b8101a1eb43fe51b30ec78f5d520",
+      "Changes": "新增061待用户编译的真实状态，保留旧记录并明确当前060 DLL与新源码区别",
+      "Reasons": "用户授权061：完整日志、实际远程弹道/直接接触修复、统一原生四项伤害资格与不具资格角色透射",
+      "After": "a94c67635d1caebccb9273436563519477dacbbe84a977a5135dda5713124003",
+      "Impact": "保持实际炮口/倍率/范围/原生医疗及既有安全窗口；不编译不部署",
+      "Validation": "编码/换行保持、中文与字节回读；专项非编译验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Task-Iris-NativeCombat061-20261020-194253-5474-201415-318588\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "E:\\AIWorkSpace\\_backups\\Task-Iris-NativeCombat061-20261020-194253-5474-201415-318588\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+        ],
+        "encoding": "UTF-8",
+        "newline": "LF"
+      },
+      "Unresolved": "MSVC类型/链接及游戏运行需用户编译后验证"
+    }
+  ]
+}

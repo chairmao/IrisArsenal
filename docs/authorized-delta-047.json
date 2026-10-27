@@ -1,0 +1,78 @@
+{
+  "function:ConfigureMove": {
+    "before": "9fcfb0b30515338eb8404934bc64eaa66957d18e8b3500d72672492f9d166984",
+    "after": "ac6cebf04d60884943de725258afaf6c9fac60a4e5230d14472a523cd7734197"
+  },
+  "function:Configure": {
+    "before": "f571be917fdb7011adf4fcff543e5685715920b13cc540c8b8e1cf2452343853",
+    "after": "2d76fb763e43fbc765d85c7ad162a4557a58565c28be242efd3f1ea11079bd4c"
+  },
+  "function:AssetRequired": {
+    "before": "8564c191709f69cc03ac03bbe1f9f7b4a3df1e10c3694938eb46f599e36d9132",
+    "after": "a7d370c310d7b4d7f07cb96a6f17d80b72d2f420e697df0b130a00f2964be7aa"
+  },
+  "function:Emit": {
+    "before": "ca417eaf3f7dc0c500aa068778ef833be41c45b99bc4a1d0a5d63f196d5411cd",
+    "after": "92f94457d4b56c4afff6975429a91679ceae070e5f3a7d44fb652787ddfb2faa"
+  },
+  "function:AdvanceEffects": {
+    "before": "734e7a031c13ead9ab3a54565a4bd909b427ebf78f2504275db27df7eeb7419b",
+    "after": "be63461539aecb8836de7e068199a6f4a24520b2bd9638c4fa2e8ea189557f3e"
+  },
+  "function:MeleeStumbleHook": {
+    "before": "f9ab9a54a1a088922423d12e7b8c203e8bec8cae5322deccaa06fe9cfbe8856e",
+    "after": "e63c21a11df30efa1c2e9b7826507fd1f36039a673dfeaa9720e6bb5dc5efb7d"
+  },
+  "package:IrisArsenal.ini": {
+    "before": "b131aed48623285cc87f95d30a96fa7d0270ca21d833f72b18ff8c0f4a01c6b7",
+    "after": "345a662076e5aab6de03138b6d370f46431d1482fb9cf6c7b16509ac81a1b2bb"
+  },
+  "package:IrisArsenal.mod": {
+    "before": "a3f4dc1222a5378f0c5ff4a1a4658792a08f57ac1f53ecd34b427912ddd6463f",
+    "after": "8d7604b887af96a77913d88f67cd8018f6d6b1d66c6972a678233b408eff16b2"
+  },
+  "package:assets/effects.csv": {
+    "before": "346e59a180f930a5045d4ad0dbd002f6a6211d6ef84b75e0548e1f027da6e897",
+    "after": "17035713a4b63db1eadb5fc98b310d8009f3ba5b3259e6d0efe3c6ee17e20f16"
+  },
+  "package:assets/effect_curves.csv": {
+    "before": "9e45a1672fb6e8e1dc6f34e17099ed907bb260358516d2a614bcb89a0f856f4f",
+    "after": "a27b4158d65e51faf91f2b0b5a47f89b3cb4fdc847c2eaf4a6e328aa857402b9"
+  },
+  "package:assets/iris_action_drive_female.skeleton": {
+    "before": "c7449b1dabfcbb82d82e8f7baee50e78ed7bdd336530cde8df0095b4c00b3799",
+    "after": "78921aab240776fb4bebb2187ec464ca76edb147cdf4748cb5dde5d2c118c2c7"
+  },
+  "package:assets/iris_action_drive_male.skeleton": {
+    "before": "f384914698d683ae27fb9943f901c2e2fce0a458849d4569d0c59e8d9819e277",
+    "after": "f5e62b0eacec7de46e077bc08fa279d32fdf1cee2a3cd310f65b0f92078fa4bc"
+  },
+  "package:assets/iris_action_vulcan_female.skeleton": {
+    "before": "3378be31283ec95599d2ceb3fe2ce9c8494792f4dc9778a1ae6bf1b73f0addbe",
+    "after": "e1c49a65cd73670e5672f006ca2a75a9f86568a7e910c46890e5682888cf58ab"
+  },
+  "package:assets/iris_action_vulcan_male.skeleton": {
+    "before": "fdc4d37134148a2ed1d7b8ce3fd087b2dce630a7bdd25d4fd7e3f7722b6701e5",
+    "after": "2e18d62d04fabe56cb120a355ec866ddfef472d5cf9fd084d1edfc8a96b0dc6a"
+  },
+  "package:assets/iris_drive_weapon_proof_female.csv": {
+    "before": "bc8178d5c5ea560af6998941bf95176bd4fdf912178d87f8af27cadc48b0e550",
+    "after": "5e79c57092f21542075c75e8e9df8e6f795f07180da2c53ae645c1fe342cb713"
+  },
+  "package:assets/iris_drive_weapon_proof_male.csv": {
+    "before": "a257868575526b8b51c2884848d8a85716fc975d3afca736f600ea79d8f085fc",
+    "after": "7e4d9c2d802c7467422ac780e8c0cdec59f50d9ed58e3d3d9b61a9f395f97fb2"
+  },
+  "package:assets/iris_eight.material": {
+    "before": "5808adcb98f537c840b164d6ef05bb6a322e74fb0106a52503505ec5f2b25b66",
+    "after": "7b4dd8a4fdbd37eed716cea8b4c0096a9b9b3191fbbc80363c9b3ea6afec35bc"
+  },
+  "package:assets/iris_vulcan_weapon_proof_female.csv": {
+    "before": "c74db5884ea5235521cd7e45933b703a69b20147bfe7e7baca9ffedaf4ee998f",
+    "after": "efc9409fc015c1b929e4e91ea3ee9aaf751e972ee98e47f717394c324b99f27d"
+  },
+  "package:assets/iris_vulcan_weapon_proof_male.csv": {
+    "before": "8fb8c09e918c46b4b11b2f5a8ae35e0c2f73af38bddfea417c7fe8578bfea907",
+    "after": "f24e9e8c38456cff78abd209833e85c783729ca37c24dcd2d076d5f0d053f6bb"
+  }
+}

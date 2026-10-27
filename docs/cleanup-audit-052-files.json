@@ -1,0 +1,3397 @@
+{
+  "source_version": "0.4.9",
+  "code_contract": "IRIS_LONGTERM_AUDIT_052",
+  "installed": {
+    "version": "0.4.8",
+    "code_contract": "IRIS_SEAT_SURFACE_CANNON_050",
+    "asset_revision": "051-SourceFlareMuzzle",
+    "verified_manifest_files": 138,
+    "dll_sha256": "3769789039605211c49fbb7a933067df9cbf9608e744d27fe583b1fc57babf7e",
+    "all_match": true
+  },
+  "package": {
+    "ready": false,
+    "unchanged_files": 128,
+    "changed_text_files": [
+      "IrisArsenal.ini",
+      "assets/effects.csv",
+      "assets/iris_eight.material"
+    ],
+    "retired_files": [
+      "assets/iris_fx_16aa266c9f57169a.png",
+      "assets/iris_fx_41f4a27f3ea0b675.png",
+      "assets/iris_fx_4c9ac19e454dbc9c.png",
+      "assets/iris_fx_61ad787574472755.png",
+      "assets/iris_fx_858421333546ea10.png",
+      "assets/iris_fx_9f9d669a1492ab09.png",
+      "assets/iris_fx_heavy.mesh"
+    ],
+    "retired_bytes": 5545263
+  },
+  "tests": {
+    "regression_groups": 22,
+    "cpp_header_grammar_files": 10,
+    "existing_update_unittests": 13,
+    "new_io_reader_unittests": 9,
+    "python_ast": "passed",
+    "canonical_source_metadata": "passed,38 active source references",
+    "old_dll_correctly_rejected": "DLL缺少052长期日志与清理代码合同，请重新编译 Release|x64 / v100"
+  },
+  "actual_old_log_read": {
+    "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\logs\\IrisArsenal-20261018-125352-286-34852.log",
+    "identity": null,
+    "complete_summaries": 0,
+    "incomplete_summaries": 0
+  },
+  "compiled": false,
+  "binaries_regenerated": false,
+  "deployed": false,
+  "game_tested": false,
+  "GPU_or_FPS_tested": false,
+  "polling_enabled": false,
+  "backup_roots": [
+    "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115",
+    "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115"
+  ],
+  "file_reports": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\AnalyzeLogs.cmd",
+      "Role": "手动分析入口",
+      "Code location": "AnalyzeLogs.cmd",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "仅用户执行时读取日志，可传具体日志路径；不会启用周期任务"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "27a8a6a312b78a8c1d0e0bfc2d740559b9ccaa0398bc20dd6bda73ec23485a58"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\AnalyzeLogs.cmd",
+          "Role": "手动分析入口",
+          "Code location": "仅用户执行时读取日志，可传具体日志路径；不会启用周期任务",
+          "Before": null,
+          "Changes": "仅用户执行时读取日志，可传具体日志路径；不会启用周期任务",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "27a8a6a312b78a8c1d0e0bfc2d740559b9ccaa0398bc20dd6bda73ec23485a58",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "生命周期和hook身份日志",
+      "Code location": "IrisArsenal.cpp",
+      "Before": {
+        "state": "existing",
+        "sha256": "83229668f4b1738436d00c08d076e321c69fa63b067d5613b9172e9fbfe186f3"
+      },
+      "Changes": [
+        "明确反应门实际覆盖六近战加三远程，避免误以为远程没有入站保护",
+        "统一日志、资源与安全帧计时，强制摘要；修正远程破防及部分安装失败注释",
+        "全部18入口各记录一次绑定；清理开始落盘，完整摘要在清理后输出，不混淆现值与峰值"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "5999431e700b281039f545373807d217f4a463d04e2fdf51f17b414a70032f7f"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "encoding_before": "UTF-8/CRLF",
+        "encoding_after": "UTF-8/CRLF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "Role": "入口注释",
+          "Code location": "明确反应门实际覆盖六近战加三远程，避免误以为远程没有入站保护",
+          "Before": "aabe547cc622a58b3e2c199cf7f6d0a1f36996fb5e44eb333d01b1f3b0fcd6d0",
+          "Changes": "明确反应门实际覆盖六近战加三远程，避免误以为远程没有入站保护",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "5999431e700b281039f545373807d217f4a463d04e2fdf51f17b414a70032f7f",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-142407-027148\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-142407-027148\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "Role": "插件入口/时钟",
+          "Code location": "统一日志、资源与安全帧计时，强制摘要；修正远程破防及部分安装失败注释",
+          "Before": "83229668f4b1738436d00c08d076e321c69fa63b067d5613b9172e9fbfe186f3",
+          "Changes": "统一日志、资源与安全帧计时，强制摘要；修正远程破防及部分安装失败注释",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "fabf60b559004aa373b06932a7d17bf7034df8822c31c9de72ba451c8091d58f",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "Role": "生命周期和hook身份日志",
+          "Code location": "全部18入口各记录一次绑定；清理开始落盘，完整摘要在清理后输出，不混淆现值与峰值",
+          "Before": "fabf60b559004aa373b06932a7d17bf7034df8822c31c9de72ba451c8091d58f",
+          "Changes": "全部18入口各记录一次绑定；清理开始落盘，完整摘要在清理后输出，不混淆现值与峰值",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "bb1fa94c95826fcdeea6c59a45307851a115305192c7c52427b1a7fa514a22ef",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140803-088732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140803-088732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Role": "版本资源",
+      "Code location": "IrisArsenal.rc",
+      "Before": {
+        "state": "existing",
+        "sha256": "a678eef8b7d3deaaa871f28abb7dac00e1fbf8d68bbb11e48f907f077c816e69"
+      },
+      "Changes": [
+        "版本0.4.9，修正八招描述，标识052审计代码"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "5a0974b603398d6a1ea11565905cb9408a82f149cfffb319f16818334eccbffd"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "Role": "版本资源",
+          "Code location": "版本0.4.9，修正八招描述，标识052审计代码",
+          "Before": "a678eef8b7d3deaaa871f28abb7dac00e1fbf8d68bbb11e48f907f077c816e69",
+          "Changes": "版本0.4.9，修正八招描述，标识052审计代码",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "5a0974b603398d6a1ea11565905cb9408a82f149cfffb319f16818334eccbffd",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+      "Role": "构建清单",
+      "Code location": "IrisArsenal.vcxproj",
+      "Before": {
+        "state": "existing",
+        "sha256": "c8b2927572d421e9a48bdbd22afe7d4ed0af7d400b312d5a3c3e264f050489d4"
+      },
+      "Changes": [
+        "把诊断独立编译单元和头文件加入Release x64工程"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "88029ca0e2ee60da06fac852ad11f015a4e5731edad64358100bd30ed16e8ed4"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+        "encoding_before": "UTF-8/CRLF",
+        "encoding_after": "UTF-8/CRLF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+          "Role": "构建清单",
+          "Code location": "把诊断独立编译单元和头文件加入Release x64工程",
+          "Before": "c8b2927572d421e9a48bdbd22afe7d4ed0af7d400b312d5a3c3e264f050489d4",
+          "Changes": "把诊断独立编译单元和头文件加入Release x64工程",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "88029ca0e2ee60da06fac852ad11f015a4e5731edad64358100bd30ed16e8ed4",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.vcxproj"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "清理资源快照",
+      "Code location": "IrisCombat.cpp",
+      "Before": {
+        "state": "existing",
+        "sha256": "d3bf8dfd78c3a5adf3e624f370c7ee4bcc303112755bc96743a7c29cfd7fb020"
+      },
+      "Changes": [
+        "区分未改的十招事件格式和052代码/20类有效效果清单",
+        "替代重复短周期统计，移除未用参数；去掉未使用heavy资产，医疗退出更新队列快照",
+        "移除恒false墙分支/未读日志计数；统计查询、伤害、队列等待、资源阶段与高水位；修正保护注释",
+        "世界清理后不把仍待安全析构的远程能力对象误报为0；该数量由远程模块负责"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "ffae47387a9a18f2368e4f30da538c0c59d13200bc5f4e43986984b091dbe350"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "encoding_before": "UTF-8/CRLF",
+        "encoding_after": "UTF-8/CRLF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "Role": "合同注释",
+          "Code location": "区分未改的十招事件格式和052代码/20类有效效果清单",
+          "Before": "a05bfec5e0689f91e66c0c321a142a28280f04fdfec2c71dd7b0ab97d7b39a56",
+          "Changes": "区分未改的十招事件格式和052代码/20类有效效果清单",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "ffae47387a9a18f2368e4f30da538c0c59d13200bc5f4e43986984b091dbe350",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-142407-027148\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-142407-027148\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "Role": "战斗审计与清理",
+          "Code location": "替代重复短周期统计，移除未用参数；去掉未使用heavy资产，医疗退出更新队列快照",
+          "Before": "09fc220979d11cf5bc7313913a20e1c80cd1a4c4666dab7c82192a05042eb4bb",
+          "Changes": "替代重复短周期统计，移除未用参数；去掉未使用heavy资产，医疗退出更新队列快照",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "576a5eddd6ba3a144845f999a20a9c6cc48014baa1c334474d77d069dff93452",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "Role": "战斗消费者",
+          "Code location": "移除恒false墙分支/未读日志计数；统计查询、伤害、队列等待、资源阶段与高水位；修正保护注释",
+          "Before": "d3bf8dfd78c3a5adf3e624f370c7ee4bcc303112755bc96743a7c29cfd7fb020",
+          "Changes": "移除恒false墙分支/未读日志计数；统计查询、伤害、队列等待、资源阶段与高水位；修正保护注释",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "09fc220979d11cf5bc7313913a20e1c80cd1a4c4666dab7c82192a05042eb4bb",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "Role": "清理资源快照",
+          "Code location": "世界清理后不把仍待安全析构的远程能力对象误报为0；该数量由远程模块负责",
+          "Before": "576a5eddd6ba3a144845f999a20a9c6cc48014baa1c334474d77d069dff93452",
+          "Changes": "世界清理后不把仍待安全析构的远程能力对象误报为0；该数量由远程模块负责",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "a05bfec5e0689f91e66c0c321a142a28280f04fdfec2c71dd7b0ab97d7b39a56",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+      "Role": "消费者接口注释",
+      "Code location": "IrisCombat.h",
+      "Before": {
+        "state": "existing",
+        "sha256": "287afc842fa133e5a6d7282f0ba3456522a8a02cfe8d1e879c48dca6c257ac5e"
+      },
+      "Changes": [
+        "修正十招数量、三远程受击保护及三远程选招说明"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "f266119b7a8446522f4840cc20f9442844fb921ce0c1d1e060a1bb15212e40ab"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+        "encoding_before": "UTF-8/CRLF",
+        "encoding_after": "UTF-8/CRLF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+          "Role": "消费者接口注释",
+          "Code location": "修正十招数量、三远程受击保护及三远程选招说明",
+          "Before": "287afc842fa133e5a6d7282f0ba3456522a8a02cfe8d1e879c48dca6c257ac5e",
+          "Changes": "修正十招数量、三远程受击保护及三远程选招说明",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "f266119b7a8446522f4840cc20f9442844fb921ce0c1d1e060a1bb15212e40ab",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+      "Role": "完整摘要边界",
+      "Code location": "IrisDiagnostics.cpp",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "快照后先切窗口再写摘要，避免日志自身刷盘耗时在清零时丢失；过程累计持续保留",
+        "同步删除未使用的Enabled定义；日志与采样门保持原逻辑",
+        "队列延迟明确为墙钟请求样本；记录实际exe版本/资源修订；资源释放只称尝试次数",
+        "缓冲检查移入锁内；配置错误定位键；帧内强制摘要延后到完整帧提交，避免半帧统计",
+        "显式包含Version API声明，不依赖Windows头间接包含",
+        "增加summary_end及精确计时行数，支持离线拒绝半份摘要；不修改战斗"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "27509c13864cf08d12a6d12757dd2233e72eefca8eb3c6499748ad2e8d420ca5"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/CRLF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "Role": "摘要统计完整性",
+          "Code location": "快照后先切窗口再写摘要，避免日志自身刷盘耗时在清零时丢失；过程累计持续保留",
+          "Before": "439ddd8317d8fd5bf18ba2d9883e92e9b2a9bba56923dc3aab3cb3976e3333eb",
+          "Changes": "快照后先切窗口再写摘要，避免日志自身刷盘耗时在清零时丢失；过程累计持续保留",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "1ce3181a49e660157cb0cc8b82ad9eb2258bf5b44b1d54c94bb8dbc542debb11",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "Role": "长期日志实现",
+          "Code location": "同步删除未使用的Enabled定义；日志与采样门保持原逻辑",
+          "Before": "1ce3181a49e660157cb0cc8b82ad9eb2258bf5b44b1d54c94bb8dbc542debb11",
+          "Changes": "同步删除未使用的Enabled定义；日志与采样门保持原逻辑",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "27509c13864cf08d12a6d12757dd2233e72eefca8eb3c6499748ad2e8d420ca5",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "Role": "独立日志单元",
+          "Code location": "队列延迟明确为墙钟请求样本；记录实际exe版本/资源修订；资源释放只称尝试次数",
+          "Before": "98792c548865baa68d66d123e5d2316343e55ab1a69d0a0178057e9e394210b2",
+          "Changes": "队列延迟明确为墙钟请求样本；记录实际exe版本/资源修订；资源释放只称尝试次数",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "b21e8705fc34e639cd17d96ea175c5811839944394707f6500bfdccc8b878486",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "Role": "日志并发和边界",
+          "Code location": "缓冲检查移入锁内；配置错误定位键；帧内强制摘要延后到完整帧提交，避免半帧统计",
+          "Before": "1482a53118afb1317b59a200b18577af7de081868fa4f40bce9f97d91eb43e54",
+          "Changes": "缓冲检查移入锁内；配置错误定位键；帧内强制摘要延后到完整帧提交，避免半帧统计",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "9a32f23ceb758de69427d9e4cfea533aa218dc21b00ec052a5c740743c055da6",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135246-971884\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135246-971884\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "Role": "诊断编译依赖",
+          "Code location": "显式包含Version API声明，不依赖Windows头间接包含",
+          "Before": "b21e8705fc34e639cd17d96ea175c5811839944394707f6500bfdccc8b878486",
+          "Changes": "显式包含Version API声明，不依赖Windows头间接包含",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "1482a53118afb1317b59a200b18577af7de081868fa4f40bce9f97d91eb43e54",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "Role": "完整摘要边界",
+          "Code location": "增加summary_end及精确计时行数，支持离线拒绝半份摘要；不修改战斗",
+          "Before": "9a32f23ceb758de69427d9e4cfea533aa218dc21b00ec052a5c740743c055da6",
+          "Changes": "增加summary_end及精确计时行数，支持离线拒绝半份摘要；不修改战斗",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "b6450e758d13ef2b4d3144d097b3a760595091c0fd01fb842e67d9ccbc3c5a77",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h",
+      "Role": "长期日志接口",
+      "Code location": "IrisDiagnostics.h",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "删除未被任何调用者使用的Enabled接口，保留实际采样开关"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "0e02d5e4e9f9a02e62b4e8c62aa1b21cbf64f7fee8bc036fc3472b42f8cbb287"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/CRLF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h",
+          "Role": "长期日志接口",
+          "Code location": "删除未被任何调用者使用的Enabled接口，保留实际采样开关",
+          "Before": "1023c65f85357b43f03072c2265c934e69da4a7c7be0b3d1ce990050b5ba0e02",
+          "Changes": "删除未被任何调用者使用的Enabled接口，保留实际采样开关",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "0e02d5e4e9f9a02e62b4e8c62aa1b21cbf64f7fee8bc036fc3472b42f8cbb287",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+      "Role": "远程资源快照",
+      "Code location": "IrisRanged.cpp",
+      "Before": {
+        "state": "existing",
+        "sha256": "c19fe983c6c51e56e1e7fdc72f47b12e6d65c532bfdd1e7fff6a498547192528"
+      },
+      "Changes": [
+        "修正当前招式数量，兼容合同/历史文档不改写",
+        "记录退役能力对象数量；保留原远程和装填流程",
+        "在真实退役/回收后刷新数量；不改变对象生命周期"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "149a45d722a35a979343aec69c592afa35537b3e84c64813fa26552717c51896"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+        "encoding_before": "UTF-8/CRLF",
+        "encoding_after": "UTF-8/CRLF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+          "Role": "当前代码注释",
+          "Code location": "修正当前招式数量，兼容合同/历史文档不改写",
+          "Before": "e74ef5191abb6c05e6f73381a8bed9b17bd298922d2b58b03f7f7e942ee0ad57",
+          "Changes": "修正当前招式数量，兼容合同/历史文档不改写",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "6f3be21b493a5c97612eae5a8c6a672c15e850d9d828a08932500db1e14881cd",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+          "Role": "远程适配器",
+          "Code location": "记录退役能力对象数量；保留原远程和装填流程",
+          "Before": "c19fe983c6c51e56e1e7fdc72f47b12e6d65c532bfdd1e7fff6a498547192528",
+          "Changes": "记录退役能力对象数量；保留原远程和装填流程",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "e74ef5191abb6c05e6f73381a8bed9b17bd298922d2b58b03f7f7e942ee0ad57",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134423-367221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+          "Role": "远程资源快照",
+          "Code location": "在真实退役/回收后刷新数量；不改变对象生命周期",
+          "Before": "6f3be21b493a5c97612eae5a8c6a672c15e850d9d828a08932500db1e14881cd",
+          "Changes": "在真实退役/回收后刷新数量；不改变对象生命周期",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "149a45d722a35a979343aec69c592afa35537b3e84c64813fa26552717c51896",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+      "Role": "项目当前状态与历史入口",
+      "Code location": "README.md",
+      "Before": {
+        "state": "existing",
+        "sha256": "ca973f5bc618c34ecaddb1084ff8d3e15e78e889cf3c51b10b0c105dd4e7c7d9"
+      },
+      "Changes": [
+        "新增052待用户编译说明，保留原051已部署记录作为历史，不冒称新日志已经生效"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "15bec61b0fab67ba8b34a9a577fdc20ccb9579912a02fdfb15e1c70f1fc12b13"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "Role": "项目当前状态与历史入口",
+          "Code location": "新增052待用户编译说明，保留原051已部署记录作为历史，不冒称新日志已经生效",
+          "Before": "ca973f5bc618c34ecaddb1084ff8d3e15e78e889cf3c51b10b0c105dd4e7c7d9",
+          "Changes": "新增052待用户编译说明，保留原051已部署记录作为历史，不冒称新日志已经生效",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "15bec61b0fab67ba8b34a9a577fdc20ccb9579912a02fdfb15e1c70f1fc12b13",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "Role": "项目当前状态与历史入口",
+      "Code location": "STATE.md",
+      "Before": {
+        "state": "existing",
+        "sha256": "e6086394130c69d85a3701c028b9eb8296049444a91321b83377dbd6131c6657"
+      },
+      "Changes": [
+        "新增052待用户编译说明，保留原051已部署记录作为历史，不冒称新日志已经生效"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "a3c159168c89fe0f8f9b8b4c7bf742f96062649ac0f46942fd6ec68182b7e5e5"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "Role": "项目当前状态与历史入口",
+          "Code location": "新增052待用户编译说明，保留原051已部署记录作为历史，不冒称新日志已经生效",
+          "Before": "e6086394130c69d85a3701c028b9eb8296049444a91321b83377dbd6131c6657",
+          "Changes": "新增052待用户编译说明，保留原051已部署记录作为历史，不冒称新日志已经生效",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "a3c159168c89fe0f8f9b8b4c7bf742f96062649ac0f46942fd6ec68182b7e5e5",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+      "Role": "日志配置",
+      "Code location": "distribution/IrisArsenal.ini",
+      "Before": {
+        "state": "existing",
+        "sha256": "345a662076e5aab6de03138b6d370f46431d1482fb9cf6c7b16509ac81a1b2bb"
+      },
+      "Changes": [
+        "增加启动读取的总开关、性能/资源独立开关、摘要/刷盘秒数与慢帧毫秒阈值；战斗值不变"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+          "Role": "日志配置",
+          "Code location": "增加启动读取的总开关、性能/资源独立开关、摘要/刷盘秒数与慢帧毫秒阈值；战斗值不变",
+          "Before": "345a662076e5aab6de03138b6d370f46431d1482fb9cf6c7b16509ac81a1b2bb",
+          "Changes": "增加启动读取的总开关、性能/资源独立开关、摘要/刷盘秒数与慢帧毫秒阈值；战斗值不变",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+      "Role": "资源元数据精确迁移",
+      "Code location": "docs/authorized-delta-052.json",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "最终校验发现新增退役引用负例的After摘要遗漏；按该文件已有即时报告更新精确摘要，不修改或跳过任何测试",
+        "登记本轮生命周期日志刷盘的最终入口摘要",
+        "登记最终注释修正，不改原生函数体、伤害或资源几何",
+        "记录未使用接口删除和组包注释的精确摘要，不放宽回归边界",
+        "与历史函数测试相同的LF规范化；不放宽函数/资源实际摘要",
+        "登记052源码插桩/清单清理的before→after摘要；无记录变化继续拒绝",
+        "登记仅来源清理后的最终摘要；视觉资产字节不变"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "947daf738dbfe2c93da00173b07f86e1421f3671a202f5d6ff3c37fd14667ca4"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+          "Role": "精确测试来源校验",
+          "Code location": "最终校验发现新增退役引用负例的After摘要遗漏；按该文件已有即时报告更新精确摘要，不修改或跳过任何测试",
+          "Before": "2f1f1aa8d8a3f7e9e74818177ba2741f5a3c07ae9e09d550155f6ae1c141f3b8",
+          "Changes": "最终校验发现新增退役引用负例的After摘要遗漏；按该文件已有即时报告更新精确摘要，不修改或跳过任何测试",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "947daf738dbfe2c93da00173b07f86e1421f3671a202f5d6ff3c37fd14667ca4",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-144121-418800\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-144121-418800\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+          "Role": "精确迁移",
+          "Code location": "登记本轮生命周期日志刷盘的最终入口摘要",
+          "Before": "e7ddad6b7946198255501091fafae0b9910d7478641650020d6c358d75c426fa",
+          "Changes": "登记本轮生命周期日志刷盘的最终入口摘要",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "b8c7196ffab3528fd2e6a06f6a65f1dfe003cce46934bc963f70b5a77f5140de",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-141620-364001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-141620-364001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+          "Role": "精确散列迁移",
+          "Code location": "登记最终注释修正，不改原生函数体、伤害或资源几何",
+          "Before": "b8c7196ffab3528fd2e6a06f6a65f1dfe003cce46934bc963f70b5a77f5140de",
+          "Changes": "登记最终注释修正，不改原生函数体、伤害或资源几何",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "795791047ebb1e5d1497fca096870411d2611dca093d9d037d4d382fa652a2c3",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-142407-027148\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-142407-027148\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+          "Role": "精确授权差异",
+          "Code location": "记录未使用接口删除和组包注释的精确摘要，不放宽回归边界",
+          "Before": "1c89f79e39e7318b2064a3c6cbbb87f91a47bd35e97d71b6d258a7e580818632",
+          "Changes": "记录未使用接口删除和组包注释的精确摘要，不放宽回归边界",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "2f1f1aa8d8a3f7e9e74818177ba2741f5a3c07ae9e09d550155f6ae1c141f3b8",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+          "Role": "精确回归授权迁移",
+          "Code location": "与历史函数测试相同的LF规范化；不放宽函数/资源实际摘要",
+          "Before": "5126a09654d1eccf7cb5a0fc97e86840c92946a869657a0aa9c0cd94c8a10fc4",
+          "Changes": "与历史函数测试相同的LF规范化；不放宽函数/资源实际摘要",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "e7ddad6b7946198255501091fafae0b9910d7478641650020d6c358d75c426fa",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+          "Role": "精确回归授权迁移",
+          "Code location": "与历史函数测试相同的LF规范化；不放宽函数/资源实际摘要",
+          "Before": "2872df97c693909b1c08d808feb61084ff364cb10ff5fdf127fafc55b7ae648a",
+          "Changes": "与历史函数测试相同的LF规范化；不放宽函数/资源实际摘要",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "64a18fc375e7bd4a1af09d5ac7f8eb2de101f3d96ed3df47655dff0b14ce8680",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+          "Role": "精确授权迁移",
+          "Code location": "登记052源码插桩/清单清理的before→after摘要；无记录变化继续拒绝",
+          "Before": null,
+          "Changes": "登记052源码插桩/清单清理的before→after摘要；无记录变化继续拒绝",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "2872df97c693909b1c08d808feb61084ff364cb10ff5fdf127fafc55b7ae648a",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+          "Role": "精确回归授权迁移",
+          "Code location": "与历史函数测试相同的LF规范化；不放宽函数/资源实际摘要",
+          "Before": "64a18fc375e7bd4a1af09d5ac7f8eb2de101f3d96ed3df47655dff0b14ce8680",
+          "Changes": "与历史函数测试相同的LF规范化；不放宽函数/资源实际摘要",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "5126a09654d1eccf7cb5a0fc97e86840c92946a869657a0aa9c0cd94c8a10fc4",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140803-088732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140803-088732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+          "Role": "资源元数据精确迁移",
+          "Code location": "登记仅来源清理后的最终摘要；视觉资产字节不变",
+          "Before": "795791047ebb1e5d1497fca096870411d2611dca093d9d037d4d382fa652a2c3",
+          "Changes": "登记仅来源清理后的最终摘要；视觉资产字节不变",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "1c89f79e39e7318b2064a3c6cbbb87f91a47bd35e97d71b6d258a7e580818632",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-142934-186014\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-142934-186014\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-052.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\cleanup-audit-052.md",
+      "Role": "本轮使用与审计说明",
+      "Code location": "docs/cleanup-audit-052.md",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "说明清理证据、日志配置/调用链/单位/开销边界、手动分析和待编译状态"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "2c9a0b9c39f8bee30d3f517c5a42c48afddadc0cd6ebb13d53e0f148179f8e07"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\cleanup-audit-052.md",
+          "Role": "本轮使用与审计说明",
+          "Code location": "说明清理证据、日志配置/调用链/单位/开销边界、手动分析和待编译状态",
+          "Before": null,
+          "Changes": "说明清理证据、日志配置/调用链/单位/开销边界、手动分析和待编译状态",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "2c9a0b9c39f8bee30d3f517c5a42c48afddadc0cd6ebb13d53e0f148179f8e07",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+      "Role": "资源来源清单",
+      "Code location": "docs/eight-effects.json",
+      "Before": {
+        "state": "existing",
+        "sha256": "eecc448061ed572c90f3f5eccad8bd20ba7e27401b86e7998535010d58ab4f43"
+      },
+      "Changes": [
+        "通过真实退役NIF材质调用证明并移除来源记录；来源精确去重，与新生产者相同规则",
+        "仅移除heavy来源与不再共享使用的材质；其余20类原参数保持"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "f61fd13121f0577ee054a8869ed20ed3062943d68b8b8a593f0d03c345aa794c"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "Role": "有效资源来源",
+          "Code location": "通过真实退役NIF材质调用证明并移除来源记录；来源精确去重，与新生产者相同规则",
+          "Before": "40388d7b9e08d76284e79fa5311597541253d418cc475d8ef1c293b56bb25283",
+          "Changes": "通过真实退役NIF材质调用证明并移除来源记录；来源精确去重，与新生产者相同规则",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "f61fd13121f0577ee054a8869ed20ed3062943d68b8b8a593f0d03c345aa794c",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-142934-186014\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-142934-186014\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "Role": "资源来源清单",
+          "Code location": "仅移除heavy来源与不再共享使用的材质；其余20类原参数保持",
+          "Before": "eecc448061ed572c90f3f5eccad8bd20ba7e27401b86e7998535010d58ab4f43",
+          "Changes": "仅移除heavy来源与不再共享使用的材质；其余20类原参数保持",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "40388d7b9e08d76284e79fa5311597541253d418cc475d8ef1c293b56bb25283",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\provenance-cleanup-052.json",
+      "Role": "来源清理验证",
+      "Code location": "docs/provenance-cleanup-052.json",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "不生成二进制地核对移除旧heavy对重建元数据的影响"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "188855ca6737cc43f19b1ce359fefded3a7327253fb2a13c73c4be152760c19c"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\provenance-cleanup-052.json",
+          "Role": "来源清理验证",
+          "Code location": "不生成二进制地核对移除旧heavy对重建元数据的影响",
+          "Before": null,
+          "Changes": "不生成二进制地核对移除旧heavy对重建元数据的影响",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "188855ca6737cc43f19b1ce359fefded3a7327253fb2a13c73c4be152760c19c",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\retired-runtime-052.json",
+      "Role": "精确退役证据",
+      "Code location": "docs/retired-runtime-052.json",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "仅列本轮已证实无消费者的模型/纹理；同步不得清理其他未知文件或日志",
+        "记录7个被删文件的原始摘要，历史回归必须匹配身份，不接受任意缺文件"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "035ca64f76dded21aacec80d550ea037b26e70e4e29683ae8bcec072a8642a77"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\retired-runtime-052.json",
+          "Role": "精确删除白名单",
+          "Code location": "仅列本轮已证实无消费者的模型/纹理；同步不得清理其他未知文件或日志",
+          "Before": null,
+          "Changes": "仅列本轮已证实无消费者的模型/纹理；同步不得清理其他未知文件或日志",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "edf8c4f6f9e9cfbd4a6cb477a13c653b475ae5ef608347322c36d9019fc10c82",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\retired-runtime-052.json",
+          "Role": "精确退役证据",
+          "Code location": "记录7个被删文件的原始摘要，历史回归必须匹配身份，不接受任意缺文件",
+          "Before": "edf8c4f6f9e9cfbd4a6cb477a13c653b475ae5ef608347322c36d9019fc10c82",
+          "Changes": "记录7个被删文件的原始摘要，历史回归必须匹配身份，不接受任意缺文件",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "035ca64f76dded21aacec80d550ea037b26e70e4e29683ae8bcec072a8642a77",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\retired-runtime-052.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\retired-runtime-052.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+      "Role": "日志配置",
+      "Code location": "package/IrisArsenal/IrisArsenal.ini",
+      "Before": {
+        "state": "existing",
+        "sha256": "345a662076e5aab6de03138b6d370f46431d1482fb9cf6c7b16509ac81a1b2bb"
+      },
+      "Changes": [
+        "增加启动读取的总开关、性能/资源独立开关、摘要/刷盘秒数与慢帧毫秒阈值；战斗值不变"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "Role": "日志配置",
+          "Code location": "增加启动读取的总开关、性能/资源独立开关、摘要/刷盘秒数与慢帧毫秒阈值；战斗值不变",
+          "Before": "345a662076e5aab6de03138b6d370f46431d1482fb9cf6c7b16509ac81a1b2bb",
+          "Changes": "增加启动读取的总开关、性能/资源独立开关、摘要/刷盘秒数与慢帧毫秒阈值；战斗值不变",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "组包安全状态",
+      "Code location": "package/IrisArsenal/IrisPackage.json",
+      "Before": {
+        "state": "existing",
+        "sha256": "4535ba76acb9cf47617885644d06d0fc7c61b459214d4cdc761bce35be64e729"
+      },
+      "Changes": [
+        "撤销旧ready标记；保留旧产物身份记录，待用户编译后生成完整新清单"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "96c0a8ec354dc34e4daf899624a40031ed05dc3a1a7c6c41ba4ca0c0cd5476bc"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "Role": "组包安全状态",
+          "Code location": "撤销旧ready标记；保留旧产物身份记录，待用户编译后生成完整新清单",
+          "Before": "4535ba76acb9cf47617885644d06d0fc7c61b459214d4cdc761bce35be64e729",
+          "Changes": "撤销旧ready标记；保留旧产物身份记录，待用户编译后生成完整新清单",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "96c0a8ec354dc34e4daf899624a40031ed05dc3a1a7c6c41ba4ca0c0cd5476bc",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+      "Role": "运行资产清单",
+      "Code location": "package/IrisArsenal/assets/effects.csv",
+      "Before": {
+        "state": "existing",
+        "sha256": "62c732760e9b392ad68196899810a1a09eb77f3aeb9ff166bc451d184e587fa2"
+      },
+      "Changes": [
+        "移除无运行消费者的heavy行；其余20类绑定逐字保持"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "59d4070ceeac7ddc4773784ab12748678124fe738ff7139dab98f73e076de10b"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "Role": "运行资产清单",
+          "Code location": "移除无运行消费者的heavy行；其余20类绑定逐字保持",
+          "Before": "62c732760e9b392ad68196899810a1a09eb77f3aeb9ff166bc451d184e587fa2",
+          "Changes": "移除无运行消费者的heavy行；其余20类绑定逐字保持",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "59d4070ceeac7ddc4773784ab12748678124fe738ff7139dab98f73e076de10b",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+      "Role": "材质清单",
+      "Code location": "package/IrisArsenal/assets/iris_eight.material",
+      "Before": {
+        "state": "existing",
+        "sha256": "fce6d9ccf51bb1f406162c47f74f61092866685dd2cac550308eddbb9e68568d"
+      },
+      "Changes": [
+        "删除heavy独占材质定义，共享枪体材质保持"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "01fe9ccd1284f695666ae21fce02c00798604f4c2e4a6a5c46e978c71342f2d0"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "Role": "材质清单",
+          "Code location": "删除heavy独占材质定义，共享枪体材质保持",
+          "Before": "fce6d9ccf51bb1f406162c47f74f61092866685dd2cac550308eddbb9e68568d",
+          "Changes": "删除heavy独占材质定义，共享枪体材质保持",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "01fe9ccd1284f695666ae21fce02c00798604f4c2e4a6a5c46e978c71342f2d0",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_16aa266c9f57169a.png",
+      "Role": "可恢复归档的无用运行文件",
+      "Code location": "package/IrisArsenal/assets/iris_fx_16aa266c9f57169a.png",
+      "Before": {
+        "state": "existing",
+        "sha256": "74c2e3611bf8fd52aeaf25cc42325f12b62aa64ddd9f64ead0043373aa97aa30"
+      },
+      "Changes": [
+        "备份后移出项目"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "retired",
+        "sha256": null
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_16aa266c9f57169a.png",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_16aa266c9f57169a.png"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_16aa266c9f57169a.png",
+        "encoding_before": null,
+        "encoding_after": "binary/deleted",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_16aa266c9f57169a.png",
+          "Role": "可恢复归档的无用运行文件",
+          "Code location": "package/IrisArsenal/assets/iris_fx_16aa266c9f57169a.png",
+          "Before": "74c2e3611bf8fd52aeaf25cc42325f12b62aa64ddd9f64ead0043373aa97aa30",
+          "Changes": "备份后移出项目",
+          "Reasons": "所有实际material纹理引用中不存在；动态动画/FCS/验证CSV没有参与此删除规则",
+          "After": null,
+          "Impact": "不改游戏已部署文件；无引用纹理或无消费者模型",
+          "Validation": "引用图及双备份回读",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_16aa266c9f57169a.png",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_16aa266c9f57169a.png"
+            ],
+            "encoding": "binary"
+          },
+          "Unresolved": "用户编译后由更新脚本同步清理安装目录"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_41f4a27f3ea0b675.png",
+      "Role": "可恢复归档的无用运行文件",
+      "Code location": "package/IrisArsenal/assets/iris_fx_41f4a27f3ea0b675.png",
+      "Before": {
+        "state": "existing",
+        "sha256": "c3e777bd6589e087925a42482de6d0ff79f259221879b5eeccc30ba18d0e304a"
+      },
+      "Changes": [
+        "备份后移出项目"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "retired",
+        "sha256": null
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_41f4a27f3ea0b675.png",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_41f4a27f3ea0b675.png"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_41f4a27f3ea0b675.png",
+        "encoding_before": null,
+        "encoding_after": "binary/deleted",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_41f4a27f3ea0b675.png",
+          "Role": "可恢复归档的无用运行文件",
+          "Code location": "package/IrisArsenal/assets/iris_fx_41f4a27f3ea0b675.png",
+          "Before": "c3e777bd6589e087925a42482de6d0ff79f259221879b5eeccc30ba18d0e304a",
+          "Changes": "备份后移出项目",
+          "Reasons": "所有实际material纹理引用中不存在；动态动画/FCS/验证CSV没有参与此删除规则",
+          "After": null,
+          "Impact": "不改游戏已部署文件；无引用纹理或无消费者模型",
+          "Validation": "引用图及双备份回读",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_41f4a27f3ea0b675.png",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_41f4a27f3ea0b675.png"
+            ],
+            "encoding": "binary"
+          },
+          "Unresolved": "用户编译后由更新脚本同步清理安装目录"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_4c9ac19e454dbc9c.png",
+      "Role": "可恢复归档的无用运行文件",
+      "Code location": "package/IrisArsenal/assets/iris_fx_4c9ac19e454dbc9c.png",
+      "Before": {
+        "state": "existing",
+        "sha256": "c05c3ddadf7ee41701ade38e0af9165237385b3941607a18977e78b394f2316e"
+      },
+      "Changes": [
+        "备份后移出项目"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "retired",
+        "sha256": null
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_4c9ac19e454dbc9c.png",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_4c9ac19e454dbc9c.png"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_4c9ac19e454dbc9c.png",
+        "encoding_before": null,
+        "encoding_after": "binary/deleted",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_4c9ac19e454dbc9c.png",
+          "Role": "可恢复归档的无用运行文件",
+          "Code location": "package/IrisArsenal/assets/iris_fx_4c9ac19e454dbc9c.png",
+          "Before": "c05c3ddadf7ee41701ade38e0af9165237385b3941607a18977e78b394f2316e",
+          "Changes": "备份后移出项目",
+          "Reasons": "所有实际material纹理引用中不存在；动态动画/FCS/验证CSV没有参与此删除规则",
+          "After": null,
+          "Impact": "不改游戏已部署文件；无引用纹理或无消费者模型",
+          "Validation": "引用图及双备份回读",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_4c9ac19e454dbc9c.png",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_4c9ac19e454dbc9c.png"
+            ],
+            "encoding": "binary"
+          },
+          "Unresolved": "用户编译后由更新脚本同步清理安装目录"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_61ad787574472755.png",
+      "Role": "可恢复归档的无用运行文件",
+      "Code location": "package/IrisArsenal/assets/iris_fx_61ad787574472755.png",
+      "Before": {
+        "state": "existing",
+        "sha256": "35fe5f3da89e6eabd457bcc1b25185a10c83572d63028945577d328d7a5b64c9"
+      },
+      "Changes": [
+        "备份后移出项目"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "retired",
+        "sha256": null
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_61ad787574472755.png",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_61ad787574472755.png"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_61ad787574472755.png",
+        "encoding_before": null,
+        "encoding_after": "binary/deleted",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_61ad787574472755.png",
+          "Role": "可恢复归档的无用运行文件",
+          "Code location": "package/IrisArsenal/assets/iris_fx_61ad787574472755.png",
+          "Before": "35fe5f3da89e6eabd457bcc1b25185a10c83572d63028945577d328d7a5b64c9",
+          "Changes": "备份后移出项目",
+          "Reasons": "所有实际material纹理引用中不存在；动态动画/FCS/验证CSV没有参与此删除规则",
+          "After": null,
+          "Impact": "不改游戏已部署文件；无引用纹理或无消费者模型",
+          "Validation": "引用图及双备份回读",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_61ad787574472755.png",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_61ad787574472755.png"
+            ],
+            "encoding": "binary"
+          },
+          "Unresolved": "用户编译后由更新脚本同步清理安装目录"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_858421333546ea10.png",
+      "Role": "可恢复归档的无用运行文件",
+      "Code location": "package/IrisArsenal/assets/iris_fx_858421333546ea10.png",
+      "Before": {
+        "state": "existing",
+        "sha256": "b1462757bbcbe17e5a38e8d530418fef13b54599f846b6312bb94b6eb6a5e074"
+      },
+      "Changes": [
+        "备份后移出项目"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "retired",
+        "sha256": null
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_858421333546ea10.png",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_858421333546ea10.png"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_858421333546ea10.png",
+        "encoding_before": null,
+        "encoding_after": "binary/deleted",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_858421333546ea10.png",
+          "Role": "可恢复归档的无用运行文件",
+          "Code location": "package/IrisArsenal/assets/iris_fx_858421333546ea10.png",
+          "Before": "b1462757bbcbe17e5a38e8d530418fef13b54599f846b6312bb94b6eb6a5e074",
+          "Changes": "备份后移出项目",
+          "Reasons": "所有实际material纹理引用中不存在；动态动画/FCS/验证CSV没有参与此删除规则",
+          "After": null,
+          "Impact": "不改游戏已部署文件；无引用纹理或无消费者模型",
+          "Validation": "引用图及双备份回读",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_858421333546ea10.png",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_858421333546ea10.png"
+            ],
+            "encoding": "binary"
+          },
+          "Unresolved": "用户编译后由更新脚本同步清理安装目录"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_9f9d669a1492ab09.png",
+      "Role": "可恢复归档的无用运行文件",
+      "Code location": "package/IrisArsenal/assets/iris_fx_9f9d669a1492ab09.png",
+      "Before": {
+        "state": "existing",
+        "sha256": "271586f7bafab84b30af006b8cacd577c9c1330349b51a33a80aa9815ddd8e9a"
+      },
+      "Changes": [
+        "备份后移出项目"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "retired",
+        "sha256": null
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_9f9d669a1492ab09.png",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_9f9d669a1492ab09.png"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_9f9d669a1492ab09.png",
+        "encoding_before": null,
+        "encoding_after": "binary/deleted",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_9f9d669a1492ab09.png",
+          "Role": "可恢复归档的无用运行文件",
+          "Code location": "package/IrisArsenal/assets/iris_fx_9f9d669a1492ab09.png",
+          "Before": "271586f7bafab84b30af006b8cacd577c9c1330349b51a33a80aa9815ddd8e9a",
+          "Changes": "备份后移出项目",
+          "Reasons": "所有实际material纹理引用中不存在；动态动画/FCS/验证CSV没有参与此删除规则",
+          "After": null,
+          "Impact": "不改游戏已部署文件；无引用纹理或无消费者模型",
+          "Validation": "引用图及双备份回读",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_9f9d669a1492ab09.png",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_9f9d669a1492ab09.png"
+            ],
+            "encoding": "binary"
+          },
+          "Unresolved": "用户编译后由更新脚本同步清理安装目录"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh",
+      "Role": "可恢复归档的无用运行文件",
+      "Code location": "package/IrisArsenal/assets/iris_fx_heavy.mesh",
+      "Before": {
+        "state": "existing",
+        "sha256": "83029dc33a02950ceb9ba58802aa54b5498ff61009a40811b2677ea230a9ba33"
+      },
+      "Changes": [
+        "备份后移出项目"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "retired",
+        "sha256": null
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh",
+        "encoding_before": null,
+        "encoding_after": "binary/deleted",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh",
+          "Role": "可恢复归档的无用运行文件",
+          "Code location": "package/IrisArsenal/assets/iris_fx_heavy.mesh",
+          "Before": "83029dc33a02950ceb9ba58802aa54b5498ff61009a40811b2677ea230a9ba33",
+          "Changes": "备份后移出项目",
+          "Reasons": "全运行代码无Borrow heavy，终结事件已改为球心直爆；已同步移除生产者/绑定/独占材质",
+          "After": null,
+          "Impact": "不改游戏已部署文件；无引用纹理或无消费者模型",
+          "Validation": "引用图及双备份回读",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh"
+            ],
+            "encoding": "binary"
+          },
+          "Unresolved": "用户编译后由更新脚本同步清理安装目录"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+      "Role": "资源生产者",
+      "Code location": "tools/author_effects.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "f5c9c9b5befe142018aae3e8facac10a6fcf65db7ae05be25ca94553e65fb720"
+      },
+      "Changes": [
+        "来源记录按实际材质引用精确去重/排序；移除heavy后完整重建与当前包保持一致，不再生成无用模型",
+        "停止导出已经无事件消费者的旧heavy模型，不改变其余源资产或特效参数"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "56414442135771f492e45074a2fb677e969b31d9c82f42b5e7c41907c4400e53"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "Role": "资源重建元数据",
+          "Code location": "来源记录按实际材质引用精确去重/排序；移除heavy后完整重建与当前包保持一致，不再生成无用模型",
+          "Before": "4e6cc394a323200149243f7d69802990b9297a6e99bb1bb739047ec1a683e934",
+          "Changes": "来源记录按实际材质引用精确去重/排序；移除heavy后完整重建与当前包保持一致，不再生成无用模型",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "56414442135771f492e45074a2fb677e969b31d9c82f42b5e7c41907c4400e53",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-142934-186014\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-142934-186014\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "Role": "资源生产者",
+          "Code location": "停止导出已经无事件消费者的旧heavy模型，不改变其余源资产或特效参数",
+          "Before": "f5c9c9b5befe142018aae3e8facac10a6fcf65db7ae05be25ca94553e65fb720",
+          "Changes": "停止导出已经无事件消费者的旧heavy模型，不改变其余源资产或特效参数",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "4e6cc394a323200149243f7d69802990b9297a6e99bb1bb739047ec1a683e934",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-134632-513844\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+      "Role": "精确历史回归适配",
+      "Code location": "tools/historical047.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "dba1314f37d237ae00b209a45685a7a02299219e923017f85857237ee53a8b13"
+      },
+      "Changes": [
+        "增加052摘要链和明确退役文件身份检查，不泛化忽略缺失资源"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "a8fa9e3c873d8f422047ba8689e4deb7e62f272cab5aef451c208800c725e523"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+          "Role": "精确历史回归适配",
+          "Code location": "增加052摘要链和明确退役文件身份检查，不泛化忽略缺失资源",
+          "Before": "dba1314f37d237ae00b209a45685a7a02299219e923017f85857237ee53a8b13",
+          "Changes": "增加052摘要链和明确退役文件身份检查，不泛化忽略缺失资源",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "a8fa9e3c873d8f422047ba8689e4deb7e62f272cab5aef451c208800c725e523",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\prune_package052.py",
+      "Role": "组包清理",
+      "Code location": "tools/prune_package052.py",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "按清单实际保存的模型basename核验引用，不能用带assets前缀的路径误判为无引用",
+        "重建末尾仅清理052精确白名单，避免旧无用文件再次混入运行包"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "4f40006937688a6b4ed151978c72bfa401f71cb3dd7294fa461fab48909302c2"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\prune_package052.py",
+          "Role": "资源引用安全门",
+          "Code location": "按清单实际保存的模型basename核验引用，不能用带assets前缀的路径误判为无引用",
+          "Before": "47b7c3c21fd98d996232fba547204b75f85c379339121d0ad61bf303159c8207",
+          "Changes": "按清单实际保存的模型basename核验引用，不能用带assets前缀的路径误判为无引用",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "4f40006937688a6b4ed151978c72bfa401f71cb3dd7294fa461fab48909302c2",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-142150-124831\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\prune_package052.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-142150-124831\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\prune_package052.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\prune_package052.py",
+          "Role": "组包清理",
+          "Code location": "重建末尾仅清理052精确白名单，避免旧无用文件再次混入运行包",
+          "Before": null,
+          "Changes": "重建末尾仅清理052精确白名单，避免旧无用文件再次混入运行包",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "47b7c3c21fd98d996232fba547204b75f85c379339121d0ad61bf303159c8207",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py",
+      "Role": "手动日志读取器",
+      "Code location": "tools/read_audit052.py",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "完整标记还必须与两scope资源/计数的安全帧号相同，拒绝拼接错帧",
+        "逐行读全日志，按进程身份/完整摘要区分运行；拒绝半份，不轮询或改日志"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "072b3b391ccedd53a9b96f0e9d5e73cd29669ee43d5814a07c0ca16013eb09a2"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py",
+          "Role": "离线摘要一致性",
+          "Code location": "完整标记还必须与两scope资源/计数的安全帧号相同，拒绝拼接错帧",
+          "Before": "99e66705d887724c2c641502f4f7f8727a30b8e047d8e4793858e4ae818861dd",
+          "Changes": "完整标记还必须与两scope资源/计数的安全帧号相同，拒绝拼接错帧",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "072b3b391ccedd53a9b96f0e9d5e73cd29669ee43d5814a07c0ca16013eb09a2",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140803-088732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140803-088732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py",
+          "Role": "手动日志读取器",
+          "Code location": "逐行读全日志，按进程身份/完整摘要区分运行；拒绝半份，不轮询或改日志",
+          "Before": null,
+          "Changes": "逐行读全日志，按进程身份/完整摘要区分运行；拒绝半份，不轮询或改日志",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "99e66705d887724c2c641502f4f7f8727a30b8e047d8e4793858e4ae818861dd",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\rebuild_package.py",
+      "Role": "完整更新资源链",
+      "Code location": "tools/rebuild_package.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "a589713301c5701d46b707cad617dd7b9158a17eab97f7999917af37b7ec8c1f"
+      },
+      "Changes": [
+        "资源重建后执行白名单清理；不改变源模型/动画生成顺序"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "ef8c600d97db8779894cd766abb3dcbd3579309f17d0700044d5dcd93ff408e0"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\rebuild_package.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\rebuild_package.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\rebuild_package.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\rebuild_package.py",
+          "Role": "完整更新资源链",
+          "Code location": "资源重建后执行白名单清理；不改变源模型/动画生成顺序",
+          "Before": "a589713301c5701d46b707cad617dd7b9158a17eab97f7999917af37b7ec8c1f",
+          "Changes": "资源重建后执行白名单清理；不改变源模型/动画生成顺序",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "ef8c600d97db8779894cd766abb3dcbd3579309f17d0700044d5dcd93ff408e0",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\rebuild_package.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\rebuild_package.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\safeio.py",
+      "Role": "安全文件工具",
+      "Code location": "tools/safeio.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "5c9e7ba45c7f39dce6bd8050362d94860a92ef0d00e619eee92461614322a665"
+      },
+      "Changes": [
+        "新增精确资源退役接口，双备份/目录约束/逐文件报告齐全；修正当前授权说明"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "6a6c5351dfc635ec45d17c94c0e8e68a4307fce14e0ca0e85e2b9de35c3b610c"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\safeio.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\safeio.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\safeio.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\safeio.py",
+          "Role": "安全文件工具",
+          "Code location": "新增精确资源退役接口，双备份/目录约束/逐文件报告齐全；修正当前授权说明",
+          "Before": "5c9e7ba45c7f39dce6bd8050362d94860a92ef0d00e619eee92461614322a665",
+          "Changes": "新增精确资源退役接口，双备份/目录约束/逐文件报告齐全；修正当前授权说明",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "6a6c5351dfc635ec45d17c94c0e8e68a4307fce14e0ca0e85e2b9de35c3b610c",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\safeio.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\safeio.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Role": "DLL组包门",
+      "Code location": "tools/stage_package.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "065a5754cc06863fc696b6e926cfb80fe03f6cdab492190f61719bc791e7fad1"
+      },
+      "Changes": [
+        "纠正残留038注释，说明当前052代码合同与同包要求",
+        "要求0.4.9/052标记及新增单元源码时间；完整包包含精确退役白名单"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "eebcccfbe5343ebde5b0c6f134562c26ddbfd4bdc60e6d21c9c471477bbe4e45"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "Role": "用户编译后的组包入口",
+          "Code location": "纠正残留038注释，说明当前052代码合同与同包要求",
+          "Before": "b151994d7ceb13ebbffac9e78c1412219b5bd330ad5796eff810003a8fb30fdc",
+          "Changes": "纠正残留038注释，说明当前052代码合同与同包要求",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "eebcccfbe5343ebde5b0c6f134562c26ddbfd4bdc60e6d21c9c471477bbe4e45",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-143710-798435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "Role": "DLL组包门",
+          "Code location": "要求0.4.9/052标记及新增单元源码时间；完整包包含精确退役白名单",
+          "Before": "065a5754cc06863fc696b6e926cfb80fe03f6cdab492190f61719bc791e7fad1",
+          "Changes": "要求0.4.9/052标记及新增单元源码时间；完整包包含精确退役白名单",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "b151994d7ceb13ebbffac9e78c1412219b5bd330ad5796eff810003a8fb30fdc",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit052.py",
+      "Role": "052专项验证",
+      "Code location": "tools/test_audit052.py",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "修正Python显式编码名称，保持文件实际UTF-8",
+        "核验摘要先快照和切窗口、完整结束标记及行数，不丢日志自身开销",
+        "核对实际配置/源码/编译清单/资源引用及独立统计边界，不编译或执行游戏"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "cdd349ef3a44de59aa2bcc8cc1e9fc7aa5633a2cf1879d6acb788bcd29f18d19"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit052.py",
+          "Role": "052专项编码检查",
+          "Code location": "修正Python显式编码名称，保持文件实际UTF-8",
+          "Before": "b29dd5172d42361d23f4c09fa6c51e38ffbaf124b34337bc4c3f49b2a8b4d9b1",
+          "Changes": "修正Python显式编码名称，保持文件实际UTF-8",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "188782bc495619c1730fc9da3f30e2dfbdab3c64a8f1093d478b984ca145967f",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135530-340561\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit052.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135530-340561\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit052.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit052.py",
+          "Role": "完整日志边界回归",
+          "Code location": "核验摘要先快照和切窗口、完整结束标记及行数，不丢日志自身开销",
+          "Before": "188782bc495619c1730fc9da3f30e2dfbdab3c64a8f1093d478b984ca145967f",
+          "Changes": "核验摘要先快照和切窗口、完整结束标记及行数，不丢日志自身开销",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "cdd349ef3a44de59aa2bcc8cc1e9fc7aa5633a2cf1879d6acb788bcd29f18d19",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit052.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit052.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit052.py",
+          "Role": "052专项验证",
+          "Code location": "核对实际配置/源码/编译清单/资源引用及独立统计边界，不编译或执行游戏",
+          "Before": null,
+          "Changes": "核对实际配置/源码/编译清单/资源引用及独立统计边界，不编译或执行游戏",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "b29dd5172d42361d23f4c09fa6c51e38ffbaf124b34337bc4c3f49b2a8b4d9b1",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit_io052.py",
+      "Role": "052事务/离线读取验收",
+      "Code location": "tools/test_audit_io052.py",
+      "Before": {
+        "state": "new",
+        "sha256": null
+      },
+      "Changes": [
+        "新增真实清理器必须拒绝仍有模型绑定的负例，不执行任何真实项目删除",
+        "按Win32 INI不区分大小写语义核对新增键，用户0开关原样保留",
+        "新增精确删除/双备份/回滚/配置保持和真实解析器完整摘要/半摘要/资源失败测试"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "d7eb969808f70f46ba8e0feeaa7c9b152dfdfbf9dec1bd186a682d0c4df21504"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [],
+        "original_source": null,
+        "encoding_before": null,
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit_io052.py",
+          "Role": "清理安全回归",
+          "Code location": "新增真实清理器必须拒绝仍有模型绑定的负例，不执行任何真实项目删除",
+          "Before": "6383281d218a4b9f48b7e6af001343da697732b4a545543390dfd25ba7a92246",
+          "Changes": "新增真实清理器必须拒绝仍有模型绑定的负例，不执行任何真实项目删除",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "d7eb969808f70f46ba8e0feeaa7c9b152dfdfbf9dec1bd186a682d0c4df21504",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-142150-124831\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit_io052.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-142150-124831\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit_io052.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit_io052.py",
+          "Role": "配置保持测试",
+          "Code location": "按Win32 INI不区分大小写语义核对新增键，用户0开关原样保留",
+          "Before": "edfb0d8e2cef8677078e2448d7a81f537506b198050351a14c12571101cc2bc7",
+          "Changes": "按Win32 INI不区分大小写语义核对新增键，用户0开关原样保留",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "6383281d218a4b9f48b7e6af001343da697732b4a545543390dfd25ba7a92246",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit_io052.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit_io052.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_audit_io052.py",
+          "Role": "052事务/离线读取验收",
+          "Code location": "新增精确删除/双备份/回滚/配置保持和真实解析器完整摘要/半摘要/资源失败测试",
+          "Before": null,
+          "Changes": "新增精确删除/双备份/回滚/配置保持和真实解析器完整摘要/半摘要/资源失败测试",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "edfb0d8e2cef8677078e2448d7a81f537506b198050351a14c12571101cc2bc7",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+      "Role": "历史功能回归",
+      "Code location": "tools/test_balance046.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "f18a83808008be37280dc8622840284baa5fdaf05c1d24b7410e4a144045aba5"
+      },
+      "Changes": [
+        "版本标识随052/独立日志单元更新，原伤害/距离/防御断言保持",
+        "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "b4591109712d90da570d433f7483ab1120d2ab38b8cd9fe7edd44b41db6d919f"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+          "Role": "当前版本回归",
+          "Code location": "版本标识随052/独立日志单元更新，原伤害/距离/防御断言保持",
+          "Before": "86d825d177d18b1b5d7b3f2b537260fa8160dd1cfbdd4525e9552010b76ad02d",
+          "Changes": "版本标识随052/独立日志单元更新，原伤害/距离/防御断言保持",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "b4591109712d90da570d433f7483ab1120d2ab38b8cd9fe7edd44b41db6d919f",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+          "Role": "历史功能回归",
+          "Code location": "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化",
+          "Before": "f18a83808008be37280dc8622840284baa5fdaf05c1d24b7410e4a144045aba5",
+          "Changes": "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "86d825d177d18b1b5d7b3f2b537260fa8160dd1cfbdd4525e9552010b76ad02d",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+      "Role": "物理缓存回归",
+      "Code location": "tools/test_cannon_quake.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "e5a3107b8ba722771a79dd160e6e979a10a8ee976b99f1e00bf76cede9a02135"
+      },
+      "Changes": [
+        "查询事实缓存断言改用新审计计数，继续验证真实缓存和FPS未测边界",
+        "FPS未测声明随日志迁入独立单元，物理和特效断言保持",
+        "改查实际同帧缓存清理与删除重复旧统计，原球形/圆柱查询断言保持"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "a056d548365ba54b0d615eb20a6acce8642043219048854d006ffceb756a411f"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+          "Role": "长期计数回归",
+          "Code location": "查询事实缓存断言改用新审计计数，继续验证真实缓存和FPS未测边界",
+          "Before": "799ce0af3bc36fcd6b98417768e041b51ea84cfcc6f2b1150379cc078cc2657a",
+          "Changes": "查询事实缓存断言改用新审计计数，继续验证真实缓存和FPS未测边界",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "b3432996541d83ec409ae8b7782ab2ba28dbf40b2184459c4dc3463e1adc118b",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+          "Role": "诊断单元回归",
+          "Code location": "FPS未测声明随日志迁入独立单元，物理和特效断言保持",
+          "Before": "b3432996541d83ec409ae8b7782ab2ba28dbf40b2184459c4dc3463e1adc118b",
+          "Changes": "FPS未测声明随日志迁入独立单元，物理和特效断言保持",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "a056d548365ba54b0d615eb20a6acce8642043219048854d006ffceb756a411f",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-141419-602196\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+          "Role": "物理缓存回归",
+          "Code location": "改查实际同帧缓存清理与删除重复旧统计，原球形/圆柱查询断言保持",
+          "Before": "e5a3107b8ba722771a79dd160e6e979a10a8ee976b99f1e00bf76cede9a02135",
+          "Changes": "改查实际同帧缓存清理与删除重复旧统计，原球形/圆柱查询断言保持",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "799ce0af3bc36fcd6b98417768e041b51ea84cfcc6f2b1150379cc078cc2657a",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+      "Role": "回归契约",
+      "Code location": "tools/test_drill_037.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "4af35e59800433bb08162520279e54989b48ede50c43c42f1fd297fbd6d1e679"
+      },
+      "Changes": [
+        "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "0427428fc56853eb242de279f0bd873ea57b867eba415f9d04adbe2fdaa360ea"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "Role": "回归契约",
+          "Code location": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Before": "4af35e59800433bb08162520279e54989b48ede50c43c42f1fd297fbd6d1e679",
+          "Changes": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "0427428fc56853eb242de279f0bd873ea57b867eba415f9d04adbe2fdaa360ea",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+      "Role": "回归契约",
+      "Code location": "tools/test_fx_timeline.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "4cb77de87f435c2d28c0ba5f413616c271208c00704f6c85820d627bf0d843fd"
+      },
+      "Changes": [
+        "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "4c7dd0e37d86d29dcd361f53a05fca99be8e8b0116cde1113336649d18b8e5b1"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+          "Role": "回归契约",
+          "Code location": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Before": "4cb77de87f435c2d28c0ba5f413616c271208c00704f6c85820d627bf0d843fd",
+          "Changes": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "4c7dd0e37d86d29dcd361f53a05fca99be8e8b0116cde1113336649d18b8e5b1",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+      "Role": "历史功能回归",
+      "Code location": "tools/test_melee_block043.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "c5f48b7979e4711746bf146196552b8283c852e21fb16d87c2868ef35e9cf34f"
+      },
+      "Changes": [
+        "测试夹具包含新增诊断源码，仍只使用不可加载字节验证旧合同拒绝和源码时间门",
+        "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "7aea131c1550ab65a9d1218b0d46ecd7b8454c00f4791a98b3ea1c9c046a9c27"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+          "Role": "假产物隔离测试",
+          "Code location": "测试夹具包含新增诊断源码，仍只使用不可加载字节验证旧合同拒绝和源码时间门",
+          "Before": "f4d56bc63103bc9bfa5a1c6d70779b2107b376380e3d70063d3db8da57fec41d",
+          "Changes": "测试夹具包含新增诊断源码，仍只使用不可加载字节验证旧合同拒绝和源码时间门",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "7aea131c1550ab65a9d1218b0d46ecd7b8454c00f4791a98b3ea1c9c046a9c27",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+          "Role": "历史功能回归",
+          "Code location": "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化",
+          "Before": "c5f48b7979e4711746bf146196552b8283c852e21fb16d87c2868ef35e9cf34f",
+          "Changes": "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "f4d56bc63103bc9bfa5a1c6d70779b2107b376380e3d70063d3db8da57fec41d",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+      "Role": "历史功能回归",
+      "Code location": "tools/test_melee_reaction044.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "5dab26edfa7e211ce46a0710683bed97d3ef5a77faf8feb0acb7ecd25f78816b"
+      },
+      "Changes": [
+        "版本门跟随052；原坐姿、伤害与反应的实际断言保持，改动仍走精确散列迁移",
+        "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "6c8d4268d7ef544f66fd8d21cdba223c87a155b53fa3514c4abccaf71819f54f"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "Role": "历史回归版本与边界",
+          "Code location": "版本门跟随052；原坐姿、伤害与反应的实际断言保持，改动仍走精确散列迁移",
+          "Before": "5485fe7ee3be04e5562e6f3f360333ec419d4696ae3bf0199bc01fe0af33bc80",
+          "Changes": "版本门跟随052；原坐姿、伤害与反应的实际断言保持，改动仍走精确散列迁移",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "6c8d4268d7ef544f66fd8d21cdba223c87a155b53fa3514c4abccaf71819f54f",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "Role": "历史功能回归",
+          "Code location": "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化",
+          "Before": "5dab26edfa7e211ce46a0710683bed97d3ef5a77faf8feb0acb7ecd25f78816b",
+          "Changes": "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "5485fe7ee3be04e5562e6f3f360333ec419d4696ae3bf0199bc01fe0af33bc80",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+      "Role": "历史功能回归",
+      "Code location": "tools/test_move_parameters045.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "f4a7c49e6a65443cc8f316823794139000422eb51d23f056613aaf0eba191206"
+      },
+      "Changes": [
+        "版本标识随052/独立日志单元更新，原伤害/距离/防御断言保持",
+        "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "f9367f76c66e7adf973d1596de3b61c3d0c39c9ee7bccda35ba254cea7729aea"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+          "Role": "当前版本回归",
+          "Code location": "版本标识随052/独立日志单元更新，原伤害/距离/防御断言保持",
+          "Before": "b9a7763048c59ec16775fa454caab6acb0ae5407f18c8f1903667b4e7f8922ee",
+          "Changes": "版本标识随052/独立日志单元更新，原伤害/距离/防御断言保持",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "f9367f76c66e7adf973d1596de3b61c3d0c39c9ee7bccda35ba254cea7729aea",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+          "Role": "历史功能回归",
+          "Code location": "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化",
+          "Before": "f4a7c49e6a65443cc8f316823794139000422eb51d23f056613aaf0eba191206",
+          "Changes": "原战斗/资源摘要仍严格校验；仅接受052明示退役身份及精确诊断插桩摘要变化",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "b9a7763048c59ec16775fa454caab6acb0ae5407f18c8f1903667b4e7f8922ee",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+      "Role": "历史回归版本与边界",
+      "Code location": "tools/test_release047.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "de6fd3ef5d92c2585e637c93d09986ee09a75aa7cf51ae648c0cdb2f1260d881"
+      },
+      "Changes": [
+        "版本门跟随052；原坐姿、伤害与反应的实际断言保持，改动仍走精确散列迁移"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "128496bce1aa77b4bcaca5d511f482fddb047553a12bdf27dfb6dcbe91335241"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+          "Role": "历史回归版本与边界",
+          "Code location": "版本门跟随052；原坐姿、伤害与反应的实际断言保持，改动仍走精确散列迁移",
+          "Before": "de6fd3ef5d92c2585e637c93d09986ee09a75aa7cf51ae648c0cdb2f1260d881",
+          "Changes": "版本门跟随052；原坐姿、伤害与反应的实际断言保持，改动仍走精确散列迁移",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "128496bce1aa77b4bcaca5d511f482fddb047553a12bdf27dfb6dcbe91335241",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+      "Role": "051视觉回归",
+      "Code location": "tools/test_source_effects051.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "ef8991c3203fd44039695d204cbecc7fcee368cd22dea4a645bb5942163d0939"
+      },
+      "Changes": [
+        "避免历史测试把本轮已变更C++误称未变，视觉回归结论限于实际核对范围",
+        "只允许052明确删除未用heavy后的来源元数据摘要迁移，原像素/网格摘要仍严格比对",
+        "对白名单缺文件验证原身份，其余几何/曲线/贴图和预览逐项保持真实核对",
+        "允许052明确授权的源码/资源清单变化；原源几何、颜色与CPU预览回归仍运行"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "2a029d9dd37dc1a2967836d08a8860e42df36eda49f7ad111c0ee517a0f75d53"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+          "Role": "验证结论标识",
+          "Code location": "避免历史测试把本轮已变更C++误称未变，视觉回归结论限于实际核对范围",
+          "Before": "66f71c8d96aebb89300382d85fe4fc8c50d3f4bb3da33f4d2ecc976422290ba2",
+          "Changes": "避免历史测试把本轮已变更C++误称未变，视觉回归结论限于实际核对范围",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "2a029d9dd37dc1a2967836d08a8860e42df36eda49f7ad111c0ee517a0f75d53",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140803-088732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140803-088732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+          "Role": "源预览输入边界",
+          "Code location": "只允许052明确删除未用heavy后的来源元数据摘要迁移，原像素/网格摘要仍严格比对",
+          "Before": "6b0b990f5113d231ae2e17f29f5bb6eb0d0874118f725a0d22912919ae2be650",
+          "Changes": "只允许052明确删除未用heavy后的来源元数据摘要迁移，原像素/网格摘要仍严格比对",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "66f71c8d96aebb89300382d85fe4fc8c50d3f4bb3da33f4d2ecc976422290ba2",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+          "Role": "源特效资源退役回归",
+          "Code location": "对白名单缺文件验证原身份，其余几何/曲线/贴图和预览逐项保持真实核对",
+          "Before": "004feb236ae6658de6ceaa294435c11d9586475c7826166311192a47c82e1161",
+          "Changes": "对白名单缺文件验证原身份，其余几何/曲线/贴图和预览逐项保持真实核对",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "6b0b990f5113d231ae2e17f29f5bb6eb0d0874118f725a0d22912919ae2be650",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+          "Role": "051视觉回归",
+          "Code location": "允许052明确授权的源码/资源清单变化；原源几何、颜色与CPU预览回归仍运行",
+          "Before": "ef8991c3203fd44039695d204cbecc7fcee368cd22dea4a645bb5942163d0939",
+          "Changes": "允许052明确授权的源码/资源清单变化；原源几何、颜色与CPU预览回归仍运行",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "004feb236ae6658de6ceaa294435c11d9586475c7826166311192a47c82e1161",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+      "Role": "回归契约",
+      "Code location": "tools/test_source_fire040.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "e7820726ddb5e3374b9f797526aa4f128b208599d6296e7c7891bf4f2badddec"
+      },
+      "Changes": [
+        "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "3e4b30a8f7f3026316fa8a1bbe4f0fadeca61514243c52e5ed65a154247c582f"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "Role": "回归契约",
+          "Code location": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Before": "e7820726ddb5e3374b9f797526aa4f128b208599d6296e7c7891bf4f2badddec",
+          "Changes": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "3e4b30a8f7f3026316fa8a1bbe4f0fadeca61514243c52e5ed65a154247c582f",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+      "Role": "历史回归版本与边界",
+      "Code location": "tools/test_surface050.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "9a22f203ac22172746d45cb268d01fed828f455d57d7e7313c55e25d8992cfc6"
+      },
+      "Changes": [
+        "版本门跟随052；原坐姿、伤害与反应的实际断言保持，改动仍走精确散列迁移"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "328753ccc05c19544f2bef1f005f74ac881c8984e96836c36ef65f36841da959"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+          "Role": "历史回归版本与边界",
+          "Code location": "版本门跟随052；原坐姿、伤害与反应的实际断言保持，改动仍走精确散列迁移",
+          "Before": "9a22f203ac22172746d45cb268d01fed828f455d57d7e7313c55e25d8992cfc6",
+          "Changes": "版本门跟随052；原坐姿、伤害与反应的实际断言保持，改动仍走精确散列迁移",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "328753ccc05c19544f2bef1f005f74ac881c8984e96836c36ef65f36841da959",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135931-731988\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+      "Role": "回归契约",
+      "Code location": "tools/test_vulcan_contract.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "fab65906565ad46b8f3fe06e6fdb357cf5bf9c9c5e534746c4d552695cf54c93"
+      },
+      "Changes": [
+        "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "8502b4f8714733b943797a2cd34965e73b81aaf6bfb975520a89c3cff8b4418c"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "Role": "回归契约",
+          "Code location": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Before": "fab65906565ad46b8f3fe06e6fdb357cf5bf9c9c5e534746c4d552695cf54c93",
+          "Changes": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "8502b4f8714733b943797a2cd34965e73b81aaf6bfb975520a89c3cff8b4418c",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py",
+      "Role": "游戏同步事务",
+      "Code location": "tools/update_mod.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "7f4c1cc26b917c4909e6e1516f7f24af21c2ce7ac3435ce7f20ab0192ff75335"
+      },
+      "Changes": [
+        "仅用户执行更新时清理精确退役文件，删除纳入双备份/回滚和路径白名单，保留日志及未知文件"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "b74d5f7a16ccbc3bcadecd22b78ca32710e33af080cd92dc88271b87cca21773"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py",
+          "Role": "游戏同步事务",
+          "Code location": "仅用户执行更新时清理精确退役文件，删除纳入双备份/回滚和路径白名单，保留日志及未知文件",
+          "Before": "7f4c1cc26b917c4909e6e1516f7f24af21c2ce7ac3435ce7f20ab0192ff75335",
+          "Changes": "仅用户执行更新时清理精确退役文件，删除纳入双备份/回滚和路径白名单，保留日志及未知文件",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "b74d5f7a16ccbc3bcadecd22b78ca32710e33af080cd92dc88271b87cca21773",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Role": "回归契约",
+      "Code location": "tools/verify_moves.py",
+      "Before": {
+        "state": "existing",
+        "sha256": "0dc9969298ec91227b082f846f92cf3b2b5a84232fd48210da7212ed6538dea8"
+      },
+      "Changes": [
+        "新增诊断文件用绝对Path读取，保持全部代码乱码扫描可执行",
+        "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归"
+      ],
+      "Reasons": "用户要求清理死代码/无消费者资源/错误注释并提供可配置长期诊断；逐次证据保留于steps",
+      "After": {
+        "state": "present",
+        "sha256": "98f7ef2c4d58ea33ba519255b81f5634b84de817100f3388ed874437bf935012"
+      },
+      "Impact": "IrisArsenal项目；18 hook/10招/58事件及战斗参数保持，新增诊断与精确退役事务；未编译部署",
+      "Validation": "22组回归、10份C++/H语法、Python AST、13项原同步与9项新增IO/解析；实际部署138项清单无差异；剩余128项运行文件字节保持（另3项文本修改）",
+      "Safety": {
+        "original_copies": [
+          "D:\\CodexBackups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-052-Originals-20261018-144122-872115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+        ],
+        "original_source": "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "encoding_before": "UTF-8/LF",
+        "encoding_after": "UTF-8/LF",
+        "mojibake_scan": "passed on changed text"
+      },
+      "Unresolved": "MSVC语义/链接、C++实际运行、游戏/GPU/FPS及长期实机未验证；等待用户编译Release|x64/v100",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "Role": "完整验收路径",
+          "Code location": "新增诊断文件用绝对Path读取，保持全部代码乱码扫描可执行",
+          "Before": "986935d5b94e0a6f904446006afe58c761bbf276b82c34f0f6db0cdd5af0713b",
+          "Changes": "新增诊断文件用绝对Path读取，保持全部代码乱码扫描可执行",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "98f7ef2c4d58ea33ba519255b81f5634b84de817100f3388ed874437bf935012",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-140624-391065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "Role": "回归契约",
+          "Code location": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Before": "0dc9969298ec91227b082f846f92cf3b2b5a84232fd48210da7212ed6538dea8",
+          "Changes": "20类有效特效替代21类；接入052诊断和五编译单元检查，保留原源资产/战斗回归",
+          "Reasons": "本轮用户明确要求清理无用实现、修正注释及增加可配置长期/资源性能日志",
+          "After": "986935d5b94e0a6f904446006afe58c761bbf276b82c34f0f6db0cdd5af0713b",
+          "Impact": "仅IrisArsenal项目；不编译、不部署、不启用轮询",
+          "Validation": "写后字节回读；原编码/BOM/换行保持及中文乱码扫描；行为验收另记录",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Cleanup-Audit-052-20261018-135033-986626\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "MSVC编译与实际游戏运行尚未执行"
+        }
+      ]
+    }
+  ]
+}

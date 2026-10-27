@@ -1,0 +1,1114 @@
+{
+  "version": "0.3.6",
+  "contract": "IRIS_EIGHT_036",
+  "actual_previous_run": {
+    "version": "0.3.5",
+    "log": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\logs\\IrisArsenal-20261017-040154-734-39872.log",
+    "sha256": "2e33b2bf5c8d646b117c9f294ad49e2a35a76daf8823da11db2a7efaa7718632",
+    "startup": "2026-10-17 04:01:54.780 [IrisArsenal 0.3.5] eight_config contract=IRIS_EIGHT_035 fire_roll=2 spiral=3 earthquake=4 drill=12 full_burst=3 vulcan=20 pulse=3 drive=4 public_FCS_chance=0; native_damage_and_armour=1",
+    "shutdown": "2026-10-17 04:17:18.795 [IrisArsenal 0.3.5] eight_clear reason=renderer_shutdown",
+    "native_result_totals_by_move": {
+      "7": {
+        "applied": 58,
+        "blocked": 0,
+        "missed": 0,
+        "rejected": 0
+      },
+      "6": {
+        "applied": 62,
+        "blocked": 0,
+        "missed": 0,
+        "rejected": 0
+      },
+      "5": {
+        "applied": 18,
+        "blocked": 0,
+        "missed": 0,
+        "rejected": 0
+      },
+      "4": {
+        "applied": 72,
+        "blocked": 0,
+        "missed": 0,
+        "rejected": 0
+      },
+      "1": {
+        "applied": 42,
+        "blocked": 0,
+        "missed": 0,
+        "rejected": 0
+      },
+      "0": {
+        "applied": 31,
+        "blocked": 0,
+        "missed": 0,
+        "rejected": 0
+      },
+      "2": {
+        "applied": 171,
+        "blocked": 0,
+        "missed": 0,
+        "rejected": 0
+      },
+      "3": {
+        "applied": 124,
+        "blocked": 0,
+        "missed": 0,
+        "rejected": 0
+      }
+    },
+    "counts_are_native_results_not_measured_HP": true
+  },
+  "source_video": {
+    "file": "D:/CodexWorkSpace/Sessions/20261002-235652-kenshi-crash-407794f2/Task-SourceVideo-Iris-20261015-181609-285ede/Soulworker_Iris_BV1u14y1U74k.mp4",
+    "comparison": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-Effects-036-20261017-102858\\eight-reference-036.jpg",
+    "segments_seconds": {
+      "fire_roll": [
+        199,
+        202
+      ],
+      "spiral": [
+        115,
+        118
+      ],
+      "earthquake_fire": [
+        215,
+        217
+      ],
+      "drill": [
+        237,
+        242
+      ],
+      "full_burst": [
+        107,
+        112
+      ],
+      "vulcan": [
+        92,
+        96
+      ],
+      "pulse": [
+        65,
+        69
+      ],
+      "drive": [
+        157,
+        162
+      ]
+    }
+  },
+  "confirmed_visual_defects": {
+    "opaque_GeoSphere": {
+      "source": "SW/Iris/shoutareaexplosionsmall01.nif",
+      "source_name": "GeoSphere01:0",
+      "shader_flag1": 2185331465,
+      "refraction_flag": 32768,
+      "refraction_strength": 0.6000000238418579,
+      "035_rendered_blend": "one zero",
+      "036_action": "not rendered as opaque, retained transparent source ripples/wisps",
+      "primary_spec": "https://www.niftools.org/nifxml/SkyrimShaderPropertyFlags1.html"
+    },
+    "flame_height_035": "six-layer shock LowerFlame maxima .1261344/.1317245*36 = 4.54/4.74",
+    "flame_height_036": {
+      "earthquake": 25.92,
+      "fire_roll": 17.28,
+      "horizontal_radii": {
+        "earthquake": 36,
+        "fire_roll": 24
+      },
+      "physics_shape_unchanged": true
+    },
+    "fire_roll_035": "generic static blast, 1.1s; no original four-second per-layer timeline",
+    "fire_roll_036": "independent original six-layer four-second timeline and ignition cue; only visual elevation",
+    "backfire_035": "passed absolute action t; later triggers clamped at exhausted source curve",
+    "backfire_036": "local age since latest actual source Backfire event",
+    "full_burst_charge3": "five real LE83 energy layers/1.3333s loop; independent decoration, no extra hits"
+  },
+  "configuration": {
+    "DamageUnconsciousTargets": {
+      "default": 1,
+      "restart_required": true,
+      "false_policy": "exclude native medical.isUnconcious in physical collection and final medical; prone-conscious allowed",
+      "isEnemy_always_required": true,
+      "player_neutral_allies_protected": true
+    }
+  },
+  "unavoidable_moves": [
+    "earthquake",
+    "drill",
+    "full_burst",
+    "vulcan (existing)"
+  ],
+  "native_armour_and_single_medical": true,
+  "weapon_category": {
+    "name": "SKILL_HEAVY",
+    "value": 3,
+    "animation_override": "ATTACK_NULL=21",
+    "reference": "local rebirth.mod Falling Sun and KenshiLib Enums.h",
+    "private_techniques_heavy": 8,
+    "public_chance": 0
+  },
+  "source_events_by_move": [
+    {
+      "move": "fire_roll",
+      "source_events": [
+        {
+          "time": 0.10000000149011612,
+          "text": "PIE.$IrisOffAll",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_attack1.hkx",
+          "source_time": 0.10000000149011612
+        },
+        {
+          "time": 1.1166480123996734,
+          "text": "PIE.$IrisBackJump",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977015\\combatidlea.hkx",
+          "source_time": 0.46664801239967346
+        },
+        {
+          "time": 0.7500000014901161,
+          "text": "PIE.$IrisSteam3",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977015\\combatidlea.hkx",
+          "source_time": 0.10000000149011612
+        },
+        {
+          "time": 1.1166480123996734,
+          "text": "PIE.$IrisExplosion",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977015\\combatidlea.hkx",
+          "source_time": 0.46664801239967346
+        }
+      ],
+      "payload_mappings": {
+        "$IrisBackJump": [
+          "$IrisBackJump = @CAST|0X0008DB|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0",
+          "$IrisBackJump = @CAST|0X0008F1|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisExplosion": [
+          "$IrisExplosion = @CAST|0X000824|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisOffAll": [
+          "$IrisOffAll = @UNAPPLYSPELL|0X00084B|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00085C|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00089A|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00089C|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000879|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000897|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000837|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C3|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C5|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C9|soulworker_Iris.esp"
+        ],
+        "$IrisSteam3": [
+          "$IrisSteam3 = ![0.5]@CAST|0X00086C|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ]
+      }
+    },
+    {
+      "move": "spiral",
+      "source_events": [
+        {
+          "time": 0.10000000149011612,
+          "text": "PIE.$IrisBackfire",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack3.hkx",
+          "source_time": 0.10000000149011612
+        },
+        {
+          "time": 0.5,
+          "text": "PIE.$IrisSteam3",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack3.hkx",
+          "source_time": 0.5
+        },
+        {
+          "time": 1.3499460220336914,
+          "text": "PIE.$ES_Knockdown",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack3.hkx",
+          "source_time": 1.3499460220336914
+        }
+      ],
+      "payload_mappings": {
+        "$ES_Knockdown": [],
+        "$IrisBackfire": [
+          "$IrisBackfire = @CAST|0X000862|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisSteam3": [
+          "$IrisSteam3 = ![0.5]@CAST|0X00086C|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ]
+      }
+    },
+    {
+      "move": "earthquake",
+      "source_events": [
+        {
+          "time": 1.0,
+          "text": "PIE.$IrisSteam4",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack7.hkx",
+          "source_time": 1.0
+        },
+        {
+          "time": 1.0,
+          "text": "PIE.$IrisExplosion4",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack7.hkx",
+          "source_time": 1.0
+        },
+        {
+          "time": 1.4366599959135056,
+          "text": "PIE.$IrisSteam4",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack8.hkx",
+          "source_time": 0.16665999591350555
+        },
+        {
+          "time": 1.4366599959135056,
+          "text": "PIE.$IrisExplosion4",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack8.hkx",
+          "source_time": 0.16665999591350555
+        },
+        {
+          "time": 1.9566599959135056,
+          "text": "PIE.$IrisSteam4",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack8.hkx",
+          "source_time": 0.16665999591350555
+        },
+        {
+          "time": 1.9566599959135056,
+          "text": "PIE.$IrisExplosion4",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack8.hkx",
+          "source_time": 0.16665999591350555
+        },
+        {
+          "time": 2.4766599959135056,
+          "text": "PIE.$IrisSteam4",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack8.hkx",
+          "source_time": 0.16665999591350555
+        },
+        {
+          "time": 2.4766599959135056,
+          "text": "PIE.$IrisExplosion4",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack8.hkx",
+          "source_time": 0.16665999591350555
+        }
+      ],
+      "payload_mappings": {
+        "$IrisExplosion4": [
+          "$IrisExplosion4 = @CAST|0X02FFD2|Skyrim.esm|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisSteam4": [
+          "$IrisSteam4 = @APPLYSPELL|0X000844|soulworker_Iris.esp",
+          "$IrisSteam4 = ![0.8]@UNAPPLYSPELL|0X000844|soulworker_Iris.esp"
+        ]
+      }
+    },
+    {
+      "move": "drill",
+      "source_events": [
+        {
+          "time": 0.10000000149011612,
+          "text": "PIE.$IrisOffAll",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 0.10000000149011612
+        },
+        {
+          "time": 0.10000000149011612,
+          "text": "PIE.$IrisOffAll",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 0.10000000149011612
+        },
+        {
+          "time": 0.10000000149011612,
+          "text": "PIE.$IrisULT0",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 0.10000000149011612
+        },
+        {
+          "time": 0.10000000149011612,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 0.10000000149011612
+        },
+        {
+          "time": 0.5,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 0.5
+        },
+        {
+          "time": 0.8999999761581421,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 0.8999999761581421
+        },
+        {
+          "time": 1.2999999523162842,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 1.2999999523162842
+        },
+        {
+          "time": 1.7000000476837158,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 1.7000000476837158
+        },
+        {
+          "time": 2.0999999046325684,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 2.0999999046325684
+        },
+        {
+          "time": 2.5,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 2.5
+        },
+        {
+          "time": 2.9000000953674316,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 2.9000000953674316
+        },
+        {
+          "time": 3.299999952316284,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 3.299999952316284
+        },
+        {
+          "time": 3.700000047683716,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 3.700000047683716
+        },
+        {
+          "time": 4.099999904632568,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 4.099999904632568
+        },
+        {
+          "time": 4.5,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 4.5
+        },
+        {
+          "time": 4.900000095367432,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 4.900000095367432
+        },
+        {
+          "time": 5.300000190734863,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 5.300000190734863
+        },
+        {
+          "time": 5.699999809265137,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 5.699999809265137
+        },
+        {
+          "time": 6.099999904632568,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 6.099999904632568
+        },
+        {
+          "time": 6.5,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 6.5
+        },
+        {
+          "time": 6.900000095367432,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 6.900000095367432
+        },
+        {
+          "time": 7.300000190734863,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 7.300000190734863
+        },
+        {
+          "time": 7.699999809265137,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 7.699999809265137
+        },
+        {
+          "time": 8.100000381469727,
+          "text": "PIE.$ES_EndureArmor",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 8.100000381469727
+        },
+        {
+          "time": 0.4166499972343445,
+          "text": "PIE.$IrisEXDrill",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 0.4166499972343445
+        },
+        {
+          "time": 1.6332679986953735,
+          "text": "PIE.$IrisEXDrill1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 1.6332679986953735
+        },
+        {
+          "time": 3.749850034713745,
+          "text": "PIE.$IrisEXDrill2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 3.749850034713745
+        },
+        {
+          "time": 4.2831621170043945,
+          "text": "PIE.$IrisEXDrillSHOOT",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 4.2831621170043945
+        },
+        {
+          "time": 5.666440010070801,
+          "text": "PIE.$IrisEXDrillOFF",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 5.666440010070801
+        },
+        {
+          "time": 1.8332680463790894,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 1.8332680463790894
+        },
+        {
+          "time": 2.8332679271698,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 2.8332679271698
+        },
+        {
+          "time": 3.8332679271698,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 3.8332679271698
+        },
+        {
+          "time": 4.333268165588379,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 4.333268165588379
+        },
+        {
+          "time": 1.5499459505081177,
+          "text": "PIE.$IrisSteam3",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 1.5499459505081177
+        },
+        {
+          "time": 3.6499459743499756,
+          "text": "PIE.$IrisSteam3",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 3.6499459743499756
+        },
+        {
+          "time": 5.749946117401123,
+          "text": "PIE.$IrisSteam3",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 5.749946117401123
+        },
+        {
+          "time": 2.2631618976593018,
+          "text": "PIE.$IrisBackfire",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 2.2631618976593018
+        },
+        {
+          "time": 3.2631618976593018,
+          "text": "PIE.$IrisBackfire",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 3.2631618976593018
+        },
+        {
+          "time": 4.2831621170043945,
+          "text": "PIE.$IrisBackfire",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+          "source_time": 4.2831621170043945
+        }
+      ],
+      "payload_mappings": {
+        "$ES_EndureArmor": [],
+        "$HitFog": [],
+        "$IrisBackfire": [
+          "$IrisBackfire = @CAST|0X000862|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisEXDrill": [
+          "$IrisEXDrill = @APPLYSPELL|0X0008C3|soulworker_Iris.esp",
+          "$IrisEXDrill = ![2]@UNAPPLYSPELL|0X0008C3|soulworker_Iris.esp"
+        ],
+        "$IrisEXDrill1": [
+          "$IrisEXDrill1 = @UNAPPLYSPELL|0X0008C3|soulworker_Iris.esp",
+          "$IrisEXDrill1 = @APPLYSPELL|0X0008C5|soulworker_Iris.esp",
+          "$IrisEXDrill1 = ![4]@UNAPPLYSPELL|0X0008C5|soulworker_Iris.esp"
+        ],
+        "$IrisEXDrill2": [
+          "$IrisEXDrill2 = @UNAPPLYSPELL|0X0008C5|soulworker_Iris.esp",
+          "$IrisEXDrill2 = ![0.02]@APPLYSPELL|0X0008C9|soulworker_Iris.esp",
+          "$IrisEXDrill2 = ![3]@UNAPPLYSPELL|0X0008C9|soulworker_Iris.esp"
+        ],
+        "$IrisEXDrillOFF": [
+          "$IrisEXDrillOFF = @UNAPPLYSPELL|0X0008C3|soulworker_Iris.esp",
+          "$IrisEXDrillOFF = @UNAPPLYSPELL|0X0008C5|soulworker_Iris.esp",
+          "$IrisEXDrillOFF = @UNAPPLYSPELL|0X0008C9|soulworker_Iris.esp"
+        ],
+        "$IrisEXDrillSHOOT": [
+          "$IrisEXDrillSHOOT = @CAST|0X0008D5|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0",
+          "$IrisEXDrillSHOOT = @CAST|0X0008D4|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0",
+          "$IrisEXDrillSHOOT = @CAST|0X000826|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0",
+          "$IrisEXDrillSHOOT = @CAST|0x3F9ED|Skyrim.esm|1|1|0|0|0|0|0|0|0",
+          "$IrisEXDrillSHOOT = @CAST|0X0008AE|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisOffAll": [
+          "$IrisOffAll = @UNAPPLYSPELL|0X00084B|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00085C|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00089A|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00089C|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000879|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000897|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000837|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C3|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C5|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C9|soulworker_Iris.esp"
+        ],
+        "$IrisSteam3": [
+          "$IrisSteam3 = ![0.5]@CAST|0X00086C|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisULT0": [
+          "$IrisULT0 = @UNAPPLYSPELL|0X0008E5|soulworker_Iris.esp"
+        ]
+      }
+    },
+    {
+      "move": "full_burst",
+      "source_events": [
+        {
+          "time": 0.033333333830038704,
+          "text": "PIE.$IrisOffAll",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 0.10000000149011612
+        },
+        {
+          "time": 0.13333333532015482,
+          "text": "PIE.$IrisCharge",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 0.4000000059604645
+        },
+        {
+          "time": 0.3722073237101237,
+          "text": "PIE.$IrisCharge1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 1.116621971130371
+        },
+        {
+          "time": 0.6444186766942342,
+          "text": "PIE.$IrisCharge2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 1.9332560300827026
+        },
+        {
+          "time": 0.8888519605000814,
+          "text": "PIE.$IrisCharge3",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 2.666555881500244
+        },
+        {
+          "time": 0.3833179871241252,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 1.1499539613723755
+        },
+        {
+          "time": 0.6555293401082357,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 1.966588020324707
+        },
+        {
+          "time": 0.3166666626930237,
+          "text": "PIE.$IrisBackfire",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 0.949999988079071
+        },
+        {
+          "time": 0.6833333174387614,
+          "text": "PIE.$IrisBackfire",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 2.049999952316284
+        },
+        {
+          "time": 1.3388354342397055,
+          "text": "PIE.$IrisCharge2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 3.116542100906372
+        },
+        {
+          "time": 1.0055152934010825,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 2.783221960067749
+        },
+        {
+          "time": 2.7887773077901206,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 4.566483974456787
+        },
+        {
+          "time": 2.7887773077901206,
+          "text": "PIE.$FullBust_End",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 4.566483974456787
+        },
+        {
+          "time": 2.7887773077901206,
+          "text": "PIE.$ES_HeavyParalysis",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 4.566483974456787
+        },
+        {
+          "time": 2.7887773077901206,
+          "text": "PIE.$IrisSteam3",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_powerattack1.hkx",
+          "source_time": 4.566483974456787
+        }
+      ],
+      "payload_mappings": {
+        "$ES_HeavyParalysis": [],
+        "$FullBust_End": [
+          "$FullBust_End = @CAST|0X000824|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0",
+          "$FullBust_End = @CAST|0X000826|soulworker_Iris.esp|5|1|0|0|0|0|0|0|0",
+          "$FullBust_End = @CAST|0x3F9ED|Skyrim.esm|1|1|0|0|0|0|0|0|0",
+          "$FullBust_End = @UNAPPLYSPELL|0X000897|soulworker_Iris.esp"
+        ],
+        "$HitFog": [],
+        "$IrisBackfire": [
+          "$IrisBackfire = @CAST|0X000862|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisCharge": [
+          "$IrisCharge = @CAST|0X000888|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisCharge1": [
+          "$IrisCharge1 = @CAST|0X00088A|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisCharge2": [
+          "$IrisCharge2 = @CAST|0X00088C|soulworker_Iris.esp|25|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisCharge3": [
+          "$IrisCharge3 = @APPLYSPELL|0X000897|soulworker_Iris.esp",
+          "$IrisCharge3 = ![3]@UNAPPLYSPELL|0X000897|soulworker_Iris.esp"
+        ],
+        "$IrisOffAll": [
+          "$IrisOffAll = @UNAPPLYSPELL|0X00084B|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00085C|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00089A|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00089C|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000879|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000897|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000837|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C3|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C5|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C9|soulworker_Iris.esp"
+        ],
+        "$IrisSteam3": [
+          "$IrisSteam3 = ![0.5]@CAST|0X00086C|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ]
+      }
+    },
+    {
+      "move": "vulcan",
+      "source_events": [
+        {
+          "time": 0.5,
+          "text": "PIE.$IrisSteam2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 0.5
+        },
+        {
+          "time": 2.049999952316284,
+          "text": "PIE.$IrisSteam2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 2.049999952316284
+        },
+        {
+          "time": 0.6666399836540222,
+          "text": "PIE.$IrisAnim",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 0.6666399836540222
+        },
+        {
+          "time": 0.8666319847106934,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 0.8666319847106934
+        },
+        {
+          "time": 0.9332960247993469,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 0.9332960247993469
+        },
+        {
+          "time": 1.0,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.0
+        },
+        {
+          "time": 1.0,
+          "text": "PIE.$IrisShoot1_2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.0
+        },
+        {
+          "time": 1.0,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.0
+        },
+        {
+          "time": 1.0666240453720093,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.0666240453720093
+        },
+        {
+          "time": 1.133288025856018,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.133288025856018
+        },
+        {
+          "time": 1.133288025856018,
+          "text": "PIE.$IrisShoot1_2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.133288025856018
+        },
+        {
+          "time": 1.1999520063400269,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.1999520063400269
+        },
+        {
+          "time": 1.2666159868240356,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.2666159868240356
+        },
+        {
+          "time": 1.2666159868240356,
+          "text": "PIE.$IrisShoot1_1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.2666159868240356
+        },
+        {
+          "time": 1.3332799673080444,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.3332799673080444
+        },
+        {
+          "time": 1.3999439477920532,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.3999439477920532
+        },
+        {
+          "time": 1.3999439477920532,
+          "text": "PIE.$IrisShoot1_1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.3999439477920532
+        },
+        {
+          "time": 1.4666080474853516,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.4666080474853516
+        },
+        {
+          "time": 1.5332720279693604,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.5332720279693604
+        },
+        {
+          "time": 1.5332720279693604,
+          "text": "PIE.$IrisShoot1_2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.5332720279693604
+        },
+        {
+          "time": 1.5999360084533691,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.5999360084533691
+        },
+        {
+          "time": 1.666599988937378,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.666599988937378
+        },
+        {
+          "time": 1.666599988937378,
+          "text": "PIE.$IrisShoot1_2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.666599988937378
+        },
+        {
+          "time": 1.7332639694213867,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.7332639694213867
+        },
+        {
+          "time": 1.7999279499053955,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.7999279499053955
+        },
+        {
+          "time": 1.7999279499053955,
+          "text": "PIE.$IrisShoot1_1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.7999279499053955
+        },
+        {
+          "time": 1.8665920495986938,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.8665920495986938
+        },
+        {
+          "time": 1.9332560300827026,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.9332560300827026
+        },
+        {
+          "time": 1.9332560300827026,
+          "text": "PIE.$IrisShoot1_1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 1.9332560300827026
+        },
+        {
+          "time": 2.0,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 2.0
+        },
+        {
+          "time": 2.0665841102600098,
+          "text": "PIE.$IrisShoot1",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 2.0665841102600098
+        },
+        {
+          "time": 2.0999999046325684,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack2.hkx",
+          "source_time": 2.0999999046325684
+        }
+      ],
+      "payload_mappings": {
+        "$HitFog": [],
+        "$IrisAnim": [
+          "$IrisAnim = @APPLYSPELL|0X00084B|soulworker_Iris.esp",
+          "$IrisAnim = ![2.4]@UNAPPLYSPELL|0X00084B|soulworker_Iris.esp",
+          "$IrisAnim = @APPLYSPELL|0X00085C|soulworker_Iris.esp",
+          "$IrisAnim = ![2.2]@UNAPPLYSPELL|0X00085C|soulworker_Iris.esp"
+        ],
+        "$IrisShoot1": [
+          "$IrisShoot1 = @CAST|0X000847|soulworker_Iris.esp|1|1|0|0|0|0|2|0|5"
+        ],
+        "$IrisShoot1_1": [
+          "$IrisShoot1_1 = @CASTLEFT|0X00085F|soulworker_Iris.esp|1|1|0|0|0|0|2|0|5"
+        ],
+        "$IrisShoot1_2": [
+          "$IrisShoot1_2 = @CASTRIGHT|0X00085F|soulworker_Iris.esp|1|1|0|0|0|0|2|0|5"
+        ],
+        "$IrisSteam2": [
+          "$IrisSteam2 = @APPLYSPELL|0X000844|soulworker_Iris.esp",
+          "$IrisSteam2 = ![1.5]@UNAPPLYSPELL|0X000844|soulworker_Iris.esp"
+        ]
+      }
+    },
+    {
+      "move": "pulse",
+      "source_events": [
+        {
+          "time": 0.10000000149011612,
+          "text": "PIE.$IrisOffAll",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_attack1.hkx",
+          "source_time": 0.10000000149011612
+        },
+        {
+          "time": 0.6666399836540222,
+          "text": "PIE.$IrisPlasmaShoot",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977006\\mco_attack1.hkx",
+          "source_time": 0.6666399836540222
+        },
+        {
+          "time": 1.1333299979567528,
+          "text": "PIE.$IrisPlasmaShoot",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_attack8.hkx",
+          "source_time": 0.08332999795675278
+        },
+        {
+          "time": 2.033329997956753,
+          "text": "PIE.$IrisPlasmaShoot",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack9.hkx",
+          "source_time": 0.08332999795675278
+        },
+        {
+          "time": 2.95,
+          "text": "PIE.$IrisSteam4",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack9.hkx",
+          "source_time": 1.0
+        }
+      ],
+      "payload_mappings": {
+        "$IrisOffAll": [
+          "$IrisOffAll = @UNAPPLYSPELL|0X00084B|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00085C|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00089A|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X00089C|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000879|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000897|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X000837|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C3|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C5|soulworker_Iris.esp",
+          "$IrisOffAll = @UNAPPLYSPELL|0X0008C9|soulworker_Iris.esp"
+        ],
+        "$IrisPlasmaShoot": [
+          "$IrisPlasmaShoot = @CAST|0X0008D0|soulworker_Iris.esp|1|1|0|0|0|0|20|0|20",
+          "$IrisPlasmaShoot = @CAST|0X000824|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisSteam4": [
+          "$IrisSteam4 = @APPLYSPELL|0X000844|soulworker_Iris.esp",
+          "$IrisSteam4 = ![0.8]@UNAPPLYSPELL|0X000844|soulworker_Iris.esp"
+        ]
+      }
+    },
+    {
+      "move": "drive",
+      "source_events": [
+        {
+          "time": 0.3333199918270111,
+          "text": "PIE.$IrisBackfire",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 0.3333199918270111
+        },
+        {
+          "time": 0.3833180069923401,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 0.3833180069923401
+        },
+        {
+          "time": 0.3833180069923401,
+          "text": "PIE.$ES_HeavyStrikefly",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 0.3833180069923401
+        },
+        {
+          "time": 0.3833180069923401,
+          "text": "PIE.$IrisSteam2",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 0.3833180069923401
+        },
+        {
+          "time": 2.0,
+          "text": "PIE.$IrisSteam3",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 2.0
+        },
+        {
+          "time": 2.0,
+          "text": "PIE.$IrisBackfire",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 2.0
+        },
+        {
+          "time": 1.7999999523162842,
+          "text": "PIE.$IrisBeam",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 1.7999999523162842
+        },
+        {
+          "time": 1.7999999523162842,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 1.7999999523162842
+        },
+        {
+          "time": 2.049999952316284,
+          "text": "PIE.$IrisBeam",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 2.049999952316284
+        },
+        {
+          "time": 2.049999952316284,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 2.049999952316284
+        },
+        {
+          "time": 2.299999952316284,
+          "text": "PIE.$IrisBeam",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 2.299999952316284
+        },
+        {
+          "time": 2.299999952316284,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 2.299999952316284
+        },
+        {
+          "time": 2.5999999046325684,
+          "text": "PIE.$IrisBeam",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 2.5999999046325684
+        },
+        {
+          "time": 2.5999999046325684,
+          "text": "PIE.$HitFog",
+          "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+          "source_time": 2.5999999046325684
+        }
+      ],
+      "payload_mappings": {
+        "$ES_HeavyStrikefly": [],
+        "$HitFog": [],
+        "$IrisBackfire": [
+          "$IrisBackfire = @CAST|0X000862|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisBeam": [
+          "$IrisBeam = @CAST|0X000886|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0",
+          "$IrisBeam = @CAST|0X000824|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0",
+          "$IrisBeam = @CAST|0X000826|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ],
+        "$IrisSteam2": [
+          "$IrisSteam2 = @APPLYSPELL|0X000844|soulworker_Iris.esp",
+          "$IrisSteam2 = ![1.5]@UNAPPLYSPELL|0X000844|soulworker_Iris.esp"
+        ],
+        "$IrisSteam3": [
+          "$IrisSteam3 = ![0.5]@CAST|0X00086C|soulworker_Iris.esp|1|1|0|0|0|0|0|0|0"
+        ]
+      }
+    }
+  ],
+  "compiled": false,
+  "GPU_shader_compiled": false,
+  "deployed": false,
+  "game_tested": false
+}

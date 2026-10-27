@@ -1,0 +1,1970 @@
+{
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Drive059-20261019-195324-61c8e2",
+  "code_contract": "IRIS_DRIVE_REBUILD_059",
+  "per_file": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "059身份标识",
+      "Code location": "版本/启动日志",
+      "Before": {
+        "sha256": "a1610a2e1d1dabd7e495738ccabc77b40a48382ad252cc8a2a3fafda61d5bbb7",
+        "first_report": "a1610a2e1d1dabd7e495738ccabc77b40a48382ad252cc8a2a3fafda61d5bbb7"
+      },
+      "Changes": [
+        "如实标识059源版本；原DLL不修改不伪造"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "878ad5cbf20c049678ae90da0495715d5904d929631bc0183d6231a348e8206f"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "encoding": "UTF-8",
+        "ending": "CRLF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Role": "059身份标识",
+      "Code location": "版本/启动日志",
+      "Before": {
+        "sha256": "ab2eefbdf676c95583a5f76db66b1adf37ea5153814e92572fd2293e4fa9a3b5",
+        "first_report": "ab2eefbdf676c95583a5f76db66b1adf37ea5153814e92572fd2293e4fa9a3b5"
+      },
+      "Changes": [
+        "如实标识059源版本；原DLL不修改不伪造"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "e2c7f6d870baa4762642d9f2c1fc80b5b8355b5984a8e8bce4b46b17d78b2fd7"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "完整源曲线入口",
+      "Code location": "LoadAssets曲线头",
+      "Before": {
+        "sha256": "18a8f45a627d1f260a6ebd1790712a722c8c497bf5a3b8faadc9899e96cbbe8d",
+        "first_report": "18a8f45a627d1f260a6ebd1790712a722c8c497bf5a3b8faadc9899e96cbbe8d"
+      },
+      "Changes": [
+        "炮口同轴R9/四脉冲；只换驱动原附件曲线；不改其余九招或安全医疗链",
+        "复用已声明Finite向量重载，拒绝非有限武器矩阵轴",
+        "更正红发光形体并非炮身的资源身份",
+        "增加ion后严格接收14类，避免新包加载失败"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "97e67bc561b227b6c4478deafe212d718e903d75dcb9fce915fe3042cd2dad22"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "ending": "CRLF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+      "Role": "059身份标识",
+      "Code location": "版本/启动日志",
+      "Before": {
+        "sha256": "682312eaa68b91f0c922671b71bbbe65f7ac747487cb5817c8b87bea21d036c4",
+        "first_report": "682312eaa68b91f0c922671b71bbbe65f7ac747487cb5817c8b87bea21d036c4"
+      },
+      "Changes": [
+        "如实标识059源版本；原DLL不修改不伪造"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "49e5f11f386f13eee6612bc280d4c891f13dfde94beb06770ba222bd14628e49"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+        ],
+        "encoding": "UTF-8",
+        "ending": "CRLF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+      "Role": "项目当前状态",
+      "Code location": "059当前版本前置/历史保留",
+      "Before": {
+        "sha256": "4deb01ed8c4cff446060e9a724d053eee2224b365af520e7408835f165a2a12b",
+        "first_report": "4deb01ed8c4cff446060e9a724d053eee2224b365af520e7408835f165a2a12b"
+      },
+      "Changes": [
+        "标明新源版本与旧DLL区别，不覆盖历史结论"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "013b4bf38b04b9b3c6621826e6f00a5a2c27dc850b1d82fc9b8b5e9f0dcd91c2"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "Role": "项目当前状态",
+      "Code location": "059当前版本前置/历史保留",
+      "Before": {
+        "sha256": "167ab1ba2ca9d5c6ab22e3e21415f944157de89bc69f00bfd793d29b36b187db",
+        "first_report": "167ab1ba2ca9d5c6ab22e3e21415f944157de89bc69f00bfd793d29b36b187db"
+      },
+      "Changes": [
+        "标明新源版本与旧DLL区别，不覆盖历史结论"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "d1b285d2623cb8f1eed5f0a0ce2445bbc26751706ef5c4cb9c507dbc047f5116"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-059.json",
+      "Role": "059精确摘要链",
+      "Code location": "root/package/函数/FCS记录",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "只允许任务实际before→after；未授权变化拒绝"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "1d91cbeac273548c461fd6499ef2e027fc2842b925a0e551444cb7e5d2ade048"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-059.json",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-059.json"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-assets.json",
+      "Role": "059源资源证据",
+      "Code location": "离线源作者",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "实际炮体/准星骨权、蓝光源链/时序、CC0外部光流及校准坐标"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "ede3e60b23027d4d2fcf9101eb02a20a160167e3f94a557b503ce75a9dbf3dcd"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-assets.json",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-assets.json"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-preserved.json",
+      "Role": "059不变范围基线",
+      "Code location": "运行文件/安全函数/其他九招",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "按修改前备份形成独立保护断言，失败不能跳过"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "b73dfe0de6d85f5adf1615586a43e10f379184d67735cabec92e537f4a011490"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-rebuild.md",
+      "Role": "059说明/预览",
+      "Code location": "实际模型图与光流动画",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "如实记录已验证与未编译/未部署范围，给出真实源与恢复方法",
+        "附上已经查看的最终预览，明确CPU/近场裁图的证据界限"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "d0bbc586ee823f6a46f29b14428b737d448dd7fd5a3c3e7197c550aeaf6cbcf4"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-rebuild.md",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-rebuild.md"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-spec-change.json",
+      "Role": "059规格差异证据",
+      "Code location": "drive唯一条目",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "旧058源规格与059新规格完整保存，其他九招严格相等"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "7ac7657490197de9f9ef3f10b5b672032db07abdcbfa1375ad4952fe2dbaf4be"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-spec-change.json",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drive059-spec-change.json"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+      "Role": "驱动来源与适配证据",
+      "Code location": "离线源作者",
+      "Before": {
+        "sha256": "f61fd13121f0577ee054a8869ed20ed3062943d68b8b8a593f0d03c345aa794c",
+        "first_report": "f61fd13121f0577ee054a8869ed20ed3062943d68b8b8a593f0d03c345aa794c"
+      },
+      "Changes": [
+        "更新驱动两种资产和来源/限制，不改其他招式的源记录",
+        "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+        "源解析临时别名不登记为实际运行材质"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "0ce50d3cdafea49b5f54cbe0ecad6bf1709867fef062fccf4f12c4f09cff35eb"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+      "Role": "十招规格",
+      "Code location": "仅drive审计",
+      "Before": {
+        "sha256": "8a856ede39b97ea708f6708ff212366992787a65c24c687e122963578f22ae5f",
+        "first_report": "8a856ede39b97ea708f6708ff212366992787a65c24c687e122963578f22ae5f"
+      },
+      "Changes": [
+        "源HKX时间统一映射；火神20发、脉冲3发、地震4震、钻头11脉冲加炮弹",
+        "真实持械审计随059校准方向；其他九招不变"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "0c050a99ded1a3b10eb217f867abbe87fbe181002d86797b09e8a3d0befdbb84"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews059\\evidence.json",
+      "Role": "CPU预览可追溯证据",
+      "Code location": "实际输入摘要/逐层像素贡献",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "保存实际模型/材质采样证据，不把CPU图冒充GPU结果"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "dd51d7a4baab2a209a6d660efc7fb307dac5013e1ed2caecb2b35a898330faa1"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews059\\pose.jpg",
+      "Role": "实际059资源CPU预览",
+      "Code location": "源骨架/纹理/网格/时钟光栅化",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "已查看并修正握点/红蓝材质/展开连续性；不是游戏截图"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "b3cdf691076820874b39e409ebdf826e3fef73af168594741f822728e90d82d5"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews059\\reticle-muzzle.jpg",
+      "Role": "实际059资源CPU预览",
+      "Code location": "源骨架/纹理/网格/时钟光栅化",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "已查看并修正握点/红蓝材质/展开连续性；不是游戏截图"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "819aebd52acb4166e6670aab68cfe5caaa1d3a04d411739b14be1f0d8ba2ef32"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews059\\stream.gif",
+      "Role": "实际059资源CPU预览",
+      "Code location": "源骨架/纹理/网格/时钟光栅化",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "已查看并修正握点/红蓝材质/展开连续性；不是游戏截图"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "f22ea3814fca3eb96901623fd72789c9b19872e1e2f89d42ab4589f3edb92580"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews059\\stream.jpg",
+      "Role": "实际059资源CPU预览",
+      "Code location": "源骨架/纹理/网格/时钟光栅化",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "已查看并修正握点/红蓝材质/展开连续性；不是游戏截图"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "83d49faf3488baeb11acad57fce0de0f154ce131adc385005af3b214b83cd7e9"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\CREDITS-drive059.txt",
+      "Role": "随包素材来源",
+      "Code location": "光流两张纹理",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "清楚区分外部授权光流与源模组其余动作/模型/特效"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "0bd6c5fface246ce0c50b0b8bd244cd5282e4e9c0815343394ddb53bce495994"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+      "Role": "八招隔离FCS记录",
+      "Code location": "原作者明确输出区域",
+      "Before": {
+        "sha256": "1809cc59226eb3c1e89a3aeb6b35cfa708319968e1b4c7db711216bece0e66d4",
+        "first_report": "1809cc59226eb3c1e89a3aeb6b35cfa708319968e1b4c7db711216bece0e66d4"
+      },
+      "Changes": [
+        "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "f93f50c016ae26f2ce7959c498d8091921ca97a80bd547263efbd9a7b3c3c372"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+        ],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "059交付状态",
+      "Code location": "版本/文件SHA/ready",
+      "Before": {
+        "sha256": "f909afe2c06ef0192511384e15530fecab9e22f94e9594a0e9f73fbdf91d215c",
+        "first_report": "f909afe2c06ef0192511384e15530fecab9e22f94e9594a0e9f73fbdf91d215c"
+      },
+      "Changes": [
+        "标记源码资源059、旧DLL仍057；不允许将未编译包冒充部署完成"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "9bd90e0fa1e086fe55a014851c46a06cca81e2b06544a6a6180b8121770ef0e0"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_cues.csv",
+      "Role": "源视觉触发时间流",
+      "Code location": "原作者明确输出区域",
+      "Before": {
+        "sha256": "1ae9b2ac50bd2fc68f8bc71d01f4d95b69d5eb85fb12fcd6dedb9c552398e072",
+        "first_report": "1ae9b2ac50bd2fc68f8bc71d01f4d95b69d5eb85fb12fcd6dedb9c552398e072"
+      },
+      "Changes": [
+        "源尾焰/枪体/清理/点火/charge3提示独立时钟，不新增伤害"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "c6d3ad7c5407d17060f3a75acaf1657ad809be1fd67e3f1404337178a7da8031"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_cues.csv",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_cues.csv"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+      "Role": "驱动完整层时钟",
+      "Code location": "离线源作者",
+      "Before": {
+        "sha256": "2ec6047eb0d7bf3b006f30a86e86d8a41ee7ab28393dbd8996be6476b2324949",
+        "first_report": "2ec6047eb0d7bf3b006f30a86e86d8a41ee7ab28393dbd8996be6476b2324949"
+      },
+      "Changes": [
+        "其他效果原曲线逐行保持；驱动附件使用PA10局部时钟、蓝火分期和四脉冲连续光流",
+        "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "c97c158f35248b7ed2d7bf6b7993fa2c46a25573513a0f20638355a0afb8f8ab"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+      "Role": "运行时子网格合同",
+      "Code location": "离线源作者",
+      "Before": {
+        "sha256": "59d4070ceeac7ddc4773784ab12748678124fe738ff7139dab98f73e076de10b",
+        "first_report": "59d4070ceeac7ddc4773784ab12748678124fe738ff7139dab98f73e076de10b"
+      },
+      "Changes": [
+        "只更新驱动beam/ion两项；数目与原网格完全匹配",
+        "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "eab6e0fb03d7a612e202b1d04fadebf50bed0626495beafd8b206698c0bdc4a1"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "驱动离线动画",
+      "Before": {
+        "sha256": "a2b310a5ade3d513f042523f6f94d19340b3525f18b7eb7718b952232a700253",
+        "first_report": "a2b310a5ade3d513f042523f6f94d19340b3525f18b7eb7718b952232a700253"
+      },
+      "Changes": [
+        "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "5889d72dfccf890b4024093aef66dcc7be88ca9e97d0b7367edadced08afa585"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton"
+        ],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "驱动离线动画",
+      "Before": {
+        "sha256": "573b9c955ab9bd8cd030550986f048c033ccc46d7dd9fc5fce144f992fa8f0f6",
+        "first_report": "573b9c955ab9bd8cd030550986f048c033ccc46d7dd9fc5fce144f992fa8f0f6"
+      },
+      "Changes": [
+        "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "52ee62f281b20014c724d20dc3153626f3fc38bd09f420a61ec025254200d7df"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton"
+        ],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive059.hlsl",
+      "Role": "极致驱动专用Shader源码",
+      "Code location": "离线源作者",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "CC0双纹理/三同轴层流动；原炮体和红蓝纹理专用读取，不编译"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "04429592498fe7a01d0e7695bfbdd4b24f961c873d399eb93836e5b206e2b296"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive059.hlsl",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive059.hlsl"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive059.material",
+      "Role": "极致驱动专用材质",
+      "Code location": "离线源作者",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "与其他九招隔离；游戏时钟流动，原源贴图和CC0许可保留"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "06aa00053c3e378c9871436aa6bc2d08949c992e248f3680f0d626b3ac0cb9a2"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive059.material",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive059.material"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive059.program",
+      "Role": "极致驱动专用GPU声明",
+      "Code location": "原作者明确输出区域",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "vs_4_0/ps_4_0与现Ogre资源加载一致；参数由自有实例传递"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "bf3d9bb695d663aac1007ea7a8f77bbcd3e5e4f75cfce309a26c0d8552faab05"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive059_flow.png",
+      "Role": "CC0原始光流纹理",
+      "Code location": "原作者明确输出区域",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "原PNG字节，不重新绘制或放大像素"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "5a8876238dc6461b0fd56c69c1359bde2609fb9db3d3cfedcdd73769de937f9b"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive059_laser.png",
+      "Role": "CC0原始光流纹理",
+      "Code location": "原作者明确输出区域",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "原PNG字节，不重新绘制或放大像素"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "ab5684f0513ec19ad54616923072e19bc0117d2a6b028d592127eebc0f0e3435"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "驱动离线动画",
+      "Before": {
+        "sha256": "5e79c57092f21542075c75e8e9df8e6f795f07180da2c53ae645c1fe342cb713",
+        "first_report": "5e79c57092f21542075c75e8e9df8e6f795f07180da2c53ae645c1fe342cb713"
+      },
+      "Changes": [
+        "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "116f74e97b3796c8af3f381f98642439178514be0c72fbcc34ceeb16e4a9268c"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "驱动离线动画",
+      "Before": {
+        "sha256": "7e4d9c2d802c7467422ac780e8c0cdec59f50d9ed58e3d3d9b61a9f395f97fb2",
+        "first_report": "7e4d9c2d802c7467422ac780e8c0cdec59f50d9ed58e3d3d9b61a9f395f97fb2"
+      },
+      "Changes": [
+        "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "9a7d4b9ed8f74ed930afe82834546272576d02956e104255912162185fa8aea4"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_442b2c210d1bd1f6.png",
+      "Role": "实际源贴图",
+      "Code location": "原作者明确输出区域",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "只补真实源蓝光/炮体贴图；已存在同字节文件保持"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "424c7d3d2f4da28c258a8f5d7cc4ad575aff3d6c46d2df798de8f2e2fd42de72"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_6578a103791be8bb.png",
+      "Role": "实际源贴图",
+      "Code location": "原作者明确输出区域",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "只补真实源蓝光/炮体贴图；已存在同字节文件保持"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "661ef06cc810bbc45e97c46d5d44e4c9ba132948aebd89304e0647f3d1b94803"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+      "Role": "极致驱动三维光柱",
+      "Code location": "离线源作者",
+      "Before": {
+        "sha256": "26fcaeffbfefd5163775126907e59e38223924b71f17cd4c2b3440617e5071f0",
+        "first_report": "26fcaeffbfefd5163775126907e59e38223924b71f17cd4c2b3440617e5071f0"
+      },
+      "Changes": [
+        "3份共轴闭合圆柱，单位半径1/长度1，运行时严格缩放R9和原墙前长度",
+        "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "2c683645d9e884727b807410b67a5b4289aed74be1916b5cfb7f27600a437561"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh"
+        ],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_ion.mesh",
+      "Role": "极致驱动源附件/准星/枪口阶段",
+      "Code location": "离线源作者",
+      "Before": {
+        "sha256": "c3603d73812c7cb9c5a847e307d720f43d79281a7a1ad9cbfba97b5f9c98a6a3",
+        "first_report": "c3603d73812c7cb9c5a847e307d720f43d79281a7a1ad9cbfba97b5f9c98a6a3"
+      },
+      "Changes": [
+        "EXanim1九片炮体/原红蓝两组、真实ShoutSmall蓝粒子与原FireWave八层；独立于其他九招",
+        "三维螺旋光丝、蓝白光谱、仅装饰；不冒称完整原NiPSys",
+        "EXanim1九组原红准星/原蓝两组、真实ShoutSmall蓝粒子与原FireWave八层；独立于其他九招"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "e4cace454c59f35e11f60920fdeed4caaf2921dfb8e4f5f2edb85c3b4b6f29f0"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_ion.mesh",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_ion.mesh"
+        ],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+      "Role": "八招运行时事件流",
+      "Code location": "原作者明确输出区域",
+      "Before": {
+        "sha256": "a8f2cc73ab27674c9eba0938eb2c6dbe7d4d971c9589540d5cbe71db240c4b63",
+        "first_report": "a8f2cc73ab27674c9eba0938eb2c6dbe7d4d971c9589540d5cbe71db240c4b63"
+      },
+      "Changes": [
+        "编号/帧长/事件类型/倍率/半径；与身体FCS时间共同消费，严格8招和事件数"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "0ee93dac1c5ee413b2976860d15d47e328ab139e768e2300cfa1b6c7a5f85320"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+      "Role": "完整重建入口",
+      "Code location": "main末尾",
+      "Before": {
+        "sha256": "56414442135771f492e45074a2fb677e969b31d9c82f42b5e7c41907c4400e53",
+        "first_report": "56414442135771f492e45074a2fb677e969b31d9c82f42b5e7c41907c4400e53"
+      },
+      "Changes": [
+        "接入隔离驱动后处理，防止UpdateMod恢复旧坐锤/旧细光流；不改变前面九招生成逻辑"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "7a1a4a4113df505af23eafd6e4e1fddad9866a679f2eadbe34af1a6eae4e397b"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "Role": "持械审计",
+      "Code location": "export_body/proof",
+      "Before": {
+        "sha256": "1c0624cf483b9052c05e0ecb78a1462b66babbb5f68c3c22d0f7da17a2c07b80",
+        "first_report": "1c0624cf483b9052c05e0ecb78a1462b66babbb5f68c3c22d0f7da17a2c07b80"
+      },
+      "Changes": [
+        "极致驱动换真实PA10，去除误用坐锤/1.5倍抬枪；源激发点起四脉冲R9，长度及其他九招规格保持；左右握点重新校验",
+        "真实Prop2校准朝向写入期望CSV，左手误差使用实际支撑点"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "9214c0fe7b8f0fb42c312af2a3f2016e3965ce523477ec59fe89adb5ddaa942f"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drive_effects059.py",
+      "Role": "真实源准星混合",
+      "Code location": "mount源材质",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "重建驱动两个专用资产；原source/CC0来源、蓝火时序与9单位半径配套，其他九招原曲线和共享材质保持",
+        "绑定真实IrisEightFP custom1/2/3/4/8及uvBase；仅累计逐帧AABB极值降低离线内存；后处理元数据不污染下轮",
+        "准星旋转冻结连续；蓝火时序/静态文档包围与实际顶点核对",
+        "原FireWave粒子按新尺度/时钟同步加速度；不改共享材质",
+        "修正003红形体身份并和004一同旋转/展开；使用PA10同帧实际FireWave的八层，蓝22/火18适配",
+        "只登记真实被资产引用的专用材质，不把解析临时源名当成运行资源",
+        "实际逐层曲线与粒子寿命极值决定AABB，避免大蓝火在边缘被裁掉",
+        "源NiAlpha为空的发光形体走深度写入/覆盖混合；源发光色与强度进入专用Shader，避免多面加色变粉白"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "ff3e79224c25764f4e4cf870750e1160af2136a0df87fb10438325931d78c96d"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drive_effects059.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drive_effects059.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drive_shader059.py",
+      "Role": "源准星发光着色",
+      "Code location": "mount_fp",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "真实源纹理显示与CC0三维圆柱光流，原始GPU源码供游戏加载，不编译",
+        "原炮体增加基于实际视向的微量高光，保留world/camera参数有效性，避免材质绑定已优化掉的常量",
+        "采用实际BSLighting原发光RGB/强度，保留有效世界/法线/相机参数"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "5fa73996317150f6b6450902d7fbecfc736ae6f3e3e8abbbc2e81b3edfde407a"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drive_shader059.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drive_shader059.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drive_shoulder059.py",
+      "Role": "肩持真实前握点",
+      "Code location": "左掌支撑",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "原PA10躯干/腿部/蓄力姿态保留，炮身改按真实炮体轴；左掌支撑源正常枪杆可握区，不牵连坐锤电脉",
+        "将过伸右掌收回肩前，使左前握点可达；源双腿/根轨道保持",
+        "沿源枪杆选择3.0可达握位，给后坐留空间；不伸骨"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "f52dcc753b5ae372bf072339b6cee0f5d05801845d3257ced32aaccf229c3b17"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drive_shoulder059.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drive_shoulder059.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\effect_data059.py",
+      "Role": "独立只读数据消费者",
+      "Code location": "buffers/curves",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "作者使用实际运行网格与时间流，移除测试模块依赖；保持25浮点行宽验证"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "896a7b0d7d9d029a1736370e96e49646eff4e403d1017ee5d74e3ee6b47dbeb0"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+      "Role": "同一文件摘要键归一",
+      "Code location": "assert_047_hash",
+      "Before": {
+        "sha256": "dbcde8816e7ec9b196921814dc80633416fa5d1f871e38676495099f821df325",
+        "first_report": "dbcde8816e7ec9b196921814dc80633416fa5d1f871e38676495099f821df325"
+      },
+      "Changes": [
+        "追加059精确摘要链/单一驱动规格迁移，其余原断言不删",
+        "统一旧root/package路径别名，仍校验各次真实before→after"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "f7d2891d704d1188fbb56e2d3d55516b31e3f65389664ce1dcd1295dd99bdc3a"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_drive059.py",
+      "Role": "严格源附件读取器",
+      "Code location": "read_parts",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "只读取EXanim1炮体9组/准星2组，逐顶点权重1与索引/矩阵/材质验证；不移植身体"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "56a337cb613ac9e290a5504863800d90278f59af8970cc5e5b014cf3d0a483bc"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\drive059\\LICENSE.json",
+      "Role": "外部素材授权证据",
+      "Code location": "来源页/CC0/具体文件",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "已经实际读取来源和CC0条款、下载查看图像；单独记录本次授权后备光流"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "ea2d576f7db909ee517ef2a70e072965b5a69b4d3d157ab77715994b0828cf54"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\drive059\\ShoutAreaExplosionSmall01.nif",
+      "Role": "只读原版BSA缓存",
+      "Code location": "Skyrim - Meshes0/1::meshes/magic/shoutareaexplosionsmall01.nif",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "沿RimSkills StokesCannon真实EXPL模型，保存原字节供离线导出"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "50097c69053660fcefc330bd44bc082f36d185261a4d2394984550af4c65121e"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\drive059\\beamvfxassets.zip",
+      "Role": "固定外部资源缓存",
+      "Code location": "Alexander123 BeamVFXAssets CC0",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "保留作者原ZIP，不执行任何内容；只读取Laser1/FlamesTexture PNG"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "60570faf3dd6c9f05dbb39b63cae34cff329ec70e8a365be72bd2c849d9dc46d"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "ending": null
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Role": "当前交付门注释",
+      "Code location": "模块开头",
+      "Before": {
+        "sha256": "ab7c83012986445bbbfd892f71dae5ffd6333208d2b7ac148f8f20a2ec21ac47",
+        "first_report": "ab7c83012986445bbbfd892f71dae5ffd6333208d2b7ac148f8f20a2ec21ac47"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持",
+        "更正059构建身份与14类曲线的必要性"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "022378fa763625c067aac2aba9bea670099f7e9865dcd337a5d4902cbe8f6a26"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+      "Role": "回归/交付身份门",
+      "Code location": "当前合同断言",
+      "Before": {
+        "sha256": "3c337b8a641a5b3191bdc259f1f5f41940ba789126414a6a546fb5d06061bb7b",
+        "first_report": "3c337b8a641a5b3191bdc259f1f5f41940ba789126414a6a546fb5d06061bb7b"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "977f2e6d2beab7cc46934e69067cf6a7cd12b4aedc8d25925a9110199db10e61"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+      "Role": "圆柱/地震回归",
+      "Code location": "drive柱半径/层数",
+      "Before": {
+        "sha256": "bbab749ad5cd7c683d1ba9420c16118b38bf35d495c2bbc863510ed64134cf74",
+        "first_report": "bbab749ad5cd7c683d1ba9420c16118b38bf35d495c2bbc863510ed64134cf74"
+      },
+      "Changes": [
+        "按059 R9三层闭合柱体核对；其余地震/物理语义保持"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "aa89e8955797c726e2a9c16691d0a4c14b35f2765fe2471d64a4835c396666da"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py",
+      "Role": "056资产精确回归",
+      "Code location": "runtime摘要",
+      "Before": {
+        "sha256": "307cb0e6116b3550fcbafd916a0eeb28606f1bb3eb34c88d241d51878c78af66",
+        "first_report": "307cb0e6116b3550fcbafd916a0eeb28606f1bb3eb34c88d241d51878c78af66"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持",
+        "保留合批边界验证，单招新素材走已登记摘要迁移"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "d80a0c529e2a18db0869dceee9e62069fd5a03979a1367f4b21c7249f6facbe2"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_capsule_batch056.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_collision_damage055.py",
+      "Role": "055精确资产回归",
+      "Code location": "runtime资产摘要",
+      "Before": {
+        "sha256": "df0b3f55eea68d0db4e06cdcbae4baec90d470452c89aba3008e38d3a77350e2",
+        "first_report": "df0b3f55eea68d0db4e06cdcbae4baec90d470452c89aba3008e38d3a77350e2"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持",
+        "059单招资产变化走明确before→after链，其余仍锁定"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "c4491f47f20ddd03cbff207c1439be746b1632810419520670c478da38effd02"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_collision_damage055.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_collision_damage055.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+      "Role": "生产消费合同回归",
+      "Code location": "曲线数量",
+      "Before": {
+        "sha256": "7e1028682f4c79c1cd92fefaa17c30d837940a0f0a57ea41de415479c20782f1",
+        "first_report": "7e1028682f4c79c1cd92fefaa17c30d837940a0f0a57ea41de415479c20782f1"
+      },
+      "Changes": [
+        "新增059 ion后逐项核对实际头与C++，不跳过消费者"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "a8c709bd61ee921ac9c0748b0e625b86f1886cc9d72c913eabcbdc443e0cd229"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+      "Role": "历史动作/曲线回归",
+      "Code location": "drive半径/实际头",
+      "Before": {
+        "sha256": "0427428fc56853eb242de279f0bd873ea57b867eba415f9d04adbe2fdaa360ea",
+        "first_report": "0427428fc56853eb242de279f0bd873ea57b867eba415f9d04adbe2fdaa360ea"
+      },
+      "Changes": [
+        "059 R9与新增ion源曲线消费者合同，原钻头/火焰不变"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "73f59f7a273590763ba99af9075a46b090327a7d3b3826c24699c69a259e9f7c"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drive059.py",
+      "Role": "肩持真实前握点",
+      "Code location": "左掌支撑",
+      "Before": {
+        "sha256": null,
+        "first_report": null
+      },
+      "Changes": [
+        "实际序列化检查与安全原链逐字节保护，不编译或冒充游戏实测",
+        "红9组/蓝2组不混称实体炮体；保留原顶点与材质",
+        "沿源枪杆选择3.0可达握位，给后坐留空间；不伸骨"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "5f8caa68ef53949a1508c984e6fa06c19e3a31c0b5f14ab3083fb5ce50de6935"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drive059.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drive059.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fire_cannon058.py",
+      "Role": "精确资产回归",
+      "Code location": "历史runtime快照",
+      "Before": {
+        "sha256": "cd8519af2caf65f7d177a7357405d85701f8eedc13f86c454995959ad62301b4",
+        "first_report": "cd8519af2caf65f7d177a7357405d85701f8eedc13f86c454995959ad62301b4"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持",
+        "059已授权变化逐摘要迁移；无登记变化一律失败"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "2c2845814f8e667ae0cdaed7672c5967942e4dce2f7191fd147fbab9a2e9170e"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fire_cannon058.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fire_cannon058.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+      "Role": "源曲线验证",
+      "Code location": "14类时钟",
+      "Before": {
+        "sha256": "4c7dd0e37d86d29dcd361f53a05fca99be8e8b0116cde1113336649d18b8e5b1",
+        "first_report": "4c7dd0e37d86d29dcd361f53a05fca99be8e8b0116cde1113336649d18b8e5b1"
+      },
+      "Changes": [
+        "新增ion层时钟；beam明示GPU年龄采样，其他曲线仍动态检查"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "1206a768ffda06275f787f7fba8312d4719bf16cdf657661e049c9430753cd9a"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+      "Role": "回归/交付身份门",
+      "Code location": "当前合同断言",
+      "Before": {
+        "sha256": "c56d77b7dc34b2154a6c85237bd3122561b8912c9b68275cf500a78e08363ca6",
+        "first_report": "c56d77b7dc34b2154a6c85237bd3122561b8912c9b68275cf500a78e08363ca6"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "697f91cb5038545182abcb2313cc5cad60b4a339bc64ebe3619d93ac2c22c6d4"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+      "Role": "回归/交付身份门",
+      "Code location": "当前合同断言",
+      "Before": {
+        "sha256": "9c8f44ad778bb9810584754fb72f1eea041fee6ba2eee1d3367f5809c0f22d9d",
+        "first_report": "9c8f44ad778bb9810584754fb72f1eea041fee6ba2eee1d3367f5809c0f22d9d"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "96a3a2b31ef7355fd455d4ad3625960b2ef38017725d6d1e84955e22c99563b2"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_optics.py",
+      "Role": "动画资产包围回归",
+      "Code location": "ion网格读法",
+      "Before": {
+        "sha256": "0af9eebba139e7f21fa2a56711d544e9609f480c5f35cb058bb7f9e7e1a81634",
+        "first_report": "0af9eebba139e7f21fa2a56711d544e9609f480c5f35cb058bb7f9e7e1a81634"
+      },
+      "Changes": [
+        "旧驱动球/金环不再作为成功标准，其他脉冲/地震/友军断言不变",
+        "ion已是源动态附件，验证动态AABB包含而非要求等于静止顶点"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "a34333f59326ac14170e300de25c45364abade75f29ee0d674b4da3d460beabf"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_optics.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_optics.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_physx_compat054.py",
+      "Role": "回归/交付身份门",
+      "Code location": "当前合同断言",
+      "Before": {
+        "sha256": "7bcf55a2d01d8f706565c8f7b1b3915e8090076d50ae46dc39723c59f5af0b2f",
+        "first_report": "7bcf55a2d01d8f706565c8f7b1b3915e8090076d50ae46dc39723c59f5af0b2f"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "a9e45ed6ccb0d458c4dbd20369ce2518facda2d491914187e476d49c7b02bfe5"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_physx_compat054.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_physx_compat054.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+      "Role": "实际纹理依赖回归",
+      "Code location": "textures",
+      "Before": {
+        "sha256": "c860370f093dbb9ea11a7756d67d4e3ce7f33c78525e0a7899c576b6b6a9451f",
+        "first_report": "c860370f093dbb9ea11a7756d67d4e3ce7f33c78525e0a7899c576b6b6a9451f"
+      },
+      "Changes": [
+        "专用059材质按实际绑定枚举，普通源纹理检查不变"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "3f7d77dff340a44bc2b45d2d8ea1ad7197136d653d6422d57864f2b245397ed1"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_queue_balance053.py",
+      "Role": "053回归作用域",
+      "Code location": "摘要辅助函数",
+      "Before": {
+        "sha256": "12299e634f9742f4353b903aabc57dc6ed304ab1341ebf95cbee6b43dedf765a",
+        "first_report": "12299e634f9742f4353b903aabc57dc6ed304ab1341ebf95cbee6b43dedf765a"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持",
+        "059驱动授权变化走精确摘要链，排队预算与医疗策略不变",
+        "复用模块级导入，修正函数内导入遮蔽"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "3bf23e6a04daf363f08d5bfd0a667cb9e02e28cadab006a8250a5bdfd03888ba"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_queue_balance053.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_queue_balance053.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+      "Role": "历史动作/曲线回归",
+      "Code location": "drive半径/实际头",
+      "Before": {
+        "sha256": "b35aa9863eb83cc2ac7a1a432ff8872ad10a4d680e6cebb77382d192633d6a2b",
+        "first_report": "b35aa9863eb83cc2ac7a1a432ff8872ad10a4d680e6cebb77382d192633d6a2b"
+      },
+      "Changes": [
+        "059 R9与新增ion源曲线消费者合同，原钻头/火焰不变"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "d0f11d0deaede522ae637e4e6a1b9dbb111cf4c2e272cb2bcabe372d0670172a"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_ray057.py",
+      "Role": "精确资产回归",
+      "Code location": "历史runtime快照",
+      "Before": {
+        "sha256": "97cb8134931d1b397f8195f3f23b75f51fbc343c8da0269667462526fc7ced73",
+        "first_report": "97cb8134931d1b397f8195f3f23b75f51fbc343c8da0269667462526fc7ced73"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持",
+        "059已授权变化逐摘要迁移；无登记变化一律失败"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "ccf9a5b1388f0ed202fa99d307f8776d74ffb4b8beed8682f29f8db541dee81d"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_ray057.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_ray057.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+      "Role": "047高度/原生回归",
+      "Code location": "vulcan高度/记录摘要",
+      "Before": {
+        "sha256": "820f52e198f3bb941f3908cc8987a4c3ef8fab6d9de569688c0aec27398098e7",
+        "first_report": "820f52e198f3bb941f3908cc8987a4c3ef8fab6d9de569688c0aec27398098e7"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持",
+        "drive显式改为059站姿；其他FCS记录仍逐个精确摘要核对"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "0b440a52e8d86f33cc732f08e925b1c668f605654019e407d310ca82dd4b2caf"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_alignment049.py",
+      "Role": "历史坐姿回归",
+      "Code location": "源clip/座面检查",
+      "Before": {
+        "sha256": "08a977fc378acc3d51e0d444f8c9eabd78d96d1c0a62aa27cbd928a425b3f09e",
+        "first_report": "08a977fc378acc3d51e0d444f8c9eabd78d96d1c0a62aa27cbd928a425b3f09e"
+      },
+      "Changes": [
+        "electro逐项保留；移交drive到专门站姿验收"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "ccb0bfb68f980857935b888fee3107486b48d1fa7f3f3a7665cfa93a6a28d957"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_alignment049.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_alignment049.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+      "Role": "历史动作/曲线回归",
+      "Code location": "drive半径/实际头",
+      "Before": {
+        "sha256": "3e4b30a8f7f3026316fa8a1bbe4f0fadeca61514243c52e5ed65a154247c582f",
+        "first_report": "3e4b30a8f7f3026316fa8a1bbe4f0fadeca61514243c52e5ed65a154247c582f"
+      },
+      "Changes": [
+        "059 R9与新增ion源曲线消费者合同，原钻头/火焰不变"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "aca63f2d68d5924b0625ede7504ed33ca9ba668122702b83fc59aee4c8d5281d"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+      "Role": "历史坐姿回归",
+      "Code location": "源clip/座面检查",
+      "Before": {
+        "sha256": "085e01d10be9f01cdae55b36c78e6df77b0fec9889ecd6d8d5a66668d16cf403",
+        "first_report": "085e01d10be9f01cdae55b36c78e6df77b0fec9889ecd6d8d5a66668d16cf403"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持",
+        "electro逐项保留；移交drive到专门站姿验收"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "cf373178016916a5c9d1fc2bfbacea837ac8a245640e78f3518bd848563a8e3e"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+      "Role": "普通源材质回归",
+      "Code location": "实际材质文件遍历",
+      "Before": {
+        "sha256": "797dd5b19f685f5e49ecf23f819622c0ae57f416f31ebd15fcad6c9df250cbe5",
+        "first_report": "797dd5b19f685f5e49ecf23f819622c0ae57f416f31ebd15fcad6c9df250cbe5"
+      },
+      "Changes": [
+        "新驱动独立程序走059专项；普通源材质按实际所在文件验原alpha/flags"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "f281ba32f616ba5ce5b5a67652885aa0c380ad97246d8ea784e33057bb43e711"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Role": "完整验收入口",
+      "Code location": "059专项/输出文件",
+      "Before": {
+        "sha256": "71cb7beab4daa434569173e98a49287fdb041e64f7121bbe6762511b4ec263bf",
+        "first_report": "71cb7beab4daa434569173e98a49287fdb041e64f7121bbe6762511b4ec263bf"
+      },
+      "Changes": [
+        "059当前构建身份；历史功能检查保持",
+        "保留058历史证据，当前完整验收单独写059"
+      ],
+      "Reasons": "用户仅授权重做极致驱动：实际PA10/EXanim源、准星展开旋转、蓝粒子与火焰、R9光流；其他九招和安全链保持",
+      "After": {
+        "sha256": "3d34bd18ec1265056c769e9aba5421ff2dd0e46230555e5fae99a8bc5aada8b1"
+      },
+      "Impact": "只改极致驱动及对应交付/精确回归合同，不编译DLL、不部署、不操作游戏",
+      "Validation": "完整verify_moves非编译回归通过；22更新/IO沙盒通过；真实生产作者二次导出4份文件字节一致；实际059资源CPU蒙皮/光栅预览已查看；预览输入摘要已核对。C++/HLSL/GPU/游戏未执行。",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+        ],
+        "encoding": "UTF-8",
+        "ending": "LF"
+      },
+      "Unresolved": "MSVC Release|x64/v100与游戏GPU/PhysX验证仍需实际新DLL"
+    }
+  ],
+  "backup_roots": [
+    "D:\\CodexBackups\\Iris-Drive059-20261019-195324-61c8e2",
+    "E:\\AIWorkSpace\\_backups\\Iris-Drive059-20261019-195324-61c8e2"
+  ],
+  "encoding": "现有UTF-8/BOM及换行保持；新文本UTF-8；未新增乱码",
+  "game_DLL_unchanged_sha256": "14f3ee85645fe3079ceb67d7657f9f7480864338dec64f5bfc6034e935cefe0e"
+}

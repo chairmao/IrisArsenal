@@ -1,0 +1,7105 @@
+{
+  "created": "2026-10-27T18:57:03.035613+08:00",
+  "stats": {
+    "project": {
+      "files": 9863,
+      "bytes": 177973070
+    },
+    "native": {
+      "files": 190,
+      "bytes": 1730770
+    },
+    "dependencies": {
+      "files": 1362,
+      "bytes": 30973704
+    },
+    "source_Iris": {
+      "files": 376,
+      "bytes": 171556837
+    }
+  },
+  "source_files": 9863,
+  "DLL": [
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\bin\\Release\\IrisArsenal.dll",
+      "bytes": 887808,
+      "mtime_ns": 1793099383954752200,
+      "sha256": "1869b6fdbb1f02cc21742cc496f42d2b1585484e149d32b5d293880be42afc80",
+      "contracts": [
+        "IRIS_BLADE_POSES",
+        "IRIS_BLADE_WINDOWS",
+        "IRIS_BURST_CALIBRATION_068",
+        "IRIS_CAPSULE_POLICY_081",
+        "IRIS_COMBAT_POLICY_061",
+        "IRIS_CONSERVATIVE_QUERY_094",
+        "IRIS_CONTACT_WORK_087",
+        "IRIS_DAMAGE_CATCHUP_099",
+        "IRIS_DAMAGE_QUEUE_053",
+        "IRIS_DRILL",
+        "IRIS_DRILL_FINISHER_064",
+        "IRIS_DRILL_RING_GATE_066",
+        "IRIS_DRILL_SPHERE_098",
+        "IRIS_DRIVE_REBUILD_059",
+        "IRIS_EIGHT",
+        "IRIS_EIGHT_042",
+        "IRIS_EQUIPMENT_STATE_079",
+        "IRIS_FIRE_CANNON_058",
+        "IRIS_FX_CUES",
+        "IRIS_FX_CURVES",
+        "IRIS_HEIGHT_REACTION_CANNON_ICON_047",
+        "IRIS_HOLDER_TIMELINE_104",
+        "IRIS_HOOK_AUDIT_078",
+        "IRIS_HOOK_FAST_076",
+        "IRIS_INI_DIRECT_103",
+        "IRIS_INTERFACE_PROBE_092",
+        "IRIS_LONGTERM_AUDIT_052",
+        "IRIS_MEDICAL_BRANCH_086",
+        "IRIS_MEDICAL_GATE_083",
+        "IRIS_MELEE_BLOCK_043",
+        "IRIS_MELEE_REACTION_044",
+        "IRIS_MULTI_ACTOR_075",
+        "IRIS_NATIVE_AIM_060",
+        "IRIS_NATIVE_MELEE_072",
+        "IRIS_NATIVE_PROFILE_084",
+        "IRIS_NATIVE_SECTOR_097",
+        "IRIS_NATIVE_TERRAIN_077",
+        "IRIS_PERFORMANCE_080",
+        "IRIS_PHYSX_COMPAT_054",
+        "IRIS_PROJECTILE_TIMELINE_102",
+        "IRIS_QUERY_BATCH_088",
+        "IRIS_QUERY_BOUNDARY_093",
+        "IRIS_QUERY_GATE_100",
+        "IRIS_RANGED_GATE_062",
+        "IRIS_RANGED_RAY_057",
+        "IRIS_RANGED_WORK_089",
+        "IRIS_SEAT_SURFACE_CANNON_050",
+        "IRIS_SOURCE_MUZZLE_063",
+        "IRIS_SPATIAL_PROJECTILES_090",
+        "IRIS_SWEEP_SHAPE_INDEX_086",
+        "IRIS_THREE_SOURCE_FX_067",
+        "IRIS_WEAPON_CAPSULES",
+        "IRIS_WINDOW_AUDIT_082",
+        "IRIS_WING_CENTERS",
+        "IRIS_WORK_TRACE_091",
+        "IRIS_WOUND_PROFILE_085"
+      ]
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.dll",
+      "bytes": 887808,
+      "mtime_ns": 1793099847333499500,
+      "sha256": "1869b6fdbb1f02cc21742cc496f42d2b1585484e149d32b5d293880be42afc80",
+      "contracts": [
+        "IRIS_BLADE_POSES",
+        "IRIS_BLADE_WINDOWS",
+        "IRIS_BURST_CALIBRATION_068",
+        "IRIS_CAPSULE_POLICY_081",
+        "IRIS_COMBAT_POLICY_061",
+        "IRIS_CONSERVATIVE_QUERY_094",
+        "IRIS_CONTACT_WORK_087",
+        "IRIS_DAMAGE_CATCHUP_099",
+        "IRIS_DAMAGE_QUEUE_053",
+        "IRIS_DRILL",
+        "IRIS_DRILL_FINISHER_064",
+        "IRIS_DRILL_RING_GATE_066",
+        "IRIS_DRILL_SPHERE_098",
+        "IRIS_DRIVE_REBUILD_059",
+        "IRIS_EIGHT",
+        "IRIS_EIGHT_042",
+        "IRIS_EQUIPMENT_STATE_079",
+        "IRIS_FIRE_CANNON_058",
+        "IRIS_FX_CUES",
+        "IRIS_FX_CURVES",
+        "IRIS_HEIGHT_REACTION_CANNON_ICON_047",
+        "IRIS_HOLDER_TIMELINE_104",
+        "IRIS_HOOK_AUDIT_078",
+        "IRIS_HOOK_FAST_076",
+        "IRIS_INI_DIRECT_103",
+        "IRIS_INTERFACE_PROBE_092",
+        "IRIS_LONGTERM_AUDIT_052",
+        "IRIS_MEDICAL_BRANCH_086",
+        "IRIS_MEDICAL_GATE_083",
+        "IRIS_MELEE_BLOCK_043",
+        "IRIS_MELEE_REACTION_044",
+        "IRIS_MULTI_ACTOR_075",
+        "IRIS_NATIVE_AIM_060",
+        "IRIS_NATIVE_MELEE_072",
+        "IRIS_NATIVE_PROFILE_084",
+        "IRIS_NATIVE_SECTOR_097",
+        "IRIS_NATIVE_TERRAIN_077",
+        "IRIS_PERFORMANCE_080",
+        "IRIS_PHYSX_COMPAT_054",
+        "IRIS_PROJECTILE_TIMELINE_102",
+        "IRIS_QUERY_BATCH_088",
+        "IRIS_QUERY_BOUNDARY_093",
+        "IRIS_QUERY_GATE_100",
+        "IRIS_RANGED_GATE_062",
+        "IRIS_RANGED_RAY_057",
+        "IRIS_RANGED_WORK_089",
+        "IRIS_SEAT_SURFACE_CANNON_050",
+        "IRIS_SOURCE_MUZZLE_063",
+        "IRIS_SPATIAL_PROJECTILES_090",
+        "IRIS_SWEEP_SHAPE_INDEX_086",
+        "IRIS_THREE_SOURCE_FX_067",
+        "IRIS_WEAPON_CAPSULES",
+        "IRIS_WINDOW_AUDIT_082",
+        "IRIS_WING_CENTERS",
+        "IRIS_WORK_TRACE_091",
+        "IRIS_WOUND_PROFILE_085"
+      ]
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.dll",
+      "bytes": 884224,
+      "mtime_ns": 1793027482342926900,
+      "sha256": "29bd1232d73d626660a4f256c4f4e7e6e7c8a904e4ace9671d560ab1aff8c96a",
+      "contracts": [
+        "IRIS_BLADE_POSES",
+        "IRIS_BLADE_WINDOWS",
+        "IRIS_BURST_CALIBRATION_068",
+        "IRIS_CAPSULE_POLICY_081",
+        "IRIS_COMBAT_POLICY_061",
+        "IRIS_CONSERVATIVE_QUERY_094",
+        "IRIS_CONTACT_WORK_087",
+        "IRIS_DAMAGE_CATCHUP_099",
+        "IRIS_DAMAGE_QUEUE_053",
+        "IRIS_DRILL",
+        "IRIS_DRILL_FINISHER_064",
+        "IRIS_DRILL_RING_GATE_066",
+        "IRIS_DRILL_SPHERE_098",
+        "IRIS_DRIVE_REBUILD_059",
+        "IRIS_EIGHT",
+        "IRIS_EIGHT_042",
+        "IRIS_EQUIPMENT_STATE_079",
+        "IRIS_FIRE_CANNON_058",
+        "IRIS_FX_CUES",
+        "IRIS_FX_CURVES",
+        "IRIS_HEIGHT_REACTION_CANNON_ICON_047",
+        "IRIS_HOOK_AUDIT_078",
+        "IRIS_HOOK_FAST_076",
+        "IRIS_INI_DIRECT_103",
+        "IRIS_INTERFACE_PROBE_092",
+        "IRIS_LONGTERM_AUDIT_052",
+        "IRIS_MEDICAL_BRANCH_086",
+        "IRIS_MEDICAL_GATE_083",
+        "IRIS_MELEE_BLOCK_043",
+        "IRIS_MELEE_REACTION_044",
+        "IRIS_MULTI_ACTOR_075",
+        "IRIS_NATIVE_AIM_060",
+        "IRIS_NATIVE_MELEE_072",
+        "IRIS_NATIVE_PROFILE_084",
+        "IRIS_NATIVE_SECTOR_097",
+        "IRIS_NATIVE_TERRAIN_077",
+        "IRIS_PERFORMANCE_080",
+        "IRIS_PHYSX_COMPAT_054",
+        "IRIS_PROJECTILE_TIMELINE_102",
+        "IRIS_QUERY_BATCH_088",
+        "IRIS_QUERY_BOUNDARY_093",
+        "IRIS_QUERY_GATE_100",
+        "IRIS_RANGED_GATE_062",
+        "IRIS_RANGED_RAY_057",
+        "IRIS_RANGED_WORK_089",
+        "IRIS_SEAT_SURFACE_CANNON_050",
+        "IRIS_SOURCE_MUZZLE_063",
+        "IRIS_SPATIAL_PROJECTILES_090",
+        "IRIS_SWEEP_SHAPE_INDEX_086",
+        "IRIS_THREE_SOURCE_FX_067",
+        "IRIS_WEAPON_CAPSULES",
+        "IRIS_WINDOW_AUDIT_082",
+        "IRIS_WING_CENTERS",
+        "IRIS_WORK_TRACE_091",
+        "IRIS_WOUND_PROFILE_085"
+      ]
+    }
+  ],
+  "config": {
+    "distribution": {
+      "IrisArsenal": {
+        "Enabled": "1",
+        "EnableLogging": "1",
+        "EnablePerformanceLogging": "1",
+        "EnableHookAuditLogging": "1",
+        "HookAuditSampleEvery": "128",
+        "EnableCombatDetailLogging": "1",
+        "EnableActionEndLogging": "1",
+        "EnableCollisionDetailProfiling": "1",
+        "EnableWorkPhaseProfiling": "1",
+        "EnableNativeGapProfiling": "1",
+        "WorkPhaseSampleEvery": "32",
+        "EnableCombatInterfaceProfiling": "1",
+        "EnableQueryBoundaryProfiling": "1",
+        "EnableConservativeDamageQueries": "1",
+        "EnableConservativeQueryLogging": "1",
+        "EnableAttachmentCountReuse": "1",
+        "EnableVisualParameterGroupReuse": "1",
+        "CombatInterfaceSlowMs": "2",
+        "EnableRangedProbeCostLogging": "1",
+        "EnableRangedSingleProbeABTest": "0",
+        "EnableWindowAuditLogging": "1",
+        "EnableNativeHitProfiling": "1",
+        "EnableWoundDetailProfiling": "1",
+        "EnableWoundBranchProfiling": "1",
+        "EnableServiceOpportunityLogging": "1",
+        "DiagnosticHideEffects": "0",
+        "EnableCapsuleBatching": "1",
+        "EnableRangedQueryBatching": "1",
+        "EnableRangedQueryReuse": "1",
+        "EnableRangedEmptyPruning": "1",
+        "EnableRangedSpatialPruning": "1",
+        "EnableRangedSingleEmptyProbe": "1",
+        "EnableProjectileWorkLogging": "1",
+        "EnableRangedEmptyShadow": "0",
+        "NativeHitSlowMs": "1.0",
+        "EnableResourceLogging": "1",
+        "LogSummarySeconds": "60",
+        "LogFlushSeconds": "2",
+        "SlowFrameThresholdMs": "8",
+        "DamageFlushBudgetMs": "20",
+        "DamageQueueTargetMs": "40",
+        "DamageFlushMaxHits": "128",
+        "EnableDamageBacklogCatchup": "0",
+        "DamageCatchupBudgetMs": "5",
+        "DamageCatchupMaxHits": "64",
+        "EnableDamageCatchupLogging": "1",
+        "EnableQueryGateRefinement": "1",
+        "EnableQueryGateLogging": "1",
+        "RangedActionInterval": "1.0",
+        "DebugDraw": "0",
+        "ContactQueries": "1",
+        "MaxActiveActors": "1",
+        "DrillProofOnly": "0",
+        "DamageEnabled": "1"
+      },
+      "MoveWeights": {
+        "fire_roll": "4",
+        "spiral": "4",
+        "earthquake": "2",
+        "drill": "1",
+        "full_burst": "2",
+        "vulcan": "2",
+        "pulse": "1",
+        "drive": "1",
+        "electro_cannon": "2",
+        "hammer_combo": "4"
+      },
+      "Move.fire_roll": {
+        "Damage1": "1",
+        "Damage2": "2",
+        "BypassBlockDodge": "1",
+        "AttackMin": "0",
+        "AttackMax": "18",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.spiral": {
+        "Damage1": "1",
+        "Damage2": "1",
+        "Damage3": "1",
+        "BypassBlockDodge": "0",
+        "AttackMin": "0",
+        "AttackMax": "16",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.earthquake": {
+        "Damage1": "1.5",
+        "Damage2": "1.5",
+        "Damage3": "1.5",
+        "Damage4": "1.5",
+        "BypassBlockDodge": "1",
+        "AttackMin": "0",
+        "AttackMax": "27",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.drill": {
+        "Damage1": "0.35",
+        "Damage2": "0.35",
+        "Damage3": "0.35",
+        "Damage4": "0.35",
+        "Damage5": "0.35",
+        "Damage6": "0.35",
+        "Damage7": "0.35",
+        "Damage8": "0.35",
+        "Damage9": "0.35",
+        "Damage10": "0.35",
+        "Damage11": "0.35",
+        "Damage12": "8",
+        "BypassBlockDodge": "1",
+        "AttackMin": "0",
+        "AttackMax": "80",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.full_burst": {
+        "Damage1": "2",
+        "Damage2": "2",
+        "Damage3": "4",
+        "BypassBlockDodge": "1",
+        "AttackMin": "12",
+        "AttackMax": "60",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.vulcan": {
+        "ImmuneHitReactions": "1",
+        "Damage1": "0.2",
+        "Damage2": "0.2",
+        "Damage3": "0.2",
+        "Damage4": "0.2",
+        "Damage5": "0.2",
+        "Damage6": "0.2",
+        "Damage7": "0.2",
+        "Damage8": "0.2",
+        "Damage9": "0.2",
+        "Damage10": "0.2",
+        "Damage11": "0.2",
+        "Damage12": "0.2",
+        "Damage13": "0.2",
+        "Damage14": "0.2",
+        "Damage15": "0.2",
+        "Damage16": "0.2",
+        "Damage17": "0.2",
+        "Damage18": "0.2",
+        "Damage19": "0.2",
+        "Damage20": "0.2"
+      },
+      "Move.pulse": {
+        "ImmuneHitReactions": "1",
+        "Damage1": "1",
+        "Damage2": "1",
+        "Damage3": "1"
+      },
+      "Move.drive": {
+        "ImmuneHitReactions": "1",
+        "Damage1": "2",
+        "Damage2": "2",
+        "Damage3": "2",
+        "Damage4": "2"
+      },
+      "Move.electro_cannon": {
+        "Damage1": "1",
+        "Damage2": "1",
+        "Damage3": "1",
+        "Damage4": "1",
+        "BypassBlockDodge": "1",
+        "AttackMin": "4",
+        "AttackMax": "25",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.hammer_combo": {
+        "Damage1": "0.8",
+        "Damage2": "0.8",
+        "Damage3": "0.8",
+        "BypassBlockDodge": "0",
+        "AttackMin": "0",
+        "AttackMax": "10"
+      }
+    },
+    "package": {
+      "IrisArsenal": {
+        "Enabled": "1",
+        "EnableLogging": "1",
+        "EnablePerformanceLogging": "1",
+        "EnableHookAuditLogging": "1",
+        "HookAuditSampleEvery": "128",
+        "EnableCombatDetailLogging": "1",
+        "EnableActionEndLogging": "1",
+        "EnableCollisionDetailProfiling": "1",
+        "EnableWorkPhaseProfiling": "1",
+        "EnableNativeGapProfiling": "1",
+        "WorkPhaseSampleEvery": "32",
+        "EnableCombatInterfaceProfiling": "1",
+        "EnableQueryBoundaryProfiling": "1",
+        "EnableConservativeDamageQueries": "1",
+        "EnableConservativeQueryLogging": "1",
+        "EnableAttachmentCountReuse": "1",
+        "EnableVisualParameterGroupReuse": "1",
+        "CombatInterfaceSlowMs": "2",
+        "EnableRangedProbeCostLogging": "1",
+        "EnableRangedSingleProbeABTest": "0",
+        "EnableWindowAuditLogging": "1",
+        "EnableNativeHitProfiling": "1",
+        "EnableWoundDetailProfiling": "1",
+        "EnableWoundBranchProfiling": "1",
+        "EnableServiceOpportunityLogging": "1",
+        "DiagnosticHideEffects": "0",
+        "EnableCapsuleBatching": "1",
+        "EnableRangedQueryBatching": "1",
+        "EnableRangedQueryReuse": "1",
+        "EnableRangedEmptyPruning": "1",
+        "EnableRangedSpatialPruning": "1",
+        "EnableRangedSingleEmptyProbe": "1",
+        "EnableProjectileWorkLogging": "1",
+        "EnableRangedEmptyShadow": "0",
+        "NativeHitSlowMs": "1.0",
+        "EnableResourceLogging": "1",
+        "LogSummarySeconds": "60",
+        "LogFlushSeconds": "2",
+        "SlowFrameThresholdMs": "8",
+        "DamageFlushBudgetMs": "20",
+        "DamageQueueTargetMs": "40",
+        "DamageFlushMaxHits": "128",
+        "EnableDamageBacklogCatchup": "0",
+        "DamageCatchupBudgetMs": "5",
+        "DamageCatchupMaxHits": "64",
+        "EnableDamageCatchupLogging": "1",
+        "EnableQueryGateRefinement": "1",
+        "EnableQueryGateLogging": "1",
+        "RangedActionInterval": "1.0",
+        "DebugDraw": "0",
+        "ContactQueries": "1",
+        "MaxActiveActors": "1",
+        "DrillProofOnly": "0",
+        "DamageEnabled": "1"
+      },
+      "MoveWeights": {
+        "fire_roll": "4",
+        "spiral": "4",
+        "earthquake": "2",
+        "drill": "1",
+        "full_burst": "2",
+        "vulcan": "2",
+        "pulse": "1",
+        "drive": "1",
+        "electro_cannon": "2",
+        "hammer_combo": "4"
+      },
+      "Move.fire_roll": {
+        "Damage1": "1",
+        "Damage2": "2",
+        "BypassBlockDodge": "1",
+        "AttackMin": "0",
+        "AttackMax": "18",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.spiral": {
+        "Damage1": "1",
+        "Damage2": "1",
+        "Damage3": "1",
+        "BypassBlockDodge": "0",
+        "AttackMin": "0",
+        "AttackMax": "16",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.earthquake": {
+        "Damage1": "1.5",
+        "Damage2": "1.5",
+        "Damage3": "1.5",
+        "Damage4": "1.5",
+        "BypassBlockDodge": "1",
+        "AttackMin": "0",
+        "AttackMax": "27",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.drill": {
+        "Damage1": "0.35",
+        "Damage2": "0.35",
+        "Damage3": "0.35",
+        "Damage4": "0.35",
+        "Damage5": "0.35",
+        "Damage6": "0.35",
+        "Damage7": "0.35",
+        "Damage8": "0.35",
+        "Damage9": "0.35",
+        "Damage10": "0.35",
+        "Damage11": "0.35",
+        "Damage12": "8",
+        "BypassBlockDodge": "1",
+        "AttackMin": "0",
+        "AttackMax": "80",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.full_burst": {
+        "Damage1": "2",
+        "Damage2": "2",
+        "Damage3": "4",
+        "BypassBlockDodge": "1",
+        "AttackMin": "12",
+        "AttackMax": "60",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.vulcan": {
+        "ImmuneHitReactions": "1",
+        "Damage1": "0.2",
+        "Damage2": "0.2",
+        "Damage3": "0.2",
+        "Damage4": "0.2",
+        "Damage5": "0.2",
+        "Damage6": "0.2",
+        "Damage7": "0.2",
+        "Damage8": "0.2",
+        "Damage9": "0.2",
+        "Damage10": "0.2",
+        "Damage11": "0.2",
+        "Damage12": "0.2",
+        "Damage13": "0.2",
+        "Damage14": "0.2",
+        "Damage15": "0.2",
+        "Damage16": "0.2",
+        "Damage17": "0.2",
+        "Damage18": "0.2",
+        "Damage19": "0.2",
+        "Damage20": "0.2"
+      },
+      "Move.pulse": {
+        "ImmuneHitReactions": "1",
+        "Damage1": "1",
+        "Damage2": "1",
+        "Damage3": "1"
+      },
+      "Move.drive": {
+        "ImmuneHitReactions": "1",
+        "Damage1": "2",
+        "Damage2": "2",
+        "Damage3": "2",
+        "Damage4": "2"
+      },
+      "Move.electro_cannon": {
+        "Damage1": "1",
+        "Damage2": "1",
+        "Damage3": "1",
+        "Damage4": "1",
+        "BypassBlockDodge": "1",
+        "AttackMin": "4",
+        "AttackMax": "25",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.hammer_combo": {
+        "Damage1": "0.8",
+        "Damage2": "0.8",
+        "Damage3": "0.8",
+        "BypassBlockDodge": "0",
+        "AttackMin": "0",
+        "AttackMax": "10"
+      }
+    },
+    "deployed": {
+      "IrisArsenal": {
+        "Enabled": "1",
+        "EnableLogging": "1",
+        "EnablePerformanceLogging": "1",
+        "EnableHookAuditLogging": "1",
+        "HookAuditSampleEvery": "128",
+        "EnableCombatDetailLogging": "1",
+        "EnableCollisionDetailProfiling": "1",
+        "EnableWorkPhaseProfiling": "1",
+        "EnableNativeGapProfiling": "1",
+        "WorkPhaseSampleEvery": "32",
+        "EnableCombatInterfaceProfiling": "1",
+        "EnableQueryBoundaryProfiling": "1",
+        "EnableConservativeDamageQueries": "1",
+        "EnableConservativeQueryLogging": "1",
+        "EnableAttachmentCountReuse": "1",
+        "EnableVisualParameterGroupReuse": "1",
+        "CombatInterfaceSlowMs": "2",
+        "EnableRangedProbeCostLogging": "1",
+        "EnableRangedSingleProbeABTest": "0",
+        "EnableWindowAuditLogging": "1",
+        "EnableNativeHitProfiling": "1",
+        "EnableWoundDetailProfiling": "1",
+        "EnableWoundBranchProfiling": "1",
+        "EnableServiceOpportunityLogging": "1",
+        "DiagnosticHideEffects": "0",
+        "EnableCapsuleBatching": "1",
+        "EnableRangedQueryBatching": "1",
+        "EnableRangedQueryReuse": "1",
+        "EnableRangedEmptyPruning": "1",
+        "EnableRangedSpatialPruning": "1",
+        "EnableRangedSingleEmptyProbe": "1",
+        "EnableProjectileWorkLogging": "1",
+        "EnableRangedEmptyShadow": "0",
+        "NativeHitSlowMs": "1.0",
+        "EnableResourceLogging": "1",
+        "LogSummarySeconds": "60",
+        "LogFlushSeconds": "2",
+        "SlowFrameThresholdMs": "8",
+        "DamageFlushBudgetMs": "20",
+        "DamageQueueTargetMs": "40",
+        "DamageFlushMaxHits": "128",
+        "EnableDamageBacklogCatchup": "0",
+        "DamageCatchupBudgetMs": "5",
+        "DamageCatchupMaxHits": "64",
+        "EnableDamageCatchupLogging": "1",
+        "EnableQueryGateRefinement": "1",
+        "EnableQueryGateLogging": "1",
+        "RangedActionInterval": "1.0",
+        "DebugDraw": "0",
+        "ContactQueries": "1",
+        "MaxActiveActors": "1",
+        "DrillProofOnly": "0",
+        "DamageEnabled": "1"
+      },
+      "MoveWeights": {
+        "fire_roll": "4",
+        "spiral": "4",
+        "earthquake": "2",
+        "drill": "1",
+        "full_burst": "2",
+        "vulcan": "2",
+        "pulse": "1",
+        "drive": "1",
+        "electro_cannon": "2",
+        "hammer_combo": "4"
+      },
+      "Move.fire_roll": {
+        "Damage1": "1",
+        "Damage2": "2",
+        "BypassBlockDodge": "1",
+        "AttackMin": "0",
+        "AttackMax": "18",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.spiral": {
+        "Damage1": "1",
+        "Damage2": "1",
+        "Damage3": "1",
+        "BypassBlockDodge": "0",
+        "AttackMin": "0",
+        "AttackMax": "16",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.earthquake": {
+        "Damage1": "1.5",
+        "Damage2": "1.5",
+        "Damage3": "1.5",
+        "Damage4": "1.5",
+        "BypassBlockDodge": "1",
+        "AttackMin": "0",
+        "AttackMax": "27",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.drill": {
+        "Damage1": "0.35",
+        "Damage2": "0.35",
+        "Damage3": "0.35",
+        "Damage4": "0.35",
+        "Damage5": "0.35",
+        "Damage6": "0.35",
+        "Damage7": "0.35",
+        "Damage8": "0.35",
+        "Damage9": "0.35",
+        "Damage10": "0.35",
+        "Damage11": "0.35",
+        "Damage12": "8",
+        "BypassBlockDodge": "1",
+        "AttackMin": "0",
+        "AttackMax": "80",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.full_burst": {
+        "Damage1": "2",
+        "Damage2": "2",
+        "Damage3": "4",
+        "BypassBlockDodge": "1",
+        "AttackMin": "12",
+        "AttackMax": "60",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.vulcan": {
+        "ImmuneHitReactions": "1",
+        "Damage1": "0.2",
+        "Damage2": "0.2",
+        "Damage3": "0.2",
+        "Damage4": "0.2",
+        "Damage5": "0.2",
+        "Damage6": "0.2",
+        "Damage7": "0.2",
+        "Damage8": "0.2",
+        "Damage9": "0.2",
+        "Damage10": "0.2",
+        "Damage11": "0.2",
+        "Damage12": "0.2",
+        "Damage13": "0.2",
+        "Damage14": "0.2",
+        "Damage15": "0.2",
+        "Damage16": "0.2",
+        "Damage17": "0.2",
+        "Damage18": "0.2",
+        "Damage19": "0.2",
+        "Damage20": "0.2"
+      },
+      "Move.pulse": {
+        "ImmuneHitReactions": "1",
+        "Damage1": "1",
+        "Damage2": "1",
+        "Damage3": "1"
+      },
+      "Move.drive": {
+        "ImmuneHitReactions": "1",
+        "Damage1": "2",
+        "Damage2": "2",
+        "Damage3": "2",
+        "Damage4": "2"
+      },
+      "Move.electro_cannon": {
+        "Damage1": "1",
+        "Damage2": "1",
+        "Damage3": "1",
+        "Damage4": "1",
+        "BypassBlockDodge": "1",
+        "AttackMin": "4",
+        "AttackMax": "25",
+        "PreventBlockInterrupt": "1",
+        "ImmuneHitReactions": "1"
+      },
+      "Move.hammer_combo": {
+        "Damage1": "0.8",
+        "Damage2": "0.8",
+        "Damage3": "0.8",
+        "BypassBlockDodge": "0",
+        "AttackMin": "0",
+        "AttackMax": "10"
+      }
+    }
+  },
+  "moves": [
+    {
+      "index": 0,
+      "key": "fire_roll",
+      "animation": "IrisArsenal_fire_roll",
+      "seconds": 2.316666627,
+      "asset_distance_min": 0.0,
+      "asset_distance_max": 25.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 0.316653997,
+          "kind": 0,
+          "base_multiplier": 1.0,
+          "radius": 0.0
+        },
+        {
+          "index": 1,
+          "time": 1.116648012,
+          "kind": 1,
+          "base_multiplier": 2.0,
+          "radius": 24.0
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "key": "spiral",
+      "animation": "IrisArsenal_spiral",
+      "seconds": 2.333333254,
+      "asset_distance_min": 0.0,
+      "asset_distance_max": 30.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 0.583303988,
+          "kind": 0,
+          "base_multiplier": 1.0,
+          "radius": 0.0
+        },
+        {
+          "index": 1,
+          "time": 0.733304024,
+          "kind": 0,
+          "base_multiplier": 1.0,
+          "radius": 0.0
+        },
+        {
+          "index": 2,
+          "time": 1.399943948,
+          "kind": 0,
+          "base_multiplier": 1.0,
+          "radius": 0.0
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "key": "earthquake",
+      "animation": "IrisArsenal_earthquake",
+      "seconds": 3.66,
+      "asset_distance_min": 0.0,
+      "asset_distance_max": 45.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 1.0,
+          "kind": 2,
+          "base_multiplier": 1.5,
+          "radius": 36.0
+        },
+        {
+          "index": 1,
+          "time": 1.436659996,
+          "kind": 2,
+          "base_multiplier": 1.5,
+          "radius": 36.0
+        },
+        {
+          "index": 2,
+          "time": 1.956659996,
+          "kind": 2,
+          "base_multiplier": 1.5,
+          "radius": 36.0
+        },
+        {
+          "index": 3,
+          "time": 2.476659996,
+          "kind": 2,
+          "base_multiplier": 1.5,
+          "radius": 36.0
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "key": "drill",
+      "animation": "IrisArsenal_drill",
+      "seconds": 8.166666985,
+      "asset_distance_min": 12.0,
+      "asset_distance_max": 70.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 1.733268023,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 1,
+          "time": 1.933267951,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 2,
+          "time": 2.133268118,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 3,
+          "time": 2.333267927,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 4,
+          "time": 2.533267975,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 5,
+          "time": 2.733268023,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 6,
+          "time": 2.93326807,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 7,
+          "time": 3.133268118,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 8,
+          "time": 3.333267927,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 9,
+          "time": 3.533267975,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 10,
+          "time": 3.749946117,
+          "kind": 3,
+          "base_multiplier": 0.35,
+          "radius": 0.0
+        },
+        {
+          "index": 11,
+          "time": 4.283162117,
+          "kind": 4,
+          "base_multiplier": 5.0,
+          "radius": 120.0
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "key": "full_burst",
+      "animation": "IrisArsenal_full_burst",
+      "seconds": 4.555626826,
+      "asset_distance_min": 20.0,
+      "asset_distance_max": 100.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 1.472255425,
+          "kind": 5,
+          "base_multiplier": 2.0,
+          "radius": 4.0
+        },
+        {
+          "index": 1,
+          "time": 1.872239308,
+          "kind": 5,
+          "base_multiplier": 2.0,
+          "radius": 4.0
+        },
+        {
+          "index": 2,
+          "time": 2.788777308,
+          "kind": 2,
+          "base_multiplier": 3.0,
+          "radius": 90.0
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "key": "vulcan",
+      "animation": "IrisArsenal_vulcan",
+      "seconds": 3.166666746,
+      "asset_distance_min": 0.0,
+      "asset_distance_max": 5000.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 0.866631985,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 1,
+          "time": 0.933296025,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 2,
+          "time": 1.0,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 3,
+          "time": 1.0,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 4,
+          "time": 1.066624045,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 5,
+          "time": 1.133288026,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 6,
+          "time": 1.199952006,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 7,
+          "time": 1.266615987,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 8,
+          "time": 1.333279967,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 9,
+          "time": 1.399943948,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 10,
+          "time": 1.466608047,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 11,
+          "time": 1.533272028,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 12,
+          "time": 1.599936008,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 13,
+          "time": 1.666599989,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 14,
+          "time": 1.733263969,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 15,
+          "time": 1.79992795,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 16,
+          "time": 1.86659205,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 17,
+          "time": 1.93325603,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 18,
+          "time": 2.0,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        },
+        {
+          "index": 19,
+          "time": 2.06658411,
+          "kind": 6,
+          "base_multiplier": 0.2,
+          "radius": 4.5
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "key": "pulse",
+      "animation": "IrisArsenal_pulse",
+      "seconds": 3.15,
+      "asset_distance_min": 0.0,
+      "asset_distance_max": 5000.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 0.666639984,
+          "kind": 7,
+          "base_multiplier": 2.0,
+          "radius": 36.0
+        },
+        {
+          "index": 1,
+          "time": 1.133329998,
+          "kind": 7,
+          "base_multiplier": 2.0,
+          "radius": 36.0
+        },
+        {
+          "index": 2,
+          "time": 2.033329998,
+          "kind": 7,
+          "base_multiplier": 2.0,
+          "radius": 36.0
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "key": "drive",
+      "animation": "IrisArsenal_drive",
+      "seconds": 3.916730046,
+      "asset_distance_min": 0.0,
+      "asset_distance_max": 10000.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 1.583269954,
+          "kind": 8,
+          "base_multiplier": 1.5,
+          "radius": 9.0
+        },
+        {
+          "index": 1,
+          "time": 1.833269953,
+          "kind": 8,
+          "base_multiplier": 1.5,
+          "radius": 9.0
+        },
+        {
+          "index": 2,
+          "time": 2.083269953,
+          "kind": 8,
+          "base_multiplier": 1.5,
+          "radius": 9.0
+        },
+        {
+          "index": 3,
+          "time": 2.333269953,
+          "kind": 8,
+          "base_multiplier": 1.5,
+          "radius": 9.0
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "key": "electro_cannon",
+      "animation": "IrisArsenal_electro_cannon",
+      "seconds": 3.583333254,
+      "asset_distance_min": 0.0,
+      "asset_distance_max": 45.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 1.799999952,
+          "kind": 9,
+          "base_multiplier": 1.0,
+          "radius": 25.0
+        },
+        {
+          "index": 1,
+          "time": 2.049999952,
+          "kind": 9,
+          "base_multiplier": 1.0,
+          "radius": 25.0
+        },
+        {
+          "index": 2,
+          "time": 2.299999952,
+          "kind": 9,
+          "base_multiplier": 1.0,
+          "radius": 25.0
+        },
+        {
+          "index": 3,
+          "time": 2.599999905,
+          "kind": 9,
+          "base_multiplier": 1.0,
+          "radius": 25.0
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "key": "hammer_combo",
+      "animation": "IrisArsenal_hammer_combo",
+      "seconds": 2.25,
+      "asset_distance_min": 0.0,
+      "asset_distance_max": 25.0,
+      "events": [
+        {
+          "index": 0,
+          "time": 0.333319992,
+          "kind": 0,
+          "base_multiplier": 1.0,
+          "radius": 0.0
+        },
+        {
+          "index": 1,
+          "time": 0.633307993,
+          "kind": 0,
+          "base_multiplier": 1.0,
+          "radius": 0.0
+        },
+        {
+          "index": 2,
+          "time": 1.199957991,
+          "kind": 0,
+          "base_multiplier": 1.0,
+          "radius": 0.0
+        }
+      ]
+    }
+  ],
+  "FCS": {
+    "package": {
+      "identity": {
+        "path": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "bytes": 17976,
+        "mtime_ns": 1793023173682229100,
+        "sha256": "98d1de0718ae78437be317d7f6377b22b6b01b68e8368752c615a7dbbb9c36e8"
+      },
+      "roundtrip": {
+        "path": "IrisArsenal.mod",
+        "size": 17976,
+        "records": 24,
+        "walked": 17976,
+        "consumed_all": true,
+        "identical": true,
+        "first_diff": null,
+        "head": 3916
+      },
+      "records": [
+        {
+          "size": 1247,
+          "type": 2,
+          "id": 0,
+          "name": "伊莉丝·锤枪",
+          "key": "1-IrisArsenal.mod",
+          "save": 16,
+          "end": 5163,
+          "fields": {
+            "bool": [
+              [
+                "auto icon image",
+                true
+              ],
+              [
+                "can block",
+                true
+              ],
+              [
+                "has collision",
+                true
+              ]
+            ],
+            "f32": [
+              [
+                "animal damage mult",
+                1.5
+              ],
+              [
+                "armour penetration",
+                0.5
+              ],
+              [
+                "bleed mult",
+                2.5
+              ],
+              [
+                "blunt damage multiplier",
+                1.2000000476837158
+              ],
+              [
+                "cut damage multiplier",
+                1.440000057220459
+              ],
+              [
+                "human damage mult",
+                1.0
+              ],
+              [
+                "icon offset H",
+                0.05915546417236328
+              ],
+              [
+                "icon offset V",
+                -0.05018258094787598
+              ],
+              [
+                "icon zoom",
+                2.2899999618530273
+              ],
+              [
+                "min cut damage mult",
+                0.0
+              ],
+              [
+                "overall scale",
+                1.0
+              ],
+              [
+                "pierce damage multiplier",
+                0.0
+              ],
+              [
+                "robot damage mult",
+                1.0
+              ],
+              [
+                "scale length",
+                1.0
+              ],
+              [
+                "scale thickness",
+                1.0
+              ],
+              [
+                "scale width",
+                1.0
+              ],
+              [
+                "weight kg",
+                3.0
+              ],
+              [
+                "weight mult",
+                0.75
+              ]
+            ],
+            "long": [
+              [
+                "attack mod",
+                20
+              ],
+              [
+                "defence mod",
+                10
+              ],
+              [
+                "indoors mod",
+                0
+              ],
+              [
+                "inventory footprint height",
+                2
+              ],
+              [
+                "inventory footprint width",
+                10
+              ],
+              [
+                "length",
+                18
+              ],
+              [
+                "material",
+                0
+              ],
+              [
+                "material cost",
+                6
+              ],
+              [
+                "skill category",
+                3
+              ],
+              [
+                "skill category animation override",
+                21
+              ],
+              [
+                "slot",
+                0
+              ],
+              [
+                "value",
+                1
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "description",
+                "十招测试：仅本锤枪使用专属动作，权重由INI选择，FCS公共权重为0；实际命中走游戏物理与原生医疗。"
+              ]
+            ],
+            "filename": [
+              [
+                "bare sword",
+                "./mods/IrisArsenal/assets/iris_weapon.mesh"
+              ],
+              [
+                "ground mesh",
+                "./mods/IrisArsenal/assets/iris_weapon.mesh"
+              ],
+              [
+                "icon",
+                "./mods/IrisArsenal/assets/iris_weapon_icon.png"
+              ],
+              [
+                "mesh",
+                "./mods/IrisArsenal/assets/iris_weapon.mesh"
+              ],
+              [
+                "physics file",
+                ""
+              ],
+              [
+                "sheath",
+                ""
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 274,
+          "type": 112,
+          "id": 0,
+          "name": "IrisArsenal drill proof animations",
+          "key": "2-IrisArsenal.mod",
+          "save": 16,
+          "end": 5437,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_drill_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_drill_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 850,
+          "type": 17,
+          "id": 0,
+          "name": "IrisArsenal Drill Proof",
+          "key": "3-IrisArsenal.mod",
+          "save": 16,
+          "end": 6287,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                false
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                90.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                36.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_DrillProof"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 445,
+          "type": 21,
+          "id": 0,
+          "name": "伊莉丝锤枪·验证原型",
+          "key": "4-IrisArsenal.mod",
+          "save": 16,
+          "end": 6732,
+          "fields": {
+            "bool": [
+              [
+                "blueprint only",
+                false
+              ],
+              [
+                "is level upgrade",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "production mult",
+                1.0
+              ],
+              [
+                "repeat mult",
+                1.0
+              ]
+            ],
+            "long": [
+              [
+                "level",
+                2
+              ],
+              [
+                "money",
+                8000
+              ],
+              [
+                "power capacity increase",
+                0
+              ],
+              [
+                "power increase",
+                0
+              ],
+              [
+                "repeats",
+                0
+              ],
+              [
+                "time",
+                6
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "category",
+                "Core"
+              ],
+              [
+                "description",
+                ""
+              ]
+            ],
+            "filename": []
+          },
+          "refs": [
+            {
+              "category": "enable weapon type",
+              "targets": [
+                [
+                  "1-IrisArsenal.mod",
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "category": "requirements",
+              "targets": [
+                [
+                  "52323-rebirth.mod",
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "size": 288,
+          "type": 112,
+          "id": 0,
+          "name": "Iris fire_roll animations",
+          "key": "30-IrisArsenal.mod",
+          "save": 16,
+          "end": 7020,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_fire_roll_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_fire_roll_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 839,
+          "type": 17,
+          "id": 0,
+          "name": "火焰翻滚",
+          "key": "10-IrisArsenal.mod",
+          "save": 16,
+          "end": 7859,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                25.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_fire_roll"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 279,
+          "type": 112,
+          "id": 0,
+          "name": "Iris spiral animations",
+          "key": "31-IrisArsenal.mod",
+          "save": 16,
+          "end": 8138,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_spiral_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_spiral_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 836,
+          "type": 17,
+          "id": 0,
+          "name": "螺旋飞舞",
+          "key": "11-IrisArsenal.mod",
+          "save": 16,
+          "end": 8974,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                30.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_spiral"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 291,
+          "type": 112,
+          "id": 0,
+          "name": "Iris earthquake animations",
+          "key": "32-IrisArsenal.mod",
+          "save": 16,
+          "end": 9265,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_earthquake_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_earthquake_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 834,
+          "type": 17,
+          "id": 0,
+          "name": "地震",
+          "key": "12-IrisArsenal.mod",
+          "save": 16,
+          "end": 10099,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                false
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                45.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_earthquake"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 276,
+          "type": 112,
+          "id": 0,
+          "name": "Iris drill animations",
+          "key": "33-IrisArsenal.mod",
+          "save": 16,
+          "end": 10375,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_drill_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_drill_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 844,
+          "type": 17,
+          "id": 0,
+          "name": "螺旋袭击钻天破",
+          "key": "13-IrisArsenal.mod",
+          "save": 16,
+          "end": 11219,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                70.0
+              ],
+              [
+                "attack distance min vs static",
+                12.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_drill"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 291,
+          "type": 112,
+          "id": 0,
+          "name": "Iris full_burst animations",
+          "key": "34-IrisArsenal.mod",
+          "save": 16,
+          "end": 11510,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_full_burst_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_full_burst_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 840,
+          "type": 17,
+          "id": 0,
+          "name": "全力爆发",
+          "key": "14-IrisArsenal.mod",
+          "save": 16,
+          "end": 12350,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                100.0
+              ],
+              [
+                "attack distance min vs static",
+                20.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_full_burst"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 279,
+          "type": 112,
+          "id": 0,
+          "name": "Iris vulcan animations",
+          "key": "35-IrisArsenal.mod",
+          "save": 16,
+          "end": 12629,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_vulcan_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_vulcan_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 839,
+          "type": 17,
+          "id": 0,
+          "name": "极速火神炮",
+          "key": "15-IrisArsenal.mod",
+          "save": 16,
+          "end": 13468,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                5000.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_vulcan"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 276,
+          "type": 112,
+          "id": 0,
+          "name": "Iris pulse animations",
+          "key": "36-IrisArsenal.mod",
+          "save": 16,
+          "end": 13744,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_pulse_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_pulse_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 835,
+          "type": 17,
+          "id": 0,
+          "name": "脉冲之焰",
+          "key": "16-IrisArsenal.mod",
+          "save": 16,
+          "end": 14579,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                false
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                5000.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_pulse"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 276,
+          "type": 112,
+          "id": 0,
+          "name": "Iris drive animations",
+          "key": "37-IrisArsenal.mod",
+          "save": 16,
+          "end": 14855,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_drive_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_drive_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 835,
+          "type": 17,
+          "id": 0,
+          "name": "极致驱动",
+          "key": "17-IrisArsenal.mod",
+          "save": 16,
+          "end": 15690,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                false
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                10000.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_drive"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 303,
+          "type": 112,
+          "id": 0,
+          "name": "Iris electro_cannon animations",
+          "key": "38-IrisArsenal.mod",
+          "save": 16,
+          "end": 15993,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_electro_cannon_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_electro_cannon_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 844,
+          "type": 17,
+          "id": 0,
+          "name": "电脉加农",
+          "key": "18-IrisArsenal.mod",
+          "save": 16,
+          "end": 16837,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                45.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_electro_cannon"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 297,
+          "type": 112,
+          "id": 0,
+          "name": "Iris hammer_combo animations",
+          "key": "39-IrisArsenal.mod",
+          "save": 16,
+          "end": 17134,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_hammer_combo_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_hammer_combo_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 842,
+          "type": 17,
+          "id": 0,
+          "name": "破坏之锤",
+          "key": "19-IrisArsenal.mod",
+          "save": 16,
+          "end": 17976,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                25.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_hammer_combo"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        }
+      ]
+    },
+    "deployed": {
+      "identity": {
+        "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod",
+        "bytes": 17976,
+        "mtime_ns": 1793023173682229100,
+        "sha256": "98d1de0718ae78437be317d7f6377b22b6b01b68e8368752c615a7dbbb9c36e8"
+      },
+      "roundtrip": {
+        "path": "IrisArsenal.mod",
+        "size": 17976,
+        "records": 24,
+        "walked": 17976,
+        "consumed_all": true,
+        "identical": true,
+        "first_diff": null,
+        "head": 3916
+      },
+      "records": [
+        {
+          "size": 1247,
+          "type": 2,
+          "id": 0,
+          "name": "伊莉丝·锤枪",
+          "key": "1-IrisArsenal.mod",
+          "save": 16,
+          "end": 5163,
+          "fields": {
+            "bool": [
+              [
+                "auto icon image",
+                true
+              ],
+              [
+                "can block",
+                true
+              ],
+              [
+                "has collision",
+                true
+              ]
+            ],
+            "f32": [
+              [
+                "animal damage mult",
+                1.5
+              ],
+              [
+                "armour penetration",
+                0.5
+              ],
+              [
+                "bleed mult",
+                2.5
+              ],
+              [
+                "blunt damage multiplier",
+                1.2000000476837158
+              ],
+              [
+                "cut damage multiplier",
+                1.440000057220459
+              ],
+              [
+                "human damage mult",
+                1.0
+              ],
+              [
+                "icon offset H",
+                0.05915546417236328
+              ],
+              [
+                "icon offset V",
+                -0.05018258094787598
+              ],
+              [
+                "icon zoom",
+                2.2899999618530273
+              ],
+              [
+                "min cut damage mult",
+                0.0
+              ],
+              [
+                "overall scale",
+                1.0
+              ],
+              [
+                "pierce damage multiplier",
+                0.0
+              ],
+              [
+                "robot damage mult",
+                1.0
+              ],
+              [
+                "scale length",
+                1.0
+              ],
+              [
+                "scale thickness",
+                1.0
+              ],
+              [
+                "scale width",
+                1.0
+              ],
+              [
+                "weight kg",
+                3.0
+              ],
+              [
+                "weight mult",
+                0.75
+              ]
+            ],
+            "long": [
+              [
+                "attack mod",
+                20
+              ],
+              [
+                "defence mod",
+                10
+              ],
+              [
+                "indoors mod",
+                0
+              ],
+              [
+                "inventory footprint height",
+                2
+              ],
+              [
+                "inventory footprint width",
+                10
+              ],
+              [
+                "length",
+                18
+              ],
+              [
+                "material",
+                0
+              ],
+              [
+                "material cost",
+                6
+              ],
+              [
+                "skill category",
+                3
+              ],
+              [
+                "skill category animation override",
+                21
+              ],
+              [
+                "slot",
+                0
+              ],
+              [
+                "value",
+                1
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "description",
+                "十招测试：仅本锤枪使用专属动作，权重由INI选择，FCS公共权重为0；实际命中走游戏物理与原生医疗。"
+              ]
+            ],
+            "filename": [
+              [
+                "bare sword",
+                "./mods/IrisArsenal/assets/iris_weapon.mesh"
+              ],
+              [
+                "ground mesh",
+                "./mods/IrisArsenal/assets/iris_weapon.mesh"
+              ],
+              [
+                "icon",
+                "./mods/IrisArsenal/assets/iris_weapon_icon.png"
+              ],
+              [
+                "mesh",
+                "./mods/IrisArsenal/assets/iris_weapon.mesh"
+              ],
+              [
+                "physics file",
+                ""
+              ],
+              [
+                "sheath",
+                ""
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 274,
+          "type": 112,
+          "id": 0,
+          "name": "IrisArsenal drill proof animations",
+          "key": "2-IrisArsenal.mod",
+          "save": 16,
+          "end": 5437,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_drill_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_drill_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 850,
+          "type": 17,
+          "id": 0,
+          "name": "IrisArsenal Drill Proof",
+          "key": "3-IrisArsenal.mod",
+          "save": 16,
+          "end": 6287,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                false
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                90.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                36.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_DrillProof"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 445,
+          "type": 21,
+          "id": 0,
+          "name": "伊莉丝锤枪·验证原型",
+          "key": "4-IrisArsenal.mod",
+          "save": 16,
+          "end": 6732,
+          "fields": {
+            "bool": [
+              [
+                "blueprint only",
+                false
+              ],
+              [
+                "is level upgrade",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "production mult",
+                1.0
+              ],
+              [
+                "repeat mult",
+                1.0
+              ]
+            ],
+            "long": [
+              [
+                "level",
+                2
+              ],
+              [
+                "money",
+                8000
+              ],
+              [
+                "power capacity increase",
+                0
+              ],
+              [
+                "power increase",
+                0
+              ],
+              [
+                "repeats",
+                0
+              ],
+              [
+                "time",
+                6
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "category",
+                "Core"
+              ],
+              [
+                "description",
+                ""
+              ]
+            ],
+            "filename": []
+          },
+          "refs": [
+            {
+              "category": "enable weapon type",
+              "targets": [
+                [
+                  "1-IrisArsenal.mod",
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "category": "requirements",
+              "targets": [
+                [
+                  "52323-rebirth.mod",
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "size": 288,
+          "type": 112,
+          "id": 0,
+          "name": "Iris fire_roll animations",
+          "key": "30-IrisArsenal.mod",
+          "save": 16,
+          "end": 7020,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_fire_roll_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_fire_roll_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 839,
+          "type": 17,
+          "id": 0,
+          "name": "火焰翻滚",
+          "key": "10-IrisArsenal.mod",
+          "save": 16,
+          "end": 7859,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                25.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_fire_roll"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 279,
+          "type": 112,
+          "id": 0,
+          "name": "Iris spiral animations",
+          "key": "31-IrisArsenal.mod",
+          "save": 16,
+          "end": 8138,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_spiral_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_spiral_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 836,
+          "type": 17,
+          "id": 0,
+          "name": "螺旋飞舞",
+          "key": "11-IrisArsenal.mod",
+          "save": 16,
+          "end": 8974,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                30.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_spiral"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 291,
+          "type": 112,
+          "id": 0,
+          "name": "Iris earthquake animations",
+          "key": "32-IrisArsenal.mod",
+          "save": 16,
+          "end": 9265,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_earthquake_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_earthquake_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 834,
+          "type": 17,
+          "id": 0,
+          "name": "地震",
+          "key": "12-IrisArsenal.mod",
+          "save": 16,
+          "end": 10099,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                false
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                45.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_earthquake"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 276,
+          "type": 112,
+          "id": 0,
+          "name": "Iris drill animations",
+          "key": "33-IrisArsenal.mod",
+          "save": 16,
+          "end": 10375,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_drill_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_drill_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 844,
+          "type": 17,
+          "id": 0,
+          "name": "螺旋袭击钻天破",
+          "key": "13-IrisArsenal.mod",
+          "save": 16,
+          "end": 11219,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                70.0
+              ],
+              [
+                "attack distance min vs static",
+                12.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_drill"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 291,
+          "type": 112,
+          "id": 0,
+          "name": "Iris full_burst animations",
+          "key": "34-IrisArsenal.mod",
+          "save": 16,
+          "end": 11510,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_full_burst_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_full_burst_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 840,
+          "type": 17,
+          "id": 0,
+          "name": "全力爆发",
+          "key": "14-IrisArsenal.mod",
+          "save": 16,
+          "end": 12350,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                100.0
+              ],
+              [
+                "attack distance min vs static",
+                20.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_full_burst"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 279,
+          "type": 112,
+          "id": 0,
+          "name": "Iris vulcan animations",
+          "key": "35-IrisArsenal.mod",
+          "save": 16,
+          "end": 12629,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_vulcan_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_vulcan_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 839,
+          "type": 17,
+          "id": 0,
+          "name": "极速火神炮",
+          "key": "15-IrisArsenal.mod",
+          "save": 16,
+          "end": 13468,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                5000.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_vulcan"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 276,
+          "type": 112,
+          "id": 0,
+          "name": "Iris pulse animations",
+          "key": "36-IrisArsenal.mod",
+          "save": 16,
+          "end": 13744,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_pulse_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_pulse_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 835,
+          "type": 17,
+          "id": 0,
+          "name": "脉冲之焰",
+          "key": "16-IrisArsenal.mod",
+          "save": 16,
+          "end": 14579,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                false
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                5000.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_pulse"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 276,
+          "type": 112,
+          "id": 0,
+          "name": "Iris drive animations",
+          "key": "37-IrisArsenal.mod",
+          "save": 16,
+          "end": 14855,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_drive_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_drive_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 835,
+          "type": 17,
+          "id": 0,
+          "name": "极致驱动",
+          "key": "17-IrisArsenal.mod",
+          "save": 16,
+          "end": 15690,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                false
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                10000.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_drive"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 303,
+          "type": 112,
+          "id": 0,
+          "name": "Iris electro_cannon animations",
+          "key": "38-IrisArsenal.mod",
+          "save": 16,
+          "end": 15993,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_electro_cannon_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_electro_cannon_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 844,
+          "type": 17,
+          "id": 0,
+          "name": "电脉加农",
+          "key": "18-IrisArsenal.mod",
+          "save": 16,
+          "end": 16837,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                45.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_electro_cannon"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        },
+        {
+          "size": 297,
+          "type": 112,
+          "id": 0,
+          "name": "Iris hammer_combo animations",
+          "key": "39-IrisArsenal.mod",
+          "save": 16,
+          "end": 17134,
+          "fields": {
+            "bool": [
+              [
+                "preprocess",
+                true
+              ]
+            ],
+            "f32": [],
+            "long": [],
+            "vec3": [],
+            "vec4": [],
+            "string": [],
+            "filename": [
+              [
+                "female animation",
+                "./mods/IrisArsenal/assets/iris_action_hammer_combo_female.skeleton"
+              ],
+              [
+                "male animation",
+                "./mods/IrisArsenal/assets/iris_action_hammer_combo_male.skeleton"
+              ]
+            ]
+          },
+          "refs": []
+        },
+        {
+          "size": 842,
+          "type": 17,
+          "id": 0,
+          "name": "破坏之锤",
+          "key": "19-IrisArsenal.mod",
+          "save": 16,
+          "end": 17976,
+          "fields": {
+            "bool": [
+              [
+                "1 handed",
+                false
+              ],
+              [
+                "blunt",
+                false
+              ],
+              [
+                "disabled",
+                true
+              ],
+              [
+                "gains ground",
+                true
+              ],
+              [
+                "hackers",
+                false
+              ],
+              [
+                "heavy weapons",
+                true
+              ],
+              [
+                "is block",
+                false
+              ],
+              [
+                "is dodge",
+                false
+              ],
+              [
+                "is prone",
+                false
+              ],
+              [
+                "is stumble dodge",
+                false
+              ],
+              [
+                "katanas",
+                false
+              ],
+              [
+                "low strike",
+                false
+              ],
+              [
+                "polearm",
+                false
+              ],
+              [
+                "sabre",
+                false
+              ],
+              [
+                "unarmed",
+                false
+              ]
+            ],
+            "f32": [
+              [
+                "acceptable end time",
+                99.5
+              ],
+              [
+                "anim blocked frame 1",
+                99.0
+              ],
+              [
+                "anim blocked frame 2",
+                0.800000011920929
+              ],
+              [
+                "anim hesitate point",
+                0.0
+              ],
+              [
+                "anim speed mult",
+                1.0
+              ],
+              [
+                "anim stop frame 1",
+                99.0
+              ],
+              [
+                "anim stop frame 2",
+                1.0
+              ],
+              [
+                "attack distance",
+                25.0
+              ],
+              [
+                "attack distance min vs static",
+                0.0
+              ],
+              [
+                "chance",
+                0.0
+              ],
+              [
+                "max encumbrance",
+                999.0
+              ],
+              [
+                "max skill",
+                999.0
+              ],
+              [
+                "min skill",
+                0.0
+              ],
+              [
+                "num frames",
+                100.0
+              ]
+            ],
+            "long": [
+              [
+                "animal",
+                0
+              ],
+              [
+                "attack direction 1",
+                0
+              ],
+              [
+                "attack direction 2",
+                1
+              ],
+              [
+                "limb 1",
+                0
+              ],
+              [
+                "limb 2",
+                4
+              ],
+              [
+                "max simultaneous hits",
+                0
+              ],
+              [
+                "num techniques",
+                1
+              ],
+              [
+                "power 1",
+                0
+              ],
+              [
+                "power 2",
+                100
+              ]
+            ],
+            "vec3": [],
+            "vec4": [],
+            "string": [
+              [
+                "anim name",
+                "IrisArsenal_hammer_combo"
+              ]
+            ],
+            "filename": []
+          },
+          "refs": []
+        }
+      ]
+    }
+  },
+  "patches": [
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal_EndPoem_Patch",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal_IKEMEN_Patch"
+  ],
+  "deployed_manifest_files": 136,
+  "deployed_manifest_mismatches": [],
+  "anchors": {
+    "IrisArsenal.cpp": [
+      {
+        "line": 125,
+        "text": "void ReadAssets(){"
+      },
+      {
+        "line": 157,
+        "text": "bool UsesWeapon(CharStats* stats){"
+      },
+      {
+        "line": 161,
+        "text": "bool ActorReady(Character* c){"
+      },
+      {
+        "line": 164,
+        "text": "return c&&c->isValid()&&!c->isDestroyed()&&c->isHuman()&&!c->isDead()&&!c->medical.isUnconcious()&&c->stats&&c->animation&&UsesWeapon(c->stats);}"
+      },
+      {
+        "line": 206,
+        "text": "void End(Candidate& a,bool alive,const char* reason){"
+      },
+      {
+        "line": 218,
+        "text": "void Clear(bool alive,const char* reason){IrisDiagnostics::ResetCombatInterfaceAudit();Log(std::string(\"lifecycle_clear_begin reason=\")+reason);IrisDiagnostics::Flush(true);IrisRanged::Reset();IrisCombat::Clear(alive,reason);for(std::map<hand,Candidate>::iterator i=actors.begin();i!=actors.end();++i){End(i->second,alive,reason);i->second.visual.Clear(alive);}actors.clear();IrisDiagnostics::Summary(reason,true);IrisDiagnostics::Flush(true);}"
+      },
+      {
+        "line": 381,
+        "text": "void Tick(GameWorld* w){"
+      },
+      {
+        "line": 455,
+        "text": "void __fastcall FrameHook(GameWorld* w,float dt){"
+      },
+      {
+        "line": 501,
+        "text": "void __fastcall SafeHook(GameWorld* w){"
+      },
+      {
+        "line": 525,
+        "text": "bool NativeStandingMeleeAllowed(CharStats* stats,CombatTechniqueData* native){"
+      },
+      {
+        "line": 534,
+        "text": "CombatTechniqueData* __fastcall ChooseHook(CharStats* stats,float range,float reach,CombatTechniqueData* last,bool stationary){"
+      },
+      {
+        "line": 554,
+        "text": "float Speed(AnimationClass* animation,CombatTechniqueData* selected,float nativeSpeed,IrisDiagnostics::HookAudit* audit){"
+      },
+      {
+        "line": 574,
+        "text": "void __fastcall ResetHook(GameWorld* w){{Lock lock;Clear(scene!=0,\"world_reset\");deferredDelta=0;}originalReset(w);}"
+      },
+      {
+        "line": 575,
+        "text": "void __fastcall ShutdownHook(Renderer* r){{Lock lock;if(r==renderer){Clear(scene!=0,\"renderer_shutdown\");scene=0;renderer=0;resources=false;}IrisDiagnostics::Flush(true);}originalShutdown(r);}"
+      },
+      {
+        "line": 579,
+        "text": "__declspec(dllexport) void startPlugin(){"
+      }
+    ],
+    "IrisCombat.cpp": [
+      {
+        "line": 61,
+        "text": "bool Finite(float);bool Finite(const Ogre::Vector3&);bool ActorReady(Character*);"
+      },
+      {
+        "line": 113,
+        "text": "bool OwnTechniqueIdentity(CombatTechniqueData* technique){"
+      },
+      {
+        "line": 139,
+        "text": "float VisualLayerAge(const std::string& key,unsigned layer,float age){"
+      },
+      {
+        "line": 336,
+        "text": "void Return(Visual& v){"
+      },
+      {
+        "line": 389,
+        "text": "bool CanDamage(Character* caster,Character* victim,bool ranged,const char** reason){"
+      },
+      {
+        "line": 392,
+        "text": "bool DamageTarget(Character* caster,Character* victim,unsigned move){return CanDamage(caster,victim,move==5||move==6||move==7);}"
+      },
+      {
+        "line": 395,
+        "text": "bool IgnoreRangedContact(Character* caster,Character* victim){return !CanDamage(caster,victim,true);}"
+      },
+      {
+        "line": 461,
+        "text": "void AuditActionEnd(const Actor& a,const char* why,int observedMove,Ogre::AnimationState* state,bool paused){"
+      },
+      {
+        "line": 487,
+        "text": "void End(Actor& a,const char* why,int observedMove=-1,Ogre::AnimationState* state=0,bool paused=false){"
+      },
+      {
+        "line": 491,
+        "text": "void Clear(bool alive,const char* reason){"
+      },
+      {
+        "line": 560,
+        "text": "void Configure(const std::wstring& dir){"
+      },
+      {
+        "line": 705,
+        "text": "void Observe(Character* c){"
+      },
+      {
+        "line": 717,
+        "text": "float AnimationLength(Character* c,int i){"
+      },
+      {
+        "line": 740,
+        "text": "float Speed(AnimationClass* a,CombatTechniqueData* t,float speed){"
+      },
+      {
+        "line": 747,
+        "text": "void Started(AnimationClass* a,CombatTechniqueData* t){if(Index(t)<0)return;for(std::map<hand,Actor>::iterator i=actors.begin();i!=actors.end();++i)if(i->second.animation==a)++i->second.start;}"
+      },
+      {
+        "line": 858,
+        "text": "bool Contacts(GameWorld* w,const Path& path,IrisNative::Contacts& result,unsigned& budget,float* cylinderLength=0,IrisNative::Contacts* terrain=0,const IrisSector::Volume* sector=0,bool drillSphere=false){"
+      },
+      {
+        "line": 1078,
+        "text": "void ResolveJobs(GameWorld* w,unsigned& budget){"
+      },
+      {
+        "line": 1168,
+        "text": "bool Swing(Job& j,const Matrix4& baseNow,const Matrix4& baseBefore,const Vector3& origin,float length,float radius,"
+      },
+      {
+        "line": 1213,
+        "text": "bool TraceBladeWindows(const hand& owner,Actor& a,const Matrix4& weapon,float t){"
+      },
+      {
+        "line": 1273,
+        "text": "bool Emit(Character* c,const hand& key,Actor& a,const Event& e,const Matrix4& weapon,float clipTime){"
+      },
+      {
+        "line": 1398,
+        "text": "void ShowParts(Character* c,Actor& a,const Matrix4& w,float t){"
+      },
+      {
+        "line": 1513,
+        "text": "void AdvanceEffects(GameWorld* w,float dt,const Vector3& origin,unsigned& budget){"
+      },
+      {
+        "line": 1632,
+        "text": "void Tick(GameWorld* w,Ogre::SceneManager* sm,float gameDelta){"
+      },
+      {
+        "line": 1745,
+        "text": "HitMaterialType __fastcall VulcanDefenceHook(CombatClass* self,CutDirection dir,Damages& damage,Character* who){"
+      },
+      {
+        "line": 1813,
+        "text": "void __fastcall MeleeStumbleHook(Character* self,CutDirection dir,Damages& damage,GameData* part,Character* attacker){"
+      },
+      {
+        "line": 1834,
+        "text": "bool __fastcall MeleeBlockCheckHook(CombatClass* self,float myAttack,float incomingAttack){"
+      },
+      {
+        "line": 1849,
+        "text": "void InstallDefenceGate(){"
+      },
+      {
+        "line": 1942,
+        "text": "void Flush(GameWorld* w){"
+      }
+    ],
+    "IrisRanged.cpp": [
+      {
+        "line": 37,
+        "text": "bool Accepting();bool ActorReady(Character*);bool UsesWeapon(CharStats*);bool Finite(float);bool Finite(const Ogre::Vector3&);"
+      },
+      {
+        "line": 48,
+        "text": "void Configure(const std::wstring& directory){"
+      },
+      {
+        "line": 63,
+        "text": "Vector3 NativeBodyPoint(Character* target){"
+      },
+      {
+        "line": 142,
+        "text": "void Discover(Character* c){if(c&&!Find(c))pendingActors.insert(c->handle);}"
+      },
+      {
+        "line": 152,
+        "text": "bool __fastcall UseHook(Character* c){"
+      },
+      {
+        "line": 158,
+        "text": "bool __fastcall HasHook(AI* ai,const hand& target,const Vector3& pos){"
+      },
+      {
+        "line": 167,
+        "text": "float __fastcall ScoreHook(AI* ai,const hand& target,const Vector3& pos){"
+      },
+      {
+        "line": 179,
+        "text": "bool __fastcall WithinHook(AI* ai,const hand& target,const Vector3& pos){"
+      },
+      {
+        "line": 187,
+        "text": "GunClass* __fastcall GunHook(RangedCombatClass* ranged){"
+      },
+      {
+        "line": 195,
+        "text": "void __fastcall AnimationHook(RangedCombatClass* ranged,float dt,const Vector3& aim,RootObject* target){"
+      },
+      {
+        "line": 214,
+        "text": "void __fastcall ShotHook(GunClass* gun,Character* c,RootObject* target,StatsEnumerated stat,const Vector3& aim){"
+      },
+      {
+        "line": 229,
+        "text": "bool __fastcall ReloadHook(RangedCombatClass* ranged){"
+      },
+      {
+        "line": 242,
+        "text": "void Install(){"
+      },
+      {
+        "line": 273,
+        "text": "void Prepare(GameWorld* world){"
+      },
+      {
+        "line": 314,
+        "text": "bool CaptureAim(Character* c,const Vector3& muzzle,AimFrame& frame,float effectiveShotSpeed,bool instant){"
+      },
+      {
+        "line": 344,
+        "text": "void Publish(Character* c,bool ready,float range,const Vector3& muzzle){"
+      },
+      {
+        "line": 360,
+        "text": "bool TakeRequest(Character* c,hand& target){Slot* s=Find(c);if(!s||!s->pending||!Eligible(c))return false;s->pending=false;target=s->target;return true;}"
+      },
+      {
+        "line": 361,
+        "text": "void Finish(const hand& actor){"
+      },
+      {
+        "line": 372,
+        "text": "void Reset(){"
+      }
+    ],
+    "IrisDiagnostics.cpp": [
+      {
+        "line": 122,
+        "text": "void InterfaceScope::Finish(double at){"
+      },
+      {
+        "line": 470,
+        "text": "static double Number(const std::wstring& ini,const wchar_t* key,double fallback){"
+      },
+      {
+        "line": 473,
+        "text": "static bool Switch(const std::wstring& ini,const wchar_t* key,bool fallback){double n=Number(ini,key,fallback?1:0);if(n!=0&&n!=1)throw std::runtime_error(std::string(\"logging switch requires 0 or 1: \")+std::string(key,key+wcslen(key)));return n!=0;}"
+      },
+      {
+        "line": 505,
+        "text": "void Flush(bool force){"
+      }
+    ],
+    "IrisNativeAudit.cpp": [
+      {
+        "line": 48,
+        "text": "void Configure(bool nativeProfile,bool serviceProfile,bool gapProfile,unsigned sampleEvery){"
+      },
+      {
+        "line": 65,
+        "text": "void Install(){"
+      },
+      {
+        "line": 124,
+        "text": "void Frame::Finish(){"
+      },
+      {
+        "line": 149,
+        "text": "void Reset(){"
+      }
+    ],
+    "IrisWoundAudit.cpp": [
+      {
+        "line": 47,
+        "text": "void Configure(bool value,bool branches){"
+      },
+      {
+        "line": 120,
+        "text": "void Install(bool available){"
+      },
+      {
+        "line": 150,
+        "text": "void Reset(){if(!option||!lockReady)return;Lock lock;InterlockedIncrement(&epoch);/* 不释放当前线程或其他线程尚在使用的栈上下文。 */}"
+      }
+    ],
+    "native/NativeMultiContact.cpp": [
+      {
+        "line": 150,
+        "text": "static bool ReadObjectKey(NxShape* shape,ObjectKey* out,unsigned& exceptionCode){"
+      },
+      {
+        "line": 226,
+        "text": "static QueryStatus RayBlocker(void* world,const Point& from,const Point& motion,unsigned groups,Contacts& result,unsigned& queryCalls){"
+      },
+      {
+        "line": 364,
+        "text": "QueryStatus SweepAll(void* world,const Point& from,const Point& motion,float radius,unsigned groups,Contacts& result,unsigned& queryCalls,bool charactersOnly){"
+      },
+      {
+        "line": 386,
+        "text": "QueryStatus ProjectileAll(void* world,const Point& from,const Point& motion,float radius,unsigned groups,Contacts& characters,Contacts& terrain,unsigned& queryCalls){"
+      },
+      {
+        "line": 487,
+        "text": "QueryStatus OverlapSphere(void* world,const Point& center,float radius,unsigned groups,Contacts& result,unsigned& queryCalls,bool boundsOnly){"
+      },
+      {
+        "line": 504,
+        "text": "QueryStatus OverlapCapsule(void* world,const Point& from,const Point& to,float radius,unsigned groups,Contacts& result,unsigned& queryCalls){"
+      },
+      {
+        "line": 527,
+        "text": "QueryStatus OverlapCapsules(void* world,const CapsuleInput* paths,unsigned count,unsigned groups,Contacts* results,BatchDiagnostic& diagnostic,unsigned& queryCalls){"
+      },
+      {
+        "line": 602,
+        "text": "QueryStatus CylinderAll(void* world,const Point& from,const Point& motion,float radius,unsigned groups,Contacts& result,float& actualLength,unsigned& queryCalls){"
+      }
+    ],
+    "native/QueryGate.h": [],
+    "native/IniValues.h": [
+      {
+        "line": 18,
+        "text": "inline double Number(const std::wstring& ini,const wchar_t* section,const wchar_t* key,double fallback){"
+      }
+    ]
+  },
+  "before_user_compile_DLL": [
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\bin\\Release\\IrisArsenal.dll",
+      "bytes": 884224,
+      "mtime_ns": 1793027474534973500,
+      "sha256": "29bd1232d73d626660a4f256c4f4e7e6e7c8a904e4ace9671d560ab1aff8c96a",
+      "contracts": [
+        "IRIS_BLADE_POSES",
+        "IRIS_BLADE_WINDOWS",
+        "IRIS_BURST_CALIBRATION_068",
+        "IRIS_CAPSULE_POLICY_081",
+        "IRIS_COMBAT_POLICY_061",
+        "IRIS_CONSERVATIVE_QUERY_094",
+        "IRIS_CONTACT_WORK_087",
+        "IRIS_DAMAGE_CATCHUP_099",
+        "IRIS_DAMAGE_QUEUE_053",
+        "IRIS_DRILL",
+        "IRIS_DRILL_FINISHER_064",
+        "IRIS_DRILL_RING_GATE_066",
+        "IRIS_DRILL_SPHERE_098",
+        "IRIS_DRIVE_REBUILD_059",
+        "IRIS_EIGHT",
+        "IRIS_EIGHT_042",
+        "IRIS_EQUIPMENT_STATE_079",
+        "IRIS_FIRE_CANNON_058",
+        "IRIS_FX_CUES",
+        "IRIS_FX_CURVES",
+        "IRIS_HEIGHT_REACTION_CANNON_ICON_047",
+        "IRIS_HOOK_AUDIT_078",
+        "IRIS_HOOK_FAST_076",
+        "IRIS_INI_DIRECT_103",
+        "IRIS_INTERFACE_PROBE_092",
+        "IRIS_LONGTERM_AUDIT_052",
+        "IRIS_MEDICAL_BRANCH_086",
+        "IRIS_MEDICAL_GATE_083",
+        "IRIS_MELEE_BLOCK_043",
+        "IRIS_MELEE_REACTION_044",
+        "IRIS_MULTI_ACTOR_075",
+        "IRIS_NATIVE_AIM_060",
+        "IRIS_NATIVE_MELEE_072",
+        "IRIS_NATIVE_PROFILE_084",
+        "IRIS_NATIVE_SECTOR_097",
+        "IRIS_NATIVE_TERRAIN_077",
+        "IRIS_PERFORMANCE_080",
+        "IRIS_PHYSX_COMPAT_054",
+        "IRIS_PROJECTILE_TIMELINE_102",
+        "IRIS_QUERY_BATCH_088",
+        "IRIS_QUERY_BOUNDARY_093",
+        "IRIS_QUERY_GATE_100",
+        "IRIS_RANGED_GATE_062",
+        "IRIS_RANGED_RAY_057",
+        "IRIS_RANGED_WORK_089",
+        "IRIS_SEAT_SURFACE_CANNON_050",
+        "IRIS_SOURCE_MUZZLE_063",
+        "IRIS_SPATIAL_PROJECTILES_090",
+        "IRIS_SWEEP_SHAPE_INDEX_086",
+        "IRIS_THREE_SOURCE_FX_067",
+        "IRIS_WEAPON_CAPSULES",
+        "IRIS_WINDOW_AUDIT_082",
+        "IRIS_WING_CENTERS",
+        "IRIS_WORK_TRACE_091",
+        "IRIS_WOUND_PROFILE_085"
+      ]
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.dll",
+      "bytes": 884224,
+      "mtime_ns": 1793027482342926900,
+      "sha256": "29bd1232d73d626660a4f256c4f4e7e6e7c8a904e4ace9671d560ab1aff8c96a",
+      "contracts": [
+        "IRIS_BLADE_POSES",
+        "IRIS_BLADE_WINDOWS",
+        "IRIS_BURST_CALIBRATION_068",
+        "IRIS_CAPSULE_POLICY_081",
+        "IRIS_COMBAT_POLICY_061",
+        "IRIS_CONSERVATIVE_QUERY_094",
+        "IRIS_CONTACT_WORK_087",
+        "IRIS_DAMAGE_CATCHUP_099",
+        "IRIS_DAMAGE_QUEUE_053",
+        "IRIS_DRILL",
+        "IRIS_DRILL_FINISHER_064",
+        "IRIS_DRILL_RING_GATE_066",
+        "IRIS_DRILL_SPHERE_098",
+        "IRIS_DRIVE_REBUILD_059",
+        "IRIS_EIGHT",
+        "IRIS_EIGHT_042",
+        "IRIS_EQUIPMENT_STATE_079",
+        "IRIS_FIRE_CANNON_058",
+        "IRIS_FX_CUES",
+        "IRIS_FX_CURVES",
+        "IRIS_HEIGHT_REACTION_CANNON_ICON_047",
+        "IRIS_HOOK_AUDIT_078",
+        "IRIS_HOOK_FAST_076",
+        "IRIS_INI_DIRECT_103",
+        "IRIS_INTERFACE_PROBE_092",
+        "IRIS_LONGTERM_AUDIT_052",
+        "IRIS_MEDICAL_BRANCH_086",
+        "IRIS_MEDICAL_GATE_083",
+        "IRIS_MELEE_BLOCK_043",
+        "IRIS_MELEE_REACTION_044",
+        "IRIS_MULTI_ACTOR_075",
+        "IRIS_NATIVE_AIM_060",
+        "IRIS_NATIVE_MELEE_072",
+        "IRIS_NATIVE_PROFILE_084",
+        "IRIS_NATIVE_SECTOR_097",
+        "IRIS_NATIVE_TERRAIN_077",
+        "IRIS_PERFORMANCE_080",
+        "IRIS_PHYSX_COMPAT_054",
+        "IRIS_PROJECTILE_TIMELINE_102",
+        "IRIS_QUERY_BATCH_088",
+        "IRIS_QUERY_BOUNDARY_093",
+        "IRIS_QUERY_GATE_100",
+        "IRIS_RANGED_GATE_062",
+        "IRIS_RANGED_RAY_057",
+        "IRIS_RANGED_WORK_089",
+        "IRIS_SEAT_SURFACE_CANNON_050",
+        "IRIS_SOURCE_MUZZLE_063",
+        "IRIS_SPATIAL_PROJECTILES_090",
+        "IRIS_SWEEP_SHAPE_INDEX_086",
+        "IRIS_THREE_SOURCE_FX_067",
+        "IRIS_WEAPON_CAPSULES",
+        "IRIS_WINDOW_AUDIT_082",
+        "IRIS_WING_CENTERS",
+        "IRIS_WORK_TRACE_091",
+        "IRIS_WOUND_PROFILE_085"
+      ]
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.dll",
+      "bytes": 884224,
+      "mtime_ns": 1793027482342926900,
+      "sha256": "29bd1232d73d626660a4f256c4f4e7e6e7c8a904e4ace9671d560ab1aff8c96a",
+      "contracts": [
+        "IRIS_BLADE_POSES",
+        "IRIS_BLADE_WINDOWS",
+        "IRIS_BURST_CALIBRATION_068",
+        "IRIS_CAPSULE_POLICY_081",
+        "IRIS_COMBAT_POLICY_061",
+        "IRIS_CONSERVATIVE_QUERY_094",
+        "IRIS_CONTACT_WORK_087",
+        "IRIS_DAMAGE_CATCHUP_099",
+        "IRIS_DAMAGE_QUEUE_053",
+        "IRIS_DRILL",
+        "IRIS_DRILL_FINISHER_064",
+        "IRIS_DRILL_RING_GATE_066",
+        "IRIS_DRILL_SPHERE_098",
+        "IRIS_DRIVE_REBUILD_059",
+        "IRIS_EIGHT",
+        "IRIS_EIGHT_042",
+        "IRIS_EQUIPMENT_STATE_079",
+        "IRIS_FIRE_CANNON_058",
+        "IRIS_FX_CUES",
+        "IRIS_FX_CURVES",
+        "IRIS_HEIGHT_REACTION_CANNON_ICON_047",
+        "IRIS_HOOK_AUDIT_078",
+        "IRIS_HOOK_FAST_076",
+        "IRIS_INI_DIRECT_103",
+        "IRIS_INTERFACE_PROBE_092",
+        "IRIS_LONGTERM_AUDIT_052",
+        "IRIS_MEDICAL_BRANCH_086",
+        "IRIS_MEDICAL_GATE_083",
+        "IRIS_MELEE_BLOCK_043",
+        "IRIS_MELEE_REACTION_044",
+        "IRIS_MULTI_ACTOR_075",
+        "IRIS_NATIVE_AIM_060",
+        "IRIS_NATIVE_MELEE_072",
+        "IRIS_NATIVE_PROFILE_084",
+        "IRIS_NATIVE_SECTOR_097",
+        "IRIS_NATIVE_TERRAIN_077",
+        "IRIS_PERFORMANCE_080",
+        "IRIS_PHYSX_COMPAT_054",
+        "IRIS_PROJECTILE_TIMELINE_102",
+        "IRIS_QUERY_BATCH_088",
+        "IRIS_QUERY_BOUNDARY_093",
+        "IRIS_QUERY_GATE_100",
+        "IRIS_RANGED_GATE_062",
+        "IRIS_RANGED_RAY_057",
+        "IRIS_RANGED_WORK_089",
+        "IRIS_SEAT_SURFACE_CANNON_050",
+        "IRIS_SOURCE_MUZZLE_063",
+        "IRIS_SPATIAL_PROJECTILES_090",
+        "IRIS_SWEEP_SHAPE_INDEX_086",
+        "IRIS_THREE_SOURCE_FX_067",
+        "IRIS_WEAPON_CAPSULES",
+        "IRIS_WINDOW_AUDIT_082",
+        "IRIS_WING_CENTERS",
+        "IRIS_WORK_TRACE_091",
+        "IRIS_WOUND_PROFILE_085"
+      ]
+    }
+  ],
+  "compiled104_validation": {
+    "user_compiled": true,
+    "bin_version": "0.4.54",
+    "bin_sha256": "1869b6fdbb1f02cc21742cc496f42d2b1585484e149d32b5d293880be42afc80",
+    "package_version": "0.4.54",
+    "package_sha256": "1869b6fdbb1f02cc21742cc496f42d2b1585484e149d32b5d293880be42afc80",
+    "package_ready": true,
+    "package_files_verified": 136,
+    "source_contract": "IRIS_HOLDER_TIMELINE_104",
+    "deployed_version": "0.4.53",
+    "deployed_sha256": "29bd1232d73d626660a4f256c4f4e7e6e7c8a904e4ace9671d560ab1aff8c96a",
+    "deployed_updated": false,
+    "game_tested104": false,
+    "PDB": {
+      "path": "E:\\KenshiProject\\2.Projects\\bin\\Release\\IrisArsenal.pdb",
+      "sha256": "5edf011a4b9c49e66a2547466e7941ca4b086bc632209bd10079e62a30bd3b1c",
+      "GUID_hex": "711e6566a9d4d04da8b984ae417dc929",
+      "age": 1,
+      "stream1_version": 20000404,
+      "matches_DLL_CodeView": true
+    },
+    "agent_compiled": false
+  }
+}

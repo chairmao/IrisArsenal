@@ -1,0 +1,36 @@
+{
+  "project": "E:\\KenshiProject\\2.Projects\\IrisArsenal",
+  "version": "0.3.7",
+  "contract": "IRIS_EIGHT_037",
+  "compiled": false,
+  "deployed": false,
+  "agent_compiled": false,
+  "runtime_package_complete": false,
+  "solution": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.sln",
+  "target": "Release|x64 / v100",
+  "source_units": [
+    "IrisArsenal.cpp",
+    "IrisCombat.cpp",
+    "IrisRanged.cpp",
+    "native/NativeMultiContact.cpp"
+  ],
+  "validation": "docs/validation-0.3.7.json",
+  "current_fix": "docs/drill-finisher-0.3.7.md",
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-DrillFinisher-037-20261017-114528",
+  "installed_DLL": {
+    "version": "0.3.6",
+    "contract": "IRIS_EIGHT_036",
+    "DLL_sha256": "7259361d9a8149c697cb5b6fbdd226aa83bd41a2ebc5bb7f083b55638d492f82",
+    "DLL_bytes": 560640,
+    "runtime_observed": false,
+    "runtime_observed_note": "本轮开始看到真实游戏进程；文件仍036，未观察037运行"
+  },
+  "file_report": "docs/drill-finisher-0.3.7-files.json",
+  "game_tested_after_fix": false,
+  "missing_runtime_artifact": "037需用户Release|x64/v100编译，036不可混包",
+  "source_assets_changed": false,
+  "original_ALS_files_missing": false,
+  "compiled_by": "user",
+  "entry": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\UpdateMod.cmd",
+  "deployment_report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\update-runs\\IrisArsenal-Update-20261017-112437-835035-1193a731\\result.json"
+}

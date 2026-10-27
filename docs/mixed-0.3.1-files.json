@@ -1,0 +1,765 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+    "Role": "主插件版本与配置消费",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "a060c413234b573a0a28d72133c964249de3cb4750bccda73d28cf1d86c4a611",
+    "Changes": [
+      "启动时调用远程配置读取；031合同拒绝旧030和新FXv4混装"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "ed3a1aa7948fc580c28671278432706dbac9e866dd857454fdf7b63c20c53c33",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220248-671975\\edit-220248-689003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220248-671975\\edit-220248-690004\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ],
+      "encoding": "UTF-8/CRLF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+    "Role": "DLL版本资源",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "ca53cfc6ea048640738cbc2483cafbf468fc2d715665150e9a63c6636e4d3fc8",
+    "Changes": [
+      "升级0.3.1，与配置和FXv4消费者配套"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "74ecf05a5c748c92f16aeed4b77d4879f4da4937025e764b5127ef56443e4dc3",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220248-671975\\edit-220248-694264\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220248-671975\\edit-220248-696475\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+    "Role": "八招特效与命中消费者",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "66c52b6fda478b103d3c2a4bc0d27e26dbb87e0f9f7e672afffe72ee1ecccde5",
+    "Changes": [
+      "火神/脉冲R4.5，脉冲R36源命中四层；25通道分层光学/扩散；极致驱动同cast连续束四次伤害，枪口辅助层与螺旋连续原武器刀光；有界共享资源与完整清理",
+      "仅新增脉冲R4.5分支；火神继续由自身事件半径驱动，保留原数据合同"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "12009354d9bcbff543594c7b2fe8ff7832c3eb346fc54873117bc1553c67b3c4",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220248-671975\\edit-220248-700762\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220248-671975\\edit-220248-701873\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ],
+      "encoding": "UTF-8/CRLF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+    "Role": "原生远程能力适配",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "ba2927b5ed0096a8112810968f4a75f6a9d8802f74736ce2a8ba14bfde7da8c4",
+    "Changes": [
+      "RangedActionInterval浮点配置，默认1.0，0～3600严格验证；同一整套动作后原生min/max端点相等，原生射击流程和生命周期保持",
+      "显式包含_finite的CRT声明，避免v100依赖间接包含"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "1f94f7fb3488d4b10b9f0b6a43c812f6ee4969e1cf87194b1bffb477d20ab44e",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220248-671975\\edit-220248-682068\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220248-671975\\edit-220248-684349\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+      ],
+      "encoding": "UTF-8/CRLF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+    "Role": "远程模块公开合同",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "b2bb9ec6198a48aa512abf477b9675d30a714511e50fa0f26db6796ce978da52",
+    "Changes": [
+      "增加配置入口，间隔不改成插件墙钟计时器"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "515b945bc0651ec813fcbf532665c26927e75ca9f46ad32f0a75752093ee0959",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220248-671975\\edit-220248-673029\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220248-671975\\edit-220248-675493\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h"
+      ],
+      "encoding": "UTF-8/CRLF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "Role": "当前项目状态与使用说明",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "b74e9355327287ed9a6f4d0821c4dc678d0b07e139e72b3df3ae8268bb4c3ca1",
+    "Changes": [
+      "追加031当前段，保留旧历史；纠正当前实际已部署030身份，说明新代码需编译和四招测试切换"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "922118b66e40c2c02abf6311f090d1904e4705f3346973aab1e71a2bce38556e",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-221457-999438\\edit-221458-004909\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-221457-999438\\edit-221458-007560\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "Role": "当前项目状态与使用说明",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "0de0ffd1ebf809ea1afde9bedc6809817ff01cd2de4527da9dece00536150e49",
+    "Changes": [
+      "追加031当前段，保留旧历史；纠正当前实际已部署030身份，说明新代码需编译和四招测试切换"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "5dcef34f633a485902ef795e60121181ce6f4067752cd703ed9bb58a6100030d",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-221457-999438\\edit-221458-013333\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-221457-999438\\edit-221458-015398\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+    "Role": "真实交付身份",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "743c801cdce661ba92d88d43e7d6ceb5b3c436b6d4cff5888e2f9338e147d6b9",
+    "Changes": [
+      "项目031未编译，游戏030保持；源/Iris模组只读，代码材质静态通过不能代替实机"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "e66a228b5b3d91dc1235210985627a189d3b4da4662f3dd1e9cb92a23dfee615",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-221457-999438\\edit-221458-020743\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-221457-999438\\edit-221458-022188\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+    "Role": "八招特效来源与差异",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "3f076d88842f08d2126f8f152966a5bd72609231d482786ecfb522cf90cbaeaf",
+    "Changes": [
+      "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "e285c76da4ee3bf4171dd8f64bcdf555660d08620c1ca69f46ca89bab506c5ea",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220006-891975\\edit-220015-360280\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220006-891975\\edit-220015-362886\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+    "Role": "招式规格合同",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "8dea44c593e7a4a14f57db019b3c140f21cf7eee642696a9e33423045598b2be",
+    "Changes": [
+      "031两招距离、脉冲爆炸和四招测试名单；沿用源HKX及事件时间，非实机验收"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "b73d9d6518ad2557cce0396daa05f6b3ba68ede7429ea69280f67dd006386911",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220410-285698\\edit-220410-336711\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220410-285698\\edit-220410-338710\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\mixed-0.3.1.md",
+    "Role": "本轮实现与证据说明",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "记录五点要求、实际源依赖/四层与源曲线、仍未完整移植项、编译/部署边界和测试入口"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "64a57cc39e7921f82e52a0fc5bf0a057408c2bf91e0a2c17cc83fd98c38ded20",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.3.1.json",
+    "Role": "八招非编译验收证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "fa17675a488f062abbf7ede33513395b35f347c574789ca5c360a789255b0af4",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+    "Role": "源特效作者",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "afeb76437816e0fff05e999ecd8631c71c712c2f77272a3b5ccf5d5eaeaa1c2b",
+    "Changes": [
+      "导入ESP真实引用的EldenRim脉冲命中四层、Iris枪口四层；分层时间控制器、保守可视包围盒和Shader实例参数，不编译",
+      "ManualObject使用不含Entity custom的静态VP；新分层实例自动常量只用于自身SubEntity，避免渲染参数缺失"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "d3197ea7fdf937f8761bf8f7dad9c6b77cb7483ef20fd5905837e5e83bb94fd3",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220006-564244\\edit-220006-577144\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220006-564244\\edit-220006-580195\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+    "Role": "动作参数作者",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "c0de4f5a5ce0f0c1ffaafc81241effc7c18801985a50c0b5cc362ac05c82880b",
+    "Changes": [
+      "FCS两招0～360、脉冲R36默认；测试启用spiral/vulcan/pulse/drive，配置1单位整套间隔；身体事件不重做"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "59c19438e4ee5b7ff2ae76e49fd7c64803854c83b3032dd1a93f2396152135c2",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220410-285698\\edit-220410-307713\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220410-285698\\edit-220410-310983\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_timeline.py",
+    "Role": "源NIF时间曲线读取",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "严格逐块读取变换/原光学曲线，30Hz有界采样，网格默认世界矩阵转增量矩阵；只导出自有材质，不控制角色",
+      "源爆炸含TCB缩放；严格消费张力/偏置/连续性，时间步进与Hermite均按独立键组求值",
+      "按Niftools官方枚举核对：0为发光倍率，1～4为衰减，5为透明；处理控制器目标shader别名，25值完整采样",
+      "源可见性按祖先节点共同控制，解析bool与vis字段；变换曲线应用原frequency/phase，保持源数据时钟"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "8315525af76f4804ca0670b16786de8a6d678c8eb5812fecd1b30aa2258a6291",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+    "Role": "用户编译后组包门",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "3ee6dffb8ef612774ec7eb07b9bf50cc5373ef089661e57df43ff56dd648ee2a",
+    "Changes": [
+      "必须031 x64与最新源时戳；全包校验包含源曲线，不把旧030当新版本"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "7919b6cb5e2b2be3b62cf59cfe113310cb0440eb79e79ff4e2e56fa465dd6a69",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220410-285698\\edit-220410-609351\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220410-285698\\edit-220410-611135\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+    "Role": "源特效交叉验证",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "逐一验证实际序列化顶点+25通道动态包围盒、源SHA、四层脉冲绑定、源时间变化、四招/1单位配置和独立静态TrailVP",
+      "动态包围盒按每层全部帧验证；FP自动常量绑定在真实material，VP绑定在program，两层共同校验",
+      "保留火神弹体跟随自身事件半径，脉冲独立R4.5/R36"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "f5203462f5611d83ad27b80f88011f9381c2bdf9a810388869969e43d6672f53",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+    "Role": "非编译回归检查",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "adbfbc2a2cc43090164b70e1a6c217745e4a450586db06b165ce4546475813ae",
+    "Changes": [
+      "031合同、四招测试与R36/可配置原生间隔；保留真实源几何/骨点/材质/SDK边界验证，不将解析模型当游戏验证"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "3bbaa4db79a7db3662b2ec46ec4814e98ca85eda85995f773744b69ef885a01a",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220726-827809\\edit-220726-854796\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220726-827809\\edit-220726-857032\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+    "Role": "非编译回归检查",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "924654b783e4e65650d32299d136dcc1ff9d3f52dfe16fd2a8f676e0342b8512",
+    "Changes": [
+      "031合同、四招测试与R36/可配置原生间隔；保留真实源几何/骨点/材质/SDK边界验证，不将解析模型当游戏验证"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "1d098dc86ac40c3836316cf7d0af0c9f6f9900b48515f8efb54a421f1e52e443",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220726-827809\\edit-220726-864425\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220726-827809\\edit-220726-866887\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+    "Role": "非编译回归检查",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "481781e0271affec6524f671a7f4c7fbd47c2158b1cbb2c3a6103a2ae8f19d41",
+    "Changes": [
+      "031合同、四招测试与R36/可配置原生间隔；保留真实源几何/骨点/材质/SDK边界验证，不将解析模型当游戏验证",
+      "保留火神弹体跟随自身事件半径，脉冲独立R4.5/R36"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "6caca61a904715961314d0f423917172ff84c2ba73a4a146e1f93ab2964ee457",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220726-827809\\edit-220726-843623\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220726-827809\\edit-220726-846999\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+    "Role": "非编译回归检查",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "983843d9b7655223e5238164aa580863ab73e4c51930d81b359abc77dc306946",
+    "Changes": [
+      "031合同、四招测试与R36/可配置原生间隔；保留真实源几何/骨点/材质/SDK边界验证，不将解析模型当游戏验证",
+      "源动态四类读取保守包围盒；静态几何边界和源摘要检查保持"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "a25ed20afd417757645fc2b19fe819e43ed02b6cbe3a5636e3ee23abeb7eb31e",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220726-827809\\edit-220726-830145\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220726-827809\\edit-220726-832158\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_prototype.py",
+    "Role": "独立网格解析验收",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "9ee6c81eb2fa6d9a500fb85cff3857b487e411aff6c8784dd7ec6b6db01cd9a1",
+    "Changes": [
+      "只对声明的动态曲线网格接受保守包围盒，普通武器严格等值保持；后续专项检验实际动态包络"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "59e0694aa90eff00d7ffc23c2e7411db804336d760e06bc2684e6cb1701bae87",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220828-795509\\edit-220828-797565\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_prototype.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220828-795509\\edit-220828-800653\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_prototype.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "测试配置",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "a7ae67623f7d84307a7fa91f082262ebf5848be82fd3b95713a35fa3443509a8",
+    "Changes": [
+      "新增RangedActionInterval=1.0；近战spiral/drive各1，远程vulcan/pulse各1"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "63324ace78df74547eda2ab4bac795cc6b4ccf6b02a7f40f1660345b2acc4c2d",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220410-285698\\edit-220410-596918\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220410-285698\\edit-220410-598670\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+    "Role": "八招隔离FCS记录",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "1ea339e4cd68465d99ca8a93bdb5ede8b25ef876dd4510f3b8a63611d57eb90d",
+    "Changes": [
+      "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "4dc6a7b63f696dae1e217851b0a4a906604d4ea25616efc1bd5ff26070a619a6",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220410-285698\\edit-220410-578584\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220410-285698\\edit-220410-580621\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "Role": "包状态",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "d5619e0c87e3ce7deff7b42925c94b5506e346f550fd562892bbf29caf4778d3",
+    "Changes": [
+      "031未编译，拒绝旧DLL和新材质混装；实际已部署030保持",
+      "刷新当前资源哈希并标明仍保留旧030 DLL；ready=false，编译031前禁止部署"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "b1a68d7f30fd9a56315894cc7054716fa4c9c96ba390eea05d6ae558b6225896",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220410-285698\\edit-220410-602599\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220410-285698\\edit-220410-605388\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+    "Role": "运行时显式子材质绑定",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "48979b3e0e2192d87d1a1fcb526cc7c3857e8d9ec076dcd47616ed3a15312439",
+    "Changes": [
+      "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "26ecb77e50e4d7829cc2392992dfad0a849012cb813d268383c2390c2a08d1e2",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220006-891975\\edit-220015-384732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220006-891975\\edit-220015-387309\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+    "Role": "分层源光学时间流",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理",
+      "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "664469fe7cc320aeadaf90e3867e49c60da7f463d11416539713b4068d47dcb7",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+    "Role": "八招源光学适配",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "2d3b3f268793d086d48e236178f5061e8eda2e2611ac65732860733399e21dc8",
+    "Changes": [
+      "源RGBA/梯度/UV流动/自发光，实例游戏时钟；不编译着色器",
+      "源RGBA/梯度/UV流动/自发光，实例游戏时钟；不编译着色器"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "bc15b4b32ab721d125b1190b100d61d6a251cf1c324fbefdcf4c4201fc74a96c",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220006-891975\\edit-220015-235509\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220006-891975\\edit-220015-237669\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+    "Role": "八招源材质",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "ac6134806f1a3a56f8c8ddb179f66d4b39fee269d9bf86622f7af9c38d73179b",
+    "Changes": [
+      "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理",
+      "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "8664a5a9b7cb60072c7842cc0d48060c72749697ad4d4e805be02016879e79c0",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220006-891975\\edit-220015-341608\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220006-891975\\edit-220015-344483\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+    "Role": "八招GPU程序声明",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "a745b8a37b5615fc70cb56d9f28ce5fdbfcba098caff0a083d9d3dca8c6ba927",
+    "Changes": [
+      "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "沿用源火色梯度与实际历史alpha，不新增伤害",
+      "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "沿用源火色梯度与实际历史alpha，不新增伤害",
+      "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "沿用源火色梯度与实际历史alpha，不新增伤害"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220006-891975\\edit-220015-241827\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220006-891975\\edit-220015-244141\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_0ac20a74e81ccbb9.png",
+    "Role": "源贴图同像素PNG",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "3f8f9a82ad55f759bf0dcf3695276fe9ca5cb8ea3635e709cb45ea143cb059fe",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_112ce527d5c52287.png",
+    "Role": "源贴图同像素PNG",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "482cfa669c6f5f8a02ec14051b9688f9fced9c4a5d8464d7b77e22a243ec25fa",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_17467551c38998e3.png",
+    "Role": "源贴图同像素PNG",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "53fbea8f7a6eb641efe537d9459a32d94b25211e5ecc0e17facc38f36da0b757",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_a4717a9eee81a216.png",
+    "Role": "源贴图同像素PNG",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "fe6c65291d61b138bbebe64d5b206ab09d3678ca6caeaedffeace20ead344455",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "bda860a091d2a6cf604580fb586d58baa07b7d15daab805219ff0ef0ef6a946e",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_pulse_blast.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "51e267e6b4acb3ed22c2801cee8c45ed152f7841536914b85001143f6a24a70a",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+    "Role": "事件数据消费合同",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "fbf854396ab5b8b42e9afaa2164b771f21900e5a79ce086c87bffb5b3d17fe7d",
+    "Changes": [
+      "两招0～360及脉冲R36；保持20发/3发/三武器击/四洪流脉冲时序"
+    ],
+    "Reasons": "用户本轮五项要求；源ESP/NIF/视频证据及边界见mixed-0.3.1.md",
+    "After": "da472533d59abfbd18f991d3bf9ad7fc2416fcdff3c4a8dd87297295eb9d99a3",
+    "Impact": "仅IrisArsenal项目源码/资产/验证/文档，031未编译/部署；旧原生战斗与事件数保留",
+    "Validation": "validation-0.3.1.json，含实际FCS/16动画/11源网格/分层包围/语法；MSVC/HLSL/实机未运行",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-220410-285698\\edit-220410-590564\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-220410-285698\\edit-220410-591934\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未完整移植NiPSys/程序闪电/Steam3身体发射器；四招姿态/可见效果/内存FPS和原生中断仍需实机"
+  }
+]

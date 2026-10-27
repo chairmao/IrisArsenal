@@ -1,0 +1,40 @@
+[h1]伊莉丝·锤枪 | Iris Arsenal[/h1]
+将伊莉丝的变形锤枪与专属动作带入《Kenshi》。同一把武器可近战挥击、展开钻头，也可通过“远程”战斗模式发射弹体和光炮。招式由战斗AI自动选择，无需逐招按键操作。
+
+[h2]当前内容[/h2]
+[list]
+[*]火焰翻滚：挥击后向后翻滚，在原先位置引发范围爆炸。
+[*]螺旋飞舞：斩击与旋转组成的三段攻击。
+[*]地震：跃起后震击地面，产生四次范围冲击。
+[*]螺旋袭击钻天破：钻头展开旋转，连续切割后展开双翼，触发蓝色冲击与火焰终结。
+[*]全力爆发：展开光刃，进行两次横扫与一次下劈爆炸。
+[*]电脉加农：坐锤演出，向前方发动四次范围攻击。
+[*]破坏之锤：不附加特效的三次武器挥击。
+[*]极速火神炮：连续发射20发弹体。
+[*]脉冲之焰：连续发射三发爆炸弹。
+[*]极致驱动：肩持蓄力，展开准星并发射粗壮光流，进行四次伤害结算。
+[/list]
+
+[h2]安装与使用[/h2]
+[list]
+[*]需要正确安装RE_Kenshi及其KenshiLib运行库。只订阅本模组不能代替安装插件加载器。
+[*]已测试环境：Windows x64、Steam版Kenshi 1.0.65、RE_Kenshi 0.3.5、KenshiLib 0.5.0。其他组合未逐项验证。
+[*]启用IrisArsenal。研究“伊莉丝锤枪·验证原型”（前置为基础武器锻造／Basic Weapon Smithing）后，通过武器锻造制作“伊莉丝·锤枪”。研究名称沿用现有记录。
+[*]装备后正常下达攻击命令。不勾选“远程”时使用近战招式；勾选后可使用三种远程招式，不消耗弩箭，也无需弹药装填。
+[*]本体不包含任何种族（RACE）覆盖。角色使用专属动作需要相应的独立种族动画补丁；已有IrisArsenal_EndPoem_Patch与IrisArsenal_IKEMEN_Patch按各自覆盖种族使用，放在原种族模组与IrisArsenal之后。本体不内置或合并这些补丁。
+[/list]
+
+[h2]配置与兼容[/h2]
+IrisArsenal.ini可调整招式权重、各段伤害倍率、近战起手距离、远程动作间隔以及部分防御／抗打断设置。权重设为0可禁用对应招式；修改后重启游戏。碰撞和特效范围保持配套，未作为任意缩放选项开放。
+
+武器基础伤害参考落日之刃×1.2，攻击+20、防御+10、穿甲50%、失血倍率2.5、室内加成0，属于高强度武器。群体爆炸、多个使用者和大量敌人会增加运行负担；密集战斗仍可能出现伤害结算延迟，性能优化会继续进行。
+
+模型、动画与特效会使用独立资源。修改相同种族动画引用、远程AI或受击流程的其他模组需要按实际组合测试；不宣称兼容全部战斗／种族模组。
+
+[h2]来源与致谢[/h2]
+动作、武器与特效参考并移植自Skyrim动作模组soulworker_Iris及其相关源资源；演示参考：[url=https://www.bilibili.com/video/BV1u14y1U74k/]伊莉丝动作展示[/url]。原始作品与素材的权利归各自作者。
+感谢RE_Kenshi／KenshiLib提供插件接口。极致驱动部分光流纹理来自Alexander123的BeamVFXAssets，采用CC0；详细来源见包内CREDITS.txt与CREDITS-drive059.txt。
+封面为根据武器参考制作的AI宣传插画，不是游戏实机截图。
+
+[h2]English summary[/h2]
+Iris Arsenal adds a transforming hammer-cannon with dedicated melee and ranged moves. Equip the weapon and issue normal attack orders; enable Ranged to use its ranged attacks. No ammunition is required. Requires RE_Kenshi with KenshiLib. Tested on Windows x64 / Steam Kenshi 1.0.65 / RE_Kenshi 0.3.5 / KenshiLib 0.5.0. Race animation integration is supplied by separate patches; the main mod contains no RACE overrides. Large battles may cause performance costs and delayed damage processing. The cover is promotional artwork, not an in-game screenshot.

@@ -1,0 +1,270 @@
+{
+  "package:IrisArsenal.mod": {
+    "before": "1809cc59226eb3c1e89a3aeb6b35cfa708319968e1b4c7db711216bece0e66d4",
+    "after": "f93f50c016ae26f2ce7959c498d8091921ca97a80bd547263efbd9a7b3c3c372",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:IrisPackage.json": {
+    "before": "f909afe2c06ef0192511384e15530fecab9e22f94e9594a0e9f73fbdf91d215c",
+    "after": "9bd90e0fa1e086fe55a014851c46a06cca81e2b06544a6a6180b8121770ef0e0",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/effects.csv": {
+    "before": "59d4070ceeac7ddc4773784ab12748678124fe738ff7139dab98f73e076de10b",
+    "after": "eab6e0fb03d7a612e202b1d04fadebf50bed0626495beafd8b206698c0bdc4a1",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/effect_cues.csv": {
+    "before": "1ae9b2ac50bd2fc68f8bc71d01f4d95b69d5eb85fb12fcd6dedb9c552398e072",
+    "after": "c6d3ad7c5407d17060f3a75acaf1657ad809be1fd67e3f1404337178a7da8031",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/effect_curves.csv": {
+    "before": "2ec6047eb0d7bf3b006f30a86e86d8a41ee7ab28393dbd8996be6476b2324949",
+    "after": "c97c158f35248b7ed2d7bf6b7993fa2c46a25573513a0f20638355a0afb8f8ab",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/iris_action_drive_female.skeleton": {
+    "before": "a2b310a5ade3d513f042523f6f94d19340b3525f18b7eb7718b952232a700253",
+    "after": "5889d72dfccf890b4024093aef66dcc7be88ca9e97d0b7367edadced08afa585",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/iris_action_drive_male.skeleton": {
+    "before": "573b9c955ab9bd8cd030550986f048c033ccc46d7dd9fc5fce144f992fa8f0f6",
+    "after": "52ee62f281b20014c724d20dc3153626f3fc38bd09f420a61ec025254200d7df",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/iris_drive_weapon_proof_female.csv": {
+    "before": "5e79c57092f21542075c75e8e9df8e6f795f07180da2c53ae645c1fe342cb713",
+    "after": "116f74e97b3796c8af3f381f98642439178514be0c72fbcc34ceeb16e4a9268c",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/iris_drive_weapon_proof_male.csv": {
+    "before": "7e4d9c2d802c7467422ac780e8c0cdec59f50d9ed58e3d3d9b61a9f395f97fb2",
+    "after": "9a7d4b9ed8f74ed930afe82834546272576d02956e104255912162185fa8aea4",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/iris_fx_beam.mesh": {
+    "before": "26fcaeffbfefd5163775126907e59e38223924b71f17cd4c2b3440617e5071f0",
+    "after": "2c683645d9e884727b807410b67a5b4289aed74be1916b5cfb7f27600a437561",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/iris_fx_ion.mesh": {
+    "before": "c3603d73812c7cb9c5a847e307d720f43d79281a7a1ad9cbfba97b5f9c98a6a3",
+    "after": "e4cace454c59f35e11f60920fdeed4caaf2921dfb8e4f5f2edb85c3b4b6f29f0",
+    "scope": "059 only drive/source version delivery"
+  },
+  "package:assets/moves.csv": {
+    "before": "a8f2cc73ab27674c9eba0938eb2c6dbe7d4d971c9589540d5cbe71db240c4b63",
+    "after": "0ee93dac1c5ee413b2976860d15d47e328ab139e768e2300cfa1b6c7a5f85320",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/author_effects.py": {
+    "before": "56414442135771f492e45074a2fb677e969b31d9c82f42b5e7c41907c4400e53",
+    "after": "7a1a4a4113df505af23eafd6e4e1fddad9866a679f2eadbe34af1a6eae4e397b",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/author_moves.py": {
+    "before": "1c0624cf483b9052c05e0ecb78a1462b66babbb5f68c3c22d0f7da17a2c07b80",
+    "after": "9214c0fe7b8f0fb42c312af2a3f2016e3965ce523477ec59fe89adb5ddaa942f",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/historical047.py": {
+    "before": "dbcde8816e7ec9b196921814dc80633416fa5d1f871e38676495099f821df325",
+    "after": "f7d2891d704d1188fbb56e2d3d55516b31e3f65389664ce1dcd1295dd99bdc3a",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/stage_package.py": {
+    "before": "ab7c83012986445bbbfd892f71dae5ffd6333208d2b7ac148f8f20a2ec21ac47",
+    "after": "022378fa763625c067aac2aba9bea670099f7e9865dcd337a5d4902cbe8f6a26",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_balance046.py": {
+    "before": "3c337b8a641a5b3191bdc259f1f5f41940ba789126414a6a546fb5d06061bb7b",
+    "after": "977f2e6d2beab7cc46934e69067cf6a7cd12b4aedc8d25925a9110199db10e61",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_cannon_quake.py": {
+    "before": "bbab749ad5cd7c683d1ba9420c16118b38bf35d495c2bbc863510ed64134cf74",
+    "after": "aa89e8955797c726e2a9c16691d0a4c14b35f2765fe2471d64a4835c396666da",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_capsule_batch056.py": {
+    "before": "307cb0e6116b3550fcbafd916a0eeb28606f1bb3eb34c88d241d51878c78af66",
+    "after": "d80a0c529e2a18db0869dceee9e62069fd5a03979a1367f4b21c7249f6facbe2",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_collision_damage055.py": {
+    "before": "df0b3f55eea68d0db4e06cdcbae4baec90d470452c89aba3008e38d3a77350e2",
+    "after": "c4491f47f20ddd03cbff207c1439be746b1632810419520670c478da38effd02",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_combat_036.py": {
+    "before": "7e1028682f4c79c1cd92fefaa17c30d837940a0f0a57ea41de415479c20782f1",
+    "after": "a8c709bd61ee921ac9c0748b0e625b86f1886cc9d72c913eabcbdc443e0cd229",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_drill_037.py": {
+    "before": "0427428fc56853eb242de279f0bd873ea57b867eba415f9d04adbe2fdaa360ea",
+    "after": "73f59f7a273590763ba99af9075a46b090327a7d3b3826c24699c69a259e9f7c",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_fire_cannon058.py": {
+    "before": "cd8519af2caf65f7d177a7357405d85701f8eedc13f86c454995959ad62301b4",
+    "after": "2c2845814f8e667ae0cdaed7672c5967942e4dce2f7191fd147fbab9a2e9170e",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_fx_timeline.py": {
+    "before": "4c7dd0e37d86d29dcd361f53a05fca99be8e8b0116cde1113336649d18b8e5b1",
+    "after": "1206a768ffda06275f787f7fba8312d4719bf16cdf657661e049c9430753cd9a",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_melee_reaction044.py": {
+    "before": "c56d77b7dc34b2154a6c85237bd3122561b8912c9b68275cf500a78e08363ca6",
+    "after": "697f91cb5038545182abcb2313cc5cad60b4a339bc64ebe3619d93ac2c22c6d4",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_move_parameters045.py": {
+    "before": "9c8f44ad778bb9810584754fb72f1eea041fee6ba2eee1d3367f5809c0f22d9d",
+    "after": "96a3a2b31ef7355fd455d4ad3625960b2ef38017725d6d1e84955e22c99563b2",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_optics.py": {
+    "before": "0af9eebba139e7f21fa2a56711d544e9609f480c5f35cb058bb7f9e7e1a81634",
+    "after": "a34333f59326ac14170e300de25c45364abade75f29ee0d674b4da3d460beabf",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_physx_compat054.py": {
+    "before": "7bcf55a2d01d8f706565c8f7b1b3915e8090076d50ae46dc39723c59f5af0b2f",
+    "after": "a9e45ed6ccb0d458c4dbd20369ce2518facda2d491914187e476d49c7b02bfe5",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_projectile_aim.py": {
+    "before": "c860370f093dbb9ea11a7756d67d4e3ce7f33c78525e0a7899c576b6b6a9451f",
+    "after": "3f7d77dff340a44bc2b45d2d8ea1ad7197136d653d6422d57864f2b245397ed1",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_queue_balance053.py": {
+    "before": "12299e634f9742f4353b903aabc57dc6ed304ab1341ebf95cbee6b43dedf765a",
+    "after": "3bf23e6a04daf363f08d5bfd0a667cb9e02e28cadab006a8250a5bdfd03888ba",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_ranged_contract.py": {
+    "before": "b35aa9863eb83cc2ac7a1a432ff8872ad10a4d680e6cebb77382d192633d6a2b",
+    "after": "d0f11d0deaede522ae637e4e6a1b9dbb111cf4c2e272cb2bcabe372d0670172a",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_ranged_ray057.py": {
+    "before": "97cb8134931d1b397f8195f3f23b75f51fbc343c8da0269667462526fc7ced73",
+    "after": "ccf9a5b1388f0ed202fa99d307f8776d74ffb4b8beed8682f29f8db541dee81d",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_release047.py": {
+    "before": "820f52e198f3bb941f3908cc8987a4c3ef8fab6d9de569688c0aec27398098e7",
+    "after": "0b440a52e8d86f33cc732f08e925b1c668f605654019e407d310ca82dd4b2caf",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_source_alignment049.py": {
+    "before": "08a977fc378acc3d51e0d444f8c9eabd78d96d1c0a62aa27cbd928a425b3f09e",
+    "after": "ccb0bfb68f980857935b888fee3107486b48d1fa7f3f3a7665cfa93a6a28d957",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_source_fire040.py": {
+    "before": "3e4b30a8f7f3026316fa8a1bbe4f0fadeca61514243c52e5ed65a154247c582f",
+    "after": "aca63f2d68d5924b0625ede7504ed33ca9ba668122702b83fc59aee4c8d5281d",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_surface050.py": {
+    "before": "085e01d10be9f01cdae55b36c78e6df77b0fec9889ecd6d8d5a66668d16cf403",
+    "after": "cf373178016916a5c9d1fc2bfbacea837ac8a245640e78f3518bd848563a8e3e",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/test_vulcan_contract.py": {
+    "before": "797dd5b19f685f5e49ecf23f819622c0ae57f416f31ebd15fcad6c9df250cbe5",
+    "after": "f281ba32f616ba5ce5b5a67652885aa0c380ad97246d8ea784e33057bb43e711",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:tools/verify_moves.py": {
+    "before": "71cb7beab4daa434569173e98a49287fdb041e64f7121bbe6762511b4ec263bf",
+    "after": "3d34bd18ec1265056c769e9aba5421ff2dd0e46230555e5fae99a8bc5aada8b1",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:IrisArsenal.cpp": {
+    "before": "a1610a2e1d1dabd7e495738ccabc77b40a48382ad252cc8a2a3fafda61d5bbb7",
+    "after": "878ad5cbf20c049678ae90da0495715d5904d929631bc0183d6231a348e8206f",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:IrisCombat.cpp": {
+    "before": "18a8f45a627d1f260a6ebd1790712a722c8c497bf5a3b8faadc9899e96cbbe8d",
+    "after": "97e67bc561b227b6c4478deafe212d718e903d75dcb9fce915fe3042cd2dad22",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:IrisDiagnostics.cpp": {
+    "before": "682312eaa68b91f0c922671b71bbbe65f7ac747487cb5817c8b87bea21d036c4",
+    "after": "49e5f11f386f13eee6612bc280d4c891f13dfde94beb06770ba222bd14628e49",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:IrisArsenal.rc": {
+    "before": "ab2eefbdf676c95583a5f76db66b1adf37ea5153814e92572fd2293e4fa9a3b5",
+    "after": "e2c7f6d870baa4762642d9f2c1fc80b5b8355b5984a8e8bce4b46b17d78b2fd7",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:README.md": {
+    "before": "4deb01ed8c4cff446060e9a724d053eee2224b365af520e7408835f165a2a12b",
+    "after": "013b4bf38b04b9b3c6621826e6f00a5a2c27dc850b1d82fc9b8b5e9f0dcd91c2",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:STATE.md": {
+    "before": "167ab1ba2ca9d5c6ab22e3e21415f944157de89bc69f00bfd793d29b36b187db",
+    "after": "d1b285d2623cb8f1eed5f0a0ce2445bbc26751706ef5c4cb9c507dbc047f5116",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:docs/eight-moves.json": {
+    "before": "8a856ede39b97ea708f6708ff212366992787a65c24c687e122963578f22ae5f",
+    "after": "0c050a99ded1a3b10eb217f867abbe87fbe181002d86797b09e8a3d0befdbb84",
+    "scope": "059 only drive/source version delivery"
+  },
+  "root:docs/eight-effects.json": {
+    "before": "f61fd13121f0577ee054a8869ed20ed3062943d68b8b8a593f0d03c345aa794c",
+    "after": "0ce50d3cdafea49b5f54cbe0ecad6bf1709867fef062fccf4f12c4f09cff35eb",
+    "scope": "059 only drive/source version delivery"
+  },
+  "function:ShowParts": {
+    "before": "3b5bfd5c39c11e1bad2855ae6156b3164a44cc0bc591ced1336b35927d4475dc",
+    "after": "de6354c211001ac548fe3ff548b9bed49557864a326ca00d4f0765b8122eb558",
+    "scope": "059 drive / identity"
+  },
+  "function:DrawBeam": {
+    "before": "79063baef80956a8422269369fad371c53f7e6ff968aafb59871c52938e7b84a",
+    "after": "ee5abe2a82c28ffa644f19383495eb5be37221b251857f89deb57d4baf636e1c",
+    "scope": "059 drive / identity"
+  },
+  "function:Emit": {
+    "before": "36aa7e673cfdee40707faaa00df4451624479e034199896c1b23c8339133665b",
+    "after": "681f60fcc0d2dd6ac9e65cb84d39dd023e72b3f0ba122b1ecb6579d48af53432",
+    "scope": "059 drive / identity"
+  },
+  "function:Emit_055_normalized": {
+    "before": "3a695a462245179b1e090901c2c3b9bd7ea186c8d1cb19635b11f309088c7f47",
+    "after": "e09f74c05d3293f720060c1f72954c146a57bc630711940d749a490fd887e76f"
+  },
+  "function:Configure": {
+    "before": "870f34191af1183d916d4b80b8081b486d68c5786e67215438b1ce81a9a166bb",
+    "after": "e913a9b5229b1aa1b4554699d4f2115c7544baecf0037993afb7738aceaf14b9",
+    "scope": "059 drive / identity"
+  },
+  "function:Initialize": {
+    "before": "d073613004865378a0dbea1d2d54844e25955a8061b3675ebe048f6497db5674",
+    "after": "f8fc9bbc412329b9c9e6a0bdc64566c4a5738c1025c7325255321b1d70085b9a",
+    "scope": "059 drive / identity"
+  },
+  "function:Log": {
+    "before": "c98678a6fb4f20eb1716066a1be241f86926e2bea16c78be007d250edb54fca1",
+    "after": "197696e3ea5efddfaf4f5fb1a4d06ce190281c711f2fa2af6dc59a9dd4932e86",
+    "scope": "059 drive / identity"
+  },
+  "record:17-IrisArsenal.mod": {
+    "before": "e72f697ba79c64fa5300be013bcefa3251aeb763f1db2306ac513f9ef8d9bda3",
+    "after": "8294f6002d77bb31084fad2699dbafdd29061605222e4c8c699bafcb40f5a8f2"
+  }
+}

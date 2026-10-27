@@ -1,0 +1,12 @@
+{
+  "game_mod_files_unchanged": 106,
+  "source_Iris_files_unchanged": 376,
+  "game_DLL": {
+    "version": "0.3.2",
+    "sha256": "4127929024c4e6a9794e60e3c8bd91f08baa989a41b0fdae15035b5cedb591cf"
+  },
+  "agent_compiled": false,
+  "agent_deployed": false,
+  "new_dependencies": false,
+  "baseline": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-FxFix-033-20261017-013302-160fde\\baseline.json"
+}

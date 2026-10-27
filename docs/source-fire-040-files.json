@@ -1,0 +1,1538 @@
+{
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-040-20261017-170430",
+  "files": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\VoiceFlameWaveProject03.nif",
+      "Role": "来源核对缓存",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "读取FullBust_End明确调用的火焰吐息NIF，不改Skyrim源文件"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "25c671a705f73ec939dfcf03ff0899358456386891a939906ff68968251f910b",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-170653-905843-VoiceFlameWaveProject03.nif.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\MPSFireWaveFlames.nif",
+      "Role": "原附加节点的真实火焰缓存",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "按ADDN64/9解析指向，不替换为通用火球"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "3e3bb4fd95a0952c76f8e3e2c7d4bf6a4fbde85272a12a46a267d7e39178572d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-170946-886516-MPSFireWaveFlames.nif.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\MPSFireBoltImpact01.nif",
+      "Role": "原附加节点的真实火焰缓存",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "按ADDN64/9解析指向，不替换为通用火球"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "1bc018c4d9d9102803869624be504c8dcde645dff7dee6616b950644b054ae3e",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-170946-897598-MPSFireBoltImpact01.nif.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_timeline.py",
+      "Role": "原火焰运动与方向适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "8315525af76f4804ca0670b16786de8a6d678c8eb5812fecd1b30aa2258a6291",
+      "Changes": [
+        "增加原火焰吐息独立控制器链与真实附加节点变换；既有序列不变",
+        "恢复原FireWave自运行UV循环，防止云纹滚动被错误钳停"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "8dd1c87977cd81db169b1a6c96a4012f15bd493a1708e14a9972c20e28577835",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171522-099825\\edit-171522-100917\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_timeline.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171522-099825\\edit-171522-105148\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_timeline.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172442-017236\\edit-172442-047710\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_timeline.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172442-017236\\edit-172442-050616\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_timeline.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171522-114690-fx_timeline.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172442-058193-fx_timeline.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+      "Role": "原MPS出生角度",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "6692a4f67f936dc4890d352d1e52ea5c9e92b6d7ddffda75824ce83264d2f137",
+      "Changes": [
+        "支持原ADDN64/9的MasterParticleSystem和MultiTargetEmitter控制器，保留源发射率/寿命/图集",
+        "按niftools官方字段顺序修正MaxEmitters/Master指针；拒绝不支持格式",
+        "原火焰共享池为300粒子，扩展已验证MPS的静态容量上界，不改游戏预算",
+        "读取实际MPS未受控匀强重力，驱动源火焰升腾；不自行添加风/湍流，默认旧层为0",
+        "原火浪两层角速度为0，保留其初始角度/变幅；不再全圆随机翻转火苗；其他旧层保持"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "812d47fcb4650627c6dbf519795acb75efc0bbfdf7414b4cd6de58492259acaf",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171522-099825\\edit-171522-116694\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171522-099825\\edit-171522-120203\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-171931-651822\\edit-171931-652823\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171931-651822\\edit-171931-656264\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172127-814393\\edit-172127-816716\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172127-814393\\edit-172127-820158\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172442-017236\\edit-172442-019236\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172442-017236\\edit-172442-022740\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-176415\\edit-173324-177415\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-176415\\edit-173324-181912\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171522-129012-drill_particles.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171931-666688-drill_particles.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172127-829210-drill_particles.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172442-032769-drill_particles.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173324-191970-drill_particles.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "040范围复核",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "449f3f38f5eb2b2343a0532622e88d6a92d66ba3bdb13358b3a79b3417b3e3ae",
+      "Changes": [
+        "前两刀维持原生连续体积查询；终结一次R90球、同源火焰；火神新增源枪口附件与完整清理；17FX/9曲线合同",
+        "原火浪跟随释放时的原生朝向快照，落地翻滚仅取水平朝向；视觉中心与球形伤害一致，不额外抬高火焰",
+        "将新火浪朝向严格限于翻滚/钻天破/全力爆发；保持其他五招现有朝向，更新真实消费者注释"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "a879461987426093775fddc594d90e70842da66c449f4f90095215cedd481f1d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171522-099825\\edit-171522-132532\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171522-099825\\edit-171522-134520\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172442-017236\\edit-172442-061209\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172442-017236\\edit-172442-063215\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174158-864922\\edit-174158-866925\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174158-864922\\edit-174158-869433\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "CRLF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171522-137026-IrisCombat.cpp.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172442-066213-IrisCombat.cpp.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174158-872436-IrisCombat.cpp.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "Role": "040原资源效果移植",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "63efb7ea63992a5a131f1b56717c9a58dc8c0c051a63c1989bac43cf45ca956d",
+      "Changes": [
+        "全力爆发第三事件改球形一次3倍/R90，源时间/FCS/其余伤害保持；版本040"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "46226fb0ba29e0a483d2925d8266a536260ea876b390a7d1cfdb2d362382a4af",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171522-099825\\edit-171522-139259\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171522-099825\\edit-171522-143268\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171522-152328-author_moves.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "040原资源效果移植",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "85e7a7c3435f48f59e01ab5fe300d2bdbc6e6e763ea3a0e432ab07c16c7c75cf",
+      "Changes": [
+        "本轮新C++/事件/17FX9曲线配套版本；旧039 DLL必须拒绝混装"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "28baec6c86aa551f64e172212d72f2f2f02fff316a9dbc92d6f4bef3b679a9d9",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171522-099825\\edit-171522-154337\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171522-099825\\edit-171522-156539\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "CRLF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171522-161043-IrisArsenal.cpp.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Role": "040原资源效果移植",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "b3fe2ba9cdf9c69bfcfd785c796d54f2a353879b6a83f14f668755be48babf8b",
+      "Changes": [
+        "本轮新C++/事件/17FX9曲线配套版本；旧039 DLL必须拒绝混装"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "cf1fc4fb3a7125afc6e9200417cbb634151ac7a4b4dc8e73aaeebc71d98279e8",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171522-099825\\edit-171522-162390\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171522-099825\\edit-171522-163401\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171522-165401-IrisArsenal.rc.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Role": "040原资源效果移植",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "59f393b0511d6f0aba8aae7921df5fd766893d99759675d4fe9f0b361612609e",
+      "Changes": [
+        "本轮新C++/事件/17FX9曲线配套版本；旧039 DLL必须拒绝混装"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "754157c52443118c8289df7122565e84c22c03b6a2e05c83ad44672c4fc3a730",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171522-099825\\edit-171522-167161\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171522-099825\\edit-171522-169172\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171522-174691-stage_package.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Role": "验收报告字段",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "efb75616b07f33fc85be6752128ca60f64abaf18fe1513a0dc47270582c81818",
+      "Changes": [
+        "本轮新C++/事件/17FX9曲线配套版本；旧039 DLL必须拒绝混装",
+        "实际17FX，与生产者和消费者一致"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "b262d3702bd41b6ea0e6226e1a8b9ccbe700591851823dbd150b62a200ad3883",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171522-099825\\edit-171522-176716\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171522-099825\\edit-171522-179197\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-279610\\edit-174351-322675\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-279610\\edit-174351-326532\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171522-187737-verify_moves.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174351-335660-verify_moves.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+      "Role": "当前源行为边界说明",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "6ad2cbbadcc137b593d61ea7da67f89f09a7c6ab5393aa462f28bc859eab8e4c",
+      "Changes": [
+        "移除039随机八象限火球；引入原FireWave曲面/七发射点和真实枪口ADDN09，严格保留源布局",
+        "源匀强重力统一缩放，保守边界包含抛物线极值；不按子层单独归一",
+        "源7附加点共享容量，枪口原0.1秒旋转，缩放只使用有颜色的有效范围；不添加自拟布局",
+        "独立变换探针避免零半径，仅用于矩阵读取，不生成这一个点",
+        "只以可见源布局校准整体比例，裁剪仍保守覆盖透明尾部的所有源变换",
+        "源两套系统承载七发射对象，按相同材质/匀强力合批；保留每粒独立时钟和位置，降低绘制份数",
+        "区分已支持匀强重力与未执行的完整源粒子引擎"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "ab0ba1ce180db67ef497512251e6cffab09e4a07c0e6b3a555bfa811ca063f34",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171702-958012\\edit-171702-963527\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171702-958012\\edit-171702-966520\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172442-017236\\edit-172442-034769\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172442-017236\\edit-172442-037848\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172806-158530\\edit-172806-160010\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172806-158530\\edit-172806-164023\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-236148\\edit-172932-237809\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-236148\\edit-172932-240817\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-512339\\edit-173227-555225\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-512339\\edit-173227-558226\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173757-934104\\edit-173757-935564\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173757-934104\\edit-173757-939571\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-279610\\edit-174351-309335\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-279610\\edit-174351-312579\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fire_burst.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171702-972164-fire_burst.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172442-045615-fire_burst.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172806-173481-fire_burst.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172932-247232-fire_burst.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173227-563897-fire_burst.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173757-947784-fire_burst.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174351-320677-fire_burst.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+      "Role": "当前来源/限制说明",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "354d05c76a94af76700e6d7aa2fb920c93f6c2601a8821854ce0825126529042",
+      "Changes": [
+        "17FX/9曲线；枪口原资源独立附件，不复用准星",
+        "删除过时SW/通用火球描述，说明实际资源链及尚未移植的源行为"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "470e4dec560d2eac772e263541b088a1111ba69620f96cd5828659fe90aa67d4",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171702-958012\\edit-171702-974177\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171702-958012\\edit-171702-977173\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-279610\\edit-174351-280661\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-279610\\edit-174351-284295\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171702-988262-author_effects.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174351-295338-author_effects.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py",
+      "Role": "当前两相来源说明",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "ec76cc5617eec2c3bd99597aa1bb1a93a6676f133361cd2a4ab4ba821d3313ae",
+      "Changes": [
+        "蓝相不变；火相改同源完整FireWave，延迟0.56秒与翻滚/全力爆发共享",
+        "原火浪数据与明确支持/未支持项，如实记录而非宣称完整原引擎"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "fd7de01492b55f467bc1820ee14c987e9ad50f00a86689ea500888a4b0c1b7da",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171702-958012\\edit-171702-990772\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171702-958012\\edit-171702-992778\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-279610\\edit-174351-297345\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-279610\\edit-174351-300337\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171702-998975-drill_finisher.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174351-307826-drill_finisher.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+      "Role": "八招隔离FCS记录",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "b761f1737e945552987b4a734ab1180b3a924daa1e2ecfa867dbaf8e8214a033",
+      "Changes": [
+        "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "f88f256a22a33e7ab32230e39cc36fca54fc374e0cb057164df27727e6294f54",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171703-308816\\edit-171718-948092\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171703-308816\\edit-171718-951698\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+        ],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171718-955391-IrisArsenal.mod.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+      "Role": "八招源身份/时序/重定向合同",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a36b70a05974c798e6914f6751ba1b3aa1eb4654680bb824815a9cfdf7087cb4",
+      "Changes": [
+        "源HKX时间统一映射；火神20发、脉冲3发、地震4震、钻头11脉冲加炮弹"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "ac292b634926c59180f606399c6fee9e1c8f51120d308e1c07695658a955aeae",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171703-308816\\edit-171718-968906\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171703-308816\\edit-171718-970906\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171718-975010-eight-moves.json.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+      "Role": "八招运行时事件流",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "8503c897e49879352e7ee2db435105d459cacf89727e5821f8e4240720832fc2",
+      "Changes": [
+        "编号/帧长/事件类型/倍率/半径；与身体FCS时间共同消费，严格8招和事件数"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "84a6a5e871ff7d6cd05d9a8e6801d13d916565e4e8c884d062687e6bfd5ea837",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-171703-308816\\edit-171718-978323\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-171703-308816\\edit-171718-979322\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-171718-983826-moves.csv.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+      "Role": "原火焰引用证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "FullBust_End到原FireWave七发射点与六片曲面；不是通用火球",
+        "FullBust_End到原FireWave七发射点与六片曲面；不是通用火球",
+        "FullBust_End到原FireWave七发射点与六片曲面；不是通用火球",
+        "FullBust_End到原FireWave七发射点与六片曲面；不是通用火球",
+        "FullBust_End到原FireWave七发射点与六片曲面；不是通用火球",
+        "FullBust_End到原FireWave七发射点与六片曲面；不是通用火球",
+        "FullBust_End到原FireWave七发射点与六片曲面；不是通用火球"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "4cf17f85de5f97925adac1454136cfdca2683b41487bb0ab2bce0c9801ab316d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172544-899750\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172544-909767\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172806-502554\\edit-172818-602515\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172806-502554\\edit-172818-610519\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-874293\\edit-173241-036380\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-874293\\edit-173241-043380\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-500398\\edit-173337-539893\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-500398\\edit-173337-559432\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173811-129234\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173811-145305\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-664579\\edit-174404-607989\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-664579\\edit-174404-628780\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-burst-040.json"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172143-352573-fire-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172544-934609-fire-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172818-629518-fire-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173241-078942-fire-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173337-608045-fire-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173811-197948-fire-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174404-677038-fire-burst-040.json.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+      "Role": "原资源效果网格",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "07c3d7b584a3b5c9e1bf50829382e7fd4e3813295d3ee65e036a40d90bc61216",
+      "Changes": [
+        "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团",
+        "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团",
+        "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团",
+        "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团",
+        "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "879682b8a0d3564d8549c76f5de6955551372f44e3e343d67560640e94a5914d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172128-281184\\edit-172143-358543\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172128-281184\\edit-172143-365258\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172806-502554\\edit-172818-635953\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172806-502554\\edit-172818-637954\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-874293\\edit-173241-096213\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-874293\\edit-173241-101209\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-500398\\edit-173337-625112\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-500398\\edit-173337-628259\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173811-215551\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173811-219396\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_fire_blast.mesh"
+        ],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172143-369744-iris_fx_fire_blast.mesh.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172818-641440-iris_fx_fire_blast.mesh.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173241-105209-iris_fx_fire_blast.mesh.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173337-630263-iris_fx_fire_blast.mesh.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173811-222606-iris_fx_fire_blast.mesh.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\muzzle-fire-040.json",
+      "Role": "枪口引用/有限容量证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "原NAM1和ADDN09，和飞弹/准星资源、医疗完全分开",
+        "原NAM1和ADDN09，和飞弹/准星资源、医疗完全分开",
+        "原NAM1和ADDN09，和飞弹/准星资源、医疗完全分开",
+        "原NAM1和ADDN09，和飞弹/准星资源、医疗完全分开"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "51edb2bf609ceebaf5df6ff3306726142ff5ad2c6f524a399dd0d6b600a12bc6",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172545-456599\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\muzzle-fire-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172545-459603\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\muzzle-fire-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172948-451266\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\muzzle-fire-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172948-454511\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\muzzle-fire-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-500398\\edit-173338-155490\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\muzzle-fire-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-500398\\edit-173338-160490\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\muzzle-fire-040.json"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172143-910358-muzzle-fire-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172545-468124-muzzle-fire-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172948-461679-muzzle-fire-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173338-165498-muzzle-fire-040.json.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle_fire.mesh",
+      "Role": "原资源效果网格",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团",
+        "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团",
+        "完整源层级/曲面/纹理/有限附加粒子；不任意拼凑火团"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "b1825b5f56a5d942b88806652047b8167407c8f4efe21e9202aa2a830370f60a",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172948-465572\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle_fire.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172948-468962\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle_fire.mesh",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-500398\\edit-173338-169490\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle_fire.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-500398\\edit-173338-173749\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle_fire.mesh"
+        ],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172143-913588-iris_fx_muzzle_fire.mesh.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172948-474448-iris_fx_muzzle_fire.mesh.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173338-178741-iris_fx_muzzle_fire.mesh.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+      "Role": "原ALS→原SW爆炸分层",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "c8259d89212be5309522a2f5b5073f5be71e833c914f70b89194811b583776dd",
+      "Changes": [
+        "原ALS电离层透明化，0.52秒结束；0.56秒后原FireWave六曲面/七个源附加发射体；无巨型火焰卡片，不复用地震",
+        "原ALS电离层透明化，0.52秒结束；0.56秒后原FireWave六曲面/七个源附加发射体；无巨型火焰卡片，不复用地震",
+        "原ALS电离层透明化，0.52秒结束；0.56秒后原FireWave六曲面/七个源附加发射体；无巨型火焰卡片，不复用地震",
+        "原ALS电离层透明化，0.52秒结束；0.56秒后原FireWave六曲面/七个源附加发射体；无巨型火焰卡片，不复用地震"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "e154d2edee7d9a40fd30a71cbafa5268b595c565cf45603c2cc72471fd3e8e15",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172128-281184\\edit-172147-775694\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172128-281184\\edit-172147-781212\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172952-342724\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172952-346759\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-500398\\edit-173341-425459\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-500398\\edit-173341-429353\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173814-429201\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173814-437283\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh"
+        ],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172147-785284-iris_fx_drill_blast.mesh.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172952-350706-iris_fx_drill_blast.mesh.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173341-433288-iris_fx_drill_blast.mesh.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173814-440331-iris_fx_drill_blast.mesh.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+      "Role": "原终结发射器证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "保留原源/矩形32帧图集/有界发射/曲面；降低蓝相遮挡，火焰与翻滚共享材质，蓝火不同时出生",
+        "保留原源/矩形32帧图集/有界发射/曲面；降低蓝相遮挡，火焰与翻滚共享材质，蓝火不同时出生",
+        "保留原源/矩形32帧图集/有界发射/曲面；降低蓝相遮挡，火焰与翻滚共享材质，蓝火不同时出生",
+        "保留原源/矩形32帧图集/有界发射/曲面；降低蓝相遮挡，火焰与翻滚共享材质，蓝火不同时出生",
+        "保留原源/矩形32帧图集/有界发射/曲面；降低蓝相遮挡，火焰与翻滚共享材质，蓝火不同时出生",
+        "保留原源/矩形32帧图集/有界发射/曲面；降低蓝相遮挡，火焰与翻滚共享材质，蓝火不同时出生",
+        "保留原源/矩形32帧图集/有界发射/曲面；降低蓝相遮挡，火焰与翻滚共享材质，蓝火不同时出生"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "63abfd1a4999b6bad1ae95ba0998fd4d041c79ea69fe14b5d7df128c1653e6da",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172549-744415\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172549-755524\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172952-662575\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172952-671244\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-874293\\edit-173245-646074\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-874293\\edit-173245-655470\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-500398\\edit-173342-171998\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-500398\\edit-173342-190519\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173815-106889\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173815-128100\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-664579\\edit-174408-760783\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-664579\\edit-174408-778094\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\drill-burst-040.json"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172148-159350-drill-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172549-782210-drill-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172952-697550-drill-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173245-696721-drill-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173342-242839-drill-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173815-177509-drill-burst-040.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174408-830558-drill-burst-040.json.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_1fd04ffb97b08e74.png",
+      "Role": "源贴图同像素PNG",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "d356f3ca1b0f8312bf20f3d0a614cf40eec75547e236dc9aa939c054bf38afd9",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-382648-iris_fx_1fd04ffb97b08e74.png.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_bafcdf094cfb6fbf.png",
+      "Role": "源贴图同像素PNG",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "7f7e7e96a1d1fb9527cd622dff92968d6a0a50cbb4cb82ab83c974f5232c46f0",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-386739-iris_fx_bafcdf094cfb6fbf.png.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_e618c10a108ea1ab.png",
+      "Role": "源贴图同像素PNG",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "1bb36b82a8ba0fa8f9bc8e413bb71de73011b085ea56523951df9aff4fae623a",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary",
+        "line_endings": "binary",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-389168-iris_fx_e618c10a108ea1ab.png.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "平面准星程序",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "2e39fd11e0697ead6997a83e0e3b482fbfb89b7415e4b5258af864bd7bf410b8",
+      "Changes": [
+        "专用48字节顶点消费与custom1；无Renderable基类偏移",
+        "沿用源火色梯度与实际历史alpha，不新增伤害",
+        "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+        "专用48字节顶点消费与custom1；无Renderable基类偏移",
+        "沿用源火色梯度与实际历史alpha，不新增伤害",
+        "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+        "专用48字节顶点消费与custom1；无Renderable基类偏移",
+        "沿用源火色梯度与实际历史alpha，不新增伤害",
+        "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+        "专用48字节顶点消费与custom1；无Renderable基类偏移",
+        "沿用源火色梯度与实际历史alpha，不新增伤害",
+        "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+        "专用48字节顶点消费与custom1；无Renderable基类偏移",
+        "沿用源火色梯度与实际历史alpha，不新增伤害",
+        "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+        "专用48字节顶点消费与custom1；无Renderable基类偏移",
+        "沿用源火色梯度与实际历史alpha，不新增伤害",
+        "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+        "专用48字节顶点消费与custom1；无Renderable基类偏移",
+        "沿用源火色梯度与实际历史alpha，不新增伤害",
+        "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "2e39fd11e0697ead6997a83e0e3b482fbfb89b7415e4b5258af864bd7bf410b8",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172128-281184\\edit-172154-401735\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172128-281184\\edit-172154-407205\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172128-281184\\edit-172154-536309\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172128-281184\\edit-172154-541311\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172128-281184\\edit-172154-549683\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172128-281184\\edit-172154-554774\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172555-785257\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172555-789804\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172555-913585\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172555-916623\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172555-921544\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172555-926044\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172958-614424\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172958-618930\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172958-750916\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172958-753888\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172958-760840\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172958-763249\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-874293\\edit-173250-677888\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-874293\\edit-173250-681890\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-874293\\edit-173250-784832\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-874293\\edit-173250-789841\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-874293\\edit-173250-794847\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-874293\\edit-173250-797860\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-500398\\edit-173347-091625\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-500398\\edit-173347-101293\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-500398\\edit-173347-197030\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-500398\\edit-173347-200707\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173324-500398\\edit-173347-204712\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173324-500398\\edit-173347-206266\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173819-493547\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173819-496964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173819-581382\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173819-584523\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173819-587522\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173819-591027\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-664579\\edit-174413-278460\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-664579\\edit-174413-280464\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-664579\\edit-174413-375694\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-664579\\edit-174413-377694\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-664579\\edit-174413-381694\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-664579\\edit-174413-383714\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-410462-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-546259-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-564312-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172555-793791-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172555-920628-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172555-929574-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172958-621968-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172958-758836-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172958-767359-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173250-683899-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173250-793855-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173250-801855-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173347-103658-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173347-202723-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173347-209693-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173819-499466-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173819-587522-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173819-593136-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174413-282971-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174413-379694-iris_eight.program.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174413-387052-iris_eight.program.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+      "Role": "八招源材质",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "29c2e81ea8581966aa88ce4e0a59855ed456b2c9343e60d4101e76195133c3ef",
+      "Changes": [
+        "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理",
+        "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理",
+        "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "2e0d9a7f1d84c0ac170a4a2d83c15e0546c9419d6f9c2b823b7ae044c2b6ebcd",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172128-281184\\edit-172154-523192\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172128-281184\\edit-172154-528360\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172555-902348\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172555-907711\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172958-738655\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172958-743426\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-534122-iris_eight.material.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172555-911541-iris_eight.material.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172958-748914-iris_eight.material.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+      "Role": "八招特效来源与差异",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "1db6e1e3dde04125de3afcb192ae30791dac91ed9c512e7a14bee5ada071b00e",
+      "Changes": [
+        "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+        "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+        "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+        "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+        "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+        "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "7764fd04ab86a01a02048e9facd7aef33b78814f474b4207c2f7633b3dc1a01a",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172128-281184\\edit-172154-574845\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172128-281184\\edit-172154-577843\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172555-939858\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172555-943369\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172958-776395\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172958-779974\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-874293\\edit-173250-810948\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-874293\\edit-173250-812951\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173819-599320\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173819-600699\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174351-664579\\edit-174413-392572\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174351-664579\\edit-174413-394038\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-583997-eight-effects.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172555-948308-eight-effects.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172958-784485-eight-effects.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173250-815952-eight-effects.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173819-604221-eight-effects.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174413-399544-eight-effects.json.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+      "Role": "分层源光学时间流",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "be6efe76da85b759bb15fc6c9cdb64a42ee661b799b8785028efb181ace83591",
+      "Changes": [
+        "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理",
+        "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理",
+        "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理",
+        "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理",
+        "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "5e2fe8265690b88274fdba3e3b5a1dffd13a606e301dac702e32f16f8f4951ba",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172128-281184\\edit-172154-690473\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172128-281184\\edit-172154-695075\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172556-037834\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172556-045343\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172958-870655\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172958-877661\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-874293\\edit-173250-907377\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-874293\\edit-173250-913366\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173819-650417\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173819-656524\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-709306-effect_curves.csv.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172556-060597-effect_curves.csv.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172958-892957-effect_curves.csv.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173250-926407-effect_curves.csv.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173819-675810-effect_curves.csv.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+      "Role": "运行时显式子材质绑定",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "b962793fd983c9b8a54a5895b73645b91e528038a2138634f4374c25aae8bb08",
+      "Changes": [
+        "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质",
+        "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质",
+        "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "766c60bf3ac9e2496c814f04d833990f5c1c061a9bc6abae2b89c2b8c6e54044",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172128-281184\\edit-172154-711308\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172128-281184\\edit-172154-715594\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "D:\\CodexBackups\\IrisArsenal-20261017-172932-734025\\edit-172958-894945\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172932-734025\\edit-172958-898945\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173758-319495\\edit-173819-677801\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173758-319495\\edit-173819-682310\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172154-721724-effects.csv.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172958-902693-effects.csv.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173819-686765-effects.csv.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+      "Role": "八招源光学适配",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "d97194980673bd9c99d2c118cdfb28ebc1af2e68ffe398a3629b97bb1a4e2a19",
+      "Changes": [
+        "源RGBA/梯度/UV流动/自发光，实例游戏时钟；不编译着色器"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "56b5303c77eee66b29984abab002af536fa1e65f0097788bfd12d6718c379dd8",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172529-827619\\edit-172555-772918\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172529-827619\\edit-172555-778037\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172555-782794-iris_eight.hlsl.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "新包保护",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "723713adfac3e4486bb3711f9c4bc3ca11a6339eb6395c2438672b9fc4d64a54",
+      "Changes": [
+        "准备阶段明确ready=false，不能当成已部署040"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "9221bd53e25504a9fb8f3636b574622ac48120f5a30bc9c77221449a95c48350",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-172609-817295\\edit-172609-822630\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-172609-817295\\edit-172609-826715\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-172609-829725-IrisPackage.json.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+      "Role": "040变更范围回归",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "原引用摘要、真实几何/附加节点、共享容量、GPU字节、球形终结及枪口清理",
+        "两套真实图集32格/4格；源火浪出生角度与静止自转均可核验",
+        "独立验证14发射层级；2个合批缓冲逐字节匹配，8层源火浪与13层两相终结",
+        "新火浪以外招式姿态保持原逻辑"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "6dbafd80c938fb5fa72c45e383b4357f19496a03610f7d1005c18c472183cac6",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173625-095112\\edit-173625-096112\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173625-095112\\edit-173625-099112\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173757-934104\\edit-173757-985367\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173757-934104\\edit-173757-987367\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174158-864922\\edit-174158-874713\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174158-864922\\edit-174158-877596\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173121-050727-test_source_fire040.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173625-106564-test_source_fire040.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173757-992888-test_source_fire040.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174158-884304-test_source_fire040.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fire_039.py",
+      "Role": "040合同回归检查",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "23895c6c3df01ef79c7badf2b41903a4985148cfbad5c65525ef79aa15aaa9e2",
+      "Changes": [
+        "旧火球特定断言替换为新原资源实际序列化、时钟/清理/范围证据；旧真实重复终结回归保留"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "fb4e265633101dac8966e93c0d65b694d6244c3d9fa3797e398e37073a3a1f55",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173121-044343\\edit-173121-052727\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fire_039.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173121-044343\\edit-173121-055727\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fire_039.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173121-061445-test_fire_039.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+      "Role": "真实源渲染系统回归",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "18bf91c9c43c23d548bb159e5e8e1473346a452d88620899061afe648d940629",
+      "Changes": [
+        "旧火球特定断言替换为新原资源实际序列化、时钟/清理/范围证据；旧真实重复终结回归保留",
+        "17FX/9曲线与25层终结消费者一致；独立枪口由真实粒子年龄驱动，不伪造CPU变化",
+        "终结蓝火与新增枪口共9曲线，保持所有源轨道/骨架检查",
+        "七对象共享两份MPS绘制，终结13子网格；第三刀共享原火浪"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "a90d0b9234aec645c409f1ee4a4daf3f2008b5453fbb051b8738713f3504ec0c",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173121-044343\\edit-173121-063444\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173121-044343\\edit-173121-065443\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-512339\\edit-173227-525612\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-512339\\edit-173227-527622\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173532-865800\\edit-173532-865800\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173532-865800\\edit-173532-869249\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173757-934104\\edit-173757-949887\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173757-934104\\edit-173757-952388\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173121-071935-test_drill_037.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173227-532623-test_drill_037.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173532-876680-test_drill_037.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173757-957948-test_drill_037.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py",
+      "Role": "共享MPS缓冲回读",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "fc09b3cbc2e08e2b19b5d723772a1d25666522f927a5f298b7de9e53379ee33b",
+      "Changes": [
+        "旧火球特定断言替换为新原资源实际序列化、时钟/清理/范围证据；旧真实重复终结回归保留",
+        "按实际合批的两个源渲染系统校验GPU字节，发射节点保留单独来源证据"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "3a246f4001186d0d4fd90e7d406e22b66e3d723e1cc5a8337529c668f44e5606",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173121-044343\\edit-173121-074150\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173121-044343\\edit-173121-076149\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173757-934104\\edit-173757-974450\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173757-934104\\edit-173757-977450\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_visibility.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173121-081149-test_drill_visibility.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173757-982956-test_drill_visibility.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_r120.py",
+      "Role": "040合同回归检查",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "5069814ddbb5337351ef0a9b771ca2ecb004bd3128395ad4ba2bef24b5c96508",
+      "Changes": [
+        "旧火球特定断言替换为新原资源实际序列化、时钟/清理/范围证据；旧真实重复终结回归保留"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "ffc84a20b71be9be92fd2eff494d971592dae6c080b227f1d74097fa9d3896f9",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173121-044343\\edit-173121-083149\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_r120.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173121-044343\\edit-173121-085156\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_r120.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173121-091990-test_drill_r120.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+      "Role": "验收摘要校准",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "772365c8ad3d422e2a97fcc3afd6b1a7bfed27b77cb09cc2189f7938a89e03c0",
+      "Changes": [
+        "旧火球特定断言替换为新原资源实际序列化、时钟/清理/范围证据；旧真实重复终结回归保留",
+        "17FX/9曲线与25层终结消费者一致；独立枪口由真实粒子年龄驱动，不伪造CPU变化",
+        "七对象共享两份MPS绘制，终结13子网格；第三刀共享原火浪",
+        "六片真实曲面+两个原MPS系统，代替旧火球三层",
+        "报告实际13层，不沿用旧8层终结数字"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "9fb913b4fa888fb827d4931a5e4af043cb83645c0ac64734e0db2b7529e5e4c5",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173121-044343\\edit-173121-094160\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173121-044343\\edit-173121-097121\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-512339\\edit-173227-544310\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-512339\\edit-173227-546408\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173757-934104\\edit-173757-960251\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173757-934104\\edit-173757-963416\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-173916-145061\\edit-173916-147061\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173916-145061\\edit-173916-150566\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174158-864922\\edit-174158-886304\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174158-864922\\edit-174158-889304\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173121-104304-test_combat_036.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173227-553222-test_combat_036.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173757-972446-test_combat_036.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173916-159475-test_combat_036.py.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174158-896415-test_combat_036.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+      "Role": "040资源合同核验",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "56e1f50f10e554c70f898aabb80a2770528df9a9630876adb6241062fdb3a408",
+      "Changes": [
+        "17FX/9曲线与25层终结消费者一致；独立枪口由真实粒子年龄驱动，不伪造CPU变化"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "404d759b12052c885814359482f967e2c60c90fbb2bcfe3f0f91abcb8d6e92c7",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-512339\\edit-173227-513304\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-512339\\edit-173227-515824\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173227-523871-test_vulcan_contract.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+      "Role": "040资源合同核验",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "54a24335289677377c339789f53cee856b2a0a6919b3f90768986f014aae073f",
+      "Changes": [
+        "17FX/9曲线与25层终结消费者一致；独立枪口由真实粒子年龄驱动，不伪造CPU变化"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "ac9b67f5f863c482b26aeb1211de73a52c55dd408b5fd0cbd0781d7cb9ada352",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173227-512339\\edit-173227-533746\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173227-512339\\edit-173227-537052\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173227-542377-test_fx_timeline.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+      "Role": "版本合同检查",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "3de59383a3c05008f231113f90969ffcece4118c731dd90df8a79cadfbf15c92",
+      "Changes": [
+        "三远程路由/倍率保持，只更新配套040版本"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "69c09ee8cd3e5971ef60498518f33335ea6c80f0b27149d4631c767f6f3bb86c",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173441-080722\\edit-173441-081722\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173441-080722\\edit-173441-084349\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173441-092481-test_ranged_contract.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+      "Role": "地震/新火浪坐标回归",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "2c7d0d47d96ad370e3cb4e5a8ab32965ee7930943f65a2f4d2e8290befb47109",
+      "Changes": [
+        "地震仍抬高0.8；新源火浪严格共用球心，无额外视觉偏移"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "9f93295a3ddc91dd6601ae521abecc0cf88a2bd1b0fac7fef276d8361faaf284",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-173507-944600\\edit-173507-945813\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-173507-944600\\edit-173507-948962\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173507-956963-test_cannon_quake.py.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.0.json",
+      "Role": "八招非编译验收证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "16份真实骨架/握点、源事件、16个特效网格、源纹理、FCS、查询接口和语法树",
+        "16份真实骨架/握点、源事件、16个特效网格、源纹理、FCS、查询接口和语法树",
+        "16份真实骨架/握点、源事件、17个特效网格、源纹理、FCS、查询接口和语法树"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "1a53910ec967582c3e8bd570a5df0415292ccbb3c82dc1a80bf031aaf6273d26",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-174159-172385\\edit-174207-069485\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.0.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174159-172385\\edit-174207-071489\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.0.json",
+          "D:\\CodexBackups\\IrisArsenal-20261017-174437-264928\\edit-174445-965746\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.0.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174437-264928\\edit-174445-968874\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.0.json"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-173924-196320-validation-0.4.0.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174207-075262-validation-0.4.0.json.json",
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174445-973361-validation-0.4.0.json.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\source-fire-040-evidence.json",
+      "Role": "040来源与交付状态",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "原视频/ESP/ADDN/源格式引用、非编译验收、旧DLL门与实际游戏039完整哈希"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "8f0a07eafce9cb3eceeb2030261d426e787cdc93772089e0dec00b640a6c527d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174631-729915-source-fire-040-evidence.json.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\source-fire-040.md",
+      "Role": "040用户交付说明",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": [
+        "原视频与真实引用链、三处火焰/终结球/枪口修改、测试边界和编译部署"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "09e49528047f5226215caa685d4ebaa39954248816eb55b6c94c485b62f6fb56",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174631-731926-source-fire-040.md.json"
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "Role": "当前任务状态",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "dec154331c248a3bd2ebb8bb6d05539c9b08a198bff68f4123575e0daac8fb2d",
+      "Changes": [
+        "纠正实际游戏已为用户039；当前准备040原资源路径，未编译/未部署"
+      ],
+      "Reasons": "用户本轮三点请求及其后明确的“先视频、再原模组资源，不臆造”约束；来源链见证据文档",
+      "After": "6e591fd531b5fccf6a57adac2752e429931a69b018c7298d5931ab99718adab0",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "完整非编译/11同步检查见validation-0.4.0.json；逐次字节/备份核验通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261017-174631-409365\\edit-174631-733915\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-174631-409365\\edit-174631-736916\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "LF",
+        "new_mojibake": false
+      },
+      "Unresolved": "MSVC/HLSL编译、实机观感/性能尚未验收；未执行的源行为见交付说明",
+      "immediate_reports": [
+        "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261017-174631-835860-STATE.md.json"
+      ]
+    }
+  ],
+  "notes_safety": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-040-20261017-170430\\notes-append-safety.json",
+  "compiled": false,
+  "game_directory_modified": false
+}

@@ -1,0 +1,107 @@
+{
+  "geometry": {
+    "normal_submeshes": 2,
+    "drill_submeshes": 19,
+    "drill_vertices": 248576
+  },
+  "capsule_fit": {
+    "solid_vertices_covered": 248560,
+    "optical_planes_excluded": 4,
+    "precision": "conservative capsule proxy; not triangle collision"
+  },
+  "serialized_body_and_weapon": [
+    {
+      "skeleton": "male",
+      "frames": 339,
+      "right_weapon_origin_error_max": 2.0292430004372288e-06,
+      "weapon_orientation_error_degrees_max": 0.060436952366604894,
+      "left_hand_error_max": 0.16099007689626368,
+      "left_hand_spin_error_max": 1.306121252738208e-06,
+      "root_horizontal_translation": 0
+    },
+    {
+      "skeleton": "female",
+      "frames": 339,
+      "right_weapon_origin_error_max": 1.830095512466021e-06,
+      "weapon_orientation_error_degrees_max": 0.05238260288690174,
+      "left_hand_error_max": 0.286560251268742,
+      "left_hand_spin_error_max": 1.3557731665505304e-06,
+      "root_horizontal_translation": 0
+    }
+  ],
+  "FCS": {
+    "roundtrip": true,
+    "shared_pool_disabled": true,
+    "native_target_hits": 0,
+    "weapon_damage": 0,
+    "distance": [
+      0.0,
+      36.0
+    ]
+  },
+  "material_references": true,
+  "local_sdk_compile_regression": {
+    "physHit_complete_header": true,
+    "entity_arguments": [
+      "meshName",
+      "groupName"
+    ],
+    "optical_layers": "15..18 own SubEntity index ranges",
+    "declared_and_symbol_bytes_present": [
+      "setIndexDataEndIndex",
+      "resetIndexDataStartEndIndex"
+    ],
+    "compiled_or_linked": false
+  },
+  "drill_optics": {
+    "asset_contract": "IRIS_DRILL_OPTICS_V1",
+    "opaque_source_parts": 15,
+    "transparent_source_parts": 4,
+    "runtime_materials": 6,
+    "source_BC7_to_PNG_identical": true,
+    "original_format": "BC7 DX10 format98",
+    "source_alpha_flags": 4845,
+    "source_specular_restored": [
+      1,
+      10
+    ],
+    "source_glossiness": 20,
+    "zero_alpha_bright_pixels_in_source": 222796,
+    "compiled_HLSL": false,
+    "runtime_visual_verified": false
+  },
+  "drill_runtime_contract": {
+    "version": "0.1.2",
+    "profile": 2,
+    "source_mesh_material_bindings": 19,
+    "bad_sweep_policy": "reject this diagnostic query; no health call; action continues",
+    "query_cpp_exception_policy": "discard current probe only; next safe update retries; no actor disable/cooldown",
+    "collision_role": "closest first-nonself diagnostic only; not formal damage",
+    "initial_overlap_point_policy": "t=0 never reads point",
+    "debug_draw_default": 0,
+    "runtime_render_verified": false,
+    "repeat_cycles_verified": false
+  },
+  "runtime_static": {
+    "hook_count": 7,
+    "health_entry_points": 0,
+    "native_motion_hook": false,
+    "cpp_compiled": false,
+    "solution_target": "Release|x64 / v100"
+  },
+  "source_inputs_unchanged": 6,
+  "historical_reference_differences": [
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\EphnelSpear\\EphnelSpear.cpp",
+      "baseline": "7e02c5871955aeed9d9afdd805dbb8adcef646597730865d6de55826aed18385",
+      "observed": "4d6a65cffc4ac814d8ad6607311001e792d2a657f368a12bf32143acce881750",
+      "runtime_dependency": false,
+      "writer": "未确认；本任务写入范围仅IrisArsenal"
+    }
+  ],
+  "unresolved": [
+    "C++/HLSL未编译或游戏验证",
+    "左手超出目标骨架可达范围的残余误差仍需视觉确认",
+    "代理为保守胶囊，接触日志不等于已经具备最终精确伤害"
+  ]
+}

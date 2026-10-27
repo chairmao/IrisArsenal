@@ -1,0 +1,198 @@
+{
+  "version": "0.4.6",
+  "contract": "IRIS_RANGED_DEFENCE_TEST_046",
+  "moves": {
+    "fire_roll": {
+      "name": "火焰翻滚",
+      "index": 0,
+      "weight": 4,
+      "damage": [
+        1,
+        2
+      ],
+      "attack": [
+        0,
+        18
+      ],
+      "bypass_block_dodge": true,
+      "incoming_protection": true
+    },
+    "spiral": {
+      "name": "螺旋飞舞",
+      "index": 1,
+      "weight": 4,
+      "damage": [
+        1,
+        1,
+        1
+      ],
+      "attack": [
+        0,
+        16
+      ],
+      "bypass_block_dodge": false,
+      "incoming_protection": true
+    },
+    "earthquake": {
+      "name": "地震",
+      "index": 2,
+      "weight": 2,
+      "damage": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "attack": [
+        0,
+        27
+      ],
+      "bypass_block_dodge": true,
+      "incoming_protection": true
+    },
+    "drill": {
+      "name": "螺旋袭击钻天破",
+      "index": 3,
+      "weight": 1,
+      "damage": [
+        0.35,
+        0.35,
+        0.35,
+        0.35,
+        0.35,
+        0.35,
+        0.35,
+        0.35,
+        0.35,
+        0.35,
+        0.35,
+        8
+      ],
+      "attack": [
+        0,
+        80
+      ],
+      "bypass_block_dodge": true,
+      "incoming_protection": true
+    },
+    "full_burst": {
+      "name": "全力爆发",
+      "index": 4,
+      "weight": 2,
+      "damage": [
+        2,
+        2,
+        4
+      ],
+      "attack": [
+        12,
+        60
+      ],
+      "bypass_block_dodge": true,
+      "incoming_protection": true
+    },
+    "vulcan": {
+      "name": "极速火神炮",
+      "index": 5,
+      "weight": 2,
+      "damage": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "attack": [
+        0,
+        10000
+      ],
+      "bypass_block_dodge": false,
+      "incoming_protection": false
+    },
+    "pulse": {
+      "name": "脉冲之焰",
+      "index": 6,
+      "weight": 1,
+      "damage": [
+        1,
+        1,
+        1
+      ],
+      "attack": [
+        0,
+        10000
+      ],
+      "bypass_block_dodge": false,
+      "incoming_protection": false
+    },
+    "drive": {
+      "name": "极致驱动",
+      "index": 7,
+      "weight": 1,
+      "damage": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "attack": [
+        0,
+        10000
+      ],
+      "bypass_block_dodge": false,
+      "incoming_protection": false
+    },
+    "electro_cannon": {
+      "name": "电脉加农",
+      "index": 8,
+      "weight": 2,
+      "damage": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "attack": [
+        4,
+        25
+      ],
+      "bypass_block_dodge": true,
+      "incoming_protection": true
+    },
+    "hammer_combo": {
+      "name": "破坏之锤",
+      "index": 9,
+      "weight": 4,
+      "damage": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "attack": [
+        0,
+        10
+      ],
+      "bypass_block_dodge": false,
+      "incoming_protection": false
+    }
+  },
+  "geometry_changed": false,
+  "ranged_defence_overrides": false,
+  "compiled": false,
+  "DLL_deployed": false
+}

@@ -1,0 +1,70 @@
+{
+  "runtime_before_changes": {
+    "version": "0.3.2",
+    "contract": "IRIS_EIGHT_032",
+    "DLL_sha256": "4127929024c4e6a9794e60e3c8bd91f08baa989a41b0fdae15035b5cedb591cf",
+    "log": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\logs\\IrisArsenal-20261016-231133-681-18428.log",
+    "startup": "2026-10-16 23:11:33.711 [IrisArsenal 0.3.2] eight_config contract=IRIS_EIGHT_032 fire_roll=2 spiral=3 earthquake=4 drill=12 full_burst=3 vulcan=20 pulse=3 drive=4 public_FCS_chance=0; native_damage_and_armour=1"
+  },
+  "video": {
+    "user": "C:\\Users\\周凡稀\\AppData\\Local\\Temp\\steam\\13B47B~1.MP4",
+    "seconds": 11.084579,
+    "observations": [
+      "地震阶段伤害数字出现但范围特效几乎不可见",
+      "录像本段不足以核验所有远程准星；准星问题结合用户描述与代码核对"
+    ]
+  },
+  "reference": {
+    "fire_seconds": [
+      215,
+      217
+    ],
+    "reticle_seconds": 158.9,
+    "fire_source_chain": "999977004/mco_powerattack7.hkx在1.0s追加IrisExplosion3→SPEL0865→MGEF0866→EXPL086A→SW/Iris/explosionwarm0.nif",
+    "reticle_original_asset": "未确认；Tips1真实顶点为细长斩线，不冒称对应准星",
+    "reticle_implementation": "按原视频红蓝分段环与四刻线重建平面；两submesh、无纹理、无物理伤害"
+  },
+  "range_gate": {
+    "old_source_confirmed": [
+      "三招FCS最大360",
+      "inMoveRange严格判断后才Publish可射击",
+      "私有GunData range还硬编码360"
+    ],
+    "new": {
+      "FCS": [
+        0,
+        10000
+      ],
+      "private_GunData": "读取启用招式FCS最大值，不留独立360",
+      "cylinder_radius": 9,
+      "cylinder_length": "本招FCS最大值=10000",
+      "diagnostic": "ranged_gate，首32个状态变化，区分范围/插件就绪/排队/原生许可，未调用takeTheShotCheck诊断"
+    },
+    "old_log_does_not_include_idle_target_distance": true,
+    "historical_cause": "不能据旧日志唯一归因；超过360时旧范围门确实可以阻止动作启动"
+  },
+  "health_preserved": {
+    "quake": [
+      4,
+      1.5,
+      36
+    ],
+    "pulse": [
+      3,
+      2,
+      36
+    ],
+    "vulcan": [
+      20,
+      0.2,
+      4.5
+    ],
+    "drive": [
+      4,
+      1.5,
+      9
+    ]
+  },
+  "compiled": false,
+  "deployed": false
+}

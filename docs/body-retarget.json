@@ -1,0 +1,34 @@
+{
+  "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977013\\mco_powerattack1.hkx",
+  "sha256": "a6c506ffe54524fa6ade1890a63b82cf93813f60192d6abd228dbc4ccb89ebf4",
+  "source_length": 8.166666984558105,
+  "output_length": 5.633333333,
+  "reference": "E:\\skyrimspecialedition\\mods\\XP32 Maximum Skeleton Special Extended\\meshes\\actors\\character\\character assets\\skeleton.hkx",
+  "reference_sha256": "c16d8b2512ca7472cb942280eef0978c517f7cc3f60e4c373c34040736a99d1a",
+  "adaptation": "source0..3.75;blend250ms to1.633;reverse1.633..0. Not full source ultimate.",
+  "skeletons": [
+    {
+      "left_hand_spin_error_max": 1.246617817651181e-14,
+      "left_hand_error_max": 0.16098976483797853,
+      "left_hand_error_p95": 9.734989273208415e-15,
+      "skeleton": "male",
+      "frames": 339,
+      "controlled_bones": 24,
+      "prop2_id": 29,
+      "max_prop_translation": 2.378305593287394,
+      "root_horizontal_motion": 0
+    },
+    {
+      "left_hand_spin_error_max": 1.3352249420226865e-14,
+      "left_hand_error_max": 0.2865606252774174,
+      "left_hand_error_p95": 9.334416231043131e-15,
+      "skeleton": "female",
+      "frames": 339,
+      "controlled_bones": 24,
+      "prop2_id": 27,
+      "max_prop_translation": 2.376529934721128,
+      "root_horizontal_motion": 0
+    }
+  ],
+  "unresolved": "头/双手贴合与替换骨架须实机，不假定所有人形布局相同"
+}

@@ -1,0 +1,1041 @@
+{
+  "contract": "IRIS_DRILL_OPTICS_V1",
+  "source_nif": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\SW\\Iris\\EXDrill1.nif",
+  "source_nif_sha256": "c522a2196b2591fe9a182f0b7660f5c14b82f88f58869e148407e66806d09313",
+  "source_anim_sha256": "179f128b96e16ff2efc07b0ba17b1d54b6778a6ca5d1dce928191a5a569e2690",
+  "png": "iris_anim_rgba_179f128b96e16ff2.png",
+  "decoded_pixels_identical": true,
+  "bindings": [
+    {
+      "sub": 0,
+      "source_node": "9",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/energy_shell_0321072a991e",
+      "source_shader": {
+        "texture": 19,
+        "emissive": [
+          1.0,
+          0.48399999737739563,
+          0.0
+        ],
+        "emissive_mult": 3.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32769
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 0.20000000298023224,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\anim.dds"
+    },
+    {
+      "sub": 1,
+      "source_node": "05",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_8c709ca931c4",
+      "source_shader": {
+        "texture": 22,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32769
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 1.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 2,
+      "source_node": "Kit_C.001",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_8c709ca931c4",
+      "source_shader": {
+        "texture": 25,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 1.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 3,
+      "source_node": "Desirefx.me_Body144.007",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_8c709ca931c4",
+      "source_shader": {
+        "texture": 28,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 1.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 4,
+      "source_node": "Desirefx.me_Body144.008",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 31,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 5,
+      "source_node": "Desirefx.me_Body144.009",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 34,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 6,
+      "source_node": "Desirefx.me_Body144.010",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 37,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 7,
+      "source_node": "Desirefx.me_Body144.011",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 40,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 8,
+      "source_node": "Desirefx.me_Body144.012",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 43,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 9,
+      "source_node": "Desirefx.me_Body23.017",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 46,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 10,
+      "source_node": "Desirefx.me_Body23.018",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 49,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 11,
+      "source_node": "Desirefx.me_Body23.019",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 52,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 12,
+      "source_node": "Desirefx.me_Body23.020",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 55,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 13,
+      "source_node": "Desirefx.me_Body23.021",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 58,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 14,
+      "source_node": "Desirefx.me_Body23.022",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "source_shader": {
+        "texture": 61,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 1.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 0,
+        "clamp_mode": 3,
+        "flags": [
+          2185233153,
+          32785
+        ],
+        "refraction": 0.0,
+        "glossiness": 20.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 10.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": null,
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds"
+    },
+    {
+      "sub": 15,
+      "source_node": "Slash:0:22",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/optical_df8a41dce4cd",
+      "source_shader": {
+        "texture": 64,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 10.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 2,
+        "clamp_mode": 3,
+        "flags": [
+          2151677952,
+          16
+        ],
+        "refraction": 0.0,
+        "glossiness": 30.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 1.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": {
+        "flags": 4845,
+        "threshold": 8,
+        "blend_enabled": true,
+        "source_blend": 6,
+        "destination_blend": 7,
+        "test_enabled": true,
+        "test_function": 4
+      },
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\blade_effect01_black.dds"
+    },
+    {
+      "sub": 16,
+      "source_node": "Slash:0:26",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/optical_3fc988945311",
+      "source_shader": {
+        "texture": 68,
+        "emissive": [
+          0.11966124922037125,
+          0.11966124922037125,
+          0.11966124922037125
+        ],
+        "emissive_mult": 10.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 2,
+        "clamp_mode": 3,
+        "flags": [
+          2151677952,
+          16
+        ],
+        "refraction": 0.0,
+        "glossiness": 30.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 1.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": {
+        "flags": 4845,
+        "threshold": 8,
+        "blend_enabled": true,
+        "source_blend": 6,
+        "destination_blend": 7,
+        "test_enabled": true,
+        "test_function": 4
+      },
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\blade_effect01_red.dds"
+    },
+    {
+      "sub": 17,
+      "source_node": "TwinChakrams:78",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/optical_cc80fa7d8d1e",
+      "source_shader": {
+        "texture": 72,
+        "emissive": [
+          0.11966124922037125,
+          0.11966124922037125,
+          0.11966124922037125
+        ],
+        "emissive_mult": 10.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 2,
+        "clamp_mode": 3,
+        "flags": [
+          2151677952,
+          16
+        ],
+        "refraction": 0.0,
+        "glossiness": 30.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 1.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": {
+        "flags": 4845,
+        "threshold": 8,
+        "blend_enabled": true,
+        "source_blend": 6,
+        "destination_blend": 7,
+        "test_enabled": true,
+        "test_function": 4
+      },
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\blade_effect03_red.dds"
+    },
+    {
+      "sub": 18,
+      "source_node": "TwinChakrams:82",
+      "runtime_material": "IrisArsenal/DrillOpticsV1/optical_df8a41dce4cd",
+      "source_shader": {
+        "texture": 76,
+        "emissive": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "emissive_mult": 10.0,
+        "alpha": 1.0,
+        "uv_offset": [
+          0.0,
+          0.0
+        ],
+        "uv_scale": [
+          1.0,
+          1.0
+        ],
+        "shader_type": 2,
+        "clamp_mode": 3,
+        "flags": [
+          2151677952,
+          16
+        ],
+        "refraction": 0.0,
+        "glossiness": 30.0,
+        "specular": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_strength": 1.0,
+        "lighting_effect": [
+          0.30000001192092896,
+          2.0
+        ]
+      },
+      "source_alpha": {
+        "flags": 4845,
+        "threshold": 8,
+        "blend_enabled": true,
+        "source_blend": 6,
+        "destination_blend": 7,
+        "test_enabled": true,
+        "test_function": 4
+      },
+      "source_texture": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\blade_effect01_black.dds"
+    }
+  ],
+  "materials": {
+    "IrisArsenal/DrillOpticsV1/energy_shell_0321072a991e": {
+      "role": "energy_shell",
+      "texture": "iris_anim_rgba_179f128b96e16ff2.png",
+      "emission": [
+        3.0,
+        1.451999992132187,
+        0.0
+      ],
+      "glossiness": 20.0,
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular_strength": 0.20000000298023224,
+      "uv": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "alpha": null,
+      "alpha_scale": 1.0,
+      "clamp_mode": 3
+    },
+    "IrisArsenal/DrillOpticsV1/metal_8c709ca931c4": {
+      "role": "metal",
+      "texture": "iris_e43c904a32f784ff.dds",
+      "emission": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "glossiness": 20.0,
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular_strength": 1.0,
+      "uv": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "alpha": null,
+      "alpha_scale": 1.0,
+      "clamp_mode": 3
+    },
+    "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81": {
+      "role": "metal",
+      "texture": "iris_e43c904a32f784ff.dds",
+      "emission": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "glossiness": 20.0,
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular_strength": 10.0,
+      "uv": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "alpha": null,
+      "alpha_scale": 1.0,
+      "clamp_mode": 3
+    },
+    "IrisArsenal/DrillOpticsV1/optical_df8a41dce4cd": {
+      "role": "optical",
+      "texture": "iris_5114b0f90ad5da99.dds",
+      "emission": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "glossiness": 30.0,
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular_strength": 1.0,
+      "uv": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "alpha": {
+        "flags": 4845,
+        "threshold": 8,
+        "blend_enabled": true,
+        "source_blend": 6,
+        "destination_blend": 7,
+        "test_enabled": true,
+        "test_function": 4
+      },
+      "alpha_scale": 1.0,
+      "clamp_mode": 3
+    },
+    "IrisArsenal/DrillOpticsV1/optical_3fc988945311": {
+      "role": "optical",
+      "texture": "iris_2556c812dc7d68e6.dds",
+      "emission": [
+        1.1966124922037125,
+        1.1966124922037125,
+        1.1966124922037125
+      ],
+      "glossiness": 30.0,
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular_strength": 1.0,
+      "uv": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "alpha": {
+        "flags": 4845,
+        "threshold": 8,
+        "blend_enabled": true,
+        "source_blend": 6,
+        "destination_blend": 7,
+        "test_enabled": true,
+        "test_function": 4
+      },
+      "alpha_scale": 1.0,
+      "clamp_mode": 3
+    },
+    "IrisArsenal/DrillOpticsV1/optical_cc80fa7d8d1e": {
+      "role": "optical",
+      "texture": "iris_29343c8126431246.dds",
+      "emission": [
+        1.1966124922037125,
+        1.1966124922037125,
+        1.1966124922037125
+      ],
+      "glossiness": 30.0,
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular_strength": 1.0,
+      "uv": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "alpha": {
+        "flags": 4845,
+        "threshold": 8,
+        "blend_enabled": true,
+        "source_blend": 6,
+        "destination_blend": 7,
+        "test_enabled": true,
+        "test_function": 4
+      },
+      "alpha_scale": 1.0,
+      "clamp_mode": 3
+    }
+  },
+  "adaptation": "原ENB环境不可复制，金属用Kenshi天空/地面/太阳的前向镜面近似；发光/纹理/光泽/透明来自源；无新增几何或人物动作",
+  "cpp_ring_contract": "IRIS_DRILL_RING_GATE_066",
+  "cpp_changed": true,
+  "compiled": false,
+  "deployed": false,
+  "runtime_verified": false
+}

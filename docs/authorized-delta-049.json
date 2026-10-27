@@ -1,0 +1,47 @@
+{
+  "package:assets/iris_eight.material": {
+    "before": "7b4dd8a4fdbd37eed716cea8b4c0096a9b9b3191fbbc80363c9b3ea6afec35bc",
+    "after": "b730a49d8738c62b4f358c71685913b2daeddd3dc3633d76ab8219e1f27615c4",
+    "reason": "049已授权源坐姿/电脉源粒子与统一显示单位；战斗逻辑保持"
+  },
+  "package:assets/iris_fx_electro_area.mesh": {
+    "before": "24649a1d310b7a39c1b9f62d5c42e547b3ca2dfdaf92a4ae146c26ae8909f276",
+    "after": "7c67cd594b6a70220f4abc85001f7f17bde62215dd07799d1d3b3b0ee82a8151",
+    "reason": "049已授权源坐姿/电脉源粒子与统一显示单位；战斗逻辑保持"
+  },
+  "package:assets/effect_curves.csv": {
+    "before": "a27b4158d65e51faf91f2b0b5a47f89b3cb4fdc847c2eaf4a6e328aa857402b9",
+    "after": "18476aa11ede69b43575153bf68677c093856b42556edd8e14fe566f2862fce3",
+    "reason": "049已授权源坐姿/电脉源粒子与统一显示单位；战斗逻辑保持"
+  },
+  "package:assets/iris_action_drive_male.skeleton": {
+    "before": "f5e62b0eacec7de46e077bc08fa279d32fdf1cee2a3cd310f65b0f92078fa4bc",
+    "after": "f1a6fb93f43b0532693ee75dacb3db3366c2eb06d5baec4fa8581ba334d51ea5",
+    "reason": "049已授权源坐姿/电脉源粒子与统一显示单位；战斗逻辑保持"
+  },
+  "package:assets/iris_fx_electro_burst.mesh": {
+    "before": "0666208acd1785034757dd3d6c3152acec37576ff1590430c8bc5be3d4ad172a",
+    "after": "f4964884a4700f5481cbac5ba57441c280399175c1407b0370f0f3ca643bb807",
+    "reason": "049已授权源坐姿/电脉源粒子与统一显示单位；战斗逻辑保持"
+  },
+  "package:assets/effects.csv": {
+    "before": "17035713a4b63db1eadb5fc98b310d8009f3ba5b3259e6d0efe3c6ee17e20f16",
+    "after": "3b54125bd5ef2beded2fa64829ab77bd25d02d30d75e0c7822498235b35a103a",
+    "reason": "049已授权源坐姿/电脉源粒子与统一显示单位；战斗逻辑保持"
+  },
+  "package:assets/iris_action_electro_cannon_female.skeleton": {
+    "before": "bcd1ffa341c2f4678a2b60963528ad347a5428d437c078d9a9c8d69a28e18677",
+    "after": "4345d765d3762ec7791112b5f7e268f21606d91f1200a460cb58fd4b37c9cccc",
+    "reason": "049已授权源坐姿/电脉源粒子与统一显示单位；战斗逻辑保持"
+  },
+  "package:assets/iris_action_electro_cannon_male.skeleton": {
+    "before": "b5fce92d8d8294d596ba0b3d417c4a523c40b5e361dd4725dbfd0acb96204964",
+    "after": "673e04a76de40031c5f10ec87fa4caaf1cd45a3c1fa886de2c987f285b1fdc90",
+    "reason": "049已授权源坐姿/电脉源粒子与统一显示单位；战斗逻辑保持"
+  },
+  "package:assets/iris_action_drive_female.skeleton": {
+    "before": "78921aab240776fb4bebb2187ec464ca76edb147cdf4748cb5dde5d2c118c2c7",
+    "after": "3455b068bbd73d7b94c00a4de84b81bd18211bd87e66c140eeeacccd425dca41",
+    "reason": "049已授权源坐姿/电脉源粒子与统一显示单位；战斗逻辑保持"
+  }
+}

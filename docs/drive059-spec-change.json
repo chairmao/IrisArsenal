@@ -1,0 +1,5115 @@
+{
+  "before": {
+    "index": 7,
+    "key": "drive",
+    "name": "极致驱动",
+    "animation": "IrisArsenal_drive",
+    "technique": "17-IrisArsenal.mod",
+    "sources": [
+      "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx"
+    ],
+    "source_hashes": {
+      "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx": "83ccb4cd6921606b79d8c76eab1206f581ec7e2ac9ac9affcf0522e2f1051556"
+    },
+    "parts": [
+      {
+        "file": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "start": 0,
+        "end": null,
+        "rate": 1
+      }
+    ],
+    "duration": 3.5833332538604736,
+    "frames": 216,
+    "motion": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.01666666629702546,
+        0.0
+      ],
+      [
+        0.03333333259405092,
+        0.0
+      ],
+      [
+        0.04999999889107638,
+        0.0
+      ],
+      [
+        0.06666666518810184,
+        0.0
+      ],
+      [
+        0.0833333314851273,
+        0.0
+      ],
+      [
+        0.09999999778215277,
+        0.0
+      ],
+      [
+        0.11666666407917822,
+        0.0
+      ],
+      [
+        0.13333333037620368,
+        0.0
+      ],
+      [
+        0.14999999667322914,
+        0.0
+      ],
+      [
+        0.1666666629702546,
+        0.0
+      ],
+      [
+        0.18333332926728005,
+        0.0
+      ],
+      [
+        0.19999999556430553,
+        0.0
+      ],
+      [
+        0.216666661861331,
+        0.3155597112479666
+      ],
+      [
+        0.23333332815835645,
+        1.1707087094488664
+      ],
+      [
+        0.2499999944553819,
+        2.411422093752053
+      ],
+      [
+        0.26666666075240736,
+        3.8981138351638234
+      ],
+      [
+        0.2833333270494328,
+        5.495741388447497
+      ],
+      [
+        0.29999999334645827,
+        7.041193434805458
+      ],
+      [
+        0.3166666596434837,
+        8.408503300313768
+      ],
+      [
+        0.3333333259405092,
+        9.503958193562832
+      ],
+      [
+        0.34999999223753464,
+        10.22409090813213
+      ],
+      [
+        0.3666666585345601,
+        10.484381292717261
+      ],
+      [
+        0.38333332483158555,
+        10.484901900611717
+      ],
+      [
+        0.39999999112861107,
+        10.484901900611717
+      ],
+      [
+        0.4166666574256365,
+        10.484901900611717
+      ],
+      [
+        0.433333323722662,
+        10.484901900611717
+      ],
+      [
+        0.44999999001968743,
+        10.484901900611717
+      ],
+      [
+        0.4666666563167129,
+        10.484901900611717
+      ],
+      [
+        0.48333332261373835,
+        10.484901900611717
+      ],
+      [
+        0.4999999889107638,
+        10.484901900611717
+      ],
+      [
+        0.5166666552077892,
+        10.484901900611717
+      ],
+      [
+        0.5333333215048147,
+        10.484901900611717
+      ],
+      [
+        0.5499999878018402,
+        10.484901900611717
+      ],
+      [
+        0.5666666540988656,
+        10.484901900611717
+      ],
+      [
+        0.5833333203958911,
+        10.484901900611717
+      ],
+      [
+        0.5999999866929165,
+        10.484901900611717
+      ],
+      [
+        0.616666652989942,
+        10.484901900611717
+      ],
+      [
+        0.6333333192869675,
+        10.484901900611717
+      ],
+      [
+        0.649999985583993,
+        10.484901900611717
+      ],
+      [
+        0.6666666518810184,
+        10.484901900611717
+      ],
+      [
+        0.6833333181780439,
+        10.484901900611717
+      ],
+      [
+        0.6999999844750693,
+        10.484901900611717
+      ],
+      [
+        0.7166666507720948,
+        10.484901900611717
+      ],
+      [
+        0.7333333170691202,
+        10.484901900611717
+      ],
+      [
+        0.7499999833661457,
+        10.484901900611717
+      ],
+      [
+        0.7666666496631711,
+        10.484901900611717
+      ],
+      [
+        0.7833333159601966,
+        10.484901900611717
+      ],
+      [
+        0.7999999822572221,
+        10.484901900611717
+      ],
+      [
+        0.8166666485542475,
+        10.484901900611717
+      ],
+      [
+        0.833333314851273,
+        10.484901900611717
+      ],
+      [
+        0.8499999811482984,
+        10.484901900611717
+      ],
+      [
+        0.866666647445324,
+        10.484901900611717
+      ],
+      [
+        0.8833333137423494,
+        10.484901900611717
+      ],
+      [
+        0.8999999800393749,
+        10.484901900611717
+      ],
+      [
+        0.9166666463364003,
+        10.484901900611717
+      ],
+      [
+        0.9333333126334258,
+        10.484901900611717
+      ],
+      [
+        0.9499999789304512,
+        10.484901900611717
+      ],
+      [
+        0.9666666452274767,
+        10.484901900611717
+      ],
+      [
+        0.9833333115245021,
+        10.484901900611717
+      ],
+      [
+        0.9999999778215276,
+        10.484901900611717
+      ],
+      [
+        1.016666644118553,
+        10.484901900611717
+      ],
+      [
+        1.0333333104155784,
+        10.484901900611717
+      ],
+      [
+        1.049999976712604,
+        10.484901900611717
+      ],
+      [
+        1.0666666430096294,
+        10.484901900611717
+      ],
+      [
+        1.0833333093066548,
+        10.484901900611717
+      ],
+      [
+        1.0999999756036805,
+        10.484901900611717
+      ],
+      [
+        1.1166666419007059,
+        10.484901900611717
+      ],
+      [
+        1.1333333081977313,
+        10.484700899818087
+      ],
+      [
+        1.1499999744947567,
+        10.384285093773437
+      ],
+      [
+        1.1666666407917823,
+        10.108868873802548
+      ],
+      [
+        1.1833333070888077,
+        9.695157488451388
+      ],
+      [
+        1.199999973385833,
+        9.186562484718882
+      ],
+      [
+        1.2166666396828585,
+        8.619785359642835
+      ],
+      [
+        1.233333305979884,
+        8.030023757256659
+      ],
+      [
+        1.2499999722769095,
+        7.463250418619957
+      ],
+      [
+        1.266666638573935,
+        6.954655318114454
+      ],
+      [
+        1.2833333048709603,
+        6.540942501492092
+      ],
+      [
+        1.299999971167986,
+        6.265524495992178
+      ],
+      [
+        1.3166666374650113,
+        6.165108689947529
+      ],
+      [
+        1.3333333037620367,
+        6.164907792712619
+      ],
+      [
+        1.3499999700590624,
+        6.164907792712619
+      ],
+      [
+        1.3666666363560878,
+        6.164907792712619
+      ],
+      [
+        1.3833333026531132,
+        6.164907792712619
+      ],
+      [
+        1.3999999689501386,
+        6.164907792712619
+      ],
+      [
+        1.4166666352471642,
+        6.164907792712619
+      ],
+      [
+        1.4333333015441896,
+        6.164907792712619
+      ],
+      [
+        1.449999967841215,
+        6.164907792712619
+      ],
+      [
+        1.4666666341382404,
+        6.164907792712619
+      ],
+      [
+        1.483333300435266,
+        6.164907792712619
+      ],
+      [
+        1.4999999667322914,
+        6.164907792712619
+      ],
+      [
+        1.5166666330293168,
+        6.164907792712619
+      ],
+      [
+        1.5333332993263422,
+        6.164907792712619
+      ],
+      [
+        1.5499999656233678,
+        6.164907792712619
+      ],
+      [
+        1.5666666319203932,
+        6.164907792712619
+      ],
+      [
+        1.5833332982174186,
+        6.164907792712619
+      ],
+      [
+        1.5999999645144443,
+        6.164907792712619
+      ],
+      [
+        1.6166666308114697,
+        6.164907792712619
+      ],
+      [
+        1.633333297108495,
+        6.164907792712619
+      ],
+      [
+        1.6499999634055205,
+        6.164907792712619
+      ],
+      [
+        1.666666629702546,
+        6.166239780752309
+      ],
+      [
+        1.6833332959995715,
+        6.499366210395376
+      ],
+      [
+        1.699999962296597,
+        6.832492640038443
+      ],
+      [
+        1.7166666285936223,
+        7.165619069681511
+      ],
+      [
+        1.733333294890648,
+        7.498745499324582
+      ],
+      [
+        1.7499999611876733,
+        7.83187192896765
+      ],
+      [
+        1.7666666274846987,
+        8.164998358610717
+      ],
+      [
+        1.7833332937817241,
+        8.498124788253785
+      ],
+      [
+        1.7999999600787497,
+        8.831251217896856
+      ],
+      [
+        1.8166666263757751,
+        9.164377647539924
+      ],
+      [
+        1.8333332926728005,
+        9.49750407718299
+      ],
+      [
+        1.849999958969826,
+        9.830630506826058
+      ],
+      [
+        1.8666666252668516,
+        10.16375693646913
+      ],
+      [
+        1.883333291563877,
+        10.496883366112197
+      ],
+      [
+        1.8999999578609024,
+        10.830009795755263
+      ],
+      [
+        1.916666624157928,
+        11.163136225398336
+      ],
+      [
+        1.9333332904549534,
+        11.496262655041402
+      ],
+      [
+        1.9499999567519788,
+        11.82938908468447
+      ],
+      [
+        1.9666666230490042,
+        12.162515514327538
+      ],
+      [
+        1.9833332893460298,
+        12.49564194397061
+      ],
+      [
+        1.9999999556430552,
+        12.828768373613677
+      ],
+      [
+        2.0166666219400806,
+        13.161894803256743
+      ],
+      [
+        2.033333288237106,
+        13.495021232899813
+      ],
+      [
+        2.0499999545341314,
+        13.828147662542877
+      ],
+      [
+        2.066666620831157,
+        14.161274092185947
+      ],
+      [
+        2.0833332871281827,
+        14.494400521829021
+      ],
+      [
+        2.099999953425208,
+        14.82752695147209
+      ],
+      [
+        2.1166666197222335,
+        15.160653381115154
+      ],
+      [
+        2.133333286019259,
+        15.493779810758221
+      ],
+      [
+        2.1499999523162843,
+        15.82690624040129
+      ],
+      [
+        2.1666666186133097,
+        16.160032670044355
+      ],
+      [
+        2.183333284910335,
+        16.493159099687425
+      ],
+      [
+        2.199999951207361,
+        16.8262855293305
+      ],
+      [
+        2.2166666175043863,
+        17.15941195897357
+      ],
+      [
+        2.2333332838014117,
+        17.492538388616637
+      ],
+      [
+        2.249999950098437,
+        17.825664818259703
+      ],
+      [
+        2.2666666163954625,
+        18.158791247902773
+      ],
+      [
+        2.283333282692488,
+        18.49191767754584
+      ],
+      [
+        2.2999999489895133,
+        18.825044107188905
+      ],
+      [
+        2.3166666152865387,
+        19.158170536831975
+      ],
+      [
+        2.3333332815835646,
+        19.491296966475048
+      ],
+      [
+        2.34999994788059,
+        19.824423396118114
+      ],
+      [
+        2.3666666141776154,
+        20.15754982576118
+      ],
+      [
+        2.3833332804746408,
+        20.49067625540425
+      ],
+      [
+        2.399999946771666,
+        20.82380268504732
+      ],
+      [
+        2.4166666130686916,
+        21.156929114690385
+      ],
+      [
+        2.433333279365717,
+        21.49005554433345
+      ],
+      [
+        2.449999945662743,
+        21.82318197397653
+      ],
+      [
+        2.466666611959768,
+        22.156308403619597
+      ],
+      [
+        2.4833332782567936,
+        22.489434833262663
+      ],
+      [
+        2.499999944553819,
+        22.82256126290573
+      ],
+      [
+        2.5166666108508444,
+        23.1556876925488
+      ],
+      [
+        2.53333327714787,
+        23.488814122191865
+      ],
+      [
+        2.5499999434448952,
+        23.82194055183493
+      ],
+      [
+        2.5666666097419206,
+        24.155066981478
+      ],
+      [
+        2.5833332760389465,
+        24.488193411121078
+      ],
+      [
+        2.599999942335972,
+        24.821319840764144
+      ],
+      [
+        2.6166666086329973,
+        25.15444627040721
+      ],
+      [
+        2.6333332749300227,
+        25.48757270005028
+      ],
+      [
+        2.649999941227048,
+        25.820699129693345
+      ],
+      [
+        2.6666666075240735,
+        26.15382555933641
+      ],
+      [
+        2.683333273821099,
+        26.48695198897948
+      ],
+      [
+        2.6999999401181247,
+        26.820078418622558
+      ],
+      [
+        2.71666660641515,
+        27.153204848265624
+      ],
+      [
+        2.7333332727121755,
+        27.48633127790869
+      ],
+      [
+        2.749999939009201,
+        27.81945770755176
+      ],
+      [
+        2.7666666053062263,
+        28.152584137194825
+      ],
+      [
+        2.7833332716032517,
+        28.48571056683789
+      ],
+      [
+        2.799999937900277,
+        28.818836996480957
+      ],
+      [
+        2.8166666041973025,
+        29.151963426124027
+      ],
+      [
+        2.8333332704943284,
+        29.48282595264082
+      ],
+      [
+        2.8499999367913538,
+        29.48282595264082
+      ],
+      [
+        2.866666603088379,
+        29.48282595264082
+      ],
+      [
+        2.8833332693854046,
+        29.48282595264082
+      ],
+      [
+        2.89999993568243,
+        29.48282595264082
+      ],
+      [
+        2.9166666019794554,
+        29.48282595264082
+      ],
+      [
+        2.9333332682764808,
+        29.48282595264082
+      ],
+      [
+        2.9499999345735066,
+        29.48282595264082
+      ],
+      [
+        2.966666600870532,
+        29.48282595264082
+      ],
+      [
+        2.9833332671675574,
+        29.48282595264082
+      ],
+      [
+        2.999999933464583,
+        29.48282595264082
+      ],
+      [
+        3.0166665997616082,
+        29.48282595264082
+      ],
+      [
+        3.0333332660586336,
+        29.48282595264082
+      ],
+      [
+        3.049999932355659,
+        29.48282595264082
+      ],
+      [
+        3.0666665986526844,
+        29.48282595264082
+      ],
+      [
+        3.0833332649497103,
+        29.48282595264082
+      ],
+      [
+        3.0999999312467357,
+        29.48282595264082
+      ],
+      [
+        3.116666597543761,
+        29.48282595264082
+      ],
+      [
+        3.1333332638407865,
+        29.48282595264082
+      ],
+      [
+        3.149999930137812,
+        29.48282595264082
+      ],
+      [
+        3.1666665964348373,
+        29.48282595264082
+      ],
+      [
+        3.1833332627318627,
+        29.48282595264082
+      ],
+      [
+        3.1999999290288885,
+        29.48282595264082
+      ],
+      [
+        3.216666595325914,
+        29.48282595264082
+      ],
+      [
+        3.2333332616229393,
+        29.48282595264082
+      ],
+      [
+        3.2499999279199647,
+        29.48282595264082
+      ],
+      [
+        3.26666659421699,
+        29.48282595264082
+      ],
+      [
+        3.2833332605140155,
+        29.48282595264082
+      ],
+      [
+        3.299999926811041,
+        29.48282595264082
+      ],
+      [
+        3.3166665931080663,
+        29.48282595264082
+      ],
+      [
+        3.333333259405092,
+        29.48282595264082
+      ],
+      [
+        3.3499999257021176,
+        29.48282595264082
+      ],
+      [
+        3.366666591999143,
+        29.48282595264082
+      ],
+      [
+        3.3833332582961684,
+        29.48282595264082
+      ],
+      [
+        3.399999924593194,
+        29.48282595264082
+      ],
+      [
+        3.416666590890219,
+        29.48282595264082
+      ],
+      [
+        3.4333332571872446,
+        29.48282595264082
+      ],
+      [
+        3.44999992348427,
+        29.48282595264082
+      ],
+      [
+        3.466666589781296,
+        29.48282595264082
+      ],
+      [
+        3.4833332560783212,
+        29.48282595264082
+      ],
+      [
+        3.4999999223753466,
+        29.48282595264082
+      ],
+      [
+        3.516666588672372,
+        29.48282595264082
+      ],
+      [
+        3.5333332549693974,
+        29.48282595264082
+      ],
+      [
+        3.549999921266423,
+        29.48282595264082
+      ],
+      [
+        3.5666665875634482,
+        29.48282595264082
+      ],
+      [
+        3.5833332538604736,
+        29.48282595264082
+      ]
+    ],
+    "source_events": [
+      {
+        "time": 0.3333199918270111,
+        "text": "SoundPlay.Iris_Attack6",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3333199918270111
+      },
+      {
+        "time": 1.7999999523162842,
+        "text": "SoundPlay.Iris_Attack31",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.7999999523162842
+      },
+      {
+        "time": 2.049999952316284,
+        "text": "SoundPlay.Iris_Attack31",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.049999952316284
+      },
+      {
+        "time": 2.299999952316284,
+        "text": "SoundPlay.Iris_Attack31",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.299999952316284
+      },
+      {
+        "time": 2.5999999046325684,
+        "text": "SoundPlay.Iris_Attack31",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.5999999046325684
+      },
+      {
+        "time": 0.3333199918270111,
+        "text": "PIE.$IrisBackfire",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3333199918270111
+      },
+      {
+        "time": 0.3833180069923401,
+        "text": "PIE.$HitFog",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3833180069923401
+      },
+      {
+        "time": 0.3833180069923401,
+        "text": "PIE.$ES_HeavyStrikefly",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3833180069923401
+      },
+      {
+        "time": 0.3833180069923401,
+        "text": "PIE.$IrisSteam2",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3833180069923401
+      },
+      {
+        "time": 2.0,
+        "text": "PIE.$IrisSteam3",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.0
+      },
+      {
+        "time": 2.0,
+        "text": "PIE.$IrisBackfire",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.0
+      },
+      {
+        "time": 1.899999976158142,
+        "text": "PIE.@CAMSHAKE|1|1",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.899999976158142
+      },
+      {
+        "time": 0.3333199918270111,
+        "text": "WeaponSwing",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3333199918270111
+      },
+      {
+        "time": 0.8832979798316956,
+        "text": "WeaponSwing",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.8832979798316956
+      },
+      {
+        "time": 0.3999840021133423,
+        "text": "HitFrame",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3999840021133423
+      },
+      {
+        "time": 1.7999999523162842,
+        "text": "HitFrame",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.7999999523162842
+      },
+      {
+        "time": 2.049999952316284,
+        "text": "HitFrame",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.049999952316284
+      },
+      {
+        "time": 2.299999952316284,
+        "text": "HitFrame",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.299999952316284
+      },
+      {
+        "time": 2.5999999046325684,
+        "text": "HitFrame",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.5999999046325684
+      },
+      {
+        "time": 1.7999999523162842,
+        "text": "PIE.$IrisBeam",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.7999999523162842
+      },
+      {
+        "time": 1.7999999523162842,
+        "text": "PIE.$HitFog",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.7999999523162842
+      },
+      {
+        "time": 2.049999952316284,
+        "text": "PIE.$IrisBeam",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.049999952316284
+      },
+      {
+        "time": 2.049999952316284,
+        "text": "PIE.$HitFog",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.049999952316284
+      },
+      {
+        "time": 2.299999952316284,
+        "text": "PIE.$IrisBeam",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.299999952316284
+      },
+      {
+        "time": 2.299999952316284,
+        "text": "PIE.$HitFog",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.299999952316284
+      },
+      {
+        "time": 2.5999999046325684,
+        "text": "PIE.$IrisBeam",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.5999999046325684
+      },
+      {
+        "time": 2.5999999046325684,
+        "text": "PIE.$HitFog",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.5999999046325684
+      },
+      {
+        "time": 1.0,
+        "text": "PIE.@SGVI|MCO_nextattack|1",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.0
+      },
+      {
+        "time": 1.0,
+        "text": "PIE.@SGVI|MCO_nextpowerattack|1",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.0
+      },
+      {
+        "time": 3.4998600482940674,
+        "text": "MCO_WinOpen",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 3.4998600482940674
+      },
+      {
+        "time": 3.4998600482940674,
+        "text": "MCO_PowerWinOpen",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 3.4998600482940674
+      },
+      {
+        "time": 3.4998600482940674,
+        "text": "MCO_Recovery",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 3.4998600482940674
+      },
+      {
+        "time": 0.0,
+        "text": "Collision_AttackStart",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.0
+      },
+      {
+        "time": 1.7999999523162842,
+        "text": "Collision_Add.node(WEAPON)|scale(8)|DamageMult(1)|ID(1)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.7999999523162842
+      },
+      {
+        "time": 1.899999976158142,
+        "text": "Collision_Remove.node(WEAPON)|ID(1)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.899999976158142
+      },
+      {
+        "time": 2.049999952316284,
+        "text": "Collision_Add.node(WEAPON)|scale(8)|DamageMult(1.2)|ID(2)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.049999952316284
+      },
+      {
+        "time": 2.1500000953674316,
+        "text": "Collision_Remove.node(WEAPON)|ID(2)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.1500000953674316
+      },
+      {
+        "time": 2.299999952316284,
+        "text": "Collision_Add.node(WEAPON)|scale(8)|DamageMult(1.5)|ID(3)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.299999952316284
+      },
+      {
+        "time": 2.4000000953674316,
+        "text": "Collision_Remove.node(WEAPON)|ID(3)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.4000000953674316
+      },
+      {
+        "time": 2.5999999046325684,
+        "text": "Collision_Add.node(WEAPON)|scale(8)|DamageMult(2)|ID(4)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.5999999046325684
+      },
+      {
+        "time": 2.700000047683716,
+        "text": "Collision_Remove.node(WEAPON)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.700000047683716
+      },
+      {
+        "time": 2.799999952316284,
+        "text": "Collision_AttackEnd",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.799999952316284
+      },
+      {
+        "time": 0.20000000298023224,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.20000000298023224
+      },
+      {
+        "time": 0.2167000025510788,
+        "text": "animmotion 0.0 2.7120000000000033 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.2167000025510788
+      },
+      {
+        "time": 0.23330000042915344,
+        "text": "animmotion 0.0 10.020000000000024 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.23330000042915344
+      },
+      {
+        "time": 0.25,
+        "text": "animmotion 0.0 20.683000000000007 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.25
+      },
+      {
+        "time": 0.26669999957084656,
+        "text": "animmotion 0.0 33.46 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.26669999957084656
+      },
+      {
+        "time": 0.2833000123500824,
+        "text": "animmotion 0.0 47.11100000000002 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.2833000123500824
+      },
+      {
+        "time": 0.30000001192092896,
+        "text": "animmotion 0.0 60.39300000000001 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.30000001192092896
+      },
+      {
+        "time": 0.3167000114917755,
+        "text": "animmotion 0.0 72.144 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3167000114917755
+      },
+      {
+        "time": 0.33329999446868896,
+        "text": "animmotion 0.0 81.50400000000002 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.33329999446868896
+      },
+      {
+        "time": 0.3499999940395355,
+        "text": "animmotion 0.0 87.69300000000001 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3499999940395355
+      },
+      {
+        "time": 0.3666999936103821,
+        "text": "animmotion 0.0 89.93000000000002 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 0.3666999936103821
+      },
+      {
+        "time": 1.1332999467849731,
+        "text": "animmotion 0.0 89.93000000000002 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.1332999467849731
+      },
+      {
+        "time": 1.149999976158142,
+        "text": "animmotion 0.0 89.06700000000001 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.149999976158142
+      },
+      {
+        "time": 1.166700005531311,
+        "text": "animmotion 0.0 86.70000000000002 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.166700005531311
+      },
+      {
+        "time": 1.1833000183105469,
+        "text": "animmotion 0.0 83.16500000000002 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.1833000183105469
+      },
+      {
+        "time": 1.2000000476837158,
+        "text": "animmotion 0.0 78.79400000000001 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.2000000476837158
+      },
+      {
+        "time": 1.2166999578475952,
+        "text": "animmotion 0.0 73.92300000000003 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.2166999578475952
+      },
+      {
+        "time": 1.233299970626831,
+        "text": "animmotion 0.0 68.88400000000001 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.233299970626831
+      },
+      {
+        "time": 1.25,
+        "text": "animmotion 0.0 64.01300000000003 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.25
+      },
+      {
+        "time": 1.266700029373169,
+        "text": "animmotion 0.0 59.64200000000002 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.266700029373169
+      },
+      {
+        "time": 1.2833000421524048,
+        "text": "animmotion 0.0 56.10700000000001 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.2833000421524048
+      },
+      {
+        "time": 1.2999999523162842,
+        "text": "animmotion 0.0 53.74000000000002 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.2999999523162842
+      },
+      {
+        "time": 1.3166999816894531,
+        "text": "animmotion 0.0 52.87700000000001 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.3166999816894531
+      },
+      {
+        "time": 1.666599988937378,
+        "text": "animmotion 0.0 52.87700000000001 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 1.666599988937378
+      },
+      {
+        "time": 2.8332200050354004,
+        "text": "animmotion 0.0 252.87700000000001 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack6.hkx",
+        "source_time": 2.8332200050354004
+      }
+    ],
+    "attack_min": 0,
+    "attack_max": 10000,
+    "weight": 1,
+    "runtime_verified": false,
+    "events": [
+      {
+        "time": 1.7999999523162842,
+        "kind": "beam",
+        "multiplier": 1.5,
+        "radius": 4.5,
+        "source_event": "PIE.$IrisBeam"
+      },
+      {
+        "time": 2.049999952316284,
+        "kind": "beam",
+        "multiplier": 1.5,
+        "radius": 4.5,
+        "source_event": "PIE.$IrisBeam"
+      },
+      {
+        "time": 2.299999952316284,
+        "kind": "beam",
+        "multiplier": 1.5,
+        "radius": 4.5,
+        "source_event": "PIE.$IrisBeam"
+      },
+      {
+        "time": 2.5999999046325684,
+        "kind": "beam",
+        "multiplier": 1.5,
+        "radius": 4.5,
+        "source_event": "PIE.$IrisBeam"
+      }
+    ],
+    "seat050": {
+      "male": {
+        "basis": "native skinned lower-pelvis patch / actual solid hammer roof",
+        "support_local_held_mesh": [
+          0.2930983881489675,
+          -4.373013750301197,
+          0.28678418766438896
+        ],
+        "selection_vertices": [
+          2715,
+          2716,
+          2720,
+          2793,
+          2798,
+          4377,
+          4382,
+          4574,
+          4575,
+          4576,
+          5370,
+          5371,
+          5372,
+          5373,
+          5374,
+          5375,
+          5382,
+          5386,
+          5387,
+          8091,
+          8095,
+          8096,
+          8169,
+          8174,
+          9753,
+          9758,
+          9949,
+          9950,
+          9951,
+          10746,
+          10747,
+          10748,
+          10749,
+          10750,
+          10751,
+          10760,
+          10761,
+          10762
+        ],
+        "contact_error_max": 2.419891233355123e-13,
+        "right_hand_error_max": 1.2000684105892088e-14,
+        "left_hand_error_max": 9.952454341106685e-15,
+        "runtime_actor_write": false,
+        "frames": [
+          {
+            "time": 1.7499999611876733,
+            "contact_error": 2.419891233355123e-13,
+            "right_hand_error": 9.441466109136565e-15,
+            "left_hand_error": 3.66205343881779e-15
+          },
+          {
+            "time": 1.7666666274846987,
+            "contact_error": 1.2997791147793086e-15,
+            "right_hand_error": 5.891509130072236e-15,
+            "left_hand_error": 3.6687789788066426e-15
+          },
+          {
+            "time": 1.7833332937817241,
+            "contact_error": 1.3601506482663936e-14,
+            "right_hand_error": 7.444291678311382e-15,
+            "left_hand_error": 3.66205343881779e-15
+          },
+          {
+            "time": 1.7999999600787497,
+            "contact_error": 2.0016754622823366e-15,
+            "right_hand_error": 7.707858776888524e-15,
+            "left_hand_error": 5.634860374059478e-15
+          },
+          {
+            "time": 1.8166666263757751,
+            "contact_error": 6.758924343478424e-16,
+            "right_hand_error": 3.6418022968069345e-15,
+            "left_hand_error": 7.944109290391274e-15
+          },
+          {
+            "time": 1.8333332926728005,
+            "contact_error": 3.1265396248459502e-15,
+            "right_hand_error": 5.352150186685534e-15,
+            "left_hand_error": 9.952454341106685e-15
+          },
+          {
+            "time": 1.849999958969826,
+            "contact_error": 2.6945789820192467e-15,
+            "right_hand_error": 5.756054031998179e-15,
+            "left_hand_error": 9.441466109136565e-15
+          },
+          {
+            "time": 1.8666666252668516,
+            "contact_error": 9.533100851442155e-15,
+            "right_hand_error": 4.905125646631375e-15,
+            "left_hand_error": 4.351167857633658e-15
+          },
+          {
+            "time": 1.883333291563877,
+            "contact_error": 1.280672456422863e-15,
+            "right_hand_error": 6.2842938400131246e-15,
+            "left_hand_error": 6.951095629092365e-15
+          },
+          {
+            "time": 1.8999999578609024,
+            "contact_error": 2.041308900601823e-15,
+            "right_hand_error": 1.0223701381680905e-14,
+            "left_hand_error": 4.440892098500626e-15
+          },
+          {
+            "time": 1.916666624157928,
+            "contact_error": 1.22156069063769e-15,
+            "right_hand_error": 2.401779625492033e-15,
+            "left_hand_error": 6.4047456679787536e-15
+          },
+          {
+            "time": 1.9333332904549534,
+            "contact_error": 1.0299525296675035e-15,
+            "right_hand_error": 1.88411095042053e-15,
+            "left_hand_error": 3.972054645195637e-15
+          },
+          {
+            "time": 1.9499999567519788,
+            "contact_error": 4.447912179969771e-15,
+            "right_hand_error": 5.407139474782739e-15,
+            "left_hand_error": 1.790180836524724e-15
+          },
+          {
+            "time": 1.9666666230490042,
+            "contact_error": 1.1433814963738287e-15,
+            "right_hand_error": 4.027524346742929e-15,
+            "left_hand_error": 3.5596458096434965e-15
+          },
+          {
+            "time": 1.9833332893460298,
+            "contact_error": 1.3232745389513375e-15,
+            "right_hand_error": 5.551115123125783e-15,
+            "left_hand_error": 7.160723346098895e-15
+          },
+          {
+            "time": 1.9999999556430552,
+            "contact_error": 1.00908600675913e-14,
+            "right_hand_error": 9.101120538054984e-15,
+            "left_hand_error": 2.6645352591003757e-15
+          },
+          {
+            "time": 2.0166666219400806,
+            "contact_error": 3.152060817481933e-15,
+            "right_hand_error": 9.272854936269104e-15,
+            "left_hand_error": 6.936895214610187e-15
+          },
+          {
+            "time": 2.033333288237106,
+            "contact_error": 4.2509546553917224e-15,
+            "right_hand_error": 5.617333549722722e-15,
+            "left_hand_error": 7.354337211075899e-15
+          },
+          {
+            "time": 2.0499999545341314,
+            "contact_error": 2.9164493834784427e-15,
+            "right_hand_error": 4.070144838902081e-15,
+            "left_hand_error": 4.2261452805446086e-15
+          },
+          {
+            "time": 2.066666620831157,
+            "contact_error": 4.7753304507146545e-15,
+            "right_hand_error": 3.9968028886505635e-15,
+            "left_hand_error": 2.094764613337708e-15
+          },
+          {
+            "time": 2.0833332871281827,
+            "contact_error": 1.95494638843167e-15,
+            "right_hand_error": 1.1599572757078549e-14,
+            "left_hand_error": 6.413400083909417e-15
+          },
+          {
+            "time": 2.099999953425208,
+            "contact_error": 1.0994151322850842e-15,
+            "right_hand_error": 3.3009303617866928e-15,
+            "left_hand_error": 4.401862785740953e-15
+          },
+          {
+            "time": 2.1166666197222335,
+            "contact_error": 1.0219518513719386e-14,
+            "right_hand_error": 9.576276950461626e-15,
+            "left_hand_error": 8.614071563282455e-15
+          },
+          {
+            "time": 2.133333286019259,
+            "contact_error": 3.325229164541295e-15,
+            "right_hand_error": 8.906729185356879e-15,
+            "left_hand_error": 8.379058453350832e-15
+          },
+          {
+            "time": 2.1499999523162843,
+            "contact_error": 4.161578117962918e-15,
+            "right_hand_error": 3.8266474299528865e-15,
+            "left_hand_error": 3.688882027804963e-15
+          },
+          {
+            "time": 2.1666666186133097,
+            "contact_error": 8.44431173234212e-15,
+            "right_hand_error": 5.760335218184685e-15,
+            "left_hand_error": 3.972054645195637e-15
+          },
+          {
+            "time": 2.183333284910335,
+            "contact_error": 1.589839758910881e-15,
+            "right_hand_error": 4.033640560360252e-15,
+            "left_hand_error": 4.070144838902081e-15
+          },
+          {
+            "time": 2.199999951207361,
+            "contact_error": 6.166549374971333e-15,
+            "right_hand_error": 5.475099487534308e-15,
+            "left_hand_error": 5.4930801582266845e-15
+          },
+          {
+            "time": 2.2166666175043863,
+            "contact_error": 3.062812363355181e-15,
+            "right_hand_error": 5.4930801582266845e-15,
+            "left_hand_error": 3.66205343881779e-15
+          },
+          {
+            "time": 2.2333332838014117,
+            "contact_error": 6.710251241778941e-15,
+            "right_hand_error": 7.591847593814708e-15,
+            "left_hand_error": 6.439293542825908e-15
+          },
+          {
+            "time": 2.249999950098437,
+            "contact_error": 4.600481425335854e-15,
+            "right_hand_error": 8.79251776862914e-15,
+            "left_hand_error": 5.962218089060634e-15
+          },
+          {
+            "time": 2.2666666163954625,
+            "contact_error": 1.1402948489989764e-14,
+            "right_hand_error": 7.984348558471944e-15,
+            "left_hand_error": 4.490574227168739e-15
+          },
+          {
+            "time": 2.283333282692488,
+            "contact_error": 2.2889516859713394e-15,
+            "right_hand_error": 4.550560269027492e-15,
+            "left_hand_error": 4.351167857633658e-15
+          },
+          {
+            "time": 2.2999999489895133,
+            "contact_error": 8.537219831034737e-15,
+            "right_hand_error": 9.780050345373876e-15,
+            "left_hand_error": 4.5288390936029406e-15
+          },
+          {
+            "time": 2.3166666152865387,
+            "contact_error": 6.8267996556393714e-15,
+            "right_hand_error": 7.793734002518813e-15,
+            "left_hand_error": 4.070144838902081e-15
+          },
+          {
+            "time": 2.3333332815835646,
+            "contact_error": 6.7833286710377e-15,
+            "right_hand_error": 5.197930934883577e-15,
+            "left_hand_error": 4.5288390936029406e-15
+          },
+          {
+            "time": 2.34999994788059,
+            "contact_error": 1.4605341510568325e-15,
+            "right_hand_error": 1.2000684105892088e-14,
+            "left_hand_error": 6.125373197167204e-15
+          },
+          {
+            "time": 2.3666666141776154,
+            "contact_error": 5.189698904010604e-15,
+            "right_hand_error": 6.2685830808342686e-15,
+            "left_hand_error": 6.125373197167204e-15
+          },
+          {
+            "time": 2.3833332804746408,
+            "contact_error": 3.398556614576125e-15,
+            "right_hand_error": 9.820297636185407e-15,
+            "left_hand_error": 9.53499970250244e-15
+          },
+          {
+            "time": 2.399999946771666,
+            "contact_error": 1.8948440986327473e-14,
+            "right_hand_error": 7.847321480213184e-15,
+            "left_hand_error": 9.607118501968132e-15
+          },
+          {
+            "time": 2.4166666130686916,
+            "contact_error": 3.0788678416382175e-15,
+            "right_hand_error": 1.6011864169946884e-15,
+            "left_hand_error": 3.552713678800501e-15
+          },
+          {
+            "time": 2.433333279365717,
+            "contact_error": 7.870112920630253e-15,
+            "right_hand_error": 7.53644380168212e-15,
+            "left_hand_error": 1.9860273225978185e-15
+          },
+          {
+            "time": 2.449999945662743,
+            "contact_error": 1.3581555018686545e-14,
+            "right_hand_error": 7.595094054341032e-15,
+            "left_hand_error": 1.790180836524724e-15
+          },
+          {
+            "time": 2.466666611959768,
+            "contact_error": 4.3752683660812586e-15,
+            "right_hand_error": 4.550560269027492e-15,
+            "left_hand_error": 4.440892098500626e-16
+          },
+          {
+            "time": 2.4833332782567936,
+            "contact_error": 4.307125212518857e-15,
+            "right_hand_error": 5.634860374059478e-15,
+            "left_hand_error": 6.125373197167204e-15
+          },
+          {
+            "time": 2.499999944553819,
+            "contact_error": 4.551999020833967e-15,
+            "right_hand_error": 8.248590975149166e-15,
+            "left_hand_error": 6.0402662910232525e-15
+          },
+          {
+            "time": 2.5166666108508444,
+            "contact_error": 8.955206467987463e-16,
+            "right_hand_error": 6.362265728429862e-15,
+            "left_hand_error": 3.1480255910393996e-15
+          },
+          {
+            "time": 2.53333327714787,
+            "contact_error": 3.257823619769674e-15,
+            "right_hand_error": 7.526624326760564e-15,
+            "left_hand_error": 6.2803698347351005e-15
+          },
+          {
+            "time": 2.5499999434448952,
+            "contact_error": 4.886321592625422e-15,
+            "right_hand_error": 6.217248937900877e-15,
+            "left_hand_error": 8.881784197001252e-16
+          },
+          {
+            "time": 2.5666666097419206,
+            "contact_error": 7.807214692317932e-15,
+            "right_hand_error": 6.362265728429862e-15,
+            "left_hand_error": 6.720289191984444e-15
+          },
+          {
+            "time": 2.5833332760389465,
+            "contact_error": 7.807214692317932e-15,
+            "right_hand_error": 7.350984424391015e-15,
+            "left_hand_error": 6.951095629092365e-15
+          },
+          {
+            "time": 2.599999942335972,
+            "contact_error": 8.095545396299258e-15,
+            "right_hand_error": 4.189529226675416e-15,
+            "left_hand_error": 8.379058453350832e-15
+          },
+          {
+            "time": 2.6166666086329973,
+            "contact_error": 1.0262846933021407e-14,
+            "right_hand_error": 1.1849778104645678e-14,
+            "left_hand_error": 8.68248353037211e-15
+          },
+          {
+            "time": 2.6333332749300227,
+            "contact_error": 3.398556614576125e-15,
+            "right_hand_error": 3.580361673049448e-15,
+            "left_hand_error": 3.978256139440565e-15
+          },
+          {
+            "time": 2.649999941227048,
+            "contact_error": 1.5103216300285983e-15,
+            "right_hand_error": 8.475591199538142e-15,
+            "left_hand_error": 5.58652929490272e-15
+          },
+          {
+            "time": 2.6666666075240735,
+            "contact_error": 5.485291089374647e-15,
+            "right_hand_error": 5.760335218184685e-15,
+            "left_hand_error": 6.233089088255905e-15
+          },
+          {
+            "time": 2.683333273821099,
+            "contact_error": 6.226225846578651e-15,
+            "right_hand_error": 2.2315206618374916e-15,
+            "left_hand_error": 1.2560739669470201e-15
+          },
+          {
+            "time": 2.6999999401181247,
+            "contact_error": 3.4845132718063926e-15,
+            "right_hand_error": 8.795321058280674e-15,
+            "left_hand_error": 6.023919126296978e-15
+          },
+          {
+            "time": 2.71666660641515,
+            "contact_error": 4.071753348775326e-15,
+            "right_hand_error": 8.72496861620875e-15,
+            "left_hand_error": 6.720289191984444e-15
+          },
+          {
+            "time": 2.7333332727121755,
+            "contact_error": 4.742956053182516e-15,
+            "right_hand_error": 1.3322676295501878e-15,
+            "left_hand_error": 2.6645352591003757e-15
+          },
+          {
+            "time": 2.749999939009201,
+            "contact_error": 1.1805095966397748e-15,
+            "right_hand_error": 7.394452075247454e-15,
+            "left_hand_error": 2.9790409838967277e-15
+          }
+        ]
+      },
+      "female": {
+        "basis": "native skinned lower-pelvis patch / actual solid hammer roof",
+        "support_local_held_mesh": [
+          0.37980863325223313,
+          -4.2439961866695475,
+          0.2858043911621331
+        ],
+        "selection_vertices": [
+          2726,
+          2727,
+          2736,
+          2737,
+          2741,
+          2816,
+          2817,
+          4141,
+          4400,
+          4401,
+          4593,
+          4598,
+          5270,
+          5271,
+          5299,
+          5340,
+          5341,
+          5345,
+          5354,
+          5355,
+          8015,
+          8016,
+          8025,
+          8029,
+          8030,
+          8105,
+          8106,
+          9433,
+          9689,
+          9690,
+          9882,
+          9887,
+          10559,
+          10560,
+          10591,
+          10635,
+          10639,
+          10640,
+          10647,
+          10652
+        ],
+        "contact_error_max": 2.3911763454923496e-13,
+        "right_hand_error_max": 1.1924436178121269e-14,
+        "left_hand_error_max": 0.08216657568849416,
+        "runtime_actor_write": false,
+        "frames": [
+          {
+            "time": 1.7499999611876733,
+            "contact_error": 2.3911763454923496e-13,
+            "right_hand_error": 7.215595591812694e-15,
+            "left_hand_error": 3.2023728339893768e-15
+          },
+          {
+            "time": 1.7666666274846987,
+            "contact_error": 1.0022222823284858e-14,
+            "right_hand_error": 5.773159728050814e-15,
+            "left_hand_error": 7.720641304371205e-15
+          },
+          {
+            "time": 1.7833332937817241,
+            "contact_error": 2.543991938886377e-15,
+            "right_hand_error": 5.8410815908364745e-15,
+            "left_hand_error": 5.617333549722722e-15
+          },
+          {
+            "time": 1.7999999600787497,
+            "contact_error": 6.000406246607849e-15,
+            "right_hand_error": 6.0116295811067406e-15,
+            "left_hand_error": 5.197930934883577e-15
+          },
+          {
+            "time": 1.8166666263757751,
+            "contact_error": 4.70119151596807e-15,
+            "right_hand_error": 5.962218089060634e-15,
+            "left_hand_error": 2.5121479338940403e-15
+          },
+          {
+            "time": 1.8333332926728005,
+            "contact_error": 1.1879418788182792e-14,
+            "right_hand_error": 6.023919126296978e-15,
+            "left_hand_error": 4.351167857633658e-15
+          },
+          {
+            "time": 1.849999958969826,
+            "contact_error": 1.280672456422863e-15,
+            "right_hand_error": 9.451904438592235e-15,
+            "left_hand_error": 8.926082647349967e-15
+          },
+          {
+            "time": 1.8666666252668516,
+            "contact_error": 8.29111588937234e-15,
+            "right_hand_error": 1.0706603116298291e-14,
+            "left_hand_error": 6.217248937900877e-15
+          },
+          {
+            "time": 1.883333291563877,
+            "contact_error": 8.258344920058924e-15,
+            "right_hand_error": 9.503924118373728e-15,
+            "left_hand_error": 7.133992874849212e-15
+          },
+          {
+            "time": 1.8999999578609024,
+            "contact_error": 2.9227820413647035e-15,
+            "right_hand_error": 8.625511238393738e-15,
+            "left_hand_error": 7.769181758785894e-15
+          },
+          {
+            "time": 1.916666624157928,
+            "contact_error": 5.97570517051106e-15,
+            "right_hand_error": 8.31111502828681e-15,
+            "left_hand_error": 7.025176893352192e-15
+          },
+          {
+            "time": 1.9333332904549534,
+            "contact_error": 6.509792018514799e-15,
+            "right_hand_error": 7.66938336801217e-15,
+            "left_hand_error": 5.102196573270515e-15
+          },
+          {
+            "time": 1.9499999567519788,
+            "contact_error": 9.587251523865935e-15,
+            "right_hand_error": 1.1924436178121269e-14,
+            "left_hand_error": 1.2186689105721027e-14
+          },
+          {
+            "time": 1.9666666230490042,
+            "contact_error": 5.98085964081193e-15,
+            "right_hand_error": 6.45458879844291e-15,
+            "left_hand_error": 7.971988878370802e-15
+          },
+          {
+            "time": 1.9833332893460298,
+            "contact_error": 1.890806700349005e-14,
+            "right_hand_error": 7.601582815929793e-15,
+            "left_hand_error": 4.490574227168739e-15
+          },
+          {
+            "time": 1.9999999556430552,
+            "contact_error": 4.70119151596807e-15,
+            "right_hand_error": 1.7763568394002505e-15,
+            "left_hand_error": 2.085919684541963e-15
+          },
+          {
+            "time": 2.0166666219400806,
+            "contact_error": 4.2899202995611315e-15,
+            "right_hand_error": 3.820199830714189e-15,
+            "left_hand_error": 1.1102230246251565e-15
+          },
+          {
+            "time": 2.033333288237106,
+            "contact_error": 6.997983727753365e-15,
+            "right_hand_error": 4.021398830883446e-15,
+            "left_hand_error": 6.620504818089212e-15
+          },
+          {
+            "time": 2.0499999545341314,
+            "contact_error": 6.004513213484238e-15,
+            "right_hand_error": 8.287351963130584e-15,
+            "left_hand_error": 0.08216657568849416
+          },
+          {
+            "time": 2.066666620831157,
+            "contact_error": 9.546021730367509e-15,
+            "right_hand_error": 3.800791407964896e-15,
+            "left_hand_error": 4.155557514143405e-15
+          },
+          {
+            "time": 2.0833332871281827,
+            "contact_error": 2.9248898804857767e-15,
+            "right_hand_error": 9.381220322469734e-15,
+            "left_hand_error": 9.872873219148074e-15
+          },
+          {
+            "time": 2.099999953425208,
+            "contact_error": 4.70119151596807e-15,
+            "right_hand_error": 2.710399819191012e-15,
+            "left_hand_error": 2.1556631856153973e-15
+          },
+          {
+            "time": 2.1166666197222335,
+            "contact_error": 3.188993646645029e-15,
+            "right_hand_error": 1.0158389004375822e-14,
+            "left_hand_error": 1.2672114978134163e-14
+          },
+          {
+            "time": 2.133333286019259,
+            "contact_error": 4.901433476676632e-15,
+            "right_hand_error": 2.589462819655575e-15,
+            "left_hand_error": 3.936206449947263e-15
+          },
+          {
+            "time": 2.1499999523162843,
+            "contact_error": 8.49379569714083e-15,
+            "right_hand_error": 1.1137700720795299e-14,
+            "left_hand_error": 7.565825760292109e-15
+          },
+          {
+            "time": 2.1666666186133097,
+            "contact_error": 1.1512676856437508e-14,
+            "right_hand_error": 4.334137781101951e-15,
+            "left_hand_error": 1.9984014443252818e-15
+          },
+          {
+            "time": 2.183333284910335,
+            "contact_error": 8.022129636556032e-15,
+            "right_hand_error": 7.337557957613285e-15,
+            "left_hand_error": 2.9541113323650215e-15
+          },
+          {
+            "time": 2.199999951207361,
+            "contact_error": 1.2415773546128906e-15,
+            "right_hand_error": 1.9860273225978185e-15,
+            "left_hand_error": 8.881784197001252e-16
+          },
+          {
+            "time": 2.2166666175043863,
+            "contact_error": 7.857573554041095e-15,
+            "right_hand_error": 7.806375915130091e-15,
+            "left_hand_error": 2.673771110915334e-15
+          },
+          {
+            "time": 2.2333332838014117,
+            "contact_error": 1.8075252578203454e-15,
+            "right_hand_error": 1.9984014443252818e-15,
+            "left_hand_error": 5.58652929490272e-15
+          },
+          {
+            "time": 2.249999950098437,
+            "contact_error": 1.3194879209169892e-14,
+            "right_hand_error": 9.433629782339637e-15,
+            "left_hand_error": 6.720289191984444e-15
+          },
+          {
+            "time": 2.2666666163954625,
+            "contact_error": 1.315746028734488e-14,
+            "right_hand_error": 1.790180836524724e-15,
+            "left_hand_error": 1.790180836524724e-15
+          },
+          {
+            "time": 2.283333282692488,
+            "contact_error": 1.737995547973855e-15,
+            "right_hand_error": 1.88411095042053e-15,
+            "left_hand_error": 3.774758283725532e-15
+          },
+          {
+            "time": 2.2999999489895133,
+            "contact_error": 2.3421824979263683e-15,
+            "right_hand_error": 5.043883840194739e-15,
+            "left_hand_error": 5.043883840194739e-15
+          },
+          {
+            "time": 2.3166666152865387,
+            "contact_error": 5.265152953097362e-15,
+            "right_hand_error": 7.314002333558547e-15,
+            "left_hand_error": 7.191640501203643e-15
+          },
+          {
+            "time": 2.3333332815835646,
+            "contact_error": 1.1331381586035372e-14,
+            "right_hand_error": 2.220446049250313e-15,
+            "left_hand_error": 5.760335218184685e-15
+          },
+          {
+            "time": 2.34999994788059,
+            "contact_error": 3.062812363355181e-15,
+            "right_hand_error": 5.4930801582266845e-15,
+            "left_hand_error": 4.5288390936029406e-15
+          },
+          {
+            "time": 2.3666666141776154,
+            "contact_error": 3.595927369485638e-15,
+            "right_hand_error": 4.7207330545682824e-15,
+            "left_hand_error": 5.407139474782739e-15
+          },
+          {
+            "time": 2.3833332804746408,
+            "contact_error": 3.526706052515969e-15,
+            "right_hand_error": 4.965068306494546e-15,
+            "left_hand_error": 1.9860273225978185e-15
+          },
+          {
+            "time": 2.399999946771666,
+            "contact_error": 2.591990358392645e-15,
+            "right_hand_error": 7.562566735475685e-15,
+            "left_hand_error": 3.66205343881779e-15
+          },
+          {
+            "time": 2.4166666130686916,
+            "contact_error": 9.561503737179972e-15,
+            "right_hand_error": 1.3322676295501878e-15,
+            "left_hand_error": 1.790180836524724e-15
+          },
+          {
+            "time": 2.433333279365717,
+            "contact_error": 7.957335230314734e-15,
+            "right_hand_error": 2.7465400791133423e-15,
+            "left_hand_error": 2.6645352591003757e-15
+          },
+          {
+            "time": 2.449999945662743,
+            "contact_error": 1.0937950820210114e-15,
+            "right_hand_error": 7.806375915130091e-15,
+            "left_hand_error": 1.9860273225978185e-15
+          },
+          {
+            "time": 2.466666611959768,
+            "contact_error": 4.7946501632740424e-15,
+            "right_hand_error": 9.648087210223558e-15,
+            "left_hand_error": 3.3893637946200144e-15
+          },
+          {
+            "time": 2.4833332782567936,
+            "contact_error": 3.533689203570269e-15,
+            "right_hand_error": 3.58724037616909e-15,
+            "left_hand_error": 2.6645352591003757e-15
+          },
+          {
+            "time": 2.499999944553819,
+            "contact_error": 7.857573554041095e-15,
+            "right_hand_error": 2.175583928816829e-15,
+            "left_hand_error": 3.210061615366513e-15
+          },
+          {
+            "time": 2.5166666108508444,
+            "contact_error": 6.6028525151696926e-15,
+            "right_hand_error": 4.849527372528318e-15,
+            "left_hand_error": 2.8435583831733384e-15
+          },
+          {
+            "time": 2.53333327714787,
+            "contact_error": 1.680301549862907e-15,
+            "right_hand_error": 4.189529226675416e-15,
+            "left_hand_error": 5.58652929490272e-15
+          },
+          {
+            "time": 2.5499999434448952,
+            "contact_error": 2.5728984443323463e-15,
+            "right_hand_error": 6.125373197167204e-15,
+            "left_hand_error": 2.5510982866352577e-15
+          },
+          {
+            "time": 2.5666666097419206,
+            "contact_error": 1.1837842481360531e-14,
+            "right_hand_error": 4.334137781101951e-15,
+            "left_hand_error": 3.580361673049448e-15
+          },
+          {
+            "time": 2.5833332760389465,
+            "contact_error": 4.492032191929834e-15,
+            "right_hand_error": 3.8968670012594065e-15,
+            "left_hand_error": 3.6687789788066426e-15
+          },
+          {
+            "time": 2.599999942335972,
+            "contact_error": 1.023951298512e-15,
+            "right_hand_error": 2.9873046363423827e-15,
+            "left_hand_error": 2.275280134513746e-15
+          },
+          {
+            "time": 2.6166666086329973,
+            "contact_error": 4.7946501632740424e-15,
+            "right_hand_error": 5.511002163945225e-15,
+            "left_hand_error": 4.6629367034256575e-15
+          },
+          {
+            "time": 2.6333332749300227,
+            "contact_error": 6.1825194233633095e-15,
+            "right_hand_error": 3.978256139440565e-15,
+            "left_hand_error": 1.9860273225978185e-15
+          },
+          {
+            "time": 2.649999941227048,
+            "contact_error": 2.6109426709817012e-15,
+            "right_hand_error": 5.420799638382024e-15,
+            "left_hand_error": 1.7763568394002505e-15
+          },
+          {
+            "time": 2.6666666075240735,
+            "contact_error": 4.742956053182516e-15,
+            "right_hand_error": 5.845300501889109e-15,
+            "left_hand_error": 1.1102230246251565e-15
+          },
+          {
+            "time": 2.683333273821099,
+            "contact_error": 6.069846772046871e-15,
+            "right_hand_error": 7.286988382225496e-15,
+            "left_hand_error": 4.550560269027492e-15
+          },
+          {
+            "time": 2.6999999401181247,
+            "contact_error": 2.730928618006178e-15,
+            "right_hand_error": 3.820199830714189e-15,
+            "left_hand_error": 2.0350724194510405e-15
+          },
+          {
+            "time": 2.71666660641515,
+            "contact_error": 1.3312061341463673e-14,
+            "right_hand_error": 6.526751786450488e-15,
+            "left_hand_error": 5.17892563931115e-15
+          },
+          {
+            "time": 2.7333332727121755,
+            "contact_error": 1.4855872056503444e-14,
+            "right_hand_error": 2.220446049250313e-15,
+            "left_hand_error": 2.175583928816829e-15
+          },
+          {
+            "time": 2.749999939009201,
+            "contact_error": 2.721886718816347e-15,
+            "right_hand_error": 2.2644195468014703e-15,
+            "left_hand_error": 2.3914935841127266e-15
+          }
+        ]
+      }
+    },
+    "seat049": {
+      "male": {
+        "source": "mco_powerattack6 Pelvis relative WEAPON",
+        "max_hand_error": 1.4355831967844614e-14,
+        "contact_error_during_firing": 5.637353510725953e-14,
+        "runtime_position_write": false
+      },
+      "female": {
+        "source": "mco_powerattack6 Pelvis relative WEAPON",
+        "max_hand_error": 1.2560739669470201e-14,
+        "contact_error_during_firing": 5.269678001310265e-14,
+        "runtime_position_write": false
+      }
+    },
+    "retarget": [
+      {
+        "left_hand_spin_error_max": 0.2862947620676659,
+        "left_hand_error_max": 0.2862947620676659,
+        "left_hand_error_p95": 0.0011116859765123498,
+        "skeleton": "male",
+        "frames": 216,
+        "controlled_bones": 24,
+        "prop2_id": 29,
+        "max_prop_translation": 0.8008172152721292,
+        "root_horizontal_motion": 29.48282595264082
+      },
+      {
+        "left_hand_spin_error_max": 0.4175623164755892,
+        "left_hand_error_max": 0.4175623164755892,
+        "left_hand_error_p95": 0.08929130783132831,
+        "skeleton": "female",
+        "frames": 216,
+        "controlled_bones": 24,
+        "prop2_id": 27,
+        "max_prop_translation": 0.7959616691257322,
+        "root_horizontal_motion": 29.48282595264082
+      }
+    ],
+    "height047": {
+      "source_reference": "sole plane = lowest Foot minus standing Foot height",
+      "vertical_axis": "engine Y",
+      "muzzle_height_scale": 1.5,
+      "blend_seconds": 0.2,
+      "runtime_offset": false
+    }
+  },
+  "after": {
+    "index": 7,
+    "key": "drive",
+    "name": "极致驱动",
+    "animation": "IrisArsenal_drive",
+    "technique": "17-IrisArsenal.mod",
+    "sources": [
+      "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx"
+    ],
+    "source_hashes": {
+      "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx": "88a413e055c13e1dc1951a528d8dc0fa228ba7f2949d2e38a6240996e53da28d"
+    },
+    "parts": [
+      {
+        "file": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "start": 0,
+        "end": null,
+        "rate": 1
+      }
+    ],
+    "duration": 5.5,
+    "frames": 331,
+    "motion": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.016666666666666666,
+        0.0
+      ],
+      [
+        0.03333333333333333,
+        0.0
+      ],
+      [
+        0.05,
+        0.0
+      ],
+      [
+        0.06666666666666667,
+        0.0
+      ],
+      [
+        0.08333333333333333,
+        0.0
+      ],
+      [
+        0.1,
+        0.0
+      ],
+      [
+        0.11666666666666667,
+        0.0
+      ],
+      [
+        0.13333333333333333,
+        0.0
+      ],
+      [
+        0.15,
+        0.0
+      ],
+      [
+        0.16666666666666666,
+        0.0
+      ],
+      [
+        0.18333333333333332,
+        0.0
+      ],
+      [
+        0.2,
+        0.0
+      ],
+      [
+        0.21666666666666667,
+        0.0
+      ],
+      [
+        0.23333333333333334,
+        0.0
+      ],
+      [
+        0.25,
+        0.0
+      ],
+      [
+        0.26666666666666666,
+        0.0
+      ],
+      [
+        0.2833333333333333,
+        0.0
+      ],
+      [
+        0.3,
+        0.0
+      ],
+      [
+        0.31666666666666665,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.35,
+        0.0
+      ],
+      [
+        0.36666666666666664,
+        0.0
+      ],
+      [
+        0.3833333333333333,
+        0.0
+      ],
+      [
+        0.4,
+        0.0
+      ],
+      [
+        0.4166666666666667,
+        0.0
+      ],
+      [
+        0.43333333333333335,
+        0.0
+      ],
+      [
+        0.45,
+        0.0
+      ],
+      [
+        0.4666666666666667,
+        0.0
+      ],
+      [
+        0.48333333333333334,
+        0.0
+      ],
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.5166666666666666,
+        0.0
+      ],
+      [
+        0.5333333333333333,
+        0.0
+      ],
+      [
+        0.55,
+        0.0
+      ],
+      [
+        0.5666666666666667,
+        0.0
+      ],
+      [
+        0.5833333333333334,
+        0.0
+      ],
+      [
+        0.6,
+        0.0
+      ],
+      [
+        0.6166666666666667,
+        0.0
+      ],
+      [
+        0.6333333333333333,
+        0.0
+      ],
+      [
+        0.65,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.6833333333333333,
+        0.0
+      ],
+      [
+        0.7,
+        0.0
+      ],
+      [
+        0.7166666666666667,
+        0.0
+      ],
+      [
+        0.7333333333333333,
+        0.0
+      ],
+      [
+        0.75,
+        0.0
+      ],
+      [
+        0.7666666666666666,
+        0.0
+      ],
+      [
+        0.7833333333333333,
+        0.0
+      ],
+      [
+        0.8,
+        0.0
+      ],
+      [
+        0.8166666666666667,
+        0.0
+      ],
+      [
+        0.8333333333333334,
+        0.0
+      ],
+      [
+        0.85,
+        0.0
+      ],
+      [
+        0.8666666666666667,
+        0.0
+      ],
+      [
+        0.8833333333333333,
+        0.0
+      ],
+      [
+        0.9,
+        0.0
+      ],
+      [
+        0.9166666666666666,
+        0.0
+      ],
+      [
+        0.9333333333333333,
+        0.0
+      ],
+      [
+        0.95,
+        0.0
+      ],
+      [
+        0.9666666666666667,
+        0.0
+      ],
+      [
+        0.9833333333333333,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0166666666666666,
+        0.0
+      ],
+      [
+        1.0333333333333332,
+        0.0
+      ],
+      [
+        1.05,
+        0.0
+      ],
+      [
+        1.0666666666666667,
+        0.0
+      ],
+      [
+        1.0833333333333333,
+        0.0
+      ],
+      [
+        1.1,
+        0.0
+      ],
+      [
+        1.1166666666666667,
+        0.0
+      ],
+      [
+        1.1333333333333333,
+        0.0
+      ],
+      [
+        1.15,
+        0.0
+      ],
+      [
+        1.1666666666666667,
+        0.0
+      ],
+      [
+        1.1833333333333333,
+        0.0
+      ],
+      [
+        1.2,
+        0.0
+      ],
+      [
+        1.2166666666666666,
+        0.0
+      ],
+      [
+        1.2333333333333334,
+        0.0
+      ],
+      [
+        1.25,
+        0.0
+      ],
+      [
+        1.2666666666666666,
+        0.0
+      ],
+      [
+        1.2833333333333332,
+        0.0
+      ],
+      [
+        1.3,
+        0.0
+      ],
+      [
+        1.3166666666666667,
+        0.0
+      ],
+      [
+        1.3333333333333333,
+        0.0
+      ],
+      [
+        1.35,
+        0.0
+      ],
+      [
+        1.3666666666666667,
+        0.0
+      ],
+      [
+        1.3833333333333333,
+        0.0
+      ],
+      [
+        1.4,
+        0.0
+      ],
+      [
+        1.4166666666666667,
+        0.0
+      ],
+      [
+        1.4333333333333333,
+        0.0
+      ],
+      [
+        1.45,
+        0.0
+      ],
+      [
+        1.4666666666666666,
+        0.0
+      ],
+      [
+        1.4833333333333334,
+        0.0
+      ],
+      [
+        1.5,
+        0.0
+      ],
+      [
+        1.5166666666666666,
+        0.0
+      ],
+      [
+        1.5333333333333332,
+        0.0
+      ],
+      [
+        1.55,
+        0.0
+      ],
+      [
+        1.5666666666666667,
+        0.0
+      ],
+      [
+        1.5833333333333333,
+        0.0
+      ],
+      [
+        1.6,
+        0.0
+      ],
+      [
+        1.6166666666666667,
+        0.0
+      ],
+      [
+        1.6333333333333333,
+        0.0
+      ],
+      [
+        1.65,
+        0.0
+      ],
+      [
+        1.6666666666666667,
+        0.0
+      ],
+      [
+        1.6833333333333333,
+        0.0
+      ],
+      [
+        1.7,
+        0.0
+      ],
+      [
+        1.7166666666666666,
+        0.0
+      ],
+      [
+        1.7333333333333334,
+        0.0
+      ],
+      [
+        1.75,
+        0.0
+      ],
+      [
+        1.7666666666666666,
+        0.0
+      ],
+      [
+        1.7833333333333332,
+        0.0
+      ],
+      [
+        1.8,
+        0.0
+      ],
+      [
+        1.8166666666666667,
+        0.0
+      ],
+      [
+        1.8333333333333333,
+        0.0
+      ],
+      [
+        1.8499999999999999,
+        0.0
+      ],
+      [
+        1.8666666666666667,
+        0.0
+      ],
+      [
+        1.8833333333333333,
+        0.0
+      ],
+      [
+        1.9,
+        0.0
+      ],
+      [
+        1.9166666666666667,
+        0.0
+      ],
+      [
+        1.9333333333333333,
+        0.0
+      ],
+      [
+        1.95,
+        0.0
+      ],
+      [
+        1.9666666666666666,
+        0.0
+      ],
+      [
+        1.9833333333333334,
+        0.0
+      ],
+      [
+        2.0,
+        0.0
+      ],
+      [
+        2.0166666666666666,
+        0.0
+      ],
+      [
+        2.033333333333333,
+        0.0
+      ],
+      [
+        2.05,
+        0.0
+      ],
+      [
+        2.0666666666666664,
+        0.0
+      ],
+      [
+        2.0833333333333335,
+        0.0
+      ],
+      [
+        2.1,
+        0.0
+      ],
+      [
+        2.1166666666666667,
+        0.0
+      ],
+      [
+        2.1333333333333333,
+        0.0
+      ],
+      [
+        2.15,
+        0.0
+      ],
+      [
+        2.1666666666666665,
+        0.0
+      ],
+      [
+        2.183333333333333,
+        0.0
+      ],
+      [
+        2.2,
+        0.0
+      ],
+      [
+        2.216666666666667,
+        0.0
+      ],
+      [
+        2.2333333333333334,
+        0.0
+      ],
+      [
+        2.25,
+        0.0
+      ],
+      [
+        2.2666666666666666,
+        0.0
+      ],
+      [
+        2.283333333333333,
+        0.0
+      ],
+      [
+        2.3,
+        0.0
+      ],
+      [
+        2.3166666666666664,
+        0.0
+      ],
+      [
+        2.3333333333333335,
+        0.0
+      ],
+      [
+        2.35,
+        0.0
+      ],
+      [
+        2.3666666666666667,
+        0.0
+      ],
+      [
+        2.3833333333333333,
+        0.0
+      ],
+      [
+        2.4,
+        0.0
+      ],
+      [
+        2.4166666666666665,
+        0.0
+      ],
+      [
+        2.433333333333333,
+        0.0
+      ],
+      [
+        2.45,
+        0.0
+      ],
+      [
+        2.466666666666667,
+        0.0
+      ],
+      [
+        2.4833333333333334,
+        0.0
+      ],
+      [
+        2.5,
+        0.0
+      ],
+      [
+        2.5166666666666666,
+        0.0
+      ],
+      [
+        2.533333333333333,
+        0.0
+      ],
+      [
+        2.55,
+        0.0
+      ],
+      [
+        2.5666666666666664,
+        0.0
+      ],
+      [
+        2.5833333333333335,
+        0.0
+      ],
+      [
+        2.6,
+        0.0
+      ],
+      [
+        2.6166666666666667,
+        0.0
+      ],
+      [
+        2.6333333333333333,
+        0.0
+      ],
+      [
+        2.65,
+        0.0
+      ],
+      [
+        2.6666666666666665,
+        0.0
+      ],
+      [
+        2.683333333333333,
+        0.0
+      ],
+      [
+        2.7,
+        0.0
+      ],
+      [
+        2.716666666666667,
+        0.0
+      ],
+      [
+        2.7333333333333334,
+        0.0
+      ],
+      [
+        2.75,
+        0.0
+      ],
+      [
+        2.7666666666666666,
+        0.0
+      ],
+      [
+        2.783333333333333,
+        0.0
+      ],
+      [
+        2.8,
+        0.0
+      ],
+      [
+        2.8166666666666664,
+        0.0
+      ],
+      [
+        2.8333333333333335,
+        0.0
+      ],
+      [
+        2.85,
+        0.0
+      ],
+      [
+        2.8666666666666667,
+        0.0
+      ],
+      [
+        2.8833333333333333,
+        0.0
+      ],
+      [
+        2.9,
+        0.0
+      ],
+      [
+        2.9166666666666665,
+        0.0
+      ],
+      [
+        2.933333333333333,
+        0.0
+      ],
+      [
+        2.95,
+        0.0
+      ],
+      [
+        2.966666666666667,
+        0.0
+      ],
+      [
+        2.9833333333333334,
+        0.0
+      ],
+      [
+        3.0,
+        0.0
+      ],
+      [
+        3.0166666666666666,
+        0.0
+      ],
+      [
+        3.033333333333333,
+        0.0
+      ],
+      [
+        3.05,
+        0.0
+      ],
+      [
+        3.0666666666666664,
+        0.0
+      ],
+      [
+        3.0833333333333335,
+        0.0
+      ],
+      [
+        3.1,
+        0.0
+      ],
+      [
+        3.1166666666666667,
+        0.0
+      ],
+      [
+        3.1333333333333333,
+        0.0
+      ],
+      [
+        3.15,
+        0.0
+      ],
+      [
+        3.1666666666666665,
+        0.0
+      ],
+      [
+        3.183333333333333,
+        0.0
+      ],
+      [
+        3.2,
+        0.0
+      ],
+      [
+        3.216666666666667,
+        0.0
+      ],
+      [
+        3.2333333333333334,
+        0.0
+      ],
+      [
+        3.25,
+        0.0
+      ],
+      [
+        3.2666666666666666,
+        0.0
+      ],
+      [
+        3.283333333333333,
+        0.0
+      ],
+      [
+        3.3,
+        0.0
+      ],
+      [
+        3.3166666666666664,
+        0.0
+      ],
+      [
+        3.3333333333333335,
+        0.0
+      ],
+      [
+        3.35,
+        0.0
+      ],
+      [
+        3.3666666666666667,
+        0.0
+      ],
+      [
+        3.3833333333333333,
+        0.0
+      ],
+      [
+        3.4,
+        0.0
+      ],
+      [
+        3.4166666666666665,
+        0.0
+      ],
+      [
+        3.433333333333333,
+        0.0
+      ],
+      [
+        3.4499999999999997,
+        0.0
+      ],
+      [
+        3.466666666666667,
+        0.0
+      ],
+      [
+        3.4833333333333334,
+        0.0
+      ],
+      [
+        3.5,
+        0.0
+      ],
+      [
+        3.5166666666666666,
+        0.0
+      ],
+      [
+        3.533333333333333,
+        0.0
+      ],
+      [
+        3.55,
+        0.0
+      ],
+      [
+        3.5666666666666664,
+        0.0
+      ],
+      [
+        3.5833333333333335,
+        0.0
+      ],
+      [
+        3.6,
+        0.0
+      ],
+      [
+        3.6166666666666667,
+        0.0
+      ],
+      [
+        3.6333333333333333,
+        0.0
+      ],
+      [
+        3.65,
+        0.0
+      ],
+      [
+        3.6666666666666665,
+        0.0
+      ],
+      [
+        3.683333333333333,
+        0.0
+      ],
+      [
+        3.6999999999999997,
+        0.0
+      ],
+      [
+        3.716666666666667,
+        0.0
+      ],
+      [
+        3.7333333333333334,
+        0.0
+      ],
+      [
+        3.75,
+        0.0
+      ],
+      [
+        3.7666666666666666,
+        0.0
+      ],
+      [
+        3.783333333333333,
+        0.0
+      ],
+      [
+        3.8,
+        0.0
+      ],
+      [
+        3.8166666666666664,
+        0.0
+      ],
+      [
+        3.8333333333333335,
+        0.0
+      ],
+      [
+        3.85,
+        0.0
+      ],
+      [
+        3.8666666666666667,
+        0.0
+      ],
+      [
+        3.8833333333333333,
+        0.0
+      ],
+      [
+        3.9,
+        0.0
+      ],
+      [
+        3.9166666666666665,
+        0.0
+      ],
+      [
+        3.933333333333333,
+        0.0
+      ],
+      [
+        3.9499999999999997,
+        0.0
+      ],
+      [
+        3.966666666666667,
+        0.0
+      ],
+      [
+        3.9833333333333334,
+        0.0
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        4.016666666666667,
+        0.0
+      ],
+      [
+        4.033333333333333,
+        0.0
+      ],
+      [
+        4.05,
+        0.0
+      ],
+      [
+        4.066666666666666,
+        0.0
+      ],
+      [
+        4.083333333333333,
+        0.0
+      ],
+      [
+        4.1,
+        0.0
+      ],
+      [
+        4.116666666666666,
+        0.0
+      ],
+      [
+        4.133333333333333,
+        0.0
+      ],
+      [
+        4.15,
+        0.0
+      ],
+      [
+        4.166666666666667,
+        0.0
+      ],
+      [
+        4.183333333333334,
+        0.0
+      ],
+      [
+        4.2,
+        0.0
+      ],
+      [
+        4.216666666666667,
+        0.0
+      ],
+      [
+        4.233333333333333,
+        0.0
+      ],
+      [
+        4.25,
+        0.0
+      ],
+      [
+        4.266666666666667,
+        0.0
+      ],
+      [
+        4.283333333333333,
+        0.0
+      ],
+      [
+        4.3,
+        0.0
+      ],
+      [
+        4.316666666666666,
+        0.0
+      ],
+      [
+        4.333333333333333,
+        0.0
+      ],
+      [
+        4.35,
+        0.0
+      ],
+      [
+        4.366666666666666,
+        0.0
+      ],
+      [
+        4.383333333333333,
+        0.0
+      ],
+      [
+        4.4,
+        0.0
+      ],
+      [
+        4.416666666666667,
+        0.0
+      ],
+      [
+        4.433333333333334,
+        0.0
+      ],
+      [
+        4.45,
+        0.0
+      ],
+      [
+        4.466666666666667,
+        0.0
+      ],
+      [
+        4.483333333333333,
+        0.0
+      ],
+      [
+        4.5,
+        0.0
+      ],
+      [
+        4.516666666666667,
+        0.0
+      ],
+      [
+        4.533333333333333,
+        0.0
+      ],
+      [
+        4.55,
+        0.0
+      ],
+      [
+        4.566666666666666,
+        0.0
+      ],
+      [
+        4.583333333333333,
+        0.0
+      ],
+      [
+        4.6,
+        0.0
+      ],
+      [
+        4.616666666666666,
+        0.0
+      ],
+      [
+        4.633333333333333,
+        0.0
+      ],
+      [
+        4.65,
+        0.0
+      ],
+      [
+        4.666666666666667,
+        0.0
+      ],
+      [
+        4.683333333333334,
+        0.0
+      ],
+      [
+        4.7,
+        0.0
+      ],
+      [
+        4.716666666666667,
+        0.0
+      ],
+      [
+        4.733333333333333,
+        0.0
+      ],
+      [
+        4.75,
+        0.0
+      ],
+      [
+        4.766666666666667,
+        0.0
+      ],
+      [
+        4.783333333333333,
+        0.0
+      ],
+      [
+        4.8,
+        0.0
+      ],
+      [
+        4.816666666666666,
+        0.0
+      ],
+      [
+        4.833333333333333,
+        0.0
+      ],
+      [
+        4.85,
+        0.0
+      ],
+      [
+        4.866666666666666,
+        0.0
+      ],
+      [
+        4.883333333333333,
+        0.0
+      ],
+      [
+        4.9,
+        0.0
+      ],
+      [
+        4.916666666666667,
+        0.0
+      ],
+      [
+        4.933333333333334,
+        0.0
+      ],
+      [
+        4.95,
+        0.0
+      ],
+      [
+        4.966666666666667,
+        0.0
+      ],
+      [
+        4.983333333333333,
+        0.0
+      ],
+      [
+        5.0,
+        0.0
+      ],
+      [
+        5.016666666666667,
+        0.0
+      ],
+      [
+        5.033333333333333,
+        0.0
+      ],
+      [
+        5.05,
+        0.0
+      ],
+      [
+        5.066666666666666,
+        0.0
+      ],
+      [
+        5.083333333333333,
+        0.0
+      ],
+      [
+        5.1,
+        0.0
+      ],
+      [
+        5.116666666666666,
+        0.0
+      ],
+      [
+        5.133333333333333,
+        0.0
+      ],
+      [
+        5.15,
+        0.0
+      ],
+      [
+        5.166666666666667,
+        0.0
+      ],
+      [
+        5.183333333333334,
+        0.0
+      ],
+      [
+        5.2,
+        0.0
+      ],
+      [
+        5.216666666666667,
+        0.0
+      ],
+      [
+        5.233333333333333,
+        0.0
+      ],
+      [
+        5.25,
+        0.0
+      ],
+      [
+        5.266666666666667,
+        0.0
+      ],
+      [
+        5.283333333333333,
+        0.0
+      ],
+      [
+        5.3,
+        0.0
+      ],
+      [
+        5.316666666666666,
+        0.0
+      ],
+      [
+        5.333333333333333,
+        0.0
+      ],
+      [
+        5.35,
+        0.0
+      ],
+      [
+        5.366666666666666,
+        0.0
+      ],
+      [
+        5.383333333333333,
+        0.0
+      ],
+      [
+        5.4,
+        0.0
+      ],
+      [
+        5.416666666666667,
+        0.0
+      ],
+      [
+        5.433333333333334,
+        0.0
+      ],
+      [
+        5.45,
+        0.0
+      ],
+      [
+        5.466666666666667,
+        0.0
+      ],
+      [
+        5.483333333333333,
+        0.0
+      ],
+      [
+        5.5,
+        0.0
+      ]
+    ],
+    "source_events": [
+      {
+        "time": 0.10000000149011612,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.10000000149011612
+      },
+      {
+        "time": 0.5,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.5
+      },
+      {
+        "time": 0.8999999761581421,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.8999999761581421
+      },
+      {
+        "time": 1.2999999523162842,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.2999999523162842
+      },
+      {
+        "time": 1.7000000476837158,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.7000000476837158
+      },
+      {
+        "time": 2.0999999046325684,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.0999999046325684
+      },
+      {
+        "time": 2.5,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.5
+      },
+      {
+        "time": 2.9000000953674316,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.9000000953674316
+      },
+      {
+        "time": 3.299999952316284,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.299999952316284
+      },
+      {
+        "time": 3.700000047683716,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.700000047683716
+      },
+      {
+        "time": 4.099999904632568,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 4.099999904632568
+      },
+      {
+        "time": 4.5,
+        "text": "PIE.$ES_EndureArmor",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 4.5
+      },
+      {
+        "time": 0.10000000149011612,
+        "text": "SpecialFrames_Invincible{\"Duration\":4.5}",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.10000000149011612
+      },
+      {
+        "time": 0.10000000149011612,
+        "text": "preHitFrame",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.10000000149011612
+      },
+      {
+        "time": 0.30000001192092896,
+        "text": "PIE.$IrisEXAnim",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.30000001192092896
+      },
+      {
+        "time": 2.0,
+        "text": "PIE.$IrisEXAnim1",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.0
+      },
+      {
+        "time": 3.0,
+        "text": "PIE.@CAMSHAKE|3|1",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.0
+      },
+      {
+        "time": 3.1665399074554443,
+        "text": "PIE.$IrisEXAnimSHOOT",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.1665399074554443
+      },
+      {
+        "time": 0.30000001192092896,
+        "text": "SoundPlay.Iris_ExceedDriver1",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.30000001192092896
+      },
+      {
+        "time": 3.5,
+        "text": "PIE.$IrisSteam3",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.5
+      },
+      {
+        "time": 3.0865399837493896,
+        "text": "SoundPlay.Iris_ExceedDriver2",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.0865399837493896
+      },
+      {
+        "time": 3.1665399074554443,
+        "text": "HitFrame",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.1665399074554443
+      },
+      {
+        "time": 3.1665399074554443,
+        "text": "PIE.$IrisExplosion",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.1665399074554443
+      },
+      {
+        "time": 3.1665399074554443,
+        "text": "PIE.$IrisExplosion4",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.1665399074554443
+      },
+      {
+        "time": 1.2000000476837158,
+        "text": "PIE.@SGVI|MCO_nextattack|1",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.2000000476837158
+      },
+      {
+        "time": 0.800000011920929,
+        "text": "PIE.@SGVI|MCO_nextpowerattack|1",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.800000011920929
+      },
+      {
+        "time": 5.166460037231445,
+        "text": "MCO_WinOpen",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 5.166460037231445
+      },
+      {
+        "time": 5.333119869232178,
+        "text": "MCO_WinClose",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 5.333119869232178
+      },
+      {
+        "time": 5.166460037231445,
+        "text": "MCO_PowerWinOpen",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 5.166460037231445
+      },
+      {
+        "time": 5.333119869232178,
+        "text": "MCO_PowerWinClose",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 5.333119869232178
+      },
+      {
+        "time": 5.333119869232178,
+        "text": "MCO_Recovery",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 5.333119869232178
+      },
+      {
+        "time": 0.0,
+        "text": "Collision_AttackStart",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.0
+      },
+      {
+        "time": 3.0865399837493896,
+        "text": "Collision_Add.node(SHIELD)|scale(20)|DamageMult(6)|rotation(-20, 0, -20)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.0865399837493896
+      },
+      {
+        "time": 3.299999952316284,
+        "text": "Collision_Remove.node(SHIELD)",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.299999952316284
+      },
+      {
+        "time": 3.4000000953674316,
+        "text": "Collision_AttackEnd",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.4000000953674316
+      },
+      {
+        "time": 0.016699999570846558,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.016699999570846558
+      },
+      {
+        "time": 0.0333000011742115,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.0333000011742115
+      },
+      {
+        "time": 0.05000000074505806,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.05000000074505806
+      },
+      {
+        "time": 0.06669999659061432,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.06669999659061432
+      },
+      {
+        "time": 0.08330000191926956,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.08330000191926956
+      },
+      {
+        "time": 0.10000000149011612,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.10000000149011612
+      },
+      {
+        "time": 0.11670000106096268,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.11670000106096268
+      },
+      {
+        "time": 0.13330000638961792,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.13330000638961792
+      },
+      {
+        "time": 0.15000000596046448,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.15000000596046448
+      },
+      {
+        "time": 0.16670000553131104,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.16670000553131104
+      },
+      {
+        "time": 0.18330000340938568,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.18330000340938568
+      },
+      {
+        "time": 0.20000000298023224,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.20000000298023224
+      },
+      {
+        "time": 0.2167000025510788,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.2167000025510788
+      },
+      {
+        "time": 0.23330000042915344,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.23330000042915344
+      },
+      {
+        "time": 0.25,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.25
+      },
+      {
+        "time": 0.26669999957084656,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.26669999957084656
+      },
+      {
+        "time": 0.2833000123500824,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.2833000123500824
+      },
+      {
+        "time": 0.30000001192092896,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.30000001192092896
+      },
+      {
+        "time": 0.3167000114917755,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.3167000114917755
+      },
+      {
+        "time": 0.33329999446868896,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.33329999446868896
+      },
+      {
+        "time": 0.3499999940395355,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.3499999940395355
+      },
+      {
+        "time": 0.3666999936103821,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.3666999936103821
+      },
+      {
+        "time": 0.3833000063896179,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.3833000063896179
+      },
+      {
+        "time": 0.4000000059604645,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.4000000059604645
+      },
+      {
+        "time": 0.41670000553131104,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.41670000553131104
+      },
+      {
+        "time": 0.4332999885082245,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.4332999885082245
+      },
+      {
+        "time": 0.44999998807907104,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.44999998807907104
+      },
+      {
+        "time": 0.4666999876499176,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.4666999876499176
+      },
+      {
+        "time": 0.48330000042915344,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.48330000042915344
+      },
+      {
+        "time": 0.5,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.5
+      },
+      {
+        "time": 0.516700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.516700029373169
+      },
+      {
+        "time": 0.53329998254776,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.53329998254776
+      },
+      {
+        "time": 0.550000011920929,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.550000011920929
+      },
+      {
+        "time": 0.5666999816894531,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.5666999816894531
+      },
+      {
+        "time": 0.583299994468689,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.583299994468689
+      },
+      {
+        "time": 0.6000000238418579,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.6000000238418579
+      },
+      {
+        "time": 0.6166999936103821,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.6166999936103821
+      },
+      {
+        "time": 0.6333000063896179,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.6333000063896179
+      },
+      {
+        "time": 0.6499999761581421,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.6499999761581421
+      },
+      {
+        "time": 0.666700005531311,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.666700005531311
+      },
+      {
+        "time": 0.6833000183105469,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.6833000183105469
+      },
+      {
+        "time": 0.699999988079071,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.699999988079071
+      },
+      {
+        "time": 0.71670001745224,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.71670001745224
+      },
+      {
+        "time": 0.733299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.733299970626831
+      },
+      {
+        "time": 0.75,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.75
+      },
+      {
+        "time": 0.766700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.766700029373169
+      },
+      {
+        "time": 0.78329998254776,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.78329998254776
+      },
+      {
+        "time": 0.800000011920929,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.800000011920929
+      },
+      {
+        "time": 0.8166999816894531,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.8166999816894531
+      },
+      {
+        "time": 0.833299994468689,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.833299994468689
+      },
+      {
+        "time": 0.8500000238418579,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.8500000238418579
+      },
+      {
+        "time": 0.8666999936103821,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.8666999936103821
+      },
+      {
+        "time": 0.8833000063896179,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.8833000063896179
+      },
+      {
+        "time": 0.8999999761581421,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.8999999761581421
+      },
+      {
+        "time": 0.916700005531311,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.916700005531311
+      },
+      {
+        "time": 0.9333000183105469,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.9333000183105469
+      },
+      {
+        "time": 0.949999988079071,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.949999988079071
+      },
+      {
+        "time": 0.96670001745224,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.96670001745224
+      },
+      {
+        "time": 0.983299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 0.983299970626831
+      },
+      {
+        "time": 1.0,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.0
+      },
+      {
+        "time": 1.016700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.016700029373169
+      },
+      {
+        "time": 1.0333000421524048,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.0333000421524048
+      },
+      {
+        "time": 1.0499999523162842,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.0499999523162842
+      },
+      {
+        "time": 1.0666999816894531,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.0666999816894531
+      },
+      {
+        "time": 1.083299994468689,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.083299994468689
+      },
+      {
+        "time": 1.100000023841858,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.100000023841858
+      },
+      {
+        "time": 1.1167000532150269,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.1167000532150269
+      },
+      {
+        "time": 1.1332999467849731,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.1332999467849731
+      },
+      {
+        "time": 1.149999976158142,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.149999976158142
+      },
+      {
+        "time": 1.166700005531311,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.166700005531311
+      },
+      {
+        "time": 1.1833000183105469,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.1833000183105469
+      },
+      {
+        "time": 1.2000000476837158,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.2000000476837158
+      },
+      {
+        "time": 1.2166999578475952,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.2166999578475952
+      },
+      {
+        "time": 1.233299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.233299970626831
+      },
+      {
+        "time": 1.25,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.25
+      },
+      {
+        "time": 1.266700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.266700029373169
+      },
+      {
+        "time": 1.2833000421524048,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.2833000421524048
+      },
+      {
+        "time": 1.2999999523162842,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.2999999523162842
+      },
+      {
+        "time": 1.3166999816894531,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.3166999816894531
+      },
+      {
+        "time": 1.333299994468689,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.333299994468689
+      },
+      {
+        "time": 1.350000023841858,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.350000023841858
+      },
+      {
+        "time": 1.3667000532150269,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.3667000532150269
+      },
+      {
+        "time": 1.3832999467849731,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.3832999467849731
+      },
+      {
+        "time": 1.399999976158142,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.399999976158142
+      },
+      {
+        "time": 1.416700005531311,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.416700005531311
+      },
+      {
+        "time": 1.4333000183105469,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.4333000183105469
+      },
+      {
+        "time": 1.4500000476837158,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.4500000476837158
+      },
+      {
+        "time": 1.4666999578475952,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.4666999578475952
+      },
+      {
+        "time": 1.483299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.483299970626831
+      },
+      {
+        "time": 1.5,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.5
+      },
+      {
+        "time": 1.516700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.516700029373169
+      },
+      {
+        "time": 1.5333000421524048,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.5333000421524048
+      },
+      {
+        "time": 1.5499999523162842,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.5499999523162842
+      },
+      {
+        "time": 1.5666999816894531,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.5666999816894531
+      },
+      {
+        "time": 1.583299994468689,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.583299994468689
+      },
+      {
+        "time": 1.600000023841858,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.600000023841858
+      },
+      {
+        "time": 1.6167000532150269,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.6167000532150269
+      },
+      {
+        "time": 1.6332999467849731,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.6332999467849731
+      },
+      {
+        "time": 1.649999976158142,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.649999976158142
+      },
+      {
+        "time": 1.666700005531311,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.666700005531311
+      },
+      {
+        "time": 1.6833000183105469,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.6833000183105469
+      },
+      {
+        "time": 1.7000000476837158,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.7000000476837158
+      },
+      {
+        "time": 1.7166999578475952,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.7166999578475952
+      },
+      {
+        "time": 1.733299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.733299970626831
+      },
+      {
+        "time": 1.75,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.75
+      },
+      {
+        "time": 1.766700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.766700029373169
+      },
+      {
+        "time": 1.7833000421524048,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.7833000421524048
+      },
+      {
+        "time": 1.7999999523162842,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.7999999523162842
+      },
+      {
+        "time": 1.8166999816894531,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.8166999816894531
+      },
+      {
+        "time": 1.833299994468689,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.833299994468689
+      },
+      {
+        "time": 1.850000023841858,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.850000023841858
+      },
+      {
+        "time": 1.8667000532150269,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.8667000532150269
+      },
+      {
+        "time": 1.8832999467849731,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.8832999467849731
+      },
+      {
+        "time": 1.899999976158142,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.899999976158142
+      },
+      {
+        "time": 1.916700005531311,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.916700005531311
+      },
+      {
+        "time": 1.9333000183105469,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.9333000183105469
+      },
+      {
+        "time": 1.9500000476837158,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.9500000476837158
+      },
+      {
+        "time": 1.9666999578475952,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.9666999578475952
+      },
+      {
+        "time": 1.983299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 1.983299970626831
+      },
+      {
+        "time": 2.0,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.0
+      },
+      {
+        "time": 2.016700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.016700029373169
+      },
+      {
+        "time": 2.0332999229431152,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.0332999229431152
+      },
+      {
+        "time": 2.049999952316284,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.049999952316284
+      },
+      {
+        "time": 2.066699981689453,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.066699981689453
+      },
+      {
+        "time": 2.0833001136779785,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.0833001136779785
+      },
+      {
+        "time": 2.0999999046325684,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.0999999046325684
+      },
+      {
+        "time": 2.1166999340057373,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.1166999340057373
+      },
+      {
+        "time": 2.1333000659942627,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.1333000659942627
+      },
+      {
+        "time": 2.1500000953674316,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.1500000953674316
+      },
+      {
+        "time": 2.1666998863220215,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.1666998863220215
+      },
+      {
+        "time": 2.183300018310547,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.183300018310547
+      },
+      {
+        "time": 2.200000047683716,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.200000047683716
+      },
+      {
+        "time": 2.2167000770568848,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.2167000770568848
+      },
+      {
+        "time": 2.233299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.233299970626831
+      },
+      {
+        "time": 2.25,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.25
+      },
+      {
+        "time": 2.266700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.266700029373169
+      },
+      {
+        "time": 2.2832999229431152,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.2832999229431152
+      },
+      {
+        "time": 2.299999952316284,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.299999952316284
+      },
+      {
+        "time": 2.316699981689453,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.316699981689453
+      },
+      {
+        "time": 2.3333001136779785,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.3333001136779785
+      },
+      {
+        "time": 2.3499999046325684,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.3499999046325684
+      },
+      {
+        "time": 2.3666999340057373,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.3666999340057373
+      },
+      {
+        "time": 2.3833000659942627,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.3833000659942627
+      },
+      {
+        "time": 2.4000000953674316,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.4000000953674316
+      },
+      {
+        "time": 2.4166998863220215,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.4166998863220215
+      },
+      {
+        "time": 2.433300018310547,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.433300018310547
+      },
+      {
+        "time": 2.450000047683716,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.450000047683716
+      },
+      {
+        "time": 2.4667000770568848,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.4667000770568848
+      },
+      {
+        "time": 2.483299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.483299970626831
+      },
+      {
+        "time": 2.5,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.5
+      },
+      {
+        "time": 2.516700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.516700029373169
+      },
+      {
+        "time": 2.5332999229431152,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.5332999229431152
+      },
+      {
+        "time": 2.549999952316284,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.549999952316284
+      },
+      {
+        "time": 2.566699981689453,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.566699981689453
+      },
+      {
+        "time": 2.5833001136779785,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.5833001136779785
+      },
+      {
+        "time": 2.5999999046325684,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.5999999046325684
+      },
+      {
+        "time": 2.6166999340057373,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.6166999340057373
+      },
+      {
+        "time": 2.6333000659942627,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.6333000659942627
+      },
+      {
+        "time": 2.6500000953674316,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.6500000953674316
+      },
+      {
+        "time": 2.6666998863220215,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.6666998863220215
+      },
+      {
+        "time": 2.683300018310547,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.683300018310547
+      },
+      {
+        "time": 2.700000047683716,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.700000047683716
+      },
+      {
+        "time": 2.7167000770568848,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.7167000770568848
+      },
+      {
+        "time": 2.733299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.733299970626831
+      },
+      {
+        "time": 2.75,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.75
+      },
+      {
+        "time": 2.766700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.766700029373169
+      },
+      {
+        "time": 2.7832999229431152,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.7832999229431152
+      },
+      {
+        "time": 2.799999952316284,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.799999952316284
+      },
+      {
+        "time": 2.816699981689453,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.816699981689453
+      },
+      {
+        "time": 2.8333001136779785,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.8333001136779785
+      },
+      {
+        "time": 2.8499999046325684,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.8499999046325684
+      },
+      {
+        "time": 2.8666999340057373,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.8666999340057373
+      },
+      {
+        "time": 2.8833000659942627,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.8833000659942627
+      },
+      {
+        "time": 2.9000000953674316,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.9000000953674316
+      },
+      {
+        "time": 2.9166998863220215,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.9166998863220215
+      },
+      {
+        "time": 2.933300018310547,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.933300018310547
+      },
+      {
+        "time": 2.950000047683716,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.950000047683716
+      },
+      {
+        "time": 2.9667000770568848,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.9667000770568848
+      },
+      {
+        "time": 2.983299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 2.983299970626831
+      },
+      {
+        "time": 3.0,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.0
+      },
+      {
+        "time": 3.016700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.016700029373169
+      },
+      {
+        "time": 3.0332999229431152,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.0332999229431152
+      },
+      {
+        "time": 3.049999952316284,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.049999952316284
+      },
+      {
+        "time": 3.066699981689453,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.066699981689453
+      },
+      {
+        "time": 3.0833001136779785,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.0833001136779785
+      },
+      {
+        "time": 3.0999999046325684,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.0999999046325684
+      },
+      {
+        "time": 3.1166999340057373,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.1166999340057373
+      },
+      {
+        "time": 3.1333000659942627,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.1333000659942627
+      },
+      {
+        "time": 3.1500000953674316,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.1500000953674316
+      },
+      {
+        "time": 3.1666998863220215,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.1666998863220215
+      },
+      {
+        "time": 3.183300018310547,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.183300018310547
+      },
+      {
+        "time": 3.200000047683716,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.200000047683716
+      },
+      {
+        "time": 3.2167000770568848,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.2167000770568848
+      },
+      {
+        "time": 3.233299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.233299970626831
+      },
+      {
+        "time": 3.25,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.25
+      },
+      {
+        "time": 3.266700029373169,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.266700029373169
+      },
+      {
+        "time": 3.2832999229431152,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.2832999229431152
+      },
+      {
+        "time": 3.299999952316284,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.299999952316284
+      },
+      {
+        "time": 3.316699981689453,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.316699981689453
+      },
+      {
+        "time": 3.3333001136779785,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.3333001136779785
+      },
+      {
+        "time": 3.3499999046325684,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.3499999046325684
+      },
+      {
+        "time": 3.3666999340057373,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.3666999340057373
+      },
+      {
+        "time": 3.3833000659942627,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.3833000659942627
+      },
+      {
+        "time": 3.4000000953674316,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.4000000953674316
+      },
+      {
+        "time": 3.4166998863220215,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.4166998863220215
+      },
+      {
+        "time": 3.433300018310547,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.433300018310547
+      },
+      {
+        "time": 3.450000047683716,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.450000047683716
+      },
+      {
+        "time": 3.4667000770568848,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.4667000770568848
+      },
+      {
+        "time": 3.483299970626831,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.483299970626831
+      },
+      {
+        "time": 3.5,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 3.5
+      },
+      {
+        "time": 5.166460037231445,
+        "text": "animmotion 0.0 0.0 0.0",
+        "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\actors\\character\\animations\\DynamicAnimationReplacer\\_CustomConditions\\999977000\\mco_powerattack10.hkx",
+        "source_time": 5.166460037231445
+      }
+    ],
+    "attack_min": 0,
+    "attack_max": 10000,
+    "weight": 1,
+    "runtime_verified": false,
+    "events": [
+      {
+        "time": 3.1665399074554443,
+        "kind": "beam",
+        "multiplier": 1.5,
+        "radius": 9,
+        "source_event": "PIE.$IrisEXAnimSHOOT"
+      },
+      {
+        "time": 3.4165399074554443,
+        "kind": "beam",
+        "multiplier": 1.5,
+        "radius": 9,
+        "source_event": "PIE.$IrisEXAnimSHOOT"
+      },
+      {
+        "time": 3.6665399074554443,
+        "kind": "beam",
+        "multiplier": 1.5,
+        "radius": 9,
+        "source_event": "PIE.$IrisEXAnimSHOOT"
+      },
+      {
+        "time": 3.9165399074554443,
+        "kind": "beam",
+        "multiplier": 1.5,
+        "radius": 9,
+        "source_event": "PIE.$IrisEXAnimSHOOT"
+      }
+    ],
+    "retarget": [
+      {
+        "left_hand_spin_error_max": 1.2387323036763467e-14,
+        "left_hand_error_max": 0.18271994779196737,
+        "left_hand_error_p95": 0.0335461694321861,
+        "skeleton": "male",
+        "frames": 331,
+        "controlled_bones": 24,
+        "prop2_id": 29,
+        "max_prop_translation": 0.8008172152721305,
+        "root_horizontal_motion": 0.0
+      },
+      {
+        "left_hand_spin_error_max": 1.4956315403090868e-14,
+        "left_hand_error_max": 0.30892635319962214,
+        "left_hand_error_p95": 0.1784391364024373,
+        "skeleton": "female",
+        "frames": 331,
+        "controlled_bones": 24,
+        "prop2_id": 27,
+        "max_prop_translation": 0.7959616691257341,
+        "root_horizontal_motion": 0.0
+      }
+    ]
+  },
+  "other_9_identical": true,
+  "changed_FCS_records": [
+    "17-IrisArsenal.mod"
+  ]
+}

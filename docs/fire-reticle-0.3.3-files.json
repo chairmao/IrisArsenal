@@ -1,0 +1,1017 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+    "Role": "033源码/产物合同",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "e8d8bd20694603f54a86ac24a8add43f1a7364518fd93203bbfe8879dcf6fac6",
+    "Changes": [
+      "版本033防止与032特效混装，旧地震烟尘合同退出活跃资产合同"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "172ede64676ba1a445231ee61d5b23e2dd772c443ff8ee88506f23bc23b1304c",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015400-880227\\edit-015400-905352\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015400-880227\\edit-015400-906433\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+    "Role": "033源码/产物合同",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "412a77ce0e9f09e5339710e891fe769f9e488071ebdf6294137ba198c6fbb21c",
+    "Changes": [
+      "版本033防止与032特效混装，旧地震烟尘合同退出活跃资产合同"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "2e10d4f0aa7bbfc751e99e7ce434a4341067c687c14345af1f8e47cdf0431729",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015400-880227\\edit-015400-910743\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015400-880227\\edit-015400-912898\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+    "Role": "10000光炮与准星稳定显示",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "b25fbbfa5e3e5e2a2f6c22b19c2d7efeba2e3373081587850c0b937bc4997857",
+    "Changes": [
+      "薄准星轴向跟随枪口；地震使用六层源火焰曲线寿命并仅抬高可视0.8，健康R36/四次/倍率和AOE优化保持",
+      "真实柱体长度取本招FCS上限10000、R9不变，蓄力期间保持平面准星，不压缩五秒球形曲线"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "5bdfde7fc8fba71c27c7e4154b780d860648e7e87146a0e454f5962019099c53",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015400-880227\\edit-015400-898531\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015400-880227\\edit-015400-900706\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+    "Role": "远程门日志语法可审查",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "1f94f7fb3488d4b10b9f0b6a43c812f6ee4969e1cf87194b1bffb477d20ab44e",
+    "Changes": [
+      "私有GunData范围同FCS，新增状态变化有界ranged_gate区分范围/就绪/排队/原生许可；不强行启动动作或绕过LOS",
+      "枚举位标记显式static_cast，无状态改写"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "c19fe983c6c51e56e1e7fdc72f47b12e6d65c532bfdd1e7fff6a498547192528",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015856-444336\\edit-015856-466247\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015856-444336\\edit-015856-467722\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "Role": "033当前状态",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "94da8ba9600040cae631ea62230ebd3849d547b7f348a6b4d137b711a7c26200",
+    "Changes": [
+      "置顶当前已确认/未编译状态，保留032和以前历史原文"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "09542c85191d980dbb79fe5a0058c0e68010f67b0493664cc7f47d162c1d1193",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020606-442087\\edit-020606-964444\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020606-442087\\edit-020606-966346\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "Role": "033当前状态",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "8eb2bc4b4fda0d91cdb6a9b457795233a550fdde747d2440a4fa441c489a4ae5",
+    "Changes": [
+      "置顶当前已确认/未编译状态，保留032和以前历史原文"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "8741b14ac7075fd6f412ae76d6f55f4e0cb2c06d4c059e395e2c1ca08b3abd3f",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020606-442087\\edit-020606-970077\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020606-442087\\edit-020606-971831\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+    "Role": "033交付身份",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "34e6cb41ae4cda888419c8b6ca3ad37a442ca6a87fcc22fcd52b8fee59c42bb3",
+    "Changes": [
+      "实际032运行证据与033源码资产分离，不称已部署或已实机通过"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "685eb1a6ad1f3e5c3b863e88704e2e974feb41d6a28bd6b44438e9423b5ac2ae",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020606-442087\\edit-020606-976459\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020606-442087\\edit-020606-978043\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+    "Role": "八招特效来源与差异",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "b3eeb02c0bafcddb718ca7d2db82365607f28b597bf67199710cd417fec60f03",
+    "Changes": [
+      "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "36b075060ab7b2701960da2b8cc0c98a38d70cf36dc47b5cf444ef26c24a15f5",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015240-944763\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015240-946047\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+    "Role": "033五招参数合同",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "66a9fb86ffa4e885665d4c036461783b3774090b4dc6c4e21be9af41a2891c5f",
+    "Changes": [
+      "火神/脉冲/极致的attack distance均0～10000，其余参数不改"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "85475781b6fed1d68bc0b2ead8d3831527e2933f09e8ab5cf1b798c2d0c3ab3f",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015400-880227\\edit-015400-953119\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015400-880227\\edit-015400-955655\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-reticle-0.3.3-evidence.json",
+    "Role": "033源/录像/旧运行证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始时不存在",
+    "Changes": [
+      "实际032运行确认，录像/源动画火焰变体/准星重绘/距离门证据与未确认原因分开"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "ea84016507f379a483e0744f7e78e8b1f70f7dd6e8192fb3e4a54dc49ccfb1fe",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\fire-reticle-0.3.3.md",
+    "Role": "033问题/证据/实现与验收说明",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始时不存在",
+    "Changes": [
+      "准星重绘身份、原火焰变体、脉冲增益、10000一致射程、远程空等机制与未确认历史原因、待实机边界"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "64db7ac12ae345010baa172d43a5e2b575a207b2de6f88cbc3b0178d7174a20b",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\package-gate-0.3.3.json",
+    "Role": "033组包门实测",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始时不存在",
+    "Changes": [
+      "实际现有032DLL被033合同拒绝，未编译未部署"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "6bdb2ff9ff1538851f67f7a91285de77712252709a3789fae08f4e9625d4c311",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\safety-0.3.3.json",
+    "Role": "033隔离与环境验证",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始时不存在",
+    "Changes": [
+      "不改游戏/滚5素材/其他项目；只复用既有局部PyAV，无环境安装"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "a3b81adf5a8e7369449a7e0ae71ec00c28f27f030f40dd7eb09e190c7ce8851c",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.3.3.json",
+    "Role": "八招非编译验收证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始时不存在",
+    "Changes": [
+      "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "72e9758ec222d39e35694640b4baa7f26df6cb6940d9379d9c9a40531957400d",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp",
+    "Role": "10000长束原生墙阻挡",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "5dcc33b8eb868a125ae9043f557a193a17116ff1eb2131f11e4ccc874172abfe",
+    "Changes": [
+      "保留原先第一非角色阻挡语义；只流式保存最近阻挡，不因沿途超过256个世界shape反复失败"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "9bfb842b3498245ebeb69865ef6180a61f12cb1ef9f96af89c722b8783bec06c",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015856-444336\\edit-015856-453476\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015856-444336\\edit-015856-455553\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.cpp"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h",
+    "Role": "长束阻挡查询模式",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "b8516829b381076b732adc05335c490c1780b63349635cbaa6a5b8d108b9b73c",
+    "Changes": [
+      "仅内部SweepAll追加显式最近非角色模式，默认普通多接触行为不变"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "9cc5860f15bbdcf79fddcc38fd03e5c0cc789c89f12c1aac577800e038f30da5",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015856-444336\\edit-015856-445678\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015856-444336\\edit-015856-447184\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\native\\NativeMultiContact.h"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+    "Role": "显示增益隔离",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "70a6852073fb136af30fc238d8c15513588be50a3cfb3dbdd431c8a2da942137",
+    "Changes": [
+      "地震改火焰变体explosionwarm0六层源曲线；移除活跃烟尘GPU路径；准星按录像红蓝平面重绘，脉冲alpha2.2/RGB1.45显示增益",
+      "默认1/1材质保持原摘要及模型引用，只生成受本轮影响的脉冲/火焰/准星资源变化"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "10f22a994b95335065ddbb867535b3fc6b4e2bc0840b5c52dc90b59f92f3b555",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-523276\\edit-015231-525422\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-523276\\edit-015231-528928\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+    "Role": "远程距离生产者",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "4461620b3f8948702348c6ad1a110ab861b896856c9d6bacdc46bd30a95b07a0",
+    "Changes": [
+      "三招远程起手最大10000，min0，其他招式/事件参数保持"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "ff96c592204cf58c7738bf588ac82dc53a58378fe3bbb9b871252504078d49c3",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015400-880227\\edit-015400-925000\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015400-880227\\edit-015400-928309\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_reticle.py",
+    "Role": "录像准星几何作者",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始时不存在",
+    "Changes": [
+      "两层分段蓝环/红刻线，z恒0；明确视频重建与源直接移植区别，不造体积球"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "8beeaca5bdd35608bc9db63748b9e04c1a5327b00ddd01dc6c9627c18ac896d0",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+    "Role": "033源码/产物合同",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "5eb2661850799e5eb028ed3011394a37125ea1f40a5d367445306e13d259691c",
+    "Changes": [
+      "版本033防止与032特效混装，旧地震烟尘合同退出活跃资产合同"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "5f3f39ca7b4c9373c2d3b43785930a40be3a57cc3c768694e5f6e22301ce24ba",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015400-880227\\edit-015400-915961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015400-880227\\edit-015400-918025\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+    "Role": "033独立边界与源几何验收",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "d0732da8a02ae43ad7355913a9d11817125b7ab90e815fd4a89f9f4e7eb72d79",
+    "Changes": [
+      "四次源火焰/平面准星/脉冲显示增益/10000长束及有界门诊断，保留既有柱体/球AOE独立检查"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "8c78e85280f1840b5a584b5bc8d3e5df26d8cadd0890bb59496dd635b2a2241f",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020110-262999\\edit-020110-334289\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020110-262999\\edit-020110-337818\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+    "Role": "033相邻合同回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "1462a564132f37c0a3669a1ebe949fd9031bec2108ec5370886d6dc2087664f6",
+    "Changes": [
+      "三远程10000、地震火焰曲线替代烟尘、033产物身份；原命中计数/公共FCS隔离/原生流程继续检查"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "715c8db1d122f07c72014b014210be45f997494f18781831365cf68d604be83d",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020110-262999\\edit-020110-283280\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020110-262999\\edit-020110-285906\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+    "Role": "准星纹理预热回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "921eb02332b8a0a3c9d425de97b726de559ed003b8309342f9a3ea077dc9b09e",
+    "Changes": [
+      "准星无纹理不计虚构贴图，三远程真实纹理驻留估算仍保留"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "b3195a4b5a7a1f5b8c01e2ff33cc3e1f825ada5d846ff6e6d1ac80be65dcaca1",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020110-262999\\edit-020110-322605\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020110-262999\\edit-020110-325688\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+    "Role": "033相邻合同回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "0156dfc8205448fc0830064b9c0453f3681a76f90fe595362d03251e80f985d3",
+    "Changes": [
+      "三远程10000、地震火焰曲线替代烟尘、033产物身份；原命中计数/公共FCS隔离/原生流程继续检查"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "4806459670676901bf1b35e29fec09f22ec7f004cbbbae7995aa04d324857ffb",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020110-262999\\edit-020110-270592\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020110-262999\\edit-020110-273220\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+    "Role": "保留火神回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "f3b7eab3614d1ad812a335b937ffc2e96b2ccc269def5f526c234909edafb339",
+    "Changes": [
+      "录像准星独立Shader走专项，原火神材料/碰撞/防御回归不降级"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "9c6385ead25cb5c7a7df0e63e6c25e59703376355a529a22bda95e9a514d78e4",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020110-262999\\edit-020110-309675\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020110-262999\\edit-020110-312390\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+    "Role": "033相邻合同回归",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "344dc2a876d811dfae6390c38eab58a43888eb26a985720c3d3d6a946b5c3ff6",
+    "Changes": [
+      "三远程10000、地震火焰曲线替代烟尘、033产物身份；原命中计数/公共FCS隔离/原生流程继续检查"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "7c3ac7b1ac15f612bae307e077eaed582dd687c85bcacefe4248f1084eb70074",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020110-262999\\edit-020110-294483\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020110-262999\\edit-020110-297698\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "033测试配置说明",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "ee931584f7cf25b5eaeec750dbc626e0047fce4f713d1c62ffeee8df5e3f515d",
+    "Changes": [
+      "继续三远程/两近战权重1，远程间隔1和并发设置保持"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "d45715532a50afb807e183cd686691e6184efadc3c464d3f13c8161a61fdf46c",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015400-880227\\edit-015401-213567\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015400-880227\\edit-015401-215638\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+    "Role": "八招隔离FCS记录",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "2ed2c638506041ed40ba473ac179bc9df318512d5f6c2d8ad2c386c0926287c3",
+    "Changes": [
+      "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "523ee6ea3fe596659839f3a59e679dfe338e29559d66dc3e19e3a1a660ebfbe1",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015400-880227\\edit-015401-199511\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015400-880227\\edit-015401-200514\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "Role": "033资源包清单",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "91b85351a65aa67bffbcad101c7c7ca6cbc2b2c5183b6c6f62a03b24a09c8ba6",
+    "Changes": [
+      "登记当前新资产并保留旧DLL身份，不虚报ready"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "858ca9c93d58a383f949532dbe4a7465e91a91c6328445bc59bc672c787792a5",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-020606-442087\\edit-020607-071702\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-020606-442087\\edit-020607-072702\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+    "Role": "运行时显式子材质绑定",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "9cf54fbf1759e26977dd67ef2d51e92744ce4476af3fcf95c8634fd01b5e6c20",
+    "Changes": [
+      "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "7faa791a4540b284f42190e89ac1006cb31ca88e5ea77489dad96736836589e8",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015240-969508\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015240-971537\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+    "Role": "分层源光学时间流",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "04945f03ed8d155a16865d82a50b5a639e11e628c104d7f0aae7d22340825733",
+    "Changes": [
+      "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "a938e7d7f38fe4108bdbd62edc8157cb0579ddd12277bb941ce121f67c70a539",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015240-960583\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015240-964013\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+    "Role": "八招源光学适配",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "69b171a93f5dc22c88f5a7bd7ba6039c31a863a56d0cdff41aea50925bfebf58",
+    "Changes": [
+      "源RGBA/梯度/UV流动/自发光，实例游戏时钟；不编译着色器"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "46f026162ab144b7e8599cf3bd6b30f62228027783a5235983245c4eb3ea7755",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015240-814444\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015240-816954\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+    "Role": "八招源材质",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "a9d3c92e453ba33632949445b0b9930342972e52903226ebe674dd35bd700df0",
+    "Changes": [
+      "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "68f3c8fe0138824b4d4cb75e6ba8b1f59a26f40ac4755668583395ac24511a63",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015240-917954\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015240-922474\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+    "Role": "平面准星程序",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "7995615e79d289bd9c6b5b32730898512bab453f0b5d0d857a8ff6a30afc2ecb",
+    "Changes": [
+      "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "6cd26992af61e97131a777d4c1a21d3a226071bac950066f133379e589e0156d",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015240-822252\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015240-824381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle.mesh",
+    "Role": "录像准星双层",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "bda860a091d2a6cf604580fb586d58baa07b7d15daab805219ff0ef0ef6a946e",
+    "Changes": [
+      "两个分段环和四刻线、源录像红蓝色，薄平面无体积"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "f7096c513b8655b33b8569c567958197f80bf649b9f4887df59b51302da35089",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015240-790060\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015240-792672\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle.mesh"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_muzzle.mesh"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_pulse_blast.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "51e267e6b4acb3ed22c2801cee8c45ed152f7841536914b85001143f6a24a70a",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "688cd466eb6b3a93d236ad067b4b572731b15a787c5ccb6d4a5233ce1363174c",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015240-780867\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_pulse_blast.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015240-783938\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_pulse_blast.mesh"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_pulse_blast.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_pulse_blast.mesh"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "37f872bcd61baf4b733d6974bfa74a837c7bc7001142d787b448657b752cd039",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "5db6df5838e96d6c30dbbaa0ab6bac836107be12320cd65c04b698ad60850116",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015237-660010\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015237-662015\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+    "Role": "033运行事件流",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "52c6090ef1e99092ae92ea52ba4ab78f92d19d14aa2b3f90090eeb2610093d15",
+    "Changes": [
+      "远程起手0～10000，其他事件不变，与FCS相互校验"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "bbf7bcbefef941fae2d0e98b80c432a3ad9729553c9bcfd1c31b9534890a2d55",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015400-880227\\edit-015401-206831\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015400-880227\\edit-015401-209249\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-033-20261017-020713-527789\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\IrisReticle-Reference.png",
+    "Role": "原视频准星参考帧",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始时不存在",
+    "Changes": [
+      "158.9秒实际红蓝分段环/四刻线作为几何重绘标准；不是声称找到了源NIF"
+    ],
+    "Reasons": "用户本轮准星/火焰地震/脉冲显示/10000射程及远程空等核查要求；证据fire-reticle-0.3.3-evidence.json",
+    "After": "65b27d606412acdb83e6dd4102f890458d2660905a4c1379ab19b776c33338dc",
+    "Impact": "仅本项目033源码/工具/资产/报告；游戏032、滚5源素材、其他项目不变",
+    "Validation": "validation-0.3.3.json及package-gate-0.3.3.json/safety-0.3.3.json；静态通过，未执行C++/HLSL/新游戏",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "intermediate_backups": "docs/change-reports逐次即时记录",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64/v100编译；准星为录像重建，完整源粒子未全移植，火焰/脉冲可见性、10000长束密集目标/实际远距离许可需实机；旧空等原因不能唯一确认"
+  }
+]

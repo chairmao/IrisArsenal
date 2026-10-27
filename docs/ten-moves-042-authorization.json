@@ -1,0 +1,37 @@
+{
+  "version": "0.4.2",
+  "owner": "Codex",
+  "explicit_user_scope": [
+    "全力爆发末击火焰覆盖R90",
+    "按视频/原MPS改善火神枪口",
+    "新增电脉加农源跳跃坐锤/前20球R25",
+    "新增破坏之锤普通三连"
+  ],
+  "clarification": "用户明确仅三次纯武器挥击，不含踢击",
+  "Cpp_scope": {
+    "IrisCombat.cpp": "十招表、新球事件、独立附件/清理及全力显示路由",
+    "IrisArsenal.cpp": "配套合同/版本和诊断文字"
+  },
+  "source_fidelity": "只读原HKX/INI/NIF/贴图，沿用源五层和原参数；不生成新纹理",
+  "defaults": {
+    "electro_cannon": {
+      "weight": 1,
+      "attack_distance": [
+        0,
+        45
+      ],
+      "events": 4,
+      "damage_multiplier_each": 1
+    },
+    "hammer_combo": {
+      "weight": 1,
+      "attack_distance": [
+        0,
+        25
+      ],
+      "events": 3,
+      "damage_multiplier_each": 1
+    }
+  },
+  "compilation": "用户自行Release|x64/v100，agent不编译；本轮不部署"
+}

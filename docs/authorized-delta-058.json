@@ -1,0 +1,126 @@
+{
+  "root:IrisCombat.cpp": {
+    "before": "0c5c872f2a95cb394ad40509d55e33ad23b3dc079f0865e9e0934a47576ad64b",
+    "after": "18a8f45a627d1f260a6ebd1790712a722c8c497bf5a3b8faadc9899e96cbbe8d"
+  },
+  "root:IrisArsenal.cpp": {
+    "before": "9bd9c94f53872c75ea3a7836b4e0a08f839552e1c9c3100775faee8f5697cb5f",
+    "after": "a1610a2e1d1dabd7e495738ccabc77b40a48382ad252cc8a2a3fafda61d5bbb7"
+  },
+  "root:IrisDiagnostics.cpp": {
+    "before": "4b0475224abd36c602f0315e47a77711ff9a8e41cba71224e52821e8e5c8d69e",
+    "after": "682312eaa68b91f0c922671b71bbbe65f7ac747487cb5817c8b87bea21d036c4"
+  },
+  "root:IrisArsenal.rc": {
+    "before": "800bef1261b11219ea808de2484d2511731bd801775e65cd1ad7c0651c1cf039",
+    "after": "ab2eefbdf676c95583a5f76db66b1adf37ea5153814e92572fd2293e4fa9a3b5"
+  },
+  "root:tools/stage_package.py": {
+    "before": "38237a016a24ff81991effb891dc084ed14372885c41ea091a88d174308c6e72",
+    "after": "ab7c83012986445bbbfd892f71dae5ffd6333208d2b7ac148f8f20a2ec21ac47"
+  },
+  "root:tools/test_balance046.py": {
+    "before": "b1ada6e9524ec5f394e280081cc37743a964ea47d014d400cb2701f6e7395804",
+    "after": "3c337b8a641a5b3191bdc259f1f5f41940ba789126414a6a546fb5d06061bb7b"
+  },
+  "root:tools/test_capsule_batch056.py": {
+    "before": "f8f50b5619fb782980dfdfefb66252ca16e73401269d7333e9264c22b783e6d1",
+    "after": "307cb0e6116b3550fcbafd916a0eeb28606f1bb3eb34c88d241d51878c78af66"
+  },
+  "root:tools/test_collision_damage055.py": {
+    "before": "05dc66cadc1ce1b13489494fc8edb21070fb6e0ed3596dc327717f4105cd296f",
+    "after": "df0b3f55eea68d0db4e06cdcbae4baec90d470452c89aba3008e38d3a77350e2"
+  },
+  "root:tools/test_melee_reaction044.py": {
+    "before": "adcca4ded70482596307d8748063bea74e68d571d3f11b015c26a2d70c24587b",
+    "after": "c56d77b7dc34b2154a6c85237bd3122561b8912c9b68275cf500a78e08363ca6"
+  },
+  "root:tools/test_move_parameters045.py": {
+    "before": "12442127c1ad4d688251818e810aabc09c51f76afe2f0b56bb9efd0728f934f2",
+    "after": "9c8f44ad778bb9810584754fb72f1eea041fee6ba2eee1d3367f5809c0f22d9d"
+  },
+  "root:tools/test_physx_compat054.py": {
+    "before": "f779af4145a3a835916c420447d54870d6ac3163d89e910a885ad26bfd072c2d",
+    "after": "7bcf55a2d01d8f706565c8f7b1b3915e8090076d50ae46dc39723c59f5af0b2f"
+  },
+  "root:tools/test_queue_balance053.py": {
+    "before": "6d1023b40c17981f2272fccfbcfac78ae6e89889548d4c7cad904066693b929f",
+    "after": "12299e634f9742f4353b903aabc57dc6ed304ab1341ebf95cbee6b43dedf765a"
+  },
+  "root:tools/test_ranged_ray057.py": {
+    "before": "ed455fdce5c71f2516f6947041a4f28e35017c2efcf798d5a266d77692d636a8",
+    "after": "97cb8134931d1b397f8195f3f23b75f51fbc343c8da0269667462526fc7ced73"
+  },
+  "root:tools/test_release047.py": {
+    "before": "e0a98c5fb31e6fecf547c463b399a1ebd6cb3186a55ce3d80cb53e77198e4c19",
+    "after": "820f52e198f3bb941f3908cc8987a4c3ef8fab6d9de569688c0aec27398098e7"
+  },
+  "root:tools/test_surface050.py": {
+    "before": "d90ce2eae0e7260a0d4654cc51cfcec7adc6a19d2adc66b823b85e757d2a0afb",
+    "after": "085e01d10be9f01cdae55b36c78e6df77b0fec9889ecd6d8d5a66668d16cf403"
+  },
+  "root:tools/verify_moves.py": {
+    "before": "e8b9ea748dd6edd118e1e7a9ad5579d8bc4ff2b18de7675398cbd85fbc942802",
+    "after": "71cb7beab4daa434569173e98a49287fdb041e64f7121bbe6762511b4ec263bf"
+  },
+  "root:tools/historical047.py": {
+    "before": "628eaf566bf434ce176c50ba639a8c7fff7033c8f502f5f90ec657ee420dd901",
+    "after": "dbcde8816e7ec9b196921814dc80633416fa5d1f871e38676495099f821df325"
+  },
+  "root:package/IrisArsenal/IrisPackage.json": {
+    "before": "da2182ca662e5ee33e638aa5d101facf6507746a0f1b15987894bbce976ad80a",
+    "after": "f909afe2c06ef0192511384e15530fecab9e22f94e9594a0e9f73fbdf91d215c"
+  },
+  "root:docs/authorized-delta-058.json": {
+    "before": "e1a67734d9464b82dede8134de6b2bb161c8cbdb942f7da48b116e16abc6d8cc",
+    "after": "0977f0ce0d83a7180a2cd3bd4bbe2fd4dd5b772c78548416971aff43b68b193d"
+  },
+  "root:docs/fire-cannon-058-baseline.json": {
+    "before": "f89f23d1b63e50a36b038af65a2e0316da0720bb8b1ae44257a890539bd584a8",
+    "after": "7d88caee296c25a5b493f3824198ad0936899e70d7287d44b84410a1eda26fe5"
+  },
+  "root:tools/test_ten_moves042.py": {
+    "before": "12d52dc46dddc1a1946fb5325d8dbc95e3793aa6c6423c641f367960e0bc57e8",
+    "after": "a7c94ea736fbc8231f3bcfa3a216b61f6712a7c7acdf51de4de39bcfd5b9dd88"
+  },
+  "root:STATE.md": {
+    "before": "3ead12c417590cc80e92d1a11e219d1b354c2a19ec51215b9bc9e98d34740cf8",
+    "after": "167ab1ba2ca9d5c6ab22e3e21415f944157de89bc69f00bfd793d29b36b187db"
+  },
+  "root:README.md": {
+    "before": "328502325976acf5f0eb6b984214cdc8c2e619ee42d1b76d3cf7c3e231314fe1",
+    "after": "4deb01ed8c4cff446060e9a724d053eee2224b365af520e7408835f165a2a12b"
+  },
+  "function:AdvanceEffects": {
+    "before": "620c3261b482956b8dee4925848a906e2f24e46ae366f7985c808c748dc9e3c4",
+    "after": "04d47164db1b00c5af75b7eb03db660e4f4e6492a46e9baea8d344dca8239c11"
+  },
+  "function:Emit": {
+    "before": "8d5b15a23e51bb3f87feca7f7b5f8d976841f757fbc95c3a38255d4d1e039c91",
+    "after": "36aa7e673cfdee40707faaa00df4451624479e034199896c1b23c8339133665b"
+  },
+  "function:Configure": {
+    "before": "a00542a593c8bf962ffa7ba8814eba912b8766e615da6f1d1ae2122fa6d17be0",
+    "after": "870f34191af1183d916d4b80b8081b486d68c5786e67215438b1ce81a9a166bb"
+  },
+  "function:Blast_055_normalized": {
+    "before": "eaf9e414c77906714d9f89c4b3884a2bedda746f4678363a986c184066234b1d",
+    "after": "2017325679bed9ea687d58961ddad1ef2fe9736c1df8e75362fc0ee916868377"
+  },
+  "function:Emit_055_normalized": {
+    "before": "da9e1e8513229d730eb2ddd988a1481d44b80630daf90a8c4a5593ccd9a618ec",
+    "after": "3a695a462245179b1e090901c2c3b9bd7ea186c8d1cb19635b11f309088c7f47"
+  },
+  "function:Blast": {
+    "before": "26c1c417ef25b5a980e04431ed6daa59319733add4f20fdbddfff7044799f6e4",
+    "after": "df6a4f2aa9e699fd672ea0eded86c2d8187e5c193c2dd8cc4bf19d0a515e1b5e"
+  },
+  "function:Draw": {
+    "before": "f798250fabc5f4897c6c5bd4061a0ebfd0f4235313855128d9dfa60e0384a47f",
+    "after": "b72cbf4a73bbcee2f51e26bb0f86891ed1c003e1159609b9cc8fbeb853a3ad85"
+  },
+  "function:ShowParts": {
+    "before": "24591e6bb696b1d1865a65379e5348916fcf2b1609bc1e60c38dd3690adc6eed",
+    "after": "3b5bfd5c39c11e1bad2855ae6156b3164a44cc0bc591ced1336b35927d4475dc"
+  }
+}

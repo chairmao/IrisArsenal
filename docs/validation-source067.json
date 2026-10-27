@@ -1,0 +1,142 @@
+{
+  "assets": {
+    "roll_blast": {
+      "layers": 12,
+      "particles": 659,
+      "samples": 151,
+      "duration": 2.5,
+      "delayed_min_birth": 0.10046706348657608
+    },
+    "full_blast": {
+      "layers": 12,
+      "particles": 912,
+      "samples": 151,
+      "duration": 2.5,
+      "delayed_min_birth": null
+    },
+    "electro_area": {
+      "layers": 4,
+      "particles": 275,
+      "samples": 151,
+      "duration": 2.5,
+      "delayed_min_birth": null
+    },
+    "electro_burst": {
+      "layers": 5,
+      "particles": 0,
+      "samples": 82,
+      "duration": 1.333333373,
+      "delayed_min_birth": null
+    },
+    "warm_coverage": {
+      "radius95_per_unit": [
+        1.7034426189508434,
+        1.6703578505991796,
+        1.0394218746664676,
+        1.5082566420911607,
+        1.7262656337212106,
+        1.5239106792958799,
+        1.0,
+        1.3306126487094168,
+        1.649550633464623,
+        1.619582469180763,
+        1.6096032067379613,
+        1.5252816221042629
+      ],
+      "note": "soft source intensity/area quantile; flash/sparks can exceed physical sphere; not hard pixel coverage"
+    },
+    "fireball_coverage": {
+      "radius95_per_unit": [
+        1.1398537359634464,
+        1.0003209108432654,
+        1.2067824568126924,
+        1.1814272333436386,
+        1.1433288371872046,
+        1.1772473823109106,
+        1.2175515378601596,
+        1.198006646714783,
+        1.1114457349692264,
+        1.198329928921193,
+        1.0,
+        1.1135955428308875
+      ],
+      "note": "soft source intensity/area quantile; flash/sparks can exceed physical sphere; not hard pixel coverage"
+    },
+    "firewave_coverage": {
+      "radius95_per_unit": [
+        1.130995815875307,
+        1.1023680796917394,
+        1.0148393644085527,
+        1.1277109132503045,
+        1.0218147300306712,
+        1.0894813985645204,
+        1.0,
+        1.093267272276601,
+        1.048859483651503,
+        1.0844664165052766,
+        1.131552883666847,
+        1.0756468266122166
+      ],
+      "note": "soft source intensity/area quantile; flash/sparks can exceed physical sphere; not hard pixel coverage"
+    }
+  },
+  "backflip": {
+    "male": {
+      "before_flip_peak": 8.379877090454102,
+      "end_offset": -44.0854377746582,
+      "backward_segment": 52.465314865112305,
+      "net_backward": 44.0854377746582
+    },
+    "female": {
+      "before_flip_peak": 8.379877090454102,
+      "end_offset": -44.0854377746582,
+      "backward_segment": 52.465314865112305,
+      "net_backward": 44.0854377746582
+    }
+  },
+  "source_chains": {
+    "roll": [
+      "PIE IrisBackJump SPEL8DB MGEF8DA EXPL439C0 FireBallExp01",
+      "MGEF8DC papaStrikeCast2 Spell8CD delay0.1 MGEF8CB EXPL6051F FireBallExp01",
+      "same HKX IrisExplosion SPEL824 MGEF812 EXPL810 ShoutAreaExplosionWarm0"
+    ],
+    "full": [
+      "FullBust_End SPEL824 warm",
+      "FullBust_End Skyrim3F9ED VoiceFlameWaveProject03 ADDN64 x7 MPSFireWaveFlames"
+    ],
+    "electro": [
+      "IrisBeam SPEL886 MGEF884 PROJ885 beam.nif",
+      "same IrisBeam SPEL824 MGEF812 EXPL810 warm"
+    ]
+  },
+  "function_invariance": {
+    "IrisCombat.cpp": {
+      "functions": 94,
+      "changed": [
+        "VisualLayerAge(const std::string& key,unsigned layer,float age)",
+        "VisualLifetime(const std::string& key,float duration)",
+        "Configure(const std::wstring& dir)",
+        "ShowParts(Character* c,Actor& a,const Matrix4& w,float t)"
+      ],
+      "comment_only": [
+        "AdvanceEffects(GameWorld* w,float dt,const Vector3& origin,unsigned& budget)"
+      ],
+      "others_exact": true
+    },
+    "IrisArsenal.cpp": {
+      "functions": 49,
+      "changed": [],
+      "comment_only": [],
+      "others_exact": true
+    }
+  },
+  "cpp_grammar_files": 10,
+  "python_AST": 3,
+  "other_curve_rows_exact": 13,
+  "other_asset_records_exact": 18,
+  "all_other_runtime_files_exact": true,
+  "installed_package_untouched": true,
+  "old_dll_rejected": "DLL缺少067三招源特效时钟，请编译 IrisArsenal.sln / Release|x64 / v100",
+  "compiled": "not run by policy",
+  "GPU_game_runtime": "not tested"
+}

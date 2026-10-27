@@ -1,0 +1,584 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+    "Role": "主插件版本合同",
+    "Code location": "CONTRACT / Log / 文件版本注释",
+    "Before": "7f8230dda817b6acc6b27536c07c2efb8bde2e381935831540090b8e4b6f0c07",
+    "Changes": [
+      "0.2.2/IRIS_EIGHT_022区分真实0.2.1错误瞄准运行和新修复，不新增钩子"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "b8379b7fadeef35ab1fd4152a4631dff68b8e15062d02dc555000878c820326f",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194023-971962\\edit-194023-984431\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194023-971962\\edit-194023-986431\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+    "Role": "Windows版本资源",
+    "Code location": "VERSIONINFO",
+    "Before": "f9618a0935ee5ed5744923da7f1c9b66011e9fdd21ac0c4cfb46ba207263af2c",
+    "Changes": [
+      "与0.2.2源码和日志合同一致"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "1934dbb6479d0f07a696a5ad35376c913fc57f46f31cd4b26ad1eacdc35d57fc",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194023-971962\\edit-194023-991322\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194023-971962\\edit-194023-993018\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+    "Role": "投射物与自有渲染资源诊断",
+    "Code location": "Shot / AssetRequired / WarmNext / Target / DrawShot / Emit / AdvanceEffects / Tick / Clear",
+    "Before": "3c09014d5ffea8ddcfec882d96ff740754d9b71d22cf989769803acb687ae0f5",
+    "Changes": [
+      "Target直接消费原生世界骨点并逐招有界记录根/骨/枪口；脉冲恢复三层源尺寸；只预热启用招式依赖，保留物理/伤害/时钟",
+      "明确源装饰包络、R0.7弹体核心和用户最新R9球形爆炸，不更改火神",
+      "只在自有实例数新高时记录有界高水位，分开演员部件/池/飞弹/余效；不把实例数当GPU字节或泄漏证据"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "9dc2a5823b1c3485200f4f774eedb3a5c84b1ee909c7f6e6677e6ef7d0a4a5b5",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194023-971962\\edit-194023-974862\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194023-971962\\edit-194023-978330\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "Role": "用户入口说明",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "36cc87426041a123741bc7985cde66f39f56b10c6beb4dda272904e728d97870",
+    "Changes": [
+      "022最新真实状态置前；保留021/020历史说明"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "b2988467c187a0fa3d9084b3b377357e7a3e6699f926c55f9c6ae4a68db51d08",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194908-157147\\edit-194908-963453\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194908-157147\\edit-194908-965498\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "Role": "项目当前状态",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "f58023a5a62969db0074be86661153fd6e7e879d4289e8f3bedb12585e808212",
+    "Changes": [
+      "更新021真实运行证据与022待编译边界；保留旧历史不覆盖"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "aa2fe256f3fba8d88376b08c79a07c87c6e2fa5fbe322e908ea346f25c488ee1",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194908-157147\\edit-194908-957684\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194908-157147\\edit-194908-960044\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\aim-pulse-0.2.2-evidence.json",
+    "Role": "022瞄准与资源证据",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "不存在",
+    "Changes": [
+      "区分021实测错误、离线native、022静态结果和待实机；记录源脉冲身份和显存估算"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "ac1abf3c238bfd34e26b5613c1db70acb3849897d58f0b5adb00476f4ae8133b",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\aim-pulse-0.2.2.md",
+    "Role": "022交付说明",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "不存在",
+    "Changes": [
+      "结果/原因/配置/资源估算/证据/未验证边界与编译要求"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "1cc8768f908f78105155efffad50a959909f7a7bfefce057515ec7fa9b5d6a43",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+    "Role": "当前交付状态",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "1d1cff0bf92c1b42483c927d54910e34fb629ed5814de2b1b5a5a991678fb72c",
+    "Changes": [
+      "021实测与022待编译分开；当前证据/参数部署收据代替陈旧结论",
+      "022验证/基线/当前hash索引更新，去掉旧自引用hash"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "31d2e8aefd573aa340652988a309ac5861288628c43bcfbf1406cb33c2c48ce0",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194908-157147\\edit-194908-970864\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194908-157147\\edit-194908-971881\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+    "Role": "八招特效来源与差异",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "d76da723c3730947b9f59a1958daf8bc763a103dac9a6b364234b84b2817c2bd",
+    "Changes": [
+      "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "3f076d88842f08d2126f8f152966a5bd72609231d482786ecfb522cf90cbaeaf",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194039-960195\\edit-194046-757307\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194039-960195\\edit-194046-762393\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+    "Role": "脉冲事件合同",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "0a83ab29ca3be009c5f0155b9869740083dd5f1b1ad7290fd7e7b36c1e41aa05",
+    "Changes": [
+      "仅合同版本升级，身体动作、事件倍率、距离和次数不变",
+      "version与022合同一致；不改事件、源身份、动画、倍率和距离",
+      "三发球形爆炸R9，火神R4.5；其他参数保持"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "f501cfb62bd0b8aef62c222535848a3afa67fb3985420e85c80b2cf8b65eb8fd",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194023-971962\\edit-194024-036875\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194023-971962\\edit-194024-038874\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.2.2.json",
+    "Role": "八招非编译验收证据",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "不存在",
+    "Changes": [
+      "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "4644393fe878ffecd1ad283162a7614f4c14ca1c6bf328bb43bdc2d1cad434b4",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "私有招式权重",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "5f780391c89a9e3e936c420cda4e9dff122059e43117afb8c05e64e1e1988c32",
+    "Changes": [
+      "vulcan=1/pulse=1，其余0；保持基础武器0.1和全部倍率/距离"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "8e8ad9f934436c891a20c06d41b03b8d1855bfb32ba92b297e6a879b6deb9339",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194023-971962\\edit-194024-008721\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194023-971962\\edit-194024-009813\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "Role": "待编译022完整包状态",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "ffa19bfb608b9c18c812f8b2da0b709d5faf519af8ce58196c9994e90fa22b81",
+    "Changes": [
+      "记录包内仍是用户021 DLL，禁止将其冒充022或整包部署"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "c6a6651760af971127379ebd38205c34a65eb87063ae2d50f9dfc803a1532afa",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194908-157147\\edit-194908-946446\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194908-157147\\edit-194908-948636\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+    "Role": "运行时显式子材质绑定",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "4d78f587f5649ce362ad6c4aea03656cb399d971681275d9b9c97092ada34050",
+    "Changes": [
+      "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "48979b3e0e2192d87d1a1fcb526cc7c3857e8d9ec076dcd47616ed3a15312439",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194039-960195\\edit-194046-767495\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194039-960195\\edit-194046-768497\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+    "Role": "八招源材质",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "a0d64023f9d3760715e96465277d027ac01ba13d79818aca1640badfbb0106f9",
+    "Changes": [
+      "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "ac6134806f1a3a56f8c8ddb179f66d4b39fee269d9bf86622f7af9c38d73179b",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194039-960195\\edit-194046-743658\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194039-960195\\edit-194046-746643\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_gun.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "a862fb18b227017aad62e3a52c0e0b9b6dea54135c9c373fcda22b6841a92c20",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "7ee79e381b4ef36fe58a2ab679683cd039b07645b9848985dfeb062ccddced80",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194039-960195\\edit-194042-730944\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_gun.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194039-960195\\edit-194042-734253\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_gun.mesh"
+      ],
+      "encoding": "binary",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "5bdb48e62cbfc6b31e7b616d3294c1ae66f3eb8a9b0687a2da2b472164af339f",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "83029dc33a02950ceb9ba58802aa54b5498ff61009a40811b2677ea230a9ba33",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194039-960195\\edit-194045-585725\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194039-960195\\edit-194045-587908\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh"
+      ],
+      "encoding": "binary",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+    "Role": "实际运行事件流",
+    "Code location": "当前数据/资产/说明区域",
+    "Before": "12dcd7c30e8d453fd00ebba435a9f5509a1ef6b6ff810a4108525575882ab0f4",
+    "Changes": [
+      "仅脉冲三条半径变9，保持20发火神R4.5和其他事件"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "fbf854396ab5b8b42e9afaa2164b771f21900e5a79ce086c87bffb5b3d17fe7d",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194552-049264\\edit-194552-090041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194552-049264\\edit-194552-091418\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+    "Role": "特效资产作者",
+    "Code location": "texture",
+    "Before": "3300445a16eddacb08da14817e82c4ab535f2c53fb2006fd57bda2b0161ee27b",
+    "Changes": [
+      "同源anim纹理复用普通武器/钻头已用PNG名字，防止同像素双份GPU资源"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "afeb76437816e0fff05e999ecd8631c71c712c2f77272a3b5ccf5d5eaeaa1c2b",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194023-971962\\edit-194023-996337\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194023-971962\\edit-194023-999435\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+    "Role": "脉冲源事件作者",
+    "Code location": "脉冲事件与FCS/数据版本作者",
+    "Before": "fc3ecab92c7fc2de9d1a8774ba46806cd66d81279f91210c1205b1f071dbeb4e",
+    "Changes": [
+      "重做资产时保持022当前合同和两招测试说明，避免再生成旧020元数据；不改动画、倍率或距离",
+      "3发爆炸半径24→9，为火神4.5的两倍，倍率2不变"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "5fb621fe889bf8f3b2973b46641f83d8484bce47aa9cf591c23b15c574131224",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194406-542436\\edit-194406-543436\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194406-542436\\edit-194406-546888\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+    "Role": "用户编译后组包入口",
+    "Code location": "main",
+    "Before": "cb35180b9d5496c6dc7b08ab8443b2cc9eb83bacfdd5475d38d070740cc8a0df",
+    "Changes": [
+      "新合同022拒绝已部署021旧DLL；新验收输出validation-0.2.2，不冒充编译通过",
+      "完整八招验收通过后才检查/复制022 DLL；已编译021拒绝，不混装"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "9f424a918d32dd36eb8edad58fe1906af5467be56d89fb6a31e1b11f7b9b8a66",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194023-971962\\edit-194024-014968\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194023-971962\\edit-194024-017148\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+    "Role": "脉冲与瞄准验收",
+    "Code location": "verify_aim",
+    "Before": "不存在",
+    "Changes": [
+      "实际消费表达式拒绝额外原点；非零大坐标反例、原意地面弹、脉冲源形状与按招式预热、同像素纹理和显存估算",
+      "采用用户最终半径9规格，继续源身份/世界坐标/纹理资源验收"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "adbfbc2a2cc43090164b70e1a6c217745e4a450586db06b165ce4546475813ae",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+    "Role": "火神现有验收",
+    "Code location": "verify_vulcan",
+    "Before": "6f0a6cb53ee5dcf6938d238d2275f55a35ce5c2266b4b4429a5d04b0a2515434",
+    "Changes": [
+      "两招启用；拒绝已确认的重复原点换算，保留真实源Fireball/球包络/防御门检查"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "481781e0271affec6524f671a7f4c7fbd47c2158b1cbb2c3a6103a2ae8f19d41",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194023-971962\\edit-194024-044634\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194023-971962\\edit-194024-047237\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+    "Role": "完整非编译验收入口",
+    "Code location": "main",
+    "Before": "eb482b0fe2248bcd0bb020bc961103c1c39d57c325bae791b69283352e4e673a",
+    "Changes": [
+      "新合同022拒绝已部署021旧DLL；新验收输出validation-0.2.2，不冒充编译通过",
+      "接入022世界坐标/脉冲/纹理共享和预热回归，继续验证16动画/FCS及SDK与语法"
+    ],
+    "Reasons": "021真实日志重复世界原点；用户要求火神/脉冲共同启用、源特效与瞄准修正、脉冲爆炸R9及显存复核",
+    "After": "b43c739ce4d263771bd79fa1733db4ef76bc064eb67444a3b91bb317e2a4271c",
+    "Impact": "只改IrisArsenal项目；022尚未编译/整包部署，游戏仅兼容参数已写入；其他项目/存档/选择不变",
+    "Validation": "022非编译检查：世界原点反例、3发R9、20发R4.5、16骨架引用、源材质/纹理、SDK/语法；源输入哈希通过；旧021 DLL拒绝；本文件编码/中文/双备份哈希通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-194023-971962\\edit-194024-022998\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-194023-971962\\edit-194024-025483\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "backup_stage": "改前保存本轮基线，后续每次修改各自也备份"
+    },
+    "Unresolved": "C++/HLSL编译/链接和实机画面/瞄准/实际显存需要用户022编译后验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "游戏私有招式权重",
+    "Code location": "MoveWeights / pulse三条事件 / installed manifest",
+    "Before": "5f780391c89a9e3e936c420cda4e9dff122059e43117afb8c05e64e1e1988c32",
+    "Changes": "仅启用vulcan和pulse、pulse三发爆炸R9及如实更新参数校验清单",
+    "Reasons": "用户明确要求同时启动脉冲并设爆炸为火神两倍；0.2.1兼容数据，不用旧DLL冒充022修复",
+    "After": "8e8ad9f934436c891a20c06d41b03b8d1855bfb32ba92b297e6a879b6deb9339",
+    "Impact": "游戏配置和事件数据；DLL/材质/动画/FCS均未部署；没有启动游戏",
+    "Validation": "退出状态检查=0；字节回读/UTF8/中文；manifest哈希一致",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\20261016-194908-802054-Iris-AimPulseParams\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\20261016-194908-802054-Iris-AimPulseParams\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "游戏DLL仍0.2.1，瞄准/资源预热修复须用户022编译后完整同步"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\assets\\moves.csv",
+    "Role": "游戏源事件参数",
+    "Code location": "MoveWeights / pulse三条事件 / installed manifest",
+    "Before": "12dcd7c30e8d453fd00ebba435a9f5509a1ef6b6ff810a4108525575882ab0f4",
+    "Changes": "仅启用vulcan和pulse、pulse三发爆炸R9及如实更新参数校验清单",
+    "Reasons": "用户明确要求同时启动脉冲并设爆炸为火神两倍；0.2.1兼容数据，不用旧DLL冒充022修复",
+    "After": "fbf854396ab5b8b42e9afaa2164b771f21900e5a79ce086c87bffb5b3d17fe7d",
+    "Impact": "游戏配置和事件数据；DLL/材质/动画/FCS均未部署；没有启动游戏",
+    "Validation": "退出状态检查=0；字节回读/UTF8/中文；manifest哈希一致",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\20261016-194908-802054-Iris-AimPulseParams\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\20261016-194908-802054-Iris-AimPulseParams\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\assets\\moves.csv"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "游戏DLL仍0.2.1，瞄准/资源预热修复须用户022编译后完整同步"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json",
+    "Role": "已部署021参数校验清单",
+    "Code location": "MoveWeights / pulse三条事件 / installed manifest",
+    "Before": "ffa19bfb608b9c18c812f8b2da0b709d5faf519af8ce58196c9994e90fa22b81",
+    "Changes": "仅启用vulcan和pulse、pulse三发爆炸R9及如实更新参数校验清单",
+    "Reasons": "用户明确要求同时启动脉冲并设爆炸为火神两倍；0.2.1兼容数据，不用旧DLL冒充022修复",
+    "After": "70abc78ede871edbfe7b86e72c25fae49ab90e7ef16b35719f925cbc19feb925",
+    "Impact": "游戏配置和事件数据；DLL/材质/动画/FCS均未部署；没有启动游戏",
+    "Validation": "退出状态检查=0；字节回读/UTF8/中文；manifest哈希一致",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\20261016-194908-802054-Iris-AimPulseParams\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\20261016-194908-802054-Iris-AimPulseParams\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "游戏DLL仍0.2.1，瞄准/资源预热修复须用户022编译后完整同步"
+  }
+]

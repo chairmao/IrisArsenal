@@ -1,0 +1,2276 @@
+{
+  "IrisArsenal.cpp": [
+    {
+      "line": 68,
+      "end_line": 68,
+      "signature": "explicit Lock(IrisDiagnostics::HookAudit* value=0):audit(value)"
+    },
+    {
+      "line": 69,
+      "end_line": 69,
+      "signature": "~Lock()"
+    },
+    {
+      "line": 85,
+      "end_line": 85,
+      "signature": "bool Finite(float x)"
+    },
+    {
+      "line": 86,
+      "end_line": 86,
+      "signature": "bool Finite(const Vector3& p)"
+    },
+    {
+      "line": 87,
+      "end_line": 91,
+      "signature": "std::string Utf8(const std::wstring& w)"
+    },
+    {
+      "line": 93,
+      "end_line": 93,
+      "signature": "void Log(const std::string& message)"
+    },
+    {
+      "line": 94,
+      "end_line": 103,
+      "signature": "intptr_t Native(Method method,const char* label)"
+    },
+    {
+      "line": 106,
+      "end_line": 106,
+      "signature": "void* MeleeStumbleTarget()"
+    },
+    {
+      "line": 108,
+      "end_line": 108,
+      "signature": "void* MeleeBlockCheckTarget()"
+    },
+    {
+      "line": 109,
+      "end_line": 109,
+      "signature": "void* VulcanDefenceTarget()"
+    },
+    {
+      "line": 111,
+      "end_line": 111,
+      "signature": "bool Accepting()"
+    },
+    {
+      "line": 112,
+      "end_line": 124,
+      "signature": "void* RangedAddress(unsigned binding)"
+    },
+    {
+      "line": 125,
+      "end_line": 156,
+      "signature": "void ReadAssets()"
+    },
+    {
+      "line": 157,
+      "end_line": 160,
+      "signature": "bool UsesWeapon(CharStats* stats)"
+    },
+    {
+      "line": 161,
+      "end_line": 164,
+      "signature": "bool ActorReady(Character* c)"
+    },
+    {
+      "line": 167,
+      "end_line": 167,
+      "signature": "Visual():entity(0),anchor(0),part(0),debug(0)"
+    },
+    {
+      "line": 168,
+      "end_line": 177,
+      "signature": "void Clear(bool alive)"
+    },
+    {
+      "line": 178,
+      "end_line": 198,
+      "signature": "void Create()"
+    },
+    {
+      "line": 203,
+      "end_line": 203,
+      "signature": "Candidate():animation(0),verified(false),noted(false),active(false),haveContact(false),clipLength(0),lastTime(0),start(0),consumed(0),cycle(0),stage(99),contactChanges(0),queryCount(0),aborts(0),rejected(0),probeErrors(0),previous(false)"
+    },
+    {
+      "line": 206,
+      "end_line": 215,
+      "signature": "void End(Candidate& a,bool alive,const char* reason)"
+    },
+    {
+      "line": 218,
+      "end_line": 218,
+      "signature": "void Clear(bool alive,const char* reason)"
+    },
+    {
+      "line": 219,
+      "end_line": 219,
+      "signature": "bool Same(const hand& a,const hand& b)"
+    },
+    {
+      "line": 220,
+      "end_line": 229,
+      "signature": "Ogre::Entity* ActualWeaponLegacy(AnimationClass* a)"
+    },
+    {
+      "line": 234,
+      "end_line": 256,
+      "signature": "Ogre::Entity* ActualWeapon(Character* c)"
+    },
+    {
+      "line": 258,
+      "end_line": 258,
+      "signature": "float Smooth(float x)"
+    },
+    {
+      "line": 259,
+      "end_line": 263,
+      "signature": "float Extension(float t)"
+    },
+    {
+      "line": 264,
+      "end_line": 269,
+      "signature": "float Angle(float t)"
+    },
+    {
+      "line": 270,
+      "end_line": 276,
+      "signature": "Matrix4 SourcePose(Ogre::Entity* actual)"
+    },
+    {
+      "line": 277,
+      "end_line": 279,
+      "signature": "Matrix4 PartPose(const Matrix4& weapon,float t,float extension)"
+    },
+    {
+      "line": 280,
+      "end_line": 296,
+      "signature": "void PositionVisual(Candidate& a,const Matrix4& weapon,float t,float extension)"
+    },
+    {
+      "line": 297,
+      "end_line": 300,
+      "signature": "void Line(Ogre::ManualObject* d,const Vector3& a,const Vector3& b,const Ogre::ColourValue& color)"
+    },
+    {
+      "line": 301,
+      "end_line": 303,
+      "signature": "void Cross(Ogre::ManualObject* d,const Vector3& p,float r,const Ogre::ColourValue& c)"
+    },
+    {
+      "line": 304,
+      "end_line": 322,
+      "signature": "void DrawDebug(Candidate& a,const Matrix4& weapon,const Matrix4& part,float extension)"
+    },
+    {
+      "line": 323,
+      "end_line": 329,
+      "signature": "void RejectQuery(Candidate& a,const char* reason,float raw,float length,float radius)"
+    },
+    {
+      "line": 330,
+      "end_line": 356,
+      "signature": "void Query(Candidate& a,Character* caster,const Vector3& start,const Vector3& end,float radius,unsigned& budget)"
+    },
+    {
+      "line": 357,
+      "end_line": 363,
+      "signature": "void Probe(Candidate& a,Character* c,const Matrix4& part,const Vector3& origin,float extension)"
+    },
+    {
+      "line": 364,
+      "end_line": 379,
+      "signature": "void Ensure(GameWorld* w)"
+    },
+    {
+      "line": 381,
+      "end_line": 435,
+      "signature": "void Tick(GameWorld* w)"
+    },
+    {
+      "line": 447,
+      "end_line": 447,
+      "signature": "FrameScope(GameWorld* w):old(frameWorld),done(updateDone),oldToken(realFrameToken)"
+    },
+    {
+      "line": 447,
+      "end_line": 447,
+      "signature": "~FrameScope()"
+    },
+    {
+      "line": 449,
+      "end_line": 454,
+      "signature": "bool Idle(GameWorld* w)"
+    },
+    {
+      "line": 455,
+      "end_line": 467,
+      "signature": "void FrameHook(GameWorld* w,float dt)"
+    },
+    {
+      "line": 472,
+      "end_line": 475,
+      "signature": "explicit WindowAuditSession(GameWorld* w):active(false)"
+    },
+    {
+      "line": 476,
+      "end_line": 484,
+      "signature": "void Probe(GameWorld* w,IrisDiagnostics::WindowPhase phase)"
+    },
+    {
+      "line": 485,
+      "end_line": 485,
+      "signature": "~WindowAuditSession()"
+    },
+    {
+      "line": 490,
+      "end_line": 500,
+      "signature": "static void ObserveServiceOpportunity(GameWorld* w,bool alreadyUpdated)"
+    },
+    {
+      "line": 501,
+      "end_line": 520,
+      "signature": "void SafeHook(GameWorld* w)"
+    },
+    {
+      "line": 525,
+      "end_line": 533,
+      "signature": "bool NativeStandingMeleeAllowed(CharStats* stats,CombatTechniqueData* native)"
+    },
+    {
+      "line": 534,
+      "end_line": 553,
+      "signature": "CombatTechniqueData* ChooseHook(CharStats* stats,float range,float reach,CombatTechniqueData* last,bool stationary)"
+    },
+    {
+      "line": 554,
+      "end_line": 560,
+      "signature": "float Speed(AnimationClass* animation,CombatTechniqueData* selected,float nativeSpeed,IrisDiagnostics::HookAudit* audit)"
+    },
+    {
+      "line": 561,
+      "end_line": 568,
+      "signature": "void StartHook(AnimationClass* a,CombatTechniqueData* t,float speed,std::string extra)"
+    },
+    {
+      "line": 569,
+      "end_line": 573,
+      "signature": "void RunHook(AnimationClass* a,CombatTechniqueData* t,float speed,std::string extra)"
+    },
+    {
+      "line": 574,
+      "end_line": 574,
+      "signature": "void ResetHook(GameWorld* w)"
+    },
+    {
+      "line": 575,
+      "end_line": 575,
+      "signature": "void ShutdownHook(Renderer* r)"
+    },
+    {
+      "line": 579,
+      "end_line": 604,
+      "signature": "void startPlugin()"
+    }
+  ],
+  "IrisCombat.cpp": [
+    {
+      "line": 73,
+      "end_line": 73,
+      "signature": "explicit Guard(IrisDiagnostics::HookAudit* value=0):audit(value)"
+    },
+    {
+      "line": 74,
+      "end_line": 74,
+      "signature": "~Guard()"
+    },
+    {
+      "line": 83,
+      "end_line": 83,
+      "signature": "Move():seconds(0),attackMin(-1),attackMax(-1),weight(1),bypassDefence(false),preventBlock(false),immuneReactions(false),technique(0)"
+    },
+    {
+      "line": 85,
+      "end_line": 85,
+      "signature": "Asset():duration(0),peak(1),samples(0),center(Vector3::ZERO),bound(1)"
+    },
+    {
+      "line": 104,
+      "end_line": 112,
+      "signature": "static void PublishTechniqueIdentity(unsigned slot,CombatTechniqueData* technique)"
+    },
+    {
+      "line": 113,
+      "end_line": 119,
+      "signature": "bool OwnTechniqueIdentity(CombatTechniqueData* technique)"
+    },
+    {
+      "line": 120,
+      "end_line": 120,
+      "signature": "void PublishProofTechniqueIdentity(CombatTechniqueData* technique)"
+    },
+    {
+      "line": 139,
+      "end_line": 141,
+      "signature": "float VisualLayerAge(const std::string& key,unsigned layer,float age)"
+    },
+    {
+      "line": 142,
+      "end_line": 144,
+      "signature": "float VisualLifetime(const std::string& key,float duration)"
+    },
+    {
+      "line": 147,
+      "end_line": 157,
+      "signature": "void BuildParameterGroups(Asset& asset)"
+    },
+    {
+      "line": 160,
+      "end_line": 160,
+      "signature": "ParameterLayer():mask(0),valid(0)"
+    },
+    {
+      "line": 164,
+      "end_line": 166,
+      "signature": "explicit ParameterCache(const std::vector<unsigned char>& masks):layers(masks.size())"
+    },
+    {
+      "line": 167,
+      "end_line": 170,
+      "signature": "bool Same(unsigned layer,unsigned group,const Ogre::Vector4& value)const"
+    },
+    {
+      "line": 171,
+      "end_line": 174,
+      "signature": "void Store(unsigned layer,unsigned group,const Ogre::Vector4& value)"
+    },
+    {
+      "line": 179,
+      "end_line": 182,
+      "signature": "bool SubmitParameter(Ogre::SubEntity* sub,ParameterCache* cache,unsigned layer,unsigned group,unsigned index,const Ogre::Vector4& value)"
+    },
+    {
+      "line": 188,
+      "end_line": 188,
+      "signature": "Visual():entity(0),node(0),parametersValid(false),parameterCache(0)"
+    },
+    {
+      "line": 190,
+      "end_line": 192,
+      "signature": "void Clear(bool alive)"
+    },
+    {
+      "line": 193,
+      "end_line": 214,
+      "signature": "void Create(const std::string& name)"
+    },
+    {
+      "line": 215,
+      "end_line": 259,
+      "signature": "void Draw(const Matrix4& pose,float age,float opacity,float extent=0)"
+    },
+    {
+      "line": 260,
+      "end_line": 260,
+      "signature": "void Hide()"
+    },
+    {
+      "line": 269,
+      "end_line": 269,
+      "signature": "Actor():bladeFemale(false),animation(0),ready(false),active(false),reserved(false),havePose(false),ranged(false),start(0),consumed(0),id(0),next(0),stumbles(0),move(-1),last(0),rate(1),rangedWait(0),trail(0)"
+    },
+    {
+      "line": 272,
+      "end_line": 272,
+      "signature": "Path(const Vector3& a,const Vector3& b,float r,bool s=false,bool c=false,bool v=false):from(a),to(b),radius(r),sphere(s),cylinder(c),volume(v)"
+    },
+    {
+      "line": 277,
+      "end_line": 277,
+      "signature": "Job():haveDirect(false),cast(0),event(0),move(0),mult(1),cursor(0),blade(false),failures(0),createdAt(IrisDiagnostics::DetailsEnabled()?IrisDiagnostics::Now():0)"
+    },
+    {
+      "line": 278,
+      "end_line": 279,
+      "signature": "void Swap(Job& other)"
+    },
+    {
+      "line": 284,
+      "end_line": 284,
+      "signature": "Shot():auditUpdates(0),auditAttempts(0),auditEmpty(0),auditWaits(0),auditNoCommands(0),auditCommands(0),auditBudget(0),auditBlast(0),auditAge(0),auditMaxPending(0),cast(0),event(0),move(0),retries(0),mult(1),radius(1),collisionRadius(1),visualRadius(1),speed(200),travel(0),range(200),rate(1),pending(0),destination(false)"
+    },
+    {
+      "line": 285,
+      "end_line": 285,
+      "signature": "Residue():cast(0),orientation(Quaternion::IDENTITY),age(0),life(.7f),radius(1),rate(1),length(0)"
+    },
+    {
+      "line": 300,
+      "end_line": 300,
+      "signature": "DamageStat():pending(0),applied(0),blocked(0),missed(0),rejected(0)"
+    },
+    {
+      "line": 305,
+      "end_line": 305,
+      "signature": "void PushJob(Job& job)"
+    },
+    {
+      "line": 327,
+      "end_line": 335,
+      "signature": "bool Borrow(Visual& v,const std::string& key)"
+    },
+    {
+      "line": 336,
+      "end_line": 345,
+      "signature": "void Return(Visual& v)"
+    },
+    {
+      "line": 347,
+      "end_line": 355,
+      "signature": "void LogShotWork(const Shot& s,const char* outcome,float travel)"
+    },
+    {
+      "line": 356,
+      "end_line": 365,
+      "signature": "bool AssetRequired(const std::string& key)"
+    },
+    {
+      "line": 366,
+      "end_line": 374,
+      "signature": "void WarmNext()"
+    },
+    {
+      "line": 375,
+      "end_line": 375,
+      "signature": "bool Same(const hand& a,const hand& b)"
+    },
+    {
+      "line": 378,
+      "end_line": 388,
+      "signature": "const char* DamagePolicyReason(Character* caster,Character* victim,bool ranged)"
+    },
+    {
+      "line": 389,
+      "end_line": 391,
+      "signature": "bool CanDamage(Character* caster,Character* victim,bool ranged,const char** reason)"
+    },
+    {
+      "line": 392,
+      "end_line": 392,
+      "signature": "bool DamageTarget(Character* caster,Character* victim,unsigned move)"
+    },
+    {
+      "line": 395,
+      "end_line": 395,
+      "signature": "bool IgnoreRangedContact(Character* caster,Character* victim)"
+    },
+    {
+      "line": 401,
+      "end_line": 401,
+      "signature": "float ProjectileSpeed(unsigned move)"
+    },
+    {
+      "line": 404,
+      "end_line": 404,
+      "signature": "float DriveEffectTime(float t)"
+    },
+    {
+      "line": 405,
+      "end_line": 405,
+      "signature": "Matrix4 Pose(const Vector3& p,const Quaternion& q,const Vector3& s)"
+    },
+    {
+      "line": 406,
+      "end_line": 406,
+      "signature": "Matrix4 Relative(const Matrix4& w,const Vector3& p,const Quaternion& q,const Vector3& s)"
+    },
+    {
+      "line": 407,
+      "end_line": 407,
+      "signature": "Vector3 Muzzle(const Matrix4& w)"
+    },
+    {
+      "line": 411,
+      "end_line": 418,
+      "signature": "bool ElectroFrame(const Matrix4& weapon,const Vector3& origin,const Vector3& root,float radius,CannonFrame& frame)"
+    },
+    {
+      "line": 421,
+      "end_line": 421,
+      "signature": "AimEvidence():root(Vector3::ZERO),raw(Vector3::ZERO),source(\"snapshot_fallback\")"
+    },
+    {
+      "line": 423,
+      "end_line": 444,
+      "signature": "Vector3 Target(Character* c,const Vector3& fallback,AimEvidence* evidence=0)"
+    },
+    {
+      "line": 446,
+      "end_line": 452,
+      "signature": "void DrawShot(Shot& shot,const Vector3& origin)"
+    },
+    {
+      "line": 453,
+      "end_line": 456,
+      "signature": "void ClearActor(Actor& a,bool alive)"
+    },
+    {
+      "line": 461,
+      "end_line": 486,
+      "signature": "void AuditActionEnd(const Actor& a,const char* why,int observedMove,Ogre::AnimationState* state,bool paused)"
+    },
+    {
+      "line": 487,
+      "end_line": 490,
+      "signature": "void End(Actor& a,const char* why,int observedMove=-1,Ogre::AnimationState* state=0,bool paused=false)"
+    },
+    {
+      "line": 491,
+      "end_line": 497,
+      "signature": "void Clear(bool alive,const char* reason)"
+    },
+    {
+      "line": 500,
+      "end_line": 503,
+      "signature": "double MoveNumber(const std::wstring& ini,const std::string& section,const std::string& key,double fallback)"
+    },
+    {
+      "line": 504,
+      "end_line": 507,
+      "signature": "bool MoveSwitch(const std::wstring& ini,const std::string& section,const char* key,bool fallback)"
+    },
+    {
+      "line": 509,
+      "end_line": 509,
+      "signature": "bool BlockGuardMove(unsigned move)"
+    },
+    {
+      "line": 511,
+      "end_line": 511,
+      "signature": "bool DefaultBypass(unsigned move)"
+    },
+    {
+      "line": 512,
+      "end_line": 535,
+      "signature": "void ConfigureMove(unsigned index,const std::wstring& ini)"
+    },
+    {
+      "line": 538,
+      "end_line": 552,
+      "signature": "void LoadBladePoses()"
+    },
+    {
+      "line": 553,
+      "end_line": 558,
+      "signature": "Matrix4 BladePoseAt(unsigned sex,float t)"
+    },
+    {
+      "line": 560,
+      "end_line": 700,
+      "signature": "void Configure(const std::wstring& dir)"
+    },
+    {
+      "line": 701,
+      "end_line": 701,
+      "signature": "bool ProofOnly()"
+    },
+    {
+      "line": 702,
+      "end_line": 702,
+      "signature": "bool HasRangedMoves()"
+    },
+    {
+      "line": 703,
+      "end_line": 703,
+      "signature": "float RangedRange()"
+    },
+    {
+      "line": 705,
+      "end_line": 710,
+      "signature": "void Observe(Character* c)"
+    },
+    {
+      "line": 711,
+      "end_line": 711,
+      "signature": "bool RangedMove(unsigned i)"
+    },
+    {
+      "line": 713,
+      "end_line": 713,
+      "signature": "int Index(CombatTechniqueData* t)"
+    },
+    {
+      "line": 717,
+      "end_line": 721,
+      "signature": "float AnimationLength(Character* c,int i)"
+    },
+    {
+      "line": 722,
+      "end_line": 731,
+      "signature": "CombatTechniqueData* Choose(CharStats* stats,float range)"
+    },
+    {
+      "line": 732,
+      "end_line": 739,
+      "signature": "int PickRanged(Actor& actor,float range)"
+    },
+    {
+      "line": 740,
+      "end_line": 746,
+      "signature": "float Speed(AnimationClass* a,CombatTechniqueData* t,float speed)"
+    },
+    {
+      "line": 747,
+      "end_line": 747,
+      "signature": "void Started(AnimationClass* a,CombatTechniqueData* t)"
+    },
+    {
+      "line": 749,
+      "end_line": 749,
+      "signature": "hand Handle(const IrisNative::ObjectKey& k)"
+    },
+    {
+      "line": 753,
+      "end_line": 755,
+      "signature": "bool SameContactIdentity(const IrisNative::ObjectKey& a,const IrisNative::ObjectKey& b)"
+    },
+    {
+      "line": 756,
+      "end_line": 760,
+      "signature": "unsigned ContactMemoSlot(const IrisNative::ObjectKey& key)"
+    },
+    {
+      "line": 764,
+      "end_line": 764,
+      "signature": "RangedContactMemo():occupied(0),valid(false),ignored(false),checks(0),reuses(0),collisions(0)"
+    },
+    {
+      "line": 765,
+      "end_line": 775,
+      "signature": "bool Ignore(Character* caster,const IrisNative::ObjectKey& key,const hand& identity)"
+    },
+    {
+      "line": 779,
+      "end_line": 789,
+      "signature": "void ObserveConservativeQuery(unsigned kind,unsigned raw,unsigned contacts,unsigned tests,unsigned identity,unsigned geometry,unsigned capacity,unsigned input,unsigned exception)"
+    },
+    {
+      "line": 790,
+      "end_line": 793,
+      "signature": "void ObserveConservativeContacts(const IrisNative::Contacts& result)"
+    },
+    {
+      "line": 801,
+      "end_line": 804,
+      "signature": "bool QueryVectorState(lektor<T>& values,unsigned bit,unsigned& mask)"
+    },
+    {
+      "line": 805,
+      "end_line": 808,
+      "signature": "bool QueryChainState(MessageChain<T>& chain,unsigned bit,unsigned& mask)"
+    },
+    {
+      "line": 809,
+      "end_line": 821,
+      "signature": "IrisQueryGate::Reason QueryPending(PhysicsInterface* physics,unsigned& mask)"
+    },
+    {
+      "line": 824,
+      "end_line": 825,
+      "signature": "explicit QueryGateAudit(unsigned value):source(value),mask(0),exceptionCode(0),why(IrisQueryGate::DISABLED), enabled(IrisDiagnostics::QueryGateLoggingEnabled()),begin(enabled?IrisDiagnostics::Now():0)"
+    },
+    {
+      "line": 826,
+      "end_line": 827,
+      "signature": "~QueryGateAudit()"
+    },
+    {
+      "line": 829,
+      "end_line": 836,
+      "signature": "IrisQueryGate::Reason QueryContext(GameWorld* w,PhysicsInterface* physics,void* scene)"
+    },
+    {
+      "line": 838,
+      "end_line": 851,
+      "signature": "bool RefineQueryAvailable(GameWorld* w,unsigned source,bool* refined)"
+    },
+    {
+      "line": 853,
+      "end_line": 857,
+      "signature": "inline bool QueryAvailable(GameWorld* w,unsigned source,bool* refined=0)"
+    },
+    {
+      "line": 858,
+      "end_line": 906,
+      "signature": "bool Contacts(GameWorld* w,const Path& path,IrisNative::Contacts& result,unsigned& budget,float* cylinderLength=0,IrisNative::Contacts* terrain=0,const IrisSector::Volume* sector=0,bool drillSphere=false)"
+    },
+    {
+      "line": 908,
+      "end_line": 920,
+      "signature": "void Collect(Job& j,const IrisNative::Contacts& hits)"
+    },
+    {
+      "line": 921,
+      "end_line": 926,
+      "signature": "void QueryWait(Job& j,const Path& path,const IrisNative::Contacts& contacts)"
+    },
+    {
+      "line": 930,
+      "end_line": 940,
+      "signature": "void LogCapsuleSkips(const Job& job,unsigned count,const IrisNative::BatchDiagnostic& d)"
+    },
+    {
+      "line": 941,
+      "end_line": 974,
+      "signature": "bool TryCapsuleBatch(GameWorld* w,Job& job,unsigned& budget,unsigned& used,bool& failed)"
+    },
+    {
+      "line": 984,
+      "end_line": 987,
+      "signature": "void RangedPath(const Path& p,bool cylinder,IrisNative::RangedInput& input)"
+    },
+    {
+      "line": 989,
+      "end_line": 989,
+      "signature": "const IrisNative::RangedResult& RangedValue(const RangedWorkspace& work,unsigned index)"
+    },
+    {
+      "line": 990,
+      "end_line": 1066,
+      "signature": "bool RunRangedBatch(GameWorld* w,RangedWorkspace& work,unsigned count,unsigned& budget,bool* allowEmpty=0)"
+    },
+    {
+      "line": 1069,
+      "end_line": 1076,
+      "signature": "unsigned PrepareBeamBatch(GameWorld* w,size_t visits,unsigned& budget)"
+    },
+    {
+      "line": 1078,
+      "end_line": 1134,
+      "signature": "void ResolveJobs(GameWorld* w,unsigned& budget)"
+    },
+    {
+      "line": 1135,
+      "end_line": 1145,
+      "signature": "void CollectBladeLedgers()"
+    },
+    {
+      "line": 1147,
+      "end_line": 1163,
+      "signature": "bool Blast(const hand& caster,unsigned cast,unsigned event,unsigned move,const Vector3& p,float radius,float mult,float rate,bool shock=false,const Quaternion& facing=Quaternion::IDENTITY,const hand* direct=0)"
+    },
+    {
+      "line": 1164,
+      "end_line": 1167,
+      "signature": "Matrix4 Between(const Matrix4& from,const Matrix4& to,float t)"
+    },
+    {
+      "line": 1168,
+      "end_line": 1212,
+      "signature": "bool Swing(Job& j,const Matrix4& baseNow,const Matrix4& baseBefore,const Vector3& origin,float length,float radius, float floorY,IrisSector::Progress& progress,float begin,float end,float frameBegin,float frameEnd,unsigned sex)"
+    },
+    {
+      "line": 1213,
+      "end_line": 1242,
+      "signature": "bool TraceBladeWindows(const hand& owner,Actor& a,const Matrix4& weapon,float t)"
+    },
+    {
+      "line": 1244,
+      "end_line": 1250,
+      "signature": "Vector3 WingCenter(float clipTime,const Matrix4& weapon,const Vector3& origin)"
+    },
+    {
+      "line": 1253,
+      "end_line": 1272,
+      "signature": "bool DrillSphereFrame(const Actor& a,const Matrix4& weapon,float eventTime,float observedTime,Vector3& center,float& radius,bool& interpolated)"
+    },
+    {
+      "line": 1273,
+      "end_line": 1362,
+      "signature": "bool Emit(Character* c,const hand& key,Actor& a,const Event& e,const Matrix4& weapon,float clipTime)"
+    },
+    {
+      "line": 1364,
+      "end_line": 1366,
+      "signature": "void TrailVertex(Ogre::ManualObject* out,const Vector3& p,const Vector3& origin,float u,float v,float alpha)"
+    },
+    {
+      "line": 1367,
+      "end_line": 1394,
+      "signature": "void UpdateTrail(Actor& a,const Matrix4* weapon,float t,float dt)"
+    },
+    {
+      "line": 1395,
+      "end_line": 1397,
+      "signature": "float CueAge(const Actor& a,const char* key,float t)"
+    },
+    {
+      "line": 1398,
+      "end_line": 1489,
+      "signature": "void ShowParts(Character* c,Actor& a,const Matrix4& w,float t)"
+    },
+    {
+      "line": 1490,
+      "end_line": 1499,
+      "signature": "void DrawBeam(Residue& r,const Vector3& origin)"
+    },
+    {
+      "line": 1500,
+      "end_line": 1511,
+      "signature": "unsigned PrepareShotBatch(GameWorld* w,size_t visits,unsigned& budget,bool& allowEmpty)"
+    },
+    {
+      "line": 1513,
+      "end_line": 1610,
+      "signature": "void AdvanceEffects(GameWorld* w,float dt,const Vector3& origin,unsigned& budget)"
+    },
+    {
+      "line": 1611,
+      "end_line": 1631,
+      "signature": "void EnsureMoves(GameWorld* w)"
+    },
+    {
+      "line": 1632,
+      "end_line": 1735,
+      "signature": "void Tick(GameWorld* w,Ogre::SceneManager* sm,float gameDelta)"
+    },
+    {
+      "line": 1743,
+      "end_line": 1743,
+      "signature": "VulcanHitContext(CombatClass* c,Damages* d,Character* a):combat(c),damage(d),caster(a),pending(true),seen(false),original(HIT_MISSED)"
+    },
+    {
+      "line": 1745,
+      "end_line": 1756,
+      "signature": "HitMaterialType VulcanDefenceHook(CombatClass* self,CutDirection dir,Damages& damage,Character* who)"
+    },
+    {
+      "line": 1759,
+      "end_line": 1777,
+      "signature": "int ProtectedMeleeMove(CombatClass* self)"
+    },
+    {
+      "line": 1778,
+      "end_line": 1793,
+      "signature": "int ProtectedRangedMove(CombatClass* self)"
+    },
+    {
+      "line": 1797,
+      "end_line": 1810,
+      "signature": "static bool MayNeedTechniqueGuard(CombatClass* combat,bool includeRanged)"
+    },
+    {
+      "line": 1813,
+      "end_line": 1833,
+      "signature": "void MeleeStumbleHook(Character* self,CutDirection dir,Damages& damage,GameData* part,Character* attacker)"
+    },
+    {
+      "line": 1834,
+      "end_line": 1848,
+      "signature": "bool MeleeBlockCheckHook(CombatClass* self,float myAttack,float incomingAttack)"
+    },
+    {
+      "line": 1849,
+      "end_line": 1860,
+      "signature": "void InstallDefenceGate()"
+    },
+    {
+      "line": 1863,
+      "end_line": 1867,
+      "signature": "VulcanHitScope(VulcanHitContext* context):previous(0),active(false)"
+    },
+    {
+      "line": 1868,
+      "end_line": 1868,
+      "signature": "~VulcanHitScope()"
+    },
+    {
+      "line": 1871,
+      "end_line": 1877,
+      "signature": "void DamageOutcome(const Hurt& r,int outcome)"
+    },
+    {
+      "line": 1886,
+      "end_line": 1890,
+      "signature": "DamageQueueSnapshot():begin(IrisDiagnostics::Now()),maxWait(-1),flushMs(0),before(0),done(0),inspected(0),overTarget(0),reason(\"exception\"),gateAt(0),gateCause(\"unobserved\"),plan(damageFlushBudgetMs,damageFlushMaxHits)"
+    },
+    {
+      "line": 1891,
+      "end_line": 1930,
+      "signature": "~DamageQueueSnapshot()"
+    },
+    {
+      "line": 1934,
+      "end_line": 1940,
+      "signature": "void SlowNativeHit(const Hurt& r,double poppedAt,double begin,double elapsed,HitMaterialType result,unsigned ordinal,bool unavoidable,bool defenceSeen)"
+    },
+    {
+      "line": 1941,
+      "end_line": 1941,
+      "signature": "IrisDiagnostics::Count PendingDamageForAudit()"
+    },
+    {
+      "line": 1942,
+      "end_line": 2017,
+      "signature": "void Flush(GameWorld* w)"
+    }
+  ],
+  "IrisRanged.cpp": [
+    {
+      "line": 44,
+      "end_line": 44,
+      "signature": "explicit Guard(IrisDiagnostics::HookAudit* value=0):audit(value)"
+    },
+    {
+      "line": 45,
+      "end_line": 45,
+      "signature": "~Guard()"
+    },
+    {
+      "line": 48,
+      "end_line": 52,
+      "signature": "void Configure(const std::wstring& directory)"
+    },
+    {
+      "line": 56,
+      "end_line": 59,
+      "signature": "Vector3 AimDirection(const Vector3& from,const Vector3& target)"
+    },
+    {
+      "line": 63,
+      "end_line": 66,
+      "signature": "Vector3 NativeBodyPoint(Character* target)"
+    },
+    {
+      "line": 70,
+      "end_line": 75,
+      "signature": "HybridGun(GameData* d):GunClass(d),ready(false),barrel(Vector3::ZERO)"
+    },
+    {
+      "line": 76,
+      "end_line": 76,
+      "signature": "virtual void setVisible(bool on)"
+    },
+    {
+      "line": 77,
+      "end_line": 77,
+      "signature": "virtual void update(const Vector3& fallback)"
+    },
+    {
+      "line": 78,
+      "end_line": 78,
+      "signature": "virtual bool createPhysical(Ogre::SceneNode*,const std::string&)"
+    },
+    {
+      "line": 80,
+      "end_line": 80,
+      "signature": "virtual void destroyPhysical()"
+    },
+    {
+      "line": 81,
+      "end_line": 81,
+      "signature": "virtual void aimAt(const Vector3&)"
+    },
+    {
+      "line": 82,
+      "end_line": 82,
+      "signature": "virtual Vector3 getBarrelPos()"
+    },
+    {
+      "line": 83,
+      "end_line": 83,
+      "signature": "virtual Vector3 getBarrelPosForTrace(float)"
+    },
+    {
+      "line": 85,
+      "end_line": 85,
+      "signature": "virtual Vector3 getAimDir(const Vector3& target)"
+    },
+    {
+      "line": 86,
+      "end_line": 89,
+      "signature": "virtual float scoreTarget(Character* me,Character* target)"
+    },
+    {
+      "line": 91,
+      "end_line": 91,
+      "signature": "virtual float getAimCloseness()"
+    },
+    {
+      "line": 92,
+      "end_line": 92,
+      "signature": "virtual bool isAnimationReadyToShoot()"
+    },
+    {
+      "line": 93,
+      "end_line": 93,
+      "signature": "virtual void setAnimationReadyToShoot(bool on)"
+    },
+    {
+      "line": 94,
+      "end_line": 94,
+      "signature": "virtual unsigned __int64 getAudioObject() const"
+    },
+    {
+      "line": 95,
+      "end_line": 95,
+      "signature": "virtual int getDamageMin()"
+    },
+    {
+      "line": 96,
+      "end_line": 96,
+      "signature": "virtual int getDamageMax()"
+    },
+    {
+      "line": 98,
+      "end_line": 98,
+      "signature": "virtual Ogre::SceneNode* getParentNode()"
+    },
+    {
+      "line": 103,
+      "end_line": 103,
+      "signature": "Slot():gun(0),published(false),available(false),busy(false),pending(false),lastGate(~0U),lastAnimationGate(~0U),haveAim(false),aimSerial(0)"
+    },
+    {
+      "line": 107,
+      "end_line": 107,
+      "signature": "Slot* Find(Character* c)"
+    },
+    {
+      "line": 108,
+      "end_line": 108,
+      "signature": "Slot* Find(GunClass* gun)"
+    },
+    {
+      "line": 109,
+      "end_line": 109,
+      "signature": "bool Private(GunClass* gun)"
+    },
+    {
+      "line": 110,
+      "end_line": 116,
+      "signature": "Weapon* Equipped(Character* c)"
+    },
+    {
+      "line": 120,
+      "end_line": 123,
+      "signature": "bool Held(Character* c)"
+    },
+    {
+      "line": 127,
+      "end_line": 130,
+      "signature": "bool Equipping(Character* c)"
+    },
+    {
+      "line": 132,
+      "end_line": 137,
+      "signature": "bool Eligible(Character* c)"
+    },
+    {
+      "line": 139,
+      "end_line": 139,
+      "signature": "bool PrivateFast(GunClass* gun)"
+    },
+    {
+      "line": 142,
+      "end_line": 142,
+      "signature": "void Discover(Character* c)"
+    },
+    {
+      "line": 152,
+      "end_line": 157,
+      "signature": "bool UseHook(Character* c)"
+    },
+    {
+      "line": 158,
+      "end_line": 166,
+      "signature": "bool HasHook(AI* ai,const hand& target,const Vector3& pos)"
+    },
+    {
+      "line": 167,
+      "end_line": 178,
+      "signature": "float ScoreHook(AI* ai,const hand& target,const Vector3& pos)"
+    },
+    {
+      "line": 179,
+      "end_line": 186,
+      "signature": "bool WithinHook(AI* ai,const hand& target,const Vector3& pos)"
+    },
+    {
+      "line": 187,
+      "end_line": 194,
+      "signature": "GunClass* GunHook(RangedCombatClass* ranged)"
+    },
+    {
+      "line": 195,
+      "end_line": 213,
+      "signature": "void AnimationHook(RangedCombatClass* ranged,float dt,const Vector3& aim,RootObject* target)"
+    },
+    {
+      "line": 214,
+      "end_line": 228,
+      "signature": "void ShotHook(GunClass* gun,Character* c,RootObject* target,StatsEnumerated stat,const Vector3& aim)"
+    },
+    {
+      "line": 229,
+      "end_line": 241,
+      "signature": "bool ReloadHook(RangedCombatClass* ranged)"
+    },
+    {
+      "line": 242,
+      "end_line": 259,
+      "signature": "void Install()"
+    },
+    {
+      "line": 260,
+      "end_line": 272,
+      "signature": "void Config()"
+    },
+    {
+      "line": 273,
+      "end_line": 313,
+      "signature": "void Prepare(GameWorld* world)"
+    },
+    {
+      "line": 314,
+      "end_line": 343,
+      "signature": "bool CaptureAim(Character* c,const Vector3& muzzle,AimFrame& frame,float effectiveShotSpeed,bool instant)"
+    },
+    {
+      "line": 330,
+      "end_line": 330,
+      "signature": "PredictionInput(GunClass* g,RangedCombatClass* r,float value):gun(g),ranged(r),speed(g->shotSpeed),ahead(r->_lastAimAheadAmount)"
+    },
+    {
+      "line": 331,
+      "end_line": 331,
+      "signature": "~PredictionInput()"
+    },
+    {
+      "line": 344,
+      "end_line": 359,
+      "signature": "void Publish(Character* c,bool ready,float range,const Vector3& muzzle)"
+    },
+    {
+      "line": 360,
+      "end_line": 360,
+      "signature": "bool TakeRequest(Character* c,hand& target)"
+    },
+    {
+      "line": 361,
+      "end_line": 369,
+      "signature": "void Finish(const hand& actor)"
+    },
+    {
+      "line": 370,
+      "end_line": 370,
+      "signature": "bool Active(Character* c)"
+    },
+    {
+      "line": 371,
+      "end_line": 371,
+      "signature": "bool Tracked(Character* c)"
+    },
+    {
+      "line": 372,
+      "end_line": 376,
+      "signature": "void Reset()"
+    }
+  ],
+  "IrisDiagnostics.cpp": [
+    {
+      "line": 27,
+      "end_line": 27,
+      "signature": "Guard()"
+    },
+    {
+      "line": 27,
+      "end_line": 27,
+      "signature": "~Guard()"
+    },
+    {
+      "line": 60,
+      "end_line": 60,
+      "signature": "Stats():calls(0),frames(0),activeFrames(0),ms(0),maxCall(0),frameMax(0)"
+    },
+    {
+      "line": 61,
+      "end_line": 61,
+      "signature": "void Sample(double value)"
+    },
+    {
+      "line": 62,
+      "end_line": 62,
+      "signature": "void Frame(double value)"
+    },
+    {
+      "line": 63,
+      "end_line": 63,
+      "signature": "double Percentile(unsigned percent)const"
+    },
+    {
+      "line": 66,
+      "end_line": 66,
+      "signature": "static bool InterfaceEnabled()"
+    },
+    {
+      "line": 67,
+      "end_line": 67,
+      "signature": "static void* InterfaceTLSRead()"
+    },
+    {
+      "line": 68,
+      "end_line": 68,
+      "signature": "static bool InterfaceTLSWrite(void* p)"
+    },
+    {
+      "line": 69,
+      "end_line": 69,
+      "signature": "static unsigned InterfaceGeneration()"
+    },
+    {
+      "line": 78,
+      "end_line": 78,
+      "signature": "InterfaceStats():invalid(0),nested(0),exceptions(0)"
+    },
+    {
+      "line": 81,
+      "end_line": 89,
+      "signature": "CombatInterfaceFrame::CombatInterfaceFrame():active(false),sealed(false),generation(0),nested(0),badClocks(0),token(0),begin(0),endedAt(0),top(0)"
+    },
+    {
+      "line": 90,
+      "end_line": 111,
+      "signature": "CombatInterfaceFrame::~CombatInterfaceFrame()"
+    },
+    {
+      "line": 113,
+      "end_line": 113,
+      "signature": "InterfaceScope::InterfaceScope(InterfacePart value):frame(0),boundary(0)"
+    },
+    {
+      "line": 114,
+      "end_line": 114,
+      "signature": "InterfaceScope::~InterfaceScope()"
+    },
+    {
+      "line": 115,
+      "end_line": 121,
+      "signature": "void InterfaceScope::Begin(InterfacePart value,double at)"
+    },
+    {
+      "line": 122,
+      "end_line": 131,
+      "signature": "void InterfaceScope::Finish(double at)"
+    },
+    {
+      "line": 132,
+      "end_line": 134,
+      "signature": "void InterfaceScope::Switch(InterfacePart value)"
+    },
+    {
+      "line": 135,
+      "end_line": 158,
+      "signature": "void InterfaceScope::FromKind(Kind value,double at)"
+    },
+    {
+      "line": 160,
+      "end_line": 160,
+      "signature": "InterfacePart QueryBoundaryPart(InterfacePart part)"
+    },
+    {
+      "line": 161,
+      "end_line": 161,
+      "signature": "void ResetCombatInterfaceAudit()"
+    },
+    {
+      "line": 162,
+      "end_line": 176,
+      "signature": "static void InterfaceSummary(Count id)"
+    },
+    {
+      "line": 178,
+      "end_line": 178,
+      "signature": "bool RangedProbeCostEnabled()"
+    },
+    {
+      "line": 179,
+      "end_line": 182,
+      "signature": "bool SelectRangedSingleProbe(bool configured,bool eligible,unsigned& arm)"
+    },
+    {
+      "line": 185,
+      "end_line": 185,
+      "signature": "ProbeCostStats():batches(0),items(0),spheres(0),cylinders(0),commands(0),reuses(0),probes(0),saved(0),busy(0),unknown(0),failures(0),distances(0),radii(0)"
+    },
+    {
+      "line": 188,
+      "end_line": 193,
+      "signature": "void RecordRangedProbeCost(const RangedProbeSample& v)"
+    },
+    {
+      "line": 194,
+      "end_line": 205,
+      "signature": "static void ProbeCostSummary(Count id)"
+    },
+    {
+      "line": 208,
+      "end_line": 208,
+      "signature": "WorkStats():exceptions(0)"
+    },
+    {
+      "line": 213,
+      "end_line": 221,
+      "signature": "WorkTrace::WorkTrace(WorkDomain value):domain(value),active(false),part(WORK_SETUP),begin(0),last(0)"
+    },
+    {
+      "line": 222,
+      "end_line": 226,
+      "signature": "void WorkTrace::Mark(WorkPart value)"
+    },
+    {
+      "line": 227,
+      "end_line": 237,
+      "signature": "WorkTrace::~WorkTrace()"
+    },
+    {
+      "line": 238,
+      "end_line": 253,
+      "signature": "static void WorkTraceSummary(Count id)"
+    },
+    {
+      "line": 257,
+      "end_line": 257,
+      "signature": "static bool ResourceKind(Kind k)"
+    },
+    {
+      "line": 258,
+      "end_line": 258,
+      "signature": "static bool WaitKind(Kind k)"
+    },
+    {
+      "line": 259,
+      "end_line": 266,
+      "signature": "static bool Active(Kind k)"
+    },
+    {
+      "line": 267,
+      "end_line": 267,
+      "signature": "bool PerformanceEnabled()"
+    },
+    {
+      "line": 268,
+      "end_line": 268,
+      "signature": "bool DetailsEnabled()"
+    },
+    {
+      "line": 269,
+      "end_line": 269,
+      "signature": "bool CollisionProfileEnabled()"
+    },
+    {
+      "line": 270,
+      "end_line": 270,
+      "signature": "bool ConservativeQueryLoggingEnabled()"
+    },
+    {
+      "line": 271,
+      "end_line": 271,
+      "signature": "bool DamageCatchupLoggingEnabled()"
+    },
+    {
+      "line": 272,
+      "end_line": 272,
+      "signature": "bool QueryGateLoggingEnabled()"
+    },
+    {
+      "line": 273,
+      "end_line": 282,
+      "signature": "void RecordConservativeQuery(unsigned kind,unsigned raw,unsigned contacts,unsigned tests,unsigned identity,unsigned geometry,unsigned capacity,unsigned input)"
+    },
+    {
+      "line": 297,
+      "end_line": 297,
+      "signature": "WindowStats():samples(0),running(0),notClear(0),ai(0),paused(0),missing(0),unknownQueue(0),unknownAI(0),readErrors(0),ready(0),zeroProgress(0),afterProgress(0),maxRejectedFrames(0),nativeCalls(0),inspectedRequests(0),progressAfterPendingQueue(0),probeMs(0),probeMax(0),rejectedSpanMax(0)"
+    },
+    {
+      "line": 299,
+      "end_line": 302,
+      "signature": "void Add(const WindowState& s,double cost,bool requireQueues)"
+    },
+    {
+      "line": 309,
+      "end_line": 309,
+      "signature": "bool WindowAuditEnabled()"
+    },
+    {
+      "line": 311,
+      "end_line": 311,
+      "signature": "bool WindowAuditHasWork()"
+    },
+    {
+      "line": 312,
+      "end_line": 318,
+      "signature": "bool BeginWindowAudit()"
+    },
+    {
+      "line": 319,
+      "end_line": 325,
+      "signature": "void RecordWindowAudit(WindowPhase phase,const WindowState& state,double probeMs)"
+    },
+    {
+      "line": 326,
+      "end_line": 343,
+      "signature": "void RecordMedicalWindow(const WindowState& state,const char* reason,const char* cause,Count before,Count remaining,unsigned done,unsigned inspected,double observedAt,double oldest)"
+    },
+    {
+      "line": 344,
+      "end_line": 362,
+      "signature": "void FinishWindowAudit()"
+    },
+    {
+      "line": 363,
+      "end_line": 367,
+      "signature": "void ResetWindowAudit()"
+    },
+    {
+      "line": 368,
+      "end_line": 378,
+      "signature": "static void WindowAuditSummary(Count id)"
+    },
+    {
+      "line": 388,
+      "end_line": 388,
+      "signature": "static LONGLONG HookRead(volatile LONGLONG* value)"
+    },
+    {
+      "line": 389,
+      "end_line": 392,
+      "signature": "static void HookMaximum(volatile LONGLONG* target,LONGLONG value)"
+    },
+    {
+      "line": 393,
+      "end_line": 396,
+      "signature": "static LONGLONG HookMicroseconds(double milliseconds)"
+    },
+    {
+      "line": 398,
+      "end_line": 403,
+      "signature": "HookAudit::HookAudit(Hook value):hook(value),active(hookAuditEnabled&&PerformanceEnabled()),sampled(false),totalSampled(false),entries(0),waitBegin(0),workBegin(0),waitTotal(0),workTotal(0),totalBegin(0)"
+    },
+    {
+      "line": 404,
+      "end_line": 408,
+      "signature": "void HookAudit::BeforeLock()"
+    },
+    {
+      "line": 409,
+      "end_line": 409,
+      "signature": "void HookAudit::Acquired()"
+    },
+    {
+      "line": 410,
+      "end_line": 410,
+      "signature": "void HookAudit::BeforeUnlock()"
+    },
+    {
+      "line": 411,
+      "end_line": 425,
+      "signature": "HookAudit::~HookAudit()"
+    },
+    {
+      "line": 426,
+      "end_line": 445,
+      "signature": "static void HookSummary(Count id,double windowElapsed,double processElapsed)"
+    },
+    {
+      "line": 448,
+      "end_line": 452,
+      "signature": "static WaitStamp ProjectWaits(double now)"
+    },
+    {
+      "line": 453,
+      "end_line": 456,
+      "signature": "void ObserveWindow(bool paused,bool physicsBusy,bool aiBusy,bool unavailable)"
+    },
+    {
+      "line": 457,
+      "end_line": 457,
+      "signature": "void SnapshotWaits(double now,WaitStamp& stamp)"
+    },
+    {
+      "line": 458,
+      "end_line": 467,
+      "signature": "void RecordWait(bool query,double created,const WaitStamp& before,double now)"
+    },
+    {
+      "line": 468,
+      "end_line": 468,
+      "signature": "double Now()"
+    },
+    {
+      "line": 470,
+      "end_line": 472,
+      "signature": "static double Number(const std::wstring& ini,const wchar_t* key,double fallback)"
+    },
+    {
+      "line": 473,
+      "end_line": 473,
+      "signature": "static bool Switch(const std::wstring& ini,const wchar_t* key,bool fallback)"
+    },
+    {
+      "line": 474,
+      "end_line": 474,
+      "signature": "static std::string Utf8(const std::wstring& value)"
+    },
+    {
+      "line": 475,
+      "end_line": 475,
+      "signature": "void Record(Kind kind,double ms)"
+    },
+    {
+      "line": 480,
+      "end_line": 502,
+      "signature": "void RecordQueryGate(unsigned source,unsigned why,unsigned mask,unsigned exceptionCode,double ms,double at)"
+    },
+    {
+      "line": 503,
+      "end_line": 503,
+      "signature": "void Add(Counter counter,Count amount)"
+    },
+    {
+      "line": 504,
+      "end_line": 504,
+      "signature": "void Set(Gauge gauge,Count value)"
+    },
+    {
+      "line": 505,
+      "end_line": 511,
+      "signature": "void Flush(bool force)"
+    },
+    {
+      "line": 512,
+      "end_line": 522,
+      "signature": "void Log(const std::string& message)"
+    },
+    {
+      "line": 523,
+      "end_line": 579,
+      "signature": "void Initialize(const std::wstring& directory,const std::wstring& logFile)"
+    },
+    {
+      "line": 580,
+      "end_line": 580,
+      "signature": "void BeginFrame()"
+    },
+    {
+      "line": 581,
+      "end_line": 588,
+      "signature": "void EndFrame()"
+    },
+    {
+      "line": 589,
+      "end_line": 612,
+      "signature": "void Summary(const char* reason,bool force)"
+    },
+    {
+      "line": 615,
+      "end_line": 625,
+      "signature": "bool InterfaceScope::ClockNeeded(Kind value)"
+    },
+    {
+      "line": 627,
+      "end_line": 629,
+      "signature": "Scope::Scope(Kind value,const char* text,double* accumulatedMs):kind(value),begin(0),label(text),active(Active(value)||(accumulatedMs&&RangedProbeCostEnabled())||InterfaceScope::ClockNeeded(value)),accumulate(accumulatedMs)"
+    },
+    {
+      "line": 630,
+      "end_line": 632,
+      "signature": "Scope::~Scope()"
+    }
+  ],
+  "IrisNativeAudit.cpp": [
+    {
+      "line": 22,
+      "end_line": 22,
+      "signature": "Guard()"
+    },
+    {
+      "line": 22,
+      "end_line": 22,
+      "signature": "~Guard()"
+    },
+    {
+      "line": 24,
+      "end_line": 24,
+      "signature": "static void* ReadTLS(DWORD slot)"
+    },
+    {
+      "line": 25,
+      "end_line": 25,
+      "signature": "static bool WriteTLS(DWORD slot,void* p)"
+    },
+    {
+      "line": 26,
+      "end_line": 26,
+      "signature": "static unsigned Generation()"
+    },
+    {
+      "line": 27,
+      "end_line": 27,
+      "signature": "bool Enabled()"
+    },
+    {
+      "line": 28,
+      "end_line": 28,
+      "signature": "bool ServiceEnabled()"
+    },
+    {
+      "line": 32,
+      "end_line": 32,
+      "signature": "Stat():n(0),sum(0),max(0)"
+    },
+    {
+      "line": 33,
+      "end_line": 33,
+      "signature": "void Add(double ms)"
+    },
+    {
+      "line": 34,
+      "end_line": 34,
+      "signature": "double Percent(unsigned p)const"
+    },
+    {
+      "line": 38,
+      "end_line": 38,
+      "signature": "NativeStats():nested(0),invalidated(0),exceptional(0)"
+    },
+    {
+      "line": 44,
+      "end_line": 44,
+      "signature": "ServiceStats():frames(0),callbacks(0),repeated(0),waiting(0),repeatReady(0),noFlush(0),flushes(0),progress(0),nativeCalls(0),inspected(0),lastFrameToken(0),timeYield(0),countYield(0),scanYield(0),physics(0),ai(0),paused(0),world(0),readErrors(0),unknown(0)"
+    },
+    {
+      "line": 48,
+      "end_line": 53,
+      "signature": "void Configure(bool nativeProfile,bool serviceProfile,bool gapProfile,unsigned sampleEvery)"
+    },
+    {
+      "line": 57,
+      "end_line": 61,
+      "signature": "static GameData* WoundHook(MedicalSystem* self,bool low,CutDirection dir,Damages& damage,int& material,RootObject* attacker,AttackDirection::Enum& direction,Harpoon* harpoon)"
+    },
+    {
+      "line": 62,
+      "end_line": 64,
+      "signature": "static void EffectHook(GameData* data,const hand& who,const std::string& bone,const Ogre::Vector3& position,const Ogre::Quaternion& rotation)"
+    },
+    {
+      "line": 65,
+      "end_line": 75,
+      "signature": "void Install()"
+    },
+    {
+      "line": 76,
+      "end_line": 87,
+      "signature": "Hit::Hit(unsigned c,unsigned e,unsigned m,unsigned o):active(false),generation(0),cast(c),event(e),move(m),ordinal(o),nested(0),begin(0),top(0),gapActive(false),gapCursor(0)"
+    },
+    {
+      "line": 88,
+      "end_line": 107,
+      "signature": "Hit::~Hit()"
+    },
+    {
+      "line": 108,
+      "end_line": 113,
+      "signature": "PartScope::PartScope(Part p):hit(0),previous(0),part(p),begin(0),children(0)"
+    },
+    {
+      "line": 114,
+      "end_line": 119,
+      "signature": "PartScope::~PartScope()"
+    },
+    {
+      "line": 120,
+      "end_line": 122,
+      "signature": "Frame::Frame(Count frame):previous(0),active(false),finished(false),sawPending(false),generation(0),token(frame),callbacks(0),repeated(0),waiting(0),repeatReady(0),flushes(0),progress(0),nativeCalls(0),inspected(0),begin(0)"
+    },
+    {
+      "line": 123,
+      "end_line": 123,
+      "signature": "Frame::~Frame()"
+    },
+    {
+      "line": 124,
+      "end_line": 128,
+      "signature": "void Frame::Finish()"
+    },
+    {
+      "line": 129,
+      "end_line": 138,
+      "signature": "void Callback(bool done,Count pending,const IrisDiagnostics::WindowState& state,double probeMs)"
+    },
+    {
+      "line": 139,
+      "end_line": 148,
+      "signature": "void Medical(Count before,Count remaining,unsigned done,unsigned checked,const char* reason,double elapsed)"
+    },
+    {
+      "line": 149,
+      "end_line": 153,
+      "signature": "void Reset()"
+    },
+    {
+      "line": 154,
+      "end_line": 156,
+      "signature": "static void WriteStat(std::ostringstream& out,const Stat& s)"
+    },
+    {
+      "line": 157,
+      "end_line": 178,
+      "signature": "void Summary(Count id)"
+    }
+  ],
+  "IrisWoundAudit.cpp": [
+    {
+      "line": 28,
+      "end_line": 28,
+      "signature": "Lock()"
+    },
+    {
+      "line": 28,
+      "end_line": 28,
+      "signature": "~Lock()"
+    },
+    {
+      "line": 29,
+      "end_line": 29,
+      "signature": "bool Enabled()"
+    },
+    {
+      "line": 30,
+      "end_line": 30,
+      "signature": "static unsigned Epoch()"
+    },
+    {
+      "line": 32,
+      "end_line": 32,
+      "signature": "static Scope* Current()"
+    },
+    {
+      "line": 33,
+      "end_line": 33,
+      "signature": "static bool SetCurrent(Scope* p)"
+    },
+    {
+      "line": 37,
+      "end_line": 37,
+      "signature": "Stat():n(0),sum(0),max(0)"
+    },
+    {
+      "line": 38,
+      "end_line": 38,
+      "signature": "void Add(double ms)"
+    },
+    {
+      "line": 39,
+      "end_line": 39,
+      "signature": "double Percent(unsigned percent)const"
+    },
+    {
+      "line": 44,
+      "end_line": 44,
+      "signature": "Stats():nested(0),mixed(0),invalidated(0),exceptions(0),maximumRest(0)"
+    },
+    {
+      "line": 47,
+      "end_line": 54,
+      "signature": "void Configure(bool value,bool branches)"
+    },
+    {
+      "line": 58,
+      "end_line": 61,
+      "signature": "explicit Part(Stage value):owner(0),previous(0),stage(value),begin(0),children(0)"
+    },
+    {
+      "line": 62,
+      "end_line": 66,
+      "signature": "~Part()"
+    },
+    {
+      "line": 69,
+      "end_line": 76,
+      "signature": "Scope::Scope(bool irisBridge,const Damages& damage):active(false),bridge(irisBridge),generation(0),nested(0),mixed(0),begin(0),amount(0),top(0)"
+    },
+    {
+      "line": 77,
+      "end_line": 92,
+      "signature": "Scope::~Scope()"
+    },
+    {
+      "line": 99,
+      "end_line": 99,
+      "signature": "static void ApplyHook(MedicalSystem* self,MedicalSystem::HealthPartStatus* part,const Damages& damage,bool loading,bool sever,const Ogre::Vector3& force)"
+    },
+    {
+      "line": 100,
+      "end_line": 100,
+      "signature": "static void AppearanceHook(AppearanceBase* self,Wound* wound)"
+    },
+    {
+      "line": 101,
+      "end_line": 101,
+      "signature": "static ScreenLabel* LabelHook(ForgottenGUI* self,const std::string& text,const MyGUI::Colour& color,ScreenLabel::LabelSize size,ScreenLabel::RisingSpeed speed)"
+    },
+    {
+      "line": 102,
+      "end_line": 102,
+      "signature": "static void BloodHook(MedicalSystem* self,const Damages& damage,CutDirection dir,AttackDirection::Enum from)"
+    },
+    {
+      "line": 114,
+      "end_line": 114,
+      "signature": "static void AmputateHook(MedicalSystem* self,RobotLimbs::Limb limb,bool create,const Ogre::Vector3& force)"
+    },
+    {
+      "line": 115,
+      "end_line": 115,
+      "signature": "static Item* CreateHook(RootObjectFactory* self,GameData* data,const hand& identity,GameData* mesh,GameData* material,int level,Faction* faction)"
+    },
+    {
+      "line": 116,
+      "end_line": 116,
+      "signature": "static void SetupHook(SeveredLimbItem* self,Character* who,int limb,const Ogre::Vector3& force)"
+    },
+    {
+      "line": 117,
+      "end_line": 117,
+      "signature": "static void StateHook(MedicalSystem* self)"
+    },
+    {
+      "line": 118,
+      "end_line": 118,
+      "signature": "static void CollapseHook(MedicalSystem* self,MedicalSystem::HealthPartStatus* part)"
+    },
+    {
+      "line": 119,
+      "end_line": 119,
+      "signature": "static void RagdollHook(Character* self,bool on,RagdollPart::Enum part)"
+    },
+    {
+      "line": 120,
+      "end_line": 149,
+      "signature": "void Install(bool available)"
+    },
+    {
+      "line": 150,
+      "end_line": 150,
+      "signature": "void Reset()"
+    },
+    {
+      "line": 151,
+      "end_line": 151,
+      "signature": "static void Write(std::ostringstream& out,const Stat& s)"
+    },
+    {
+      "line": 152,
+      "end_line": 172,
+      "signature": "void Summary(Count id)"
+    }
+  ],
+  "native/NativeMultiContact.cpp": [
+    {
+      "line": 40,
+      "end_line": 40,
+      "signature": "void ConfigureConservativeQueries(bool enabled)"
+    },
+    {
+      "line": 41,
+      "end_line": 41,
+      "signature": "bool ConservativeQueriesEnabled()"
+    },
+    {
+      "line": 45,
+      "end_line": 45,
+      "signature": "Contacts::Contacts():items(local),count(0)"
+    },
+    {
+      "line": 46,
+      "end_line": 46,
+      "signature": "Contacts::Contacts(const Contacts& other):items(local),count(0)"
+    },
+    {
+      "line": 47,
+      "end_line": 55,
+      "signature": "bool Contacts::Ensure(unsigned required)"
+    },
+    {
+      "line": 56,
+      "end_line": 60,
+      "signature": "Contacts& Contacts::operator=(const Contacts& other)"
+    },
+    {
+      "line": 61,
+      "end_line": 64,
+      "signature": "bool Contacts::Append(const Contact& value)"
+    },
+    {
+      "line": 85,
+      "end_line": 85,
+      "signature": "RuntimeVersion():major(0),minor(0),bugfix(0),revision(0),known(false)"
+    },
+    {
+      "line": 87,
+      "end_line": 89,
+      "signature": "static bool AtLeastMinimum(const RuntimeVersion& v)"
+    },
+    {
+      "line": 90,
+      "end_line": 97,
+      "signature": "static const char* RuntimeVersionGate(const RuntimeVersion& v)"
+    },
+    {
+      "line": 98,
+      "end_line": 109,
+      "signature": "static bool RuntimeDecision(const RuntimeVersion& v,const char* failure,bool sdkExport)"
+    },
+    {
+      "line": 110,
+      "end_line": 133,
+      "signature": "bool Initialize()"
+    },
+    {
+      "line": 134,
+      "end_line": 134,
+      "signature": "const char* AvailabilityReason()"
+    },
+    {
+      "line": 137,
+      "end_line": 143,
+      "signature": "static SceneReadiness ReadSceneReadiness(NxScene* scene,unsigned& exceptionCode)"
+    },
+    {
+      "line": 144,
+      "end_line": 148,
+      "signature": "SceneReadiness InspectSceneReadiness(void* scene,unsigned& exceptionCode)"
+    },
+    {
+      "line": 149,
+      "end_line": 149,
+      "signature": "static bool Finite(float f)"
+    },
+    {
+      "line": 150,
+      "end_line": 161,
+      "signature": "static bool ReadObjectKey(NxShape* shape,ObjectKey* out,unsigned& exceptionCode)"
+    },
+    {
+      "line": 164,
+      "end_line": 186,
+      "signature": "const char* IssueReason(QueryIssue issue)"
+    },
+    {
+      "line": 200,
+      "end_line": 200,
+      "signature": "TerrainRayCollector(Contacts& out,float distance,bool details):output(out),status(QUERY_COMPLETE),length(distance),inspect(details)"
+    },
+    {
+      "line": 201,
+      "end_line": 204,
+      "signature": "bool Reject(QueryIssue issue,unsigned index,float fraction)"
+    },
+    {
+      "line": 205,
+      "end_line": 224,
+      "signature": "virtual bool onHit(const NxRaycastHit& hit)"
+    },
+    {
+      "line": 226,
+      "end_line": 247,
+      "signature": "static QueryStatus RayBlocker(void* world,const Point& from,const Point& motion,unsigned groups,Contacts& result,unsigned& queryCalls)"
+    },
+    {
+      "line": 251,
+      "end_line": 251,
+      "signature": "NxShape* ShapeAt(unsigned i)const"
+    },
+    {
+      "line": 258,
+      "end_line": 259,
+      "signature": "explicit Collector(Contacts& out,const NxSphere& start,bool characters=false):output(out),status(QUERY_COMPLETE),charactersOnly(characters),initial(start), indexSlots(localIndex),indexCapacity(128),indexReady(false),indexDisabled(false),indexAudit(IrisDiagnostics::DetailsEnabled())"
+    },
+    {
+      "line": 260,
+      "end_line": 263,
+      "signature": "static unsigned ShapeHash(NxShape* shape)"
+    },
+    {
+      "line": 264,
+      "end_line": 266,
+      "signature": "unsigned LinearShape(NxShape* shape)"
+    },
+    {
+      "line": 267,
+      "end_line": 271,
+      "signature": "void InsertShape(unsigned index)"
+    },
+    {
+      "line": 272,
+      "end_line": 274,
+      "signature": "void DisableIndex()"
+    },
+    {
+      "line": 275,
+      "end_line": 286,
+      "signature": "bool PrepareIndex()"
+    },
+    {
+      "line": 287,
+      "end_line": 298,
+      "signature": "unsigned FindShape(NxShape* shape)"
+    },
+    {
+      "line": 299,
+      "end_line": 303,
+      "signature": "bool Reject(QueryIssue issue,QueryStatus failure,unsigned index,float fraction)"
+    },
+    {
+      "line": 304,
+      "end_line": 345,
+      "signature": "virtual bool onEvent(NxU32 count,NxSweepQueryHit* hits)"
+    },
+    {
+      "line": 347,
+      "end_line": 347,
+      "signature": "bool operator()(const Contact& a,const Contact& b)const"
+    },
+    {
+      "line": 349,
+      "end_line": 363,
+      "signature": "static QueryStatus FinalizeSweep(Contacts& result,QueryStatus status)"
+    },
+    {
+      "line": 364,
+      "end_line": 383,
+      "signature": "QueryStatus SweepAll(void* world,const Point& from,const Point& motion,float radius,unsigned groups,Contacts& result,unsigned& queryCalls,bool charactersOnly)"
+    },
+    {
+      "line": 386,
+      "end_line": 402,
+      "signature": "QueryStatus ProjectileAll(void* world,const Point& from,const Point& motion,float radius,unsigned groups,Contacts& characters,Contacts& terrain,unsigned& queryCalls)"
+    },
+    {
+      "line": 409,
+      "end_line": 413,
+      "signature": "static unsigned Hash(const ObjectKey& k)"
+    },
+    {
+      "line": 414,
+      "end_line": 417,
+      "signature": "bool Equal(const ObjectKey& a,const ObjectKey& b)"
+    },
+    {
+      "line": 418,
+      "end_line": 422,
+      "signature": "void Insert(unsigned index)"
+    },
+    {
+      "line": 423,
+      "end_line": 432,
+      "signature": "bool Prepare()"
+    },
+    {
+      "line": 434,
+      "end_line": 434,
+      "signature": "explicit IdentityIndex(Contacts& out):output(out),slots(local),capacity(512),ready(false),audit(IrisDiagnostics::DetailsEnabled())"
+    },
+    {
+      "line": 435,
+      "end_line": 448,
+      "signature": "unsigned Find(const ObjectKey& key)"
+    },
+    {
+      "line": 449,
+      "end_line": 449,
+      "signature": "void Committed()"
+    },
+    {
+      "line": 454,
+      "end_line": 456,
+      "signature": "static void MapExactSphereToAABBQuery(const Point& center,float radius,NxSphere& mapped)"
+    },
+    {
+      "line": 457,
+      "end_line": 459,
+      "signature": "static void MapExactCapsuleToAABBQuery(const Point& from,const Point& to,float radius,NxCapsule& mapped)"
+    },
+    {
+      "line": 462,
+      "end_line": 467,
+      "signature": "static bool MapExactCylinderToConservativeOBB(const NxBox& exact,NxBox& mapped)"
+    },
+    {
+      "line": 471,
+      "end_line": 471,
+      "signature": "explicit OverlapCollector(Contacts& out,bool loose=false):output(out),status(QUERY_COMPLETE),identities(out),approximate(loose)"
+    },
+    {
+      "line": 472,
+      "end_line": 485,
+      "signature": "virtual bool onEvent(NxU32 count,NxShape** shapes)"
+    },
+    {
+      "line": 487,
+      "end_line": 502,
+      "signature": "QueryStatus OverlapSphere(void* world,const Point& center,float radius,unsigned groups,Contacts& result,unsigned& queryCalls,bool boundsOnly)"
+    },
+    {
+      "line": 504,
+      "end_line": 523,
+      "signature": "QueryStatus OverlapCapsule(void* world,const Point& from,const Point& to,float radius,unsigned groups,Contacts& result,unsigned& queryCalls)"
+    },
+    {
+      "line": 527,
+      "end_line": 541,
+      "signature": "QueryStatus OverlapCapsules(void* world,const CapsuleInput* paths,unsigned count,unsigned groups,Contacts* results,BatchDiagnostic& diagnostic,unsigned& queryCalls)"
+    },
+    {
+      "line": 543,
+      "end_line": 564,
+      "signature": "QueryStatus OverlapSector(void* world,const IrisSector::Volume& volume,unsigned groups,Contacts& result,unsigned& queryCalls)"
+    },
+    {
+      "line": 566,
+      "end_line": 566,
+      "signature": "static IrisCylinder::V Local(const NxVec3& p,const NxVec3& center)"
+    },
+    {
+      "line": 567,
+      "end_line": 580,
+      "signature": "static bool BodyGeometry(NxShape* shape,const NxVec3& center,IrisCylinder::Body& body)"
+    },
+    {
+      "line": 585,
+      "end_line": 585,
+      "signature": "CylinderCollector(Contacts& r,const NxVec3& p,const NxVec3& axis,float half,float radius):out(r),status(QUERY_COMPLETE),center(p),identities(r)"
+    },
+    {
+      "line": 586,
+      "end_line": 600,
+      "signature": "virtual bool onEvent(NxU32 count,NxShape** shapes)"
+    },
+    {
+      "line": 602,
+      "end_line": 632,
+      "signature": "QueryStatus CylinderAll(void* world,const Point& from,const Point& motion,float radius,unsigned groups,Contacts& result,float& actualLength,unsigned& queryCalls)"
+    },
+    {
+      "line": 636,
+      "end_line": 636,
+      "signature": "static bool SameRangedFloat(float a,float b)"
+    },
+    {
+      "line": 637,
+      "end_line": 641,
+      "signature": "static bool SameRangedInput(const RangedInput& a,const RangedInput& b)"
+    },
+    {
+      "line": 647,
+      "end_line": 647,
+      "signature": "RangedEmptyReport():candidates(0),characters(0),unknown(0),exception(0)"
+    },
+    {
+      "line": 648,
+      "end_line": 654,
+      "signature": "virtual bool onEvent(NxU32 count,NxShape** shapes)"
+    },
+    {
+      "line": 658,
+      "end_line": 666,
+      "signature": "static bool RangedSweepBounds(const RangedInput& p,NxBounds3& box)"
+    },
+    {
+      "line": 667,
+      "end_line": 669,
+      "signature": "static double RangedBoundsVolume(const NxBounds3& box)"
+    },
+    {
+      "line": 670,
+      "end_line": 691,
+      "signature": "static bool ProbeRangedEmpty(NxScene* scene,const RangedInput* paths,unsigned count,unsigned mask,unsigned groups, unsigned& calls,RangedPolicy& policy,RangedAudit& audit)"
+    },
+    {
+      "line": 697,
+      "end_line": 714,
+      "signature": "static void BuildRangedSpatialGroups(const RangedInput* paths,unsigned count,unsigned mask,RangedSpatialGroup* groups,RangedAudit& audit)"
+    },
+    {
+      "line": 718,
+      "end_line": 744,
+      "signature": "static unsigned ProbeRangedSpatial(NxScene* scene,const RangedInput* paths,unsigned count,unsigned mask,unsigned groups, unsigned& calls,RangedPolicy& policy,RangedAudit& audit)"
+    },
+    {
+      "line": 752,
+      "end_line": 752,
+      "signature": "RangedSlot():ray(0),sweep(0),distance(0),skipInput(false)"
+    },
+    {
+      "line": 753,
+      "end_line": 753,
+      "signature": "~RangedSlot()"
+    },
+    {
+      "line": 758,
+      "end_line": 758,
+      "signature": "RangedSlot* Find(void* tag)"
+    },
+    {
+      "line": 760,
+      "end_line": 760,
+      "signature": "RangedReport(RangedSlot* p,unsigned n):slots(p),count(n),bad(false)"
+    },
+    {
+      "line": 761,
+      "end_line": 761,
+      "signature": "virtual NxQueryReportResult onBooleanQuery(void*,bool)"
+    },
+    {
+      "line": 762,
+      "end_line": 762,
+      "signature": "virtual NxQueryReportResult onShapeQuery(void*,NxU32,NxShape**)"
+    },
+    {
+      "line": 763,
+      "end_line": 767,
+      "signature": "virtual NxQueryReportResult onRaycastQuery(void* tag,NxU32 n,const NxRaycastHit* hits)"
+    },
+    {
+      "line": 768,
+      "end_line": 772,
+      "signature": "virtual NxQueryReportResult onSweepQuery(void* tag,NxU32 n,NxSweepQueryHit* hits)"
+    },
+    {
+      "line": 778,
+      "end_line": 778,
+      "signature": "RangedQueryOwner(NxScene* s):scene(s),query(0),pending(false)"
+    },
+    {
+      "line": 779,
+      "end_line": 783,
+      "signature": "void Finish()"
+    },
+    {
+      "line": 784,
+      "end_line": 785,
+      "signature": "~RangedQueryOwner()"
+    },
+    {
+      "line": 788,
+      "end_line": 889,
+      "signature": "bool RangedBatch(void* world,const RangedInput* paths,unsigned count,unsigned groups,RangedResult* results,unsigned& queryCalls,RangedPolicy& policy,RangedAudit& audit)"
+    }
+  ]
+}

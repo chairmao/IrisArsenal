@@ -1,0 +1,32 @@
+{
+  "package:assets/effects.csv": {
+    "before": "3b54125bd5ef2beded2fa64829ab77bd25d02d30d75e0c7822498235b35a103a",
+    "after": "62c732760e9b392ad68196899810a1a09eb77f3aeb9ff166bc451d184e587fa2",
+    "reason": "051源火焰量尺与枪口原颜色/alpha，仅资产变化"
+  },
+  "package:assets/effect_curves.csv": {
+    "before": "18476aa11ede69b43575153bf68677c093856b42556edd8e14fe566f2862fce3",
+    "after": "2ec6047eb0d7bf3b006f30a86e86d8a41ee7ab28393dbd8996be6476b2324949",
+    "reason": "051源火焰量尺与枪口原颜色/alpha，仅资产变化"
+  },
+  "package:assets/iris_eight.hlsl": {
+    "before": "50d9454b32c8a287dc64a05c0a175f621b31c2e0da62122f2064dcdde57d66e7",
+    "after": "52e3ab2bdfdf07bd0cc20007c83c0e404b0436319a18f7566717983910ca29dd",
+    "reason": "051源火焰量尺与枪口原颜色/alpha，仅资产变化"
+  },
+  "package:assets/iris_eight.material": {
+    "before": "b730a49d8738c62b4f358c71685913b2daeddd3dc3633d76ab8219e1f27615c4",
+    "after": "fce6d9ccf51bb1f406162c47f74f61092866685dd2cac550308eddbb9e68568d",
+    "reason": "051源火焰量尺与枪口原颜色/alpha，仅资产变化"
+  },
+  "package:assets/iris_fx_electro_area.mesh": {
+    "before": "7c67cd594b6a70220f4abc85001f7f17bde62215dd07799d1d3b3b0ee82a8151",
+    "after": "b23b55b25a2cc80d12fbe971b63d742775faf0d8aab1568f7331d3174f892919",
+    "reason": "051源火焰量尺与枪口原颜色/alpha，仅资产变化"
+  },
+  "package:assets/iris_fx_electro_burst.mesh": {
+    "before": "f4964884a4700f5481cbac5ba57441c280399175c1407b0370f0f3ca643bb807",
+    "after": "5301e0cf228bbcab28336e9475ddb0167ba60ff167b39240b52ccfef4fbc3317",
+    "reason": "051源火焰量尺与枪口原颜色/alpha，仅资产变化"
+  }
+}

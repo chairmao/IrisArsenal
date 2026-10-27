@@ -1,0 +1,205 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\animation-load-fix-validation.json",
+    "Role": "动画加载故障取证与修复验收",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": "记录真实日志、FCS语义差异、正负例、双备份及已安装文件身份",
+    "Reasons": "本轮用户报告持械后无法攻击；已用18:23:57缺资源与18:28:25动画等待日志确认FCS到资源的加载链断裂，修复限定本原因",
+    "After": "069829b583cdb06c3bc60b7209c951121acb3093092b3e4088772ab574fa0ed9",
+    "Impact": "仅IrisArsenal项目；游戏只同步FCS与校验清单，不改DLL、配置、资产、存档、勾选或其他项目",
+    "Validation": "实际16条FCS文件/内部动画/长度/种族引用、5个故障拒绝、16份骨架与原有资源/语法静态验收通过；本修复未游戏测试",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户编译与实机验收待完成"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.2.0.json",
+    "Role": "八招非编译验收证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "b032b493e21e03d3a8f1c3701cb7f6352dabbad9cddb26dcebcb84660071dd89",
+    "Changes": "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树",
+    "Reasons": "本轮用户报告持械后无法攻击；已用18:23:57缺资源与18:28:25动画等待日志确认FCS到资源的加载链断裂，修复限定本原因",
+    "After": "f192e64fe1b1efaf6f88d8f80f22f1f8d395e707b6833fc8020f3ecbad415c7d",
+    "Impact": "仅IrisArsenal项目；游戏只同步FCS与校验清单，不改DLL、配置、资产、存档、勾选或其他项目",
+    "Validation": "实际16条FCS文件/内部动画/长度/种族引用、5个故障拒绝、16份骨架与原有资源/语法静态验收通过；本修复未游戏测试",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-183613-570016\\edit-183614-704958\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.2.0.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-183613-570016\\edit-183614-707000\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.2.0.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "未编译、未游戏测试，不能据此宣布最终完成"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+    "Role": "八招隔离FCS记录",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "eab501e662c1eacdec19a52ea888c3bc4c20361ac37c29a0598232e3f24aecf9",
+    "Changes": "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离",
+    "Reasons": "本轮用户报告持械后无法攻击；已用18:23:57缺资源与18:28:25动画等待日志确认FCS到资源的加载链断裂，修复限定本原因",
+    "After": "e1fb07ed70fbaca84cc39b5b97f02a2e634b2333acae99f215f1c1ddb8c14101",
+    "Impact": "仅IrisArsenal项目；游戏只同步FCS与校验清单，不改DLL、配置、资产、存档、勾选或其他项目",
+    "Validation": "实际16条FCS文件/内部动画/长度/种族引用、5个故障拒绝、16份骨架与原有资源/语法静态验收通过；本修复未游戏测试",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-183555-754433\\edit-183555-819006\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-183555-754433\\edit-183555-822319\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户编译与实机验收待完成"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "Role": "完整运行包校验",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "d420c53fbc609c39708c04c328580c63e54f2bc03a83a7d0e03a4f4d042b59f0",
+    "Changes": "DLL和资源同包哈希，用于后续明确授权的游戏部署",
+    "Reasons": "本轮用户报告持械后无法攻击；已用18:23:57缺资源与18:28:25动画等待日志确认FCS到资源的加载链断裂，修复限定本原因",
+    "After": "89decd7e75ff3de2117eae68b4c812ed0547e19344d48b599732d27584f2ff06",
+    "Impact": "仅IrisArsenal项目；游戏只同步FCS与校验清单，不改DLL、配置、资产、存档、勾选或其他项目",
+    "Validation": "实际16条FCS文件/内部动画/长度/种族引用、5个故障拒绝、16份骨架与原有资源/语法静态验收通过；本修复未游戏测试",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-183613-570016\\edit-183614-774217\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-183613-570016\\edit-183614-777865\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户编译与实机验收待完成"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "Role": "用户操作与当前版本说明",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "b36c6e52235c97a484982c56b57dc7a0741abe01f4f2a49d87afa5c585d69c8f",
+    "Changes": "区分用户已编译0.2.0、实际加载故障与本次FCS已部署；说明无需重编、需重启验证",
+    "Reasons": "本轮用户报告持械后无法攻击；已用18:23:57缺资源与18:28:25动画等待日志确认FCS到资源的加载链断裂，修复限定本原因",
+    "After": "4497adfc99d533451fa3e7d4815788bdfce34fb1e27362f71745d01c351bbce0",
+    "Impact": "仅IrisArsenal项目；游戏只同步FCS与校验清单，不改DLL、配置、资产、存档、勾选或其他项目",
+    "Validation": "实际16条FCS文件/内部动画/长度/种族引用、5个故障拒绝、16份骨架与原有资源/语法静态验收通过；本修复未游戏测试",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-183841-336518\\edit-183841-341398\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-183841-336518\\edit-183841-342553\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户编译与实机验收待完成"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "Role": "项目当前状态交接",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "3bb3367a7e128a56c4e6bc88bb4a91fd8fe1579c4ca131f9c7b1c776532f7e63",
+    "Changes": "记录真实用户0.2.0运行与FCS修复；原历史交付原样保留，避免把旧未编译状态当现在",
+    "Reasons": "本轮用户报告持械后无法攻击；已用18:23:57缺资源与18:28:25动画等待日志确认FCS到资源的加载链断裂，修复限定本原因",
+    "After": "65474dc5f03ed85b19a3c2ee83fc05f74f3fff256954bf682b14fd7a223af5d7",
+    "Impact": "仅IrisArsenal项目；游戏只同步FCS与校验清单，不改DLL、配置、资产、存档、勾选或其他项目",
+    "Validation": "实际16条FCS文件/内部动画/长度/种族引用、5个故障拒绝、16份骨架与原有资源/语法静态验收通过；本修复未游戏测试",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-183841-336518\\edit-183841-344610\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-183841-336518\\edit-183841-345880\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户编译与实机验收待完成"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+    "Role": "动画资产与FCS生产者",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "3a3326fa515105c0c1fdc2591e7003bb01023bf9d30b749fa0654eb227e6f6c7",
+    "Changes": "修复八招16个动画文件名；导出与FCS引用共用命名函数，旧闭环独立保留",
+    "Reasons": "本轮用户报告持械后无法攻击；已用18:23:57缺资源与18:28:25动画等待日志确认FCS到资源的加载链断裂，修复限定本原因",
+    "After": "e45967456280fad461044551442a41b66effea2347670356635c2975eda4d653",
+    "Impact": "仅IrisArsenal项目；游戏只同步FCS与校验清单，不改DLL、配置、资产、存档、勾选或其他项目",
+    "Validation": "实际16条FCS文件/内部动画/长度/种族引用、5个故障拒绝、16份骨架与原有资源/语法静态验收通过；本修复未游戏测试",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-183534-322716\\edit-183534-323790\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-183534-322716\\edit-183534-326847\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户编译与实机验收待完成"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_animation_references.py",
+    "Role": "动画引用回归用例",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "不存在",
+    "Changes": "正常16引用通过；旧缺失名、存在的旧钻头/错招、路径越界和漏种族引用必须被拒绝",
+    "Reasons": "本轮用户报告持械后无法攻击；已用18:23:57缺资源与18:28:25动画等待日志确认FCS到资源的加载链断裂，修复限定本原因",
+    "After": "08b45460fd340aab783180aa425e4dae72a4eb03f1f551d6ae6954e648b7aaa2",
+    "Impact": "仅IrisArsenal项目；游戏只同步FCS与校验清单，不改DLL、配置、资产、存档、勾选或其他项目",
+    "Validation": "实际16条FCS文件/内部动画/长度/种族引用、5个故障拒绝、16份骨架与原有资源/语法静态验收通过；本修复未游戏测试",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户编译与实机验收待完成"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+    "Role": "FCS到真实动画消费链验收",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "f14f4b3363f0a7c232b79b4c17f00f046f6d276d3fdf8cbc3fb04df547c90ca5",
+    "Changes": "沿16个实际FCS路径读取动画名/长度/轨道，并检查所有支持种族引用；身体验收使用同一路径",
+    "Reasons": "本轮用户报告持械后无法攻击；已用18:23:57缺资源与18:28:25动画等待日志确认FCS到资源的加载链断裂，修复限定本原因",
+    "After": "78ebf6cdccdeed914b6c1231d59bb04c737b8e8ccc60c0e4cd4c7b817d51d205",
+    "Impact": "仅IrisArsenal项目；游戏只同步FCS与校验清单，不改DLL、配置、资产、存档、勾选或其他项目",
+    "Validation": "实际16条FCS文件/内部动画/长度/种族引用、5个故障拒绝、16份骨架与原有资源/语法静态验收通过；本修复未游戏测试",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-183534-322716\\edit-183534-339500\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-183534-322716\\edit-183534-341501\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户编译与实机验收待完成"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod",
+    "Role": "已安装FCS动画集",
+    "Code location": "8个动画集的男女动画字段",
+    "Before": "eab501e662c1eacdec19a52ea888c3bc4c20361ac37c29a0598232e3f24aecf9",
+    "Changes": "16个引用修正为真实iris_action文件名",
+    "Reasons": "18:23:57游戏资源不存在；18:28:25插件持续eight_animation_wait",
+    "After": "e1fb07ed70fbaca84cc39b5b97f02a2e634b2333acae99f215f1c1ddb8c14101",
+    "Impact": "现有0.2.0 DLL无需重新编译；需重启游戏重新载入FCS",
+    "Validation": "字节回读、FCS文件/内部动画名/种族引用检查；实机待用户",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-AttackLoadFix-20261016-183705-917264\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-AttackLoadFix-20261016-183705-917264\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod"
+      ],
+      "encoding": "FCS binary"
+    },
+    "Unresolved": "用户重启后的实际出招待验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json",
+    "Role": "已安装包校验清单",
+    "Code location": "files.IrisArsenal.mod",
+    "Before": "d420c53fbc609c39708c04c328580c63e54f2bc03a83a7d0e03a4f4d042b59f0",
+    "Changes": "记录修正后的FCS哈希",
+    "Reasons": "18:23:57游戏资源不存在；18:28:25插件持续eight_animation_wait",
+    "After": "89decd7e75ff3de2117eae68b4c812ed0547e19344d48b599732d27584f2ff06",
+    "Impact": "现有0.2.0 DLL无需重新编译；需重启游戏重新载入FCS",
+    "Validation": "字节回读、FCS文件/内部动画名/种族引用检查；实机待用户",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-AttackLoadFix-20261016-183705-917264\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-AttackLoadFix-20261016-183705-917264\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/original line endings"
+    },
+    "Unresolved": "用户重启后的实际出招待验证"
+  }
+]

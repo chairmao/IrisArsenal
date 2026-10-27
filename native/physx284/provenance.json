@@ -1,0 +1,1283 @@
+{
+  "repository": "https://github.com/q4a/physx-sdk2.8.4-win",
+  "commit": "ccd730fd80c75ae43710ec13192a7111c6c2f347",
+  "version": "2.8.4.6",
+  "scope": "Unmodified NVIDIA release headers only; all 182 blobs match exact 2.8.4.6 installer tree. No SDK binaries.",
+  "files": [
+    {
+      "path": "SDKs/Foundation/include/Nx.h",
+      "size": 6872,
+      "sha256": "aa6400f58c3f16e096eb5eb883660cc4c5f1f61ec87f9b551792893ab281ecd9",
+      "git_blob": "fea53f8f6a72e5982fed106035dbdd05e5947be0",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/Nx.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/Nx12F32.h",
+      "size": 1032,
+      "sha256": "8a50a46a8d9ed2b9931c5c77db9856e09bcf15bf675d448e347306ce613b23d4",
+      "git_blob": "d379ead3065d8083f0e176e407303bcad53c853e",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/Nx12F32.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/Nx16F32.h",
+      "size": 1077,
+      "sha256": "987f8828cfeec04dce51c5492f3eaf16f0d8452e9adca0c690b5162cd9b9c4a0",
+      "git_blob": "d70614551d96a65cf00c38a237472a573e0907ba",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/Nx16F32.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/Nx9F32.h",
+      "size": 1131,
+      "sha256": "a7b1cebe447f18880b45b40a2b233049d99b392fab2462c3e0a0af8debe35790",
+      "git_blob": "062d274b48344a2be0019c83ea23701970029ae7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/Nx9F32.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxAllocatorDefault.h",
+      "size": 3000,
+      "sha256": "460ff4f822651a5df41e954caadc96986d250aaff2f50394933ba428906a7d1c",
+      "git_blob": "d4736a9c4ece8df6ad4b399e91673ec5c4c6caa8",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxAllocatorDefault.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxArray.h",
+      "size": 14033,
+      "sha256": "4c51ceaa98b5d950c20bdb0f6f7ed38ca8afe41fdfff8fce541546bb4f79036b",
+      "git_blob": "5c31cbb3456ccc7ab96e1d9782835442f1605376",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxArray.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxAssert.h",
+      "size": 927,
+      "sha256": "aa933dc1dfc4029992ee69df509b711e48130dd8ff6cf1c3f2fb72b9a18b7f0d",
+      "git_blob": "27d4e50164ae32eaa7f9e0a4fc5df387329fc8fc",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxAssert.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxBitField.h",
+      "size": 5121,
+      "sha256": "4cf6ea4399ec73aa8d8c0d2f0662bedd4cbe25d7a59b21ee0de8cd4a3772e79e",
+      "git_blob": "7361647c049696749ac3b136ba99787d496833f0",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxBitField.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxBounds3.h",
+      "size": 8492,
+      "sha256": "3ba48e3f128992637dd99a1ef252df3eed9172cc3856a42f08e54e9c20316c91",
+      "git_blob": "90bd5e025f30b469a770613029b2967bb8b0dcca",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxBounds3.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxBox.h",
+      "size": 5948,
+      "sha256": "9c276911d59e1be896163cee6586524a8ff7d809399195bd2a937026d6934ffa",
+      "git_blob": "930e7cef121c3da26666e7efb4878cdb245f597f",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxBox.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxBuildNumber.h",
+      "size": 894,
+      "sha256": "5593ca01689623f61813de614aee172e2c1ee0138a0aebee9425f982b009bc0a",
+      "git_blob": "0fe7e15255f086421cea05dfc441b8c29e053846",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxBuildNumber.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxCapsule.h",
+      "size": 2501,
+      "sha256": "c11dfa83f25d79c7c5f32fdeaaf76824de1cc5c8d445010eb608bdd9f2d85428",
+      "git_blob": "2ba4f31878db5f94f05f602998945e9e157daab6",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxCapsule.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxDebugRenderable.h",
+      "size": 3087,
+      "sha256": "58803c523f51abfe47a303a773dc5d63633e60a29b675790398b0ec603fdfd31",
+      "git_blob": "2547c3e8d1f42ae707b9f3860a878ed87724f017",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxDebugRenderable.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxException.h",
+      "size": 917,
+      "sha256": "29651dd5395b9da5a79ba22cf9da56f5d140311b064925403db8cdae0c302037",
+      "git_blob": "49649f587cfdfc8859f4e8cf2c53d1e654efd3fe",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxException.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxFoundation.h",
+      "size": 1233,
+      "sha256": "5a9bfa981d65117f269b66cb9c13779e4f294d5774a3d0e569eebc513f2a52e5",
+      "git_blob": "514f8acfe1d54e289bae23bec0e59fb736b90bc0",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxFoundation.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxFoundationSDK.h",
+      "size": 3334,
+      "sha256": "7a1284ca37bc7ec4ba7a34e9fce2b83dfe3bc137ede43301cc7f542de6a4ca11",
+      "git_blob": "91064fe7416bd332e88b406e1a6077dfdd064111",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxFoundationSDK.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxI16Vec3.h",
+      "size": 2865,
+      "sha256": "59fe62f13a3c80464409e435cad92f94623a3a1d707a35463b2ab9dc42680031",
+      "git_blob": "eed8e03751d5c00367166e27c855ff9d158780b9",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxI16Vec3.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxMat33.h",
+      "size": 43977,
+      "sha256": "e8953131b1eee2adea6d3b61e12d313b70de8a108b4a3cccf90c464db98c6a13",
+      "git_blob": "28dec844a4736f6af3f402bed5169631345d597c",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxMat33.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxMat34.h",
+      "size": 7152,
+      "sha256": "7bda6c00318be61766af4815679dcdee05c92d0814454497934c70579c289aa1",
+      "git_blob": "59de649102d7d280adba12a33413ba63f04c4a1d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxMat34.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxMath.h",
+      "size": 19998,
+      "sha256": "c687f6ae14aea9a6276ca6951e81db99b146c7192ac1f8c150dd42a232670b99",
+      "git_blob": "ec0a676f23d61058a7e4f3162e9ef383918142ff",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxMath.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxPlane.h",
+      "size": 4167,
+      "sha256": "a6e05ba80312437b727ed497bb54f4109a821c01dbf7ba1fe588a84df41c37dc",
+      "git_blob": "e6a8107b4de602f89af3b5c4c43641ab2799eaad",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxPlane.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxPool.h",
+      "size": 3724,
+      "sha256": "97838cef3e50a54d1ef06107937d1cab1c2496d7647788a07aed7c32960b582c",
+      "git_blob": "5f2dea64fd52b9b0403846279f3882d059929f63",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxPool.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxProfiler.h",
+      "size": 2576,
+      "sha256": "763ed37b62876c85368086069ffe33a215b8595198ce9c1a59d6a82004216b69",
+      "git_blob": "0c7328fbca14f568cc56915270839eeb4f261035",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxProfiler.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxQuat.h",
+      "size": 16581,
+      "sha256": "be27e2ff4944795567f01822acdb17433726e04c4ef2e1cd44a6c1fa7094c282",
+      "git_blob": "db539da0b03cb185d5f2f104a45fbac5f52ccbc9",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxQuat.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxQuickSort.h",
+      "size": 2437,
+      "sha256": "da8dba1e2dd57e95657b49a7c25f58edea1589496be793090f6e53575d32f9ff",
+      "git_blob": "6e768456440043db0e00bc85dce3549f6b8d275d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxQuickSort.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxRay.h",
+      "size": 2413,
+      "sha256": "b11b6f697334be5c38e4225f6c873b4258464ebfd221ed8b578df4f13a48ba7b",
+      "git_blob": "a8ce57779e801967469916eb936c91bd22227782",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxRay.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxRemoteDebugger.h",
+      "size": 18156,
+      "sha256": "01bb60abe3da3ef7d4a5eec2e5a0bdb5bd3d93165f8a953a76fd73ff515eb85d",
+      "git_blob": "eee838e2ffbb5d4b6bb88bdc6fc28b3e4430d100",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxRemoteDebugger.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxSegment.h",
+      "size": 2222,
+      "sha256": "86aacadbb1303521044becaf78c45433d620205c1748e89299980390ca5be35b",
+      "git_blob": "30b9723c0a79cab5917e7dbdabba566a00f12f71",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxSegment.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxSimpleTriangleMesh.h",
+      "size": 3746,
+      "sha256": "39fcad84f6a485edb0883a8ac16ee212867863d0bd46d76f8d5531898e4603b3",
+      "git_blob": "98e3f048a3cb9e609daa2b91dd6fee6650fd0d88",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxSimpleTriangleMesh.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxSimpleTypes.h",
+      "size": 3201,
+      "sha256": "b0a16b2f0063008acc964fa3c3ed3743a5cefd3d12da0443b6a956a1c26f793b",
+      "git_blob": "a94d4b8efa73de21e2a757dc6ff7f67a9161b430",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxSimpleTypes.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxSphere.h",
+      "size": 4321,
+      "sha256": "2c13cabfc466fe4b59b362388aa9a339bf6eb7aed9b9f7f3224e0932f22a8e76",
+      "git_blob": "5322c3deebf77bb241bfbeed11e975d014f88031",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxSphere.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxStream.h",
+      "size": 4556,
+      "sha256": "14562397582bdad34f384951c6a5840dfaec928902440aab0cbf41eb4ef84899",
+      "git_blob": "88a27708239dd4954d08e84112460e7cd104236f",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxStream.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxUserAllocator.h",
+      "size": 20945,
+      "sha256": "6484b47b1ac65940aa551930b6cf171c10e07fd084aedada95d091cbf8cc3f43",
+      "git_blob": "01d6a78e870e8fd7a13c946e75908094e2203076",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxUserAllocator.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxUserAllocatorDefault.h",
+      "size": 2589,
+      "sha256": "5817f96a0885c90779c7ccc623b462ee306b08f7b6d899531492cfbcbc88123e",
+      "git_blob": "d1df195f225f2f20e9952b0ebe47780041505c6e",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxUserAllocatorDefault.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxUserOutputStream.h",
+      "size": 1984,
+      "sha256": "600645bd58a285711dcc658e5eb30746c223864da00a5d77fd39197688dc9095",
+      "git_blob": "121c0357ee90dbc01561492cf2c9241fe85d554f",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxUserOutputStream.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxUtilities.h",
+      "size": 3749,
+      "sha256": "a25c9a4dc0702197c7f99bde5058c371d7b53c4da4ea8a15f10f3e62cb7bbb2b",
+      "git_blob": "381a2e855b6c573417971fd8e75eb6fa84293335",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxUtilities.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxVec3.h",
+      "size": 15784,
+      "sha256": "2c935105a50e0fbd00d5713f163d75a2f4f9f4b1ee24f1ccedbe4417684eb0c8",
+      "git_blob": "7e3f710dd2163c9127f5fdab4bad0fd225a334c7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxVec3.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxVersionNumber.h",
+      "size": 1649,
+      "sha256": "d8b45e50b779380fb1a49e5439a4f29d90c1d064700bdb76dbfda90d485236ac",
+      "git_blob": "7808f32be46fae0b1f8625158c11c894cb339c81",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxVersionNumber.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/NxVolumeIntegration.h",
+      "size": 1614,
+      "sha256": "654941b7b857981e0ff1a4d5cb127dee461f55503f82d3c1bc0c5b75afa43bd8",
+      "git_blob": "8d1168d809e7ae9dba809bcd4d904603d8f5a9b7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/NxVolumeIntegration.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/Nxf.h",
+      "size": 1691,
+      "sha256": "f1b84deaef2f377dca667fc55c70f5acf388fac4c04fc623c67ead5df381bee2",
+      "git_blob": "d442205c1ccf9506a0b10fb8dc89daf6cf778b23",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/Nxf.h"
+    },
+    {
+      "path": "SDKs/Foundation/include/win/NxMath_WIN.h",
+      "size": 1342,
+      "sha256": "bc9ca5980dadaa1c2e4f5d02ec210e5e8afafbabd5f8bd5e983778789d577e6d",
+      "git_blob": "c79815bcb5330fe69759d6b98d73efdc393e0908",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Foundation/Include/win/NxMath_WIN.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxActor.h",
+      "size": 71839,
+      "sha256": "a58637ebb4b868320e898bb60df010d5df767dc864004f1a15b93c6a98777a3f",
+      "git_blob": "c2f091dbad51e2011c2f436ffbce90ac43e9f9ee",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxActor.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxActorDesc.h",
+      "size": 13685,
+      "sha256": "f58620a2836c8925dcb57ff686aede225939a4216e0380e9afe9909cb00466ad",
+      "git_blob": "5b06408a18a48df10d6e66c0f0a5251c9ef6e3bc",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxActorDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxBodyDesc.h",
+      "size": 9309,
+      "sha256": "7028c23a0595911528e536bd41624db391b5afedeae02075dd9ea54d849153db",
+      "git_blob": "65b1a2f0e7b81e273920827057bd6fed1b88c9a4",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxBodyDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxBoxForceFieldShape.h",
+      "size": 2212,
+      "sha256": "009f4359c87f7280b829e3e17ca80421bced92107da2ef2c42577365441466f9",
+      "git_blob": "18a4f8f422f4a5bea6969ffd72e80cfe1b82ffaf",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxBoxForceFieldShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxBoxForceFieldShapeDesc.h",
+      "size": 2623,
+      "sha256": "95cf4d2c31441c725aa897c95b5d3f96989883fce698328a5d55f94c64da479b",
+      "git_blob": "32345ea8f8c351a87d0cdd6b2b21d4061af5a070",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxBoxForceFieldShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxBoxShape.h",
+      "size": 3143,
+      "sha256": "0cfc27b73c397ba36c22e266c7b49dbff13ead5adda9546abff625bef5dfccc5",
+      "git_blob": "bd0c33915ed2412249175cfac0775100ed230452",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxBoxShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxBoxShapeDesc.h",
+      "size": 2241,
+      "sha256": "897985e79cc45a51d15fd694a23a701989cbcf55d95e92bd48da636b11ba2216",
+      "git_blob": "b4fecb4ac866bc2e78595d6e93b2e7f16fee71ab",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxBoxShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxCCDSkeleton.h",
+      "size": 1639,
+      "sha256": "2d364438567f68109eac6626a7317dadf0b7f6f08b1d24a131c93bf1ed899880",
+      "git_blob": "a2e7845e15f1c13fa0fb1a2c24fdfbafe5f6fa13",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxCCDSkeleton.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxCapsuleForceFieldShape.h",
+      "size": 3052,
+      "sha256": "a1f0f6a675d62db8e42a8a0bbe9eaf1d747d84fba3aca5e72c864404174f38b5",
+      "git_blob": "b750d8f772405b5aabb4fc31919e0c68c01f1eaf",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxCapsuleForceFieldShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxCapsuleForceFieldShapeDesc.h",
+      "size": 2731,
+      "sha256": "e16e68a97865b2148e397607fbf24b34593c8a4133a83c11fd7b3bd7e4fe1c82",
+      "git_blob": "45a041b31905f5aa1f596cf384b667ff86ebad55",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxCapsuleForceFieldShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxCapsuleShape.h",
+      "size": 4337,
+      "sha256": "528b05f67840bbb6a958f8afa9cc346f35bc3bb07882bdc0e66c01a144a0031c",
+      "git_blob": "6a059039ddd8fdf1ec03106114838dc4a56e3087",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxCapsuleShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxCapsuleShapeDesc.h",
+      "size": 2742,
+      "sha256": "df34e57c4514afcdfffcad03c5827e29b5084005adfa953b1a6e041aa3a45b6d",
+      "git_blob": "13cfd68fd32bd016893d4a8e9ccff8ac960cbb6d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxCapsuleShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxClothUserNotify.h",
+      "size": 1130,
+      "sha256": "981e6bf9ea641623945ca007d80976d7e42acf412e88b30e5a0d20106da79271",
+      "git_blob": "4d8b3cb7df1c5333d4fed8a9ef51c532b10cdca8",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxClothUserNotify.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxCompartment.h",
+      "size": 6201,
+      "sha256": "3f410c61769a499a58605d45c2fd502ddebe976e1bf160e25a6aa018409328b2",
+      "git_blob": "94ec40525ed972a087f8a25379c580c02d871541",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxCompartment.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxCompartmentDesc.h",
+      "size": 3807,
+      "sha256": "b19886915a8ad87e444a85cf9f5bfcce6210caccf2f5cb9cfd94683a4849ab50",
+      "git_blob": "546dcce07efb679be55ad7db03cd0a435bfdfa21",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxCompartmentDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxContactStreamIterator.h",
+      "size": 14228,
+      "sha256": "c9f7241d9fff12033b2781c15d670a2633e25e94c9a1c1d520083ec2f43b913a",
+      "git_blob": "e9aa3025649e235644694a802167cf330847377d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxContactStreamIterator.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxConvexForceFieldShape.h",
+      "size": 1293,
+      "sha256": "ecdcb2f8ab49f4a0ceafbb6af6e20d890c96316bb8e1bdf78d45c4205ccab228",
+      "git_blob": "d153eebd63d44f95bcafef1ab2af7da6c84a16ce",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxConvexForceFieldShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxConvexForceFieldShapeDesc.h",
+      "size": 2131,
+      "sha256": "4ddedfefca5b0372a0f8399c5bfdb62d3a223da675061f509aeef9e82502ae93",
+      "git_blob": "721ceaae259dcc76fb671565cfe2427477bf207f",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxConvexForceFieldShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxConvexMesh.h",
+      "size": 6039,
+      "sha256": "612093b8ad18fb732345ef9b3dcd3aba1f57639de103dd1313f9c9818a35b640",
+      "git_blob": "e1a010ab773cca4469add0dd65447f5b0e63c6c7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxConvexMesh.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxConvexMeshDesc.h",
+      "size": 6039,
+      "sha256": "5f77441cb2087497a836f344832c87d6c5345919df2cb493bc6fd20bfbe15a5f",
+      "git_blob": "0cec83aa69be020b30a664e7b4d90bc36a074587",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxConvexMeshDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxConvexShape.h",
+      "size": 2094,
+      "sha256": "d1372a5844e8cb49fc3681f7d87e9e91422a8e53b6b3c5d4efd8e30b214bb45b",
+      "git_blob": "7e3b4e15ea1f76d494269977c17a0935177be247",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxConvexShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxConvexShapeDesc.h",
+      "size": 2460,
+      "sha256": "e9a7e95c5ab934ddc01e4e4b532fd4b2b8551278d818e8501050573d67eeab2a",
+      "git_blob": "db55b56d59e0245cb0924f3b8912f776091c043d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxConvexShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxCylindricalJoint.h",
+      "size": 2316,
+      "sha256": "b34ec4fdc68c3da7fde6fae87e5b529949be2aa2e3071be3c1752d1a9398c436",
+      "git_blob": "abb2d6fb71c349cde4594ed273c5a1609fdaf1aa",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxCylindricalJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxCylindricalJointDesc.h",
+      "size": 1761,
+      "sha256": "fbb46484a997b1ab1ecc6e5cd86b1c419c56cf18800d8fe44ad0a7d25c554b3d",
+      "git_blob": "a32d8c176ad23e93e8de3ea60ca4efb469e9b79f",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxCylindricalJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxD6Joint.h",
+      "size": 6026,
+      "sha256": "7a746d535680557226674cf00b679add5f8c9fca68c173b5093446e18b613714",
+      "git_blob": "ddb01cee80f249bb917fede44393a6e23cebd280",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxD6Joint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxD6JointDesc.h",
+      "size": 10933,
+      "sha256": "45ee294d0eda4aca8b9f6b084fc11d83f7ec48b5bbe23db5768b9514cf9e9f79",
+      "git_blob": "6d4f6eb4b48db93f2495c0ef0c547cad50fbc3bc",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxD6JointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxDistanceJoint.h",
+      "size": 2231,
+      "sha256": "4723be9094f2843570c0227493375a59d6c8041ddeaea506031d56d391b6beaa",
+      "git_blob": "ae1d6f62549f999123e428f035fcb4a61ee726db",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxDistanceJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxDistanceJointDesc.h",
+      "size": 3078,
+      "sha256": "37dd90650c5d5fe2857e25895e15bede8519547f40320cd8848362c88f272e8c",
+      "git_blob": "9c7b01375b6b8173f61dad1397ca27dbf9efb8e7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxDistanceJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxEffector.h",
+      "size": 4589,
+      "sha256": "23c72a0eb325f66b175473f66b5aaafaec0336229fe531b6024309fd0823e1bd",
+      "git_blob": "14e9628ac047a56ce9b58e9230fdbb955fc9863a",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxEffector.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxEffectorDesc.h",
+      "size": 2744,
+      "sha256": "ba128e1f0745f718973dea7d1a1a82014c8b04524f17ebf3a4cb85ae92dbc542",
+      "git_blob": "d7e2177d172fc080fab502e9f84f70c56efb8ef4",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxEffectorDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxExportedUtils.h",
+      "size": 18031,
+      "sha256": "e3d65a429128dbbdfdd24cd2a5e64ac721889cc7e17c04093df0dfc79f22bc8d",
+      "git_blob": "4bfaf178c5de8e4788b13f8a71b9f28d3b4d2fc6",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxExportedUtils.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxExpression.h",
+      "size": 3296,
+      "sha256": "e2aa699f7fa52e85eb51426186f72e4ad140b17a261bf1508a82a39f6f273f56",
+      "git_blob": "ba450437fdf99e1d2d20f1566bcd163a02f23505",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxExpression.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxFixedJoint.h",
+      "size": 2130,
+      "sha256": "f627d27216afc259aa0dccb7571286620bd229dd2253baaa04f409fd250ce150",
+      "git_blob": "878966f194536fcbdb6b4006f38bccd2c29b8401",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxFixedJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxFixedJointDesc.h",
+      "size": 1670,
+      "sha256": "862bd81025a11b2ecccd0c6f575a717e08ecb678268e67f2fd4b55f4406af529",
+      "git_blob": "e46da6c18ac2c04ea57227b437f43e7356859945",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxFixedJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxFluidUserNotify.h",
+      "size": 2695,
+      "sha256": "74d0a4366a52f3fe7def72f12f88b50dc0e151957229c60947bb278d2c21825b",
+      "git_blob": "1d1bd41c3dffc1e51c89eafe5a4021aa8cab7105",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxFluidUserNotify.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceField.h",
+      "size": 12955,
+      "sha256": "61e12b5ea74543b3c4c2fe392aa8f28ad0fa326d14ff84a33efa5652094014aa",
+      "git_blob": "b1840a247876c614e8d14ee830515126137f0bf7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceField.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceFieldDesc.h",
+      "size": 8086,
+      "sha256": "0b88ffbfa065337c4ac7279c7e7ceb8c07c7927de6062e5f77b34c7dbd068bbe",
+      "git_blob": "21775ea1945d5b4f0a353cd5cecf8f11a5073f6a",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceFieldDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceFieldKernel.h",
+      "size": 1738,
+      "sha256": "5f71d6973a090cd5c36fb26a07c4d66ddbd8992c99b0f0b77b243e3cc75528ec",
+      "git_blob": "5fa95fc8d783e644a2dbba773dbc37fca5ed65b7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceFieldKernel.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceFieldKernelDefs.h",
+      "size": 5901,
+      "sha256": "be0d6cc16b5bf1b54e69573f4af08ce314faa470ad558bb851b28a21e0a792ba",
+      "git_blob": "fb66a7214c9892b2fdda46ef1bd2ff87cb25a1df",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceFieldKernelDefs.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceFieldLinearKernel.h",
+      "size": 6084,
+      "sha256": "4e1ac6250c1e2df1f8e5361541b09752f440cdf088948a071230e72050a00449",
+      "git_blob": "252c5500994540e54c92b1cfc35e0b02acc3bf67",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceFieldLinearKernel.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceFieldLinearKernelDesc.h",
+      "size": 4377,
+      "sha256": "544d9d357ed513977d25691a8c745d6a8972b246f8e4ae2ab91cbc5a2ec14238",
+      "git_blob": "848ecc05c8f2be8ea402969789367446abd2bb0b",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceFieldLinearKernelDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceFieldShape.h",
+      "size": 8851,
+      "sha256": "d305bab8f91822bde258fe2b42829834757ad963ad16269915dc3e2bc6cc9a56",
+      "git_blob": "bbbedb7dce5e7f8e522b04dcc44f66ce654853d7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceFieldShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceFieldShapeDesc.h",
+      "size": 2862,
+      "sha256": "d54f6f76bd763e9aefea4e631160fe6f4824cea487c982c46f9ace0573f86648",
+      "git_blob": "e3c53cc0b9325a1e910d090f201e80f352132207",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceFieldShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceFieldShapeGroup.h",
+      "size": 5051,
+      "sha256": "801bca08e6771ae578cc0cf4c1cde786ba6d8d6c18978fdbb09230451024b8c7",
+      "git_blob": "7833a3e0b47b9851d76db8745aaa326e185aac17",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceFieldShapeGroup.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxForceFieldShapeGroupDesc.h",
+      "size": 3165,
+      "sha256": "fb59fc4dab955ceec8a7fe7140279b19a8d4181f7719c9af92027861d1016235",
+      "git_blob": "e2b3e7bfe908916091fd257efc3824cbe43562ed",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxForceFieldShapeGroupDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxHeightField.h",
+      "size": 7369,
+      "sha256": "92798918b5104086ca413d48b7ded11ee2a824a3d94b2de0bbddfd40242320ed",
+      "git_blob": "f9aa488401f7873fddc09388d0015f66d751b09f",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxHeightField.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxHeightFieldDesc.h",
+      "size": 6851,
+      "sha256": "8953a201c57a2c3cf44d349e3d511a54df0b2bd1a117c1b2653ada046202342c",
+      "git_blob": "4b179bb57db9db96598e9994e3c2cbe5b7b1929a",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxHeightFieldDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxHeightFieldSample.h",
+      "size": 2604,
+      "sha256": "ab5fa81ecfe76bc3657e09b46e3ea2c34c1e0c35a4fb2ce785ccaa29e60561ad",
+      "git_blob": "79d2207f500f14b435bfb49e0f6ce49dff025feb",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxHeightFieldSample.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxHeightFieldShape.h",
+      "size": 10178,
+      "sha256": "4d18252a519b7b6a832835a2a451ba899263b9dff2dd5887c38b1f608b621a0a",
+      "git_blob": "6328c2afa377df49ff166b69206af873500ddba5",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxHeightFieldShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxHeightFieldShapeDesc.h",
+      "size": 4566,
+      "sha256": "096c8fd763980ecbd5382a19583b48b90528f0bb3d46d31f43919d611b9a2739",
+      "git_blob": "44e19e85101165c46a50fa92099e16f41fc5efc8",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxHeightFieldShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxHwParser.h",
+      "size": 3137,
+      "sha256": "b27a1ff9f58fd34d7d615cb5973ac93ea1edf7f1c31ea271e861e46953618a5e",
+      "git_blob": "55009dd57c1a0bde381b79eedf02edbd754d689d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxHwParser.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxHwTarget.h",
+      "size": 9116,
+      "sha256": "76801a1640b4dfdc200237a21ce41782a027f76429731b6e5379efe80d9fc38c",
+      "git_blob": "a77f2f69c5d80725e4949ed5cbab29169aa856de",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxHwTarget.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxInertiaTensor.h",
+      "size": 9265,
+      "sha256": "c6775534fdd6fcaf8f43157b2cb076bbb5e4c3770d070271cbf2c33e177c98df",
+      "git_blob": "5aea71488c45da314a837fb8d3b74f3f7975f051",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxInertiaTensor.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxInterface.h",
+      "size": 824,
+      "sha256": "3f001340daeaa272ca2f785991ade5d640a23aea196b235ef2fde9971e622f74",
+      "git_blob": "1ffb2f74533f2d23926b8b4432f090176242c8b8",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxInterface.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxInterfaceStats.h",
+      "size": 959,
+      "sha256": "6cfc7010623af0e62194f0ca71c758775b32e4161deaaa4cbef74e5a5399d24b",
+      "git_blob": "188e4f2d6ece5bba3f1ca63c2838642499853008",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxInterfaceStats.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxIntersectionBoxBox.h",
+      "size": 5395,
+      "sha256": "0e4b7a1761ff312931ae5f266d7387b4fecb25b64310821ecc5fe0ec2e4fdb64",
+      "git_blob": "9e6dcac4517e79cb00ff5245a4267dadd44568c9",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxIntersectionBoxBox.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxIntersectionPointTriangle.h",
+      "size": 3033,
+      "sha256": "b4029f43f584fd8b7d7a839557c889e2fdae9ed2d62a400440fca0e09fde135c",
+      "git_blob": "9be6f162e3c37c1cf3848bb2202cde2054be6cb9",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxIntersectionPointTriangle.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxIntersectionRayPlane.h",
+      "size": 2426,
+      "sha256": "5ecf392cc4f504c8c7764afcbcad0bb12c94707bed8c6e8a24700247e9a19305",
+      "git_blob": "c48bf210d3da3139a17edf15db0a6a391fe7f26d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxIntersectionRayPlane.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxIntersectionRaySphere.h",
+      "size": 1798,
+      "sha256": "e2be307a3b70d7c70ca35ab22cc66b0b9a0970877ce710362c9c2d7d0158eaaa",
+      "git_blob": "1cfecbf40920c15cdbc2aa1d1cdba5dc2be65fdf",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxIntersectionRaySphere.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxIntersectionRayTriangle.h",
+      "size": 2027,
+      "sha256": "da7a43d7c8089ac4f8f6683115f7409cef2b6f50420d1b90d9de5ffb0706a81a",
+      "git_blob": "f6194ed5aa27d120ac9eec1efc814fafffa1b117",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxIntersectionRayTriangle.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxIntersectionSegmentBox.h",
+      "size": 6039,
+      "sha256": "468c5fd250ed8578ae7656f9e2b1b42be4221a32cdcd9e2175c39534bc1cf6eb",
+      "git_blob": "0c62500f9051b69970af0103af1967140e1be496",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxIntersectionSegmentBox.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxIntersectionSegmentCapsule.h",
+      "size": 2611,
+      "sha256": "275d8a4cc270b8954ef1ac462597d375c71f9282797db1d449e1c178e3d1a69a",
+      "git_blob": "e9a66978ac3cbaa453c10128179ab39998a757dc",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxIntersectionSegmentCapsule.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxIntersectionSweptSpheres.h",
+      "size": 1750,
+      "sha256": "b538d402b53e46813e43c20a2f5a9ee2a0af6b3fe8448cb2cd9ebf1798aa6840",
+      "git_blob": "913b56d7b4dc0969a0ff8957a836d3b8a6b041d7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxIntersectionSweptSpheres.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxJoint.h",
+      "size": 19847,
+      "sha256": "f8751e59a7e65fd952b1a1947dfccc00df10c0ddc60d5f60858c6f560f89cf62",
+      "git_blob": "edb2f819a6cc7b0c302d51b9ad37158d17b073ff",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxJointDesc.h",
+      "size": 9039,
+      "sha256": "66e0bf68bdcd07d4613aeca3c949762abd516a9d799623c12cc2b147358bcc5a",
+      "git_blob": "3f0ea7b94214cb59a77e2a6aa15dd9355b49d242",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxJointLimitDesc.h",
+      "size": 2334,
+      "sha256": "9ef0e69a990e4e1a26b72295760557b1a8b2a9778f968fbfe2d88d9ade013487",
+      "git_blob": "acfca12a7195b446d24fa48287f9e8c4012cfea2",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxJointLimitDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxJointLimitPairDesc.h",
+      "size": 2101,
+      "sha256": "56dca5ced3c03dbce1601b63fc4f01673904d8bf9daf0fb9bcec1984a836e15f",
+      "git_blob": "eb47ef2f9b0044166c5868803acba235edae0a8d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxJointLimitPairDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxJointLimitSoftDesc.h",
+      "size": 3205,
+      "sha256": "746e2eb0d2eb10b91d93557a7714f97a7d683ebce29e60580cfa63bb5e2642a2",
+      "git_blob": "7f7f4c510e76dd1c6003169a2f42400cf04cc8e0",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxJointLimitSoftDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxJointLimitSoftPairDesc.h",
+      "size": 2080,
+      "sha256": "1342e00bd3fcab5705038521b0f9e14e1c386c9ba4161484bd80075a4d69cd04",
+      "git_blob": "a2ed90b73a381505de39413bf7d08fa9070d4d1d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxJointLimitSoftPairDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxMaterial.h",
+      "size": 11890,
+      "sha256": "3a744fa31afdbd8f468a45e3ef3a0f035f691c9b6783f148b1c6ca8d6ad3305f",
+      "git_blob": "0d32bb91f7651d5c1968190d8b9f2d69fca02594",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxMaterial.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxMaterialDesc.h",
+      "size": 10101,
+      "sha256": "b35c2f4dfd5116687b442bc1ee3547423147629bd22d6b9d08e6c3c89648edbd",
+      "git_blob": "003e5dcc3de61311acfbe29de454e9dd9e626ce3",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxMaterialDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxMeshData.h",
+      "size": 7012,
+      "sha256": "bd1e39f0c23e2f147ad53b6b93341ed6c543b13bb43504119437ed8cc3315dd2",
+      "git_blob": "3cd24966b61314a6d5f770d6022fb94b4a51202b",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxMeshData.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxMotorDesc.h",
+      "size": 4598,
+      "sha256": "bd7cecc56553db7eb5986a9f247529928398b264c03ab95b48b2ffc2576de08e",
+      "git_blob": "6d5ab3fcf678ae689294c2037e3e7d6c804ca689",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxMotorDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPMap.h",
+      "size": 2983,
+      "sha256": "ef6cc4b12c16c1e536296d141d1c8d3ffe446b5b689a9a4a3cf1efdf1cf0f1be",
+      "git_blob": "3c25a343b1aebe2d372f5bea3da6f74fd1344cdd",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPMap.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPhysics.h",
+      "size": 4657,
+      "sha256": "7574ada1dd2fec9230edc0affb8958e6a8c2b7cdd8736101149ae08882ae98d6",
+      "git_blob": "9b06c6e009d2befd0fcfd530bdb6d3b7bba1bc20",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPhysics.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPhysicsSDK.h",
+      "size": 20496,
+      "sha256": "bbeab34ada62efaf5fd38faee94653c8aab0f8ab2b9a40c5e347c81ef04f2f65",
+      "git_blob": "45dd1100075acc428448526b1f6eb983434e2472",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPhysicsSDK.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPlaneShape.h",
+      "size": 4339,
+      "sha256": "f49e916bfbdcab6d6f62bf8d9e2419d1c80ebad5dfbe988cf6737982c76a4f78",
+      "git_blob": "b16d09ff93c88f32a847bdf5fd5c067b0e5faaa4",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPlaneShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPlaneShapeDesc.h",
+      "size": 2523,
+      "sha256": "9ef41abee837511641108306a8a1d38d0b8b1565b85242bbf03617ab9bbfc5b8",
+      "git_blob": "045f71af2479d5065ff4bc64d6fe355caad6aa59",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPlaneShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPointInPlaneJoint.h",
+      "size": 2450,
+      "sha256": "d61691638158c7a8ecb81cd01fdaf08211e7043bb2adb90bd4946106a792169f",
+      "git_blob": "9df200f9a27387b85285d9c786545cd3b9f9bbaa",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPointInPlaneJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPointInPlaneJointDesc.h",
+      "size": 1787,
+      "sha256": "5dd031764c16b12080c5ec72c36a474018ad061f1a27bc79c6f9bdd25dcf1a17",
+      "git_blob": "9c35dadb183878622714553f6d928a75a0cc23ef",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPointInPlaneJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPointOnLineJoint.h",
+      "size": 2427,
+      "sha256": "3817d08e87a5bfdd6d74c6cd7184a320315aa66880c1a121433a49e301bc5ac3",
+      "git_blob": "163edf885ef19a6ccadbc8a2cb2060ec55323815",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPointOnLineJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPointOnLineJointDesc.h",
+      "size": 1756,
+      "sha256": "98b7bc0f48bd99e40d8a42fdc0331ac7834c64d8c866752a80f63b0fd9a59da5",
+      "git_blob": "daad1cd89d7d1e2a24ac32cb4f6c498377a1eb8d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPointOnLineJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPrismaticJoint.h",
+      "size": 2281,
+      "sha256": "41d2341ab60e05643d7426c49d379eafd7b5fa8c41883d007ad1fb922035fa5c",
+      "git_blob": "51437316a5949cd2eda1e6be2333c0c7b4e6ac37",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPrismaticJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPrismaticJointDesc.h",
+      "size": 1729,
+      "sha256": "6016c5587df0c50bb4286eebe1117da8d342cc7ab10eb1960b62975b62ce4f1a",
+      "git_blob": "3ed0d8e02ba2bbca1c72eecaf1d98c29dfc8d410",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPrismaticJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPulleyJoint.h",
+      "size": 4664,
+      "sha256": "c4cceaa57896800cf36964d0b4cb59842cea9e0b6d89d0132d4862c5d9c868fc",
+      "git_blob": "0dfc69cf93f746c1d363928dba50e461bda73eba",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPulleyJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxPulleyJointDesc.h",
+      "size": 2960,
+      "sha256": "bb5dd78917e5add65aac8e194c78dda8413110f9b15bb35beeb64240cd180303",
+      "git_blob": "da7cb97b9318d6d817d184ea02e373a2d7ffe8ec",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxPulleyJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxRevoluteJoint.h",
+      "size": 10134,
+      "sha256": "b2c168b32ada589dcd6b8f1937ab5afc1c19e9200c4b9ccb33cd5b9de88f88e9",
+      "git_blob": "eb5942fcaea5287471143cd3f3d3611912c35796",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxRevoluteJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxRevoluteJointDesc.h",
+      "size": 4256,
+      "sha256": "090d34f474ae23aa432c4c9784d6648af336034a1ffb1bccd50658a4c80f609e",
+      "git_blob": "f71f1c3f078078b12a6ebc4af8605e90b68c38ca",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxRevoluteJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxScene.h",
+      "size": 113706,
+      "sha256": "4721517051c9cd330db4bfe0e21f42a28dece6fee2b5e87a9e1c8031524d97b4",
+      "git_blob": "ae7051536577dbe0f92afe0745e2cbf300efbb0e",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxScene.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSceneDesc.h",
+      "size": 29391,
+      "sha256": "ff308b7fbb75f124bfa030f88e57e8990162b5709e11ac015a676c5ed7f76e71",
+      "git_blob": "76e71ec9337ad0aa9b83da3e62e9f6cb4043ef2f",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSceneDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSceneEvent.h",
+      "size": 95071,
+      "sha256": "74e8599c9c387c29cd98e74e0ea45fd5f87bf8365dac3c04be3f2a6880b684e5",
+      "git_blob": "a7ea50a7235d55926cb9890acb71f50485a526ec",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSceneEvent.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSceneEventStream.h",
+      "size": 1032,
+      "sha256": "1f499d1002dc3b093d143637ce92642bba64e0afe4683280f3b5a9898027cc0d",
+      "git_blob": "e2d21849aeb1ae51918c07979e9627a38cd5c80e",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSceneEventStream.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSceneQuery.h",
+      "size": 13414,
+      "sha256": "f081f43e3db72040c28378cdef4bf9365216d694acc4d18014c259c41397653b",
+      "git_blob": "71175e50c00dd09f7cca13eefbf4ad856d5b29a0",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSceneQuery.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSceneStats.h",
+      "size": 4001,
+      "sha256": "b91c0d68471ee0c3ad22b1e7cd9e9f3e343db2d13c6ed91806a397e042ed4ab9",
+      "git_blob": "1d75ff32b2ee6dc046db62b647fd39c1dc741eee",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSceneStats.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSceneStats2.h",
+      "size": 1597,
+      "sha256": "bc8d3a9465f369aef87782326627726503a7027f30b72ebbf0dac657085c32c3",
+      "git_blob": "651f1cecdcd28f8061583c914fd0d472418da557",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSceneStats2.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxScheduler.h",
+      "size": 3563,
+      "sha256": "8ff2dba0e2801f2a9d17d0f947859694c14e3972b542ad8752371e27ac3743e1",
+      "git_blob": "1cab8018d97cb71ad3477af51437ba1a10db5f3d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxScheduler.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxShape.h",
+      "size": 26099,
+      "sha256": "303c5a6156635b6b31e047f9d437fa89cb055932164a7904440b3579d4668ec3",
+      "git_blob": "d8b2f5908a53b718f08d920d2e12a38976259cc3",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxShapeDesc.h",
+      "size": 8526,
+      "sha256": "e7ce9b86fc3d26fd468b1bcd7b45109db4f00c2ade21083d2a03897fe55c52be",
+      "git_blob": "d53328601267abe5e53bbe7c002a8ddf8b23c921",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSmoothNormals.h",
+      "size": 1867,
+      "sha256": "8d119b59a2cced4d061d0e5f2c743dd6aff90f25d5f386eeb9862fdb88f8300d",
+      "git_blob": "0dc8eed2b675b806e855efc9b9ebc0dedf6899ed",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSmoothNormals.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSoftBodyUserNotify.h",
+      "size": 1155,
+      "sha256": "9a99b6261aea8729329e85bfdf9190c6d196f6b30d1f22b85ad0bb7d3f9cfe2b",
+      "git_blob": "10142a57bfdb7f389565f6753909f4d94af2d579",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSoftBodyUserNotify.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSphereForceFieldShape.h",
+      "size": 1854,
+      "sha256": "db661aeaf86c53f22977abe6352f4351c6a67396a9040e09c6ecc0032a95d133",
+      "git_blob": "360ff06d77f5573ab11c016854e29678f255b871",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSphereForceFieldShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSphereForceFieldShapeDesc.h",
+      "size": 1969,
+      "sha256": "a06c7c057703ff47a568e97ea6ee4cc52c9adc025bc25f8c4cf44ec3e68528e7",
+      "git_blob": "c45d7d80104d9d475d5885bd937e9f85a47f8941",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSphereForceFieldShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSphereShape.h",
+      "size": 2791,
+      "sha256": "82c02666067241ccf4ddfe49cf68726e18c382872fabf478151eaf3b0fd89c9a",
+      "git_blob": "fef6517a97a849e3c95575476c0456cd7959faa0",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSphereShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSphereShapeDesc.h",
+      "size": 1907,
+      "sha256": "2521854fe9140084398b9142f2f441b22b4758302a2bf758232b263d4fc3cee4",
+      "git_blob": "e4e94a9c9f49807feadcc16ddbbeafcab8731e52",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSphereShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSphericalJoint.h",
+      "size": 3730,
+      "sha256": "f861e59ef318c4dd04601e7cb3b12577c5eb3d240d023bd03b92c2e0e8202a88",
+      "git_blob": "75748142f774f01bbcc668eabed87770eaddc883",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSphericalJoint.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSphericalJointDesc.h",
+      "size": 5440,
+      "sha256": "cd16a5ae9adf3a72dc4053eb2b495387009a4dc07228bc5e44c3aeb48a596149",
+      "git_blob": "1e7f6c5554f3bcb3576f4a00f00a0ed160cea4cd",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSphericalJointDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSpringAndDamperEffector.h",
+      "size": 8177,
+      "sha256": "2690b738243f19fabe202e2198ccb97412920a02eb6be36580224cb5b5cd3431",
+      "git_blob": "46d324e0c0699b034c14763b4c208f5927cb3a56",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSpringAndDamperEffector.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSpringAndDamperEffectorDesc.h",
+      "size": 6828,
+      "sha256": "1144cd1ee287e1e4eae76d6312146400ee250aa6bd007ec4b5a80ddb2d76fecd",
+      "git_blob": "2125d518881e567568b159d78177b105ecf50ef7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSpringAndDamperEffectorDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSpringDesc.h",
+      "size": 3116,
+      "sha256": "029cfd065f3b04c6bc34ddd102cf934aa85ba723c46803cd5a9be189b2a981fd",
+      "git_blob": "ff43ccdb180078c32295ff571ff965c3c3dd22dd",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSpringDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxSwTarget.h",
+      "size": 7016,
+      "sha256": "cbd00c41828773ffec911c864aecd911832891c0071c0309e5e0b1bb6dc455db",
+      "git_blob": "e32efbf449d979fdec0c7d249a3cf2e2a84ad5b8",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxSwTarget.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxTargets.h",
+      "size": 422,
+      "sha256": "8f701e61f3b6c4a2c4ec4cb92a743c7ce075c7a0f6f8640c80de3871c55632f1",
+      "git_blob": "8b461983b3d1dcca5d6e4aa4c24f930575e8c746",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxTargets.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxTriangle.h",
+      "size": 2644,
+      "sha256": "fd1ecf97fe6a30d38616ada307c7b740a58d65f9fb354491d45efe667132ecef",
+      "git_blob": "7e0a2f06fe99315af439cc8039aabc8b463c68a9",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxTriangle.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxTriangleMesh.h",
+      "size": 9852,
+      "sha256": "5a916e82886f1994fa483c3b80042520c4f76bb3cc66b53b1b232e815c7d9341",
+      "git_blob": "40cb7e2022bf188deabd9a52627c40c42ae76894",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxTriangleMesh.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxTriangleMeshDesc.h",
+      "size": 7070,
+      "sha256": "452fdf50bd84db4cc9a6efd9ed339038a35c235b2678e29087d298d0c2b53bbb",
+      "git_blob": "43cfd9b14e55f4d636e683ab99b0e503045fff5d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxTriangleMeshDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxTriangleMeshShape.h",
+      "size": 8572,
+      "sha256": "400b92a5c2a5b1385295ff05a9c05814ba60bfbd83fedfd84d92bf4841be7456",
+      "git_blob": "d1d2fbb45936875f299e18dccadfa46d069b392b",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxTriangleMeshShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxTriangleMeshShapeDesc.h",
+      "size": 2629,
+      "sha256": "3bbcf68e98b75073de9faef33066071987cb48b48560bddf7a2c0614169213cd",
+      "git_blob": "50e5cdb2a0ccbb1fa1943dd526e3d4c807e67439",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxTriangleMeshShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxUserContactReport.h",
+      "size": 19356,
+      "sha256": "ad16d1fc101967adf7a61583825e58a5b7175569cf275c21a795ec37e43bf99f",
+      "git_blob": "ecdb388d88a9f02bf7ead03bd6b0ca8798a8c3f7",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxUserContactReport.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxUserEntityReport.h",
+      "size": 4896,
+      "sha256": "a36290c7d6b5d099128cc6b888a53366c504c0f11c1b7544e8fb9e23ed71e06c",
+      "git_blob": "6e9cb76fcc85163fddcf1fe59e6b105a48714cf3",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxUserEntityReport.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxUserNotify.h",
+      "size": 3314,
+      "sha256": "5f814b28da12b59af6f728499f144d9475ddb2e5a37ef8d5a9c529165781fab9",
+      "git_blob": "bb8ff862164a839b4f5fb7bc250db8d101ba5214",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxUserNotify.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxUserRaycastReport.h",
+      "size": 6681,
+      "sha256": "0f5d41923b486943d1d6e1dc49ab82b46c266c20384980e865d249105f1a0917",
+      "git_blob": "93d30da65141506d0bc55a2280649fd30f724561",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxUserRaycastReport.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxUtilLib.h",
+      "size": 42880,
+      "sha256": "dae24a2718323e3e344953f0f984c4847881499eb40d106072bff2796059087b",
+      "git_blob": "d972641f4645693945ad1fff14b1bacd82ea9e65",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxUtilLib.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxWheelShape.h",
+      "size": 14468,
+      "sha256": "ebb19fa3d791a1923b0f63ca61a6ad452c6cf33f79f74c6ac4f452b81836280b",
+      "git_blob": "4028ae0d5bfeff11e5bd91a6b0529458f5e73ae5",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxWheelShape.h"
+    },
+    {
+      "path": "SDKs/Physics/include/NxWheelShapeDesc.h",
+      "size": 13915,
+      "sha256": "d66c074f0da10b3a3915743a35a53ffcf21b7c44636822315b2d736ad48162ac",
+      "git_blob": "3b504cef8c89b43f6b5837eaf5929598bf788021",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/NxWheelShapeDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/Nxp.h",
+      "size": 55019,
+      "sha256": "0a979663a8f100bd81c8b37f8c97e90c13a3c6fa4c16b6084537249c22b717f9",
+      "git_blob": "e85c21c373132f8f500f5f318cf0309020f36cff",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/Nxp.h"
+    },
+    {
+      "path": "SDKs/Physics/include/cloth/NxCloth.h",
+      "size": 51001,
+      "sha256": "d2e4905a13878b4f69593a548ca9c51dd84c785be888078e5afa143440528403",
+      "git_blob": "5f9cb18f2d38134ff5318aa079f338099de7ece9",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/cloth/NxCloth.h"
+    },
+    {
+      "path": "SDKs/Physics/include/cloth/NxClothDesc.h",
+      "size": 33001,
+      "sha256": "b746e9f9c4c1ec17d5608f17cf31d3c99345f43b500c4c9a9ef7091111759323",
+      "git_blob": "84fcab45cc78c00bf921d35fd3970cbcc9678a72",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/cloth/NxClothDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/cloth/NxClothMesh.h",
+      "size": 1783,
+      "sha256": "18b6cbd50971e825302bb0b34f7466a707950faec120c32765f4c67c3edc31c3",
+      "git_blob": "e7eea8d36b778336d96d0c9a4086ebd9b12f8de1",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/cloth/NxClothMesh.h"
+    },
+    {
+      "path": "SDKs/Physics/include/cloth/NxClothMeshDesc.h",
+      "size": 5157,
+      "sha256": "8599c5868979e82f722f407705a454a6d0106173038b7b1d6d76dfaedd95b43a",
+      "git_blob": "cdb4127fd396d2e79379e0ef915e32cdcd44c392",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/cloth/NxClothMeshDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/fluids/NxFluid.h",
+      "size": 31983,
+      "sha256": "546f889a3d255dc592cbef333f4ffff6c1bc71146cc19582c9e498a9cfd95564",
+      "git_blob": "de11f4b0cecec02a38675511c1bd175a7aea2c62",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/fluids/NxFluid.h"
+    },
+    {
+      "path": "SDKs/Physics/include/fluids/NxFluidDesc.h",
+      "size": 22571,
+      "sha256": "2c31e032683f02aa990b77215f5dcee90b2eadf8508821ddb7ba707d8739b2a8",
+      "git_blob": "e43e2b3f72a63c6cc06f865481bd8d5a7efda561",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/fluids/NxFluidDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/fluids/NxFluidEmitter.h",
+      "size": 16605,
+      "sha256": "82eb5ebd5cc915cc69487b43b4dc94e53635a41a5d0963240c7692b321616c06",
+      "git_blob": "2f43457d5b4d9bfbee7d2a7c5f78c182c785eb05",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/fluids/NxFluidEmitter.h"
+    },
+    {
+      "path": "SDKs/Physics/include/fluids/NxFluidEmitterDesc.h",
+      "size": 6849,
+      "sha256": "6ee8a86467a3e920c41ec82c27c3dd191e1cacd7218cec93dc665e2b4379b053",
+      "git_blob": "9088f304842c23a71c0d2220c1da985f18908ad4",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/fluids/NxFluidEmitterDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/fluids/NxFluidPacketData.h",
+      "size": 2496,
+      "sha256": "ad363292014f85d2931a7176af6308a65c0b7afe0a4f6a8573d3a963fb968eab",
+      "git_blob": "433018ae3a4017591de169e7eac66054ae15c781",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/fluids/NxFluidPacketData.h"
+    },
+    {
+      "path": "SDKs/Physics/include/fluids/NxParticleData.h",
+      "size": 8179,
+      "sha256": "eda3c93d11b2077d6e35763ef2031b2ead646865c5f6c42b5d1e4937e5e1ba54",
+      "git_blob": "0dc8160b90691b5c73c5186ae80749094dce507c",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/fluids/NxParticleData.h"
+    },
+    {
+      "path": "SDKs/Physics/include/fluids/NxParticleIdData.h",
+      "size": 2845,
+      "sha256": "692e506c4406f1fcee0609e74860f4eb181cc475aaebb0294ee92dc2ead9a804",
+      "git_blob": "1a70aa8c139755e03858d4e07d3ee2ba9ae1067d",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/fluids/NxParticleIdData.h"
+    },
+    {
+      "path": "SDKs/Physics/include/fluids/NxParticleUpdateData.h",
+      "size": 4886,
+      "sha256": "6fa0873079a01db8a3b033925d947cb5d8710bf9058242da512321efa4dea688",
+      "git_blob": "7c78579995c959ca1819f97b803bb98e476b86c0",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/fluids/NxParticleUpdateData.h"
+    },
+    {
+      "path": "SDKs/Physics/include/softbody/NxSoftBody.h",
+      "size": 43060,
+      "sha256": "73c3f5349fca279b4f2d836241e92f8a487bafcf6991773dcc7f2fce0757703e",
+      "git_blob": "0bb99ac1c0a71c70438123a8532af17cb2bf8c75",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/softbody/NxSoftBody.h"
+    },
+    {
+      "path": "SDKs/Physics/include/softbody/NxSoftBodyDesc.h",
+      "size": 30645,
+      "sha256": "5545a016668aa73ca2f736f31dcbe625f8aa5badc83e89daba357378036870c2",
+      "git_blob": "890f2dae0a83588eae7d8bf38dc81e454e568fb9",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/softbody/NxSoftBodyDesc.h"
+    },
+    {
+      "path": "SDKs/Physics/include/softbody/NxSoftBodyMesh.h",
+      "size": 1838,
+      "sha256": "a9302fe7c601ed16a9a4428c64cad5ecf6fbf34f863a6a39649ad2c0c6243443",
+      "git_blob": "65eeef85737ada4c16eb5c63be347bd08da7dde1",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/softbody/NxSoftBodyMesh.h"
+    },
+    {
+      "path": "SDKs/Physics/include/softbody/NxSoftBodyMeshDesc.h",
+      "size": 5274,
+      "sha256": "52f3ba8c0ae35e79443dee995998bcda534879f8067d4b26d5ea725f9a15b35f",
+      "git_blob": "7991743322f4551799a9769584f346c9044c72fc",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/Physics/Include/softbody/NxSoftBodyMeshDesc.h"
+    },
+    {
+      "path": "SDKs/PhysXLoader/include/PhysXLoader.h",
+      "size": 7958,
+      "sha256": "8c1862bf1fc69bd7e7b3e573db5973a6b89b7da22cda8655fa9e89bf12892737",
+      "git_blob": "29cc10a032b8916bd585e9656e507cf6803b0481",
+      "source_path": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb/SDKs/PhysXLoader/include/PhysXLoader.h"
+    }
+  ],
+  "source_release": "_Installer/PhysX-2.8.4.6-13158672-sdk-pdb"
+}

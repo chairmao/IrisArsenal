@@ -1,0 +1,34 @@
+{
+  "time": "2026-10-17T13:23:36.130223",
+  "actual_DLL_version": "0.3.7",
+  "actual_DLL_sha256": "2d2ef7d56e59e021a562efee1d939dde2ff72d1d788b4f175d0fda94dc5f9bc7",
+  "log": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\logs\\IrisArsenal-20261017-124835-470-32104.log",
+  "log_sha256": "aac77b1bdd3ce4f9fa498e90210bf876f70d646e0031e6b2220f8c2a668ffd44",
+  "actual_damage_evidence": [
+    "2026-10-17 12:56:03.851 [IrisArsenal 0.3.7] projectile_impact cast=30 move=3 event=11 contact=1 fraction=0.121984 point=-16302.2,184.792,29361 sphere_radius=2.5 blocker_type=1 blocker=1:1580932608 world_geometry=0 ignored_friendly_shapes=0",
+    "2026-10-17 12:56:03.852 [IrisArsenal 0.3.7] damage_result cast=30 event=11 move=3 applied=3 blocked=0 missed=0 rejected=0 medical_retry=0"
+  ],
+  "before_blue_visible_game_seconds": 0.10009533617142856,
+  "after": {
+    "revision": "037-v2",
+    "blue_visible_game_seconds": 0.5004766808571428,
+    "particles": 151,
+    "max_particle_envelope": 1.0,
+    "culling_radius": 1.0031477212905884,
+    "fire_source_scales": {
+      "Bulletspark": 4.080000173557231,
+      "GroundDust03": 2.750000000000005,
+      "pBloodBigSpray05": 2.0000000000000036,
+      "SuperIncendiaryfx": 3.0000000000000058,
+      "SuperSprayGlare": 2.249999731779103
+    },
+    "fire_glare_world_radius": 22.13620225513709,
+    "Cxx_or_HLSL_compiled": false,
+    "game_render_verified": false
+  },
+  "blue_midlife_alpha_before": 0.0,
+  "blue_midlife_alpha_after": 1.0,
+  "Cxx_changed": false,
+  "shader_compiled_by_agent": false,
+  "live_fix_render_test": false
+}

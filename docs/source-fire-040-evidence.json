@@ -1,0 +1,516 @@
+{
+  "version": "0.4.0",
+  "contract": "IRIS_EIGHT_040",
+  "asset_revision": "040-SourceFire",
+  "reference_video": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-SourceVideo-Iris-20261015-181609-285ede\\Soulworker_Iris_BV1u14y1U74k.mp4",
+  "reference_contact_sheets": [
+    "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-040-20261017-170430\\fullburst-source.jpg",
+    "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-040-20261017-170430\\vulcan-source.jpg"
+  ],
+  "local_ESP_chain": [
+    "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-040-20261017-170430\\esp-direct.json",
+    "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-040-20261017-170430\\esp-chain2.json",
+    "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-040-20261017-170430\\esp-chain3.json",
+    "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-Fire-040-20261017-170430\\addons.json"
+  ],
+  "dependency_overrides": "EldenSkyrim/KeyTrace/RimImpactOfMob/RimImpactOfPlayer未覆盖本链5个Form；所给Iris/Elden目录没有同名松散替代文件",
+  "nif_format_primary_source": "https://raw.githubusercontent.com/niftools/nifxml/develop/nif.xml",
+  "installed_game_version": "0.3.9",
+  "installed_game_contract": "IRIS_EIGHT_039",
+  "installed_game_files_checked": 120,
+  "installed_game_files_all_match_manifest": true,
+  "old_DLL_rejection": "DLL与当前资源合同不一致，请重新编译 Release|x64 / v100",
+  "compilation": "not run by policy",
+  "GPU_and_game_validation": "not run",
+  "update_script_tests": {
+    "passed": 11,
+    "game_directory_used": false
+  },
+  "game_file_hashes": {
+    "IrisArsenal.dll": {
+      "expected": "3581b2ce1f5b59601e53a30264ee5a696049b9f6b3a2c4e7b49ef178db1ad4a9",
+      "actual": "3581b2ce1f5b59601e53a30264ee5a696049b9f6b3a2c4e7b49ef178db1ad4a9"
+    },
+    "IrisArsenal.ini": {
+      "expected": "6452928bd1653420abcc0a681d74b1c7ae3a911c663fa8d2e75f09a5df994596",
+      "actual": "6452928bd1653420abcc0a681d74b1c7ae3a911c663fa8d2e75f09a5df994596"
+    },
+    "IrisArsenal.mod": {
+      "expected": "b761f1737e945552987b4a734ab1180b3a924daa1e2ecfa867dbaf8e8214a033",
+      "actual": "b761f1737e945552987b4a734ab1180b3a924daa1e2ecfa867dbaf8e8214a033"
+    },
+    "RE_Kenshi.json": {
+      "expected": "dd62b22ce0fe143727aba9e190204a36adb6ac6354df1af9f2f2714a9bba3c82",
+      "actual": "dd62b22ce0fe143727aba9e190204a36adb6ac6354df1af9f2f2714a9bba3c82"
+    },
+    "_IrisArsenal.info": {
+      "expected": "ead78257addb3ac42633891a875da4a9ad9c059ca827a55f04b2f906da5a2cd5",
+      "actual": "ead78257addb3ac42633891a875da4a9ad9c059ca827a55f04b2f906da5a2cd5"
+    },
+    "assets/blade_windows.csv": {
+      "expected": "85edf94fcf4bfdf6ad733ad5c1c05df3440340bc0fecd7740c953decd260dd69",
+      "actual": "85edf94fcf4bfdf6ad733ad5c1c05df3440340bc0fecd7740c953decd260dd69"
+    },
+    "assets/drill.csv": {
+      "expected": "947097cf9bab1996afd5e525005b776bd5abc792ed3ad67ff1bbb62976726c53",
+      "actual": "947097cf9bab1996afd5e525005b776bd5abc792ed3ad67ff1bbb62976726c53"
+    },
+    "assets/effect_cues.csv": {
+      "expected": "89f38684958ca1febfd35b791e474479112bd7f3a7e12e1ae9b2bf0c706cc0d3",
+      "actual": "89f38684958ca1febfd35b791e474479112bd7f3a7e12e1ae9b2bf0c706cc0d3"
+    },
+    "assets/effect_curves.csv": {
+      "expected": "be6efe76da85b759bb15fc6c9cdb64a42ee661b799b8785028efb181ace83591",
+      "actual": "be6efe76da85b759bb15fc6c9cdb64a42ee661b799b8785028efb181ace83591"
+    },
+    "assets/effects.csv": {
+      "expected": "b962793fd983c9b8a54a5895b73645b91e528038a2138634f4374c25aae8bb08",
+      "actual": "b962793fd983c9b8a54a5895b73645b91e528038a2138634f4374c25aae8bb08"
+    },
+    "assets/iris.hlsl": {
+      "expected": "a22f75e4d0d4e585925b30ff8bfb53918bbeca015201600cc1dde554272598b7",
+      "actual": "a22f75e4d0d4e585925b30ff8bfb53918bbeca015201600cc1dde554272598b7"
+    },
+    "assets/iris.material": {
+      "expected": "84ed6e05543534658d6a5ce3cc2ef4794fbd6ace3ba335e712278bc2df006efa",
+      "actual": "84ed6e05543534658d6a5ce3cc2ef4794fbd6ace3ba335e712278bc2df006efa"
+    },
+    "assets/iris.program": {
+      "expected": "0ded3b801c8a5ddf6308325858ced921e243794f490459850b76d712dce52fe2",
+      "actual": "0ded3b801c8a5ddf6308325858ced921e243794f490459850b76d712dce52fe2"
+    },
+    "assets/iris_179f128b96e16ff2.dds": {
+      "expected": "179f128b96e16ff2efc07b0ba17b1d54b6778a6ca5d1dce928191a5a569e2690",
+      "actual": "179f128b96e16ff2efc07b0ba17b1d54b6778a6ca5d1dce928191a5a569e2690"
+    },
+    "assets/iris_22af7ab7d285bd0c.dds": {
+      "expected": "22af7ab7d285bd0c2ab528daae48df93c477e9ee60ef1226f5605c619b907e0a",
+      "actual": "22af7ab7d285bd0c2ab528daae48df93c477e9ee60ef1226f5605c619b907e0a"
+    },
+    "assets/iris_2556c812dc7d68e6.dds": {
+      "expected": "2556c812dc7d68e6c220acd1fc44a8452c4e99217a7c86f2e0db74aed02fb987",
+      "actual": "2556c812dc7d68e6c220acd1fc44a8452c4e99217a7c86f2e0db74aed02fb987"
+    },
+    "assets/iris_29343c8126431246.dds": {
+      "expected": "29343c812643124608d246a20bf823b620dc7539c8e5dde2ccfa11d5718ce1bc",
+      "actual": "29343c812643124608d246a20bf823b620dc7539c8e5dde2ccfa11d5718ce1bc"
+    },
+    "assets/iris_5114b0f90ad5da99.dds": {
+      "expected": "5114b0f90ad5da99624e3f97e02f97481f14f8c2b86c23c588eb48d553c5c8c3",
+      "actual": "5114b0f90ad5da99624e3f97e02f97481f14f8c2b86c23c588eb48d553c5c8c3"
+    },
+    "assets/iris_action_drill_female.skeleton": {
+      "expected": "a4dce791744a5674aa908c01c6699968ca222035b95759629ac8d218e4e75f3f",
+      "actual": "a4dce791744a5674aa908c01c6699968ca222035b95759629ac8d218e4e75f3f"
+    },
+    "assets/iris_action_drill_male.skeleton": {
+      "expected": "e7620ca75a59ac8417616e6037b690db7787948ee0fd18f74ef221c0f78f979b",
+      "actual": "e7620ca75a59ac8417616e6037b690db7787948ee0fd18f74ef221c0f78f979b"
+    },
+    "assets/iris_action_drive_female.skeleton": {
+      "expected": "c7449b1dabfcbb82d82e8f7baee50e78ed7bdd336530cde8df0095b4c00b3799",
+      "actual": "c7449b1dabfcbb82d82e8f7baee50e78ed7bdd336530cde8df0095b4c00b3799"
+    },
+    "assets/iris_action_drive_male.skeleton": {
+      "expected": "f384914698d683ae27fb9943f901c2e2fce0a458849d4569d0c59e8d9819e277",
+      "actual": "f384914698d683ae27fb9943f901c2e2fce0a458849d4569d0c59e8d9819e277"
+    },
+    "assets/iris_action_earthquake_female.skeleton": {
+      "expected": "0310db41b5d2365337aec89c1b23268a4c40a80f48b2f2227a7f4f4332cfcd2b",
+      "actual": "0310db41b5d2365337aec89c1b23268a4c40a80f48b2f2227a7f4f4332cfcd2b"
+    },
+    "assets/iris_action_earthquake_male.skeleton": {
+      "expected": "5bef3d3091c1eb7b72d17bfbd28c6ec17764f37319bc9a0d2ad0e20d1028487c",
+      "actual": "5bef3d3091c1eb7b72d17bfbd28c6ec17764f37319bc9a0d2ad0e20d1028487c"
+    },
+    "assets/iris_action_fire_roll_female.skeleton": {
+      "expected": "bd11d5abd3db2dfc840ddae12a2ff74c4391320ea92720706bacc0d793b0f645",
+      "actual": "bd11d5abd3db2dfc840ddae12a2ff74c4391320ea92720706bacc0d793b0f645"
+    },
+    "assets/iris_action_fire_roll_male.skeleton": {
+      "expected": "54962215df55f7e9751c34205ee90bc734d26a58cd5ad6dc13dbf11b261b8061",
+      "actual": "54962215df55f7e9751c34205ee90bc734d26a58cd5ad6dc13dbf11b261b8061"
+    },
+    "assets/iris_action_full_burst_female.skeleton": {
+      "expected": "8942e96ad0a8dd594d71ec934a4894db153d3612967c1b5d06e49e0cb8a5311e",
+      "actual": "8942e96ad0a8dd594d71ec934a4894db153d3612967c1b5d06e49e0cb8a5311e"
+    },
+    "assets/iris_action_full_burst_male.skeleton": {
+      "expected": "611c2031d2424c8e966e3e3299086ea8eb3543f3bfd5ff8ac6662a0c6256d00f",
+      "actual": "611c2031d2424c8e966e3e3299086ea8eb3543f3bfd5ff8ac6662a0c6256d00f"
+    },
+    "assets/iris_action_pulse_female.skeleton": {
+      "expected": "e5eb5346ea925344217ff259a090abf97599d817ad0ad52ca3b505a570165547",
+      "actual": "e5eb5346ea925344217ff259a090abf97599d817ad0ad52ca3b505a570165547"
+    },
+    "assets/iris_action_pulse_male.skeleton": {
+      "expected": "dd27f4532d2a96bbf41b26b11c8151e5ed2dbbf1a8082f7c6a8514b5509d58ce",
+      "actual": "dd27f4532d2a96bbf41b26b11c8151e5ed2dbbf1a8082f7c6a8514b5509d58ce"
+    },
+    "assets/iris_action_spiral_female.skeleton": {
+      "expected": "42f231d176132e45ecd7248f8b6d64211286f4cbef947083c88568d122e2906e",
+      "actual": "42f231d176132e45ecd7248f8b6d64211286f4cbef947083c88568d122e2906e"
+    },
+    "assets/iris_action_spiral_male.skeleton": {
+      "expected": "c9a9a01a4e07f4b906831edbba0a64a447ddc3d1c02ee38ffbe93a40d53bbe44",
+      "actual": "c9a9a01a4e07f4b906831edbba0a64a447ddc3d1c02ee38ffbe93a40d53bbe44"
+    },
+    "assets/iris_action_vulcan_female.skeleton": {
+      "expected": "3378be31283ec95599d2ceb3fe2ce9c8494792f4dc9778a1ae6bf1b73f0addbe",
+      "actual": "3378be31283ec95599d2ceb3fe2ce9c8494792f4dc9778a1ae6bf1b73f0addbe"
+    },
+    "assets/iris_action_vulcan_male.skeleton": {
+      "expected": "fdc4d37134148a2ed1d7b8ce3fd087b2dce630a7bdd25d4fd7e3f7722b6701e5",
+      "actual": "fdc4d37134148a2ed1d7b8ce3fd087b2dce630a7bdd25d4fd7e3f7722b6701e5"
+    },
+    "assets/iris_anim_rgba_179f128b96e16ff2.png": {
+      "expected": "521d3faaca7f21a9d70f40604aad1c723fd97186a6fe0dd050ff5d06a1a35106",
+      "actual": "521d3faaca7f21a9d70f40604aad1c723fd97186a6fe0dd050ff5d06a1a35106"
+    },
+    "assets/iris_drill.mesh": {
+      "expected": "aa9d80e8e7c13e10807d1f5aa764f03e6bf92297cb21b5dd1a2066d9726a1dcc",
+      "actual": "aa9d80e8e7c13e10807d1f5aa764f03e6bf92297cb21b5dd1a2066d9726a1dcc"
+    },
+    "assets/iris_drill_female.skeleton": {
+      "expected": "02a6a3def08a068e3cd86d42e97692cac4a985212564adf4dcbf75e763b8912f",
+      "actual": "02a6a3def08a068e3cd86d42e97692cac4a985212564adf4dcbf75e763b8912f"
+    },
+    "assets/iris_drill_male.skeleton": {
+      "expected": "86bbd9b5758c84562c24d8b6d93f4ad367def886d2af438a27877ecfb26e9355",
+      "actual": "86bbd9b5758c84562c24d8b6d93f4ad367def886d2af438a27877ecfb26e9355"
+    },
+    "assets/iris_drill_optics.hlsl": {
+      "expected": "a58087f0fe1957b0a72015c944e47856e08a7f52959bcb415993991058e25688",
+      "actual": "a58087f0fe1957b0a72015c944e47856e08a7f52959bcb415993991058e25688"
+    },
+    "assets/iris_drill_optics.material": {
+      "expected": "80e23b476fa07c095f4b32275c6a79fc940da26a7597fb7dea0c6ec98a12b48f",
+      "actual": "80e23b476fa07c095f4b32275c6a79fc940da26a7597fb7dea0c6ec98a12b48f"
+    },
+    "assets/iris_drill_optics.program": {
+      "expected": "de2faaef4e986d2d676aa6e43fbae3c20be9f94c584cd98ad3e059ddd71c1b7f",
+      "actual": "de2faaef4e986d2d676aa6e43fbae3c20be9f94c584cd98ad3e059ddd71c1b7f"
+    },
+    "assets/iris_drill_weapon_proof_female.csv": {
+      "expected": "dade0e71434ac9b9bf91e95c882fe9574a5348673fa2668c4609fee742c75d2a",
+      "actual": "dade0e71434ac9b9bf91e95c882fe9574a5348673fa2668c4609fee742c75d2a"
+    },
+    "assets/iris_drill_weapon_proof_male.csv": {
+      "expected": "cdac8f6f653f50a2868d165c6c8fa54b49c3a0ad6eae09a31ec2da3f3fc492e6",
+      "actual": "cdac8f6f653f50a2868d165c6c8fa54b49c3a0ad6eae09a31ec2da3f3fc492e6"
+    },
+    "assets/iris_drive_weapon_proof_female.csv": {
+      "expected": "bc8178d5c5ea560af6998941bf95176bd4fdf912178d87f8af27cadc48b0e550",
+      "actual": "bc8178d5c5ea560af6998941bf95176bd4fdf912178d87f8af27cadc48b0e550"
+    },
+    "assets/iris_drive_weapon_proof_male.csv": {
+      "expected": "a257868575526b8b51c2884848d8a85716fc975d3afca736f600ea79d8f085fc",
+      "actual": "a257868575526b8b51c2884848d8a85716fc975d3afca736f600ea79d8f085fc"
+    },
+    "assets/iris_e43c904a32f784ff.dds": {
+      "expected": "e43c904a32f784ff2bbeff680b26bc3cf903b14531bf9e39374aea2032af4cfb",
+      "actual": "e43c904a32f784ff2bbeff680b26bc3cf903b14531bf9e39374aea2032af4cfb"
+    },
+    "assets/iris_earthquake_weapon_proof_female.csv": {
+      "expected": "b4c20b3f229e1e11c2ccb38eb6c999a92ab052dcc25b3962c8ef59269d204c09",
+      "actual": "b4c20b3f229e1e11c2ccb38eb6c999a92ab052dcc25b3962c8ef59269d204c09"
+    },
+    "assets/iris_earthquake_weapon_proof_male.csv": {
+      "expected": "2239079acd1ad37f71d6ef852912bcb9315dbce60988aa4ed44fceae108b65e0",
+      "actual": "2239079acd1ad37f71d6ef852912bcb9315dbce60988aa4ed44fceae108b65e0"
+    },
+    "assets/iris_edb8fbf0179684de.dds": {
+      "expected": "edb8fbf0179684de3611bddb323890107a53a862203e0200be3293c2358a6d2f",
+      "actual": "edb8fbf0179684de3611bddb323890107a53a862203e0200be3293c2358a6d2f"
+    },
+    "assets/iris_eight.hlsl": {
+      "expected": "d97194980673bd9c99d2c118cdfb28ebc1af2e68ffe398a3629b97bb1a4e2a19",
+      "actual": "d97194980673bd9c99d2c118cdfb28ebc1af2e68ffe398a3629b97bb1a4e2a19"
+    },
+    "assets/iris_eight.material": {
+      "expected": "29c2e81ea8581966aa88ce4e0a59855ed456b2c9343e60d4101e76195133c3ef",
+      "actual": "29c2e81ea8581966aa88ce4e0a59855ed456b2c9343e60d4101e76195133c3ef"
+    },
+    "assets/iris_eight.program": {
+      "expected": "2e39fd11e0697ead6997a83e0e3b482fbfb89b7415e4b5258af864bd7bf410b8",
+      "actual": "2e39fd11e0697ead6997a83e0e3b482fbfb89b7415e4b5258af864bd7bf410b8"
+    },
+    "assets/iris_fire_roll_weapon_proof_female.csv": {
+      "expected": "44f3fe3bbebe9f9a0089a0ae7d06a4aad8bf6637a554eb4dae6d2e68cb23276a",
+      "actual": "44f3fe3bbebe9f9a0089a0ae7d06a4aad8bf6637a554eb4dae6d2e68cb23276a"
+    },
+    "assets/iris_fire_roll_weapon_proof_male.csv": {
+      "expected": "2a8621783369bab7f265384f6cb9028044abc310c661fd24ed7778968cd4e394",
+      "actual": "2a8621783369bab7f265384f6cb9028044abc310c661fd24ed7778968cd4e394"
+    },
+    "assets/iris_full_burst_weapon_proof_female.csv": {
+      "expected": "19e757cfa2f5d081cd40bbfa6d7f0b88a3f6b16ee55e6ed1a39dedcd75e428ed",
+      "actual": "19e757cfa2f5d081cd40bbfa6d7f0b88a3f6b16ee55e6ed1a39dedcd75e428ed"
+    },
+    "assets/iris_full_burst_weapon_proof_male.csv": {
+      "expected": "c17922728809bd0ea414e339c03777ab84ac4c9cb3c9fe75c51d14117fef1a47",
+      "actual": "c17922728809bd0ea414e339c03777ab84ac4c9cb3c9fe75c51d14117fef1a47"
+    },
+    "assets/iris_fx_0070dc490e0c3806.png": {
+      "expected": "254ba543503f394e5f20be75579fb8c2986b5c3ed3dde03ce4ae6dc05a9f122e",
+      "actual": "254ba543503f394e5f20be75579fb8c2986b5c3ed3dde03ce4ae6dc05a9f122e"
+    },
+    "assets/iris_fx_09f4ab23d626acd4.png": {
+      "expected": "bc2f984cfd2bc2abe73fa8e36a4b3b4bb153e0e6c123158ea41a0663ce07484d",
+      "actual": "bc2f984cfd2bc2abe73fa8e36a4b3b4bb153e0e6c123158ea41a0663ce07484d"
+    },
+    "assets/iris_fx_0ac20a74e81ccbb9.png": {
+      "expected": "3f8f9a82ad55f759bf0dcf3695276fe9ca5cb8ea3635e709cb45ea143cb059fe",
+      "actual": "3f8f9a82ad55f759bf0dcf3695276fe9ca5cb8ea3635e709cb45ea143cb059fe"
+    },
+    "assets/iris_fx_1585a9b326063551.png": {
+      "expected": "e78569afb0377b55dcb365f390b3477e0cddadeb9bcaf9b8bfeabb3c3c44e133",
+      "actual": "e78569afb0377b55dcb365f390b3477e0cddadeb9bcaf9b8bfeabb3c3c44e133"
+    },
+    "assets/iris_fx_16aa266c9f57169a.png": {
+      "expected": "74c2e3611bf8fd52aeaf25cc42325f12b62aa64ddd9f64ead0043373aa97aa30",
+      "actual": "74c2e3611bf8fd52aeaf25cc42325f12b62aa64ddd9f64ead0043373aa97aa30"
+    },
+    "assets/iris_fx_17467551c38998e3.png": {
+      "expected": "53fbea8f7a6eb641efe537d9459a32d94b25211e5ecc0e17facc38f36da0b757",
+      "actual": "53fbea8f7a6eb641efe537d9459a32d94b25211e5ecc0e17facc38f36da0b757"
+    },
+    "assets/iris_fx_1dcf8493d29c1609.png": {
+      "expected": "72b004677ee44c10d0f6192040674cdd625db092ba2ff643e168306f6dc5b466",
+      "actual": "72b004677ee44c10d0f6192040674cdd625db092ba2ff643e168306f6dc5b466"
+    },
+    "assets/iris_fx_395c8c85c8f83522.png": {
+      "expected": "1333aec19e80e6de092761decda1977aa85d843f029a1ceee8c070ffb19326a1",
+      "actual": "1333aec19e80e6de092761decda1977aa85d843f029a1ceee8c070ffb19326a1"
+    },
+    "assets/iris_fx_3fac78f2719ac4a5.png": {
+      "expected": "75bd304ea942982bb4b11bc88397f0df35d15f0bf75c66565dc700566e27d326",
+      "actual": "75bd304ea942982bb4b11bc88397f0df35d15f0bf75c66565dc700566e27d326"
+    },
+    "assets/iris_fx_41f4a27f3ea0b675.png": {
+      "expected": "c3e777bd6589e087925a42482de6d0ff79f259221879b5eeccc30ba18d0e304a",
+      "actual": "c3e777bd6589e087925a42482de6d0ff79f259221879b5eeccc30ba18d0e304a"
+    },
+    "assets/iris_fx_4c9ac19e454dbc9c.png": {
+      "expected": "c05c3ddadf7ee41701ade38e0af9165237385b3941607a18977e78b394f2316e",
+      "actual": "c05c3ddadf7ee41701ade38e0af9165237385b3941607a18977e78b394f2316e"
+    },
+    "assets/iris_fx_53993c43c6e1f42b.png": {
+      "expected": "93002d0e6cf664b260a582ee334abaf280e73731f800888b0e6430432875e0d8",
+      "actual": "93002d0e6cf664b260a582ee334abaf280e73731f800888b0e6430432875e0d8"
+    },
+    "assets/iris_fx_61ad787574472755.png": {
+      "expected": "35fe5f3da89e6eabd457bcc1b25185a10c83572d63028945577d328d7a5b64c9",
+      "actual": "35fe5f3da89e6eabd457bcc1b25185a10c83572d63028945577d328d7a5b64c9"
+    },
+    "assets/iris_fx_65305a26bcc8527a.png": {
+      "expected": "ef815e4fc858c22fbda914289e5ece07212c8bad2b9a16b282b0793c4fb71106",
+      "actual": "ef815e4fc858c22fbda914289e5ece07212c8bad2b9a16b282b0793c4fb71106"
+    },
+    "assets/iris_fx_6614a21cd81035fd.png": {
+      "expected": "2065cf7f2c500d65070270f88124d10eea968df252d0860c4d3215c6730fbdfe",
+      "actual": "2065cf7f2c500d65070270f88124d10eea968df252d0860c4d3215c6730fbdfe"
+    },
+    "assets/iris_fx_68b0dcc66a7c8565.png": {
+      "expected": "16d618b78b898f3e796c050933397b4354ecad790094d980d793272a6a3c2d9b",
+      "actual": "16d618b78b898f3e796c050933397b4354ecad790094d980d793272a6a3c2d9b"
+    },
+    "assets/iris_fx_7134220220e8e934.png": {
+      "expected": "d4296ac011c00bc403ca25b680e1bf43b6f9740c81849a445f87de89e0483a99",
+      "actual": "d4296ac011c00bc403ca25b680e1bf43b6f9740c81849a445f87de89e0483a99"
+    },
+    "assets/iris_fx_7a31d7afd1bf9bc3.png": {
+      "expected": "8aed7709682e1a6cfe98db26b270ef6530149ed65c12962e06a95bc3ad89f112",
+      "actual": "8aed7709682e1a6cfe98db26b270ef6530149ed65c12962e06a95bc3ad89f112"
+    },
+    "assets/iris_fx_858421333546ea10.png": {
+      "expected": "b1462757bbcbe17e5a38e8d530418fef13b54599f846b6312bb94b6eb6a5e074",
+      "actual": "b1462757bbcbe17e5a38e8d530418fef13b54599f846b6312bb94b6eb6a5e074"
+    },
+    "assets/iris_fx_8c4583d3a8615c77.png": {
+      "expected": "8e569c71628d5fac8176669e99b0f84d169c1856691e1918d8978dd7eaa4462d",
+      "actual": "8e569c71628d5fac8176669e99b0f84d169c1856691e1918d8978dd7eaa4462d"
+    },
+    "assets/iris_fx_9f9d669a1492ab09.png": {
+      "expected": "271586f7bafab84b30af006b8cacd577c9c1330349b51a33a80aa9815ddd8e9a",
+      "actual": "271586f7bafab84b30af006b8cacd577c9c1330349b51a33a80aa9815ddd8e9a"
+    },
+    "assets/iris_fx_a4717a9eee81a216.png": {
+      "expected": "fe6c65291d61b138bbebe64d5b206ab09d3678ca6caeaedffeace20ead344455",
+      "actual": "fe6c65291d61b138bbebe64d5b206ab09d3678ca6caeaedffeace20ead344455"
+    },
+    "assets/iris_fx_aa30202d381b8528.png": {
+      "expected": "4afa673932b8e149a31ca7e68d52add61b136819896c8145382a8eafaf167b65",
+      "actual": "4afa673932b8e149a31ca7e68d52add61b136819896c8145382a8eafaf167b65"
+    },
+    "assets/iris_fx_beam.mesh": {
+      "expected": "26fcaeffbfefd5163775126907e59e38223924b71f17cd4c2b3440617e5071f0",
+      "actual": "26fcaeffbfefd5163775126907e59e38223924b71f17cd4c2b3440617e5071f0"
+    },
+    "assets/iris_fx_blade.mesh": {
+      "expected": "3864d3137623ccf325252b9f80743c33119aaf443d9c9f449e09bb164bbbb7e2",
+      "actual": "3864d3137623ccf325252b9f80743c33119aaf443d9c9f449e09bb164bbbb7e2"
+    },
+    "assets/iris_fx_blast.mesh": {
+      "expected": "e92f2463be7b082c9438eddf8856361c0e3b2ebdecd4df3aad8970031795d204",
+      "actual": "e92f2463be7b082c9438eddf8856361c0e3b2ebdecd4df3aad8970031795d204"
+    },
+    "assets/iris_fx_bullet.mesh": {
+      "expected": "250845d035ed5636c0a7b5d941a07fa9d9c86c04c0d569e7585decd99bbf2e10",
+      "actual": "250845d035ed5636c0a7b5d941a07fa9d9c86c04c0d569e7585decd99bbf2e10"
+    },
+    "assets/iris_fx_c823e561a1cd77ff.png": {
+      "expected": "01cb6fe8d44e5c2301d512c5487438d2e8a9ec819d1d3c53b407c1f1c42f0fcb",
+      "actual": "01cb6fe8d44e5c2301d512c5487438d2e8a9ec819d1d3c53b407c1f1c42f0fcb"
+    },
+    "assets/iris_fx_c8694fc17fcba2dd.png": {
+      "expected": "d95d412839c47d626c2a2026190f3fd99dc90c36fecf555a8c127b1b93c6520b",
+      "actual": "d95d412839c47d626c2a2026190f3fd99dc90c36fecf555a8c127b1b93c6520b"
+    },
+    "assets/iris_fx_cd28a05b2c1b7069.png": {
+      "expected": "9d6521dcadedff416b81110dfaeadb33c9194d612ceedd12de79dfe699d7f6c9",
+      "actual": "9d6521dcadedff416b81110dfaeadb33c9194d612ceedd12de79dfe699d7f6c9"
+    },
+    "assets/iris_fx_charge_halo.mesh": {
+      "expected": "68d52068c26554b972ae64a59d56a4be1cb6342f1495a89e8456515f550fdced",
+      "actual": "68d52068c26554b972ae64a59d56a4be1cb6342f1495a89e8456515f550fdced"
+    },
+    "assets/iris_fx_d0c407b0513fdcff.png": {
+      "expected": "df97fc6d43a148a890fe4ccde488d13c3542ec29ca6a36050bc5c1230a9605f7",
+      "actual": "df97fc6d43a148a890fe4ccde488d13c3542ec29ca6a36050bc5c1230a9605f7"
+    },
+    "assets/iris_fx_d51b9ac87d9b7cb0.png": {
+      "expected": "94ca427c5166ccf774ab0554fcc797b89648c25af7ecab09162e7b3b1133b1d9",
+      "actual": "94ca427c5166ccf774ab0554fcc797b89648c25af7ecab09162e7b3b1133b1d9"
+    },
+    "assets/iris_fx_da42a0b93051db25.png": {
+      "expected": "13059b601dd04dd41f71f4e2a9b69eed30cba5dcd3db68b8c870aa3813592c31",
+      "actual": "13059b601dd04dd41f71f4e2a9b69eed30cba5dcd3db68b8c870aa3813592c31"
+    },
+    "assets/iris_fx_drill_blast.mesh": {
+      "expected": "c8259d89212be5309522a2f5b5073f5be71e833c914f70b89194811b583776dd",
+      "actual": "c8259d89212be5309522a2f5b5073f5be71e833c914f70b89194811b583776dd"
+    },
+    "assets/iris_fx_drill_wings.mesh": {
+      "expected": "28fdd41cae86eec463351f968fb6dcc33cbdb47a74a4c74d854c34b79aa56dc0",
+      "actual": "28fdd41cae86eec463351f968fb6dcc33cbdb47a74a4c74d854c34b79aa56dc0"
+    },
+    "assets/iris_fx_e43c904a32f784ff.png": {
+      "expected": "159168189b4a8060aadcc843b2c2cf54fb3cff3545c03cf5b8678d99eb112422",
+      "actual": "159168189b4a8060aadcc843b2c2cf54fb3cff3545c03cf5b8678d99eb112422"
+    },
+    "assets/iris_fx_e8650f7b36c9c1d2.png": {
+      "expected": "57e34458d56da8ccd0e4841e335c8ead5b63613f2dc62b9440b431e1d65e704e",
+      "actual": "57e34458d56da8ccd0e4841e335c8ead5b63613f2dc62b9440b431e1d65e704e"
+    },
+    "assets/iris_fx_efc54473119141c4.png": {
+      "expected": "b9eaed61c2fbb6f9b8fbdc910a5402ff5a36eb4c3048884a84b2ae88cea9fefd",
+      "actual": "b9eaed61c2fbb6f9b8fbdc910a5402ff5a36eb4c3048884a84b2ae88cea9fefd"
+    },
+    "assets/iris_fx_exhaust.mesh": {
+      "expected": "d8f2d7fd970222b24ac22cf9dce77ec02f371463a0521e13d787627edfa8e7b1",
+      "actual": "d8f2d7fd970222b24ac22cf9dce77ec02f371463a0521e13d787627edfa8e7b1"
+    },
+    "assets/iris_fx_f9cdf1083eaaf3ad.png": {
+      "expected": "0fb3fee6b4523ce3dfbc6071e7ba9a33c611e82878743e5ceef2e97085bd4efc",
+      "actual": "0fb3fee6b4523ce3dfbc6071e7ba9a33c611e82878743e5ceef2e97085bd4efc"
+    },
+    "assets/iris_fx_fe9725df5ab8e02b.png": {
+      "expected": "011742975b11d10046de5080f62d9f03fa5495dbb68aab477f0adee26c6eb767",
+      "actual": "011742975b11d10046de5080f62d9f03fa5495dbb68aab477f0adee26c6eb767"
+    },
+    "assets/iris_fx_fire_blast.mesh": {
+      "expected": "07c3d7b584a3b5c9e1bf50829382e7fd4e3813295d3ee65e036a40d90bc61216",
+      "actual": "07c3d7b584a3b5c9e1bf50829382e7fd4e3813295d3ee65e036a40d90bc61216"
+    },
+    "assets/iris_fx_gun.mesh": {
+      "expected": "7ee79e381b4ef36fe58a2ab679683cd039b07645b9848985dfeb062ccddced80",
+      "actual": "7ee79e381b4ef36fe58a2ab679683cd039b07645b9848985dfeb062ccddced80"
+    },
+    "assets/iris_fx_heavy.mesh": {
+      "expected": "83029dc33a02950ceb9ba58802aa54b5498ff61009a40811b2677ea230a9ba33",
+      "actual": "83029dc33a02950ceb9ba58802aa54b5498ff61009a40811b2677ea230a9ba33"
+    },
+    "assets/iris_fx_ion.mesh": {
+      "expected": "c3603d73812c7cb9c5a847e307d720f43d79281a7a1ad9cbfba97b5f9c98a6a3",
+      "actual": "c3603d73812c7cb9c5a847e307d720f43d79281a7a1ad9cbfba97b5f9c98a6a3"
+    },
+    "assets/iris_fx_muzzle.mesh": {
+      "expected": "f7096c513b8655b33b8569c567958197f80bf649b9f4887df59b51302da35089",
+      "actual": "f7096c513b8655b33b8569c567958197f80bf649b9f4887df59b51302da35089"
+    },
+    "assets/iris_fx_pulse_blast.mesh": {
+      "expected": "688cd466eb6b3a93d236ad067b4b572731b15a787c5ccb6d4a5233ce1363174c",
+      "actual": "688cd466eb6b3a93d236ad067b4b572731b15a787c5ccb6d4a5233ce1363174c"
+    },
+    "assets/iris_fx_shell.mesh": {
+      "expected": "d5252696d9bbb5df2e1d56d5ce250e42ac409aea4c575c726d22fab4876ceb00",
+      "actual": "d5252696d9bbb5df2e1d56d5ce250e42ac409aea4c575c726d22fab4876ceb00"
+    },
+    "assets/iris_fx_shock.mesh": {
+      "expected": "be0e563d72386016832cd89633af6fa35c3da52edd0ce42c4e8893c539f65a63",
+      "actual": "be0e563d72386016832cd89633af6fa35c3da52edd0ce42c4e8893c539f65a63"
+    },
+    "assets/iris_pulse_weapon_proof_female.csv": {
+      "expected": "1bc46c954437d5febd8a9d55b53385c82d529ce16f571c3cb4fc75ae47239be4",
+      "actual": "1bc46c954437d5febd8a9d55b53385c82d529ce16f571c3cb4fc75ae47239be4"
+    },
+    "assets/iris_pulse_weapon_proof_male.csv": {
+      "expected": "46654905f44834a82e229d8b6c79ca0b6b1c7ece3198d234143adb80f92b3b8f",
+      "actual": "46654905f44834a82e229d8b6c79ca0b6b1c7ece3198d234143adb80f92b3b8f"
+    },
+    "assets/iris_spiral_weapon_proof_female.csv": {
+      "expected": "191cac0ee8c8733f564c134dc644d9c19e02794e9af9844de287b53c332e3cac",
+      "actual": "191cac0ee8c8733f564c134dc644d9c19e02794e9af9844de287b53c332e3cac"
+    },
+    "assets/iris_spiral_weapon_proof_male.csv": {
+      "expected": "09e68bc61b666428ea286a1cbdcdc1f5598325c0a4ffb67da1c923b56d53bca6",
+      "actual": "09e68bc61b666428ea286a1cbdcdc1f5598325c0a4ffb67da1c923b56d53bca6"
+    },
+    "assets/iris_vulcan_weapon_proof_female.csv": {
+      "expected": "c74db5884ea5235521cd7e45933b703a69b20147bfe7e7baca9ffedaf4ee998f",
+      "actual": "c74db5884ea5235521cd7e45933b703a69b20147bfe7e7baca9ffedaf4ee998f"
+    },
+    "assets/iris_vulcan_weapon_proof_male.csv": {
+      "expected": "8fb8c09e918c46b4b11b2f5a8ae35e0c2f73af38bddfea417c7fe8578bfea907",
+      "actual": "8fb8c09e918c46b4b11b2f5a8ae35e0c2f73af38bddfea417c7fe8578bfea907"
+    },
+    "assets/iris_weapon.mesh": {
+      "expected": "2985a4a0a34e4a87450b4be3596f6baa5d2d32dbb1d2b65add251d73aa64daa7",
+      "actual": "2985a4a0a34e4a87450b4be3596f6baa5d2d32dbb1d2b65add251d73aa64daa7"
+    },
+    "assets/iris_weapon_icon.png": {
+      "expected": "1a08f0b122a3450cad2022d14abbb563b4cb2a01cd6b2ca4572a84e0b6c27efc",
+      "actual": "1a08f0b122a3450cad2022d14abbb563b4cb2a01cd6b2ca4572a84e0b6c27efc"
+    },
+    "assets/iris_weapon_proof_female.csv": {
+      "expected": "7dbab206b9f11836b0a6a8aadf44fbe45de1e39a7fdf8539ab361329e02bf734",
+      "actual": "7dbab206b9f11836b0a6a8aadf44fbe45de1e39a7fdf8539ab361329e02bf734"
+    },
+    "assets/iris_weapon_proof_male.csv": {
+      "expected": "7b1a44c9eee4cc456f7b79ae34b65d2fce2ac0fb218527bf87bb780a37f1024d",
+      "actual": "7b1a44c9eee4cc456f7b79ae34b65d2fce2ac0fb218527bf87bb780a37f1024d"
+    },
+    "assets/iris_white.dds": {
+      "expected": "eb555c633972ab4857d218a00c83123e8fd20da06f4b39852806d2f167a22a26",
+      "actual": "eb555c633972ab4857d218a00c83123e8fd20da06f4b39852806d2f167a22a26"
+    },
+    "assets/moves.csv": {
+      "expected": "8503c897e49879352e7ee2db435105d459cacf89727e5821f8e4240720832fc2",
+      "actual": "8503c897e49879352e7ee2db435105d459cacf89727e5821f8e4240720832fc2"
+    },
+    "assets/weapon_collision.csv": {
+      "expected": "9d8f6b6e58e6d1a41945bcb5cc06413d3a1a68354ff37735fcb4edd382266e33",
+      "actual": "9d8f6b6e58e6d1a41945bcb5cc06413d3a1a68354ff37735fcb4edd382266e33"
+    },
+    "assets/wing_centers.csv": {
+      "expected": "d85b26ec8930fe606b0b847a756c132489560fba9c46d54c0e7259eb0412fd2c",
+      "actual": "d85b26ec8930fe606b0b847a756c132489560fba9c46d54c0e7259eb0412fd2c"
+    }
+  },
+  "unresolved": [
+    "MSVC/v100编译和真实GPU显示未验收；不能以数据检查宣称火焰已和视频一致",
+    "保留源几何/材质/七发射点/初始角度/匀强力；完整NiPSys受控力/拖曳/湍流、非零随机自转、屏幕折射与BSLagBone未执行",
+    "全力爆发球半径90按前两次光刃伸距校准；两次横扫仍保留各自半径4的刃线厚度，终结改为一次3倍"
+  ]
+}

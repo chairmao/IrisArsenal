@@ -1,0 +1,71 @@
+{
+  "vulcan": {
+    "small_source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\SW\\Iris\\anim.nif",
+    "small_sha256": "8c915982234cf7921afb3d5d4464caaf2656d2c4156e07d3b670b37bba8c5d6b",
+    "large_source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\SW\\Iris\\anim1.nif",
+    "large_sha256": "229bc3f27bec671036aa107a5e2c7cd10d18cde21d7cc70df92c7741dbf4e6b9",
+    "small_shapes": 18,
+    "large_shapes": 8,
+    "excluded": [
+      "3BA body",
+      "missing vivian rod helper"
+    ],
+    "small_controller": {
+      "frequency": 5,
+      "start": 0,
+      "stop": 4.125,
+      "cycle": "loop",
+      "rotation_y": [
+        [
+          0,
+          0
+        ],
+        [
+          2.0416998863220215,
+          3.1415998935699463
+        ],
+        [
+          4.125,
+          6.283199787139893
+        ]
+      ]
+    },
+    "large_controller": {
+      "frequency": 4,
+      "start": 0,
+      "stop": 8,
+      "cycle": "reverse"
+    },
+    "clock": "IrisAnim cue-relative game animation seconds",
+    "small_spell_seconds": 2.4,
+    "large_spell_seconds": 2.2,
+    "chain": [
+      "IrisAnim",
+      "SPEL84B/MGEF859/ARMO85B -> anim.nif",
+      "SPEL85C/MGEF855/ARTO84C -> anim1.nif"
+    ]
+  },
+  "pulse": {
+    "chain": [
+      "PIE.$IrisPlasmaShoot second CAST",
+      "SPEL 04000824",
+      "MGEF 04000812",
+      "EXPL 04000810",
+      "SW/Iris/ShoutAreaExplosionWarm0.nif"
+    ],
+    "source_sha256": "813868dc1e3d76030a1e3b3d3f9d81be3a0ba6d034851f0aa8397a70d4eee58d",
+    "trigger_offsets": [
+      0.0,
+      0.4666900143027306,
+      1.3666900143027307
+    ],
+    "source_layers_per_shot": 4,
+    "visible_radius_adapter": 6,
+    "unchanged": "all source geometry/texture/colour/UV/relative proportions; damage R36 unchanged",
+    "no_reticle": true,
+    "birth_times_shifted_only": true,
+    "reference_match": "用户同意以原枪口橙色扩散层作为本轮方向；不声称另有独立火苗已唯一定位",
+    "full_flame_verified": false,
+    "source_file_scale_note": "复用同源单位半径，整套相似缩放为枪口层；不是把AOE伤害范围改为6"
+  }
+}

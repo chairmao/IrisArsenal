@@ -1,0 +1,1786 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+    "Role": "034交付身份",
+    "Code location": [
+      {
+        "before_line": 3,
+        "after_line": 3
+      },
+      {
+        "before_line": 17,
+        "after_line": 17
+      },
+      {
+        "before_line": 21,
+        "after_line": 21
+      },
+      {
+        "before_line": 24,
+        "after_line": 29
+      },
+      {
+        "before_line": 26,
+        "after_line": 31
+      }
+    ],
+    "Before": "685eb1a6ad1f3e5c3b863e88704e2e974feb41d6a28bd6b44438e9423b5ac2ae",
+    "Changes": [
+      "源码034与实际033分开，不虚报新DLL或实机成功"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "1c8f416e31bc40e8c44d46f6ca85c03134a5ed2e1f4a649f5bdfc13df996466f",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-025235-764748\\edit-025236-283083\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-025235-764748\\edit-025236-284094\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\delivery.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+    "Role": "源资产与重建证据",
+    "Code location": [
+      {
+        "before_line": 43,
+        "after_line": 43
+      },
+      {
+        "before_line": 72,
+        "after_line": 72
+      },
+      {
+        "before_line": 85,
+        "after_line": 85
+      },
+      {
+        "before_line": 90,
+        "after_line": 90
+      },
+      {
+        "before_line": 95,
+        "after_line": 95
+      },
+      {
+        "before_line": 99,
+        "after_line": 99
+      },
+      {
+        "before_line": 129,
+        "after_line": 129
+      },
+      {
+        "before_line": 144,
+        "after_line": 144
+      },
+      {
+        "before_line": 149,
+        "after_line": 149
+      },
+      {
+        "before_line": 154,
+        "after_line": 154
+      },
+      {
+        "before_line": 185,
+        "after_line": 185
+      },
+      {
+        "before_line": 211,
+        "after_line": 211
+      },
+      {
+        "before_line": 218,
+        "after_line": 218
+      },
+      {
+        "before_line": 225,
+        "after_line": 227
+      },
+      {
+        "before_line": 231,
+        "after_line": 233
+      },
+      {
+        "before_line": 235,
+        "after_line": 237
+      },
+      {
+        "before_line": 239,
+        "after_line": 241
+      },
+      {
+        "before_line": 268,
+        "after_line": 270
+      },
+      {
+        "before_line": 296,
+        "after_line": 298
+      },
+      {
+        "before_line": 324,
+        "after_line": 326
+      },
+      {
+        "before_line": 542,
+        "after_line": 570
+      },
+      {
+        "before_line": 2124,
+        "after_line": 2222
+      },
+      {
+        "before_line": 2168,
+        "after_line": 2266
+      },
+      {
+        "before_line": 2214,
+        "after_line": 2317
+      },
+      {
+        "before_line": 2260,
+        "after_line": 2368
+      },
+      {
+        "before_line": 2306,
+        "after_line": 2419
+      },
+      {
+        "before_line": 2751,
+        "after_line": 2879
+      },
+      {
+        "before_line": 2758,
+        "after_line": 2891
+      },
+      {
+        "before_line": 2774,
+        "after_line": 2917
+      },
+      {
+        "before_line": 2777,
+        "after_line": 2920
+      },
+      {
+        "before_line": 2782,
+        "after_line": 2925
+      },
+      {
+        "before_line": 2787,
+        "after_line": 2930
+      },
+      {
+        "before_line": 2815,
+        "after_line": 2988
+      },
+      {
+        "before_line": 2821,
+        "after_line": 2994
+      }
+    ],
+    "Before": "36b075060ab7b2701960da2b8cc0c98a38d70cf36dc47b5cf444ef26c24a15f5",
+    "Changes": [
+      "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+      "与作者说明完全一致，新增光炮参考图哈希；未完整移植项明确保留"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "3523e6da1bfcabdb7e938d1dbceb731ac8187d2bd5aa2588a890051942ac96e0",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024051-305615\\edit-024102-238676\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024051-305615\\edit-024102-240816\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+    "Role": "八招源身份/时序/重定向合同",
+    "Code location": [
+      {
+        "before_line": 2,
+        "after_line": 2
+      },
+      {
+        "before_line": 843,
+        "after_line": 860
+      },
+      {
+        "before_line": 3069,
+        "after_line": 3086
+      },
+      {
+        "before_line": 3080,
+        "after_line": 3097
+      },
+      {
+        "before_line": 6150,
+        "after_line": 6167
+      },
+      {
+        "before_line": 9196,
+        "after_line": 9213
+      },
+      {
+        "before_line": 12994,
+        "after_line": 13011
+      },
+      {
+        "before_line": 13001,
+        "after_line": 13018
+      },
+      {
+        "before_line": 13008,
+        "after_line": 13025
+      },
+      {
+        "before_line": 13015,
+        "after_line": 13032
+      },
+      {
+        "before_line": 13045,
+        "after_line": 13062
+      },
+      {
+        "before_line": 13047,
+        "after_line": 13064
+      }
+    ],
+    "Before": "85475781b6fed1d68bc0b2ead8d3831527e2933f09e8ab5cf1b798c2d0c3ab3f",
+    "Changes": [
+      "源HKX时间统一映射；火神20发、脉冲3发、地震4震、钻头11脉冲加炮弹"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "0a8194ebe2a4596654bb7c2f76cf92d76269a48ab951d7cf5c342d37e93e3c78",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-023625-472892\\edit-023642-103081\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-023625-472892\\edit-023642-105669\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\optics-0.3.4-evidence.json",
+    "Role": "九点修正的直接证据与边界",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "真实033日志/源录像/旧新序列化锤头，瞄准同位原因未确认；三维重建与源五层明确区分"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "4514cd61b6d4fa1c911f67359bd9a1ec684c5d712ed9d8aceb2539bc986f4261",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\optics-0.3.4.md",
+    "Role": "034九点处理、证据与验收",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "逐项实现/静态证据/未确认项，完整参数表和编译边界"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "20616f0c80a86a240cea142b81dc15678782ebb1d521213b28320707c8409fa6",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\package-gate-0.3.4.json",
+    "Role": "034组包门实测",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "现有033 DLL被新034门拒绝，未复制旧DLL冒充新发布"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "72f76567bf8b651a57e93269e6829b2b594f700abf50f80ce423be02a523d83a",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\safety-0.3.4.json",
+    "Role": "034隔离证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "项目修改与游戏033、376项滚5源文件保持哈希隔离"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "6d0dffa5724c5b5dc49dcb05e93f32230c79160b27c662496962f66eeaa0c575",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.3.4.json",
+    "Role": "八招非编译验收证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "f78ece9436ad2103fb6c6e0dcd279648b30061afa004c9821b84d573f81f3f23",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+    "Role": "插件版本与运行身份",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 56,
+        "after_line": 56
+      },
+      {
+        "before_line": 82,
+        "after_line": 82
+      }
+    ],
+    "Before": "172ede64676ba1a445231ee61d5b23e2dd772c443ff8ee88506f23bc23b1304c",
+    "Changes": [
+      "更新0.3.4/IRIS_EIGHT_034，禁止旧DLL与12资源的新包混装"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "ecc2197683dca282788a0b7565031ab450d9947456c1cd30903d9b7d87ea5dd6",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024231-813401\\edit-024231-824206\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024231-813401\\edit-024231-825295\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+    "Role": "插件版本与运行身份",
+    "Code location": [
+      {
+        "before_line": 4,
+        "after_line": 4
+      },
+      {
+        "before_line": 16,
+        "after_line": 16
+      },
+      {
+        "before_line": 18,
+        "after_line": 18
+      }
+    ],
+    "Before": "2e10d4f0aa7bbfc751e99e7ce434a4341067c687c14345af1f8e47cdf0431729",
+    "Changes": [
+      "更新0.3.4/IRIS_EIGHT_034，禁止旧DLL与12资源的新包混装"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "0e5b3e26b783d9de46f4617ea2ed8167a2f85e05219d29b38f0f87e1bed41883",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024231-813401\\edit-024231-830159\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024231-813401\\edit-024231-831171\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+    "Role": "八招战斗/光学消费者",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 55,
+        "after_line": 55
+      },
+      {
+        "before_line": 85,
+        "after_line": 85
+      },
+      {
+        "before_line": 98,
+        "after_line": 98
+      },
+      {
+        "before_line": 107,
+        "after_line": 107
+      },
+      {
+        "before_line": 143,
+        "after_line": 143
+      },
+      {
+        "before_line": 159,
+        "after_line": 159
+      },
+      {
+        "before_line": 174,
+        "after_line": 181
+      },
+      {
+        "before_line": 199,
+        "after_line": 206
+      },
+      {
+        "before_line": 202,
+        "after_line": 209
+      },
+      {
+        "before_line": 220,
+        "after_line": 227
+      },
+      {
+        "before_line": 366,
+        "after_line": 373
+      },
+      {
+        "before_line": 412,
+        "after_line": 419
+      },
+      {
+        "before_line": 428,
+        "after_line": 443
+      },
+      {
+        "before_line": 436,
+        "after_line": 452
+      },
+      {
+        "before_line": 442,
+        "after_line": 460
+      },
+      {
+        "before_line": 452,
+        "after_line": 470
+      }
+    ],
+    "Before": "5bdfde7fc8fba71c27c7e4154b780d860648e7e87146a0e454f5962019099c53",
+    "Changes": [
+      "远程接触先忽略玩家与盟友；地震单位水平火环；光炮4.5配套显示与三维能量环/蓝离子生命周期，阻挡身份日志"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "13c308dab9e819674ddb6d8a7784076780ebbc6bbb278a11783c208c34bc64f4",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024231-813401\\edit-024231-815544\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024231-813401\\edit-024231-818210\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ],
+      "encoding": "UTF-8/CRLF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+    "Role": "分层源光学时间流",
+    "Code location": [
+      {
+        "before_line": 2,
+        "after_line": 2
+      },
+      {
+        "before_line": 4,
+        "after_line": 4
+      },
+      {
+        "before_line": 125,
+        "after_line": 125
+      },
+      {
+        "before_line": 488,
+        "after_line": 488
+      },
+      {
+        "before_line": 609,
+        "after_line": 609
+      },
+      {
+        "before_line": 812,
+        "after_line": 812
+      },
+      {
+        "before_line": 1018,
+        "after_line": 1018
+      }
+    ],
+    "Before": "a938e7d7f38fe4108bdbd62edc8157cb0579ddd12277bb941ce121f67c70a539",
+    "Changes": [
+      "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "c05eda5a638ecc085a72cf20dd540b759375a76a263cb56f652141586b1fb1bf",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024051-305615\\edit-024102-258055\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024051-305615\\edit-024102-261158\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+    "Role": "运行时显式子材质绑定",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 27,
+        "after_line": 27
+      },
+      {
+        "before_line": 38,
+        "after_line": 38
+      },
+      {
+        "before_line": 51,
+        "after_line": 51
+      },
+      {
+        "before_line": 70,
+        "after_line": 72
+      }
+    ],
+    "Before": "7faa791a4540b284f42190e89ac1006cb31ca88e5ea77489dad96736836589e8",
+    "Changes": [
+      "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "c8e31073a929a523b20fb41b0815fcb7ce28da85cdc705a9d82f5b6e60bcd597",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024051-305615\\edit-024102-267530\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024051-305615\\edit-024102-269837\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_female.skeleton",
+    "Role": "具名身体及持械动画",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "07d964381b94b3e81271e63cf246b55acd9053a45bff2c1435c8cc65943bdcdb",
+    "Changes": [
+      "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "0310db41b5d2365337aec89c1b23268a4c40a80f48b2f2227a7f4f4332cfcd2b",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-023625-472892\\edit-023630-176968\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_female.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-023625-472892\\edit-023630-178708\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_female.skeleton"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_female.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_female.skeleton"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_male.skeleton",
+    "Role": "具名身体及持械动画",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "88779955e8bef17ada5f6fe401756215cb2df71c95f23981c3d7df6763b858c0",
+    "Changes": [
+      "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "5bef3d3091c1eb7b72d17bfbd28c6ec17764f37319bc9a0d2ad0e20d1028487c",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-023625-472892\\edit-023629-910575\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_male.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-023625-472892\\edit-023629-912740\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_male.skeleton"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_male.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_earthquake_male.skeleton"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_female.csv",
+    "Role": "独立源WEAPON期望值",
+    "Code location": [
+      {
+        "before_line": 43,
+        "after_line": 43
+      }
+    ],
+    "Before": "fd74743d40f6ff5e8f0a4d1a1c4c350eb3f5ce1d53031fe1e49d6666285b919e",
+    "Changes": [
+      "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "b4c20b3f229e1e11c2ccb38eb6c999a92ab052dcc25b3962c8ef59269d204c09",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-023625-472892\\edit-023630-183906\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_female.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-023625-472892\\edit-023630-185952\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_female.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_female.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_female.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_male.csv",
+    "Role": "独立源WEAPON期望值",
+    "Code location": [
+      {
+        "before_line": 43,
+        "after_line": 43
+      }
+    ],
+    "Before": "5356efde6f241e546611d412feb85222f47befb4d1ff94784f6fc962fa7a0a50",
+    "Changes": [
+      "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "2239079acd1ad37f71d6ef852912bcb9315dbce60988aa4ed44fceae108b65e0",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-023625-472892\\edit-023629-918826\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_male.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-023625-472892\\edit-023629-919830\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_male.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_male.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_earthquake_weapon_proof_male.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+    "Role": "八招源光学适配",
+    "Code location": [
+      {
+        "before_line": 29,
+        "after_line": 29
+      },
+      {
+        "before_line": 45,
+        "after_line": 47
+      }
+    ],
+    "Before": "46f026162ab144b7e8599cf3bd6b30f62228027783a5235983245c4eb3ea7755",
+    "Changes": [
+      "源RGBA/梯度/UV流动/自发光，实例游戏时钟；不编译着色器"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "63fab4792c9349cf5cd187029f6b40229784d617e3454c7b7039d1685e66f6a0",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024051-305615\\edit-024102-094975\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024051-305615\\edit-024102-097532\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+    "Role": "八招源材质",
+    "Code location": [
+      {
+        "before_line": 661,
+        "after_line": 661
+      },
+      {
+        "before_line": 682,
+        "after_line": 682
+      },
+      {
+        "before_line": 691,
+        "after_line": 691
+      },
+      {
+        "before_line": 712,
+        "after_line": 712
+      },
+      {
+        "before_line": 721,
+        "after_line": 721
+      },
+      {
+        "before_line": 742,
+        "after_line": 742
+      },
+      {
+        "before_line": 751,
+        "after_line": 751
+      },
+      {
+        "before_line": 772,
+        "after_line": 772
+      },
+      {
+        "before_line": 779,
+        "after_line": 779
+      },
+      {
+        "before_line": 1043,
+        "after_line": 1069
+      }
+    ],
+    "Before": "68f3c8fe0138824b4d4cb75e6ba8b1f59a26f40ac4755668583395ac24511a63",
+    "Changes": [
+      "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "d4ab73a3dd303b453e97d2157ad043530f2d2be8e60c975570693b4af200e181",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024051-305615\\edit-024102-209803\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024051-305615\\edit-024102-217686\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+    "Role": "平面准星程序",
+    "Code location": [
+      {
+        "before_line": 47,
+        "after_line": 47
+      }
+    ],
+    "Before": "6cd26992af61e97131a777d4c1a21d3a226071bac950066f133379e589e0156d",
+    "Changes": [
+      "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "24aae7576290f3f485848ae5c9916bcdcb7edec706649d5426bbfbfc6a13697c",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015401-459376\\edit-015410-764660\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015401-459376\\edit-015410-768661\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "ba2e94cbbeaf797e638e541a0731b274a9b9b37180b39054c2ca43a3ef0ed8ee",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "26fcaeffbfefd5163775126907e59e38223924b71f17cd4c2b3440617e5071f0",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015238-933390\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015238-935577\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_ion.mesh",
+    "Role": "参考激发离子光",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "三维螺旋光丝、蓝白光谱、仅装饰；不冒称完整原NiPSys"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "c3603d73812c7cb9c5a847e307d720f43d79281a7a1ad9cbfba97b5f9c98a6a3",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shell.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "d53f55b9fd74681b850271692111166cb656a57df5416dbeb0420a786ccdca46",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "d5252696d9bbb5df2e1d56d5ce250e42ac409aea4c575c726d22fab4876ceb00",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-015231-801814\\edit-015235-386466\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shell.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-015231-801814\\edit-015235-387975\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shell.mesh"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shell.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shell.mesh"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "5db6df5838e96d6c30dbbaa0ab6bac836107be12320cd65c04b698ad60850116",
+    "Changes": [
+      "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "1ae44f057374064e1e218dc74ec0cb587717c8e0777b535dedae458ec5eea43d",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024051-305615\\edit-024058-205994\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024051-305615\\edit-024058-208810\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+    "Role": "八招运行时事件流",
+    "Code location": [
+      {
+        "before_line": 57,
+        "after_line": 57
+      }
+    ],
+    "Before": "bbf7bcbefef941fae2d0e98b80c432a3ad9729553c9bcfd1c31b9534890a2d55",
+    "Changes": [
+      "编号/帧长/事件类型/倍率/半径；与身体FCS时间共同消费，严格8招和事件数"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "203fa958bd30acc7980103d96e4173506110a4c7554939e2b089a0f3a1104c61",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-023625-472892\\edit-023642-111142\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-023625-472892\\edit-023642-113150\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "八招测试配置",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 3,
+        "after_line": 3
+      },
+      {
+        "before_line": 21,
+        "after_line": 21
+      },
+      {
+        "before_line": 24,
+        "after_line": 24
+      }
+    ],
+    "Before": "d45715532a50afb807e183cd686691e6184efadc3c464d3f13c8161a61fdf46c",
+    "Changes": [
+      "开启火焰翻滚、钻天破、全力爆发；与既有五招全部权重1；仍原生远程开关分池"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "4a23ffcc8ab9609e99ae7a2559d301d32b92a069f038b50a957ea3a3fe38fe3b",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024231-813401\\edit-024231-834232\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024231-813401\\edit-024231-836461\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+    "Role": "八招隔离FCS记录",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "523ee6ea3fe596659839f3a59e679dfe338e29559d66dc3e19e3a1a660ebfbe1",
+    "Changes": [
+      "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "e1b8d5acda7438840a3edaaa71eef3c2a71a8dc39e523bac634645f07f00c43b",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-023625-472892\\edit-023642-079405\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-023625-472892\\edit-023642-081544\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "Role": "034资源包清单",
+    "Code location": [
+      {
+        "before_line": 2,
+        "after_line": 2
+      },
+      {
+        "before_line": 7,
+        "after_line": 7
+      },
+      {
+        "before_line": 11,
+        "after_line": 11
+      },
+      {
+        "before_line": 14,
+        "after_line": 19
+      },
+      {
+        "before_line": 28,
+        "after_line": 33
+      },
+      {
+        "before_line": 52,
+        "after_line": 57
+      },
+      {
+        "before_line": 55,
+        "after_line": 60
+      },
+      {
+        "before_line": 78,
+        "after_line": 83
+      },
+      {
+        "before_line": 95,
+        "after_line": 100
+      },
+      {
+        "before_line": 97,
+        "after_line": 103
+      },
+      {
+        "before_line": 110,
+        "after_line": 116
+      },
+      {
+        "before_line": 114,
+        "after_line": 120
+      }
+    ],
+    "Before": "9ddfcc09440bb2d1d1a6c7e547e9439756598fc16b65464c7358fdae4eee4ffe",
+    "Changes": [
+      "新资产配套12资源；保留旧DLL并标记不兼容，不可混装"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "1865b597f53b3f4e9d3b854f02c86aca9e017770e88f56b478ad5eed70ebc1cf",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-025235-764748\\edit-025236-377991\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-025235-764748\\edit-025236-379993\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "Role": "034当前状态",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      }
+    ],
+    "Before": "09542c85191d980dbb79fe5a0058c0e68010f67b0493664cc7f47d162c1d1193",
+    "Changes": [
+      "当前034与实际033分开，保留所有历史条目"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "0a0d6c7ed4f515ab43728f95302e8539d474789331e50cb02ef1f9387fe28e61",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-025235-764748\\edit-025236-269695\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-025235-764748\\edit-025236-270742\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "Role": "034当前状态",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      }
+    ],
+    "Before": "8741b14ac7075fd6f412ae76d6f55f4e0cb2c06d4c059e395e2c1ca08b3abd3f",
+    "Changes": [
+      "当前034与实际033分开，保留所有历史条目"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "3b207d37f7becb13d2ec18a4239690f9b52eacbf094c4736ac680f57d21e8c00",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-025235-764748\\edit-025236-275821\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-025235-764748\\edit-025236-276851\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+    "Role": "源资产与重建边界",
+    "Code location": [
+      {
+        "before_line": 15,
+        "after_line": 15
+      },
+      {
+        "before_line": 139,
+        "after_line": 140
+      },
+      {
+        "before_line": 192,
+        "after_line": 195
+      },
+      {
+        "before_line": 199,
+        "after_line": 203
+      },
+      {
+        "before_line": 203,
+        "after_line": 207
+      },
+      {
+        "before_line": 208,
+        "after_line": 217
+      },
+      {
+        "before_line": 213,
+        "after_line": 226
+      },
+      {
+        "before_line": 221,
+        "after_line": 238
+      },
+      {
+        "before_line": 232,
+        "after_line": 249
+      },
+      {
+        "before_line": 233,
+        "after_line": 251
+      }
+    ],
+    "Before": "10f22a994b95335065ddbb867535b3fc6b4e2bc0840b5c52dc90b59f92f3b555",
+    "Changes": [
+      "脉冲法向统一；地震各层水平标尺匹配AOE；光炮专用冷色光谱、三维金环与激发蓝光；总12种资源",
+      "更正旧通用限制说明，把光炮新增三维环/电弧参考图哈希与真实源五层分别登记"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "cd093cfee336b009cb52c81ac2c18404cb5dc1b35c0c70ee3033fdbc50014045",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024051-027593\\edit-024051-039975\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024051-027593\\edit-024051-043295\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+    "Role": "八招动作与FCS生产者",
+    "Code location": [
+      {
+        "before_line": 80,
+        "after_line": 80
+      },
+      {
+        "before_line": 95,
+        "after_line": 95
+      },
+      {
+        "before_line": 205,
+        "after_line": 234
+      },
+      {
+        "before_line": 223,
+        "after_line": 252
+      },
+      {
+        "before_line": 249,
+        "after_line": 279
+      },
+      {
+        "before_line": 256,
+        "after_line": 286
+      }
+    ],
+    "Before": "ff96c592204cf58c7738bf588ac82dc53a58378fe3bbb9b871252504078d49c3",
+    "Changes": [
+      "地震右臂离线接地IK与左掌握点统一；开启全部八招；光炮半径4.5，公共权重0继续隔离"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "d07172221de393225f0c1100d296fcc2f933ce6796029d4b2da2c157439dda12",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-023625-199460\\edit-023625-200475\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-023625-199460\\edit-023625-203517\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\fx_optics.py",
+    "Role": "光炮参考结构",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "增加固定四条三维细管电弧；顶点数固定，不按10000射程扩增资源/查询"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "939a474ad57375dc7c37906be613f1e8217ef7f831dfff0452adbf4ab62fbad5",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\DriveBeam-Reference.png",
+    "Role": "用户光炮参考图",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "本轮材质/环面结构参考，非游戏预览"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "b567211b4a3a1b91942616f9726108fbaebe86dfaba0e1baf4f0cb289320a21e",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\DriveIon-Reference.png",
+    "Role": "源录像激发蓝光参考",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "原视频159.8秒真实帧，未声称找到了该粒子NIF"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "ad3e21c03497e662f9fb84c1d79bf4f11cd3a15bb1fc76a216307f37783c9ea3",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "binary",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+    "Role": "版本化非编译验证/组包门",
+    "Code location": [
+      {
+        "before_line": 12,
+        "after_line": 12
+      },
+      {
+        "before_line": 17,
+        "after_line": 17
+      }
+    ],
+    "Before": "5f3f39ca7b4c9373c2d3b43785930a40be3a57cc3c768694e5f6e22301ce24ba",
+    "Changes": [
+      "034合同、12资源、八招全启用；新增真实序列化光学/友军接触边界验证；旧033 DLL拒绝"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "a7c7371c1328bd2cc640f2e90ac81fd79cfca2d8d1b3ff02f8e048c05ab7b31a",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024512-818451\\edit-024512-852147\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024512-818451\\edit-024512-853208\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+    "Role": "光炮与地震回归",
+    "Code location": [
+      {
+        "before_line": 1,
+        "after_line": 1
+      },
+      {
+        "before_line": 13,
+        "after_line": 13
+      },
+      {
+        "before_line": 15,
+        "after_line": 15
+      },
+      {
+        "before_line": 32,
+        "after_line": 32
+      },
+      {
+        "before_line": 77,
+        "after_line": 77
+      },
+      {
+        "before_line": 79,
+        "after_line": 79
+      }
+    ],
+    "Before": "8c78e85280f1840b5a584b5bc8d3e5df26d8cadd0890bb59496dd635b2a2241f",
+    "Changes": [
+      "4.5平端圆柱边界反例；源五层+三维金环/电弧7层实际包络；八招配置"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "7917b02b2afdda374eab8b166cc6703f2d600f06ceffdd49b6857fd8a43d7c45",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024512-818451\\edit-024512-879222\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024512-818451\\edit-024512-881602\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+    "Role": "版本化非编译验证/组包门",
+    "Code location": [
+      {
+        "before_line": 33,
+        "after_line": 33
+      },
+      {
+        "before_line": 39,
+        "after_line": 39
+      }
+    ],
+    "Before": "715c8db1d122f07c72014b014210be45f997494f18781831365cf68d604be83d",
+    "Changes": [
+      "034合同、12资源、八招全启用；新增真实序列化光学/友军接触边界验证；旧033 DLL拒绝"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "1c5e586b6148a0ed72436299142bc4413a9643bb8e587621fc796024585cb51d",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024512-818451\\edit-024512-843146\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024512-818451\\edit-024512-845649\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_optics.py",
+    "Role": "独立几何测试数值类型",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本轮开始不存在",
+    "Changes": [
+      "独立方向反例使用浮点归一化，避免整数numpy数组原位除法；不改变生产者或命中逻辑"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "006dd8a328f1a97625ecde68e35f181c2b390eeb6a9def1cd6eea3c2a828b19b",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": []
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+    "Role": "瞄准和资源回归",
+    "Code location": [
+      {
+        "before_line": 43,
+        "after_line": 43
+      },
+      {
+        "before_line": 46,
+        "after_line": 46
+      },
+      {
+        "before_line": 63,
+        "after_line": 63
+      }
+    ],
+    "Before": "b3195a4b5a7a1f5b8c01e2ff33cc3e1f825ada5d846ff6e6d1ac80be65dcaca1",
+    "Changes": [
+      "保留大世界坐标反例与三层源脉冲大小；八招实际预热13类，纹理估计不冒充总显存"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "24e805871762bc578e8cabc1e19beb9e24cc3972a2f9505873102b426779c935",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024512-818451\\edit-024512-869750\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024512-818451\\edit-024512-871634\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_projectile_aim.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+    "Role": "远程合同参数验证",
+    "Code location": [
+      {
+        "before_line": 58,
+        "after_line": 58
+      },
+      {
+        "before_line": 61,
+        "after_line": 61
+      }
+    ],
+    "Before": "4806459670676901bf1b35e29fec09f22ec7f004cbbbae7995aa04d324857ffb",
+    "Changes": [
+      "034合同、12资源、八招全启用；新增真实序列化光学/友军接触边界验证；旧033 DLL拒绝",
+      "核对真实生产者四次R4.5光炮健康脉冲，不沿用旧R9断言"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "61e2d406caa5b6af30f10b0e95a0ef466215e8024dbe27b76d3f55699f52b219",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024512-818451\\edit-024512-833222\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024512-818451\\edit-024512-835111\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ranged_contract.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+    "Role": "火神回归验证",
+    "Code location": [
+      {
+        "before_line": 17,
+        "after_line": 17
+      },
+      {
+        "before_line": 21,
+        "after_line": 21
+      },
+      {
+        "before_line": 28,
+        "after_line": 28
+      },
+      {
+        "before_line": 87,
+        "after_line": 87
+      }
+    ],
+    "Before": "9c6385ead25cb5c7a7df0e63e6c25e59703376355a529a22bda95e9a514d78e4",
+    "Changes": [
+      "保留20发/球4.5/原生防御作用域检查；适配八招全开和独立三维光学材质"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "6860e185848e36a252b22c0e41958bcdae0e551212f0f5840852a475d8a778e6",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024512-818451\\edit-024512-860163\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024512-818451\\edit-024512-862490\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+    "Role": "版本化非编译验证/组包门",
+    "Code location": [
+      {
+        "before_line": 82,
+        "after_line": 82
+      },
+      {
+        "before_line": 103,
+        "after_line": 103
+      },
+      {
+        "before_line": 142,
+        "after_line": 142
+      },
+      {
+        "before_line": 144,
+        "after_line": 144
+      },
+      {
+        "before_line": 146,
+        "after_line": 146
+      },
+      {
+        "before_line": 148,
+        "after_line": 148
+      },
+      {
+        "before_line": 150,
+        "after_line": 150
+      },
+      {
+        "before_line": 157,
+        "after_line": 159
+      }
+    ],
+    "Before": "7c3ac7b1ac15f612bae307e077eaed582dd687c85bcacefe4248f1084eb70074",
+    "Changes": [
+      "034合同、12资源、八招全启用；新增真实序列化光学/友军接触边界验证；旧033 DLL拒绝"
+    ],
+    "Reasons": "用户九点地震/光炮/离子/弹体前向/开启近战/远程友军碰撞要求；见optics-0.3.4-evidence.json",
+    "After": "a2cb3feed5507800cf04b7d15ba76e4bd255a0d61f0f736f65fc64f94df481da",
+    "Impact": "仅IrisArsenal034源码/工具/资产；游戏033与滚5源文件不变",
+    "Validation": "validation-0.3.4.json：16动画、实际法向/范围/落锤/碰撞语义反例、SDK/语法；package-gate拒绝旧DLL；未编译/实机",
+    "Safety": {
+      "initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261017-024512-818451\\edit-024512-819596\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261017-024512-818451\\edit-024512-822638\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ],
+      "encoding": "UTF-8/LF",
+      "mojibake_scan": "passed",
+      "immediate_per_write_reports": "docs/change-reports",
+      "task_initial_backups": [
+        "D:\\CodexBackups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-034-20261017-025347-268632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ]
+    },
+    "Unresolved": "用户Release|x64 v100编译；HLSL/真实PhysX/实际视觉待验收；火神同位撞地根因未确认；金环/电弧/离子为参考重建，完整源NiPSys未移植"
+  }
+]

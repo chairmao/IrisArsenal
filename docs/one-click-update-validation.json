@@ -1,0 +1,60 @@
+{
+  "request": "package已删除，提供可从空目录恢复并更新固定游戏mod的一键脚本",
+  "entry": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\UpdateMod.cmd",
+  "pipeline": [
+    "现成DLL/进程预检",
+    "恢复模板、基础模型、诊断动画",
+    "生成当前八招与分层特效",
+    "完整非编译验收",
+    "组包现成DLL",
+    "游戏目标再检、双备份、原子逐文件同步、回读终验"
+  ],
+  "tests": {
+    "sync_sandbox_cases": 11,
+    "passed": 11,
+    "full_resource_validation": "passed",
+    "first_rebuild_from_empty_package": true,
+    "actual_cmd_exit_code": 0,
+    "compile": "not run by agent or script",
+    "game_tested": false
+  },
+  "deployment": {
+    "success": true,
+    "target": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal",
+    "version": "0.3.6",
+    "contract": "IRIS_EIGHT_036",
+    "files_verified": 106,
+    "files_written": 106,
+    "dll_sha256": "7259361d9a8149c697cb5b6fbdd226aa83bd41a2ebc5bb7f083b55638d492f82",
+    "backup_roots": [],
+    "audit": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\update-runs\\IrisArsenal-Update-20261017-112437-835035-1193a731",
+    "game_tested": false,
+    "compiled_by_script": false
+  },
+  "source_036_unchanged": [
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "same_as_036_source": true,
+      "sha256": "e86452359ba929eaa40ec0abaf7426f5502373e3211932bfbb79856a8941e5bb"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "same_as_036_source": true,
+      "sha256": "30dc51af604e1bb1d2cd23e9cadef5c550f93e94c112b41017330a40470f9656"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "same_as_036_source": true,
+      "sha256": "a3277b2d598dc5d329894666a099ffae9791b76ba440338c24b6fa2c5a91ea0e"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+      "same_as_036_source": true,
+      "sha256": "ff042c94aecd9079c73089c42e018c19d69bd63437e4262f2535a65b54f19c4a"
+    }
+  ],
+  "encoding": "现有脚本UTF-8与换行保持；CMD为UTF-8/CRLF；新文本UTF-8；配置合并测试UTF-8/BOM/UTF-16 LE/BE/GB18030与CRLF全部通过",
+  "backup": "原文件修改前双外部备份，具体见逐文件报告；本次实际游戏目录是空目录，没有旧游戏文件可备份",
+  "obsolete_generated_files": "6个历史无引用资源不再要求存在；现有游戏额外文件/日志不删除",
+  "remaining": "只证明文件恢复、部署与静态合同通过，0.3.6画面/性能/伤害仍需游戏测试"
+}

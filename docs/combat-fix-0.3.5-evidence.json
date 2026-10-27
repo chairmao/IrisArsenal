@@ -1,0 +1,82 @@
+{
+  "version": "0.3.5",
+  "contract": "IRIS_EIGHT_035",
+  "source_session": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-CombatFix-035-20261017-032005",
+  "actual_run": {
+    "PID": 12472,
+    "created_FILETIME": "134366505916762257",
+    "version": "0.3.4",
+    "executable": "D:/steam/steamapps/common/Kenshi/kenshi_x64.exe",
+    "plugin_log": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\logs\\IrisArsenal-20261017-025701-376-12472.log",
+    "log_sha256": "b9594a337b31ab1aaa6016ddc935357c05ec82c00115fc7c4fe4ba8f0b79d11f",
+    "drill_cast_start": "2026-10-17 03:08:20.502 [IrisArsenal 0.3.4] action_start cast=63 move=drill events=12 native_root=1",
+    "event_before_failure": "2026-10-17 03:08:22.777 [IrisArsenal 0.3.4] event_emit cast=63 move=drill event=5 type=3 clip=2.76064",
+    "first_invalid_query": "2026-10-17 03:08:22.779 [IrisArsenal 0.3.4] eight_query_retry status=3 issue=hit_fraction_out_of_range reason=physx_2_8_4_6_typed_api consumed=0 automatic_disable=0",
+    "retry_lines": 16,
+    "last_action_start": "2026-10-17 03:09:35.261 [IrisArsenal 0.3.4] action_start cast=85 move=drill events=12 native_root=1",
+    "shutdown": "2026-10-17 03:14:07.307 [IrisArsenal 0.3.4] eight_clear reason=renderer_shutdown",
+    "crash_assertion": false
+  },
+  "confirmed_defect": {
+    "location": "IrisCombat.cpp::ResolveJobs",
+    "old_behavior": "Contacts失败直接return，Job保留在FIFO首，后续全部伤害Job不能结算",
+    "inference": "与用户后半程演出继续却无伤害的症状高度一致；旧日志没有作业游标/真实t，不能确认每一条失败值或实际HP变化",
+    "actual_fraction": "[MISSING] 034没有输出rawFraction",
+    "native_hit_logs": 64,
+    "native_hit_log_limit": 64,
+    "log_limit_is_not_last_damage_time": true
+  },
+  "material_errors": [
+    "02:57:18: Compiler error: invalid parameters in iris_drill_optics.material(12): scene_blend does not support \"replace\" for argument 1",
+    "02:57:18: Compiler error: invalid parameters in iris_drill_optics.material(43): scene_blend does not support \"replace\" for argument 1",
+    "02:57:18: Compiler error: invalid parameters in iris_drill_optics.material(74): scene_blend does not support \"replace\" for argument 1",
+    "03:00:27: Compiler error: invalid parameters in iris_drill_optics.material(12): scene_blend does not support \"replace\" for argument 1",
+    "03:00:27: Compiler error: invalid parameters in iris_drill_optics.material(43): scene_blend does not support \"replace\" for argument 1",
+    "03:00:27: Compiler error: invalid parameters in iris_drill_optics.material(74): scene_blend does not support \"replace\" for argument 1"
+  ],
+  "speeds": {
+    "vulcan": {
+      "before": 320,
+      "after": 800,
+      "factor": 2.5
+    },
+    "pulse": {
+      "before": 220,
+      "after": 440,
+      "factor": 2
+    }
+  },
+  "quake": {
+    "shape": "actual 3D sphere",
+    "radius": 36,
+    "source_flame_layers": 6,
+    "layer_horizontal_peak_radii": 36,
+    "not_constant_filled_sphere": true
+  },
+  "drill_finisher": {
+    "video_seconds": [
+      237,
+      242
+    ],
+    "source_chain": "IrisPayload EXDrillSHOOT → Iris SPEL8D5 → MGEF8D7(script) → SPEL8D8 → MGEF8D6 / RimSkills MGEF0B57 → PROJ0B56 → EXPL0B55 ALSExp + ARTO0B5E ALSshockExp",
+    "missing_files": [
+      "meshes/ALS/ALSExp.nif",
+      "meshes/ALS/ALSshockExp.nif"
+    ],
+    "checked_loose_tree": "E:/skyrimspecialedition",
+    "adaptation": [
+      "SW/Iris/shoutareaexplosionsmall01.nif source3 layers",
+      "SW/Iris/explosionwarm0.nif source6 layers"
+    ],
+    "duration_game_seconds": 2.4,
+    "radius": 60,
+    "damage_multiplier": 5,
+    "full_original_port": false,
+    "EXDrill2_skinned_final_form_ported": false
+  },
+  "verification": {
+    "compiled": false,
+    "deployed": false,
+    "live_game_test": false
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "contract": "IRIS_COMBAT_POLICY_061",
+  "source_version": "0.4.18",
+  "tests": {
+    "run": 12,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "qualification_combinations": 16384,
+  "collision_ordering_cases": 4000,
+  "syntax": [
+    {
+      "file": "IrisArsenal.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/FiniteCylinder.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisDiagnostics.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisDiagnostics.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    }
+  ],
+  "runtime_files_preserved": 138,
+  "deployed_dll": {
+    "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.dll",
+    "sha256": "13f5149b76a611d5a7d935dbf46c4ae12b23f396b822dba0f1a44f6ba4232f3d",
+    "contains_060": true,
+    "contains_061": false,
+    "binary_version": "not_changed_by_task; current observed 0.4.17/060"
+  },
+  "encoding": [
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "UTF8_BOM": false,
+      "CRLF": 467,
+      "LF": 467,
+      "sha256": "0c0987789da1e2b86f2bc9235deb57dc537ff3139cf752335bf6e9b8880bef56",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "UTF8_BOM": false,
+      "CRLF": 0,
+      "LF": 26,
+      "sha256": "e7ba3260a6c2e1d326595db403b25fa391c35eff319fa288850134545226d0ec",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "UTF8_BOM": false,
+      "CRLF": 1189,
+      "LF": 1189,
+      "sha256": "a47641f52825cea66b8a325f61a4012421b580bc909e7ee10bbef47261c157d8",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+      "UTF8_BOM": false,
+      "CRLF": 27,
+      "LF": 27,
+      "sha256": "63928e727c21ba14ca842e19492706ef685ddad50b26e0bf2a83f94b6495ecca",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+      "UTF8_BOM": false,
+      "CRLF": 146,
+      "LF": 146,
+      "sha256": "6e32483985741c8c9c89ea6266ddc59919e93cf3d2a4a795cf7776bf4fb0af05",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.cpp",
+      "UTF8_BOM": false,
+      "CRLF": 316,
+      "LF": 316,
+      "sha256": "33569bad8a06133b419b4d2cb841347b4f468c9869e409be58d60af4e612649f",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisRanged.h",
+      "UTF8_BOM": false,
+      "CRLF": 27,
+      "LF": 27,
+      "sha256": "ffb90fd7bd1304cc1b664177d979e386cd6d2660e6fa7aeb9dc56606d5ce7161",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+      "UTF8_BOM": false,
+      "CRLF": 0,
+      "LF": 192,
+      "sha256": "f35960859e1c52e8c205538f5b52647c77f79a4bc906fa46383d06897ffb8aa3",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\native-combat-061-baseline.json",
+      "UTF8_BOM": false,
+      "CRLF": 0,
+      "LF": 161,
+      "sha256": "f29f83bec1ff3be6338801b30f8613ae85f60a6040734bfa1fe43ac227ba6a7f",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+      "UTF8_BOM": false,
+      "CRLF": 0,
+      "LF": 192,
+      "sha256": "448ef515b8950350b2d5390faf66ca2024e5dd78c37529352cc9935d352e0dc5",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "UTF8_BOM": false,
+      "CRLF": 0,
+      "LF": 168,
+      "sha256": "63668a49e2086aa33c864934bd43d3b48490d18c76587f7db69d303d601c876b",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "UTF8_BOM": false,
+      "CRLF": 0,
+      "LF": 56,
+      "sha256": "d8473e9667470f61632edacc8dba547b3dd1f22bd9969ef724e891b13bdb4d5b",
+      "Chinese_checked": true
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_native_combat061.py",
+      "UTF8_BOM": false,
+      "CRLF": 0,
+      "LF": 186,
+      "sha256": "768caa3a77d7bd99aca5041e522f882d6f32c778dbd9f4f7c02245ed49ac7b8a",
+      "Chinese_checked": true
+    }
+  ],
+  "compile": "not_run_by_skill_policy",
+  "CXX_executed": false,
+  "PhysX_executed": false,
+  "game_tested": false,
+  "deployed": false,
+  "tests_are": "source expression evaluation, specification models, original function/resource hashes, real SDK/PE exports; not compiled behavior",
+  "known_boundaries": [
+    "原生YES/NO/MAYBE、装填和走位保留；本任务未实现受阻自动换位",
+    "已过原生起手许可后的每发只进行既有真实物理查询，不重跑takeTheShotCheck",
+    "原生受击可能格挡/闪避；三远程保持不额外绕过的用户策略",
+    "no_hit_expiry does not create Blast; up to existing64 projectiles, no added concurrency capacity"
+  ]
+}

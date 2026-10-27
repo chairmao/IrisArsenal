@@ -1,0 +1,792 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+    "Role": "八招特效来源与差异",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "c8157bb0ee68d67a13c359739a3e16ba298dcd460fff6f21ccee10a78a418a35",
+    "Changes": "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "d76da723c3730947b9f59a1958daf8bc763a103dac9a6b364234b84b2817c2bd",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190446-609325\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190446-610817\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+    "Role": "事件与动作规格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "f19a53d403977d48ded6380a2212f4b801b72e5e0716cffaf002e9ee3412eac6",
+    "Changes": "火神球半径改4.5，20个源发射事件与其他招式规格不变",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "0a83ab29ca3be009c5f0155b9869740083dd5f1b1ad7290fd7e7b36c1e41aa05",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190108-194672\\edit-190108-235610\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190108-194672\\edit-190108-239048\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.2.1.json",
+    "Role": "八招非编译验收证据",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "16份真实骨架/握点、源事件、8个特效网格、源纹理、FCS、查询接口和语法树",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "b5642a123a5c90a295825513a8a4461c0e1de6572c92265f0fcbbd57b0f9f13e",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\vulcan-fix-0.2.1-source-readonly.json",
+    "Role": "源模组只读验收",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "全部376份原始源文件hash与只读研究基线一致",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "8b5897c1511f5b7e2b58a617c25317b284bb7425013386c0bf5505c858f507d3",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\vulcan-fix-0.2.1-validation.json",
+    "Role": "火神修复验证与部署边界",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "保存源绑定、静态专项、0.2.0兼容参数已安装、新版待编译及双备份收据",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "57bf1858c2a034e15649e655e39987056e2fa5182e0eafcc8758ee2309a3e101",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\vulcan-fix-0.2.1.md",
+    "Role": "本轮原因/设计/验收与操作",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "记录6项需求、源证据、窄域原生防御适配、已部署参数和待编译完整修复",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "61b68353b659d9e1277ee565b69ace1434beea10db6b00da9229a6a216daa084",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+    "Role": "插件启动及版本",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "ce4c0db30f119e44692a9859e5564067ffe180022ba05686f6eadf101ce982ae",
+    "Changes": "0.2.1合同；使用类型化SDK入口安装火神防御门，失败保留原生转发",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "7f8230dda817b6acc6b27536c07c2efb8bde2e381935831540090b8e4b6f0c07",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190402-783348\\edit-190402-793401\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190402-783348\\edit-190402-795409\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ],
+      "encoding": "UTF-8/CRLF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+    "Role": "DLL版本资源",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "f4534c885bf048ccd62c3fff577e5f8e858c9bb4f27488202af9f95ac5e62304",
+    "Changes": "标识0.2.1火神修复，用户编译后与日志/资源合同一致",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "f9618a0935ee5ed5744923da7f1c9b66011e9fdd21ac0c4cfb46ba207263af2c",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190402-783348\\edit-190402-806453\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190402-783348\\edit-190402-807482\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+    "Role": "目标瞄准兼容边界",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "19c34ca2dde30df028bfa32892200670f41f87254819acde26fc35a468d26d98",
+    "Changes": "删除本机Ogre没有的旧版包围盒接口；标准骨点优先，未知骨架明确回退root+8",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "3c09014d5ffea8ddcfec882d96ff740754d9b71d22cf989769803acb687ae0f5",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190721-712637\\edit-190721-719761\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190721-712637\\edit-190721-721857\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ],
+      "encoding": "UTF-8/CRLF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+    "Role": "八招接口",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "d1d4bd958377a091dc7866c88d4932639a9fbcfe742a45b726d341012f3d39a0",
+    "Changes": "声明火神专用同步防御门初始化，安装发生于启动期、原生选招钩子之前",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "3577db5b2db6da35d3bce6c67581de672eceb3411fc820db00685df17a7fc467",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190402-783348\\edit-190402-784348\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190402-783348\\edit-190402-786792\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.h"
+      ],
+      "encoding": "UTF-8/CRLF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+    "Role": "运行时显式子材质绑定",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "134ada885fa687d109c870fe1197f3aee3f413de45d303ecd7faf061b4fa92f7",
+    "Changes": "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "4d78f587f5649ce362ad6c4aea03656cb399d971681275d9b9c97092ada34050",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190446-615329\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190446-617487\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+    "Role": "源效果观察方向参数",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "cd701e104e14a8a7a00a95778e79654905e147fd4147571c2b5a01cdcabb7db9",
+    "Changes": "相机auto常量按现有可用钻头shader的float3声明匹配；不读取未定义第四分量",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "2d3b3f268793d086d48e236178f5061e8eda2e2611ac65732860733399e21dc8",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-191324-970043\\edit-191324-986937\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-191324-970043\\edit-191324-989089\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+    "Role": "八招源材质",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "eeff062f3230574f2d74344a97ccf804e07a0f8358c532349fd1ede592e03d97",
+    "Changes": "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "a0d64023f9d3760715e96465277d027ac01ba13d79818aca1640badfbb0106f9",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190446-596313\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190446-598322\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+    "Role": "真实轨迹程序",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "8dbc8561eb72aa4f8bf8278d9c7fe058d05893742c80977cf539bb7eaa054e4f",
+    "Changes": "沿用源火色梯度与实际历史alpha，不新增伤害",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "a745b8a37b5615fc70cb56d9f28ce5fdbfcba098caff0a083d9d3dca8c6ba927",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190446-601690\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190446-603690\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_09f4ab23d626acd4.png",
+    "Role": "源贴图同像素PNG",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "bc2f984cfd2bc2abe73fa8e36a4b3b4bb153e0e6c123158ea41a0663ce07484d",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_7134220220e8e934.png",
+    "Role": "源贴图同像素PNG",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "d4296ac011c00bc403ca25b680e1bf43b6f9740c81849a445f87de89e0483a99",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "62746cbf9889d3e667930cfb3c7e9703aaa868ada7efb04a5338550e6bbc5573",
+    "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "1a481bbd7330efbfb350d3e7bf9d6a7e06b1c5f44404af520e4d9be1682fe90e",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190445-625640\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190445-627778\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_beam.mesh"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_blade.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "9dd629f28e44004f68f8ee332f2f86de0a4eb7b2bbe88eadbf3e494ca24d4778",
+    "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "3864d3137623ccf325252b9f80743c33119aaf443d9c9f449e09bb164bbbb7e2",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190442-982869\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_blade.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190442-985891\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_blade.mesh"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_blast.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "2f1c5fe3c8288ddd8bebaa34bef4eaeb45b84a219909d905c74dbd06d12038c2",
+    "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "e92f2463be7b082c9438eddf8856361c0e3b2ebdecd4df3aad8970031795d204",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190444-167396\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_blast.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190444-169459\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_blast.mesh"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_bullet.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "250845d035ed5636c0a7b5d941a07fa9d9c86c04c0d569e7585decd99bbf2e10",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_c823e561a1cd77ff.png",
+    "Role": "源贴图同像素PNG",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "01cb6fe8d44e5c2301d512c5487438d2e8a9ec819d1d3c53b407c1f1c42f0fcb",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_exhaust.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "21dbf4a79dc6e9e5e1cf38f3090689c90f6935a1ec5a62d587566be7e040fbc1",
+    "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "d8f2d7fd970222b24ac22cf9dce77ec02f371463a0521e13d787627edfa8e7b1",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190445-044150\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_exhaust.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190445-046938\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_exhaust.mesh"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_gun.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "bada5f155b5858e87b5f0f52c9c6c42e2ec53f2f9ba550933bf96b6826c9ccca",
+    "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "a862fb18b227017aad62e3a52c0e0b9b6dea54135c9c373fcda22b6841a92c20",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190442-319951\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_gun.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190442-323002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_gun.mesh"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "fd7f3464138a369f4586b8ec9c93b6334dd3eeb50f1bb3d05bcc6a0c79ad1980",
+    "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "5bdb48e62cbfc6b31e7b616d3294c1ae66f3eb8a9b0687a2da2b472164af339f",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190445-318002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190445-322850\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_heavy.mesh"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shell.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "2165bca57e6a9982299f7d3fb4680c8cfe9a659d2bc05a4c1721ed75068d4696",
+    "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "d53f55b9fd74681b850271692111166cb656a57df5416dbeb0420a786ccdca46",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190443-089037\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shell.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190443-090065\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shell.mesh"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+    "Role": "八招源特效网格",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "539174589b4d3d4cb1656e02f38e890879432ec936091b82774a576ac22d4d9b",
+    "Changes": "源几何/法线/UV/RGBA，不生成廉价替代模型；源时间和透明采用独立明确适配",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "8557a50cef77f9795b5eeef94e563f82c2118afeb5eb85ffee1bfcb4bc351d24",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190439-314801\\edit-190444-643663\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190439-314801\\edit-190444-646698\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_shock.mesh"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+    "Role": "运行时事件参数",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "392b0aecfbf2aef6e3fcfd0aed8c2db88bc7757f3593ffa71d47409a49770ab9",
+    "Changes": "火神20发各自碰撞/爆炸半径4.5，不改事件时间/伤害倍率",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "12dcd7c30e8d453fd00ebba435a9f5509a1ef6b6ff810a4108525575882ab0f4",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190108-194672\\edit-190108-636638\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190108-194672\\edit-190108-638921\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\moves.csv"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "单招测试配置",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "c493364b472fc18c7b7921d4cfb594937d53529990acd835803c966189f5b55d",
+    "Changes": "仅vulcan=1，其他7招=0；保留启用、伤害与日志等配置",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "5f780391c89a9e3e936c420cda4e9dff122059e43117afb8c05e64e1e1988c32",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190108-194672\\edit-190108-644629\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190108-194672\\edit-190108-647671\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+    "Role": "八招隔离FCS记录",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "e1fb07ed70fbaca84cc39b5b97f02a2e634b2333acae99f215f1c1ddb8c14101",
+    "Changes": "武器恢复测试伤害；8招公共chance0/disabled；native gainsGround和FCS起手距离",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "1ea339e4cd68465d99ca8a93bdb5ede8b25ef876dd4510f3b8a63611d57eb90d",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190108-194672\\edit-190108-624325\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190108-194672\\edit-190108-626669\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "Role": "当前待编译包身份",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "89decd7e75ff3de2117eae68b4c812ed0547e19344d48b599732d27584f2ff06",
+    "Changes": "记录最后float3相机参数资产哈希；保持ready=false和旧DLL拒绝边界",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "396c6a02cb70d5d704ce2f89dd5f88ef8d6b3cc7e6cd87aa1ea9b3a4a0bc041a",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-191549-943015\\edit-191550-041856\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-191549-943015\\edit-191550-045129\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "Role": "项目入口及当前测试参数",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "4497adfc99d533451fa3e7d4815788bdfce34fb1e27362f71745d01c351bbce0",
+    "Changes": "前置当前0.2.1单招范围/测试区间与未编译未整包部署事实，历史八招资料保留",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "36cc87426041a123741bc7985cde66f39f56b10c6beb4dda272904e728d97870",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-191549-943015\\edit-191550-054783\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-191549-943015\\edit-191550-056876\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "Role": "当前状态交接",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "65474dc5f03ed85b19a3c2ee83fc05f74f3fff256954bf682b14fd7a223af5d7",
+    "Changes": "准确记录0.2.1待编译、0.2.0兼容参数已同步和用户下一步；不把静态通过当实机",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "f58023a5a62969db0074be86661153fd6e7e879d4289e8f3bedb12585e808212",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-191549-943015\\edit-191550-061792\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-191549-943015\\edit-191550-063000\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+    "Role": "源效果观察方向参数",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "cb78db17456b1e7870d44a5a907d183337b33ec2efa79fe19ea4fd028cfbf2b0",
+    "Changes": "相机auto常量按现有可用钻头shader的float3声明匹配；不读取未定义第四分量",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "3300445a16eddacb08da14817e82c4ab535f2c53fb2006fd57bda2b0161ee27b",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-191324-970043\\edit-191324-971984\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-191324-970043\\edit-191324-974379\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+    "Role": "动作参数与FCS生成器",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "e45967456280fad461044551442a41b66effea2347670356635c2975eda4d653",
+    "Changes": "火神20发各球R4.5；武器基础切割/钝伤0.1，所有招式倍率保持，不重做动画",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "fc3ecab92c7fc2de9d1a8774ba46806cd66d81279f91210c1205b1f071dbeb4e",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190108-194672\\edit-190108-200949\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190108-194672\\edit-190108-205227\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_legacy_nif.py",
+    "Role": "LE源光学参数读取",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "1d7b8f72497e913cf399f63cc72f8cd7ff6fe37ed315df3b0de51f261d048036",
+    "Changes": "保留已读取的shader_flags给统一材质生产者，不改几何或ABI",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "cbbc2f9a235a9d5b24d81de2a666c4d61b8bb607e117c02fade5926e18fb38a7",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190218-850626\\edit-190218-852210\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_legacy_nif.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190218-850626\\edit-190218-854215\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_legacy_nif.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\source-cache\\FireballProjectile01.nif",
+    "Role": "源火神炮真实火球缓存",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "只读本机Skyrim - Meshes1.bsa指定文件；保留原字节供可重复资产生成",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "f8fd57a3e4fe73cfc1558813446d7187f4120673b7f0a718b474eb4bb5a114db",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+    "Role": "完整组包门禁",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "181c1d5b4477a253d9cf5b2941cd8b9a9ea35cd175f764df6117217cc0f71944",
+    "Changes": "只接受用户重新编译0.2.1合同，拒绝用0.2.0 DLL消费9类FX及新瞄准/破防代码",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "cb35180b9d5496c6dc7b08ab8443b2cc9eb83bacfdd5475d38d070740cc8a0df",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190402-783348\\edit-190402-810729\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190402-783348\\edit-190402-813894\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+    "Role": "火神专项读取边界",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "本任务开始前不存在",
+    "Changes": "以Path读取已登记的源文件，保持读取器现有严格输入接口",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "6f0a6cb53ee5dcf6938d238d2275f55a35ce5c2266b4b4429a5d04b0a2515434",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190900-459499\\edit-190900-461170\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190900-459499\\edit-190900-463863\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+    "Role": "0.2.1完整静态验收入口",
+    "Code location": "新增独立单元/生成区域",
+    "Before": "78ebf6cdccdeed914b6c1231d59bb04c737b8e8ccc60c0e4cd4c7b817d51d205",
+    "Changes": "更新9类FX、基础伤害0.1、新合同与8钩子；保留16动画真实FCS路径检查并接入火神专项检查",
+    "Reasons": "用户本轮六项要求：火神炮单招、原生武器伤害1/10、R4.5球体、身体瞄准、源特效黑色修复、已物理命中后无法格挡/闪避",
+    "After": "eb482b0fe2248bcd0bb020bc961103c1c39d57c325bae791b69283352e4e673a",
+    "Impact": "只写IrisArsenal项目；完整0.2.1未编译未部署；仅旧DLL兼容测试参数已同步游戏，细见收据",
+    "Validation": "docs/validation-0.2.1.json：FCS16引用/源资产9份/27混合材质/事件20发/球包络/单招伤害/TLS静态边界/SDK符号/语法树；非MSVC/GPU/实机",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261016-190721-712637\\edit-190721-727322\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261016-190721-712637\\edit-190721-730493\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ],
+      "encoding": "UTF-8/LF"
+    },
+    "Unresolved": "用户Release|x64 v100编译、完整组包和实机；不能据静态宣称画面或防御效果已通过"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini",
+    "Role": "0.2.0兼容测试参数",
+    "Code location": "IrisArsenal.ini",
+    "Before": "c493364b472fc18c7b7921d4cfb594937d53529990acd835803c966189f5b55d",
+    "Changes": "仅火神权重1、基础cut/blunt0.1、20发球半径4.5",
+    "Reasons": "用户仅测试火神炮、武器基础1/10、子弹球R4.5的明确要求",
+    "After": "4e9924ed8a71bcf3af30d1801a625189bdffdb355c612ea588c9402672d84d0f",
+    "Impact": "只同步旧DLL可读取参数；完整0.2.1修复尚未部署",
+    "Validation": "字节回读/参数解析；重启游戏待用户",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini"
+      ],
+      "encoding": "UTF-8/original line endings"
+    },
+    "Unresolved": "新瞄准/火球材质/无法格挡闪避仍需用户编译0.2.1"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod",
+    "Role": "0.2.0兼容测试参数",
+    "Code location": "IrisArsenal.mod",
+    "Before": "e1fb07ed70fbaca84cc39b5b97f02a2e634b2333acae99f215f1c1ddb8c14101",
+    "Changes": "仅火神权重1、基础cut/blunt0.1、20发球半径4.5",
+    "Reasons": "用户仅测试火神炮、武器基础1/10、子弹球R4.5的明确要求",
+    "After": "1ea339e4cd68465d99ca8a93bdb5ede8b25ef876dd4510f3b8a63611d57eb90d",
+    "Impact": "只同步旧DLL可读取参数；完整0.2.1修复尚未部署",
+    "Validation": "字节回读/参数解析；重启游戏待用户",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod"
+      ],
+      "encoding": "binary"
+    },
+    "Unresolved": "新瞄准/火球材质/无法格挡闪避仍需用户编译0.2.1"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json",
+    "Role": "当前0.2.0安装清单",
+    "Code location": "IrisPackage.json",
+    "Before": "89decd7e75ff3de2117eae68b4c812ed0547e19344d48b599732d27584f2ff06",
+    "Changes": "记录实际参数更新，明确0.2.1完整修复未部署",
+    "Reasons": "用户仅测试火神炮、武器基础1/10、子弹球R4.5的明确要求",
+    "After": "a24a8d315f8b376b6dedd4cbbd95cc97cc5888bc57b50483a349767077a32835",
+    "Impact": "只同步旧DLL可读取参数；完整0.2.1修复尚未部署",
+    "Validation": "字节回读/参数解析；重启游戏待用户",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json"
+      ],
+      "encoding": "UTF-8/original line endings"
+    },
+    "Unresolved": "新瞄准/火球材质/无法格挡闪避仍需用户编译0.2.1"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\assets\\moves.csv",
+    "Role": "0.2.0兼容测试参数",
+    "Code location": "assets/moves.csv",
+    "Before": "392b0aecfbf2aef6e3fcfd0aed8c2db88bc7757f3593ffa71d47409a49770ab9",
+    "Changes": "仅火神权重1、基础cut/blunt0.1、20发球半径4.5",
+    "Reasons": "用户仅测试火神炮、武器基础1/10、子弹球R4.5的明确要求",
+    "After": "12dcd7c30e8d453fd00ebba435a9f5509a1ef6b6ff810a4108525575882ab0f4",
+    "Impact": "只同步旧DLL可读取参数；完整0.2.1修复尚未部署",
+    "Validation": "字节回读/参数解析；重启游戏待用户",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\assets\\moves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\assets\\moves.csv"
+      ],
+      "encoding": "UTF-8/original line endings"
+    },
+    "Unresolved": "新瞄准/火球材质/无法格挡闪避仍需用户编译0.2.1"
+  }
+]

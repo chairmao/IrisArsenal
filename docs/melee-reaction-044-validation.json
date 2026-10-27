@@ -1,0 +1,138 @@
+{
+  "version": "0.4.4",
+  "code_contract": "IRIS_MELEE_REACTION_044",
+  "full_noncompile_validation": "validation-0.4.4.json",
+  "reaction": {
+    "version": "0.4.4",
+    "protected_move_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    "excluded": [
+      5,
+      6,
+      7,
+      9
+    ],
+    "reaction_pipeline_model_cases": 980,
+    "suppressed_model_cases": 420,
+    "invalid_boundaries": 75,
+    "unchanged_functions": 9,
+    "unchanged_resource_files": 134,
+    "hooks": 18,
+    "medical": "one native wound before reaction; only _getHit(false) retained",
+    "compiled": false,
+    "game_tested": false,
+    "model_is_runtime_proof": false
+  },
+  "block_regression": {
+    "code_contract": "IRIS_MELEE_BLOCK_043",
+    "protected": [
+      "drill",
+      "earthquake",
+      "electro_cannon",
+      "fire_roll",
+      "full_burst",
+      "spiral"
+    ],
+    "excluded": [
+      "hammer_combo",
+      "vulcan",
+      "pulse",
+      "drive"
+    ],
+    "native_transition_model_cases": 440,
+    "invalid_window_boundaries": 14,
+    "unchanged_native_functions": 7,
+    "unchanged_package_files": 134,
+    "old_same_asset_contract_DLL_rejected": true,
+    "compiled": false,
+    "game_tested": false,
+    "model_is_runtime_proof": false
+  },
+  "sync_tests": {
+    "count": 11,
+    "passed": 11,
+    "actual_deployment": false
+  },
+  "syntax": [
+    {
+      "file": "IrisArsenal.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/FiniteCylinder.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    }
+  ],
+  "unchanged_game_files": 136,
+  "unchanged_package_files_including_old_DLL": 135,
+  "backups": [
+    "D:/CodexBackups/IrisArsenal-MeleeReaction-044-20261017-223621-064978",
+    "E:/AIWorkSpace/_backups/IrisArsenal-MeleeReaction-044-20261017-223621-064978"
+  ],
+  "encoding": "C++/h UTF-8 no BOM + CRLF; other existing UTF-8/LF retained; new UTF-8/LF",
+  "compiled": false,
+  "game_tested": false,
+  "FPS_measured": false
+}

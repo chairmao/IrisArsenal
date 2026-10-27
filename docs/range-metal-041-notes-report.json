@@ -1,0 +1,19 @@
+{
+  "File": "E:\\AIWorkSpace\\_notes\\code-notes.md",
+  "Role": "共用经验日志追加",
+  "Code location": "文件末尾新增041条目",
+  "Before": "0f8eb265ca98ca07a3b8ad4fe14f55620f52193b197e687346cab7daf30d160a",
+  "Changes": "更新040显示归一与源灰金属认识；保留全部历史",
+  "Reasons": "本轮用户代码/素材定范围与源材质核对",
+  "After": "9d5da06d7c37766674de3260a1438d69e64f8b36b727586ed69eb10d724e1f9f",
+  "Impact": "只追加经验，不改其他项目源码",
+  "Validation": "原字节前缀相同/UTF-8回读/新增中文乱码扫描",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\Iris041Notes-20261017-182722-914638\\E\\AIWorkSpace\\_notes\\code-notes.md",
+      "E:\\AIWorkSpace\\_backups\\Iris041Notes-20261017-182722-914638\\E\\AIWorkSpace\\_notes\\code-notes.md"
+    ],
+    "encoding": "UTF-8/CRLF"
+  },
+  "Unresolved": "用户编译和实机观感待验收"
+}

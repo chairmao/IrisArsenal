@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1-IrisArsenal.mod",
+    "type": 2,
+    "name": "伊莉丝·锤枪"
+  },
+  {
+    "id": "2-IrisArsenal.mod",
+    "type": 112,
+    "name": "IrisArsenal drill proof animations"
+  },
+  {
+    "id": "3-IrisArsenal.mod",
+    "type": 17,
+    "name": "IrisArsenal Drill Proof"
+  },
+  {
+    "id": "4-IrisArsenal.mod",
+    "type": 21,
+    "name": "伊莉丝锤枪·验证原型"
+  },
+  {
+    "id": "30-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris fire_roll animations"
+  },
+  {
+    "id": "10-IrisArsenal.mod",
+    "type": 17,
+    "name": "火焰翻滚"
+  },
+  {
+    "id": "31-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris spiral animations"
+  },
+  {
+    "id": "11-IrisArsenal.mod",
+    "type": 17,
+    "name": "螺旋飞舞"
+  },
+  {
+    "id": "32-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris earthquake animations"
+  },
+  {
+    "id": "12-IrisArsenal.mod",
+    "type": 17,
+    "name": "地震"
+  },
+  {
+    "id": "33-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris drill animations"
+  },
+  {
+    "id": "13-IrisArsenal.mod",
+    "type": 17,
+    "name": "螺旋袭击钻天破"
+  },
+  {
+    "id": "34-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris full_burst animations"
+  },
+  {
+    "id": "14-IrisArsenal.mod",
+    "type": 17,
+    "name": "全力爆发"
+  },
+  {
+    "id": "35-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris vulcan animations"
+  },
+  {
+    "id": "15-IrisArsenal.mod",
+    "type": 17,
+    "name": "极速火神炮"
+  },
+  {
+    "id": "36-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris pulse animations"
+  },
+  {
+    "id": "16-IrisArsenal.mod",
+    "type": 17,
+    "name": "脉冲之焰"
+  },
+  {
+    "id": "37-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris drive animations"
+  },
+  {
+    "id": "17-IrisArsenal.mod",
+    "type": 17,
+    "name": "极致驱动"
+  },
+  {
+    "id": "38-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris electro_cannon animations"
+  },
+  {
+    "id": "18-IrisArsenal.mod",
+    "type": 17,
+    "name": "电脉加农"
+  },
+  {
+    "id": "39-IrisArsenal.mod",
+    "type": 112,
+    "name": "Iris hammer_combo animations"
+  },
+  {
+    "id": "19-IrisArsenal.mod",
+    "type": 17,
+    "name": "破坏之锤"
+  }
+]

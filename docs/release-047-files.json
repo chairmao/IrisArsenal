@@ -1,0 +1,1954 @@
+{
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "Role": "动画资产作者",
+      "Code location": "export_body",
+      "Before": "火神/光炮沿源低枪口姿态",
+      "Changes": "脚底标尺1.5倍枪口高度；双手离线IK",
+      "Reasons": "实际武器和发射/物理位置共同跟随，无运行时偏置",
+      "After": "597a6ebe27114035b523c87d4f285be7e39a9e7701904be65bf0bcb6d527b9e5",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "51bd70c5fdf000ca6bfdc25284d12aad4f6096dbf5cf59e59669a0ed24f55457"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-031405-805473-author_moves.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "Role": "FCS资源作者",
+      "Code location": "武器记录",
+      "Before": "旧图标取景沿用薙刀",
+      "Changes": "共用icon_camera.apply",
+      "Reasons": "重建package后保持正确取景",
+      "After": "d02dc350a508ef1daf266484d5572781ecfd19e2e8429a93c4e088a1af59eb59",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-icon\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-icon\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "597a6ebe27114035b523c87d4f285be7e39a9e7701904be65bf0bcb6d527b9e5"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-031852-120832-author_moves.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "Role": "动画重建合同",
+      "Code location": "export_body尾部",
+      "Before": "选择性导出才带高度说明",
+      "Changes": "每次作者导出都记录同一高度审计",
+      "Reasons": "完整重建不能丢弃047声明",
+      "After": "e3b5ebb36bcb0b3ac593fd510147f677dd331c8eea97c6517376708eb2dd0682",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "d02dc350a508ef1daf266484d5572781ecfd19e2e8429a93c4e088a1af59eb59"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032358-121124-author_moves.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "Role": "离线持械高度",
+      "Code location": "export_body远程权重",
+      "Before": "整段抬高会影响收枪高举",
+      "Changes": "仅射击窗口和前后0.2秒过渡抬高",
+      "Reasons": "避免收招时对不可达目标强求IK，出弹高度仍精确1.5",
+      "After": "a1592c1383ec750904f515c7692bdaec6245a2b43a912319d1f028146df44060",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "e3b5ebb36bcb0b3ac593fd510147f677dd331c8eea97c6517376708eb2dd0682"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032838-432822-author_moves.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "Role": "脚底标尺校准",
+      "Code location": "export_body远程抬高",
+      "Before": "以离地约0.95的脚骨中心作基准",
+      "Changes": "扣除原生骨架静止Foot高度，对脚底平面精确乘1.5",
+      "Reasons": "符合用户离地高度而非脚骨中心高度；双脚根轨道保持",
+      "After": "561414c6a963654ae7aa4bbe6c33419975baf821519f3eb6345fb6aeda9a7bcb",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "a1592c1383ec750904f515c7692bdaec6245a2b43a912319d1f028146df44060"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033828-748456-author_moves.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "运行时战斗/特效",
+      "Code location": "ConfigureMove / ProtectedRangedMove / MeleeStumbleHook / Emit / AdvanceEffects",
+      "Before": "三远程无入站保护；电脉仅886光束",
+      "Changes": "三远程当前动画窗口免疫受击；补齐824范围爆发",
+      "Reasons": "对敌格挡闪避结果/伤害倍率/球体几何保持；无新增钩子",
+      "After": "91256dfeae84e1168f3b3df684b9ad5c444639e5391882ec8c8e3b7b6b80a536",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "CRLF",
+        "old_sha256": "ca4f83805d941f9dfd6a5d95ec01b20f8624e82774265419873c911a9c170b1e"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-031405-812578-IrisCombat.cpp.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "运行时时间流合同",
+      "Code location": "Configure",
+      "Before": "12类时间曲线",
+      "Changes": "接收新增源范围效果形成13类曲线",
+      "Reasons": "与作者和FX21清单一致",
+      "After": "f71bfe16cc72dd02a910574b99d4de520c9cc21073359924de0251a7d5a8f7e7",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "CRLF",
+        "old_sha256": "91256dfeae84e1168f3b3df684b9ad5c444639e5391882ec8c8e3b7b6b80a536"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032212-585978-IrisCombat.cpp.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+      "Role": "身体资产来源和重定向账本",
+      "Code location": "moves[vulcan,drive].retarget / height047",
+      "Before": "源低枪口姿态",
+      "Changes": "记录脚底标尺1.5倍与离线IK；事件/源身份/其他招式不变",
+      "Reasons": "单一Prop2提供武器/枪口/特效/查询坐标",
+      "After": "5e3bef94a47d607d7675d4408a891dca9bc46ea83c6cbcef2f18262263aba942",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "bdcf4c331dce5df49da4dfbf1959e6747bfa4093d0fdcf5a9cf356867afeeaff"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-031542-755814-eight-moves.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+      "Role": "身体审计",
+      "Code location": "两招retarget",
+      "Before": "整段高举审计",
+      "Changes": "更新仅射击窗口抬高的IK结果",
+      "Reasons": "所有其他时序和源身份保持",
+      "After": "bf927f1f1a0b256d764a9dc98af648fc6019a1670a9c6969d164f758d777bc0b",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "5e3bef94a47d607d7675d4408a891dca9bc46ea83c6cbcef2f18262263aba942"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032841-841831-eight-moves.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+      "Role": "身体审计",
+      "Code location": "两招height047",
+      "Before": "脚骨基准",
+      "Changes": "记录真实站立脚底平面标尺",
+      "Reasons": "脚底和脚骨中心有固定偏移，不修改动画根轨道",
+      "After": "bd96f710e341492c061e7cfddc504f501c3d2cfb1647d0b4e328a3cc167ff803",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "bf927f1f1a0b256d764a9dc98af648fc6019a1670a9c6969d164f758d777bc0b"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033831-898574-eight-moves.json.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\electro_area.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\electro_area.py",
+      "Role": "源范围效果作者",
+      "Code location": "build",
+      "Before": "缺少源CAST824范围资产",
+      "Changes": "导出源三层几何/纹理/五秒曲线并统一半径标尺",
+      "Reasons": "补回源模组已证实资源，排除不能执行的屏幕扰动层",
+      "After": "e1a346ea1e4c0a71cadab6be6d70cfefb0d21104d82267c8d9e4c5dfc39004f0",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": null
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-031852-074084-electro_area.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+      "Role": "特效总作者",
+      "Code location": "main / effects.csv / effect_curves.csv",
+      "Before": "20资产12曲线",
+      "Changes": "新增源electro_area形成21资产13曲线，旧资源不重设计",
+      "Reasons": "生产端和运行时清单计数同步",
+      "After": "961f38d6d748056f65496a78828051c6be7bf5115aa349f4a08ca8df34795217",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "fbc3187d259b11f30191fee773692a0e4c6e8e15437cdeb7989822265f4a006c"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-031852-092791-author_effects.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\icon_camera.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\icon_camera.py",
+      "Role": "原生图标取景参数",
+      "Code location": "apply",
+      "Before": "薙刀H=-4/zoom=.6",
+      "Changes": "按当前模型完整取景H=.059155464/V=-.05018258/zoom2.29",
+      "Reasons": "参考Huaxia自动图标，修正包围框而非猜PNG生效",
+      "After": "45442ba73fdda8530018ae0f7c60b5974d96ce338db25aa246ef9f786da64c79",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": null
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-031852-095636-icon_camera.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_prototype.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_prototype.py",
+      "Role": "FCS资源作者",
+      "Code location": "武器记录",
+      "Before": "旧图标取景沿用薙刀",
+      "Changes": "共用icon_camera.apply",
+      "Reasons": "重建package后保持正确取景",
+      "After": "19c0cb9e0ee92ceced90e836c7b15adf4d1d3ce5a2e163e9bf85924d74318ab5",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_prototype.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_prototype.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "d15e04e8aad980a672e35af3cb77cc2778c897f94fab4fabba71a9892a3c98ab"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-031852-107652-author_prototype.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "版本与日志身份",
+      "Code location": "文件版本/日志前缀",
+      "Before": "0.4.6",
+      "Changes": "0.4.7",
+      "Reasons": "用户编译后能区分旧DLL，不宣称已部署",
+      "After": "7451bd2a45413a9fc56beb552dd82b6ba01f4a47c883dbedfa628d4d7d252a16",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "CRLF",
+        "old_sha256": "0b4d070d5a833b3a18e624d8363d81899171b0c176cf0530c49099144300fbc5"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032212-590794-IrisArsenal.cpp.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Role": "版本与日志身份",
+      "Code location": "文件版本/日志前缀",
+      "Before": "0.4.6",
+      "Changes": "0.4.7",
+      "Reasons": "用户编译后能区分旧DLL，不宣称已部署",
+      "After": "5658068ee2c912e04491da87a4a0a5cd83bc5d126b24a974edc6358829fbafb2",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "a265f9ccf5679945011e932c40506e0c3d5c7d1f9dccccb66f9e5f76f7f21005"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032212-594802-IrisArsenal.rc.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+      "Role": "逐招配置",
+      "Code location": "三远程Move段",
+      "Before": "只近战可配入站保护",
+      "Changes": "三远程默认ImmuneHitReactions=1，其他玩家参数不变",
+      "Reasons": "更新脚本只补缺键，保留个人配置",
+      "After": "345a662076e5aab6de03138b6d370f46431d1482fb9cf6c7b16509ac81a1b2bb",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "b131aed48623285cc87f95d30a96fa7d0270ca21d833f72b18ff8c0f4a01c6b7"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032212-599802-IrisArsenal.ini.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+      "Role": "逐招配置",
+      "Code location": "三远程Move段",
+      "Before": "只近战可配入站保护",
+      "Changes": "三远程默认ImmuneHitReactions=1，其他玩家参数不变",
+      "Reasons": "更新脚本只补缺键，保留个人配置",
+      "After": "345a662076e5aab6de03138b6d370f46431d1482fb9cf6c7b16509ac81a1b2bb",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "b131aed48623285cc87f95d30a96fa7d0270ca21d833f72b18ff8c0f4a01c6b7"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032212-604293-IrisArsenal.ini.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Role": "组包合同门",
+      "Code location": "BUILD_CONTRACT / manifest",
+      "Before": "046代码合同",
+      "Changes": "047唯一合同及版本/资产修订",
+      "Reasons": "防止用户编译后仍混用旧消费者",
+      "After": "827b60965f7796ca113b0abcb8df90e2d6da0befcff041dff067a9c14e0fb8c8",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "a6d810b905d1cbf258b568fee79bd726a913218ecd6a5b3307ddecc9e0cc8f0d"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032212-611838-stage_package.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\refresh_icon047.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\refresh_icon047.py",
+      "Role": "自动图标缓存刷新",
+      "Code location": "refresh",
+      "Before": "旧缓存优先，FCS新取景不一定重新渲染",
+      "Changes": "仅本武器PNG，退出游戏后双备份，再由游戏重建",
+      "Reasons": "不能让旧缓存掩盖真实FCS修复，不删除其他图标",
+      "After": "5d5d0f7f13dac73003a425bcf0ebaf51bfed9978a0ccf75b64e8a343322ffe60",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": null
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032212-615841-refresh_icon047.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\refresh_icon047.py",
+      "Role": "图标缓存安全",
+      "Code location": "refresh入口",
+      "Before": "调用者始终传双备份但接口未强制",
+      "Changes": "接口拒绝缺少双备份根目录",
+      "Reasons": "禁止未来调用意外绕过备份",
+      "After": "7597ff9a8896a56df1d83144f1e350923b5e730985bfd527de3b3ca924a6c8e7",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-audit-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\refresh_icon047.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-audit-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\refresh_icon047.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "5d5d0f7f13dac73003a425bcf0ebaf51bfed9978a0ccf75b64e8a343322ffe60"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033531-076528-refresh_icon047.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py",
+      "Role": "一键更新入口",
+      "Code location": "main部署成功后",
+      "Before": "旧图标缓存一直保留",
+      "Changes": "完整部署后双备份仅本武器缓存再刷新",
+      "Reasons": "保留包校验/退出游戏门；当前没有调用部署",
+      "After": "d070a2cc5f6c7ccb6bd3490ed92d079b6f7a44b0af11eee3c38ee1f6081d73ab",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\update_mod.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "10e77bf5e0b2a82b3ceae50cccb61a85615cfb8a590337ece6421cfffd61166f"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032212-625861-update_mod.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\cannon-source-047.json": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\cannon-source-047.json",
+      "Role": "源效果证据链",
+      "Code location": "原ESP/INI/视频",
+      "Before": "此前只追踪886",
+      "Changes": "记录824范围资源与826属性效果",
+      "Reasons": "明确哪些来自源、哪些为玩家指定范围适配",
+      "After": "ea774cc893c99e2464fa38166385a58518d3cac16d14cc6bcca025ae1657801c",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": null
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032212-628921-cannon-source-047.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\cannon-source-047.json",
+      "Role": "源链证据边界",
+      "Code location": "secondary_cast",
+      "Before": "未确认地断言826无可视效果",
+      "Changes": "明确属性效果已核对，附带可视资产未确认",
+      "Reasons": "不以名称推断所有源附加效果已移植",
+      "After": "ab6390e77cedea1a15deb717ad5686223803c2549e9ab83ed7e845ec182291db",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-audit-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\cannon-source-047.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-audit-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\cannon-source-047.json"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "ea774cc893c99e2464fa38166385a58518d3cac16d14cc6bcca025ae1657801c"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033531-091584-cannon-source-047.json.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-047.json": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-047.json",
+      "Role": "授权变更的精确摘要",
+      "Code location": "046→047",
+      "Before": "历史检查要求整个资源/函数不变",
+      "Changes": "只为本轮授权的逐项before/after建立迁移",
+      "Reasons": "其他文件和函数继续严格逐字节回归；历史证据只读",
+      "After": "2752933c31cbb2947b4c9ac8a4bbb0046219ecd502c7fdc44710bce7185f2f8a",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": null
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032358-250166-authorized-delta-047.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-047.json",
+      "Role": "授权摘要",
+      "Code location": "同一白名单新姿态",
+      "Before": "过渡窗口旧产物摘要",
+      "Changes": "只更新已授权项after，before保持原始046",
+      "Reasons": "历史比较仍精确锁定本轮新产物",
+      "After": "1cd16c2df0f668213ca2d5a90c7ee39c8318bedbd536abef1c3c7651973a5225",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-047.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-047.json"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "2752933c31cbb2947b4c9ac8a4bbb0046219ecd502c7fdc44710bce7185f2f8a"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032842-067456-authorized-delta-047.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-047.json",
+      "Role": "授权产物精确摘要",
+      "Code location": "仅8个高度产物的after",
+      "Before": "脚骨中心版本摘要",
+      "Changes": "站立脚底版本摘要",
+      "Reasons": "原before和白名单保持",
+      "After": "294db692cd31a81d212a0059f23711ecbbb2ac1324370ef1776cedfced94e630",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-047.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-047.json"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "1cd16c2df0f668213ca2d5a90c7ee39c8318bedbd536abef1c3c7651973a5225"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033832-130623-authorized-delta-047.json.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+      "Role": "历史回归适配",
+      "Code location": "精确摘要迁移",
+      "Before": "旧验收把所有内容当不可变",
+      "Changes": "保留旧断言，只接受本次授权的精确新摘要",
+      "Reasons": "不改历史证据，不放宽未授权部分",
+      "After": "4457a632a667bf67ff6a008bc9664c7afe4fe1c3be8ac75d262086c9a045499a",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": null
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032358-253167-historical047.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+      "Role": "历史摘要键",
+      "Code location": "assert_047_hash",
+      "Before": "旧报告Windows反斜杠",
+      "Changes": "清单键统一正斜杠",
+      "Reasons": "同一文件仍必须before/after双摘要一致",
+      "After": "a7691c867ce9eadae66f49ba83276cbcab8c96d5155185b43ecaab82b0129692",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-path-key\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-path-key\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "4457a632a667bf67ff6a008bc9664c7afe4fe1c3be8ac75d262086c9a045499a"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033145-622800-historical047.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+      "Role": "历史回归",
+      "Code location": "资源/函数摘要与当前版本断言",
+      "Before": "旧合同锁住已授权更改",
+      "Changes": "精确校对047前后摘要，其他断言保留",
+      "Reasons": "保持过去防御/医疗/物理与参数回归有效",
+      "After": "c5f48b7979e4711746bf146196552b8283c852e21fb16d87c2868ef35e9cf34f",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_block043.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "4a57a1970a18ea5d254c0b7992a35cebf141fc5f815d9afea5b966b29a5c9c7a"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032358-300618-test_melee_block043.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+      "Role": "历史回归",
+      "Code location": "资源/函数摘要与当前版本断言",
+      "Before": "旧合同锁住已授权更改",
+      "Changes": "精确校对047前后摘要，其他断言保留",
+      "Reasons": "保持过去防御/医疗/物理与参数回归有效",
+      "After": "9ae149b25a63cb5977f8c0102841f19ecb3f43908dd5eac2003e815302136ad7",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "ecfd7a16d20a0e4868631f7d32646bd46209c558124212630dc76f451882eff7"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032358-310149-test_melee_reaction044.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+      "Role": "历史回归",
+      "Code location": "资源/函数摘要与当前版本断言",
+      "Before": "旧合同锁住已授权更改",
+      "Changes": "精确校对047前后摘要，其他断言保留",
+      "Reasons": "保持过去防御/医疗/物理与参数回归有效",
+      "After": "43b03c9e4c705472daceff77d7a61229d890fc69df88ad926fefbf04c2b4a265",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "6bb74df93a8b82ffbaa6dc20a623e5c8162de88e21646fbdd6d93759b5f6c0ca"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032358-319205-test_move_parameters045.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+      "Role": "真实配置边界",
+      "Code location": "verify_parameters045",
+      "Before": "只接受旧近战保护键",
+      "Changes": "三远程仅ImmuneHitReactions新键，禁止多余防御键保持",
+      "Reasons": "新增选项精确白名单",
+      "After": "e7f9230eb460986408ba6fc4ccfd39eb151609233d2a99aafd60e05d072eda76",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-cfg-boundary\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-cfg-boundary\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "43b03c9e4c705472daceff77d7a61229d890fc69df88ad926fefbf04c2b4a265"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033330-990588-test_move_parameters045.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+      "Role": "历史回归",
+      "Code location": "资源/函数摘要与当前版本断言",
+      "Before": "旧合同锁住已授权更改",
+      "Changes": "精确校对047前后摘要，其他断言保留",
+      "Reasons": "保持过去防御/医疗/物理与参数回归有效",
+      "After": "157262285190596400296ae0ab9410b5e9ceb3243064c213e325d5547f2153f6",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "8593334bdc5e43777b14b1159db066588b85e3a7a8cdd85b62f55499fd3edae6"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032358-326660-test_balance046.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ten_moves042.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ten_moves042.py",
+      "Role": "原始动作身份回归",
+      "Code location": "verify_ten042旧八招对比",
+      "Before": "所有retarget字段固定",
+      "Changes": "仅两招高度适配审计可变，其他源时序/参数仍严格对比",
+      "Reasons": "允许用户请求的离线姿态校准",
+      "After": "abf12cb4d1dbecc4b03bfb6f91f7e144b0955bf91a326513dd9098a253a57ae6",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ten_moves042.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ten_moves042.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "ac943abaa1441d088ab009a1d839b767e5c6d9adff5f2959381e6e3bad9a553d"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032358-336183-test_ten_moves042.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+      "Role": "实际特效流校验",
+      "Code location": "清单计数与允许键",
+      "Before": "12类20资产",
+      "Changes": "13类21资产，新增范围模型也逐帧验包围框",
+      "Reasons": "新增消费者不能绕过既有曲线安全限制",
+      "After": "4cb77de87f435c2d28c0ba5f413616c271208c00704f6c85820d627bf0d843fd",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_fx_timeline.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "0b21c559762d28d736cef6bd07f7c621d7b102fc17ae0a813ab4e5d67216a85b"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032358-344224-test_fx_timeline.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Role": "非编译总验收",
+      "Code location": "main",
+      "Before": "046合同",
+      "Changes": "运行新增047实际产物/保护/图标测试",
+      "Reasons": "整包消费合同一致，无编译",
+      "After": "ffd81658ccf2b8f51846981eb36e8b91d08b8baf3105854996395b63204b08a9",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-checks2\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "a273e83ec5aae1fceb13a3203a943b4fac28f6d69e323408ced4fc0c7c07f012"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032446-932446-verify_moves.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Role": "验收报告说明",
+      "Code location": "validation说明",
+      "Before": "旧20模型字样",
+      "Changes": "实际21模型",
+      "Reasons": "与新增源资源一致",
+      "After": "8fdd149397707f1bbb7c66a2a50ada75c54b49a42232be8e318fc911756aa964",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-audit-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-audit-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "ffd81658ccf2b8f51846981eb36e8b91d08b8baf3105854996395b63204b08a9"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033531-101610-verify_moves.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\release-047-evidence.json": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\release-047-evidence.json",
+      "Role": "改前实际产物证据",
+      "Code location": "旧骨架逐帧枪口/脚底/根与旧FCS摘要",
+      "Before": "源数据待核对",
+      "Changes": "从外部备份提取独立旧值",
+      "Reasons": "新资产反算必须达到原高度1.5，其他记录不可变",
+      "After": "43ba498cb3bfdd3d0192406844a6fdeb7200d88358e634cb62f0e68a05994bd1",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": null
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032632-314415-release-047-evidence.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\release-047-evidence.json",
+      "Role": "旧资源高度基准补充",
+      "Code location": "height_frames脚平面",
+      "Before": "旧枪口值不变，Foot中心高度",
+      "Changes": "旧值同样减静止Foot偏移，保留偏移实数供审计",
+      "Reasons": "不是改变期望枪口，只统一用户指定地面零点",
+      "After": "91029755c185c3c5ac521111164f45034260630f8ed32f8dc90fb0518144f3c0",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\release-047-evidence.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\release-047-evidence.json"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "43ba498cb3bfdd3d0192406844a6fdeb7200d88358e634cb62f0e68a05994bd1"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033831-949511-release-047-evidence.json.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+      "Role": "047实际资源与边界回归",
+      "Code location": "verify_release047",
+      "Before": "本轮尚无独立验收",
+      "Changes": "反算真实骨架、保护边界、源链、FCS白名单/取景和缓存隔离",
+      "Reasons": "防止只看源码或生成器自证，不运行游戏或编译",
+      "After": "18f90bc9fa92c5316c50454feb624fcf6e00da45fb802edb572421128241d1c2",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": null
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032632-321292-test_release047.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+      "Role": "实际骨架检查",
+      "Code location": "verify_release047",
+      "Before": "错误把纯收枪高举也当射击窗口",
+      "Changes": "射击水平/高度严格比较，根脚底整段锁定",
+      "Reasons": "校验对象符合用户枪口需求而非给收招引入额外约束",
+      "After": "505db54f184e440f8e9720a0304788fe8292edfd8db808d8f58dfc66a48c732d",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "18f90bc9fa92c5316c50454feb624fcf6e00da45fb802edb572421128241d1c2"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032841-853583-test_release047.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+      "Role": "刷新失败回归",
+      "Code location": "verify_release047",
+      "Before": "只有正常和游戏运行检查",
+      "Changes": "增加第二备份失败仍保留全部原缓存",
+      "Reasons": "真实磁盘失败路径也要满足先全部备份再删除",
+      "After": "7d3bd67719d68b00725b8941ceee9329676305f72de16b5ddcf797092fc64c2a",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-audit-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-audit-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "505db54f184e440f8e9720a0304788fe8292edfd8db808d8f58dfc66a48c732d"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033531-086032-test_release047.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+      "Role": "实际高度反算",
+      "Code location": "states",
+      "Before": "原脚骨中心标尺",
+      "Changes": "原生静止脚底平面标尺",
+      "Reasons": "独立于作者反算实际离地高度",
+      "After": "d900b98c57ae80c9ea481685184516fb56d9904e185bd0dbe9238a16781ad193",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-sole-calibration\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "7d3bd67719d68b00725b8941ceee9329676305f72de16b5ddcf797092fc64c2a"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033831-907443-test_release047.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+      "Role": "火神回归",
+      "Code location": "资产清单计数",
+      "Before": "20总资产",
+      "Changes": "21总资产，火神自身原4层",
+      "Reasons": "范围新增与火神独立",
+      "After": "fab65906565ad46b8f3fe06e6fdb357cf5bf9c9c5e534746c4d552695cf54c93",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-pose-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "4f6700f16c165dcc586537f71a66a80b53856cd369a49cbeb99f5faaff3d7a93"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032841-862826-test_vulcan_contract.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+      "Role": "旧特效回归",
+      "Code location": "清单总数断言",
+      "Before": "旧20/12总数",
+      "Changes": "新21/13总数，其余源层/曲线检查保持",
+      "Reasons": "新增资源应接受同样完整验收",
+      "After": "16aff79aeb913b169571caa589e1d94fbf6065c97a0c9d1806569d607e64f341",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-legacy-count\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-legacy-count\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "97d36c34de499585966db13bd1be936bce9e85af12c8dbb2a29f81d9dcecff0b"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032946-058463-test_drill_037.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+      "Role": "旧特效回归",
+      "Code location": "清单总数断言",
+      "Before": "旧20/12总数",
+      "Changes": "新21/13总数，其余源层/曲线检查保持",
+      "Reasons": "新增资源应接受同样完整验收",
+      "After": "e7820726ddb5e3374b9f797526aa4f128b208599d6296e7c7891bf4f2badddec",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-legacy-count\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-legacy-count\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_fire040.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "dda2150bf6f3e3e4c6da78ad544e556c1239f023e396c6213d1bd2549bde2cff"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-032946-067465-test_source_fire040.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+      "Role": "消费者合同回归",
+      "Code location": "verify_combat036",
+      "Before": "12类曲线",
+      "Changes": "13类实际头与消费者一致",
+      "Reasons": "防止新资源因计数不一致整体加载失败",
+      "After": "cf4d9cb2b6a18591f090d8741370d1b70064309e772ff54d39a9392668d023b8",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-curve-count\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-curve-count\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "228b4ced190fe56640e139bb3e9aea41e2180c85a02797b4a9a6ffa1816989c0"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033035-973733-test_combat_036.py.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "发布门状态",
+      "Code location": "ready/版本/代码合同",
+      "Before": "046完整旧包",
+      "Changes": "047 pending ready=false",
+      "Reasons": "防止新曲线/新身体资源搭配旧DLL部署",
+      "After": "642f3d82e5cb938f2882dde3ac3077710d64028a52b95a1467cc4c1707369bf1",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-cfg-boundary\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-cfg-boundary\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "926baa3ad8a4f79faaa607fd1d073aa41d7f3a774161f732c76634d206539a53"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-033330-996711-IrisPackage.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "真实包哈希",
+      "Code location": "files与ready=false",
+      "Before": "旧资源哈希表",
+      "Changes": "当前源资产完整摘要，但旧DLL仍不可部署",
+      "Reasons": "新资源必须等新DLL及完整组包",
+      "After": "0a222ba94b4d753698884ca9eafddc1e8bea9c35d3c8397d10716ead6a558218",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-delivery\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-delivery\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "642f3d82e5cb938f2882dde3ac3077710d64028a52b95a1467cc4c1707369bf1"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-034127-734892-IrisPackage.json.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\release-047.md": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\release-047.md",
+      "Role": "用户可审查交付说明",
+      "Code location": "六项修改/证据/编译边界",
+      "Before": "无本轮总结",
+      "Changes": "逐项记录实现、源资源、验证及实机限制",
+      "Reasons": "避免把非编译验证当实机保证",
+      "After": "633fe436a8fe15f1f98345d36274c3b24e64c952802fc29b68f64119024cd3bc",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": null
+      },
+      "Unresolved": "MSVC与游戏待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-034127-593273-release-047.md.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "Role": "项目当前状态",
+      "Code location": "文件顶部",
+      "Before": "当前046",
+      "Changes": "顶部标记047待编译与全部六项实现",
+      "Reasons": "保留历史，不假称已部署/实机",
+      "After": "a23f4691c63778af726b8bc706cf58f6863531bd9963567436a94ad728e16533",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-delivery\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-delivery\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "b1655d6f69e41e6adf76581d68951503636fefda5dd23435f7de7c59fc5d3190"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-034127-600686-STATE.md.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+      "Role": "项目当前状态",
+      "Code location": "文件顶部",
+      "Before": "当前046",
+      "Changes": "顶部标记047待编译与全部六项实现",
+      "Reasons": "保留历史，不假称已部署/实机",
+      "After": "dc3115a754ca810bb17c4e45c3f5ee3dd630cd043ec54eb4e97fe22ac93cf7e9",
+      "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+      "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-delivery\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221-delivery\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+        ],
+        "encoding": "UTF-8 no BOM",
+        "line_endings": "LF",
+        "old_sha256": "2a2cd1a59907e55af6dbf66f2dca8cb0ee55b6e2dd8fa7e3e08666cd84f2e854"
+      },
+      "Unresolved": "C++编译/实际游戏行为待用户验证",
+      "ReportFile": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-HeightReactionCannonIcon-047-20261018-030609-980221\\report-034127-605685-README.md.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "fdc4d37134148a2ed1d7b8ce3fd087b2dce630a7bdd25d4fd7e3f7722b6701e5",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "003a3a91d21b038979fa069b303c61fb943f7ed7ee6d978121aca51c2637d67d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031540-815771\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031540-818275\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031540-822172-iris_action_vulcan_male.skeleton.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "003a3a91d21b038979fa069b303c61fb943f7ed7ee6d978121aca51c2637d67d",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "0625cbaf4256afd0428705f2092ab8692907fd0d1e6fa889a3f2b6c303772771",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032839-920353\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032839-923778\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032839-927311-iris_action_vulcan_male.skeleton.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "0625cbaf4256afd0428705f2092ab8692907fd0d1e6fa889a3f2b6c303772771",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "2e18d62d04fabe56cb120a355ec866ddfef472d5cf9fd084d1edfc8a96b0dc6a",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033830-058840\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033830-061462\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_male.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033830-064848-iris_action_vulcan_male.skeleton.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "8fb8c09e918c46b4b11b2f5a8ae35e0c2f73af38bddfea417c7fe8578bfea907",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "a9cf8c2d0520a8ed1a87c3701654574c6c16fc72d972547341c2ce76ed1f6e6a",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031540-824777\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031540-827776\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031540-830443-iris_vulcan_weapon_proof_male.csv.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a9cf8c2d0520a8ed1a87c3701654574c6c16fc72d972547341c2ce76ed1f6e6a",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "c732b0501d1a803b77270e6e63f3503adcfb46a460b135ad1b1153c8dffafc4c",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032839-930202\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032839-932180\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032839-936182-iris_vulcan_weapon_proof_male.csv.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "c732b0501d1a803b77270e6e63f3503adcfb46a460b135ad1b1153c8dffafc4c",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "f24e9e8c38456cff78abd209833e85c783729ca37c24dcd2d076d5f0d053f6bb",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033830-065836\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033830-068293\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_male.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033830-072074-iris_vulcan_weapon_proof_male.csv.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "3378be31283ec95599d2ceb3fe2ce9c8494792f4dc9778a1ae6bf1b73f0addbe",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "e5cf0c6b5e46fa7426c7442dba5eec61edbf3e29230f6d4f94d60e578b45f31a",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031541-046809\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031541-048874\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031541-051882-iris_action_vulcan_female.skeleton.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "e5cf0c6b5e46fa7426c7442dba5eec61edbf3e29230f6d4f94d60e578b45f31a",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "add2aa5cf3545f5b7654bcb7d0a4423fae31e3a3066de6a7bf881c592c5784a2",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032840-142359\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032840-145362\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032840-148359-iris_action_vulcan_female.skeleton.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "add2aa5cf3545f5b7654bcb7d0a4423fae31e3a3066de6a7bf881c592c5784a2",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "e1c49a65cd73670e5672f006ca2a75a9f86568a7e910c46890e5682888cf58ab",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033830-272942\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033830-274950\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_vulcan_female.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033830-278183-iris_action_vulcan_female.skeleton.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "c74db5884ea5235521cd7e45933b703a69b20147bfe7e7baca9ffedaf4ee998f",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "11c3e8056540153c66fb97d49e027cdfc59429cb2849ac13b153689e7aef74f4",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031541-054885\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031541-055874\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031541-060395-iris_vulcan_weapon_proof_female.csv.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "11c3e8056540153c66fb97d49e027cdfc59429cb2849ac13b153689e7aef74f4",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "6fb3a0c8cfd9a6ad85bde184bfdb7edd369855d30b036c90ef01b62793d869b5",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032840-150396\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032840-152402\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032840-156145-iris_vulcan_weapon_proof_female.csv.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "6fb3a0c8cfd9a6ad85bde184bfdb7edd369855d30b036c90ef01b62793d869b5",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "efc9409fc015c1b929e4e91ea3ee9aaf751e972ee98e47f717394c324b99f27d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033830-280381\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033830-282390\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_vulcan_weapon_proof_female.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033830-285183-iris_vulcan_weapon_proof_female.csv.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "f384914698d683ae27fb9943f901c2e2fce0a458849d4569d0c59e8d9819e277",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "678375b90340cbaab8ebd095617a0d076c9bff9b251096970d42021a90efdf58",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031542-469678\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031542-472730\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031542-475235-iris_action_drive_male.skeleton.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "678375b90340cbaab8ebd095617a0d076c9bff9b251096970d42021a90efdf58",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "5a9443e7d9844c24418f2d62b0bb32edbace0ef13533b2c223464f7696f6a32d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032841-545468\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032841-547459\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032841-552290-iris_action_drive_male.skeleton.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "5a9443e7d9844c24418f2d62b0bb32edbace0ef13533b2c223464f7696f6a32d",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "f5e62b0eacec7de46e077bc08fa279d32fdf1cee2a3cd310f65b0f92078fa4bc",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033831-628772\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033831-631080\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033831-634507-iris_action_drive_male.skeleton.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a257868575526b8b51c2884848d8a85716fc975d3afca736f600ea79d8f085fc",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "a0e8cc96ee5b2eaf903b63fccea0a7d06bc0ca867b082acc2d4d7cd6fb14c07e",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031542-478429\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031542-481500\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031542-485456-iris_drive_weapon_proof_male.csv.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a0e8cc96ee5b2eaf903b63fccea0a7d06bc0ca867b082acc2d4d7cd6fb14c07e",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "33bb4021232c36e80fa2d67b38ee300fc511f2e4330e173c6690c2b63691835d",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032841-553343\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032841-555660\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032841-559159-iris_drive_weapon_proof_male.csv.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "33bb4021232c36e80fa2d67b38ee300fc511f2e4330e173c6690c2b63691835d",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7e4d9c2d802c7467422ac780e8c0cdec59f50d9ed58e3d3d9b61a9f395f97fb2",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033831-636989\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033831-639000\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_male.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033831-642992-iris_drive_weapon_proof_male.csv.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "c7449b1dabfcbb82d82e8f7baee50e78ed7bdd336530cde8df0095b4c00b3799",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "9f48380bde32f21d3a1d2c2e4bd921670376424208583086f7a5cab8c0a13b35",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031542-716648\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031542-719174\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031542-723164-iris_action_drive_female.skeleton.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "9f48380bde32f21d3a1d2c2e4bd921670376424208583086f7a5cab8c0a13b35",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "a794448341852fac318d4d8366464364722629ce796ac5946c200eefc0186916",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032841-804490\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032841-806507\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032841-810665-iris_action_drive_female.skeleton.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+      "Role": "具名身体及持械动画",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a794448341852fac318d4d8366464364722629ce796ac5946c200eefc0186916",
+      "Changes": "八招源身体/WEAPON到Prop2；保留源跃起及原生root motion，不强制坐标移动",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "78921aab240776fb4bebb2187ec464ca76edb147cdf4748cb5dde5d2c118c2c7",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033831-866994\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033831-869072\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033831-871929-iris_action_drive_female.skeleton.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "bc8178d5c5ea560af6998941bf95176bd4fdf912178d87f8af27cadc48b0e550",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "68ed8279e2430dad67ce6dda52c8e85860cc47d696b69aaf646d04d80f56bfd4",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031542-725491\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031542-727494\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031542-731009-iris_drive_weapon_proof_female.csv.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "68ed8279e2430dad67ce6dda52c8e85860cc47d696b69aaf646d04d80f56bfd4",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7006f2fc388bc8f152c8b9022e711b9412db215daae708a18c60a49b44372318",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032841-812774\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032841-814763\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032841-818559-iris_drive_weapon_proof_female.csv.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv",
+      "Role": "独立源WEAPON期望值",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "7006f2fc388bc8f152c8b9022e711b9412db215daae708a18c60a49b44372318",
+      "Changes": "实际序列化Prop2/模型坐标交叉验证，末三值是源左手握点",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "5e79c57092f21542075c75e8e9df8e6f795f07180da2c53ae645c1fe342cb713",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033831-874590\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033831-875597\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_drive_weapon_proof_female.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033831-878597-iris_drive_weapon_proof_female.csv.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+      "Role": "原生图标FCS",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "a3f4dc1222a5378f0c5ff4a1a4658792a08f57ac1f53ecd34b427912ddd6463f",
+      "Changes": "仅本锤枪auto/H/V/zoom四字段改变，其他记录逐字节回归",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "8d7604b887af96a77913d88f67cd8018f6d6b1d66c6972a678233b408eff16b2",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031852-288899\\edit-031852-343212\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031852-288899\\edit-031852-345212\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031852-348739-IrisArsenal.mod.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_area.mesh": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_area.mesh",
+      "Role": "电脉源范围爆发",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "原CAST824->MGEF812->EXPL810；三层实际网格和原5秒曲线，非臆造伤害圈",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "24649a1d310b7a39c1b9f62d5c42e547b3ca2dfdaf92a4ae146c26ae8909f276",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031948-022532-iris_fx_electro_area.mesh.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_112ce527d5c52287.png": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_112ce527d5c52287.png",
+      "Role": "源贴图同像素PNG",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "从源mod或本机原版BSA逐项取原像素；BC7兼容转存，不改源档案",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "482cfa669c6f5f8a02ec14051b9688f9fced9c4a5d8464d7b77e22a243ec25fa",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031958-068710-iris_fx_112ce527d5c52287.png.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "八招GPU程序声明",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "bf8ab4fb235393c6622425dcccfd1aaa8ace7190f6a54980f37ed4cda84b9514",
+      "Changes": "专用48字节顶点消费与custom1；无Renderable基类偏移",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "ef7fc582c5f5a70c7baa4df262d82e51f487a0795ed322b8da3dcc26dd8689fd",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031923-948768\\edit-031958-079865\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031923-948768\\edit-031958-081800\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031958-086313-iris_eight.program.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "真实轨迹程序",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "ef7fc582c5f5a70c7baa4df262d82e51f487a0795ed322b8da3dcc26dd8689fd",
+      "Changes": "沿用源火色梯度与实际历史alpha，不新增伤害",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031923-948768\\edit-031958-199921\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031923-948768\\edit-031958-203331\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031958-207497-iris_eight.program.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "Role": "平面准星程序",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "86c3204912ace584d700c70d9608abcd50daaa01c9f1755bc7f7b6d5ef188966",
+      "Changes": "顶点红蓝色随游戏秒呼吸；不生成球体、不代编译",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "bf8ab4fb235393c6622425dcccfd1aaa8ace7190f6a54980f37ed4cda84b9514",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031923-948768\\edit-031958-209499\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031923-948768\\edit-031958-212503\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031958-216233-iris_eight.program.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+      "Role": "八招源材质",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "5808adcb98f537c840b164d6ef05bb6a322e74fb0106a52503505ec5f2b25b66",
+      "Changes": "按源不同纹理和梯度分层，保留alpha并显式绑定本包纹理",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "7b4dd8a4fdbd37eed716cea8b4c0096a9b9b3191fbbc80363c9b3ea6afec35bc",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031923-948768\\edit-031958-190253\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031923-948768\\edit-031958-193411\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031958-198921-iris_eight.material.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+      "Role": "八招特效来源与差异",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "d5fb53905d55d65c0ab986c7facc93bb7a1f16178614778becd6d263f0153707",
+      "Changes": "逐层可查实际来源；未移植项公开列出，不宣称原版完全一致",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "4924db7d649dd28ff1d09450ad9422213fc8e047fcc447ca98abc8df7de984b3",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031923-948768\\edit-031958-230175\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031923-948768\\edit-031958-232195\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031958-237255-eight-effects.json.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+      "Role": "分层源光学时间流",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "9e45a1672fb6e8e1dc6f34e17099ed907bb260358516d2a614bcb89a0f856f4f",
+      "Changes": "每asset/子层30Hz颜色、UV、发光、衰减和增量变换；严格25数值有界，不按每发复制纹理",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "a27b4158d65e51faf91f2b0b5a47f89b3cb4fdc847c2eaf4a6e328aa857402b9",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031923-948768\\edit-031958-314058\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031923-948768\\edit-031958-321824\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031958-337745-effect_curves.csv.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+      "Role": "运行时显式子材质绑定",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "346e59a180f930a5045d4ad0dbd002f6a6211d6ef84b75e0548e1f027da6e897",
+      "Changes": "每个自有实体逐SubEntity绑定，防止引擎工厂默认StaticObject覆盖源材质",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "17035713a4b63db1eadb5fc98b310d8009f3ba5b3259e6d0efe3c6ee17e20f16",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-031923-948768\\edit-031958-340105\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031923-948768\\edit-031958-342107\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "用户编译与实机验收待完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031958-345337-effects.csv.json"
+    }
+  ],
+  "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.7.json": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.7.json",
+      "Role": "八招非编译验收证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "不存在",
+      "Changes": "20份真实骨架/握点、源事件、20个特效网格、源纹理、FCS、查询接口和语法树",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "e2c913e6dd91095611c9619f5fa935d75c48c4a556e205a984b25b748d355fad",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "未编译、未游戏测试，不能据此宣布最终完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033347-653127-validation-0.4.7.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.7.json",
+      "Role": "八招非编译验收证据",
+      "Code location": "新增独立单元/生成区域",
+      "Before": "e2c913e6dd91095611c9619f5fa935d75c48c4a556e205a984b25b748d355fad",
+      "Changes": "20份真实骨架/握点、源事件、21个特效网格、源纹理、FCS、查询接口和语法树",
+      "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+      "After": "ec5f35e63685e84c1c8ec57d19d3b9f5d86a02bebdc4deda48b5c851bda3fc69",
+      "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+      "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\IrisArsenal-20261018-033855-318708\\edit-033909-115386\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.7.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033855-318708\\edit-033909-117385\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.7.json"
+        ],
+        "encoding": "UTF-8/LF"
+      },
+      "Unresolved": "未编译、未游戏测试，不能据此宣布最终完成",
+      "ReportFile": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033909-120389-validation-0.4.7.json.json"
+    }
+  ]
+}

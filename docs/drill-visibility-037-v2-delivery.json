@@ -1,0 +1,40 @@
+{
+  "deployed": {
+    "success": true,
+    "target": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal",
+    "version": "0.3.7",
+    "contract": "IRIS_EIGHT_037",
+    "files_verified": 119,
+    "files_written": 7,
+    "dll_sha256": "2d2ef7d56e59e021a562efee1d939dde2ff72d1d788b4f175d0fda94dc5f9bc7",
+    "backup_roots": [
+      "D:\\CodexBackups\\IrisArsenal-Update-20261017-132540-572756-e77f8ca2",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-Update-20261017-132540-572756-e77f8ca2"
+    ],
+    "audit": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\update-runs\\IrisArsenal-Update-20261017-132540-572756-e77f8ca2",
+    "game_tested": false,
+    "compiled_by_script": false
+  },
+  "asset_revision": "037-v2",
+  "actual_dll_unchanged": true,
+  "Cxx_HLSL_compiled_by_agent": false,
+  "game_tested": false,
+  "project_baseline_changed_files": [
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_particles.py",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\drill_finisher.py",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_effects.py",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_drill_037.py",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+    "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh"
+  ],
+  "project_baseline_unchanged_files": 112,
+  "installed_hashes_verified": 119
+}

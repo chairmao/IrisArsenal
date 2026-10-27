@@ -1,0 +1,46 @@
+{
+  "method": "CPU shader math / actual materials and textures / ground depth / bright background",
+  "inputs": {
+    "tools/preview_electro050.py": "4773f3ede060d318573d70735063321fa4f56173565c5f5f64b6968ab1bd8c8a",
+    "package/IrisArsenal/assets/iris_fx_electro_area.mesh": "7c67cd594b6a70220f4abc85001f7f17bde62215dd07799d1d3b3b0ee82a8151",
+    "package/IrisArsenal/assets/effect_curves.csv": "18476aa11ede69b43575153bf68677c093856b42556edd8e14fe566f2862fce3",
+    "package/IrisArsenal/assets/iris_eight.material": "b730a49d8738c62b4f358c71685913b2daeddd3dc3633d76ab8219e1f27615c4",
+    "package/IrisArsenal/assets/iris_action_electro_cannon_female.skeleton": "18e43e739551d2731914445bf7a97235e9c28cbe3a8087006a81f0e6ebc413a6",
+    "package/IrisArsenal/assets/iris_white.dds": "eb555c633972ab4857d218a00c83123e8fd20da06f4b39852806d2f167a22a26",
+    "package/IrisArsenal/assets/iris_fx_d51b9ac87d9b7cb0.png": "94ca427c5166ccf774ab0554fcc797b89648c25af7ecab09162e7b3b1133b1d9",
+    "package/IrisArsenal/assets/iris_fx_112ce527d5c52287.png": "482cfa669c6f5f8a02ec14051b9688f9fced9c4a5d8464d7b77e22a243ec25fa",
+    "package/IrisArsenal/assets/iris_fx_8c4583d3a8615c77.png": "8e569c71628d5fac8176669e99b0f84d169c1856691e1918d8978dd7eaa4462d",
+    "package/IrisArsenal/assets/iris_fx_c823e561a1cd77ff.png": "01cb6fe8d44e5c2301d512c5487438d2e8a9ec819d1d3c53b407c1f1c42f0fcb",
+    "package/IrisArsenal/assets/iris_fx_65305a26bcc8527a.png": "ef815e4fc858c22fbda914289e5ece07212c8bad2b9a16b282b0793c4fb71106"
+  },
+  "image_sha256": "44cdae06a8e5c85d707b4a1426aad0ae14183203076e77d11c946f3838cd6875",
+  "rows": [
+    {
+      "age": 0.1,
+      "old_visible_pixels": 1356,
+      "new_visible_pixels": 2701,
+      "additive_energy_ratio": 2.249840321045405
+    },
+    {
+      "age": 0.25,
+      "old_visible_pixels": 2913,
+      "new_visible_pixels": 5023,
+      "additive_energy_ratio": 2.8407497353692617
+    },
+    {
+      "age": 0.5,
+      "old_visible_pixels": 7305,
+      "new_visible_pixels": 18745,
+      "additive_energy_ratio": 3.4338232927207795
+    },
+    {
+      "age": 0.8,
+      "old_visible_pixels": 108,
+      "new_visible_pixels": 287,
+      "additive_energy_ratio": 2.3072592480474787
+    }
+  ],
+  "comparison": "same source mesh/textures/curves; only actual effect height and ground occlusion differ",
+  "GPU_tested": false,
+  "textures_changed": false
+}

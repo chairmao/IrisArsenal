@@ -1,0 +1,803 @@
+{
+  "version": "0.4.6",
+  "reports": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+      "Final sha256": "6bb74df93a8b82ffbaa6dc20a623e5c8162de88e21646fbdd6d93759b5f6c0ca",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+          "Role": "基础参数解析/边界回归",
+          "Code location": "当前参数预期与三远程策略",
+          "Before": "045旧默认和仅火神不干预",
+          "Changes": "对接046显式配置，医疗比较仅允许新增远程排除；不锁死旧用户DLL",
+          "Reasons": "参数本轮授权改变；解析、窗口、源资产保持验证，用户编译产物应由代码合同门判断",
+          "After": "6bb74df93a8b82ffbaa6dc20a623e5c8162de88e21646fbdd6d93759b5f6c0ca",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "f4d4cb4a1f990ab45d63c96e66b6622195ae3af88ec1302f35c40b355624a6c3"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+      "Final sha256": "4f6700f16c165dcc586537f71a66a80b53856cd369a49cbeb99f5faaff3d7a93",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "Role": "既有防御/物理回归",
+          "Code location": "额外上下文消费断言",
+          "Before": "只排除火神",
+          "Changes": "确认三远程均排除；其他源资产/物理/原生医疗断言不变",
+          "Reasons": "保持回归准确对应用户测试模式",
+          "After": "d9283db15673dfb83bff19454081e4dda722c6ac4341cb26c45c13301fe482b4",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "8fa873561a2fd73422b00fa2b5bf0d9214a166cb9abb8d037e98e6ed25d64f39"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "Role": "火神源资产回归",
+          "Code location": "MoveWeights当前默认",
+          "Before": "旧回归把十招权重写死为1",
+          "Changes": "使用046规格比对；独立专项硬编码用户原表防自证",
+          "Reasons": "新权重为用户明确要求，不能让旧全1假设误报实现失败",
+          "After": "4f6700f16c165dcc586537f71a66a80b53856cd369a49cbeb99f5faaff3d7a93",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041-weight-regression\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041-weight-regression\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "d9283db15673dfb83bff19454081e4dda722c6ac4341cb26c45c13301fe482b4"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+      "Final sha256": "228b4ced190fe56640e139bb3e9aea41e2180c85a02797b4a9a6ffa1816989c0",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+          "Role": "既有防御/物理回归",
+          "Code location": "额外上下文消费断言",
+          "Before": "只排除火神",
+          "Changes": "确认三远程均排除；其他源资产/物理/原生医疗断言不变",
+          "Reasons": "保持回归准确对应用户测试模式",
+          "After": "228b4ced190fe56640e139bb3e9aea41e2180c85a02797b4a9a6ffa1816989c0",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_combat_036.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "9427acb85ace235a9e03c55570dccfffe670077bf6955415457fc9f0254549d5"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ten_moves042.py",
+      "Final sha256": "ac943abaa1441d088ab009a1d839b767e5c6d9adff5f2959381e6e3bad9a553d",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ten_moves042.py",
+          "Role": "042源资产回归",
+          "Code location": "当前近战防御缺省",
+          "Before": "翻滚默认可防",
+          "Changes": "翻滚默认破防闪，与用户新参数一致，其余源几何检查保持",
+          "Reasons": "没有改变源事件/资产倍率；新倍率在INI覆盖",
+          "After": "ac943abaa1441d088ab009a1d839b767e5c6d9adff5f2959381e6e3bad9a553d",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ten_moves042.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_ten_moves042.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "a897d5be58457440cc0bebe97fb81c1a2943a02286352e6c0b296683907fe643"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+      "Final sha256": "ecfd7a16d20a0e4868631f7d32646bd46209c558124212630dc76f451882eff7",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "Role": "044原生免疫窗口回归",
+          "Code location": "当前日志/资源/代码身份",
+          "Before": "045当前身份",
+          "Changes": "046身份；原980反应流水及75边界不变",
+          "Reasons": "本轮不改入站免疫实现，继续保持原验证",
+          "After": "ecfd7a16d20a0e4868631f7d32646bd46209c558124212630dc76f451882eff7",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "7d95dd57508d008a3893183bbd9040d88fc093255d2081b4e87dfb20b8f8d58c"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_update_mod.py",
+      "Final sha256": "ae44f948aaf0847af209c6cb304d1e6f6de72873077e684bcacfda290623a587",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_update_mod.py",
+          "Role": "隔离配置合并测试",
+          "Code location": "新增缺省与已有个人值同时存在",
+          "Before": "045模板默认",
+          "Changes": "046模板默认；已存在0值/7.5倍率/50距离仍保留",
+          "Reasons": "用户本轮参数显式预置，通用更新器仍须保护未来个人设置",
+          "After": "ae44f948aaf0847af209c6cb304d1e6f6de72873077e684bcacfda290623a587",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_update_mod.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_update_mod.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "72357a8ef538e6983105906e772ffa8fad589141c27f2df90d297cc20425303c"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Final sha256": "a273e83ec5aae1fceb13a3203a943b4fac28f6d69e323408ced4fc0c7c07f012",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "Role": "完整非编译验收入口",
+          "Code location": "046专项和新验证文件",
+          "Before": "045当前验收",
+          "Changes": "接入046数据与防御策略专项，保留全部原资产/SDK/语法检查",
+          "Reasons": "不把代码模型冒充游戏结果；用户测试前确认打包与当前策略一致",
+          "After": "a273e83ec5aae1fceb13a3203a943b4fac28f6d69e323408ced4fc0c7c07f012",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "46ad86d938b50baaa8b82848573403ea123ec2c8c9a4214fe234bdbf20e0f6f2"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\balance-046-evidence.json",
+      "Final sha256": "859c01fe6526dfea3a0c70bfd1a64af62d86c206844aecfeafef220dbf3fb8ed",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\balance-046-evidence.json",
+          "Role": "本轮不变边界证据",
+          "Code location": "出招/医疗统计/碰撞/特效/免疫基线",
+          "Before": "无046基线",
+          "Changes": "记录14函数和原包哈希，不覆盖旧取证",
+          "Reasons": "本轮只改变数据与是否注册额外防御上下文",
+          "After": "859c01fe6526dfea3a0c70bfd1a64af62d86c206844aecfeafef220dbf3fb8ed",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": null
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+      "Final sha256": "8593334bdc5e43777b14b1159db066588b85e3a7a8cdd85b62f55499fd3edae6",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+          "Role": "046参数/防御策略专项",
+          "Code location": "独立用户原表、三远程零干预、原资产保持",
+          "Before": "无046专项",
+          "Changes": "58段系数/7组距离/10权重逐值核对，140防御结果策略模型与14函数锁定",
+          "Reasons": "不以模板生成器自身输出冒充用户要求；不运行C++或游戏",
+          "After": "27ec3cc9cb89a56a5317f33898644debdcb8a7dd241ea6a1b1228edd1ce7fd4b",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": null
+          },
+          "Unresolved": "实际伤害能否被格挡由用户在046运行中验证"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+          "Role": "046专项定义提取",
+          "Code location": "VulcanHitScope范围",
+          "Before": "终点在定义之前，错误得到空片段",
+          "Changes": "按实际定义后DamageOutcome为边界，核验空上下文立即返回",
+          "Reasons": "修正测试提取器，不改变实现或弱化无TLS读写的断言",
+          "After": "8593334bdc5e43777b14b1159db066588b85e3a7a8cdd85b62f55499fd3edae6",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "27ec3cc9cb89a56a5317f33898644debdcb8a7dd241ea6a1b1228edd1ce7fd4b"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Final sha256": "ca4f83805d941f9dfd6a5d95ec01b20f8624e82774265419873c911a9c170b1e",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "CRLF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "Role": "防御桥接启动诊断",
+          "Code location": "InstallDefenceGate末行",
+          "Before": "旧日志仍把vulcan列为破防招式",
+          "Changes": "明确三远程无结果改写，近战按各自配置",
+          "Reasons": "测试版本必须能从日志确认实际策略，不用陈旧日志误判",
+          "After": "ca4f83805d941f9dfd6a5d95ec01b20f8624e82774265419873c911a9c170b1e",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041-review\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "CRLF",
+            "old_sha256": "470c8f122b257c9ed5eb85c2d7024b950061d54f7d8361a67b9441167c8a1ec3"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "Role": "招式配置/原生受击消费",
+          "Code location": "DefaultBypass/ConfigureMove/Flush",
+          "Before": "火神关闭，脉冲/光炮仍强制通过防御；翻滚默认不破防",
+          "Changes": "三远程启动与消费双门关闭特殊防御处理；翻滚两段默认破防；新046合同",
+          "Reasons": "落实玩家统一无干预实测及翻滚新规则；原医疗/物理/敌我/时钟不变",
+          "After": "470c8f122b257c9ed5eb85c2d7024b950061d54f7d8361a67b9441167c8a1ec3",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "CRLF",
+            "old_sha256": "442e4c549f678bdb3174f56474e5933ff3f35a02d33cb48d960465e35f9988d8"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\balance-046.md",
+      "Final sha256": "2b01223fe459f1415eff39442888242d240f4c57e026695ac1d14fea6cef7724",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\balance-046.md",
+          "Role": "本轮参数与测试说明",
+          "Code location": "十招概览/58事件/三远程原始结果判读",
+          "Before": "045参数和不同远程策略",
+          "Changes": "列出新数值、未变几何、代码双门和准确日志验收条件",
+          "Reasons": "玩家要通过实测判断，不预设或伪造结果",
+          "After": "2b01223fe459f1415eff39442888242d240f4c57e026695ac1d14fea6cef7724",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": null
+          },
+          "Unresolved": "C++编译及046运行实测待用户完成"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "Final sha256": "b1655d6f69e41e6adf76581d68951503636fefda5dd23435f7de7c59fc5d3190",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "Role": "项目当前单写者状态",
+          "Code location": "046新条目",
+          "Before": "045当前，远程策略不一致",
+          "Changes": "046统一不干预及参数预置/待编译边界",
+          "Reasons": "给后续编译部署和测试准确交接，保留历史状态",
+          "After": "650c415b1a4906015d46357ae0665de594f556761f768c425968c656f9df15e0",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "20e9feac431825bf7cff68341c16e99d1f90660fca32d3954426a25671f0213f"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "Role": "最终当前状态",
+          "Code location": "046顶部条目",
+          "Before": "验收进行中/尚无结果链接",
+          "Changes": "记录已通过检查，保留未编译/未部署DLL/未游戏测试状态",
+          "Reasons": "准确交接本轮预置参数和实际可运行版本边界",
+          "After": "b1655d6f69e41e6adf76581d68951503636fefda5dd23435f7de7c59fc5d3190",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "650c415b1a4906015d46357ae0665de594f556761f768c425968c656f9df15e0"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+      "Final sha256": "2a2cd1a59907e55af6dbf66f2dca8cb0ee55b6e2dd8fa7e3e08666cd84f2e854",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "Role": "当前使用入口",
+          "Code location": "046顶部说明",
+          "Before": "045待编译说明",
+          "Changes": "046测试策略和参数、生效前提",
+          "Reasons": "不把已改INI误称为已更新游戏DLL",
+          "After": "2d0c8158405e7946ec5fc6e9b54efffa9b7a56702eed568db0a9f0295eba0738",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "639d7d64935420e32c81efd7824c5520576e90ebedcf3016ab1885289f2e30e5"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "Role": "最终当前状态",
+          "Code location": "046顶部条目",
+          "Before": "验收进行中/尚无结果链接",
+          "Changes": "记录已通过检查，保留未编译/未部署DLL/未游戏测试状态",
+          "Reasons": "准确交接本轮预置参数和实际可运行版本边界",
+          "After": "2a2cd1a59907e55af6dbf66f2dca8cb0ee55b6e2dd8fa7e3e08666cd84f2e854",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041-final\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "2d0c8158405e7946ec5fc6e9b54efffa9b7a56702eed568db0a9f0295eba0738"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\balance-046-validation.json",
+      "Final sha256": "887515c2dee832e5e561b1f3a5f8828675fbed373d4401fa9e1050253602a691",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\balance-046-validation.json",
+          "Role": "最终验证与影响边界",
+          "Code location": "配置/远程防御/实际游戏文件",
+          "Before": "无本轮最终验收",
+          "Changes": "记录全部数值、实际仅改游戏INI、12同步测试和未编译实机边界",
+          "Reasons": "不把数据预置或静态测试冒充新DLL已生效",
+          "After": "887515c2dee832e5e561b1f3a5f8828675fbed373d4401fa9e1050253602a691",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": null
+          },
+          "Unresolved": "用户Release|x64/v100编译、退出后UpdateMod.cmd与实际游戏测试待完成"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Final sha256": "0b4d070d5a833b3a18e624d8363d81899171b0c176cf0530c49099144300fbc5",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "CRLF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "Role": "插件版本身份",
+          "Code location": "版本注释/日志/PE资源",
+          "Before": "0.4.5",
+          "Changes": "0.4.6",
+          "Reasons": "测试日志需明确区分045旧策略与046统一无干预",
+          "After": "0b4d070d5a833b3a18e624d8363d81899171b0c176cf0530c49099144300fbc5",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "CRLF",
+            "old_sha256": "3080dd3038734d51c0bcd45859d053329d98f2a53b1d92a4c971b1dd5381fc5b"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Final sha256": "a265f9ccf5679945011e932c40506e0c3d5c7d1f9dccccb66f9e5f76f7f21005",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "Role": "插件版本身份",
+          "Code location": "版本注释/日志/PE资源",
+          "Before": "0.4.5",
+          "Changes": "0.4.6",
+          "Reasons": "测试日志需明确区分045旧策略与046统一无干预",
+          "After": "a265f9ccf5679945011e932c40506e0c3d5c7d1f9dccccb66f9e5f76f7f21005",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "a2529f168b1405cb6b1c579740848bc8acbdd0c6c44ae31cda05cab660d67bed"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+      "Final sha256": "b131aed48623285cc87f95d30a96fa7d0270ca21d833f72b18ff8c0f4a01c6b7",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+          "Role": "本轮平衡参数",
+          "Code location": "MoveWeights/十招DamageN/七近战AttackMin-Max/翻滚防御策略",
+          "Before": "旧倍率/权重1、距离继承FCS",
+          "Changes": "逐项写入玩家全部指定值；三远程倍率保留20/3/4事件",
+          "Reasons": "配置消费者已有完整支持，不改源素材/攻击段数/命中几何",
+          "After": "b131aed48623285cc87f95d30a96fa7d0270ca21d833f72b18ff8c0f4a01c6b7",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "96ca08bcc230b58e01319fa7c96b3681e6b4dd2619f08b398e10336edb47ad12"
+          },
+          "Unresolved": "需要046 DLL才能完整使用新配置"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+      "Final sha256": "b131aed48623285cc87f95d30a96fa7d0270ca21d833f72b18ff8c0f4a01c6b7",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "Role": "本轮平衡参数",
+          "Code location": "MoveWeights/十招DamageN/七近战AttackMin-Max/翻滚防御策略",
+          "Before": "旧倍率/权重1、距离继承FCS",
+          "Changes": "逐项写入玩家全部指定值；三远程倍率保留20/3/4事件",
+          "Reasons": "配置消费者已有完整支持，不改源素材/攻击段数/命中几何",
+          "After": "b131aed48623285cc87f95d30a96fa7d0270ca21d833f72b18ff8c0f4a01c6b7",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "96ca08bcc230b58e01319fa7c96b3681e6b4dd2619f08b398e10336edb47ad12"
+          },
+          "Unresolved": "需要046 DLL才能完整使用新配置"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini",
+      "Final sha256": "1e85dc34abe7937b9d1fc0de98716f3ed06e9d699840d47ddc01fb6d0920abe1",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini",
+          "Role": "游戏个人参数预置",
+          "Code location": "仅本轮玩家指定的权重/倍率/起手距离/翻滚开关",
+          "Before": "已有权重全1且没有新增逐招参数",
+          "Changes": "先补缺省再仅覆盖指定键，保留原有其他个人设置与注释",
+          "Reasons": "防止UpdateMod保留旧权重而使本轮数值不生效；未部署DLL或资源",
+          "After": "1e85dc34abe7937b9d1fc0de98716f3ed06e9d699840d47ddc01fb6d0920abe1",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "6efe8d037a4d88dd361d9ae2df63fd103c1aebb240498fbe808b4f2bc51dda85"
+          },
+          "Unresolved": "当前旧DLL不支持完整参数，须用户编译046并退出后UpdateMod；运行中的旧进程不会热更新"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\balance-046.json",
+      "Final sha256": "d56b66835248619d272450969cae1f59088ff2cfe62a0f44cb079ecb8dc1ea21",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\balance-046.json",
+          "Role": "玩家新参数规格",
+          "Code location": "十招完整数值/原生防御测试",
+          "Before": "无046规格",
+          "Changes": "保存本次用户指令与实际配置对应",
+          "Reasons": "作为后续调参和验收依据，不改042源资产规格",
+          "After": "d56b66835248619d272450969cae1f59088ff2cfe62a0f44cb079ecb8dc1ea21",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": null
+          },
+          "Unresolved": "实测结果待用户提供"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Final sha256": "a6d810b905d1cbf258b568fee79bd726a913218ecd6a5b3307ddecc9e0cc8f0d",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "Role": "组包版本门",
+          "Code location": "BUILD_CONTRACT/manifest",
+          "Before": "可接受045策略DLL",
+          "Changes": "只接受046代码合同与最新源码时间的DLL",
+          "Reasons": "避免玩家用旧强制命中DLL测试而得出错误结论",
+          "After": "a6d810b905d1cbf258b568fee79bd726a913218ecd6a5b3307ddecc9e0cc8f0d",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "a38d6945e820ac1089ad28a6b38c4c2922e8c697103acb1be7365a75a132979f"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Final sha256": "4ac4cd8c53718255e4f2e44dedafb1a77be59d35c9a013a2a5dc5384ebd9f3f8",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "Role": "待编译包状态",
+          "Code location": "版本/代码合同/INI哈希",
+          "Before": "045待编译",
+          "Changes": "046 ready=false与新参数哈希",
+          "Reasons": "没有伪造新DLL或声称已部署",
+          "After": "4ac4cd8c53718255e4f2e44dedafb1a77be59d35c9a013a2a5dc5384ebd9f3f8",
+          "Impact": "仅IrisArsenal；无游戏部署、无编译、无新后台任务",
+          "Validation": "写后字节/UTF-8/换行/中文乱码检查通过；行为验证另记",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-Balance-046-20261017-235441-696041\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+            ],
+            "encoding": "UTF-8 no BOM",
+            "line_endings": "LF",
+            "old_sha256": "bf45599235ae820c7afcd4b9356a5c9313e6f859deb476198fc85af7d3cd3bec"
+          },
+          "Unresolved": "C++编译/实际游戏行为待用户验证"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.6.json",
+      "Final sha256": "00fd94e17b30cf1a3eb733c8d4ad18f83b86a8ae7bea6e58166708ac6ebf7413",
+      "Encoding": "UTF-8 no BOM",
+      "Line endings": "LF",
+      "Chinese check": "passed",
+      "Changes": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.4.6.json",
+          "Role": "八招非编译验收证据",
+          "Code location": "新增独立单元/生成区域",
+          "Before": "不存在",
+          "Changes": "20份真实骨架/握点、源事件、20个特效网格、源纹理、FCS、查询接口和语法树",
+          "Reasons": "用户授权本轮IrisArsenal钻头与八招代码/资产/工程修改；范围见docs/eight-moves-authorization.json；按本条Changes限定",
+          "After": "00fd94e17b30cf1a3eb733c8d4ad18f83b86a8ae7bea6e58166708ac6ebf7413",
+          "Impact": "仅IrisArsenal项目，不编译、不部署、不写其他项目",
+          "Validation": "字节回读；文本严格UTF-8和中文乱码扫描",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未编译、未游戏测试，不能据此宣布最终完成"
+        }
+      ],
+      "Final validation": "完整非编译回归、140策略模型、58事件数值及12隔离同步测试通过；C++编译和游戏未执行"
+    }
+  ]
+}

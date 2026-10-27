@@ -1,0 +1,73 @@
+# 公开源码仓库：本机IDE、编译中间产物、日志与部署记录不入库。
+.vs/
+obj/
+**/obj/
+**/bin/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+*.ipch
+*.obj
+*.pdb
+*.idb
+*.pch
+*.ilk
+*.exp
+*.lib
+*.dll
+*.tlog
+*.log
+*.dmp
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+logs/
+backups/
+_backups/
+/docs/change-reports/
+/docs/update-runs/
+/docs/previews050/
+/docs/previews051/
+/docs/previews059/
+
+# 用户最终要求不上传游戏资源包；仅保留vcxproj列出的两个配置项目项。
+/package/*
+!/package/IrisArsenal/
+/package/IrisArsenal/*
+!/package/IrisArsenal/IrisArsenal.ini
+!/package/IrisArsenal/RE_Kenshi.json
+# distribution的配置/说明是源码输入；运行模型、图标及FCS二进制留本地。
+/distribution/*.mod
+/distribution/*.jpg
+/distribution/*.jpeg
+/distribution/*.png
+/distribution/*.img
+/compatibility/**/*.mod
+/compatibility/**/*.img
+/compatibility/**/*.dll
+# 离线作者的纹理缓存不是DLL编译输入；仍保存作者代码与来源/许可说明。
+/tools/source-cache/
+
+# 凭据或个人环境文件不得进入公开仓库。
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+credentials.json
+secrets.json
+# 这些JSON是从源特效烘焙出的逐帧采样数据，不是C++编译输入，随资源留本地。
+/docs/drill-burst-039.json
+/docs/drill-burst-040.json
+/docs/drill-burst-041.json
+/docs/fire-burst-039.json
+/docs/fire-burst-040.json
+/docs/fire-roll-041.json
+/docs/fire-full-042.json

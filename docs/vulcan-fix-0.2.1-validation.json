@@ -1,0 +1,145 @@
+{
+  "version": "0.2.1",
+  "validation": {
+    "enabled_only": "vulcan",
+    "shots": 20,
+    "sphere_collision_radius": 4.5,
+    "blast_radius": 4.5,
+    "weapon_cut_blunt": 0.1,
+    "source_fireball_layers": 4,
+    "materials_checked": 27,
+    "blend_counts": {
+      "one zero": 3,
+      "src_alpha one": 23,
+      "src_alpha one_minus_src_alpha": 1
+    },
+    "palette_sample_RGBA": [
+      0.6980392156862745,
+      0.38823529411764707,
+      0.2,
+      0.054901960784313725
+    ],
+    "bullet_bound_radius_after_scale": 4.499999969713058,
+    "native_defence_scope": "vulcan physical hit only; one-shot combat/damage/caster identity; original notifications retained",
+    "SDK_declarations_and_link_symbol_bytes": true,
+    "C++_compiled": false,
+    "GPU_compiled": false,
+    "game_tested": false
+  },
+  "full_checks": "docs/validation-0.2.1.json",
+  "source_log": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VulcanFix-20261016-185541-813d76\\runtime.log",
+  "source_fireball": {
+    "archive": "E:/skyrimspecialedition/SkyrimSE/Data/Skyrim - Meshes1.bsa",
+    "entry": "meshes/magic/FireballProjectile01.nif",
+    "sha256": "f8fd57a3e4fe73cfc1558813446d7187f4120673b7f0a718b474eb4bb5a114db",
+    "bindings": [
+      "SPEL 0x04000847",
+      "MGEF 0x04000858",
+      "PROJ 0x0400085D"
+    ]
+  },
+  "parameter_deployment": {
+    "time": "2026-10-16T19:11:47.579311+08:00",
+    "parameter_deployment": true,
+    "full_021_deployed": false,
+    "changed": [
+      "IrisArsenal.ini",
+      "IrisArsenal.mod",
+      "IrisPackage.json",
+      "assets\\moves.csv"
+    ],
+    "game_DLL_version": "0.2.0",
+    "game_DLL_sha256": "b31c8dd4655b86b7d9908c0be6076904b7b58781a5c19de2af5df4afccbb988c",
+    "active_only": "vulcan",
+    "weapon_base_coefficients": 0.1,
+    "bullet_and_blast_radius": 4.5,
+    "reports": [
+      {
+        "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod",
+        "Role": "0.2.0兼容测试参数",
+        "Code location": "IrisArsenal.mod",
+        "Before": "e1fb07ed70fbaca84cc39b5b97f02a2e634b2333acae99f215f1c1ddb8c14101",
+        "Changes": "仅火神权重1、基础cut/blunt0.1、20发球半径4.5",
+        "Reasons": "用户仅测试火神炮、武器基础1/10、子弹球R4.5的明确要求",
+        "After": "1ea339e4cd68465d99ca8a93bdb5ede8b25ef876dd4510f3b8a63611d57eb90d",
+        "Impact": "只同步旧DLL可读取参数；完整0.2.1修复尚未部署",
+        "Validation": "字节回读/参数解析；重启游戏待用户",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod",
+            "E:\\AIWorkSpace\\_backups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod"
+          ],
+          "encoding": "binary"
+        },
+        "Unresolved": "新瞄准/火球材质/无法格挡闪避仍需用户编译0.2.1"
+      },
+      {
+        "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\assets\\moves.csv",
+        "Role": "0.2.0兼容测试参数",
+        "Code location": "assets/moves.csv",
+        "Before": "392b0aecfbf2aef6e3fcfd0aed8c2db88bc7757f3593ffa71d47409a49770ab9",
+        "Changes": "仅火神权重1、基础cut/blunt0.1、20发球半径4.5",
+        "Reasons": "用户仅测试火神炮、武器基础1/10、子弹球R4.5的明确要求",
+        "After": "12dcd7c30e8d453fd00ebba435a9f5509a1ef6b6ff810a4108525575882ab0f4",
+        "Impact": "只同步旧DLL可读取参数；完整0.2.1修复尚未部署",
+        "Validation": "字节回读/参数解析；重启游戏待用户",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\assets\\moves.csv",
+            "E:\\AIWorkSpace\\_backups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\assets\\moves.csv"
+          ],
+          "encoding": "UTF-8/original line endings"
+        },
+        "Unresolved": "新瞄准/火球材质/无法格挡闪避仍需用户编译0.2.1"
+      },
+      {
+        "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini",
+        "Role": "0.2.0兼容测试参数",
+        "Code location": "IrisArsenal.ini",
+        "Before": "c493364b472fc18c7b7921d4cfb594937d53529990acd835803c966189f5b55d",
+        "Changes": "仅火神权重1、基础cut/blunt0.1、20发球半径4.5",
+        "Reasons": "用户仅测试火神炮、武器基础1/10、子弹球R4.5的明确要求",
+        "After": "4e9924ed8a71bcf3af30d1801a625189bdffdb355c612ea588c9402672d84d0f",
+        "Impact": "只同步旧DLL可读取参数；完整0.2.1修复尚未部署",
+        "Validation": "字节回读/参数解析；重启游戏待用户",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini",
+            "E:\\AIWorkSpace\\_backups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.ini"
+          ],
+          "encoding": "UTF-8/original line endings"
+        },
+        "Unresolved": "新瞄准/火球材质/无法格挡闪避仍需用户编译0.2.1"
+      },
+      {
+        "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json",
+        "Role": "当前0.2.0安装清单",
+        "Code location": "IrisPackage.json",
+        "Before": "89decd7e75ff3de2117eae68b4c812ed0547e19344d48b599732d27584f2ff06",
+        "Changes": "记录实际参数更新，明确0.2.1完整修复未部署",
+        "Reasons": "用户仅测试火神炮、武器基础1/10、子弹球R4.5的明确要求",
+        "After": "a24a8d315f8b376b6dedd4cbbd95cc97cc5888bc57b50483a349767077a32835",
+        "Impact": "只同步旧DLL可读取参数；完整0.2.1修复尚未部署",
+        "Validation": "字节回读/参数解析；重启游戏待用户",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json",
+            "E:\\AIWorkSpace\\_backups\\IrisArsenal-VulcanParams-20261016-191147-493360\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json"
+          ],
+          "encoding": "UTF-8/original line endings"
+        },
+        "Unresolved": "新瞄准/火球材质/无法格挡闪避仍需用户编译0.2.1"
+      }
+    ],
+    "game_tested": false
+  },
+  "package_gate": {
+    "old_DLL_rejected": true,
+    "reason": "DLL与0.2.1八招合同不一致",
+    "DLL_unchanged": true,
+    "compilation": "not run"
+  },
+  "agent_compiled": false,
+  "full_021_deployed": false,
+  "game_tested": false
+}

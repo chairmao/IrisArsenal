@@ -1,0 +1,62 @@
+{
+  "version": "0.4.7",
+  "asset_revision": "049-SourceSeatCannonIcon",
+  "target": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal",
+  "actual_installed_manifest_files": 138,
+  "manifest_and_files_verified": 139,
+  "files_written_by_update": 11,
+  "icon_cache_matches_mod_icon": true,
+  "icon_alpha16_bounds": [
+    10,
+    7,
+    503,
+    121
+  ],
+  "CPP_H_RC_unchanged": true,
+  "FCS_unchanged": true,
+  "HLSL_unchanged": true,
+  "DLL_unchanged": true,
+  "dll_sha256": "00d65a4d249bd718277db9abdedd71e06af4eff875a2d2cc04893bd16a4ac9ab",
+  "update_script_end_to_end": "passed: full rebuild -> all non-compiling checks -> stage -> deploy -> cache",
+  "isolated_update_tests": 13,
+  "runtime_tested": false,
+  "GPU_tested": false,
+  "compiled": false,
+  "changed_original_project_files": [
+    "docs/eight-effects.json",
+    "docs/eight-moves.json",
+    "tools/author_effects.py",
+    "tools/author_moves.py",
+    "tools/drill_particles.py",
+    "tools/electro_area.py",
+    "tools/historical047.py",
+    "tools/rebuild_package.py",
+    "tools/stage_package.py",
+    "tools/test_drill_037.py",
+    "tools/test_drill_visibility.py",
+    "tools/test_release047.py",
+    "tools/test_ten_moves042.py",
+    "tools/test_update_mod.py",
+    "tools/update_mod.py",
+    "tools/verify_moves.py",
+    "package/IrisArsenal/IrisPackage.json",
+    "package/IrisArsenal/assets/effects.csv",
+    "package/IrisArsenal/assets/effect_curves.csv",
+    "package/IrisArsenal/assets/iris_action_drive_female.skeleton",
+    "package/IrisArsenal/assets/iris_action_drive_male.skeleton",
+    "package/IrisArsenal/assets/iris_action_electro_cannon_female.skeleton",
+    "package/IrisArsenal/assets/iris_action_electro_cannon_male.skeleton",
+    "package/IrisArsenal/assets/iris_eight.material",
+    "package/IrisArsenal/assets/iris_fx_electro_area.mesh",
+    "package/IrisArsenal/assets/iris_fx_electro_burst.mesh"
+  ],
+  "deployment_audit": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\update-runs\\IrisArsenal-Update-20261018-045859-211892-c7fb7eca",
+  "deployment_backups": [
+    "D:/CodexBackups/IrisArsenal-Update-20261018-045859-211892-c7fb7eca",
+    "E:/AIWorkSpace/_backups/IrisArsenal-Update-20261018-045859-211892-c7fb7eca"
+  ],
+  "cache_backups": [
+    "D:/CodexBackups/IrisArsenal-Icon047-20261018-045900-9589ba13",
+    "E:/AIWorkSpace/_backups/IrisArsenal-Icon047-20261018-045900-9589ba13"
+  ]
+}

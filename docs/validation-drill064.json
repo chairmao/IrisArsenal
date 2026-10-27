@@ -1,0 +1,291 @@
+{
+  "syntax": [
+    {
+      "file": "IrisArsenal.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/FiniteCylinder.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisDiagnostics.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisDiagnostics.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    }
+  ],
+  "python_AST": true,
+  "serialized": {
+    "layers": 28,
+    "vertices": 6475,
+    "samples": 39,
+    "duration": 1.260760194,
+    "cull_bound_unit_radius": 11.340805993,
+    "finite": true
+  },
+  "source_particle_path_identity": {
+    "particles": 275,
+    "whole_time_scale": 7.188176200480841,
+    "max_error": 2.3833346851631632e-07,
+    "same_path_by_normalized_life": true
+  },
+  "source_clocks": {
+    "blue_end": 0.52,
+    "fire_begin": 0.56,
+    "fire_whole_speed": 9.275641025641026,
+    "no_double_speed": true,
+    "other_fire_speed_unchanged": 2
+  },
+  "visible_range": {
+    "damage_sphere_radius": 120,
+    "fire_visible_radius95_12_views": [
+      135.71949790503686,
+      132.28416956300873,
+      121.78072372902632,
+      135.32530959003654,
+      122.61776760368055,
+      130.73776782774246,
+      120.0,
+      131.19207267319211,
+      125.86313803818037,
+      130.1359699806332,
+      135.78634604002164,
+      129.07761919346598
+    ],
+    "blue_visible_radius95_at_peak_12_views": [
+      110.21801829937601,
+      145.40458136929746,
+      153.21570158109418,
+      153.6328105577937,
+      123.53975611402049,
+      143.37629356142327,
+      160.0,
+      156.14170554736518,
+      129.51412568167538,
+      137.8955446260124,
+      148.14731492239866,
+      145.236328359619
+    ],
+    "blue_range_limit": "whole-instance continuous scale, max main radius95 160 (soft source edge not hard damage boundary)",
+    "limitations": "12 directional alpha/area/luminance CPU statistics, not proof of every point or game/GPU appearance"
+  },
+  "serialized_fire_coverage": {
+    "age": 0.76,
+    "radius95_12_views": [
+      135.71951642104779,
+      132.2841728893195,
+      121.7807333173164,
+      135.32531982412374,
+      122.61778309176118,
+      130.73777479909748,
+      120.00000838067096,
+      131.1920866188009,
+      125.86314407797096,
+      130.13598006701517,
+      135.7863463213153,
+      129.07762416508277
+    ],
+    "read_from_actual_float32_vertices_and_bound_materials": true
+  },
+  "ring": {
+    "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\SW\\Iris\\EXDrill1.nif",
+    "shape": "9",
+    "vertices": 2304,
+    "principal_extents_game_units": [
+      6.70737361907959,
+      6.65994930267334,
+      0.6917661428451538
+    ],
+    "source_geometry_unchanged": true,
+    "show_at_seconds": 1.633267999,
+    "rotation": "same drill pose; no independent clock",
+    "native_public_instance_index_window": true,
+    "source_added_layers_gated": [
+      0,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "red_black_arcs": {
+    "layers": [
+      {
+        "layer": 15,
+        "shape": "Slash:0:22",
+        "texture": "Textures\\Soulworker\\Iris\\blade_effect01_black.dds",
+        "principal_thickness": 6.018580811266192e-15,
+        "center": [
+          1.807125413801895,
+          -1.2835322889676037e-05,
+          11.542371562656221
+        ]
+      },
+      {
+        "layer": 16,
+        "shape": "Slash:0:26",
+        "texture": "Textures\\Soulworker\\Iris\\blade_effect01_red.dds",
+        "principal_thickness": 4.630104238118612e-15,
+        "center": [
+          1.8071286243697848,
+          -9.749842062589664e-06,
+          8.744221383464836
+        ]
+      },
+      {
+        "layer": 17,
+        "shape": "TwinChakrams:78",
+        "texture": "Textures\\Soulworker\\Iris\\blade_effect03_red.dds",
+        "principal_thickness": 2.9019586471886368e-15,
+        "center": [
+          1.8071179224768228,
+          -2.003477815559762e-05,
+          18.071388647436116
+        ]
+      },
+      {
+        "layer": 18,
+        "shape": "TwinChakrams:82",
+        "texture": "Textures\\Soulworker\\Iris\\blade_effect01_black.dds",
+        "principal_thickness": 5.904704789969115e-15,
+        "center": [
+          1.8071122370961863,
+          -2.5498650455035854e-05,
+          23.02644625642086
+        ]
+      }
+    ],
+    "group_axis_span_game_units": 18.22907601961586,
+    "source_plane_textures_and_mesh_unchanged": true,
+    "physical_collision_added": false
+  },
+  "baseline": {
+    "unchanged_files": 329,
+    "changed_files": [
+      "IrisArsenal.cpp",
+      "IrisCombat.cpp",
+      "package\\IrisArsenal\\IrisPackage.json",
+      "package\\IrisArsenal\\assets\\effects.csv",
+      "package\\IrisArsenal\\assets\\effect_curves.csv",
+      "package\\IrisArsenal\\assets\\iris_fx_drill_blast.mesh"
+    ],
+    "no_unrelated_asset_or_native_code_change": true
+  },
+  "function_invariance": {
+    "compared": 94,
+    "changed": [
+      "VisualLayerAge(const std::string& key,unsigned layer,float age)",
+      "VisualLifetime(const std::string& key,float duration)",
+      "Configure(const std::wstring& dir)",
+      "ShowParts(Character* c,Actor& a,const Matrix4& w,float t)",
+      "AdvanceEffects(GameWorld* w,float dt,const Vector3& origin,unsigned& budget)"
+    ],
+    "all_other_functions_exact": true,
+    "projectile_and_physics_half_of_AdvanceEffects_exact": true
+  },
+  "references": {
+    "private_materials": 28,
+    "all_textures_exist": true,
+    "all_source_hashes_match": true,
+    "no_shared_shader_changes": true
+  },
+  "safety": {
+    "reports": 69,
+    "all_recorded_backups_exist": true,
+    "utf8_and_mojibake": true,
+    "cpp_original_CRLF": true
+  },
+  "compile": "not run by policy",
+  "game_GPU_FPS": "not tested",
+  "reexport": {
+    "byte_identical_files": 23,
+    "writes_performed": false
+  },
+  "old_DLL_guard": {
+    "rejected": true,
+    "message": "DLL缺少064钻天破源爆炸/厚环时序，请重新编译 IrisArsenal.sln / Release|x64 / v100",
+    "existing_DLL_version": "0.4.20",
+    "sha256": "f6d1a2773e21f9c2fb2589aed609ec2e475ad71df6aac01471140769e8c5a3fe"
+  },
+  "table_record_invariance": {
+    "effects.csv": {
+      "changed_keys": [
+        "drill_blast"
+      ],
+      "other_records_identical": 21
+    },
+    "effect_curves.csv": {
+      "changed_keys": [
+        "drill_blast"
+      ],
+      "other_records_identical": 16
+    }
+  }
+}

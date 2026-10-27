@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-16T02:43:20.761340",
+  "input_DLL_version": "0.1.2",
+  "expected": "reject old contract before any DLL copy",
+  "passed": true,
+  "DLL_hash_unchanged": "32b7471621fb01fd057968a743999da2eb89c3d3ca53bae24d7a4559ce3b9c6d",
+  "compiler_invoked": false
+}

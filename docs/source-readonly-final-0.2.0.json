@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-16T02:46:19.902737",
+  "source_files": 376,
+  "source_differences": [],
+  "game_DLL_sha256": "32b7471621fb01fd057968a743999da2eb89c3d3ca53bae24d7a4559ce3b9c6d",
+  "project_package_DLL_sha256": "32b7471621fb01fd057968a743999da2eb89c3d3ca53bae24d7a4559ce3b9c6d",
+  "game_matches_initial_package": true,
+  "game_observed_version": "0.1.2",
+  "agent_compiled": false,
+  "agent_deployed": false
+}

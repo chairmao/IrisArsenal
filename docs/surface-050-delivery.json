@@ -1,0 +1,479 @@
+{
+  "version": "0.4.8",
+  "code_contract": "IRIS_SEAT_SURFACE_CANNON_050",
+  "asset_revision": "050-SurfaceSeatCannonDepth",
+  "compiled": false,
+  "compilation_reason": "code-modification-principles mandatory boundary",
+  "deployed": false,
+  "game_version": "0.4.7",
+  "game_asset_revision": "049-SourceSeatCannonIcon",
+  "game_dll_sha256": "4b5a95f769127dbb786ce131f6c1dd8db0ccc7cc5558221396cd8587777d6e9b",
+  "installed_files_read_only_verified": 138,
+  "installed_manifest_mismatches": [],
+  "package_changes": [
+    "package/IrisArsenal/IrisPackage.json",
+    "package/IrisArsenal/assets/iris_action_drive_female.skeleton",
+    "package/IrisArsenal/assets/iris_action_drive_male.skeleton",
+    "package/IrisArsenal/assets/iris_action_electro_cannon_female.skeleton",
+    "package/IrisArsenal/assets/iris_action_electro_cannon_male.skeleton"
+  ],
+  "CPP_H_changes": [
+    "IrisArsenal.cpp",
+    "IrisCombat.cpp"
+  ],
+  "validation": "verify_prototype.py passed after integrating true-surface negative case and pixel input/output dependency checks; test_update_mod.py 13 passed",
+  "CPU_preview": true,
+  "GPU_tested": false,
+  "new_source_texture": false,
+  "full_source_steam_or_procedural_lightning_ported": false,
+  "task_reports": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950",
+  "source_backups": [
+    "D:/CodexBackups/IrisArsenal-050-runtime-20261018-114228-496961",
+    "E:/AIWorkSpace/_backups/IrisArsenal-050-runtime-20261018-114228-496961"
+  ],
+  "encoding": "existing UTF-8 BOM state and CRLF/LF preserved; new text UTF-8; changed-text strict decode/mojibake verified by writes",
+  "actual_surface_samples": 192,
+  "pixel_evidence_verified": true,
+  "changed_files_sha256": {
+    "IrisArsenal.cpp": "83229668f4b1738436d00c08d076e321c69fa63b067d5613b9172e9fbfe186f3",
+    "IrisArsenal.rc": "a678eef8b7d3deaaa871f28abb7dac00e1fbf8d68bbb11e48f907f077c816e69",
+    "IrisCombat.cpp": "d3bf8dfd78c3a5adf3e624f370c7ee4bcc303112755bc96743a7c29cfd7fb020",
+    "README.md": "d6626bba393a83f44f44d6e9610e4d8b848e1df63e1a232113dca6e655a742b8",
+    "STATE.md": "bfa6f2a8e616a02f4334b56731d9ab6cdd36b1735f2146938c434330796e9f2e",
+    "docs/eight-moves.json": "8a856ede39b97ea708f6708ff212366992787a65c24c687e122963578f22ae5f",
+    "tools/author_moves.py": "b1e71456cb1e206534d5991e83845129dd99aee65bfd5dd00317ed1fdf1e6d70",
+    "tools/historical047.py": "ca7b3f96d702c48deab8004b2e3f68907d2d00131c93720f12b127d82221e1e3",
+    "tools/stage_package.py": "107d96894f8f253126719b76bdd9e3c31dd8da1d939226bb6cc0cdf6727217e2",
+    "tools/test_balance046.py": "f18a83808008be37280dc8622840284baa5fdaf05c1d24b7410e4a144045aba5",
+    "tools/test_melee_reaction044.py": "5dab26edfa7e211ce46a0710683bed97d3ef5a77faf8feb0acb7ecd25f78816b",
+    "tools/test_move_parameters045.py": "f4a7c49e6a65443cc8f316823794139000422eb51d23f056613aaf0eba191206",
+    "tools/test_release047.py": "de6fd3ef5d92c2585e637c93d09986ee09a75aa7cf51ae648c0cdb2f1260d881",
+    "tools/test_source_alignment049.py": "08a977fc378acc3d51e0d444f8c9eabd78d96d1c0a62aa27cbd928a425b3f09e",
+    "tools/verify_moves.py": "50ea6b89a1a599de385c3ab0382925c44ea45bcf4d5692dea39ebda6ab32745c",
+    "package/IrisArsenal/IrisPackage.json": "03820b3dc2207ca6b012f9379c2aa72abbe45732b06e866b8c5aa1c8fb0b1e48",
+    "package/IrisArsenal/assets/iris_action_drive_female.skeleton": "a2b310a5ade3d513f042523f6f94d19340b3525f18b7eb7718b952232a700253",
+    "package/IrisArsenal/assets/iris_action_drive_male.skeleton": "573b9c955ab9bd8cd030550986f048c033ccc46d7dd9fc5fce144f992fa8f0f6",
+    "package/IrisArsenal/assets/iris_action_electro_cannon_female.skeleton": "18e43e739551d2731914445bf7a97235e9c28cbe3a8087006a81f0e6ebc413a6",
+    "package/IrisArsenal/assets/iris_action_electro_cannon_male.skeleton": "2ed6f259a34faf91ffb98c3a32fc8a2d22aec07fbb16acd6c4cf297e3a6c61c0"
+  },
+  "encoding_audit": {
+    "IrisArsenal.cpp": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "CRLF"
+    },
+    "IrisArsenal.rc": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "IrisCombat.cpp": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "CRLF"
+    },
+    "README.md": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "STATE.md": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "docs/eight-moves.json": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/author_moves.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/historical047.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/stage_package.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/test_balance046.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/test_melee_reaction044.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/test_move_parameters045.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/test_release047.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/test_source_alignment049.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/verify_moves.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "package/IrisArsenal/IrisPackage.json": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    }
+  },
+  "per_file_report_index": [
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-113854-192107-author_moves.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-surface-20261018-113854-162905\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-surface-20261018-113854-162905\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-114228-508759-IrisCombat.cpp.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-114228-517226-IrisArsenal.cpp.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-114228-521649-IrisArsenal.rc.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-114228-529613-stage_package.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-114228-536121-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-runtime-20261018-114228-496961\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-114813-841494-historical047.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-checks-20261018-114813-040389\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-checks-20261018-114813-040389\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-114813-854032-test_source_alignment049.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_alignment049.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-checks-20261018-114813-040389\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_alignment049.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-checks-20261018-114813-040389\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_alignment049.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-114813-862556-test_release047.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-checks-20261018-114813-040389\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-checks-20261018-114813-040389\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-114813-874065-verify_moves.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-checks-20261018-114813-040389\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-checks-20261018-114813-040389\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-115200-513099-test_move_parameters045.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-negative-20261018-115200-502775\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-negative-20261018-115200-502775\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-115200-523692-test_balance046.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-negative-20261018-115200-502775\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-negative-20261018-115200-502775\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-115200-533195-test_melee_reaction044.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-negative-20261018-115200-502775\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-negative-20261018-115200-502775\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-115200-728341-test_source_alignment049.py.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_alignment049.py",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-negative-20261018-115200-502775\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_alignment049.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-negative-20261018-115200-502775\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_alignment049.py"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-120030-698453-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-delivery-20261018-120028-742759\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-delivery-20261018-120028-742759\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-120030-703550-STATE.md.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-delivery-20261018-120028-742759\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-delivery-20261018-120028-742759\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ]
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-VerifiedSeatCannon-050-20261018-112558-55c950\\report-120030-707559-README.md.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-050-delivery-20261018-120028-742759\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-050-delivery-20261018-120028-742759\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-001109-556138-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-001108-621140\\edit-001109-549559\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-001108-621140\\edit-001109-552611\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-001215-567694-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-001108-621140\\edit-001215-563480\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-001108-621140\\edit-001215-565483\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031542-475235-iris_action_drive_male.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031542-469678\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031542-472730\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-031542-723164-iris_action_drive_female.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-031539-495305\\edit-031542-716648\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-031539-495305\\edit-031542-719174\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032841-552290-iris_action_drive_male.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032841-545468\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032841-547459\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-032841-810665-iris_action_drive_female.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-032838-623893\\edit-032841-804490\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-032838-623893\\edit-032841-806507\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033831-634507-iris_action_drive_male.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033831-628772\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033831-631080\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-033831-871929-iris_action_drive_female.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-033828-809584\\edit-033831-866994\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-033828-809584\\edit-033831-869072\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-040241-644058-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-040240-708986\\edit-040241-638587\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-040240-708986\\edit-040241-640948\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-041858-683333-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-041752-032781\\edit-041858-676339\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-041752-032781\\edit-041858-679333\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-044528-985060-iris_action_drive_male.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-044527-462373\\edit-044528-977209\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-044527-462373\\edit-044528-980949\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-044529-350131-iris_action_drive_female.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-044527-462373\\edit-044529-345127\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-044527-462373\\edit-044529-347123\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-044530-786513-iris_action_electro_cannon_male.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_male.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-044527-462373\\edit-044530-781102\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_male.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-044527-462373\\edit-044530-783501\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_male.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-044531-052062-iris_action_electro_cannon_female.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_female.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-044527-462373\\edit-044531-046062\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_female.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-044527-462373\\edit-044531-049053\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_female.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-044738-475399-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-044738-468471\\edit-044738-469471\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-044738-468471\\edit-044738-471389\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-044805-657825-eight-moves.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-044738-468471\\edit-044805-647832\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-044738-468471\\edit-044805-651824\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-045506-483026-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-045356-347604\\edit-045506-478909\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-045356-347604\\edit-045506-480023\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-045748-714884-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-045747-906710\\edit-045748-708884\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-045747-906710\\edit-045748-710893\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-045858-301443-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-045747-906710\\edit-045858-297285\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-045747-906710\\edit-045858-299303\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-110758-490173-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-110757-385285\\edit-110758-481172\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-110757-385285\\edit-110758-485173\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-110917-538714-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-110757-385285\\edit-110917-532715\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-110757-385285\\edit-110917-535714\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-113859-288710-iris_action_drive_male.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-113854-549116\\edit-113859-280259\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-113854-549116\\edit-113859-283259\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_male.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-113902-998085-iris_action_drive_female.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-113854-549116\\edit-113902-992007\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-113854-549116\\edit-113902-994093\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_drive_female.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-114352-074748-IrisPackage.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-114352-067815\\edit-114352-069731\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-114352-067815\\edit-114352-071744\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-114430-915642-iris_action_electro_cannon_male.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_male.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-114352-067815\\edit-114430-908632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_male.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-114352-067815\\edit-114430-911732\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_male.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-114435-184856-iris_action_electro_cannon_female.skeleton.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_female.skeleton",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-114352-067815\\edit-114435-176530\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_female.skeleton",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-114352-067815\\edit-114435-179864\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_action_electro_cannon_female.skeleton"
+      ]
+    },
+    {
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-114436-534459-eight-moves.json.json",
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-114352-067815\\edit-114436-523826\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-114352-067815\\edit-114436-527765\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-moves.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "retired_source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\SW\\Iris\\drill.nif",
+  "source_sha256": "1c050ec8a83c8c04e1502e18c3c3aefbcf75eefb3e78d853ec297500eb122780",
+  "source_materials_verified": [
+    "IrisArsenal/Eight/d731a679727eca",
+    "IrisArsenal/Eight/87e2070bb25491"
+  ],
+  "removed_reference_calls": [
+    {
+      "reference": "Textures\\Soulworker\\Iris\\anim.dds",
+      "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\anim.dds",
+      "sha256": "179f128b96e16ff2efc07b0ba17b1d54b6778a6ca5d1dce928191a5a569e2690",
+      "output": "iris_anim_rgba_179f128b96e16ff2.png",
+      "same_pixels": true
+    },
+    {
+      "reference": "Textures\\Soulworker\\Iris\\002.dds",
+      "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Textures\\Soulworker\\Iris\\002.dds",
+      "sha256": "e43c904a32f784ff2bbeff680b26bc3cf903b14531bf9e39374aea2032af4cfb",
+      "output": "iris_fx_e43c904a32f784ff.png",
+      "same_pixels": true
+    }
+  ],
+  "old_reference_count": 243,
+  "remaining_reference_calls": 241,
+  "canonical_active_references": 38,
+  "images_converted": false,
+  "meshes_generated": false,
+  "compiler_used": false,
+  "method": "真实NIF/控制器读取，材质函数仅替换texture为原来源值，按调用多重集移除；与新作者共用纯元数据投影"
+}

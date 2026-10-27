@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "key": "drill_wings",
+    "source": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\Meshes\\SW\\Iris\\EXDrill2.nif",
+    "sha256": "7338ed48761f675d1418f294c0a12b3fb7a06cdb2758f55d2a41590253092527",
+    "materials": [
+      "IrisArsenal/Eight/f5b8eab11f86c6",
+      "IrisArsenal/Eight/f5b8eab11f86c6",
+      "IrisArsenal/Eight/f5b8eab11f86c6",
+      "IrisArsenal/Eight/f5b8eab11f86c6",
+      "IrisArsenal/Eight/f5b8eab11f86c6",
+      "IrisArsenal/Eight/f5b8eab11f86c6",
+      "IrisArsenal/Eight/f5b8eab11f86c6",
+      "IrisArsenal/Eight/f5b8eab11f86c6",
+      "IrisArsenal/Eight/f5b8eab11f86c6",
+      "IrisArsenal/Eight/65870ab1a3cd42"
+    ],
+    "min": [
+      -9.806575820578308,
+      -1.4579968473299443,
+      6.95350078153789
+    ],
+    "max": [
+      9.867006770682993,
+      17.745039577132758,
+      28.63420402976705
+    ],
+    "center": [
+      0.030215475052342455,
+      8.143521364901407,
+      17.793852405652473
+    ],
+    "bound_radius": 15.064669849989697,
+    "layers": [
+      {
+        "mesh": "Desirefx.me_Body144.008",
+        "bone": "AnimObjectB",
+        "vertices": 10588,
+        "triangles": 9472,
+        "weights": "all1, one source bone; exact rigid extraction"
+      },
+      {
+        "mesh": "Desirefx.me_Body144.009",
+        "bone": "AnimObjectB",
+        "vertices": 10589,
+        "triangles": 9472,
+        "weights": "all1, one source bone; exact rigid extraction"
+      },
+      {
+        "mesh": "Desirefx.me_Body144.010",
+        "bone": "AnimObjectA",
+        "vertices": 10589,
+        "triangles": 9472,
+        "weights": "all1, one source bone; exact rigid extraction"
+      },
+      {
+        "mesh": "Desirefx.me_Body23.017",
+        "bone": "AnimObjectA",
+        "vertices": 20216,
+        "triangles": 24228,
+        "weights": "all1, one source bone; exact rigid extraction"
+      },
+      {
+        "mesh": "Desirefx.me_Body23.018",
+        "bone": "AnimObjectB",
+        "vertices": 20216,
+        "triangles": 24228,
+        "weights": "all1, one source bone; exact rigid extraction"
+      },
+      {
+        "mesh": "Desirefx.me_Body23.019",
+        "bone": "AnimObjectA",
+        "vertices": 20216,
+        "triangles": 24228,
+        "weights": "all1, one source bone; exact rigid extraction"
+      },
+      {
+        "mesh": "Desirefx.me_Body23.020",
+        "bone": "AnimObjectB",
+        "vertices": 20216,
+        "triangles": 24228,
+        "weights": "all1, one source bone; exact rigid extraction"
+      },
+      {
+        "mesh": "Desirefx.me_Body23.021",
+        "bone": "AnimObjectB",
+        "vertices": 20216,
+        "triangles": 24228,
+        "weights": "all1, one source bone; exact rigid extraction"
+      },
+      {
+        "mesh": "Desirefx.me_Body23.022",
+        "bone": "AnimObjectA",
+        "vertices": 20216,
+        "triangles": 24228,
+        "weights": "all1, one source bone; exact rigid extraction"
+      },
+      {
+        "mesh": "Desirefx.me_Body144.007",
+        "bone": "AnimObjectA",
+        "vertices": 10590,
+        "triangles": 9472,
+        "weights": "all1, one source bone; exact rigid extraction"
+      }
+    ],
+    "source_window": [
+      3.769850034713745,
+      5.666440010070801
+    ],
+    "limitations": "本资产全部单骨权重1，精确导出；不是通用多骨蒙皮支持，不新增伤害"
+  },
+  "curve": {
+    "duration": 1.8965899753570556,
+    "samples": 115,
+    "peak_radius": 98.21699889149522,
+    "bounds": [
+      [
+        -59.21284559216247,
+        -15.824307794666556,
+        -34.83134683033297
+      ],
+      [
+        27.8596592616208,
+        68.72235093369525,
+        37.65177645578939
+      ]
+    ],
+    "source_window": [
+      3.769850034713745,
+      5.666440010070801
+    ],
+    "source_weapon_relative": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-AimPulseVRAM-20261016-193139-8924a2",
+  "observed_runtime": {
+    "version": "0.2.1",
+    "log": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-AimPulseVRAM-20261016-193139-8924a2\\runtime-0.2.1.log",
+    "DLL_SHA256": "f4be82fbfcefc79f8ad1f5ff5630d9e43a574ae7bac6ab08651c80890ce5beb5",
+    "spawn_example": {
+      "origin": [
+        -16333.8,
+        200.301,
+        29543.4
+      ],
+      "wrong_aim": [
+        -32622.9,
+        236.375,
+        58827.6
+      ]
+    },
+    "raw_target_root_not_logged_in_021": true
+  },
+  "offline_native": {
+    "Character_getBoneWorldPosition_RVA": "0x43FFC0",
+    "AnimationClassBase_getBoneWorldPosition_RVA": "0x5B11C0",
+    "RVA_source": "实际KenshiLib导出槽+Steam_1.0.65.br，仅离线证据，不写入运行代码",
+    "imports": [
+      "Ogre::Node::getPosition",
+      "Ogre::Vector3::operator*(float)",
+      "Ogre::Node::getOrientation",
+      "Ogre::Quaternion::operator*(Vector3)",
+      "Ogre::Vector3::operator+(Vector3)"
+    ],
+    "disassembly": [
+      "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-AimPulseVRAM-20261016-193139-8924a2\\CharacterBone-full.txt",
+      "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-AimPulseVRAM-20261016-193139-8924a2\\AnimationBone-full.txt"
+    ],
+    "finding": "Character包装返回原生骨点，原生已应用角色节点position/方向/比例；Target再加浮动原点导致大坐标重复偏移"
+  },
+  "pulse_source": {
+    "ESP_PROJ": "0x040008D1",
+    "MODL": "SW\\Iris\\PlasmaBall.nif",
+    "layers": 3,
+    "source_visual_bound": 27.524637098642444,
+    "collision_core": 0.7,
+    "blast_radius": 9,
+    "count": 3,
+    "multiplier": 2
+  },
+  "resource_analysis": {
+    "old_eager_plus_duplicate_bytes": 62674300,
+    "enabled_and_shared_bytes": 36787560,
+    "reduction_bytes": 25886740,
+    "GPU_measured": false
+  },
+  "GPU_measured": false,
+  "no_game_running_at_inspection": true,
+  "not_a_leak_diagnosis": true,
+  "compilation": "not run by policy",
+  "game_after_fix": "not run",
+  "deployment_receipt": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-AimPulseVRAM-20261016-193139-8924a2\\parameter-deployment.json"
+}

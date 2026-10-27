@@ -1,0 +1,122 @@
+{
+  "root:IrisArsenal.cpp": {
+    "before": "5999431e700b281039f545373807d217f4a463d04e2fdf51f17b414a70032f7f",
+    "after": "0d84211db1f86dbfd29ee944d2f8f42410e3115fc43ce5b08ce36dffadb29ea5"
+  },
+  "root:IrisArsenal.rc": {
+    "before": "5a0974b603398d6a1ea11565905cb9408a82f149cfffb319f16818334eccbffd",
+    "after": "41f310bdbf992055c25af8ec1c066cffd9d94b09ea24bb7b8a2915d11c353ec2"
+  },
+  "root:IrisCombat.cpp": {
+    "before": "ffae47387a9a18f2368e4f30da538c0c59d13200bc5f4e43986984b091dbe350",
+    "after": "ca314624a759735393481688aed577f51a8f4f19430954f71840ec5fd822b656"
+  },
+  "root:IrisDiagnostics.cpp": {
+    "before": "27509c13864cf08d12a6d12757dd2233e72eefca8eb3c6499748ad2e8d420ca5",
+    "after": "52fecb4a17833c9a21a65e6827194dacfdae1f0af22f451301a908589e7ef9d5"
+  },
+  "root:IrisDiagnostics.h": {
+    "before": "0e02d5e4e9f9a02e62b4e8c62aa1b21cbf64f7fee8bc036fc3472b42f8cbb287",
+    "after": "a8aee21c1a8ef28293b97de8784441d9450e2760d8acd903a626a7bab52c7027"
+  },
+  "root:distribution/IrisArsenal.ini": {
+    "before": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c",
+    "after": "de51b14359fb24db30746d8fbb961e77e4c1e08b9a2ca85d95f5a2237d56f047"
+  },
+  "root:tools/author_moves.py": {
+    "before": "b1e71456cb1e206534d5991e83845129dd99aee65bfd5dd00317ed1fdf1e6d70",
+    "after": "1c0624cf483b9052c05e0ecb78a1462b66babbb5f68c3c22d0f7da17a2c07b80"
+  },
+  "root:tools/historical047.py": {
+    "before": "a8fa9e3c873d8f422047ba8689e4deb7e62f272cab5aef451c208800c725e523",
+    "after": "967938a21e00dc35f0fddf4f1ed8da2e680c89c53f25e7536106cd55f6192227"
+  },
+  "root:tools/read_audit052.py": {
+    "before": "072b3b391ccedd53a9b96f0e9d5e73cd29669ee43d5814a07c0ca16013eb09a2",
+    "after": "a095518f12662f1e76771548898992e09f69d3f39b5f47eb58e51615b359aeb5"
+  },
+  "root:tools/stage_package.py": {
+    "before": "eebcccfbe5343ebde5b0c6f134562c26ddbfd4bdc60e6d21c9c471477bbe4e45",
+    "after": "cb26e667672d91a1c4df5ef4fc35b5490e3c98840422ec5d06019b492fc8c16d"
+  },
+  "root:tools/test_balance046.py": {
+    "before": "b4591109712d90da570d433f7483ab1120d2ab38b8cd9fe7edd44b41db6d919f",
+    "after": "53188aff04b5500f9c6121197b62cbfbbcd4984f8cb53fdc85a48b0355357043"
+  },
+  "root:tools/test_cannon_quake.py": {
+    "before": "a056d548365ba54b0d615eb20a6acce8642043219048854d006ffceb756a411f",
+    "after": "4efa8926cd97e49fd65b548517c5b5c867a6e1b1472c07ef8fb7207aa6f7d668"
+  },
+  "root:tools/test_icon_rebuild048.py": {
+    "before": "787daa21e6af07fa3ce2349ecdd58dc0717d6868101c211e52f7c552997e84af",
+    "after": "3c493da828c2c730580b3c72f7fa3952bc00772ef77cde809c6b80cbfe708eca"
+  },
+  "root:tools/test_surface050.py": {
+    "before": "328753ccc05c19544f2bef1f005f74ac881c8984e96836c36ef65f36841da959",
+    "after": "10bdf2221eac93508bf2b1cd1b2e5b5e8753a2b909a722e894aca15d5525e5db"
+  },
+  "root:tools/verify_moves.py": {
+    "before": "98f7ef2c4d58ea33ba519255b81f5634b84de817100f3388ed874437bf935012",
+    "after": "21e41d046e27f47a8198ecebef58053ddd0cd3769ca1d593a40fb669d00d8357"
+  },
+  "root:package/IrisArsenal/IrisArsenal.ini": {
+    "before": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c",
+    "after": "de51b14359fb24db30746d8fbb961e77e4c1e08b9a2ca85d95f5a2237d56f047"
+  },
+  "root:package/IrisArsenal/IrisArsenal.mod": {
+    "before": "8d7604b887af96a77913d88f67cd8018f6d6b1d66c6972a678233b408eff16b2",
+    "after": "1809cc59226eb3c1e89a3aeb6b35cfa708319968e1b4c7db711216bece0e66d4"
+  },
+  "root:package/IrisArsenal/IrisPackage.json": {
+    "before": "ead4f034e19b02d4cd381d8b29fa7b8e3a41769d3656fc84597f9950c9bdd73f",
+    "after": "969cd211a6c5d92583443f74926cb2b33e65a964bab5aa2d5244b87d907943f5"
+  },
+  "function:Configure": {
+    "before": "830a1ca951cf8d3873dcdabbf9f1b8b4652d7b5a0fb5de1c720b1dbecfe6c83a",
+    "after": "3e564d59305d00d62c7579537e76bf514f02c9823a0af712a555831dd1bc6caf"
+  },
+  "compact:Configure": {
+    "before": "e6c47f0b07af5b4e66aa6f8b3b65233152ae09d2fe02e36d5eb04772e0727230",
+    "after": "d2fc40ef3318bda61dbbdf04c4efec816c1734a78c59323fd64ad57b85fd3287"
+  },
+  "function:ResolveJobs": {
+    "before": "32ed7f9a8084914945c288f27426bb845d5d6f33a58553f790a00b4226be540b",
+    "after": "aaa9bb353c9a1e954792e1a34cadd5e6568cecca136b092b76d94fa0a3d6850c"
+  },
+  "compact:ResolveJobs": {
+    "before": "df79179355bd518dd662ee70073567f0b32a68dab4c07b6b701262b61255d22e",
+    "after": "c3eb184cb43c8ea85b7815ccec5b5f68517c774b15c1776f947d614d0fa6eb93"
+  },
+  "function:Flush": {
+    "before": "7aaba9e851e4dc904f97571b7f7cf898816e855f49fbb860850bc297a98e6d76",
+    "after": "208736fa8b2bff3fda35d732c7c5d4a18f9ab435bb525e23986c9fce7ab8bcb7"
+  },
+  "compact:Flush": {
+    "before": "21c99f8c11810dfaf855c48c80512649bbd1bc494e2b18d9936fea62d6f8d416",
+    "after": "4953d346e596a0be2b468609d32464a7b7107c9394778e320229f6274d3a56b0"
+  },
+  "package:IrisArsenal.mod": {
+    "before": "8d7604b887af96a77913d88f67cd8018f6d6b1d66c6972a678233b408eff16b2",
+    "after": "1809cc59226eb3c1e89a3aeb6b35cfa708319968e1b4c7db711216bece0e66d4"
+  },
+  "root:tools/test_vulcan_contract.py": {
+    "before": "8502b4f8714733b943797a2cd34965e73b81aaf6bfb975520a89c3cff8b4418c",
+    "after": "797dd5b19f685f5e49ecf23f819622c0ae57f416f31ebd15fcad6c9df250cbe5"
+  },
+  "root:tools/test_melee_reaction044.py": {
+    "before": "6c8d4268d7ef544f66fd8d21cdba223c87a155b53fa3514c4abccaf71819f54f",
+    "after": "f391ac554e607e695db1f4792052db127770c204d6d4c3852ef36fd2c0e23aff"
+  },
+  "root:tools/test_release047.py": {
+    "before": "128496bce1aa77b4bcaca5d511f482fddb047553a12bdf27dfb6dcbe91335241",
+    "after": "cfb99784d1adb3ded1670ed7a6301448c4d9bb626e597af7b63fc2f018043240"
+  },
+  "function:Flush_parameters045": {
+    "before": "bf4c043038607bb66950e413ff544ed46ebbf983b6855bf19b5fe8362cacc858",
+    "after": "afcab512febca99a09c2477e01b92fca3933e3b113d4fe99cb76ffb0fb7582f1"
+  },
+  "root:tools/test_move_parameters045.py": {
+    "before": "f9367f76c66e7adf973d1596de3b61c3d0c39c9ee7bccda35ba254cea7729aea",
+    "after": "c2092dff72b1eebc363486739493a235bb912ae705a20e896e5cb7d9d065869b"
+  }
+}

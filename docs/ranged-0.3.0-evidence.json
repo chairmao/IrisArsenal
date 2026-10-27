@@ -1,0 +1,60 @@
+{
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-RangedFlow-20261016-201558-78132c",
+  "project": "E:\\KenshiProject\\2.Projects\\IrisArsenal",
+  "native_manifest": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-RangedFlow-20261016-201558-78132c\\native-manifest.json",
+  "native_disassembly_files": [
+    "AI-hasCrossbowEquipped.txt",
+    "AI-isWithinMyBowRange.txt",
+    "AI-scoreRangedAttack.txt",
+    "AnimationClass-rangedCombatModeUpdate.txt",
+    "AnimationClass-runCombatAnimation.txt",
+    "AnimationClass-startCombatAnimation.txt",
+    "Character-shouldUseRangedWeapons.txt",
+    "CharacterHuman-drawWeapon.txt",
+    "CharacterHuman-getRangedWeapon.txt",
+    "GunClass-_CONSTRUCTOR.txt",
+    "GunClass-_DESTRUCTOR.txt",
+    "GunClass-_NV_destroyPhysical.txt",
+    "GunClass-calculateReloadTime.txt",
+    "GunClass-getAimDir.txt",
+    "GunClass-reactivationCheck.txt",
+    "GunClass-reloadAmmo.txt",
+    "GunClass-shoot.txt",
+    "GunClass-trace.txt",
+    "GunClassPersonal-getAimDir.txt",
+    "RangedCombatClass-animationUpdate.txt",
+    "RangedCombatClass-end.txt",
+    "RangedCombatClass-getGun.txt",
+    "RangedCombatClass-getGunRange.txt",
+    "RangedCombatClass-isInRange.txt",
+    "RangedCombatClass-reloadCheck.txt",
+    "RangedCombatClass-resetShotTimer.txt",
+    "RangedCombatClass-setState.txt",
+    "RangedCombatClass-setup.txt",
+    "RangedCombatClass-takeTheShotCheck.txt",
+    "RangedCombatClass-updateMT.txt",
+    "RangedCombatClass-updateT.txt"
+  ],
+  "native_sources": {
+    "KenshiLib_DLL_sha256": "5b6240622d06801dc39896e385efb834b8e1fe2fcdf86067d071ae7a04f6c83b",
+    "game_exe_sha256": "504b362cde850d56afb1cea6f5b7b0ee014d9dd7b47e188599d91c804502cd3e"
+  },
+  "source_cpp": "SDK成员指针解析，离线RVA只在证据文本；没有硬地址/修饰签名/虚表修改",
+  "interval_direct_evidence": [
+    "calculateReloadTime返回值钳在reloadTimeMin/Max内，两个端点2时结果为2",
+    "reloadCheck ammoType=NULL跳过找弹/扣弹，仍维护原生reloadTimer",
+    "updateT/updateMT原生拥有选敌/移动/瞄准/LOS及射击请求"
+  ],
+  "validation": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-0.3.0.json",
+  "old_DLL_negative_test": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-RangedFlow-20261016-201558-78132c\\old-022-DLL-rejection.txt",
+  "current_user_DLL": {
+    "version": "0.2.2",
+    "sha256": "87232387965b502261ac025c02efa21c88564db8bbdb29254c90aa3670bc1ebe"
+  },
+  "source_assets_unchanged": true,
+  "FCS_binary_unchanged": true,
+  "compiled": false,
+  "deployed": false,
+  "runtime_verified": false,
+  "per_file_report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\ranged-0.3.0-files.json"
+}

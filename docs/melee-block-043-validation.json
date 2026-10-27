@@ -1,0 +1,109 @@
+{
+  "version": "0.4.3",
+  "code_contract": "IRIS_MELEE_BLOCK_043",
+  "resource_contract": "IRIS_EIGHT_042",
+  "dedicated_test": {
+    "code_contract": "IRIS_MELEE_BLOCK_043",
+    "protected": [
+      "drill",
+      "earthquake",
+      "electro_cannon",
+      "fire_roll",
+      "full_burst",
+      "spiral"
+    ],
+    "excluded": [
+      "hammer_combo",
+      "vulcan",
+      "pulse",
+      "drive"
+    ],
+    "native_transition_model_cases": 440,
+    "invalid_window_boundaries": 14,
+    "unchanged_native_functions": 10,
+    "unchanged_package_files": 135,
+    "old_same_asset_contract_DLL_rejected": true,
+    "compiled": false,
+    "game_tested": false,
+    "model_is_runtime_proof": false
+  },
+  "syntax": [
+    {
+      "file": "IrisArsenal.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/FiniteCylinder.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    }
+  ],
+  "sync_tests": {
+    "run": 11,
+    "passed": 11,
+    "real_game_deployment": false
+  },
+  "game_unchanged_files": 136,
+  "source_asset_package_unchanged": 135,
+  "compile": "not run by skill/repository policy",
+  "runtime": "pending user compilation and test",
+  "backup_roots": [
+    "D:/CodexBackups/IrisArsenal-BlockGuard-043-20261017-221427-194125",
+    "E:/AIWorkSpace/_backups/IrisArsenal-BlockGuard-043-20261017-221427-194125"
+  ]
+}

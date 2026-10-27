@@ -1,0 +1,17 @@
+{
+  "game_mod_files_unchanged": 96,
+  "Skyrim_Iris_files_unchanged": 376,
+  "game_DLL": {
+    "contract": "IRIS_EIGHT_030",
+    "sha256": "9a2ccdf2fb177e3fd45cb2c69eb3039b0b77368b1eeb25c92d197f9107faf686"
+  },
+  "agent_compiled": false,
+  "agent_deployed": false,
+  "local_dependency": {
+    "path": "D:/CodexWorkSpace/Tools/IrisArsenal-lz4",
+    "version": "lz4==4.4.5",
+    "purpose": "source DDS BSA linked LZ4 frame only; not game runtime",
+    "global_install": false
+  },
+  "baseline": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-CannonQuake-032-20261016-222946-936\\baseline.json"
+}

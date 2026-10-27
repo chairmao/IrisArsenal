@@ -1,0 +1,95 @@
+{
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "syntax_files": 10,
+  "passed": true,
+  "compile": "not run by skill policy",
+  "game_tested": false,
+  "causal_boundary": "061日志确认零射击请求；缓存门存在合法目标更新阻塞路径；无回调布尔日志，不能证明该门是旧运行唯一原因",
+  "permission_block": "exact original060 control flow except authorized CanDamage call and Chinese comments",
+  "new_request_move_snapshot": false,
+  "native_terrain_character_geometry": "unchanged",
+  "syntax": [
+    {
+      "file": "IrisArsenal.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/FiniteCylinder.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisDiagnostics.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisDiagnostics.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    }
+  ]
+}

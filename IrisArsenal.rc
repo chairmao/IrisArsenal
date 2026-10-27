@@ -1,0 +1,27 @@
+// 0.4.54/104：正式人数无限制、片尾审计；实际生效以编译后的DLL和运行日志为准。
+// DLL实际编译/部署状态以文件哈希和运行日志确认，不能由历史“待编译”注释推断。
+#include <windows.h>
+// 文件版本与运行日志/资源合同保持一致，原型不能标成已完成的正式技能。
+1 VERSIONINFO
+ FILEVERSION 0,4,54,0
+ PRODUCTVERSION 0,4,54,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x2L
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040904b0"
+  BEGIN
+   VALUE "FileDescription", "IrisArsenal ten-move implementation and configurable audit\0"
+   VALUE "FileVersion", "0.4.54\0"
+   VALUE "ProductName", "IrisArsenal\0"
+   VALUE "ProductVersion", "0.4.54\0"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x409, 1200
+ END
+END

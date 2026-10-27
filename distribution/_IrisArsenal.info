@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <id>0</id><mod>IrisArsenal</mod><title>伊莉丝·锤枪 | Iris Arsenal [RE_Kenshi]</title>
+ <tags><string>Gameplay</string></tags><visibility>2</visibility>
+ <changeNotes>工坊首发准备；现有运行版本0.4.34 / IRIS_MEDICAL_GATE_083。</changeNotes>
+</ModData>

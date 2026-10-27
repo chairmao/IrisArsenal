@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-16T18:38:41.338523+08:00",
+  "cause_confirmed": "FCS16处文件名缺少action_；旧drill文件存在但只含DrillProof，不能匹配IrisArsenal_drill",
+  "source_log": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-AttackLoadFix-20261016-183433-c07420\\kenshi-animation-evidence.txt",
+  "plugin_log": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-AttackLoadFix-20261016-183433-c07420\\IrisArsenal-20261016-182317-069-34848.log",
+  "regression": {
+    "tests": {
+      "valid_16_references": "passed",
+      "old_missing_filename": "rejected",
+      "existing_legacy_drill_wrong_clip": "rejected",
+      "existing_other_move_wrong_clip": "rejected",
+      "outside_mod_path": "rejected",
+      "missing_race_animation_reference": "rejected"
+    },
+    "semantic_diff": [
+      {
+        "record": "30-IrisArsenal.mod",
+        "fields": {
+          "female animation": {
+            "before": "./mods/IrisArsenal/assets/iris_fire_roll_female.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_fire_roll_female.skeleton"
+          },
+          "male animation": {
+            "before": "./mods/IrisArsenal/assets/iris_fire_roll_male.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_fire_roll_male.skeleton"
+          }
+        }
+      },
+      {
+        "record": "31-IrisArsenal.mod",
+        "fields": {
+          "female animation": {
+            "before": "./mods/IrisArsenal/assets/iris_spiral_female.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_spiral_female.skeleton"
+          },
+          "male animation": {
+            "before": "./mods/IrisArsenal/assets/iris_spiral_male.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_spiral_male.skeleton"
+          }
+        }
+      },
+      {
+        "record": "32-IrisArsenal.mod",
+        "fields": {
+          "female animation": {
+            "before": "./mods/IrisArsenal/assets/iris_earthquake_female.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_earthquake_female.skeleton"
+          },
+          "male animation": {
+            "before": "./mods/IrisArsenal/assets/iris_earthquake_male.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_earthquake_male.skeleton"
+          }
+        }
+      },
+      {
+        "record": "33-IrisArsenal.mod",
+        "fields": {
+          "female animation": {
+            "before": "./mods/IrisArsenal/assets/iris_drill_female.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_drill_female.skeleton"
+          },
+          "male animation": {
+            "before": "./mods/IrisArsenal/assets/iris_drill_male.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_drill_male.skeleton"
+          }
+        }
+      },
+      {
+        "record": "34-IrisArsenal.mod",
+        "fields": {
+          "female animation": {
+            "before": "./mods/IrisArsenal/assets/iris_full_burst_female.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_full_burst_female.skeleton"
+          },
+          "male animation": {
+            "before": "./mods/IrisArsenal/assets/iris_full_burst_male.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_full_burst_male.skeleton"
+          }
+        }
+      },
+      {
+        "record": "35-IrisArsenal.mod",
+        "fields": {
+          "female animation": {
+            "before": "./mods/IrisArsenal/assets/iris_vulcan_female.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_vulcan_female.skeleton"
+          },
+          "male animation": {
+            "before": "./mods/IrisArsenal/assets/iris_vulcan_male.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_vulcan_male.skeleton"
+          }
+        }
+      },
+      {
+        "record": "36-IrisArsenal.mod",
+        "fields": {
+          "female animation": {
+            "before": "./mods/IrisArsenal/assets/iris_pulse_female.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_pulse_female.skeleton"
+          },
+          "male animation": {
+            "before": "./mods/IrisArsenal/assets/iris_pulse_male.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_pulse_male.skeleton"
+          }
+        }
+      },
+      {
+        "record": "37-IrisArsenal.mod",
+        "fields": {
+          "female animation": {
+            "before": "./mods/IrisArsenal/assets/iris_drive_female.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_drive_female.skeleton"
+          },
+          "male animation": {
+            "before": "./mods/IrisArsenal/assets/iris_drive_male.skeleton",
+            "after": "./mods/IrisArsenal/assets/iris_action_drive_male.skeleton"
+          }
+        }
+      }
+    ]
+  },
+  "deployment": {
+    "deployed": true,
+    "game": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal",
+    "changed": [
+      "IrisArsenal.mod",
+      "IrisPackage.json"
+    ],
+    "cpp_modified": false,
+    "dll_modified": false,
+    "dll_sha256": "b31c8dd4655b86b7d9908c0be6076904b7b58781a5c19de2af5df4afccbb988c",
+    "animation_references": [
+      {
+        "move": "fire_roll",
+        "sex": "male",
+        "record": "30-IrisArsenal.mod",
+        "path": "assets\\iris_action_fire_roll_male.skeleton",
+        "animation": "IrisArsenal_fire_roll",
+        "sha256": "54962215df55f7e9751c34205ee90bc734d26a58cd5ad6dc13dbf11b261b8061"
+      },
+      {
+        "move": "fire_roll",
+        "sex": "female",
+        "record": "30-IrisArsenal.mod",
+        "path": "assets\\iris_action_fire_roll_female.skeleton",
+        "animation": "IrisArsenal_fire_roll",
+        "sha256": "bd11d5abd3db2dfc840ddae12a2ff74c4391320ea92720706bacc0d793b0f645"
+      },
+      {
+        "move": "spiral",
+        "sex": "male",
+        "record": "31-IrisArsenal.mod",
+        "path": "assets\\iris_action_spiral_male.skeleton",
+        "animation": "IrisArsenal_spiral",
+        "sha256": "c9a9a01a4e07f4b906831edbba0a64a447ddc3d1c02ee38ffbe93a40d53bbe44"
+      },
+      {
+        "move": "spiral",
+        "sex": "female",
+        "record": "31-IrisArsenal.mod",
+        "path": "assets\\iris_action_spiral_female.skeleton",
+        "animation": "IrisArsenal_spiral",
+        "sha256": "42f231d176132e45ecd7248f8b6d64211286f4cbef947083c88568d122e2906e"
+      },
+      {
+        "move": "earthquake",
+        "sex": "male",
+        "record": "32-IrisArsenal.mod",
+        "path": "assets\\iris_action_earthquake_male.skeleton",
+        "animation": "IrisArsenal_earthquake",
+        "sha256": "88779955e8bef17ada5f6fe401756215cb2df71c95f23981c3d7df6763b858c0"
+      },
+      {
+        "move": "earthquake",
+        "sex": "female",
+        "record": "32-IrisArsenal.mod",
+        "path": "assets\\iris_action_earthquake_female.skeleton",
+        "animation": "IrisArsenal_earthquake",
+        "sha256": "07d964381b94b3e81271e63cf246b55acd9053a45bff2c1435c8cc65943bdcdb"
+      },
+      {
+        "move": "drill",
+        "sex": "male",
+        "record": "33-IrisArsenal.mod",
+        "path": "assets\\iris_action_drill_male.skeleton",
+        "animation": "IrisArsenal_drill",
+        "sha256": "e7620ca75a59ac8417616e6037b690db7787948ee0fd18f74ef221c0f78f979b"
+      },
+      {
+        "move": "drill",
+        "sex": "female",
+        "record": "33-IrisArsenal.mod",
+        "path": "assets\\iris_action_drill_female.skeleton",
+        "animation": "IrisArsenal_drill",
+        "sha256": "a4dce791744a5674aa908c01c6699968ca222035b95759629ac8d218e4e75f3f"
+      },
+      {
+        "move": "full_burst",
+        "sex": "male",
+        "record": "34-IrisArsenal.mod",
+        "path": "assets\\iris_action_full_burst_male.skeleton",
+        "animation": "IrisArsenal_full_burst",
+        "sha256": "611c2031d2424c8e966e3e3299086ea8eb3543f3bfd5ff8ac6662a0c6256d00f"
+      },
+      {
+        "move": "full_burst",
+        "sex": "female",
+        "record": "34-IrisArsenal.mod",
+        "path": "assets\\iris_action_full_burst_female.skeleton",
+        "animation": "IrisArsenal_full_burst",
+        "sha256": "8942e96ad0a8dd594d71ec934a4894db153d3612967c1b5d06e49e0cb8a5311e"
+      },
+      {
+        "move": "vulcan",
+        "sex": "male",
+        "record": "35-IrisArsenal.mod",
+        "path": "assets\\iris_action_vulcan_male.skeleton",
+        "animation": "IrisArsenal_vulcan",
+        "sha256": "fdc4d37134148a2ed1d7b8ce3fd087b2dce630a7bdd25d4fd7e3f7722b6701e5"
+      },
+      {
+        "move": "vulcan",
+        "sex": "female",
+        "record": "35-IrisArsenal.mod",
+        "path": "assets\\iris_action_vulcan_female.skeleton",
+        "animation": "IrisArsenal_vulcan",
+        "sha256": "3378be31283ec95599d2ceb3fe2ce9c8494792f4dc9778a1ae6bf1b73f0addbe"
+      },
+      {
+        "move": "pulse",
+        "sex": "male",
+        "record": "36-IrisArsenal.mod",
+        "path": "assets\\iris_action_pulse_male.skeleton",
+        "animation": "IrisArsenal_pulse",
+        "sha256": "dd27f4532d2a96bbf41b26b11c8151e5ed2dbbf1a8082f7c6a8514b5509d58ce"
+      },
+      {
+        "move": "pulse",
+        "sex": "female",
+        "record": "36-IrisArsenal.mod",
+        "path": "assets\\iris_action_pulse_female.skeleton",
+        "animation": "IrisArsenal_pulse",
+        "sha256": "e5eb5346ea925344217ff259a090abf97599d817ad0ad52ca3b505a570165547"
+      },
+      {
+        "move": "drive",
+        "sex": "male",
+        "record": "37-IrisArsenal.mod",
+        "path": "assets\\iris_action_drive_male.skeleton",
+        "animation": "IrisArsenal_drive",
+        "sha256": "f384914698d683ae27fb9943f901c2e2fce0a458849d4569d0c59e8d9819e277"
+      },
+      {
+        "move": "drive",
+        "sex": "female",
+        "record": "37-IrisArsenal.mod",
+        "path": "assets\\iris_action_drive_female.skeleton",
+        "animation": "IrisArsenal_drive",
+        "sha256": "c7449b1dabfcbb82d82e8f7baee50e78ed7bdd336530cde8df0095b4c00b3799"
+      }
+    ],
+    "backups": [
+      "D:\\CodexBackups\\IrisArsenal-AttackLoadFix-20261016-183705-917264\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-AttackLoadFix-20261016-183705-917264\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisArsenal.mod",
+      "D:\\CodexBackups\\IrisArsenal-AttackLoadFix-20261016-183705-917264\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-AttackLoadFix-20261016-183705-917264\\D\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\IrisPackage.json"
+    ],
+    "game_tested": false,
+    "game_running_at_deploy": false,
+    "time": "2026-10-16T18:37:06.045424+08:00"
+  },
+  "agent_compiled": false,
+  "cpp_modified": false,
+  "game_started_by_agent": false,
+  "game_tested_after_fix": false,
+  "unresolved": [
+    "用户重新启动游戏后的实际出招、持械及伤害待实机确认；本次只修加载阻断，不宣称八招已验收"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "payload": {
+    "file": "E:\\skyrimspecialedition\\mods\\soulworker_Iris\\SKSE\\PayloadInterpreter\\Config\\Iris.ini",
+    "line": 38,
+    "text": "$IrisExplosion4 = @CAST|0X02FFD2|Skyrim.esm|1|1|0|0|0|0|0|0|0"
+  },
+  "master": "E:\\skyrimspecialedition\\SkyrimSE\\Data\\Skyrim.esm",
+  "records": [
+    {
+      "tag": "MGEF",
+      "form": "00104D44",
+      "record_file_position": 2031797,
+      "fields": [
+        {
+          "tag": "EDID",
+          "value": "crStaggerAttackAreaEffectGiantStomp"
+        },
+        {
+          "tag": "DATA",
+          "referenced_EXPL": "00072675",
+          "byte_positions": [
+            76
+          ],
+          "sha256": "aa6169af8801ae451b43748caad8243d7fb342f465a2c655324958d8df146b00"
+        }
+      ]
+    },
+    {
+      "tag": "SPEL",
+      "form": "0002FFD2",
+      "record_file_position": 2558339,
+      "fields": [
+        {
+          "tag": "EDID",
+          "value": "crGiantStomp"
+        },
+        {
+          "tag": "EFID",
+          "form": "00104D44"
+        }
+      ]
+    },
+    {
+      "tag": "EXPL",
+      "form": "00072675",
+      "record_file_position": 244097889,
+      "fields": [
+        {
+          "tag": "EDID",
+          "value": "crGiantStompExplosion"
+        },
+        {
+          "tag": "MODL",
+          "value": "Effects\\FXdustBurstTiny.nif"
+        }
+      ]
+    }
+  ],
+  "source_files_modified": false
+}

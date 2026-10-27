@@ -1,0 +1,88 @@
+{
+  "template_name": "新专属武器动作与特效规格",
+  "schema_purpose": "设计/证据表，非Iris运行格式；TODO必须填写后再实施。",
+  "project": {
+    "mod_name": "TODO",
+    "weapon_string_id": "TODO",
+    "native_category_from_FCS": "TODO",
+    "users": "weapon_identity_not_player_only",
+    "source_license": "TODO",
+    "game_SDK_hashes": "TODO"
+  },
+  "action": {
+    "key": "TODO",
+    "display_name": "TODO",
+    "video": {
+      "file": "TODO",
+      "start_seconds": null,
+      "end_seconds": null
+    },
+    "animation": {
+      "HKX": "TODO",
+      "source_hash": "TODO",
+      "male_and_female_bindings": "TODO",
+      "weapon_track": "TODO",
+      "root_motion": "TODO",
+      "duration_action_seconds": null,
+      "rate_map": "TODO",
+      "fallback_native_policy": "TODO"
+    },
+    "events": [
+      {
+        "index": 0,
+        "action_seconds": null,
+        "multiplier": null,
+        "dedup_scope": "cast+event+complete_identity",
+        "geometry": {
+          "method": "TODO native sphere/capsule/sector/sweep/cylinder",
+          "origin_transform": "TODO",
+          "radius": null,
+          "height": null,
+          "length": null,
+          "target_geometry": "TODO exact_or_AABB",
+          "contact_semantics": "TODO sampled_or_continuous"
+        },
+        "fx": {
+          "source_event_binding": "TODO",
+          "NIF_and_textures": "TODO",
+          "clock": "TODO action_or_independent_game_seconds",
+          "coverage_evidence": "TODO",
+          "unknowns": []
+        }
+      }
+    ],
+    "projectile": {
+      "enabled": false,
+      "speed_game_units_per_game_second": null,
+      "max_range": null,
+      "terrain": "finite_native_group_ray",
+      "character": "radius_preserved",
+      "first_contact_and_blast_consequence": "TODO",
+      "expiration": "no_fake_contact"
+    },
+    "eligibility": {
+      "native_standing_rules": "TODO",
+      "one_or_two_arms": "TODO",
+      "prone_and_robotics": "TODO",
+      "ally_unconscious_enemy_active_target": "TODO"
+    },
+    "defence": {
+      "bypass_block_dodge": false,
+      "prevent_active_block_interrupt": false,
+      "immune_hit_reaction": false,
+      "medical_unchanged": true
+    },
+    "ownership": {
+      "unreleased": "owned_by_action",
+      "released": "independent_job_shot_residue",
+      "reset": "world_epoch_clear",
+      "cross_frame_engine_raw_pointers": false
+    },
+    "acceptance": {
+      "evidence": [],
+      "noncompiled_tests": [],
+      "actual_engine_tests": [],
+      "unverified": []
+    }
+  }
+}

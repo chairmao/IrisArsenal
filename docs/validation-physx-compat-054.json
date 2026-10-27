@@ -1,0 +1,2221 @@
+{
+  "contract": "IRIS_EIGHT_042",
+  "compiled": false,
+  "HLSL_compiled": false,
+  "game_tested": false,
+  "events": {
+    "fire_roll": 2,
+    "spiral": 3,
+    "earthquake": 4,
+    "drill": 12,
+    "full_burst": 3,
+    "vulcan": 20,
+    "pulse": 3,
+    "drive": 4,
+    "electro_cannon": 4,
+    "hammer_combo": 3
+  },
+  "FCS_animation_references": [
+    {
+      "move": "fire_roll",
+      "sex": "male",
+      "record": "30-IrisArsenal.mod",
+      "path": "assets\\iris_action_fire_roll_male.skeleton",
+      "animation": "IrisArsenal_fire_roll",
+      "sha256": "54962215df55f7e9751c34205ee90bc734d26a58cd5ad6dc13dbf11b261b8061"
+    },
+    {
+      "move": "fire_roll",
+      "sex": "female",
+      "record": "30-IrisArsenal.mod",
+      "path": "assets\\iris_action_fire_roll_female.skeleton",
+      "animation": "IrisArsenal_fire_roll",
+      "sha256": "bd11d5abd3db2dfc840ddae12a2ff74c4391320ea92720706bacc0d793b0f645"
+    },
+    {
+      "move": "spiral",
+      "sex": "male",
+      "record": "31-IrisArsenal.mod",
+      "path": "assets\\iris_action_spiral_male.skeleton",
+      "animation": "IrisArsenal_spiral",
+      "sha256": "c9a9a01a4e07f4b906831edbba0a64a447ddc3d1c02ee38ffbe93a40d53bbe44"
+    },
+    {
+      "move": "spiral",
+      "sex": "female",
+      "record": "31-IrisArsenal.mod",
+      "path": "assets\\iris_action_spiral_female.skeleton",
+      "animation": "IrisArsenal_spiral",
+      "sha256": "42f231d176132e45ecd7248f8b6d64211286f4cbef947083c88568d122e2906e"
+    },
+    {
+      "move": "earthquake",
+      "sex": "male",
+      "record": "32-IrisArsenal.mod",
+      "path": "assets\\iris_action_earthquake_male.skeleton",
+      "animation": "IrisArsenal_earthquake",
+      "sha256": "5bef3d3091c1eb7b72d17bfbd28c6ec17764f37319bc9a0d2ad0e20d1028487c"
+    },
+    {
+      "move": "earthquake",
+      "sex": "female",
+      "record": "32-IrisArsenal.mod",
+      "path": "assets\\iris_action_earthquake_female.skeleton",
+      "animation": "IrisArsenal_earthquake",
+      "sha256": "0310db41b5d2365337aec89c1b23268a4c40a80f48b2f2227a7f4f4332cfcd2b"
+    },
+    {
+      "move": "drill",
+      "sex": "male",
+      "record": "33-IrisArsenal.mod",
+      "path": "assets\\iris_action_drill_male.skeleton",
+      "animation": "IrisArsenal_drill",
+      "sha256": "e7620ca75a59ac8417616e6037b690db7787948ee0fd18f74ef221c0f78f979b"
+    },
+    {
+      "move": "drill",
+      "sex": "female",
+      "record": "33-IrisArsenal.mod",
+      "path": "assets\\iris_action_drill_female.skeleton",
+      "animation": "IrisArsenal_drill",
+      "sha256": "a4dce791744a5674aa908c01c6699968ca222035b95759629ac8d218e4e75f3f"
+    },
+    {
+      "move": "full_burst",
+      "sex": "male",
+      "record": "34-IrisArsenal.mod",
+      "path": "assets\\iris_action_full_burst_male.skeleton",
+      "animation": "IrisArsenal_full_burst",
+      "sha256": "611c2031d2424c8e966e3e3299086ea8eb3543f3bfd5ff8ac6662a0c6256d00f"
+    },
+    {
+      "move": "full_burst",
+      "sex": "female",
+      "record": "34-IrisArsenal.mod",
+      "path": "assets\\iris_action_full_burst_female.skeleton",
+      "animation": "IrisArsenal_full_burst",
+      "sha256": "8942e96ad0a8dd594d71ec934a4894db153d3612967c1b5d06e49e0cb8a5311e"
+    },
+    {
+      "move": "vulcan",
+      "sex": "male",
+      "record": "35-IrisArsenal.mod",
+      "path": "assets\\iris_action_vulcan_male.skeleton",
+      "animation": "IrisArsenal_vulcan",
+      "sha256": "2e18d62d04fabe56cb120a355ec866ddfef472d5cf9fd084d1edfc8a96b0dc6a"
+    },
+    {
+      "move": "vulcan",
+      "sex": "female",
+      "record": "35-IrisArsenal.mod",
+      "path": "assets\\iris_action_vulcan_female.skeleton",
+      "animation": "IrisArsenal_vulcan",
+      "sha256": "e1c49a65cd73670e5672f006ca2a75a9f86568a7e910c46890e5682888cf58ab"
+    },
+    {
+      "move": "pulse",
+      "sex": "male",
+      "record": "36-IrisArsenal.mod",
+      "path": "assets\\iris_action_pulse_male.skeleton",
+      "animation": "IrisArsenal_pulse",
+      "sha256": "dd27f4532d2a96bbf41b26b11c8151e5ed2dbbf1a8082f7c6a8514b5509d58ce"
+    },
+    {
+      "move": "pulse",
+      "sex": "female",
+      "record": "36-IrisArsenal.mod",
+      "path": "assets\\iris_action_pulse_female.skeleton",
+      "animation": "IrisArsenal_pulse",
+      "sha256": "e5eb5346ea925344217ff259a090abf97599d817ad0ad52ca3b505a570165547"
+    },
+    {
+      "move": "drive",
+      "sex": "male",
+      "record": "37-IrisArsenal.mod",
+      "path": "assets\\iris_action_drive_male.skeleton",
+      "animation": "IrisArsenal_drive",
+      "sha256": "573b9c955ab9bd8cd030550986f048c033ccc46d7dd9fc5fce144f992fa8f0f6"
+    },
+    {
+      "move": "drive",
+      "sex": "female",
+      "record": "37-IrisArsenal.mod",
+      "path": "assets\\iris_action_drive_female.skeleton",
+      "animation": "IrisArsenal_drive",
+      "sha256": "a2b310a5ade3d513f042523f6f94d19340b3525f18b7eb7718b952232a700253"
+    },
+    {
+      "move": "electro_cannon",
+      "sex": "male",
+      "record": "38-IrisArsenal.mod",
+      "path": "assets\\iris_action_electro_cannon_male.skeleton",
+      "animation": "IrisArsenal_electro_cannon",
+      "sha256": "2ed6f259a34faf91ffb98c3a32fc8a2d22aec07fbb16acd6c4cf297e3a6c61c0"
+    },
+    {
+      "move": "electro_cannon",
+      "sex": "female",
+      "record": "38-IrisArsenal.mod",
+      "path": "assets\\iris_action_electro_cannon_female.skeleton",
+      "animation": "IrisArsenal_electro_cannon",
+      "sha256": "18e43e739551d2731914445bf7a97235e9c28cbe3a8087006a81f0e6ebc413a6"
+    },
+    {
+      "move": "hammer_combo",
+      "sex": "male",
+      "record": "39-IrisArsenal.mod",
+      "path": "assets\\iris_action_hammer_combo_male.skeleton",
+      "animation": "IrisArsenal_hammer_combo",
+      "sha256": "ca36dc2e33182f3cb1398d9eab6ac32031449a4df12aa1770f817c4dc5275194"
+    },
+    {
+      "move": "hammer_combo",
+      "sex": "female",
+      "record": "39-IrisArsenal.mod",
+      "path": "assets\\iris_action_hammer_combo_female.skeleton",
+      "animation": "IrisArsenal_hammer_combo",
+      "sha256": "1b64eec17567e225f70a9a8713b503187ee229a527a2cdcd7806b349d6221751"
+    }
+  ],
+  "serialized_body": [
+    {
+      "move": "fire_roll",
+      "sex": "male",
+      "frames": 140,
+      "weapon_position_error_max": 1.8528737926664257e-06,
+      "weapon_angle_error_degrees_max": 0.058962394235891176,
+      "left_unreachable_error_max": 0.2473802211049257,
+      "root_vertical_range": [
+        -4.854945659637451,
+        18.507278442382812
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "fire_roll",
+      "sex": "female",
+      "frames": 140,
+      "weapon_position_error_max": 1.5693642116970019e-06,
+      "weapon_angle_error_degrees_max": 0.06253270866265837,
+      "left_unreachable_error_max": 0.37768305043977374,
+      "root_vertical_range": [
+        -4.946471691131592,
+        18.286449432373047
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "spiral",
+      "sex": "male",
+      "frames": 141,
+      "weapon_position_error_max": 1.5125440750658761e-06,
+      "weapon_angle_error_degrees_max": 0.0574040877948986,
+      "left_unreachable_error_max": 0.4830796725752111,
+      "root_vertical_range": [
+        -4.980025291442871,
+        7.806546211242676
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "spiral",
+      "sex": "female",
+      "frames": 141,
+      "weapon_position_error_max": 1.7747193135243293e-06,
+      "weapon_angle_error_degrees_max": 0.062257690122436635,
+      "left_unreachable_error_max": 0.6431052140892024,
+      "root_vertical_range": [
+        -5.028505325317383,
+        7.834220886230469
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "earthquake",
+      "sex": "male",
+      "frames": 221,
+      "weapon_position_error_max": 1.9262078973657662e-06,
+      "weapon_angle_error_degrees_max": 0.06186045381838911,
+      "left_unreachable_error_max": 4.3690866661149865,
+      "root_vertical_range": [
+        -4.021764278411865,
+        -0.5625587701797485
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "earthquake",
+      "sex": "female",
+      "frames": 221,
+      "weapon_position_error_max": 1.7744709000495106e-06,
+      "weapon_angle_error_degrees_max": 0.059532118895017506,
+      "left_unreachable_error_max": 4.58165000557787,
+      "root_vertical_range": [
+        -3.9836807250976562,
+        -0.5600816607475281
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "drill",
+      "sex": "male",
+      "frames": 491,
+      "weapon_position_error_max": 2.152193781890348e-06,
+      "weapon_angle_error_degrees_max": 0.06031512596640403,
+      "left_unreachable_error_max": 0.3756617558013614,
+      "root_vertical_range": [
+        -4.290958404541016,
+        -0.13317669928073883
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "drill",
+      "sex": "female",
+      "frames": 491,
+      "weapon_position_error_max": 1.8532062562491826e-06,
+      "weapon_angle_error_degrees_max": 0.054255152431432044,
+      "left_unreachable_error_max": 0.5037363334144067,
+      "root_vertical_range": [
+        -4.214437007904053,
+        -0.13181272149085999
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "full_burst",
+      "sex": "male",
+      "frames": 274,
+      "weapon_position_error_max": 1.6377877403628765e-06,
+      "weapon_angle_error_degrees_max": 0.06815834124096806,
+      "left_unreachable_error_max": 0.25004394144283354,
+      "root_vertical_range": [
+        -3.7939553260803223,
+        -0.13249079883098602
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "full_burst",
+      "sex": "female",
+      "frames": 274,
+      "weapon_position_error_max": 1.3976203106813753e-06,
+      "weapon_angle_error_degrees_max": 0.059222808928674285,
+      "left_unreachable_error_max": 0.3805943748480325,
+      "root_vertical_range": [
+        -3.7682833671569824,
+        -0.1305384486913681
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "vulcan",
+      "sex": "male",
+      "frames": 191,
+      "weapon_position_error_max": 1.1782704580548092e-06,
+      "weapon_angle_error_degrees_max": 0.0602780578439312,
+      "left_unreachable_error_max": 0.3370388417092407,
+      "root_vertical_range": [
+        -3.163701057434082,
+        -0.07173771411180496
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "vulcan",
+      "sex": "female",
+      "frames": 191,
+      "weapon_position_error_max": 1.081379561191343e-06,
+      "weapon_angle_error_degrees_max": 0.057285143911273935,
+      "left_unreachable_error_max": 0.44518472405119275,
+      "root_vertical_range": [
+        -3.204310417175293,
+        -0.07042095810174942
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "pulse",
+      "sex": "male",
+      "frames": 190,
+      "weapon_position_error_max": 1.2571519065986577e-06,
+      "weapon_angle_error_degrees_max": 0.048639741438223166,
+      "left_unreachable_error_max": 0.17973016100107164,
+      "root_vertical_range": [
+        -2.8798117637634277,
+        -0.1452774703502655
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "pulse",
+      "sex": "female",
+      "frames": 190,
+      "weapon_position_error_max": 1.2865897033874853e-06,
+      "weapon_angle_error_degrees_max": 0.04883695091754792,
+      "left_unreachable_error_max": 0.30481632397176184,
+      "root_vertical_range": [
+        -2.8752615451812744,
+        -0.14351952075958252
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "drive",
+      "sex": "male",
+      "frames": 216,
+      "weapon_position_error_max": 1.3286758427690525e-06,
+      "weapon_angle_error_degrees_max": 0.05847230119672926,
+      "left_unreachable_error_max": 0.2862944203432759,
+      "root_vertical_range": [
+        -4.346786022186279,
+        3.5519208908081055
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "drive",
+      "sex": "female",
+      "frames": 216,
+      "weapon_position_error_max": 1.3331741073263412e-06,
+      "weapon_angle_error_degrees_max": 0.057263454650231096,
+      "left_unreachable_error_max": 0.4175624087213069,
+      "root_vertical_range": [
+        -4.416285991668701,
+        3.5222136974334717
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "electro_cannon",
+      "sex": "male",
+      "frames": 216,
+      "weapon_position_error_max": 1.1925380767171708e-06,
+      "weapon_angle_error_degrees_max": 0.05847230119672926,
+      "left_unreachable_error_max": 0.2862944203432759,
+      "root_vertical_range": [
+        -4.346786022186279,
+        3.5519208908081055
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "electro_cannon",
+      "sex": "female",
+      "frames": 216,
+      "weapon_position_error_max": 1.3331741073263412e-06,
+      "weapon_angle_error_degrees_max": 0.057263454650231096,
+      "left_unreachable_error_max": 0.4175624087213069,
+      "root_vertical_range": [
+        -4.416285991668701,
+        3.5222136974334717
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "hammer_combo",
+      "sex": "male",
+      "frames": 136,
+      "weapon_position_error_max": 1.5477522328842477e-06,
+      "weapon_angle_error_degrees_max": 0.05962450198401318,
+      "left_unreachable_error_max": 0.3525489586535122,
+      "root_vertical_range": [
+        -4.545469760894775,
+        -0.13875164091587067
+      ],
+      "runtime_verified": false
+    },
+    {
+      "move": "hammer_combo",
+      "sex": "female",
+      "frames": 136,
+      "weapon_position_error_max": 1.6980331307390648e-06,
+      "weapon_angle_error_degrees_max": 0.055772477027775894,
+      "left_unreachable_error_max": 0.4791248010069454,
+      "root_vertical_range": [
+        -4.604979991912842,
+        -0.13771265745162964
+      ],
+      "runtime_verified": false
+    }
+  ],
+  "FCS": {
+    "private_moves": 10,
+    "shared_chance": 0,
+    "disabled_public_pool": true,
+    "native_automatic_damage_targets": 0,
+    "damage_only_once_via_physical_event": true,
+    "ranges": {
+      "fire_roll": [
+        0,
+        25
+      ],
+      "spiral": [
+        0,
+        30
+      ],
+      "earthquake": [
+        0,
+        45
+      ],
+      "drill": [
+        12,
+        70
+      ],
+      "full_burst": [
+        20,
+        100
+      ],
+      "vulcan": [
+        0,
+        10000
+      ],
+      "pulse": [
+        0,
+        10000
+      ],
+      "drive": [
+        0,
+        10000
+      ],
+      "electro_cannon": [
+        0,
+        45
+      ],
+      "hammer_combo": [
+        0,
+        25
+      ]
+    }
+  },
+  "effects": {
+    "source_assets": 20,
+    "source_RGBA_and_UV": true,
+    "references_exist": true,
+    "not_ported": [
+      "beam.nif五层真实能量管网格/纹理已导出；三层BSProceduralLightningController为空网格，程序闪电未执行",
+      "EXDrill2已按AnimObjectA/B单骨精确导出；不是通用蒙皮运行时",
+      "完整NiPSys发射器和所有控制器尚未完整移植；地震按火焰变体源六层网格/曲线，准星按录像重绘",
+      "040终结保留ALS蓝相；火相为FullBust_End真实FireWave六曲面/七个ADDN64对象/两份MPS；枪口为ADDN09五源层；未执行完整NiPSys、受控重力、拖曳/湍流、程序闪电与屏幕折射"
+    ]
+  },
+  "weapon_proxy": {
+    "vertices_covered": 4595,
+    "capsules": 8,
+    "precision": "conservative, not triangles"
+  },
+  "vulcan_036": {
+    "enabled_only": [
+      "fire_roll",
+      "spiral",
+      "earthquake",
+      "drill",
+      "full_burst",
+      "vulcan",
+      "pulse",
+      "drive",
+      "electro_cannon",
+      "hammer_combo"
+    ],
+    "shots": 20,
+    "sphere_collision_radius": 4.5,
+    "blast_radius": 4.5,
+    "weapon_cut_blunt": 0.1,
+    "source_fireball_layers": 4,
+    "materials_checked": 47,
+    "blend_counts": {
+      "one zero": 3,
+      "src_alpha one": 43,
+      "src_alpha one_minus_src_alpha": 1
+    },
+    "palette_sample_RGBA": [
+      0.6980392156862745,
+      0.38823529411764707,
+      0.2,
+      0.054901960784313725
+    ],
+    "bullet_bound_radius_after_scale": 4.499999969713058,
+    "native_defence_scope": "all three ranged moves excluded; shared gate only for selected melee; original chain retained",
+    "SDK_declarations_and_link_symbol_bytes": true,
+    "C++_compiled": false,
+    "GPU_compiled": false,
+    "game_tested": false
+  },
+  "aim_pulse_resources_036": {
+    "world_coordinate_cases": [
+      {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_aim": [
+          35.0,
+          13.0,
+          80.0
+        ],
+        "distance": 87.3269717784832
+      },
+      {
+        "origin": [
+          -16300.0,
+          200.0,
+          29300.0
+        ],
+        "world_aim": [
+          -16265.0,
+          213.0,
+          29380.0
+        ],
+        "distance": 87.3269717784832
+      },
+      {
+        "origin": [
+          900000.0,
+          -50.0,
+          -700000.0
+        ],
+        "world_aim": [
+          900035.0,
+          -37.0,
+          -699920.0
+        ],
+        "distance": 87.3269717784832
+      }
+    ],
+    "native_world_point_used_unchanged": true,
+    "pulse_source_layers": 3,
+    "pulse_visual_radius": 27.524637098642444,
+    "pulse_collision_radius": 4.5,
+    "pulse_blast_radius": 36,
+    "warm_keys": [
+      "beam",
+      "blade",
+      "blast",
+      "bullet",
+      "charge_halo",
+      "drill",
+      "drill_blast",
+      "drill_wings",
+      "exhaust",
+      "fire_blast",
+      "gun",
+      "heavy",
+      "ion",
+      "muzzle",
+      "pulse_blast",
+      "shell",
+      "shock"
+    ],
+    "available_assets": 17,
+    "texture_RGBA8_mips_estimate": {
+      "old_eager_plus_duplicate_bytes": 88058616,
+      "enabled_and_shared_bytes": 64705936,
+      "reduction_bytes": 23352680,
+      "GPU_measured": false,
+      "scope": "仅eight-effects材质纹理的RGBA8估计；钻头独立纹理与驱动实际分配未计入，不能用作总显存结论"
+    },
+    "compiled": false,
+    "game_verified": false
+  },
+  "ranged_036": {
+    "hooks_total": 18,
+    "extra_hooks_scoped_to_hybrid": 8,
+    "weapon_item_unchanged": true,
+    "ammunition": "native ammoType=NULL, no inventory/ammo object",
+    "ranged_moves": [
+      "vulcan",
+      "pulse",
+      "drive",
+      "electro_cannon",
+      "hammer_combo"
+    ],
+    "other_five": "native melee selector",
+    "interval": {
+      "native_reload_min": "RangedActionInterval",
+      "native_reload_max": "RangedActionInterval",
+      "default": 1,
+      "starts": "whole action end/interrupt",
+      "timer_owner": "original RangedCombatClass::reloadCheck; no wall clock or per-event reload"
+    },
+    "forwarding": "native other crossbows/turrets unchanged",
+    "source_action_events": [
+      20,
+      3,
+      4
+    ],
+    "SDK_symbols_checked": 10,
+    "config_key": "RangedActionInterval",
+    "grammar_only": true,
+    "C++_compiled": false,
+    "native_runtime_verified": false,
+    "remaining": "原生GOAP整链/实际拔枪/视线和远程模式切换/暂停变速/反复读档与析构需实机"
+  },
+  "source_layer_timelines_036": {
+    "serialized_source_timelines": {
+      "shock": {
+        "layers": 6,
+        "samples": 121,
+        "source_seconds": 4.0,
+        "peak_radius": 1.232233693,
+        "channels_changed": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          18,
+          20,
+          23
+        ]
+      },
+      "exhaust": {
+        "layers": 2,
+        "samples": 41,
+        "source_seconds": 1.333333373,
+        "peak_radius": 34.056058653,
+        "channels_changed": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "beam": {
+        "layers": 7,
+        "samples": 41,
+        "source_seconds": 1.333333373,
+        "peak_radius": 1.391430881,
+        "channels_changed": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12
+        ]
+      },
+      "pulse_blast": {
+        "layers": 4,
+        "samples": 91,
+        "source_seconds": 3.0,
+        "peak_radius": 81.994818862,
+        "channels_changed": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          13,
+          18,
+          20,
+          23
+        ]
+      },
+      "fire_blast": {
+        "layers": 8,
+        "samples": 196,
+        "source_seconds": 6.5,
+        "peak_radius": 2.091356537,
+        "channels_changed": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          9,
+          10,
+          12,
+          13,
+          16,
+          18,
+          20,
+          23,
+          24
+        ]
+      },
+      "roll_blast": {
+        "layers": 8,
+        "samples": 196,
+        "source_seconds": 6.5,
+        "peak_radius": 6.698542003,
+        "channels_changed": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          9,
+          10,
+          12,
+          13,
+          16,
+          18,
+          20,
+          23,
+          24
+        ]
+      },
+      "full_blast": {
+        "layers": 8,
+        "samples": 196,
+        "source_seconds": 6.5,
+        "peak_radius": 6.698542003,
+        "channels_changed": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          9,
+          10,
+          12,
+          13,
+          16,
+          18,
+          20,
+          23,
+          24
+        ]
+      },
+      "electro_burst": {
+        "layers": 5,
+        "samples": 41,
+        "source_seconds": 1.333333373,
+        "peak_radius": 9.947347016,
+        "channels_changed": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "muzzle_fire": {
+        "layers": 5,
+        "samples": 78,
+        "source_seconds": 2.56154042,
+        "peak_radius": 63.026857837,
+        "channels_changed": []
+      },
+      "charge_halo": {
+        "layers": 5,
+        "samples": 41,
+        "source_seconds": 1.333333373,
+        "peak_radius": 1.401356268,
+        "channels_changed": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "electro_area": {
+        "layers": 4,
+        "samples": 151,
+        "source_seconds": 5.0,
+        "peak_radius": 2.515482248,
+        "channels_changed": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          18,
+          20,
+          23,
+          24
+        ]
+      },
+      "drill_blast": {
+        "layers": 13,
+        "samples": 213,
+        "source_seconds": 7.06,
+        "peak_radius": 5.165974103,
+        "channels_changed": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          18,
+          20,
+          23,
+          24
+        ]
+      },
+      "drill_wings": {
+        "layers": 10,
+        "samples": 115,
+        "source_seconds": 1.896589975,
+        "peak_radius": 98.216998891,
+        "channels_changed": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      }
+    },
+    "pulse_radius": {
+      "body": 4.5,
+      "blast": 36
+    },
+    "ranged_FCS": [
+      0,
+      10000
+    ],
+    "weights": [
+      "drill",
+      "drive",
+      "earthquake",
+      "electro_cannon",
+      "fire_roll",
+      "full_burst",
+      "hammer_combo",
+      "pulse",
+      "spiral",
+      "vulcan"
+    ],
+    "ranged_interval": 1,
+    "source_particle_runtime_ported": false,
+    "GPU_compiled": false,
+    "game_tested": false
+  },
+  "cannon_quake_036": {
+    "drive": {
+      "range": [
+        0,
+        10000
+      ],
+      "radius": 4.5,
+      "length": "same private FCS maximum (10000)",
+      "health_events": 4,
+      "multiplier_each": 1.5,
+      "native_OBB_and_true_convex_shapes": true,
+      "flat_cap_analytic_cases": 8,
+      "GPU_envelope": [
+        1.0000000223240677,
+        0.0,
+        1.0
+      ],
+      "C++_algorithm_executed": false
+    },
+    "earthquake": {
+      "style": "source fire variant",
+      "source": "IrisExplosion3→SPEL0865→MGEF0866→EXPL086A→explosionwarm0.nif",
+      "reference_seconds": [
+        215,
+        217
+      ],
+      "health_events": 4,
+      "radius": 36,
+      "multiplier_each": 1.5,
+      "source_mesh_layers": 6,
+      "source_seconds": 4,
+      "full_Skyrim_NiPSys": false
+    },
+    "reticle": {
+      "flat": true,
+      "layers": 2,
+      "reference_reconstruction": true,
+      "verified_original_NIF": false
+    },
+    "pulse_presentation": {
+      "alpha": 2.2,
+      "RGB": 1.45,
+      "health_changed": false
+    },
+    "AOE": {
+      "native_accurate_sphere_queries": true,
+      "same_tick_fact_cache_capacity": 16,
+      "identity_deduplication": true,
+      "health_events_stay_independent": true,
+      "medical_soft_budget": "INI default12/2.5ms; target40ms advisory",
+      "query_budget": 64,
+      "native_shadow_fallback_Ephnel_parity": false,
+      "FPS_measured": false
+    },
+    "long_beam_blocker": {
+      "streamed_min_cases": 15,
+      "kept_world_contacts": 1,
+      "health_target_capacity_unchanged": 256
+    },
+    "ranged_stall": {
+      "old_source_FCS_gate": 360,
+      "new_FCS_and_private_GUN_DATA": 10000,
+      "old_log_contains_distance": false,
+      "historical_cause_proven": false,
+      "new_state_change_notices_max": 32,
+      "native_safety_gates_preserved": true
+    },
+    "compile": false,
+    "game_tested": false
+  },
+  "optics_036": {
+    "pulse_disc_normal": [
+      -1.7317049183507294e-10,
+      8.705940968134485e-10,
+      1.0
+    ],
+    "disc_direction_cases": 4,
+    "quake_horizontal_layers_radius": [
+      36.00000083072033,
+      36.00000058477562,
+      36.00000005172969,
+      35.99999990472057,
+      36.00000039827365,
+      35.99999936317841
+    ],
+    "hammer_head_above_foot_by_sex": {
+      "male": [
+        0.6000013932102597,
+        0.6000000860217605,
+        0.6000003458997019,
+        0.5999999776472675
+      ],
+      "female": [
+        0.6000012920281326,
+        0.6000002821938457,
+        0.5999992673197561,
+        0.6000002026113282
+      ]
+    },
+    "beam_radius": 4.5,
+    "beam_layers": {
+      "source_energy_tubes": 5,
+      "reference_gold_rings": 8,
+      "reference_arc_strands": 4
+    },
+    "muzzle_ion": "3D reference reconstruction, original NiPSys not ported",
+    "friendly_collision_cases": 5,
+    "unchanged_native_pre_shot_LOS_gate": true,
+    "ground_obstruction_retained": true,
+    "all_8_weights": 1,
+    "C++_GPU_or_game_executed": false
+  },
+  "drill_finisher_037": {
+    "wings": {
+      "source_shapes": 10,
+      "source_bones": [
+        "AnimObjectA",
+        "AnimObjectB"
+      ],
+      "window": [
+        3.769850034713745,
+        5.666440010070801
+      ],
+      "serialized_source_error_max": 1.3635359956640475e-06,
+      "rigid_determinants": true
+    },
+    "burst": {
+      "blue_geometry_layers": 3,
+      "blue_particle_layers": 1,
+      "fire_particle_layers": 14,
+      "finite_particles": 696,
+      "phase_timing": {
+        "blue_end": 0.52,
+        "fire_begin": 0.56
+      },
+      "duration": 7.0600000000000005,
+      "source_particles_complete_runtime": false
+    },
+    "damage_contract": {
+      "finisher_events": 1,
+      "radius": 120,
+      "multiplier": 5
+    },
+    "compiler_run": false,
+    "game_tested": false
+  },
+  "drill_visibility_038": {
+    "revision": "041-RangeMetal",
+    "blue_visible_game_seconds": 0.4995283018867924,
+    "particles": 696,
+    "max_particle_envelope": 2.4320828851596135,
+    "culling_radius": 5.165974140167236,
+    "fire_source_scales": {
+      "FlamesTall03@AddOn64-123": 1.0,
+      "Sparks@AddOn64-123": 1.0,
+      "FlamesTall03@AddOn64-124": 1.0,
+      "Sparks@AddOn64-124": 1.0,
+      "FlamesTall03@AddOn64-125": 1.0,
+      "Sparks@AddOn64-125": 1.0,
+      "FlamesTall03@AddOn64-126": 1.0,
+      "Sparks@AddOn64-126": 1.0,
+      "FlamesTall03@AddOn64-127": 1.0,
+      "Sparks@AddOn64-127": 1.0,
+      "FlamesTall03@AddOn64-128": 1.0,
+      "Sparks@AddOn64-128": 1.0,
+      "FlamesTall03@AddOn64-129": 1.0,
+      "Sparks@AddOn64-129": 1.0
+    },
+    "fire_max_card_halfsize_world": 78.32812612641472,
+    "Cxx_or_HLSL_compiled": false,
+    "game_render_verified": false
+  },
+  "drill_r120_039": {
+    "contract": "IRIS_EIGHT_042",
+    "radius": 120,
+    "damage_events": 1,
+    "damage_multiplier": 5,
+    "instant": true,
+    "projectile": false,
+    "wing_geometry_center_samples": 115,
+    "wing_center_max_error": 5.157473561044902e-07,
+    "firing_center_relative_weapon": [
+      1.7761124591683946,
+      3.008456907884456,
+      4.881118639352055
+    ],
+    "center_space": "完整源翼片几何中心中点，乘当帧武器矩阵加浮动世界原点，发射时快照",
+    "source_particles": 696,
+    "coverage_particles": 49,
+    "total_particles": 745,
+    "blue_coverage_draw_calls": 1,
+    "ring_visible_radius": 119.99999768109875,
+    "coverage_models": [
+      {
+        "age": 0.22,
+        "views": 12,
+        "points_per_view": 960,
+        "coverage": [
+          {
+            "view": 0,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.19346713521832692,
+            "p10": 0.23286311905858567
+          },
+          {
+            "view": 1,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.17697039668134584,
+            "p10": 0.23117542904186195
+          },
+          {
+            "view": 2,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.18620280394683753,
+            "p10": 0.23296752989511027
+          },
+          {
+            "view": 3,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.1700486991531055,
+            "p10": 0.23046879812353874
+          },
+          {
+            "view": 4,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.19866931807370392,
+            "p10": 0.23341856216582582
+          },
+          {
+            "view": 5,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.19121581408087007,
+            "p10": 0.23159208362018824
+          },
+          {
+            "view": 6,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.19096567030823142,
+            "p10": 0.232403620555393
+          },
+          {
+            "view": 7,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.1734426528549745,
+            "p10": 0.23374400840760784
+          },
+          {
+            "view": 8,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.18628578739426827,
+            "p10": 0.23704147384569257
+          },
+          {
+            "view": 9,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.1869798933502348,
+            "p10": 0.22993117447310207
+          },
+          {
+            "view": 10,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.17904904273933864,
+            "p10": 0.2339241116230893
+          },
+          {
+            "view": 11,
+            "fraction_above_0_025": 1.0,
+            "minimum": 0.1984020344625793,
+            "p10": 0.23338779722464595
+          }
+        ],
+        "limitations": "正交alpha布局模型，未模拟实际GPU、深度遮挡或透视"
+      }
+    ],
+    "Cxx_or_HLSL_compiled": false,
+    "game_verified": false
+  },
+  "fire_and_cycle_039": {
+    "recorded_regression": {
+      "source_log": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal\\logs\\IrisArsenal-20261017-141534-122-288.log",
+      "source_sha256": "1f78b15d7789e5742a119f978ce45f9e37f3ec8754c545a7fb871a7773792f3f",
+      "game_pid": 288,
+      "game_creation": "2026-10-17T14:15:02.93017+08:00",
+      "version": "0.3.8",
+      "cases": [
+        {
+          "cast": 14,
+          "time": "2026-10-17 14:19:27.273",
+          "replayed_events": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "replayed_clips": [
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364,
+            8.03364
+          ],
+          "damage_applied": 2
+        },
+        {
+          "cast": 16,
+          "time": "2026-10-17 14:19:37.929",
+          "replayed_events": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "replayed_clips": [
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086,
+            8.02086
+          ],
+          "damage_applied": 2
+        }
+      ]
+    },
+    "cycle_models": {
+      "fire_roll": {
+        "events": 2,
+        "old_model_replayed": 4,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "spiral": {
+        "events": 3,
+        "old_model_replayed": 6,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "earthquake": {
+        "events": 4,
+        "old_model_replayed": 8,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "drill": {
+        "events": 12,
+        "old_model_replayed": 24,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "full_burst": {
+        "events": 3,
+        "old_model_replayed": 6,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "vulcan": {
+        "events": 20,
+        "old_model_replayed": 40,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "pulse": {
+        "events": 3,
+        "old_model_replayed": 6,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "drive": {
+        "events": 4,
+        "old_model_replayed": 8,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "electro_cannon": {
+        "events": 4,
+        "old_model_replayed": 8,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      },
+      "hammer_combo": {
+        "events": 3,
+        "old_model_replayed": 6,
+        "new_model_replayed": 0,
+        "next_real_cycle_enabled": true
+      }
+    },
+    "source_fire040": {
+      "reference_seconds": {
+        "fire": [
+          109.8,
+          112.5
+        ],
+        "muzzle": [
+          92,
+          94
+        ]
+      },
+      "source_hashes": {
+        "VoiceFlameWaveProject03.nif": "25c671a705f73ec939dfcf03ff0899358456386891a939906ff68968251f910b",
+        "MPSFireWaveFlames.nif": "3e3bb4fd95a0952c76f8e3e2c7d4bf6a4fbde85272a12a46a267d7e39178572d",
+        "MPSFireBoltImpact01.nif": "1bc018c4d9d9102803869624be504c8dcde645dff7dee6616b950644b054ae3e"
+      },
+      "source_geometry_shapes": 6,
+      "source_addons": 7,
+      "fire_submeshes": 8,
+      "drill_submeshes": 13,
+      "muzzle_layers": 5,
+      "source_layout_unchanged": true,
+      "terminal_sphere": {
+        "radius": 90,
+        "multiplier": 3,
+        "events": 1,
+        "old_third_blade_removed": true
+      },
+      "source_linear_gravity": true,
+      "runtime_full_NiPSys": false,
+      "compiled": false,
+      "game_tested": false,
+      "visual_match_verified": false
+    },
+    "compiled": false,
+    "game_tested": false
+  },
+  "combat_036": {
+    "FIFO_fault": {
+      "old_completed": 0,
+      "new_completed": 12,
+      "failed_event_retained": true
+    },
+    "full_burst_windows": [
+      {
+        "begin": 1.3388354342397055,
+        "end": 1.7888173621114096,
+        "source_id": "2"
+      },
+      {
+        "begin": 1.7888173621114096,
+        "end": 2.655449346822103,
+        "source_id": "3"
+      },
+      {
+        "begin": 2.655449346822103,
+        "end": 2.888777212422689,
+        "source_id": "4"
+      }
+    ],
+    "one_health_per_enemy_per_window": true,
+    "actual_exported_full_burst_cases": [
+      {
+        "phase": 0,
+        "old_single_frame_distance": 44.610446236760716,
+        "window_distance": 1.2900454708301743
+      },
+      {
+        "phase": 1,
+        "old_single_frame_distance": 22.591680906874988,
+        "window_distance": 2.8252095412111555
+      }
+    ],
+    "reserved_health_queries_with_64_shots": 128,
+    "speeds": {
+      "vulcan": 800,
+      "pulse": 440
+    },
+    "melee_immunity": "six private live melee moves; combo/ranged/health/death/unconscious unchanged",
+    "Ogre_blend_statements_checked": 83,
+    "finisher_layers": 13,
+    "original_ALS_files_missing": false,
+    "enemy_unconscious_cases": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "weapon_category": 3,
+    "source_cues": [
+      [
+        0,
+        "ignition",
+        1.116648012
+      ],
+      [
+        0,
+        "off",
+        0.100000001
+      ],
+      [
+        1,
+        "backfire",
+        0.100000001
+      ],
+      [
+        3,
+        "backfire",
+        2.263161898
+      ],
+      [
+        3,
+        "backfire",
+        3.263161898
+      ],
+      [
+        3,
+        "backfire",
+        4.283162117
+      ],
+      [
+        3,
+        "off",
+        0.100000001
+      ],
+      [
+        3,
+        "wing",
+        3.769850035
+      ],
+      [
+        3,
+        "wing_off",
+        5.66644001
+      ],
+      [
+        4,
+        "backfire",
+        0.316666663
+      ],
+      [
+        4,
+        "backfire",
+        0.683333317
+      ],
+      [
+        4,
+        "charge_halo",
+        0.888851961
+      ],
+      [
+        4,
+        "off",
+        0.033333334
+      ],
+      [
+        5,
+        "gun",
+        0.666639984
+      ],
+      [
+        6,
+        "off",
+        0.100000001
+      ],
+      [
+        7,
+        "backfire",
+        0.333319992
+      ],
+      [
+        7,
+        "backfire",
+        2.0
+      ],
+      [
+        8,
+        "backfire",
+        0.333319992
+      ],
+      [
+        8,
+        "backfire",
+        2.0
+      ]
+    ],
+    "fire_canonical_heights": {
+      "shock": [
+        0.16000000232170616,
+        0.15999999455314018,
+        0.011488536857184335,
+        0.36000001430511475,
+        0.7200000319265429,
+        0.7199999644932685
+      ]
+    },
+    "charge3_source_layers": 5,
+    "C++_compiled": false,
+    "game_run": false
+  },
+  "range_metal_041": {
+    "range": {
+      "drill_blast": {
+        "uniform_scale": 2.470154663885487,
+        "radius95_by_view": [
+          0.8800309805194944,
+          0.8478618250011059,
+          0.7853524039613615,
+          0.8803876132351293,
+          0.7850017302061841,
+          0.849165715231834,
+          0.7712087139675787,
+          0.8430581001265647,
+          0.822734561748786,
+          0.8344472550414742,
+          0.8767279120540857,
+          0.8394643521610645
+        ],
+        "reference": [
+          1.028055179254564,
+          1.0283692631105692,
+          1.030112058698716,
+          1.0256341221660814,
+          1.0280520426722812,
+          1.0260185782551867,
+          1.0282783130277786,
+          1.0295124956201203,
+          1.0304459412325948,
+          1.0288102637726704,
+          1.0294752516442511,
+          1.0295676288999123
+        ],
+        "minimum_ratio": 0.7499999797688476,
+        "world_radius95": [
+          105.60371766233932,
+          101.7434190001327,
+          94.24228847536338,
+          105.64651358821551,
+          94.20020762474209,
+          101.89988582782009,
+          92.54504567610945,
+          101.16697201518777,
+          98.72814740985432,
+          100.1336706049769,
+          105.20734944649028,
+          100.73572225932774
+        ],
+        "GPU_measured": false
+      },
+      "roll_blast": {
+        "uniform_scale": 3.2029651020738217,
+        "radius95_by_view": [
+          1.141106100837939,
+          1.0993934174782083,
+          1.018339625920313,
+          1.141568503133925,
+          1.017884889702314,
+          1.1010841454537568,
+          0.9999999788779801,
+          1.093164600167791,
+          1.0668117718445205,
+          1.08199925672461,
+          1.1368230926056133,
+          1.0885047954726204
+        ],
+        "reference": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_ratio": 0.9999999788779801,
+        "world_radius95": [
+          27.386546420110538,
+          26.385442019476997,
+          24.440151022087512,
+          27.397644075214203,
+          24.429237352855537,
+          26.426019490890162,
+          23.99999949307152,
+          26.235950404026987,
+          25.603482524268493,
+          25.967982161390637,
+          27.283754222534718,
+          26.124115091342887
+        ],
+        "GPU_measured": false
+      }
+    },
+    "blue_geometry_unchanged": true,
+    "full_burst_fire_asset_unchanged": true,
+    "source_metal_RGB": [
+      40,
+      49
+    ],
+    "wing_specular_strengths": [
+      1.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "source_textures_and_colours_unchanged": true,
+    "damage_unchanged": true,
+    "Cxx_HLSL_compiled": false,
+    "game_tested": false
+  },
+  "ten_moves_042": {
+    "source_events": {
+      "electro": [
+        1.7999999523162842,
+        2.049999952316284,
+        2.299999952316284,
+        2.5999999046325684
+      ],
+      "hammer": [
+        0.3333199918270111,
+        0.6333079934120178,
+        1.1999579906463622
+      ]
+    },
+    "electro_sphere": {
+      "forward": 20,
+      "radius": 25,
+      "events": 4,
+      "multiplier_each": 1,
+      "collision": "existing native sphere queue"
+    },
+    "hammer": {
+      "weapon_hits": 3,
+      "unarmed_events": 0,
+      "special_damage": false,
+      "effects": false,
+      "block_dodge": "native"
+    },
+    "full_blast": {
+      "scale": 3.2029651020738217,
+      "world_radius95": [
+        102.69954907541451,
+        98.94540757303875,
+        91.65056633282818,
+        102.74116528205326,
+        91.60964007320827,
+        99.09757309083811,
+        89.99999809901821,
+        98.3848140151012,
+        96.01305946600684,
+        97.37993310521489,
+        102.3140783345052,
+        97.96543159253584
+      ],
+      "physical_radius": 90
+    },
+    "muzzle": {
+      "layers": 5,
+      "triggers": 20,
+      "stride": 52,
+      "size_samples": 17,
+      "rotating_source_layers": 3,
+      "particles": [
+        393,
+        240,
+        79,
+        120,
+        78
+      ],
+      "Drag_turbulence": "not implemented"
+    },
+    "old_eight_specs_unchanged": true,
+    "hooks": 18,
+    "compiled": false,
+    "game_tested": false,
+    "GPU_verified": false
+  },
+  "melee_block_043": {
+    "code_contract": "IRIS_MELEE_BLOCK_043",
+    "protected": [
+      "drill",
+      "earthquake",
+      "electro_cannon",
+      "fire_roll",
+      "full_burst",
+      "spiral"
+    ],
+    "excluded": [
+      "hammer_combo",
+      "vulcan",
+      "pulse",
+      "drive"
+    ],
+    "native_transition_model_cases": 440,
+    "invalid_window_boundaries": 14,
+    "unchanged_native_functions": 6,
+    "unchanged_package_files": 133,
+    "old_same_asset_contract_DLL_rejected": true,
+    "compiled": false,
+    "game_tested": false,
+    "model_is_runtime_proof": false
+  },
+  "melee_reaction_044": {
+    "version": "0.4.4",
+    "protected_move_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    "excluded": [
+      5,
+      6,
+      7,
+      9
+    ],
+    "reaction_pipeline_model_cases": 980,
+    "suppressed_model_cases": 420,
+    "invalid_boundaries": 75,
+    "unchanged_functions": 7,
+    "unchanged_resource_files": 133,
+    "hooks": 18,
+    "medical": "one native wound before reaction; only _getHit(false) retained",
+    "compiled": false,
+    "game_tested": false,
+    "model_is_runtime_proof": false
+  },
+  "move_parameters_045": {
+    "damage_coefficients": 58,
+    "melee_distance_pairs": 7,
+    "ranged_damage_coefficients": 27,
+    "user_balance_profile": "0.4.6",
+    "all_ranged_extra_defence_gates": false,
+    "source_asset_geometry_preserved": true,
+    "win32_ini_and_CRT_boundary_cases": 13,
+    "independent_protection_model_cases": 400,
+    "distance_inheritance_model_cases": 48,
+    "geometry_and_asset_hashes_locked": true,
+    "cpp_compiled": false,
+    "plugin_executed": false,
+    "game_tested": false
+  },
+  "balance_046": {
+    "player_table_values_checked": true,
+    "damage_coefficients": 58,
+    "melee_distance_pairs": 7,
+    "weights": [
+      4,
+      4,
+      2,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      4
+    ],
+    "ranged_defence_overrides": [
+      false,
+      false,
+      false
+    ],
+    "result_policy_model_cases": 140,
+    "raw_block_miss_results_preserved": true,
+    "unchanged_source_functions": 14,
+    "geometry_changed": false,
+    "cpp_compiled": false,
+    "game_tested": false
+  },
+  "release047": {
+    "height_actual_serialized": [
+      {
+        "move": "vulcan_male",
+        "height_ratio": [
+          1.4999996050986784,
+          1.5000001423668987
+        ],
+        "root_and_foot_unchanged": true
+      },
+      {
+        "move": "vulcan_female",
+        "height_ratio": [
+          1.4999997233965776,
+          1.5000001100241838
+        ],
+        "root_and_foot_unchanged": true
+      },
+      {
+        "move": "drive_male",
+        "height_ratio": [
+          1.4999997332002908,
+          1.5000001401745926
+        ],
+        "root_and_foot_unchanged": true
+      },
+      {
+        "move": "drive_female",
+        "height_ratio": [
+          1.4999997092652513,
+          1.5000002135603632
+        ],
+        "root_and_foot_unchanged": true
+      }
+    ],
+    "ranged_incoming_guard_boundary_model_cases": 3200,
+    "ranged_outgoing_defence_override": false,
+    "native_hook_count": 18,
+    "electro_area_source_verified": true,
+    "electro_sphere_center_forward": 20,
+    "electro_radius": 25,
+    "fixed_heading": true,
+    "icon_native_projection_min": [
+      -0.35422733426094055,
+      -0.8764317631721497
+    ],
+    "icon_native_projection_max": [
+      0.3418141305446625,
+      0.8725582361221313
+    ],
+    "FCS_other_records_unchanged": 47,
+    "cache_refresh_isolation": true,
+    "compiled": false,
+    "game_tested": false,
+    "GPU_render_tested": false
+  },
+  "FCS_rebuild048": {
+    "real_FCS_producer_runs": 2,
+    "byte_identical": true,
+    "exact_047_to_053_digest_chain": true,
+    "roundtrip_executed": true,
+    "game_files_written": false
+  },
+  "source_alignment049": {
+    "seat": [
+      {
+        "move": "drive",
+        "sex": "male",
+        "seat_surface_gap_error": 0.09262992367521797,
+        "rest_bone_lengths_unchanged": true
+      },
+      {
+        "move": "drive",
+        "sex": "female",
+        "seat_surface_gap_error": 0.09263051098928379,
+        "rest_bone_lengths_unchanged": true
+      },
+      {
+        "move": "electro_cannon",
+        "sex": "male",
+        "seat_surface_gap_error": 0.09262972455069843,
+        "rest_bone_lengths_unchanged": true
+      },
+      {
+        "move": "electro_cannon",
+        "sex": "female",
+        "seat_surface_gap_error": 0.0926303643326716,
+        "rest_bone_lengths_unchanged": true
+      }
+    ],
+    "source_particles": 275,
+    "source_particle_capacity": 302,
+    "source_colour_preserved": true,
+    "source_world_scale": 0.28376802338888946,
+    "particle_bound": 2.5147001315778996,
+    "icon_bounds": [
+      10,
+      7,
+      503,
+      121
+    ],
+    "inventory_footprint": [
+      10,
+      2
+    ],
+    "cache_isolation": true,
+    "CPP_changed": false,
+    "compiled": false,
+    "GPU_tested": false
+  },
+  "surface050": {
+    "actual_skin_hammer_roof": [
+      {
+        "move": "drive",
+        "sex": "male",
+        "seat_gap_min": 0.12204944704259013,
+        "seat_gap_max": 0.12262992367521797,
+        "samples": 48
+      },
+      {
+        "move": "drive",
+        "sex": "female",
+        "seat_gap_min": 0.12205042458009885,
+        "seat_gap_max": 0.12263051098928379,
+        "samples": 48
+      },
+      {
+        "move": "electro_cannon",
+        "sex": "male",
+        "seat_gap_min": 0.12204984020282872,
+        "seat_gap_max": 0.12262972455069843,
+        "samples": 48
+      },
+      {
+        "move": "electro_cannon",
+        "sex": "female",
+        "seat_gap_min": 0.12205052945752648,
+        "seat_gap_max": 0.1226303643326716,
+        "samples": 48
+      }
+    ],
+    "actual_muzzle_heights": [
+      10.121507311861828,
+      10.034463373873933,
+      9.829752126380427,
+      9.829013381054983
+    ],
+    "prone_below_sphere_center": true,
+    "same_visual_physical_center": true,
+    "r25_forward20": true,
+    "negative049_detected": true,
+    "compiled": false,
+    "GPU_tested": false
+  },
+  "source_effects051": {
+    "source_files_unchanged": true,
+    "native_colour_zero_width_case": true,
+    "native_fade_out_start": 0.15000000596046448,
+    "source_layers_preserved": true,
+    "electro_uniform_scale": 1.5132138209985635,
+    "electro_frames": 151,
+    "muzzle_shots": 20,
+    "051_visual_contract_preserved_with_052_instrumentation": true,
+    "actual_CPU_preview": true,
+    "compiled": false,
+    "GPU_tested": false
+  },
+  "code_contract": "IRIS_PHYSX_COMPAT_054",
+  "audit052": {
+    "hooks": 18,
+    "compile_units": 5,
+    "effective_effect_assets": 20,
+    "retired_files": 7,
+    "configuration_defaults": {
+      "enabled": "1",
+      "enablelogging": "1",
+      "enableperformancelogging": "1",
+      "enableresourcelogging": "1",
+      "logsummaryseconds": "60",
+      "logflushseconds": "2",
+      "slowframethresholdms": "8",
+      "damageflushbudgetms": "2.5",
+      "damagequeuetargetms": "40",
+      "damageflushmaxhits": "32",
+      "rangedactioninterval": "1.0",
+      "debugdraw": "0",
+      "contactqueries": "1",
+      "maxactiveactors": "1",
+      "drillproofonly": "0",
+      "damageenabled": "1",
+      "damageunconscioustargets": "1"
+    },
+    "independent_histogram_models": 3,
+    "zero_frames_included": true,
+    "process_counters_reset_on_load": false,
+    "resource_begin_end": true,
+    "bounded_write_failure_buffer": 65536,
+    "compiled": false,
+    "C++_executed": false,
+    "game_tested": false,
+    "GPU_tested": false
+  },
+  "queue_balance053": {
+    "default_budget_ms": 2.5,
+    "soft_target_wall_ms": 40,
+    "max_native_calls": 32,
+    "inspection_bound": 256,
+    "independent_spec_cases": 13,
+    "FIFO": true,
+    "timeout_drop": false,
+    "event_and_geometry_functions_unchanged": 13,
+    "preserved_runtime_assets": 128,
+    "weapon_fields": {
+      "can block": true,
+      "has collision": true,
+      "auto icon image": true,
+      "animal damage mult": 1.5,
+      "armour penetration": 0.5,
+      "bleed mult": 1.0,
+      "human damage mult": 1.0,
+      "overall scale": 1.0,
+      "robot damage mult": 1.0,
+      "scale length": 1.0,
+      "scale thickness": 1.0,
+      "scale width": 1.0,
+      "weight kg": 3.0,
+      "weight mult": 0.75,
+      "cut damage multiplier": 0.14400000870227814,
+      "blunt damage multiplier": 0.11999999731779099,
+      "pierce damage multiplier": 0.0,
+      "min cut damage mult": 0.0,
+      "icon offset H": 0.05915546417236328,
+      "icon offset V": -0.05018258094787598,
+      "icon zoom": 2.2899999618530273,
+      "attack mod": 15,
+      "defence mod": 8,
+      "indoors mod": -8,
+      "material": 0,
+      "material cost": 6,
+      "slot": 0,
+      "length": 18,
+      "inventory footprint width": 10,
+      "inventory footprint height": 2,
+      "value": 1,
+      "skill category": 3,
+      "skill category animation override": 21,
+      "description": "十招测试：仅本锤枪使用专属动作，权重由INI选择，FCS公共权重为0；实际命中走游戏物理与原生医疗。",
+      "physics file": "",
+      "sheath": "",
+      "mesh": "./mods/IrisArsenal/assets/iris_weapon.mesh",
+      "bare sword": "./mods/IrisArsenal/assets/iris_weapon.mesh",
+      "ground mesh": "./mods/IrisArsenal/assets/iris_weapon.mesh",
+      "icon": "./mods/IrisArsenal/assets/iris_weapon_icon.png"
+    },
+    "cpp_executed": false,
+    "compiled": false,
+    "game_tested": false
+  },
+  "physx_compat054": {
+    "minimum": [
+      2,
+      8,
+      4,
+      6
+    ],
+    "api_family": [
+      2,
+      8,
+      4
+    ],
+    "exact_revision_lock_removed": true,
+    "version_and_export_cases": 14,
+    "current_core_version": [
+      2,
+      8,
+      4,
+      6
+    ],
+    "current_loader_export_present": true,
+    "query_suffix_unchanged": true,
+    "protected_cpp_h": 7,
+    "protected_assets": 129,
+    "old_new_DLL_gate_regression": "test_melee_block043.verify_block043; real build validated at UpdateMod/stage entry",
+    "callbacks_and_sdk_creation_added": false,
+    "compiled": false,
+    "C++_executed": false,
+    "game_tested": false,
+    "newer_patch_runtime_verified": false
+  },
+  "syntax": [
+    {
+      "file": "IrisArsenal.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisCombat.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisRanged.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/NativeMultiContact.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "native/FiniteCylinder.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisDiagnostics.cpp",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    },
+    {
+      "file": "IrisDiagnostics.h",
+      "errors": [],
+      "ignored_for_grammar": [
+        "__fastcall"
+      ],
+      "compiled": false
+    }
+  ],
+  "runtime_boundaries": {
+    "hooks": 18,
+    "physics_budget": 64,
+    "damage_budget": "INI default32 calls /2.5ms soft; FIFO/40ms advisory; no timeout drop",
+    "query_failure": "isolated round-robin retry, no partial current batch or permanent actor/world disable",
+    "health": "native armour, enemy-only, player protected; configurable unconscious targets; three ranged moves never override defence; melee per-config, defaults fire_roll/earthquake/drill/full_burst/electro_cannon",
+    "FPS_verified": false
+  },
+  "unresolved": [
+    "MSVC Release|x64/v100编译、链接待用户执行",
+    "HLSL运行时编译/全部贴图可视未实机",
+    "PhysX球形/真实柱体窄相位与失败重试需实机，不把分析模型冒称C++或游戏验证",
+    "10招头/双手/根位移/方向/倒地目标与密集多人待实机",
+    "完整NiPSys/程序闪电/风场与多骨蒙皮未完成；EXDrill2严格单骨与原ALS已接入，爆炸发射器为有界翻译"
+  ]
+}

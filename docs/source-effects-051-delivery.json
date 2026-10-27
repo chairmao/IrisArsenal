@@ -1,0 +1,486 @@
+{
+  "result": {
+    "success": true,
+    "target": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\IrisArsenal",
+    "version": "0.4.8",
+    "contract": "IRIS_EIGHT_042",
+    "files_verified": 139,
+    "files_written": 7,
+    "dll_sha256": "3769789039605211c49fbb7a933067df9cbf9608e744d27fe583b1fc57babf7e",
+    "backup_roots": [
+      "D:\\CodexBackups\\IrisArsenal-Update-20261018-124857-916538-2cec7499",
+      "E:\\AIWorkSpace\\_backups\\IrisArsenal-Update-20261018-124857-916538-2cec7499"
+    ],
+    "audit": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\update-runs\\IrisArsenal-Update-20261018-124857-916538-2cec7499",
+    "game_tested": false,
+    "compiled_by_script": false
+  },
+  "installed_version": "0.4.8",
+  "asset_revision": "051-SourceFlareMuzzle",
+  "actual_installed_files_verified": 138,
+  "DLL_unchanged": true,
+  "INI_unchanged": true,
+  "game_was_stopped": true,
+  "game_started_by_agent": false,
+  "GPU_tested": false,
+  "compiled": false,
+  "source_test_after_reproducible_preview": {
+    "source_files_unchanged": true,
+    "native_colour_zero_width_case": true,
+    "native_fade_out_start": 0.15000000596046448,
+    "source_layers_preserved": true,
+    "electro_uniform_scale": 1.5132138209985635,
+    "electro_frames": 151,
+    "muzzle_shots": 20,
+    "CPP_H_FCS_animation_texture_unchanged": true,
+    "actual_CPU_preview": true,
+    "compiled": false,
+    "GPU_tested": false
+  },
+  "full_non_compiling_validation": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\stage051.log",
+  "isolated_update_tests": 13,
+  "source_backups_and_reports": [
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\electro_coverage051.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-123025-520387-electro_coverage051.py.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\electro_area.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-123025-533006-electro_area.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-optics-20261018-123025-514277\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\electro_area.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-optics-20261018-123025-514277\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\electro_area.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-123025-540802-muzzle_detail.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-optics-20261018-123025-514277\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-optics-20261018-123025-514277\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\preview_source051.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-123438-209254-preview_source051.py.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124143-270466-muzzle_detail.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-native-colour-20261018-124143-256822\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-native-colour-20261018-124143-256822\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\muzzle_detail.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\preview_source051.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124143-280035-preview_source051.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-native-colour-20261018-124143-256822\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\preview_source051.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-native-colour-20261018-124143-256822\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\preview_source051.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-051.json",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124554-955396-authorized-delta-051.json.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124554-966904-historical047.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-tests-20261018-124554-824659\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-tests-20261018-124554-824659\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124554-976412-test_surface050.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-tests-20261018-124554-824659\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-tests-20261018-124554-824659\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124554-984912-stage_package.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-tests-20261018-124554-824659\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-tests-20261018-124554-824659\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124554-996209-verify_moves.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-tests-20261018-124554-824659\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-tests-20261018-124554-824659\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124555-001679-test_source_effects051.py.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\source-effects-051-before.json",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124555-194417-source-effects-051-before.json.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\source-effects-051-evidence.json",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124555-312757-source-effects-051-evidence.json.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124658-672125-test_source_effects051.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-test-slice-20261018-124658-660527\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-test-slice-20261018-124658-660527\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_source_effects051.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\preview_source051.py",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-124953-315270-preview_source051.py.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-preview-repro-20261018-124953-301632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\preview_source051.py",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-preview-repro-20261018-124953-301632\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\preview_source051.py"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\source-effects-051-evidence.json",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-125213-921513-source-effects-051-evidence.json.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-delivery-20261018-125213-895344\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\source-effects-051-evidence.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-delivery-20261018-125213-895344\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\source-effects-051-evidence.json"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-125214-538602-STATE.md.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-delivery-20261018-125213-895344\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-delivery-20261018-125213-895344\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-125214-543789-README.md.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-051-delivery-20261018-125213-895344\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-051-delivery-20261018-125213-895344\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\source-effects-051.md",
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-IrisArsenal-SourceEffects-051-20261018-121915-e50815\\report-125214-544788-source-effects-051.md.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123059-180404-IrisPackage.json.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123059-173896\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123059-176895\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123101-117742-drill.csv.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123101-112720\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123101-114726\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123101-207249-iris.material.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123101-201239\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123101-204242\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_burst.mesh",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123230-796791-iris_fx_electro_burst.mesh.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123230-786829\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_burst.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123230-792442\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_burst.mesh"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_area.mesh",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123232-996921-iris_fx_electro_area.mesh.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123232-983536\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_area.mesh",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123232-992902\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_fx_electro_area.mesh"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\electro-source-049.json",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123233-033896-electro-source-049.json.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123233-021333\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\electro-source-049.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123233-025889\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\electro-source-049.json"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123243-358796-iris_eight.hlsl.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123243-347175\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123243-354797\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123243-365984-iris_eight.program.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123243-360678\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123243-362831\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123243-472954-iris_eight.material.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123243-466096\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123243-469115\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.material"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123243-481508-iris_eight.program.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123243-473979\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123243-478991\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123243-490414-iris_eight.program.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123243-482498\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123243-486745\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123243-506809-eight-effects.json.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123243-500778\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123243-503799\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\eight-effects.json"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123243-613534-effect_curves.csv.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123243-592729\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123243-599305\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effect_curves.csv"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123243-625823-effects.csv.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123243-615912\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123243-620427\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\effects.csv"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123245-100424-drill.csv.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123245-092003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123245-095997\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\drill.csv"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123245-111765-iris.material.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-123059-172892\\edit-123245-102246\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-123059-172892\\edit-123245-106259\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris.material"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\muzzle-before-after.jpg",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123457-381246-muzzle-before-after.jpg.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\electro-before-after.jpg",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123507-112401-electro-before-after.jpg.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\pixel-evidence.json",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-123507-116355-pixel-evidence.json.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-124238-449825-iris_eight.hlsl.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-124143-710019\\edit-124238-439768\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-124143-710019\\edit-124238-444820\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.hlsl"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-124238-459960-iris_eight.program.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-124143-710019\\edit-124238-452943\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-124143-710019\\edit-124238-455953\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-124238-595786-iris_eight.program.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-124143-710019\\edit-124238-585279\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-124143-710019\\edit-124238-590786\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-124238-605279-iris_eight.program.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-124143-710019\\edit-124238-597786\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-124143-710019\\edit-124238-601274\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\assets\\iris_eight.program"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\muzzle-before-after.jpg",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-124249-831274-muzzle-before-after.jpg.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-124230-173351\\edit-124249-820763\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\muzzle-before-after.jpg",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-124230-173351\\edit-124249-824775\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\muzzle-before-after.jpg"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\pixel-evidence.json",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-124300-322323-pixel-evidence.json.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-124230-173351\\edit-124300-310074\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\pixel-evidence.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-124230-173351\\edit-124300-317986\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\pixel-evidence.json"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\validation-source-effects-051.json",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-124755-508650-validation-source-effects-051.json.json",
+      "backups": []
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-124755-668431-IrisPackage.json.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-124733-918481\\edit-124755-658993\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-124733-918481\\edit-124755-663430\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\electro-before-after.jpg",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-125023-741214-electro-before-after.jpg.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-124953-741843\\edit-125023-728641\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\electro-before-after.jpg",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-124953-741843\\edit-125023-735071\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\electro-before-after.jpg"
+      ]
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\pixel-evidence.json",
+      "report": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\change-reports\\20261018-125023-748216-pixel-evidence.json.json",
+      "backups": [
+        "D:\\CodexBackups\\IrisArsenal-20261018-124953-741843\\edit-125023-743230\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\pixel-evidence.json",
+        "E:\\AIWorkSpace\\_backups\\IrisArsenal-20261018-124953-741843\\edit-125023-746225\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\previews051\\pixel-evidence.json"
+      ]
+    }
+  ],
+  "encoding_checks": {
+    "README.md": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "STATE.md": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "docs/eight-effects.json": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "docs/electro-source-049.json": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/electro_area.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/historical047.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/muzzle_detail.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/stage_package.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/test_surface050.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "tools/verify_moves.py": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "package/IrisArsenal/IrisPackage.json": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "package/IrisArsenal/assets/effects.csv": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "package/IrisArsenal/assets/effect_curves.csv": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "package/IrisArsenal/assets/iris_eight.hlsl": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    },
+    "package/IrisArsenal/assets/iris_eight.material": {
+      "encoding": "UTF-8 no BOM",
+      "ending": "LF"
+    }
+  },
+  "changed_original_files_sha256": {
+    "README.md": "ca973f5bc618c34ecaddb1084ff8d3e15e78e889cf3c51b10b0c105dd4e7c7d9",
+    "STATE.md": "e6086394130c69d85a3701c028b9eb8296049444a91321b83377dbd6131c6657",
+    "docs/eight-effects.json": "eecc448061ed572c90f3f5eccad8bd20ba7e27401b86e7998535010d58ab4f43",
+    "docs/electro-source-049.json": "a8312b13d70034fe72b7005f87200e0dc83954013d368cd860864c3026804379",
+    "tools/electro_area.py": "b2561b39a15863d79699d2d5306efbd5f25dfc28030ed3e874403b5eadcc82e1",
+    "tools/historical047.py": "dba1314f37d237ae00b209a45685a7a02299219e923017f85857237ee53a8b13",
+    "tools/muzzle_detail.py": "824c8c99ae0dbfbb81264410a0d15ab51e860fda52a7cf297572281b2eb1f321",
+    "tools/stage_package.py": "065a5754cc06863fc696b6e926cfb80fe03f6cdab492190f61719bc791e7fad1",
+    "tools/test_surface050.py": "9a22f203ac22172746d45cb268d01fed828f455d57d7e7313c55e25d8992cfc6",
+    "tools/verify_moves.py": "0dc9969298ec91227b082f846f92cf3b2b5a84232fd48210da7212ed6538dea8",
+    "package/IrisArsenal/IrisPackage.json": "4535ba76acb9cf47617885644d06d0fc7c61b459214d4cdc761bce35be64e729",
+    "package/IrisArsenal/assets/effects.csv": "62c732760e9b392ad68196899810a1a09eb77f3aeb9ff166bc451d184e587fa2",
+    "package/IrisArsenal/assets/effect_curves.csv": "2ec6047eb0d7bf3b006f30a86e86d8a41ee7ab28393dbd8996be6476b2324949",
+    "package/IrisArsenal/assets/iris_eight.hlsl": "52e3ab2bdfdf07bd0cc20007c83c0e404b0436319a18f7566717983910ca29dd",
+    "package/IrisArsenal/assets/iris_eight.material": "fce6d9ccf51bb1f406162c47f74f61092866685dd2cac550308eddbb9e68568d",
+    "package/IrisArsenal/assets/iris_fx_electro_area.mesh": "b23b55b25a2cc80d12fbe971b63d742775faf0d8aab1568f7331d3174f892919",
+    "package/IrisArsenal/assets/iris_fx_electro_burst.mesh": "5301e0cf228bbcab28336e9475ddb0167ba60ff167b39240b52ccfef4fbc3317"
+  },
+  "CPP_H_RC_FCS_animation_textures_unchanged": true,
+  "native_engine_read_only": true
+}

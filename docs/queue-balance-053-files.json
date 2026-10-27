@@ -1,0 +1,1378 @@
+{
+  "version": "0.4.10",
+  "code_contract": "IRIS_DAMAGE_QUEUE_053",
+  "settings": {
+    "DamageFlushBudgetMs": 2.5,
+    "DamageQueueTargetMs": 40,
+    "DamageFlushMaxHits": 12
+  },
+  "weapon_reference": {
+    "offsets": [
+      [
+        "cut damage multiplier",
+        595
+      ],
+      [
+        "blunt damage multiplier",
+        626
+      ],
+      [
+        "attack mod",
+        766
+      ],
+      [
+        "defence mod",
+        785
+      ],
+      [
+        "armour penetration",
+        379
+      ]
+    ],
+    "reference": {
+      "cut damage multiplier": 1.2000000476837158,
+      "blunt damage multiplier": 1.0
+    },
+    "formal_multiplier": 1.2,
+    "test_fraction": 0.1,
+    "expected": {
+      "cut damage multiplier": 0.1440000057220459,
+      "blunt damage multiplier": 0.12,
+      "attack mod": 15,
+      "defence mod": 8,
+      "armour penetration": 0.5
+    }
+  },
+  "tests": {
+    "regression_groups": 23,
+    "new_spec_cases": 12,
+    "cpp_header_grammar_files": 10,
+    "existing_update_tests": 13,
+    "existing_io_tests": 9,
+    "extra_io": {
+      "merge_new_defaults": true,
+      "preserve_custom_budget_and_logging": true,
+      "pressure_reader_last8": true,
+      "original_log_untouched": true,
+      "old_dll_rejected": "DLL缺少053医疗预算与队列日志代码合同，请重新编译 Release|x64 / v100"
+    },
+    "preserved_runtime_assets": 128,
+    "unchanged_functions": 13,
+    "fcs_patch_slots": 5,
+    "fcs_changed_bytes": 10
+  },
+  "installed_unchanged": {
+    "version": "0.4.9",
+    "code_contract": "IRIS_LONGTERM_AUDIT_052",
+    "resource": "052-CleanupAudit",
+    "verified_files": 131
+  },
+  "compiled": false,
+  "deployed": false,
+  "game_tested": false,
+  "FPS_measured": false,
+  "polling_enabled": false,
+  "backup_roots": [
+    "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964",
+    "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964"
+  ],
+  "files": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+      "Role": "插件版本注释",
+      "Code location": "IrisArsenal.cpp",
+      "Before": "5999431e700b281039f545373807d217f4a463d04e2fdf51f17b414a70032f7f",
+      "Changes": [
+        "标明0.4.10，所有hook及转发逻辑保持"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "0d84211db1f86dbfd29ee944d2f8f42410e3115fc43ce5b08ce36dffadb29ea5",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+        ],
+        "encoding": "UTF-8/CRLF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+          "Role": "插件版本注释",
+          "Code location": "标明0.4.10，所有hook及转发逻辑保持",
+          "Before": "5999431e700b281039f545373807d217f4a463d04e2fdf51f17b414a70032f7f",
+          "Changes": "标明0.4.10，所有hook及转发逻辑保持",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "0d84211db1f86dbfd29ee944d2f8f42410e3115fc43ce5b08ce36dffadb29ea5",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-009\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-009\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+      "Role": "PE版本元数据",
+      "Code location": "IrisArsenal.rc",
+      "Before": "5a0974b603398d6a1ea11565905cb9408a82f149cfffb319f16818334eccbffd",
+      "Changes": [
+        "源码版本0.4.10，明确本轮调度合同需新编译DLL"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "41f310bdbf992055c25af8ec1c066cffd9d94b09ea24bb7b8a2915d11c353ec2",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+          "Role": "PE版本元数据",
+          "Code location": "源码版本0.4.10，明确本轮调度合同需新编译DLL",
+          "Before": "5a0974b603398d6a1ea11565905cb9408a82f149cfffb319f16818334eccbffd",
+          "Changes": "源码版本0.4.10，明确本轮调度合同需新编译DLL",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "41f310bdbf992055c25af8ec1c066cffd9d94b09ea24bb7b8a2915d11c353ec2",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-010\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-010\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisArsenal.rc"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+      "Role": "医疗队列调度与诊断",
+      "Code location": "IrisCombat.cpp",
+      "Before": "ffae47387a9a18f2368e4f30da538c0c59d13200bc5f4e43986984b091dbe350",
+      "Changes": [
+        "默认2.5ms/40ms软目标/12次原生上限；FIFO、全路径时间检查、独立时钟及超标/让出日志，原生结算和碰撞保持"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "ca314624a759735393481688aed577f51a8f4f19430954f71840ec5fd822b656",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+        ],
+        "encoding": "UTF-8/CRLF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+          "Role": "医疗队列调度与诊断",
+          "Code location": "默认2.5ms/40ms软目标/12次原生上限；FIFO、全路径时间检查、独立时钟及超标/让出日志，原生结算和碰撞保持",
+          "Before": "ffae47387a9a18f2368e4f30da538c0c59d13200bc5f4e43986984b091dbe350",
+          "Changes": "默认2.5ms/40ms软目标/12次原生上限；FIFO、全路径时间检查、独立时钟及超标/让出日志，原生结算和碰撞保持",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "ca314624a759735393481688aed577f51a8f4f19430954f71840ec5fd822b656",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisCombat.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+      "Role": "运行身份与长期诊断",
+      "Code location": "IrisDiagnostics.cpp",
+      "Before": "27509c13864cf08d12a6d12757dd2233e72eefca8eb3c6499748ad2e8d420ca5",
+      "Changes": [
+        "记录053/0.4.10真实身份及队列超标/让出累计，保持052日志格式和全部既有通道"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "52fecb4a17833c9a21a65e6827194dacfdae1f0af22f451301a908589e7ef9d5",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+        ],
+        "encoding": "UTF-8/CRLF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+          "Role": "运行身份与长期诊断",
+          "Code location": "记录053/0.4.10真实身份及队列超标/让出累计，保持052日志格式和全部既有通道",
+          "Before": "27509c13864cf08d12a6d12757dd2233e72eefca8eb3c6499748ad2e8d420ca5",
+          "Changes": "记录053/0.4.10真实身份及队列超标/让出累计，保持052日志格式和全部既有通道",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "52fecb4a17833c9a21a65e6827194dacfdae1f0af22f451301a908589e7ef9d5",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.cpp"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h",
+      "Role": "诊断计数接口",
+      "Code location": "IrisDiagnostics.h",
+      "Before": "0e02d5e4e9f9a02e62b4e8c62aa1b21cbf64f7fee8bc036fc3472b42f8cbb287",
+      "Changes": [
+        "增加医疗队列超目标和四种让出原因的固定计数，不增加hook或后台线程"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "a8aee21c1a8ef28293b97de8784441d9450e2760d8acd903a626a7bab52c7027",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h"
+        ],
+        "encoding": "UTF-8/CRLF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h",
+          "Role": "诊断计数接口",
+          "Code location": "增加医疗队列超目标和四种让出原因的固定计数，不增加hook或后台线程",
+          "Before": "0e02d5e4e9f9a02e62b4e8c62aa1b21cbf64f7fee8bc036fc3472b42f8cbb287",
+          "Changes": "增加医疗队列超目标和四种让出原因的固定计数，不增加hook或后台线程",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "a8aee21c1a8ef28293b97de8784441d9450e2760d8acd903a626a7bab52c7027",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\IrisDiagnostics.h"
+            ],
+            "encoding": "UTF-8/CRLF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+      "Role": "当前状态与历史入口",
+      "Code location": "README.md",
+      "Before": "15bec61b0fab67ba8b34a9a577fdc20ccb9579912a02fdfb15e1c70f1fc12b13",
+      "Changes": [
+        "新增053待用户编译说明，保留052历史记录；实际游戏已由用户更新至052，本轮未部署"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "d481df23831db9d4ef06cfbdbac7b3f11445ede47cd04c5a4227ab8c204c12fb",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+          "Role": "当前状态与历史入口",
+          "Code location": "新增053待用户编译说明，保留052历史记录；实际游戏已由用户更新至052，本轮未部署",
+          "Before": "15bec61b0fab67ba8b34a9a577fdc20ccb9579912a02fdfb15e1c70f1fc12b13",
+          "Changes": "新增053待用户编译说明，保留052历史记录；实际游戏已由用户更新至052，本轮未部署",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "d481df23831db9d4ef06cfbdbac7b3f11445ede47cd04c5a4227ab8c204c12fb",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173552-780585\\edit-004\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173552-780585\\edit-004\\E\\KenshiProject\\2.Projects\\IrisArsenal\\README.md"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+      "Role": "当前状态与历史入口",
+      "Code location": "STATE.md",
+      "Before": "a3c159168c89fe0f8f9b8b4c7bf742f96062649ac0f46942fd6ec68182b7e5e5",
+      "Changes": [
+        "新增053待用户编译说明，保留052历史记录；实际游戏已由用户更新至052，本轮未部署"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "fab6f376dc2d88a35f8397765ff38390c72a3b2d74f3545bfd45777e62418ce8",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+          "Role": "当前状态与历史入口",
+          "Code location": "新增053待用户编译说明，保留052历史记录；实际游戏已由用户更新至052，本轮未部署",
+          "Before": "a3c159168c89fe0f8f9b8b4c7bf742f96062649ac0f46942fd6ec68182b7e5e5",
+          "Changes": "新增053待用户编译说明，保留052历史记录；实际游戏已由用户更新至052，本轮未部署",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "fab6f376dc2d88a35f8397765ff38390c72a3b2d74f3545bfd45777e62418ce8",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173552-780585\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173552-780585\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\STATE.md"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+      "Role": "启动配置",
+      "Code location": "distribution/IrisArsenal.ini",
+      "Before": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c",
+      "Changes": [
+        "增加2.5ms预算、40ms等待软目标及12次保险上限；更新合并仍保留个人值"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "de51b14359fb24db30746d8fbb961e77e4c1e08b9a2ca85d95f5a2237d56f047",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+          "Role": "启动配置",
+          "Code location": "增加2.5ms预算、40ms等待软目标及12次保险上限；更新合并仍保留个人值",
+          "Before": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c",
+          "Changes": "增加2.5ms预算、40ms等待软目标及12次保险上限；更新合并仍保留个人值",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "de51b14359fb24db30746d8fbb961e77e4c1e08b9a2ca85d95f5a2237d56f047",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-004\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-004\\E\\KenshiProject\\2.Projects\\IrisArsenal\\distribution\\IrisArsenal.ini"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-053.json",
+      "Role": "本轮精确授权差异",
+      "Code location": "docs/authorized-delta-053.json",
+      "Before": null,
+      "Changes": [
+        "记录045规范化医疗函数的真实before→after及三项版本/五字段测试适配，不跳过失败验证",
+        "只记录053队列/配置/武器五字段的实际摘要，保持历史视觉与事件验收严格",
+        "补齐已通过的三个当前版本断言摘要；源审计文件冲突已单独恢复记录，未覆盖任何报告"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "b6e75834dceaec4b14357a47ffe85442d985a1043144fdd0c820c0d990c79181",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-053.json",
+          "Role": "精确历史回归链接",
+          "Code location": "记录045规范化医疗函数的真实before→after及三项版本/五字段测试适配，不跳过失败验证",
+          "Before": "c495126b27055d636405d6b79ccf90a516aedee3fe4868de8cad8a4800826ab1",
+          "Changes": "记录045规范化医疗函数的真实before→after及三项版本/五字段测试适配，不跳过失败验证",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "06545a59d84ddbf9f4cc1fa61abb34faaa3cbd9ed1eb01ac48dd39f97bba7a4a",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173056-006447\\edit-004\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-053.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173056-006447\\edit-004\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-053.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-053.json",
+          "Role": "本轮精确授权差异",
+          "Code location": "只记录053队列/配置/武器五字段的实际摘要，保持历史视觉与事件验收严格",
+          "Before": null,
+          "Changes": "只记录053队列/配置/武器五字段的实际摘要，保持历史视觉与事件验收严格",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "c495126b27055d636405d6b79ccf90a516aedee3fe4868de8cad8a4800826ab1",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-053.json",
+          "Role": "最终精确变更链",
+          "Code location": "补齐已通过的三个当前版本断言摘要；源审计文件冲突已单独恢复记录，未覆盖任何报告",
+          "Before": "06545a59d84ddbf9f4cc1fa61abb34faaa3cbd9ed1eb01ac48dd39f97bba7a4a",
+          "Changes": "补齐已通过的三个当前版本断言摘要；源审计文件冲突已单独恢复记录，未覆盖任何报告",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "b6e75834dceaec4b14357a47ffe85442d985a1043144fdd0c820c0d990c79181",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173552-780585\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-053.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173552-780585\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\authorized-delta-053.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\queue-balance-053-baseline.json",
+      "Role": "本轮原始行为和资源证据",
+      "Code location": "docs/queue-balance-053-baseline.json",
+      "Before": null,
+      "Changes": [
+        "冻结未改的碰撞/事件/伤害结果函数与128项以外的实际视觉文件，记录Falling Sun实际数据"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "09ea118e0dec2e7a7f9616aa8233e0b99033270393d6a76d06ec111d444ced57",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\queue-balance-053-baseline.json",
+          "Role": "本轮原始行为和资源证据",
+          "Code location": "冻结未改的碰撞/事件/伤害结果函数与128项以外的实际视觉文件，记录Falling Sun实际数据",
+          "Before": null,
+          "Changes": "冻结未改的碰撞/事件/伤害结果函数与128项以外的实际视觉文件，记录Falling Sun实际数据",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "09ea118e0dec2e7a7f9616aa8233e0b99033270393d6a76d06ec111d444ced57",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\queue-balance-053.md",
+      "Role": "本轮配置与验证说明",
+      "Code location": "docs/queue-balance-053.md",
+      "Before": null,
+      "Changes": [
+        "说明2.5ms预算、40ms软目标/FIFO/日志字段和Falling Sun测试五字段及未编译边界"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "915aeb71a367941aec9f73dee0cdffa297e4cb9a40f11289b20ef1a5c97e3fbc",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\docs\\queue-balance-053.md",
+          "Role": "本轮配置与验证说明",
+          "Code location": "说明2.5ms预算、40ms软目标/FIFO/日志字段和Falling Sun测试五字段及未编译边界",
+          "Before": null,
+          "Changes": "说明2.5ms预算、40ms软目标/FIFO/日志字段和Falling Sun测试五字段及未编译边界",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "915aeb71a367941aec9f73dee0cdffa297e4cb9a40f11289b20ef1a5c97e3fbc",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+      "Role": "启动配置",
+      "Code location": "package/IrisArsenal/IrisArsenal.ini",
+      "Before": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c",
+      "Changes": [
+        "增加2.5ms预算、40ms等待软目标及12次保险上限；更新合并仍保留个人值"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "de51b14359fb24db30746d8fbb961e77e4c1e08b9a2ca85d95f5a2237d56f047",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+          "Role": "启动配置",
+          "Code location": "增加2.5ms预算、40ms等待软目标及12次保险上限；更新合并仍保留个人值",
+          "Before": "c3bc547ec3089afbab781ab932a4c3ac6c8cd0e2654b7c9cf2eefcac457ca17c",
+          "Changes": "增加2.5ms预算、40ms等待软目标及12次保险上限；更新合并仍保留个人值",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "de51b14359fb24db30746d8fbb961e77e4c1e08b9a2ca85d95f5a2237d56f047",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-005\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-005\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.ini"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+      "Role": "玩家指定武器的FCS数据",
+      "Code location": "package/IrisArsenal/IrisArsenal.mod",
+      "Before": "8d7604b887af96a77913d88f67cd8018f6d6b1d66c6972a678233b408eff16b2",
+      "Changes": [
+        "原位更新切/钝、攻击、防御和穿甲五字段，记录长度/编码/其余记录保持；不部署游戏"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "1809cc59226eb3c1e89a3aeb6b35cfa708319968e1b4c7db711216bece0e66d4",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+        ],
+        "encoding": "FCS data; five numeric slots only",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+          "Role": "玩家指定武器的FCS数据",
+          "Code location": "原位更新切/钝、攻击、防御和穿甲五字段，记录长度/编码/其余记录保持；不部署游戏",
+          "Before": "8d7604b887af96a77913d88f67cd8018f6d6b1d66c6972a678233b408eff16b2",
+          "Changes": "原位更新切/钝、攻击、防御和穿甲五字段，记录长度/编码/其余记录保持；不部署游戏",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "1809cc59226eb3c1e89a3aeb6b35cfa708319968e1b4c7db711216bece0e66d4",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-008\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-008\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisArsenal.mod"
+            ],
+            "encoding": "FCS numeric data"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+      "Role": "待编译包状态",
+      "Code location": "package/IrisArsenal/IrisPackage.json",
+      "Before": "ead4f034e19b02d4cd381d8b29fa7b8e3a41769d3656fc84597f9950c9bdd73f",
+      "Changes": [
+        "撤销旧ready，避免新FCS/INI与旧DLL被误标为完整新包"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "969cd211a6c5d92583443f74926cb2b33e65a964bab5aa2d5244b87d907943f5",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+          "Role": "待编译包状态",
+          "Code location": "撤销旧ready，避免新FCS/INI与旧DLL被误标为完整新包",
+          "Before": "ead4f034e19b02d4cd381d8b29fa7b8e3a41769d3656fc84597f9950c9bdd73f",
+          "Changes": "撤销旧ready，避免新FCS/INI与旧DLL被误标为完整新包",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "969cd211a6c5d92583443f74926cb2b33e65a964bab5aa2d5244b87d907943f5",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-012\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-012\\E\\KenshiProject\\2.Projects\\IrisArsenal\\package\\IrisArsenal\\IrisPackage.json"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+      "Role": "完整资源更新的FCS生产者",
+      "Code location": "tools/author_moves.py",
+      "Before": "b1e71456cb1e206534d5991e83845129dd99aee65bfd5dd00317ed1fdf1e6d70",
+      "Changes": [
+        "将原固定0.1切/钝替换为Falling Sun参考×0.12，保存攻15/防8/穿甲50%，不改事件与视觉作者"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "1c0624cf483b9052c05e0ecb78a1462b66babbb5f68c3c22d0f7da17a2c07b80",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+          "Role": "完整资源更新的FCS生产者",
+          "Code location": "将原固定0.1切/钝替换为Falling Sun参考×0.12，保存攻15/防8/穿甲50%，不改事件与视觉作者",
+          "Before": "b1e71456cb1e206534d5991e83845129dd99aee65bfd5dd00317ed1fdf1e6d70",
+          "Changes": "将原固定0.1切/钝替换为Falling Sun参考×0.12，保存攻15/防8/穿甲50%，不改事件与视觉作者",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "1c0624cf483b9052c05e0ecb78a1462b66babbb5f68c3c22d0f7da17a2c07b80",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-007\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-007\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\author_moves.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+      "Role": "历史回归差异链",
+      "Code location": "tools/historical047.py",
+      "Before": "a8fa9e3c873d8f422047ba8689e4deb7e62f272cab5aef451c208800c725e523",
+      "Changes": [
+        "仅接入053精确摘要，不放宽原有源码/资源校验"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "967938a21e00dc35f0fddf4f1ed8da2e680c89c53f25e7536106cd55f6192227",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+          "Role": "历史回归差异链",
+          "Code location": "仅接入053精确摘要，不放宽原有源码/资源校验",
+          "Before": "a8fa9e3c873d8f422047ba8689e4deb7e62f272cab5aef451c208800c725e523",
+          "Changes": "仅接入053精确摘要，不放宽原有源码/资源校验",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "967938a21e00dc35f0fddf4f1ed8da2e680c89c53f25e7536106cd55f6192227",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\historical047.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py",
+      "Role": "手动长期日志分析器",
+      "Code location": "tools/read_audit052.py",
+      "Before": "072b3b391ccedd53a9b96f0e9d5e73cd29669ee43d5814a07c0ca16013eb09a2",
+      "Changes": [
+        "额外提供最近8条053医疗压力记录；不混合运行、不设日志读取行数上限"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "a095518f12662f1e76771548898992e09f69d3f39b5f47eb58e51615b359aeb5",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py",
+          "Role": "手动长期日志分析器",
+          "Code location": "额外提供最近8条053医疗压力记录；不混合运行、不设日志读取行数上限",
+          "Before": "072b3b391ccedd53a9b96f0e9d5e73cd29669ee43d5814a07c0ca16013eb09a2",
+          "Changes": "额外提供最近8条053医疗压力记录；不混合运行、不设日志读取行数上限",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "a095518f12662f1e76771548898992e09f69d3f39b5f47eb58e51615b359aeb5",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-007\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-007\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\read_audit052.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+      "Role": "用户编译后的组包校验",
+      "Code location": "tools/stage_package.py",
+      "Before": "eebcccfbe5343ebde5b0c6f134562c26ddbfd4bdc60e6d21c9c471477bbe4e45",
+      "Changes": [
+        "拒绝052旧DLL，组包版本0.4.10/053；不执行编译或实际部署"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "cb26e667672d91a1c4df5ef4fc35b5490e3c98840422ec5d06019b492fc8c16d",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+          "Role": "用户编译后的组包校验",
+          "Code location": "拒绝052旧DLL，组包版本0.4.10/053；不执行编译或实际部署",
+          "Before": "eebcccfbe5343ebde5b0c6f134562c26ddbfd4bdc60e6d21c9c471477bbe4e45",
+          "Changes": "拒绝052旧DLL，组包版本0.4.10/053；不执行编译或实际部署",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "cb26e667672d91a1c4df5ef4fc35b5490e3c98840422ec5d06019b492fc8c16d",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-011\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172317-122900\\edit-011\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\stage_package.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+      "Role": "既有版本回归",
+      "Code location": "tools/test_balance046.py",
+      "Before": "b4591109712d90da570d433f7483ab1120d2ab38b8cd9fe7edd44b41db6d919f",
+      "Changes": [
+        "核对当前053合同和0.4.10真实日志标识，其余伤害/视觉/防御回归保留"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "53188aff04b5500f9c6121197b62cbfbbcd4984f8cb53fdc85a48b0355357043",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+          "Role": "既有版本回归",
+          "Code location": "核对当前053合同和0.4.10真实日志标识，其余伤害/视觉/防御回归保留",
+          "Before": "b4591109712d90da570d433f7483ab1120d2ab38b8cd9fe7edd44b41db6d919f",
+          "Changes": "核对当前053合同和0.4.10真实日志标识，其余伤害/视觉/防御回归保留",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "53188aff04b5500f9c6121197b62cbfbbcd4984f8cb53fdc85a48b0355357043",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_balance046.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+      "Role": "既有碰撞/预算回归",
+      "Code location": "tools/test_cannon_quake.py",
+      "Before": "a056d548365ba54b0d615eb20a6acce8642043219048854d006ffceb756a411f",
+      "Changes": [
+        "用053实际时间门和可配次数上限代替旧1ms字面值断言，不改变碰撞几何验证"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "4efa8926cd97e49fd65b548517c5b5c867a6e1b1472c07ef8fb7207aa6f7d668",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+          "Role": "既有碰撞/预算回归",
+          "Code location": "用053实际时间门和可配次数上限代替旧1ms字面值断言，不改变碰撞几何验证",
+          "Before": "a056d548365ba54b0d615eb20a6acce8642043219048854d006ffceb756a411f",
+          "Changes": "用053实际时间门和可配次数上限代替旧1ms字面值断言，不改变碰撞几何验证",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "4efa8926cd97e49fd65b548517c5b5c867a6e1b1472c07ef8fb7207aa6f7d668",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-004\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-004\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_cannon_quake.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_icon_rebuild048.py",
+      "Role": "完整更新FCS稳定性回归",
+      "Code location": "tools/test_icon_rebuild048.py",
+      "Before": "787daa21e6af07fa3ce2349ecdd58dc0717d6868101c211e52f7c552997e84af",
+      "Changes": [
+        "保持两次生产者字节一致要求；允许053五字段精确摘要，不要求回到旧武器数据"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "3c493da828c2c730580b3c72f7fa3952bc00772ef77cde809c6b80cbfe708eca",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_icon_rebuild048.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_icon_rebuild048.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_icon_rebuild048.py",
+          "Role": "完整更新FCS稳定性回归",
+          "Code location": "保持两次生产者字节一致要求；允许053五字段精确摘要，不要求回到旧武器数据",
+          "Before": "787daa21e6af07fa3ce2349ecdd58dc0717d6868101c211e52f7c552997e84af",
+          "Changes": "保持两次生产者字节一致要求；允许053五字段精确摘要，不要求回到旧武器数据",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "3c493da828c2c730580b3c72f7fa3952bc00772ef77cde809c6b80cbfe708eca",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-005\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_icon_rebuild048.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-005\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_icon_rebuild048.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+      "Role": "受击反应既有回归",
+      "Code location": "tools/test_melee_reaction044.py",
+      "Before": "6c8d4268d7ef544f66fd8d21cdba223c87a155b53fa3514c4abccaf71819f54f",
+      "Changes": [
+        "当前运行合同统一为053/0.4.10，历史防御/医疗/资源和规范化摘要仍全部检查",
+        "更新当前版本身份，受击保护流水与所有既有边界不变"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "f391ac554e607e695db1f4792052db127770c204d6d4c3852ef36fd2c0e23aff",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "Role": "既有合同回归",
+          "Code location": "当前运行合同统一为053/0.4.10，历史防御/医疗/资源和规范化摘要仍全部检查",
+          "Before": "ec6093c365eba033cb9edc52362aeda246ec7c154c83e02cc9430e8b01cef475",
+          "Changes": "当前运行合同统一为053/0.4.10，历史防御/医疗/资源和规范化摘要仍全部检查",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "f391ac554e607e695db1f4792052db127770c204d6d4c3852ef36fd2c0e23aff",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173409-971551\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173409-971551\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+          "Role": "受击反应既有回归",
+          "Code location": "更新当前版本身份，受击保护流水与所有既有边界不变",
+          "Before": "6c8d4268d7ef544f66fd8d21cdba223c87a155b53fa3514c4abccaf71819f54f",
+          "Changes": "更新当前版本身份，受击保护流水与所有既有边界不变",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "ec6093c365eba033cb9edc52362aeda246ec7c154c83e02cc9430e8b01cef475",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173056-006447\\edit-002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173056-006447\\edit-002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_melee_reaction044.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+      "Role": "既有合同回归",
+      "Code location": "tools/test_move_parameters045.py",
+      "Before": "f9367f76c66e7adf973d1596de3b61c3d0c39c9ee7bccda35ba254cea7729aea",
+      "Changes": [
+        "当前运行合同统一为053/0.4.10，历史防御/医疗/资源和规范化摘要仍全部检查"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "c2092dff72b1eebc363486739493a235bb912ae705a20e896e5cb7d9d065869b",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+          "Role": "既有合同回归",
+          "Code location": "当前运行合同统一为053/0.4.10，历史防御/医疗/资源和规范化摘要仍全部检查",
+          "Before": "f9367f76c66e7adf973d1596de3b61c3d0c39c9ee7bccda35ba254cea7729aea",
+          "Changes": "当前运行合同统一为053/0.4.10，历史防御/医疗/资源和规范化摘要仍全部检查",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "c2092dff72b1eebc363486739493a235bb912ae705a20e896e5cb7d9d065869b",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173409-971551\\edit-002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173409-971551\\edit-002\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_move_parameters045.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_queue_balance053.py",
+      "Role": "053专项非编译验收",
+      "Code location": "tools/test_queue_balance053.py",
+      "Before": null,
+      "Changes": [
+        "真实FCS/生产者/版本/计数对齐与12组独立调度规格，冻结原有几何/原生结算结果函数"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "32a939a3291c6ae697eeeb0978c26eebe4d64c77d1a90e50ca5e210fe7dcfa8e",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_queue_balance053.py",
+          "Role": "053专项非编译验收",
+          "Code location": "真实FCS/生产者/版本/计数对齐与12组独立调度规格，冻结原有几何/原生结算结果函数",
+          "Before": null,
+          "Changes": "真实FCS/生产者/版本/计数对齐与12组独立调度规格，冻结原有几何/原生结算结果函数",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "32a939a3291c6ae697eeeb0978c26eebe4d64c77d1a90e50ca5e210fe7dcfa8e",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+      "Role": "图标/武器既有回归",
+      "Code location": "tools/test_release047.py",
+      "Before": "128496bce1aa77b4bcaca5d511f482fddb047553a12bdf27dfb6dcbe91335241",
+      "Changes": [
+        "精确允许五项已授权武器数据，仍要求其他记录/字段和坐姿/射击资产不变",
+        "补齐053/0.4.10当前版本断言；该次写入后的即时报告因任务内报告文件重名未落盘，现从双备份和实际字节恢复"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "cfb99784d1adb3ded1670ed7a6301448c4d9bb626e597af7b63fc2f018043240",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+          "Role": "图标/武器既有回归",
+          "Code location": "精确允许五项已授权武器数据，仍要求其他记录/字段和坐姿/射击资产不变",
+          "Before": "128496bce1aa77b4bcaca5d511f482fddb047553a12bdf27dfb6dcbe91335241",
+          "Changes": "精确允许五项已授权武器数据，仍要求其他记录/字段和坐姿/射击资产不变",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "e8448f7413ea7271cbf453a71bae34573310927aa7424932840a7757c975ed1a",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173056-006447\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173056-006447\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        },
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+          "Role": "版本合同回归",
+          "Code location": "tools/test_release047.py",
+          "Before": "e8448f7413ea7271cbf453a71bae34573310927aa7424932840a7757c975ed1a",
+          "Changes": "补齐053/0.4.10当前版本断言；该次写入后的即时报告因任务内报告文件重名未落盘，现从双备份和实际字节恢复",
+          "Reasons": "保留原报告、不覆盖审计证据，记录已验证的实际变更",
+          "After": "cfb99784d1adb3ded1670ed7a6301448c4d9bb626e597af7b63fc2f018043240",
+          "Impact": "只改当前版本断言，图标/坐姿/资源检查均已通过",
+          "Validation": "原备份文本只允许两处版本标识替换，完整字节匹配；23组回归已通过",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173409-971551\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173409-971551\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_release047.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "C++和实际游戏待用户编译/测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+      "Role": "既有版本回归",
+      "Code location": "tools/test_surface050.py",
+      "Before": "328753ccc05c19544f2bef1f005f74ac881c8984e96836c36ef65f36841da959",
+      "Changes": [
+        "核对当前053合同和0.4.10真实日志标识，其余伤害/视觉/防御回归保留"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "10bdf2221eac93508bf2b1cd1b2e5b5e8753a2b909a722e894aca15d5525e5db",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+          "Role": "既有版本回归",
+          "Code location": "核对当前053合同和0.4.10真实日志标识，其余伤害/视觉/防御回归保留",
+          "Before": "328753ccc05c19544f2bef1f005f74ac881c8984e96836c36ef65f36841da959",
+          "Changes": "核对当前053合同和0.4.10真实日志标识，其余伤害/视觉/防御回归保留",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "10bdf2221eac93508bf2b1cd1b2e5b5e8753a2b909a722e894aca15d5525e5db",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-003\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_surface050.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+      "Role": "火神既有回归",
+      "Code location": "tools/test_vulcan_contract.py",
+      "Before": "8502b4f8714733b943797a2cd34965e73b81aaf6bfb975520a89c3cff8b4418c",
+      "Changes": [
+        "把已授权变化的基础武器五字段接入新参考；20发、事件倍率、球包络与真实材质校验保持"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "797dd5b19f685f5e49ecf23f819622c0ae57f416f31ebd15fcad6c9df250cbe5",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+          "Role": "火神既有回归",
+          "Code location": "把已授权变化的基础武器五字段接入新参考；20发、事件倍率、球包络与真实材质校验保持",
+          "Before": "8502b4f8714733b943797a2cd34965e73b81aaf6bfb975520a89c3cff8b4418c",
+          "Changes": "把已授权变化的基础武器五字段接入新参考；20发、事件倍率、球包络与真实材质校验保持",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "797dd5b19f685f5e49ecf23f819622c0ae57f416f31ebd15fcad6c9df250cbe5",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-173056-006447\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-173056-006447\\edit-001\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\test_vulcan_contract.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+      "Role": "完整更新验收入口",
+      "Code location": "tools/verify_moves.py",
+      "Before": "98f7ef2c4d58ea33ba519255b81f5634b84de817100f3388ed874437bf935012",
+      "Changes": [
+        "验证Falling Sun五字段和053调度合同，保留既有资产/动画/防御检查，验证结果另存053不覆盖052"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "21e41d046e27f47a8198ecebef58053ddd0cd3769ca1d593a40fb669d00d8357",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [
+          "D:\\CodexBackups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "E:\\AIWorkSpace\\_backups\\IrisArsenal-053-Originals-20261018-173720-103964\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+        ],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+          "Role": "完整更新验收入口",
+          "Code location": "验证Falling Sun五字段和053调度合同，保留既有资产/动画/防御检查，验证结果另存053不覆盖052",
+          "Before": "98f7ef2c4d58ea33ba519255b81f5634b84de817100f3388ed874437bf935012",
+          "Changes": "验证Falling Sun五字段和053调度合同，保留既有资产/动画/防御检查，验证结果另存053不覆盖052",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "21e41d046e27f47a8198ecebef58053ddd0cd3769ca1d593a40fb669d00d8357",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [
+              "D:\\CodexBackups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-006\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py",
+              "E:\\AIWorkSpace\\_backups\\IrisArsenal-QueueBalance-053-20261018-172734-471426\\edit-006\\E\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\verify_moves.py"
+            ],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\weapon_balance053.py",
+      "Role": "武器数据唯一来源与原位补丁",
+      "Code location": "tools/weapon_balance053.py",
+      "Before": null,
+      "Changes": [
+        "以实际Falling Sun为参考，正式1.2倍/测试0.1倍；五字段保持顺序并支持仅20字节范围的数据编辑"
+      ],
+      "Reasons": "本轮用户指定的2.5ms预算/40ms软目标与Falling Sun测试武器五字段",
+      "After": "dd31045cb142068c30e49eea35caf1ec8dfba080fac7dbd8cdcfc44a45bc4f3e",
+      "Impact": "IrisArsenal项目；保留碰撞/去重/事件倍率，未编译部署",
+      "Validation": "23组回归、12组新规格、10份语法树、22项原同步/解析测试及新增配置合并/压力读取检查；128项非改动资源保持",
+      "Safety": {
+        "original_backups": [],
+        "encoding": "UTF-8/LF",
+        "mojibake_scan": "passed"
+      },
+      "Unresolved": "C++语义/链接与游戏FPS待用户编译实测；40ms为软目标且墙钟含暂停",
+      "steps": [
+        {
+          "File": "E:\\KenshiProject\\2.Projects\\IrisArsenal\\tools\\weapon_balance053.py",
+          "Role": "武器数据唯一来源与原位补丁",
+          "Code location": "以实际Falling Sun为参考，正式1.2倍/测试0.1倍；五字段保持顺序并支持仅20字节范围的数据编辑",
+          "Before": null,
+          "Changes": "以实际Falling Sun为参考，正式1.2倍/测试0.1倍；五字段保持顺序并支持仅20字节范围的数据编辑",
+          "Reasons": "用户明确要求2～3ms结算预算、约40ms延迟目标及日志；武器按Falling Sun正式1.2倍的十分之一测试，攻15/防8/穿甲50%",
+          "After": "dd31045cb142068c30e49eea35caf1ec8dfba080fac7dbd8cdcfc44a45bc4f3e",
+          "Impact": "仅本项目；不改碰撞/去重/事件倍率，不部署游戏或启动监视",
+          "Validation": "双备份和写后字节回读、编码/BOM/换行保持及中文扫描；专项验证后续执行",
+          "Safety": {
+            "backups": [],
+            "encoding": "UTF-8/LF"
+          },
+          "Unresolved": "未代编译C++，实际调度/FPS需用户测试"
+        }
+      ]
+    }
+  ]
+}

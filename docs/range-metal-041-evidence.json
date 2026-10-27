@@ -1,0 +1,166 @@
+{
+  "version": "0.4.1",
+  "contract": "IRIS_EIGHT_041",
+  "asset_revision": "041-RangeMetal",
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-Iris-RangeMetal-041-20261017-180413",
+  "request": "原源素材/代码确定范围，钻天破火相至少蓝相3/4、放大翻滚、修复墨黑金属",
+  "measurement": {
+    "range": {
+      "drill_blast": {
+        "uniform_scale": 2.470154663885487,
+        "radius95_by_view": [
+          0.8800309805194944,
+          0.8478618250011059,
+          0.7853524039613615,
+          0.8803876132351293,
+          0.7850017302061841,
+          0.849165715231834,
+          0.7712087139675787,
+          0.8430581001265647,
+          0.822734561748786,
+          0.8344472550414742,
+          0.8767279120540857,
+          0.8394643521610645
+        ],
+        "reference": [
+          1.028055179254564,
+          1.0283692631105692,
+          1.030112058698716,
+          1.0256341221660814,
+          1.0280520426722812,
+          1.0260185782551867,
+          1.0282783130277786,
+          1.0295124956201203,
+          1.0304459412325948,
+          1.0288102637726704,
+          1.0294752516442511,
+          1.0295676288999123
+        ],
+        "minimum_ratio": 0.7499999797688476,
+        "world_radius95": [
+          105.60371766233932,
+          101.7434190001327,
+          94.24228847536338,
+          105.64651358821551,
+          94.20020762474209,
+          101.89988582782009,
+          92.54504567610945,
+          101.16697201518777,
+          98.72814740985432,
+          100.1336706049769,
+          105.20734944649028,
+          100.73572225932774
+        ],
+        "GPU_measured": false
+      },
+      "roll_blast": {
+        "uniform_scale": 3.2029651020738217,
+        "radius95_by_view": [
+          1.141106100837939,
+          1.0993934174782083,
+          1.018339625920313,
+          1.141568503133925,
+          1.017884889702314,
+          1.1010841454537568,
+          0.9999999788779801,
+          1.093164600167791,
+          1.0668117718445205,
+          1.08199925672461,
+          1.1368230926056133,
+          1.0885047954726204
+        ],
+        "reference": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_ratio": 0.9999999788779801,
+        "world_radius95": [
+          27.386546420110538,
+          26.385442019476997,
+          24.440151022087512,
+          27.397644075214203,
+          24.429237352855537,
+          26.426019490890162,
+          23.99999949307152,
+          26.235950404026987,
+          25.603482524268493,
+          25.967982161390637,
+          27.283754222534718,
+          26.124115091342887
+        ],
+        "GPU_measured": false
+      }
+    },
+    "blue_geometry_unchanged": true,
+    "full_burst_fire_asset_unchanged": true,
+    "source_metal_RGB": [
+      40,
+      49
+    ],
+    "wing_specular_strengths": [
+      1.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "source_textures_and_colours_unchanged": true,
+    "damage_unchanged": true,
+    "Cxx_HLSL_compiled": false,
+    "game_tested": false
+  },
+  "source_fire_chain": [
+    "FullBust_End",
+    "Skyrim SPEL3F9ED/MGEF562EB/PROJ647BE",
+    "VoiceFlameWaveProject03.nif",
+    "BSValueNode64 x7",
+    "ADDN647BC",
+    "MPSFireWaveFlames.nif"
+  ],
+  "source_metal_files": [
+    "E:/skyrimspecialedition/mods/soulworker_Iris/Meshes/SW/Iris/EXDrill1.nif",
+    "E:/skyrimspecialedition/mods/soulworker_Iris/Meshes/SW/Iris/EXDrill2.nif",
+    "E:/skyrimspecialedition/mods/soulworker_Iris/Textures/Soulworker/Iris/002.dds"
+  ],
+  "validation": {
+    "complete_noncompile": "docs/validation-0.4.1.json",
+    "update_script_tests": 11,
+    "all_passed": true,
+    "compiled_Cxx": false,
+    "compiled_HLSL": false,
+    "game_tested": false,
+    "FPS_measured": false
+  },
+  "installed": {
+    "version": "0.4.0",
+    "contract": "IRIS_EIGHT_040",
+    "files_checked": 124,
+    "mismatches": [],
+    "written": false
+  },
+  "package": {
+    "ready": false,
+    "old_Dll_gate": "DLL与当前资源合同不一致，请重新编译 Release|x64 / v100"
+  },
+  "limitations": [
+    "主体覆盖是实际纹理alpha/图集/LUT的离线12方向投影，不是GPU实测，也不是完整球体每处填满",
+    "仅统一缩放原曲面/发射器/粒子位置速度尺寸重力，不新建或重排原贴图",
+    "源灰金属/白色镜面保持，环境/太阳适配不是Skyrim原ENB",
+    "既有完整NiPSys湍流/受控力/屏幕折射未实现；放大不新增粒子，但屏幕填充面积会增加，性能需实测"
+  ]
+}

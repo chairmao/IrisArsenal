@@ -1,0 +1,19 @@
+{
+  "File": "E:\\AIWorkSpace\\_notes\\code-notes.md",
+  "Role": "共用经验日志追加",
+  "Code location": "末尾042条目",
+  "Before": "9d5da06d7c37766674de3260a1438d69e64f8b36b727586ed69eb10d724e1f9f",
+  "Changes": "记录原枪口遗漏动态、独立火焰范围、新两招源事件和十招索引边界",
+  "Reasons": "本轮用户四点修改与三次纯武器确认",
+  "After": "0af98e4a6ad4e12e4bfd4fb254ab184fd41da7df81779a51fed820e190260dca",
+  "Impact": "只追加经验，不改历史或其他项目",
+  "Validation": "原字节前缀保持/严格UTF-8/新增中文乱码检查",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\Iris042Notes-20261017-191939-991054\\E\\AIWorkSpace\\_notes\\code-notes.md",
+      "E:\\AIWorkSpace\\_backups\\Iris042Notes-20261017-191939-991054\\E\\AIWorkSpace\\_notes\\code-notes.md"
+    ],
+    "encoding": "UTF-8/CRLF"
+  },
+  "Unresolved": "用户编译和实机验收"
+}

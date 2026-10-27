@@ -1,0 +1,836 @@
+{
+  "material_definitions_removed": 106,
+  "program_definitions_removed": 2,
+  "hlsl_functions_removed": [
+    "iris_energy_vp",
+    "iris_energy_fp"
+  ],
+  "retired_files": [
+    "assets/iris_finisher064.material",
+    "assets/iris_179f128b96e16ff2.dds"
+  ],
+  "proofs_to_developer": [
+    "iris_drill_weapon_proof_female.csv",
+    "iris_drill_weapon_proof_male.csv",
+    "iris_drive_weapon_proof_female.csv",
+    "iris_drive_weapon_proof_male.csv",
+    "iris_earthquake_weapon_proof_female.csv",
+    "iris_earthquake_weapon_proof_male.csv",
+    "iris_electro_cannon_weapon_proof_female.csv",
+    "iris_electro_cannon_weapon_proof_male.csv",
+    "iris_fire_roll_weapon_proof_female.csv",
+    "iris_fire_roll_weapon_proof_male.csv",
+    "iris_full_burst_weapon_proof_female.csv",
+    "iris_full_burst_weapon_proof_male.csv",
+    "iris_hammer_combo_weapon_proof_female.csv",
+    "iris_hammer_combo_weapon_proof_male.csv",
+    "iris_pulse_weapon_proof_female.csv",
+    "iris_pulse_weapon_proof_male.csv",
+    "iris_spiral_weapon_proof_female.csv",
+    "iris_spiral_weapon_proof_male.csv",
+    "iris_vulcan_weapon_proof_female.csv",
+    "iris_vulcan_weapon_proof_male.csv",
+    "iris_weapon_proof_female.csv",
+    "iris_weapon_proof_male.csv"
+  ],
+  "live_objects": [
+    {
+      "name": "IrisArsenal/0cdd3143fa16",
+      "file": "iris.material",
+      "sha256": "8abe80b606e71dc4a214b1960b5bc6bdd58b558e182017fee51562171f1801cb"
+    },
+    {
+      "name": "IrisArsenal/22706bb412a9",
+      "file": "iris.material",
+      "sha256": "2488aa096193b883b6dd0ab0e47f02292f5108bbb741653f4bd2525d91e5122a"
+    },
+    {
+      "name": "IrisArsenal/Debug",
+      "file": "iris.material",
+      "sha256": "4be84c0818e28fba9bb20ac7b7fc836d6c26599f27ff597a25df04c9cbad11ca"
+    },
+    {
+      "name": "IrisArsenal/a758709b323d",
+      "file": "iris.material",
+      "sha256": "908ccae72c0b7bd4c8ef3fa1ebdb417fef780a5a95676456fa3019f5080f6a5e"
+    },
+    {
+      "name": "IrisArsenal/cc52ea06842c",
+      "file": "iris.material",
+      "sha256": "3eebf7543070f9ce39fcf214121dbe121f8769650f96594f8d7f7569640aa8c3"
+    },
+    {
+      "name": "IrisArsenal/d2d5d0aa3aa8",
+      "file": "iris.material",
+      "sha256": "4359e2e9122e1482c87efdb166e30f26a97b42c864adbfc2c3c63f92b6a19d59"
+    },
+    {
+      "name": "IrisArsenal/e21d76b14293",
+      "file": "iris.material",
+      "sha256": "0ab65e1f9fe3e0c89601351a69727a56bcd18f192aa7db5ac06f0ce712c063f6"
+    },
+    {
+      "name": "IrisArsenal/fe8cc0afb4c6",
+      "file": "iris.material",
+      "sha256": "c90dff3de96a57e24cf4b13e231268266ccb616a06716ef7ba09808ba69ea1df"
+    },
+    {
+      "name": "IrisArsenal/DrillOpticsV1/energy_shell_0321072a991e",
+      "file": "iris_drill_optics.material",
+      "sha256": "be60b7960ae1b8695980644edfe96d7c0fb886e12ab670308aacae3155d19290"
+    },
+    {
+      "name": "IrisArsenal/DrillOpticsV1/metal_8c709ca931c4",
+      "file": "iris_drill_optics.material",
+      "sha256": "acac5e5271a8c323a7b197cf37fed0a090b4d6ca73f8903b65946b137ca386a9"
+    },
+    {
+      "name": "IrisArsenal/DrillOpticsV1/metal_d1c9deda5a81",
+      "file": "iris_drill_optics.material",
+      "sha256": "97ec404e9972fce1c3622192d3f16126aa5887e18522de67198f29e075823880"
+    },
+    {
+      "name": "IrisArsenal/DrillOpticsV1/optical_3fc988945311",
+      "file": "iris_drill_optics.material",
+      "sha256": "0f8b216db76e25d0eab61565757432563ecb38f43f537d41f10166aba78dfae6"
+    },
+    {
+      "name": "IrisArsenal/DrillOpticsV1/optical_cc80fa7d8d1e",
+      "file": "iris_drill_optics.material",
+      "sha256": "1888d6d4c8cedff9c95fca621465ed51dc689417e8c33ab5d94914239bf3f93c"
+    },
+    {
+      "name": "IrisArsenal/DrillOpticsV1/optical_df8a41dce4cd",
+      "file": "iris_drill_optics.material",
+      "sha256": "2e5e1748a4506c70288a8c3f375afaccb3218fac44e91a226677b721fdcf9d3a"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Blue/09bf6d3155c207",
+      "file": "iris_drive059.material",
+      "sha256": "6a095be8df344e95d78098f8a455d4e3dea6090544f90ad2adef0c01b83e39d9"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Blue/15fdb2174ead0e",
+      "file": "iris_drive059.material",
+      "sha256": "245ede2bfa95a1e595b5a1466f935c25a2d335a0d5a724bd701c0cfe4682fff2"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Blue/7895a7c5c9bb60",
+      "file": "iris_drive059.material",
+      "sha256": "aae1826e35e626acfabd0604d95876c9914029b74e96d3913d8767e4fc0d78f2"
+    },
+    {
+      "name": "IrisArsenal/Drive059/BlueParticles/113",
+      "file": "iris_drive059.material",
+      "sha256": "2e0974c23fd3411f329a27c1fd1a01033de5622e970522c1992f38532f41738b"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Cannon10",
+      "file": "iris_drive059.material",
+      "sha256": "0a0155791df217c13e7a6a937ae881c1be71e1f461f12f9a98a463db20c30e0f"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Cannon2",
+      "file": "iris_drive059.material",
+      "sha256": "0e57abf3ec6b802e520ba0cec1e088a9f07c449dab531b604e45fc6bb53730c6"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Cannon3",
+      "file": "iris_drive059.material",
+      "sha256": "0e60ad197745f90176eb29d0c6c47c0ebbe4d0124a0e463c7d7739c0330b20a5"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Cannon4",
+      "file": "iris_drive059.material",
+      "sha256": "7cfebe0d1ebd84f267f5ae0e2156701ac57b752cd69a02c705f387c94a35dd7f"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Cannon5",
+      "file": "iris_drive059.material",
+      "sha256": "ba71e3fd696bf6ce38680de69ecf9c892beb2ce9bcc06f892b66c6ad16007a56"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Cannon6",
+      "file": "iris_drive059.material",
+      "sha256": "5fd5efb2f74b16f075d2aebc6b28c55881a67d571088c1652e7949ef42cc87eb"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Cannon7",
+      "file": "iris_drive059.material",
+      "sha256": "718feaf78b58341b8c40a4bd55e09e2bd5c4a45fcb186d7a8a9b14d981f513ef"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Cannon8",
+      "file": "iris_drive059.material",
+      "sha256": "861df39e5f190f439c2c5af4d82a097ae392b03e097e1b0d60fd80b45037b912"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Cannon9",
+      "file": "iris_drive059.material",
+      "sha256": "243a780e940d331d93f6ca350ebdec678e2d4d800c03dff8ed852887d38fc363"
+    },
+    {
+      "name": "IrisArsenal/Drive059/FireParticles/6",
+      "file": "iris_drive059.material",
+      "sha256": "c2a3f069280cd616ac5c132517031a34e9299a95364cef7b076e6538456dcc83"
+    },
+    {
+      "name": "IrisArsenal/Drive059/FireParticles/7",
+      "file": "iris_drive059.material",
+      "sha256": "589f776aa9954bd03112d1884bb58a7f601b9f9f37f6c981e8f73524ef67a477"
+    },
+    {
+      "name": "IrisArsenal/Drive059/ReticleAnimObjectA",
+      "file": "iris_drive059.material",
+      "sha256": "d8f352276114aaeba570eda441c9b496ccea72f1b7b7e821c2b7f018d4fdc3d2"
+    },
+    {
+      "name": "IrisArsenal/Drive059/ReticleAnimObjectB",
+      "file": "iris_drive059.material",
+      "sha256": "f37df12e49f3d15be7ad11671e3b213300addd4cce1adb537cf83f89adf1968d"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Stream0",
+      "file": "iris_drive059.material",
+      "sha256": "7270f5a291860cfb9664a3ae49685f298e07c67b87f705d72dc4745ddaeee912"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Stream1",
+      "file": "iris_drive059.material",
+      "sha256": "63feb986883f8bb5225f7fe9b3fa1eb64d1fa356667052781b179b6719af6790"
+    },
+    {
+      "name": "IrisArsenal/Drive059/Stream2",
+      "file": "iris_drive059.material",
+      "sha256": "bbb2332482be4b01428749ffe7b86bc7e8f51f5b9e825befff9a103b2a644114"
+    },
+    {
+      "name": "IrisArsenal/DrillBurst/MPSFireBoltImpact01/107",
+      "file": "iris_eight.material",
+      "sha256": "8df777e68910e69c4343850daf7d05b9acc43c8d0f6cbe18cf4474c0eddb6bbf"
+    },
+    {
+      "name": "IrisArsenal/DrillBurst/MPSFireBoltImpact01/24",
+      "file": "iris_eight.material",
+      "sha256": "bd9b58b99e5b0c4dcd9adb21baf57213c482b050983919e7d047c6056986f8b1"
+    },
+    {
+      "name": "IrisArsenal/DrillBurst/MPSFireBoltImpact01/45",
+      "file": "iris_eight.material",
+      "sha256": "ab63b1f9ee2b0583429a3f865fe665cbec29b3ca901723d71e5670c6f78cf34c"
+    },
+    {
+      "name": "IrisArsenal/DrillBurst/MPSFireBoltImpact01/67",
+      "file": "iris_eight.material",
+      "sha256": "3342a11139ff35ff0be4bc9b1c99b41adbbc99b1dcc6bac7d4fad85e94c58f69"
+    },
+    {
+      "name": "IrisArsenal/DrillBurst/MPSFireBoltImpact01/87",
+      "file": "iris_eight.material",
+      "sha256": "06025418c502827d393eba3fd54cb1c2adcf0b57f73ffbde7870712bc0740850"
+    },
+    {
+      "name": "IrisArsenal/DrillBurst/MPSFireWaveFlames/16",
+      "file": "iris_eight.material",
+      "sha256": "39d1975732e0bb299d71ccc91a3662ebe94f19eac98746b0c73e6bbe7ad8b3fc"
+    },
+    {
+      "name": "IrisArsenal/DrillBurst/MPSFireWaveFlames/50",
+      "file": "iris_eight.material",
+      "sha256": "65e8c0d980b4e2e2ccdbc82decfdaccbc8aefa38252226f796f2abc6b7d4b5b3"
+    },
+    {
+      "name": "IrisArsenal/DrillBurst/ShoutAreaExplosionWarm0/112",
+      "file": "iris_eight.material",
+      "sha256": "c60ff3818b6ccd8d168fb57784cc0a47ad3d176399114ced2062ad744dc636cc"
+    },
+    {
+      "name": "IrisArsenal/Eight/17d8c95c9e0124",
+      "file": "iris_eight.material",
+      "sha256": "0763f38cd7e57f6d94b93871423c5dbb0b54ecd3b0c0c6b759417c2ed55ab4a6"
+    },
+    {
+      "name": "IrisArsenal/Eight/1bf98262036275",
+      "file": "iris_eight.material",
+      "sha256": "ad739633224a17dc3a4e12e58500bc3a967e06ed77ca756b1f87902ce2ce8633"
+    },
+    {
+      "name": "IrisArsenal/Eight/29d2107322112a",
+      "file": "iris_eight.material",
+      "sha256": "e5ec2409634e56e6d83ffce6740a63e42c04cc05b336dd290d10220de0a4d826"
+    },
+    {
+      "name": "IrisArsenal/Eight/2a8f47e5de3daa",
+      "file": "iris_eight.material",
+      "sha256": "097210cee51c5380432e9b6eccdebde6f8327b61ca64a53abd7f8c32625e0c08"
+    },
+    {
+      "name": "IrisArsenal/Eight/2f9d4d9c28d1e5",
+      "file": "iris_eight.material",
+      "sha256": "27b877a38f663ba0d098c806a53e06f258d08cafe7e4c34f94bd6190c3cbc432"
+    },
+    {
+      "name": "IrisArsenal/Eight/30bd6cfe696ccd",
+      "file": "iris_eight.material",
+      "sha256": "0cf239ab9ba04e8b67c438cab0c30a8fad529afb7ed8162ee782b6b3f3339caf"
+    },
+    {
+      "name": "IrisArsenal/Eight/398a58b8482cf6",
+      "file": "iris_eight.material",
+      "sha256": "3bf5799a2c8e1df216534ed7c943d7b37f177eac1c07fd31784c89af91facadf"
+    },
+    {
+      "name": "IrisArsenal/Eight/3a6e8e69684dd7",
+      "file": "iris_eight.material",
+      "sha256": "c005e0ad79a2fcf9dc52836f2026df4669103fe21febe17750729a454dd4e786"
+    },
+    {
+      "name": "IrisArsenal/Eight/3fa6a01c77e561",
+      "file": "iris_eight.material",
+      "sha256": "372bdaacd10cd2f9567828ca4a371f28a4d5096a2b85c7949bd120a5c20eda8b"
+    },
+    {
+      "name": "IrisArsenal/Eight/45cbf6904f829d",
+      "file": "iris_eight.material",
+      "sha256": "0b13c99b65fec834103f0e7634a7f71048826105a71cd791257b877b7d62c805"
+    },
+    {
+      "name": "IrisArsenal/Eight/4adcfe3603859d",
+      "file": "iris_eight.material",
+      "sha256": "289b6236dac462778940138595b9897d293310bed2614581f6f1a28c42a18813"
+    },
+    {
+      "name": "IrisArsenal/Eight/508ce9f05dc4e3",
+      "file": "iris_eight.material",
+      "sha256": "6e41ae63d93b586c73f460676273dcb0a39c40339127f34cbe04d0b72808fa3f"
+    },
+    {
+      "name": "IrisArsenal/Eight/5101a6ce2a3b1a",
+      "file": "iris_eight.material",
+      "sha256": "f9a12ef0f3735361a0d005ca88bafeca2ab3540a13330327a32b565e089009cd"
+    },
+    {
+      "name": "IrisArsenal/Eight/561a7465106742",
+      "file": "iris_eight.material",
+      "sha256": "03fe70ebb45f968ebfc93d936c3409ebd81b4c005bc175f1a486275614b6e9c3"
+    },
+    {
+      "name": "IrisArsenal/Eight/5dd9a4a01ccd1e",
+      "file": "iris_eight.material",
+      "sha256": "0775591b5b892fb6416e7e0a61f73e4880f633a5a843f16336c9217843a44ae9"
+    },
+    {
+      "name": "IrisArsenal/Eight/5ea679ed82bbfa",
+      "file": "iris_eight.material",
+      "sha256": "eb7258bd39f22400d605c0a95057865f8663bb9d00be77ff2c87288320a3aef1"
+    },
+    {
+      "name": "IrisArsenal/Eight/607818d08d51d5",
+      "file": "iris_eight.material",
+      "sha256": "ebdfb114f8138b9f851e1efc2d6c27cede9642f5d9e93e67fc04542d3e5e67c0"
+    },
+    {
+      "name": "IrisArsenal/Eight/643ae51fe79273",
+      "file": "iris_eight.material",
+      "sha256": "8d1b8b23927da0c613eb1470a62295c4848bd7b9d4700f2ee6825a976b1699ce"
+    },
+    {
+      "name": "IrisArsenal/Eight/65870ab1a3cd42",
+      "file": "iris_eight.material",
+      "sha256": "0996c65156d5436b31bab8073e11cf8593dc0c7acc3a748d6a50e639f0f9db2b"
+    },
+    {
+      "name": "IrisArsenal/Eight/78e95dd70d2a8b",
+      "file": "iris_eight.material",
+      "sha256": "df3c1ff18fd3feff2cf1da7007e127f051ec0a4f19a842da23512f25b0bada5e"
+    },
+    {
+      "name": "IrisArsenal/Eight/7ca52b08136a3a",
+      "file": "iris_eight.material",
+      "sha256": "754b17f28d867f09326a9e54ac614e8f12bede92b5d15350ec5869df412fab11"
+    },
+    {
+      "name": "IrisArsenal/Eight/8ca28fe950609b",
+      "file": "iris_eight.material",
+      "sha256": "28068a0cc8834044633e643f153a6c450b05af8981c83aada1fe688691f5c45a"
+    },
+    {
+      "name": "IrisArsenal/Eight/927d61ccac7ac4",
+      "file": "iris_eight.material",
+      "sha256": "a64457bd31f7ab7785adbd2e62630e051ff00e7069aee6a83f294ced28c37c35"
+    },
+    {
+      "name": "IrisArsenal/Eight/ReticleCyan",
+      "file": "iris_eight.material",
+      "sha256": "ef6c3a3555bb1dd55b065face84a0b16260fdfcdc9d5b70e7bc573475bec0f85"
+    },
+    {
+      "name": "IrisArsenal/Eight/ReticleRed",
+      "file": "iris_eight.material",
+      "sha256": "a2a062eb3228238e3bdd992130a551f11654dc8cc2b3296236e2d7fd606534c6"
+    },
+    {
+      "name": "IrisArsenal/Eight/WeaponTrail",
+      "file": "iris_eight.material",
+      "sha256": "cd3d5bef9a05e15701b3d230ad69a193ef6c586ecb4b2cd7a28a400fc7283351"
+    },
+    {
+      "name": "IrisArsenal/Eight/a34d182294a568",
+      "file": "iris_eight.material",
+      "sha256": "d29cb303aa9c03cf3f5f72f3d8736926757ffc83d0823fa66b3412c850dbc264"
+    },
+    {
+      "name": "IrisArsenal/Eight/ac1ff56c0e148e",
+      "file": "iris_eight.material",
+      "sha256": "33b658b97d0372abc6aa732c7165a22dbae77cd61659f7ae6b08b70cade6bd83"
+    },
+    {
+      "name": "IrisArsenal/Eight/aeea4a083a3d56",
+      "file": "iris_eight.material",
+      "sha256": "fa1673ecef0e238fceb74c416350ef7527f3b8896141f925edc0395e233caa2c"
+    },
+    {
+      "name": "IrisArsenal/Eight/b9ff09f1ed987e",
+      "file": "iris_eight.material",
+      "sha256": "2dd5f7c454daa845f656140713025b8de3cf8177122a72bd8a7d4e436a1fb9c7"
+    },
+    {
+      "name": "IrisArsenal/Eight/d0cb8fd0c64860",
+      "file": "iris_eight.material",
+      "sha256": "9f180a0a2f803f35c4291679cdf1b3e42e104934387980a4f3bb0906ab53b618"
+    },
+    {
+      "name": "IrisArsenal/Eight/d3ca4b43e689b4",
+      "file": "iris_eight.material",
+      "sha256": "8c07ce26c79309817fc66e802360371d50a8288ca0f90da59bcf8ab0fa9494ad"
+    },
+    {
+      "name": "IrisArsenal/Eight/d731a679727eca",
+      "file": "iris_eight.material",
+      "sha256": "bf06ded5e0c39f7206d7660bdd0ede14c3c418cc174b3a6897799973f4dc513b"
+    },
+    {
+      "name": "IrisArsenal/Eight/d8aabc574e9736",
+      "file": "iris_eight.material",
+      "sha256": "d8d1ba527cdf6e608fa0578d4547c4cf0c4a420753bfa2eaaa40993057e0ddf1"
+    },
+    {
+      "name": "IrisArsenal/Eight/df4aaf5de03f56",
+      "file": "iris_eight.material",
+      "sha256": "f32bc47beec1dbddbc698d0884cc9c755847f35d8dc1683486e06d69dec7e2cd"
+    },
+    {
+      "name": "IrisArsenal/Eight/e429f65f50acc2",
+      "file": "iris_eight.material",
+      "sha256": "4d0bf143a142720eade24b09fdeffbedc8e84fb19851f0dc819693bc81c9538b"
+    },
+    {
+      "name": "IrisArsenal/Eight/e4f901cec6b894",
+      "file": "iris_eight.material",
+      "sha256": "1e2eb4075ad6d659c0c1f5d4f84608e0c45756e75b697fb69dd1097360d820f8"
+    },
+    {
+      "name": "IrisArsenal/Eight/e6b09d74cb5591",
+      "file": "iris_eight.material",
+      "sha256": "147fef81bb5eab06aacf339b44f47ff07f92acaa98a3d0bb8e31ef81db51127a"
+    },
+    {
+      "name": "IrisArsenal/Eight/ed67989b7ad9e2",
+      "file": "iris_eight.material",
+      "sha256": "e74a5fc4557fbca1d6f9f1900bc3e975d6f71ae9cd4600950ea35a243be664e5"
+    },
+    {
+      "name": "IrisArsenal/Eight/f5b8eab11f86c6",
+      "file": "iris_eight.material",
+      "sha256": "ca0743e0bb26929d2ee0fd6156dac3d652634e7e7492480029dad5e20b569ffa"
+    },
+    {
+      "name": "IrisArsenal/Eight/f6e16a53cfdf7e",
+      "file": "iris_eight.material",
+      "sha256": "9a40e5c5ec98f8a203383dcb30cf0205b15391dadefbfaa6766c0c9b58d24e08"
+    },
+    {
+      "name": "IrisArsenal/Eight/f9397832110f21",
+      "file": "iris_eight.material",
+      "sha256": "7f5a2134cd7626ea5444e555ed38f188be84217fc99f42d1b7ca3f29bf982973"
+    },
+    {
+      "name": "IrisArsenal/Eight/fe10e95cc255c6",
+      "file": "iris_eight.material",
+      "sha256": "b39d2ed29612e6c829bded945029350602f3ba255bade4d4bec099c304f8ac1d"
+    },
+    {
+      "name": "IrisArsenal/Eight/d731a679727eca",
+      "file": "iris_muzzle063.material",
+      "sha256": "57454cc332b00342d2033793a4a9d9524cca1cee7888dfb8e86e63b8e2aeb280"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/0",
+      "file": "iris_particle068.material",
+      "sha256": "37f0dd06ba6b556c8186d8b57932ffcb19e5a5bbffba279ce8317b59a299fbbf"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/1",
+      "file": "iris_particle068.material",
+      "sha256": "50d7b6818d113099a43c4f32c9b5ca177f2e18c318f0f551844f7abff8bb5efa"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/10",
+      "file": "iris_particle068.material",
+      "sha256": "b4df235615b1552281f3ec56dffad755ab97a05a6d66912c6508d2163cee3fb1"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/11",
+      "file": "iris_particle068.material",
+      "sha256": "1050514b70a504983dee65c19c814b2d10b7cc2a9af4ce7432757f944675186f"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/2",
+      "file": "iris_particle068.material",
+      "sha256": "2fc5c23836d2c74a1dc658a32454a1123519f2624279cbb4f9207ebb6beb2241"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/3",
+      "file": "iris_particle068.material",
+      "sha256": "fb8c90570090ba40d6809bb31a4d24e43e4940c977507ed263a3b98255aaa6c4"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/4",
+      "file": "iris_particle068.material",
+      "sha256": "1c7c9424d63b65645af6d6efd2a4232b5a6730b862dffce3d17fc385aae0bd26"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/5",
+      "file": "iris_particle068.material",
+      "sha256": "aaf021f3121513a272b01ca9125ab13fc51b0de35e53cf0d863bba77832b7d23"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/6",
+      "file": "iris_particle068.material",
+      "sha256": "b2d78124c81b4d15e543d052cc5e516b45c41f6a0356b23a6dbae6de3580a01d"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/7",
+      "file": "iris_particle068.material",
+      "sha256": "95c9a15fe535297c536647f60710297d731a77d85d3ec0e289f36dc43ddc790c"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/8",
+      "file": "iris_particle068.material",
+      "sha256": "eb973ea2ddf510119b06378b15dcdbb1f3e8222e25890fc91ad78a289e3200a1"
+    },
+    {
+      "name": "IrisArsenal/Calibration068/full_blast/9",
+      "file": "iris_particle068.material",
+      "sha256": "daf5eafafbf626c9a29f27bc5e98acced89b98c0c146ed0bacb246e02d640e7b"
+    },
+    {
+      "name": "IrisArsenal/Source067/electro_area/Warm824/112",
+      "file": "iris_source067.material",
+      "sha256": "5b60328290d1b362f98ed621c78e61a44dec056c6a2d38a04fd243942345576a"
+    },
+    {
+      "name": "IrisArsenal/Source067/electro_area/Warm824/15fdb2174ead0e",
+      "file": "iris_source067.material",
+      "sha256": "10325a033c56292c2e2ce98595f31ddf383e07538e19f2dce797d483ddb55bca"
+    },
+    {
+      "name": "IrisArsenal/Source067/electro_area/Warm824/6f6710663465da",
+      "file": "iris_source067.material",
+      "sha256": "899080f1f5ecc48a5a7bb38fe626edd63c910f0ee548f3e0604130baf4b6ce56"
+    },
+    {
+      "name": "IrisArsenal/Source067/electro_area/Warm824/8503a9a931ced7",
+      "file": "iris_source067.material",
+      "sha256": "0489d16e013d2f9f42edac236e6fd6ea8938735aa332c7b567a5b73d3785a305"
+    },
+    {
+      "name": "IrisArsenal/Source067/electro_burst/Beam/643ae51fe79273",
+      "file": "iris_source067.material",
+      "sha256": "c6f31d01b15011064bf1b43e9f48074ac496b334ffad6061a71f203baa08cb8a"
+    },
+    {
+      "name": "IrisArsenal/Source067/electro_burst/Beam/8604cc6b1e3049",
+      "file": "iris_source067.material",
+      "sha256": "4779b54f2534249a15c418533b76b7412f7c7fc05233a45f1285c4ef34b274a9"
+    },
+    {
+      "name": "IrisArsenal/Source067/electro_burst/Beam/903a3222ca8e1e",
+      "file": "iris_source067.material",
+      "sha256": "2fbb69474617409997685130c01814b744ce887e8e73d1331bd63ebb958069e7"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/0",
+      "file": "iris_source069.material",
+      "sha256": "c1a8ee8d81e89907926fe76cfb13429b038a97b87f0b29930138fbdeb8217017"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/1",
+      "file": "iris_source069.material",
+      "sha256": "2c93815377e4f729aba48141661248999043ec45554893f277f67c2b78b31f8c"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/10",
+      "file": "iris_source069.material",
+      "sha256": "8d842c0a310f8a26eb167301291b2f4bc8156b3ae2217e930b28029075ed2d83"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/11",
+      "file": "iris_source069.material",
+      "sha256": "0d30a8725e212f0e4d5b81e576c53b86b3765d46c92707daa447c64c79e78873"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/12",
+      "file": "iris_source069.material",
+      "sha256": "17e35b1d848fc530dcf0d3e26ff7079dbdef19163079fdccecb1864e13d1abf9"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/13",
+      "file": "iris_source069.material",
+      "sha256": "c49036e3eda01586eba325a884a595422ad06e67dfbc4057a2a70cc1f05c6c4d"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/14",
+      "file": "iris_source069.material",
+      "sha256": "a82f8139de6834a702eca4ac02639bba252d587e0b401180baf7e1fc181f218d"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/15",
+      "file": "iris_source069.material",
+      "sha256": "680fe4a432a6de9fdac4faaa44c6bde3f119657c05379c3f23d6a1ac87fc0de0"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/16",
+      "file": "iris_source069.material",
+      "sha256": "95259d37961be87c9d6cbaef73eb9e9d881ba6dbd53dd6ba21b1ce6af2385cd2"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/17",
+      "file": "iris_source069.material",
+      "sha256": "84831914767269bbf18d1bcfd4d3dd7496969d6aad8fabbfd98b11bc25b00be8"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/18",
+      "file": "iris_source069.material",
+      "sha256": "f12bfc6d64dfe1d30a1cc23c27210966d67dc4b2f1273f82972d1ece81fa314b"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/19",
+      "file": "iris_source069.material",
+      "sha256": "b908677801d92bb866020f9633a56bdb463e5884fab7e5e557b6f7ebaa3c761a"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/2",
+      "file": "iris_source069.material",
+      "sha256": "b2355e33f50575e477feb8c26cd5d6ea9787427c98fc9a34f6077ae735b12b60"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/20",
+      "file": "iris_source069.material",
+      "sha256": "8133bbc3f22219db1ad9ecfe0459768b3f73ecd8b32140e2dc555ca6b10ca35f"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/21",
+      "file": "iris_source069.material",
+      "sha256": "a584f47e217e7d60764d988ad89b5dfc46723be289c28cb21edc34d62cba6da4"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/22",
+      "file": "iris_source069.material",
+      "sha256": "18f6afff2dd55caf561cea0cc4bae802f381dfc72826a6c7ebae6497dba1f66d"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/23",
+      "file": "iris_source069.material",
+      "sha256": "c927e7447680f43362193166b111da3610dfcc9e81ff4f9a3d85c0e11bedd89a"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/24",
+      "file": "iris_source069.material",
+      "sha256": "06233e46b1f855cf1c80625c894c3ebd1f13f96a934037aaf761507f875c8c21"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/25",
+      "file": "iris_source069.material",
+      "sha256": "19b2427460934f715f8fe0734de302d0325d9dcb05ae31719a066ee6b544f4db"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/26",
+      "file": "iris_source069.material",
+      "sha256": "98df4a4f8567fe5fe6fcf896a7ec5796894d8c694ea87b972f1bf252123f55b3"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/27",
+      "file": "iris_source069.material",
+      "sha256": "fd5bf61f67b9f426828895ce75e4c29d3cddbb67ebd9ec27d14514eb9fdda31a"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/3",
+      "file": "iris_source069.material",
+      "sha256": "837264af78a4cda433d13c3871d1aace326b8723711fefa0cf5512f4a738688a"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/4",
+      "file": "iris_source069.material",
+      "sha256": "ebeb36a76499446719961002685fb2f262f6db7b3d46c63e5254c33ce26a836a"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/5",
+      "file": "iris_source069.material",
+      "sha256": "52267d054b355952e033c6eaa84d2f613ec039c0604aa8cffb8a6b0bd1c07c94"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/6",
+      "file": "iris_source069.material",
+      "sha256": "df24553ee113a16ef5acff3efeaa73fff1eb3e700595d057018e6d71c6370292"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/7",
+      "file": "iris_source069.material",
+      "sha256": "657be81d78eed72cdb7440879f4b66efad8fcf42b600741b4f9983b58735ee30"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/8",
+      "file": "iris_source069.material",
+      "sha256": "38592c815e68b0e134943d4eae7f9a703616ad83352c1d49839e0e033ea81802"
+    },
+    {
+      "name": "IrisArsenal/Source069/drill_blast/9",
+      "file": "iris_source069.material",
+      "sha256": "a83d790e52f9fb830c39c1abe1adaf205a1282fead00eafff34d5c2dab463b12"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/0",
+      "file": "iris_source069.material",
+      "sha256": "362e545c95a2d83deae827304d64dae439f871937ad51598bb6fa259dd52c6ee"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/1",
+      "file": "iris_source069.material",
+      "sha256": "f3272c09073b05ab8cb831b166c3de1493d48fca9a0708f71e61976e8ddeff30"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/10",
+      "file": "iris_source069.material",
+      "sha256": "8420ed7bde98a04400173e2ea8161495b562b149f89ab7905f58a82deefad20a"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/11",
+      "file": "iris_source069.material",
+      "sha256": "17dd78b982aaa2f7ffbc341f012cf7ef4aed418a4713f27cd150241528a6a013"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/2",
+      "file": "iris_source069.material",
+      "sha256": "e37f021c9281d17a02163a3556bc5d1f52e155fdbd5743578a71b4d4d13e2aa3"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/3",
+      "file": "iris_source069.material",
+      "sha256": "d70db8de066e5c95f1f269b7daeeae7ebb5b7311091939953b7ae5aaf2b3e164"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/4",
+      "file": "iris_source069.material",
+      "sha256": "3e4e562d0f8f4af83c8fbd1c7f14ee3e9a6af8975750a7a4347ce8fd6a5d95d9"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/5",
+      "file": "iris_source069.material",
+      "sha256": "4876c59ad186fb14d37ac00a17a2fa1030ce0550ab0014aa0bd4beb3d5ad8be0"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/6",
+      "file": "iris_source069.material",
+      "sha256": "de8aedf015e171f52112d3de91742b3ce2bbedb6bebb1d8fbb76a449024683ea"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/7",
+      "file": "iris_source069.material",
+      "sha256": "1aa7646cf768b252ef966097adcf34a51523b87c4683892e326bfb525cb7f410"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/8",
+      "file": "iris_source069.material",
+      "sha256": "e4d7dbf96a2bdaa8c67e876a075ff459785d4453b654f886b3af7b1e4275c35f"
+    },
+    {
+      "name": "IrisArsenal/Source069/roll_blast/9",
+      "file": "iris_source069.material",
+      "sha256": "48bd8d809c51e8c37d236a7fbdeeee6026a5f035a31f6ffb464a7fe9be3ffba0"
+    }
+  ],
+  "live_programs": [
+    "Basic_Coloured_Texture_VP",
+    "Basic_Texture_VP",
+    "IrisArsenalDebug_FP",
+    "IrisArsenal_DrillMetal_FP",
+    "IrisArsenal_DrillMetal_VP",
+    "IrisArsenal_DrillOptic_FP",
+    "IrisArsenal_DrillRingMetal_VP",
+    "IrisArsenal_DrillRingOptic_VP",
+    "IrisArsenal_FP",
+    "IrisBurstCardVP",
+    "IrisBurstFP",
+    "IrisBurstVP",
+    "IrisDriveMountFP",
+    "IrisDriveMountVP",
+    "IrisDriveStreamFP",
+    "IrisDriveStreamVP",
+    "IrisEightFP",
+    "IrisEightVP",
+    "IrisMuzzleVP",
+    "IrisParticle068VP",
+    "IrisParticle069FP",
+    "IrisParticle069VP",
+    "IrisReticleFP",
+    "IrisTrailFP",
+    "IrisTrailVP",
+    "IrisWingMetalFP"
+  ],
+  "external_programs": [
+    "Basic_Coloured_Texture_VP",
+    "Basic_Texture_VP"
+  ],
+  "shader_sources": [
+    "iris.hlsl",
+    "iris_drill_optics.hlsl",
+    "iris_drive059.hlsl",
+    "iris_eight.hlsl",
+    "iris_particle068.hlsl",
+    "iris_source069.hlsl"
+  ],
+  "fcs_files": [
+    "assets/iris_action_drill_female.skeleton",
+    "assets/iris_action_drill_male.skeleton",
+    "assets/iris_action_drive_female.skeleton",
+    "assets/iris_action_drive_male.skeleton",
+    "assets/iris_action_earthquake_female.skeleton",
+    "assets/iris_action_earthquake_male.skeleton",
+    "assets/iris_action_electro_cannon_female.skeleton",
+    "assets/iris_action_electro_cannon_male.skeleton",
+    "assets/iris_action_fire_roll_female.skeleton",
+    "assets/iris_action_fire_roll_male.skeleton",
+    "assets/iris_action_full_burst_female.skeleton",
+    "assets/iris_action_full_burst_male.skeleton",
+    "assets/iris_action_hammer_combo_female.skeleton",
+    "assets/iris_action_hammer_combo_male.skeleton",
+    "assets/iris_action_pulse_female.skeleton",
+    "assets/iris_action_pulse_male.skeleton",
+    "assets/iris_action_spiral_female.skeleton",
+    "assets/iris_action_spiral_male.skeleton",
+    "assets/iris_action_vulcan_female.skeleton",
+    "assets/iris_action_vulcan_male.skeleton",
+    "assets/iris_drill_female.skeleton",
+    "assets/iris_drill_male.skeleton",
+    "assets/iris_weapon.mesh",
+    "assets/iris_weapon_icon.png"
+  ],
+  "duplicates_retained": {
+    "IrisArsenal/Eight/d731a679727eca": [
+      "iris_eight.material",
+      "iris_muzzle063.material"
+    ]
+  },
+  "scope": "不修改C++/H/DLL/模型/图集/动作/FCS/判定，完整重建依赖和诊断模式保留"
+}
